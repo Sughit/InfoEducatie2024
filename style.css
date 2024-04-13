@@ -1,0 +1,7 @@
+#circle {
+    height: 250px;
+    width: 250px;
+    /*background-color: #BA05CE;*/
+    background-color: black;
+    border-radius: 50%;
+}
