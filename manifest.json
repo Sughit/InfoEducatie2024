@@ -1,21 +1,24 @@
 {
     "name": "FIZIX", 
     "short_name": "FIZIX",
-    "start_url": "index.html",
+    "start_url": ".",
     "background_color": "#031926",
     "theme_color": "#031926",
     "display": "standalone",
+    "prefer_related_applications": false,
     "icons": 
     [
         {
-            "src": "logos/logo200.png",
-            "sizes": "200x200",
-            "type": "image/png"
+            "src": "logos/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
         },
         {
-            "src": "logos/logo500.png",
-            "sizes": "500x500",
-            "type": "image/png"
+            "src": "logos/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ]
 }
