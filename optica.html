@@ -14,6 +14,102 @@
     <title>Optică</title>
 </head>
 <body style="background-color: #031926;">
+    <!-- Optica geometrica Modal -->
+    <div class="modal fade" id="geometricaModal" tabindex="-1" role="dialog" aria-labelledby="geometricaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        <font style="font-family: Comic Sans MS;" color=white>
+                            Optică geometrică
+                        </font>
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <font style="font-family: Comic Sans MS;" color="white">
+                        Noțiuni
+                    </font>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
+                        <font style="font-family: Comic Sans MS;" color="white">
+                            Închide
+                        </font>
+                    </button>
+                    <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
+                        <font style="font-family: Comic Sans MS;" color="black">
+                            Începe o lecție
+                        </font>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optica ondulatorie Modal -->
+    <div class="modal fade" id="ondulatorieModal" tabindex="-1" role="dialog" aria-labelledby="ondulatorieModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        <font style="font-family: Comic Sans MS;" color=white>
+                            Optica Ondulatorie
+                        </font>
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <font style="font-family: Comic Sans MS;" color="white">
+                        Noțiuni
+                    </font>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
+                        <font style="font-family: Comic Sans MS;" color="white">
+                            Închide
+                        </font>
+                    </button>
+                    <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
+                        <font style="font-family: Comic Sans MS;" color="black">
+                            Începe o lecție
+                        </font>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Elemente de fizica cuantica Modal -->
+    <div class="modal fade" id="cuanticaModal" tabindex="-1" role="dialog" aria-labelledby="cuanticaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        <font style="font-family: Comic Sans MS;" color=white>
+                            Elemente de fizică cuantică
+                        </font>
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <font style="font-family: Comic Sans MS;" color="white">
+                        Noțiuni
+                    </font>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
+                        <font style="font-family: Comic Sans MS;" color="white">
+                            Închide
+                        </font>
+                    </button>
+                    <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
+                        <font style="font-family: Comic Sans MS;" color="black">
+                            Începe o lecție
+                        </font>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--Title-->
     <p align=center><br><br>
         <font style="font-family: Comic Sans MS;" color="white" size="50">
@@ -26,27 +122,21 @@
     <!--Main things-->
     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
         <p align="center">
-            <a href="#">
-                <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 25%; background-color: #468189;">
-                    <font style="font-family: Comic Sans MS;" color="white" size="6">
-                        Optica geometrică
-                    </font>
-                </button>
-            </a><br><br>
-            <a href="#">
-                <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #77ACA2;">
-                    <font style="font-family: Comic Sans MS;" color="white" size="6">
-                        Optica Ondulatorie
-                    </font>
-                </button>
-            </a><br><br>
-            <a href="#">
-                <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #9DBEBB;">
-                    <font style="font-family: Comic Sans MS;" color="white" size="6">
-                        Elemente de fizică cuantică
-                    </font>
-                </button>
-            </a><br><br>
+            <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 25%; background-color: #468189;" data-bs-toggle="modal" data-bs-target="#geometricaModal">
+                <font style="font-family: Comic Sans MS;" color="white" size="6">
+                    Optica geometrică
+                </font>
+            </button><br><br>
+            <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #77ACA2;" data-bs-toggle="modal" data-bs-target="#ondulatorieModal">
+                <font style="font-family: Comic Sans MS;" color="white" size="6">
+                    Optica Ondulatorie
+                </font>
+            </button><br><br>
+            <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #9DBEBB;" data-bs-toggle="modal" data-bs-target="#cuanticaModal">
+                <font style="font-family: Comic Sans MS;" color="white" size="6">
+                    Elemente de fizică cuantică
+                </font>
+            </button><br><br>
             <a href="index.html" style="position: relative; bottom: 3%; top: 1%;" class="pb-3">
                 <button type="button" class="btn btn-lg btn-block" style="justify-content: center; min-width: 275px; width: 45%; height: 13%; background-color: #F4E9CD;">
                     <font style="font-family: Comic Sans MS;" color="black" size="5">
