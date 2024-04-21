@@ -1,0 +1,19 @@
+.bg-shape
+{
+    position: relative;
+    padding: 15px;
+    overflow: -moz-hidden-unscrollable;
+}
+  
+.bg-shape:after 
+{
+    content: '';
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background: #06293d;
+    border-radius: 74% 26% 60% 40% / 51% 61% 39% 49%;
+    z-index: -1;
+    right: -30px;
+    top: -190px;
+}
