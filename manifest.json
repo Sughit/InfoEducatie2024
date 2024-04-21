@@ -1,0 +1,21 @@
+{
+    "name": "FIZIX", 
+    "short_name": "FIZIX",
+    "start_url": "index.html",
+    "background_color": "#031926",
+    "theme_color": "#031926",
+    "display": "standalone",
+    "icons": 
+    [
+        {
+            "src": "logos/logo200.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        },
+        {
+            "src": "logos/logo500.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ]
+}
