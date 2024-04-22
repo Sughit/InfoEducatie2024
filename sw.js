@@ -1,7 +1,24 @@
+const assets = [
+    "./",
+    "./index",
+    "./style.css",
+    "./index.js",
+    "./mecanica.html",
+    "./termodinamica.html",
+    "./electromecanica.html",
+    "./optica.html",
+    "./logos/logo192.png",
+    "./logos/logo512.png",
+    "./teorieMecanica.html",
+    "./teorieTermodinamica.html",
+    "./teorieElectromecanica.html",
+    "./teorieOptica.html"
+]
+
 self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("static").then(cache => {
-            return cache.addAll(["./index", "./style.css", "./mecanica.html", "./termodinamica.html", "./electromecanica.html", "./optica.html", "./logos/logo192.png", "./logos/logo512.png", "./teorieMecanica.html", "./teorieTermodinamica.html", "./teorieElectromecanica.html", "./teorieOptica.html"]);
+            return cache.addAll(assets);
         })
     );
 });
