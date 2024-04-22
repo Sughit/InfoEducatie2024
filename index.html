@@ -19,7 +19,10 @@
 </head>
 <body style="background-color: #031926;">
     <script>
-        navigator.serviceWorker.register('sw.js');
+        if (navigator && navigator.serviceWorker) 
+        {
+            navigator.serviceWorker.register('sw.js');
+        }
     </script>
     <!--Title-->
     <p align=center><br><br>
