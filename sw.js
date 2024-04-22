@@ -1,7 +1,7 @@
 self.addEventListener("install", e => {
     e.waitUntil(
         caches.open("static").then(cache => {
-            return cache.addAll(["./", "./style.css", "./mecanica.html", "./termodinamica.html", "./electromecanica.html", "./optica.html", "./logos/logo192.png", "./logos/logo512.png"]);
+            return cache.addAll(["./", "./style.css", "./pagini/mecanica.html", "./pagini/termodinamica.html", "./pagini/electromecanica.html", "./pagini/optica.html", "./logos/logo192.png", "./logos/logo512.png"]);
         })
     );
 });
