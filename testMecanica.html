@@ -17,7 +17,7 @@
 </head>
 <body style="background-color: #031926;">
     <!--Reguli-->
-    <div>
+    <div style="background-color: #468189; width: 390px;" class="m-auto rounded" id="reguli">
         <font color="white" style="font-family: Comic Sans MS;">
             <ol>
                 <li>Vei avea doar 15 secunde pentru fiecare întrebare</li>
@@ -27,6 +27,46 @@
                 <li>Nu vei fi punctat dacă nu ai răspuns pănâ s-a terminat timpul</li>
             </ol>
         </font>
+        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#testID" role="button" aria-expanded="false" aria-controls="testID">Începe testul</button>
+    </div>
+
+    <div class="test collapse" id="testID">
+        <header>
+            <div>
+                Test Mecanică
+            </div>
+            <div class="timer">
+                <div>Timp rămas</div>
+                <div class="timer-sec">15</div>
+            </div>
+            <div class="time-line"></div>
+        </header>
+        <section>
+            <div>
+                Aici sunt informatii din js
+            </div>
+            <div>
+                aici sunt informatii din js
+            </div>
+        </section>
+        <footer>
+            <div>
+                aici sunt scrise intrebarile ramase tot din js
+            </div>
+            <button class="next-button btn btn-primary">Întrebarea următoare</button>
+        </footer>
+    </div>
+
+    <!--Div cu raspunsuri-->
+    <div aria-hidden="true">
+        <div>Ai terminat testul!</div>
+        <div class="score-text">
+            ai se scrie punctajul
+        </div>
+        <div>
+            <button class="btn btn-primary">Încearcă din nou</button>
+            <button class="btn btn-secondary">Ieși din test</button>
+        </div>
     </div>
     <!--Fundal interesant-->
     <div class="bg-shape"></div>
