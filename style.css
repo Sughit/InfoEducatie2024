@@ -21,3 +21,28 @@
     right: 30%;
     top: 0;
 }
+
+.login{
+    position: absolute;
+    right: 3rem;
+    top:3rem;
+    size : 3px;
+}
+.font-log {
+    font-family: Comic Sans MS;
+    color : white;
+    font-size : 1.6rem;
+}
+
+@media (max-width: 782px) {
+    .login{
+        position: absolute;
+        right: 1.8rem;
+        top:1.8rem;
+    }
+    .font-log {
+        font-family: Comic Sans MS;
+        color : white;
+        font-size : 1.1rem;
+    }
+}
