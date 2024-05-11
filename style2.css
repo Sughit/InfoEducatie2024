@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@ body {
     background: #031926;;
     flex-direction: column;
     margin: 0;
-}
+} */
 
 .main {
     background-color: #fff;
@@ -119,5 +119,14 @@ button {
         font-family: Comic Sans MS;
         color : white;
         font-size : 1.1rem;
+    }
+    .main {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        padding: 10px 20px;
+        transition: transform 0.2s;
+        width: 600px;
+        text-align: center;
     }
 }
