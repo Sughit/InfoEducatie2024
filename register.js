@@ -17,7 +17,7 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
 const register = document.getElementById('register');
-register.addEventListener('click', function(event){
+register.addEventListener("click", function(event){
     event.preventDefault();
     
     const email = document.getElementById('email').value;
