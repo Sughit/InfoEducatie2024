@@ -26,14 +26,14 @@
     <div class="main">
         <h1>FIZIX</h1>
         <h3>Enter your registration credentials</h3>
-        <form action="" method="post" autocomplete="off">
-            <label for="first">
-                 <font class = "fontt">Username:</font>
+        <form action="" autocomplete="off">
+            <label for="email">
+                 <font class = "fontt">Email:</font>
               </label>
-            <input type="text" 
-                   id="first"
-                   name="first" 
-                   placeholder="Enter your Username" required>
+            <input type="email" 
+                   id="email"
+                   name="email" 
+                   placeholder="Enter your Email" required>
 
             <label for="password">
                 <font class = "fontt">Password:</font>
@@ -44,9 +44,10 @@
                    placeholder="Enter your Password" required>
 
             <div class="wrap">
-                <button type="submit"
-                        onclick="solve()">
-                    <font class = "submit">Submit</font>
+                <button name="register"
+                        id="register"
+                        onclick="register()">
+                    <font class = "submit">Register account</font>
                 </button>
             </div>
         </form>
@@ -59,7 +60,5 @@
     </div>
 
     <div class="bg-shape"></div>
-
 </body>
-
 </html>
