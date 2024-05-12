@@ -22,6 +22,11 @@
     top: 0;
 }
 
+.active-lang-btn
+{
+    background-color: #1d4498;
+}
+
 .login{
     position: absolute;
     right: 3rem;

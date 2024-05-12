@@ -14,6 +14,7 @@
     <link rel="apple-touch-icon" href="logos/logo512.png">
 
     <script defer src="./index.js"></script>
+    <script defer src="./languages/langIndex.js"></script>
     <script defer src="./sw.js"></script>
 
     <title>FIZIX</title>
@@ -25,48 +26,117 @@
             navigator.serviceWorker.register('sw.js');
         }
     </script>
-    
+    <!--Modal Setari-->
+    <div class="modal fade" id="setariModal" tabindex="-1" aria-labelledby="setariModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="background-color: #468189;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="setariModalLabel">
+                        <font id="titleSet" style="font-family: Comic Sans MS;" color=white size="6">
+                            Setări
+                        </font>
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <a href="login.html" class="m-auto">
+                        <button type="button" class="1 btn btn-block m-auto" style="width: 100%; background-color: #42598a;">
+                            <font id="titleLogin" class = "font-log">
+                                login
+                            </font>
+                        </button>
+                    </a><hr>
+                    <font id="titleLang" style="font-family: Comic Sans MS;" color=white size="5">
+                        Limbi
+                    </font>
+                    <div id="langWrap" class="row">
+                        <!--Engleza-->
+                        <button id="btn-lang" language="engleza" type="button" class="1 btn btn-block col-md-6 mb-2 m-auto" style="width: 80%; background-color: #42598a;">
+                            <font class = "font-log">
+                                English
+                            </font>
+                        </button>
+                        <!--Romana-->
+                        <button id="btn-lang" language="romana" type="button" class="1 btn btn-block col-md-6 mb-2 m-auto active-lang-btn" style="width: 80%; background-color: #42598a;">
+                            <font class = "font-log">
+                                Română
+                            </font>
+                        </button>
+                        <!--Maghiara-->
+                        <button id="btn-lang" language="maghiara" type="button" class="1 btn btn-block col-md-6 mb-2 m-auto" style="width: 80%; background-color: #42598a;">
+                            <font class = "font-log">
+                                Magyar
+                            </font>
+                        </button>
+                        <!--Germana-->
+                        <button id="btn-lang" language="germana" type="button" class="1 btn btn-block col-md-6 mb-2 m-auto" style="width: 80%; background-color: #42598a;">
+                            <font class = "font-log">
+                                Deutsch
+                            </font>
+                        </button>
+                        <!--Franceza-->
+                        <button id="btn-lang" language="franceza" type="button" class="1 btn btn-block col-md-6 mb-2 m-auto" style="width: 80%; background-color: #42598a;">
+                            <font class = "font-log">
+                                Français
+                            </font>
+                        </button>
+                        <!--Rusa-->
+                        <button id="btn-lang" language="rusa" type="button" class="1 btn btn-block col-md-6 mb-2 m-auto" style="width: 80%; background-color: #42598a;">
+                            <font class = "font-log">                         
+                                Русский
+                            </font>
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+      </div>
+
+    <!--Setari Buton-->
+    <p align="right" style="max-height: 10px;">
+        <button type="button" class="btn mt-5 rounded-5" data-bs-toggle="modal" data-bs-target="#setariModal">
+            <img src="img/seteriIcon.png" width="50px">
+        </button>
+    </p>
+
     <!--Title-->
     <p align=center><br><br>
-        <font style="font-family: Comic Sans MS;" color="white" size="50">
+        <font id="title" style="font-family: Comic Sans MS;" color="white" size="50">
             FIZIX
         </font>
     </p><br><br>
     
-    <a href="login.html" class = "login">
-        <button type="button" class="1 btn btn-block" style=" max-width : 80px; width: 120%; height: 30%; background-color: #42598a; ">
-            <font class = "font-log">
-                login
-            </font>
-        </button>
-    </a>
     <!--Main things-->
     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
         <p align="center">
             <a href="mecanica.html">
                 <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #468189;">
-                    <font style="font-family: Comic Sans MS;" color="white" size="6">
+                    <font id="titleMec" style="font-family: Comic Sans MS;" color="white" size="6">
                         Mecanică
                     </font>
                 </button>
             </a><br><br>
             <a href="termodinamica.html">
                 <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #77ACA2;">
-                    <font style="font-family: Comic Sans MS;" color="white" size="6">
+                    <font id="titleTer" style="font-family: Comic Sans MS;" color="white" size="6">
                         Termodinamică
                     </font>
                 </button>
             </a><br><br>
             <a href="electromecanica.html">
                 <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #9DBEBB;">
-                    <font style="font-family: Comic Sans MS;" color="white" size="6">
+                    <font id="titleElec" style="font-family: Comic Sans MS;" color="white" size="6">
                         Electromecanică
                     </font>
                 </button>
             </a><br><br>
             <a href="optica.html">
                 <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #F4E9CD;">
-                    <font style="font-family: Comic Sans MS;" color="black" size="6">
+                    <font id="titleOp" style="font-family: Comic Sans MS;" color="black" size="6">
                         Optică
                     </font>
                 </button>

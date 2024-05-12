@@ -16,7 +16,8 @@ const assets = [
     "./teorieMecanica.html",
     "./teorieTermodinamica.html",
     "./teorieElectromecanica.html",
-    "./teorieOptica.html"
+    "./teorieOptica.html",
+    "./img/setariIcon.png"
 ]
 
 self.addEventListener("install", e => {
