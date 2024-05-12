@@ -50,6 +50,7 @@ function loadLanguages(attr)
     //index.html
     if(window.location.pathname == "/index.html")
     {
+        console.log('da');
         titleSet.textContent = data[attr].titleSet;
         titleLogin.textContent = data[attr].titleLogin;
         titleLang.textContent = data[attr].titleLang;
