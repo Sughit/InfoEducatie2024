@@ -18,6 +18,7 @@ const auth = getAuth(app);
 
 const login = document.getElementById('login');
 login.addEventListener("click", function(event){
+    console.log('merge');
     event.preventDefault();
     
     const email = document.getElementById('email').value;
@@ -25,7 +26,7 @@ login.addEventListener("click", function(event){
 
     signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
-        // Signed up 
+        // Signed in
         const user = userCredential.user;
         alert('Loggin in');
         window.location.href = "index.html";
