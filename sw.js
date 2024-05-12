@@ -1,6 +1,7 @@
 const assets = [
     "./index.html",
     "./style.css",
+    "./style2.css",
     "./index.js",
     "./login.js",
     "./register.js",
