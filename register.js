@@ -20,8 +20,8 @@ const register = document.getElementById('register');
 register.addEventListener("click", function(event){
     event.preventDefault();
     
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
+    var email = document.getElementById('emailReg').value;
+    var password = document.getElementById('passwordReg').value;
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {

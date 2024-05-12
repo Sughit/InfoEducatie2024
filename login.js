@@ -21,8 +21,8 @@ login.addEventListener("click", function(event){
     console.log('merge');
     event.preventDefault();
     
-    var email = document.getElementById('email').value;
-    var password = document.getElementById('password').value;
+    var email = document.getElementById('emailLog').value;
+    var password = document.getElementById('passwordLog').value;
 
     signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {

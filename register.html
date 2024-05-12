@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="style2.css">
     <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="./languages/langIndex.js"></script>
     <script defer src="./sw.js"></script>
     <script type="module" src="register.js" defer></script>
 
@@ -19,44 +20,38 @@
 <body>
     <a href="index.html" class = "login">
         <button type="button" class="btn btn-block" style=" max-width : 80px; width: 120%; height: 25%; background-color: #42598a; ">
-            <font class = "font-log">
-                go back
+            <font id="goBackReg" class = "font-log">
+                înapoi
             </font>
         </button>
     </a>
     <div class="main">
         <h1>FIZIX</h1>
-        <h3>Enter your registration credentials</h3>
+        <h3 id="titleReg">Introduceți acreditările dvs. de înregistrare</h3>
         <form autocomplete="off">
             <label for="email">
                  <font class = "fontt">Email:</font>
-              </label>
-            <input type="email" 
-                   id="email"
-                   name="email" 
-                   placeholder="Enter your Email" required>
-
+            </label>
+            <input type="email" id="emailReg" name="email" 
+                   placeholder="Enter your email" required>
             <label for="password">
                 <font class = "fontt">Password:</font>
-              </label>
-            <input type="password"
-                   id="password" 
-                   name="password" 
+            </label>
+            <input type="password" id="passwordReg" name="password" 
                    placeholder="Enter your Password" required>
-
             <div class="wrap">
                 <button name="register"
                         id="register">
-                    <font class = "submit">Register account</font>
+                    <font class = "submit">Înregistrează-te</font>
                 </button>
             </div>
         </form>
-        <p><font class = "not">Already have an account?</font>
-            <a href="login.html" 
-             style="text-decoration: none;">
-             <font class = "not">Login</font>
-          </a>
-      </p>
+        <p>
+            <font class = "not" id="footerReg">Deja aveți un cont?</font>
+            <a href="login.html" style="text-decoration: none;">
+                <font class = "not" id="footerRegBtn">Conectați-vă</font>
+            </a>
+        </p>
     </div>
 
     <div class="bg-shape"></div>
