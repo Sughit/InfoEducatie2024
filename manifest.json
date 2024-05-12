@@ -1,7 +1,7 @@
 {
     "name": "FIZIX", 
     "short_name": "FIZIX",
-    "start_url": ".",
+    "start_url": "./index.html",
     "background_color": "#031926",
     "theme_color": "#031926",
     "display": "standalone",
