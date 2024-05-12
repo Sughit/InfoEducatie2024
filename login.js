@@ -13,18 +13,18 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+var app = initializeApp(firebaseConfig);
+var auth = getAuth();
 
 const login = document.getElementById('login');
 login.addEventListener("click", function(event){
     console.log('merge');
     event.preventDefault();
     
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
 
-    signInWithEmailAndPassword(auth, email, password)
+    auth.signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
         // Signed in
         const user = userCredential.user;
@@ -39,3 +39,18 @@ login.addEventListener("click", function(event){
         // ..
     });
 })
+
+function validate_email(email)
+{
+
+}
+
+function validate_password(password)
+{
+
+}
+
+function validate_fields(field)
+{
+
+}

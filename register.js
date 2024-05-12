@@ -13,15 +13,15 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
+var app = initializeApp(firebaseConfig);
+var auth = getAuth(app);
 
 const register = document.getElementById('register');
 register.addEventListener("click", function(event){
     event.preventDefault();
     
-    const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
