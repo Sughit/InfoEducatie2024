@@ -54,6 +54,14 @@ function loadLanguages(attr)
     const principiiRez = document.getElementById('principiiRez');
     const teoremeRez = document.getElementById('teoremeRez');
 
+    //variabile din termodinamica.html
+    const termodinamicaTitle = document.getElementById('termodinamicaTitle');
+    const notiuniTitle = document.getElementById('notiuniTitle');
+    const principiuITitle = document.getElementById('principiuITitle');
+    const motoareTitle = document.getElementById('motoareTitle');
+    const principiuIITitle = document.getElementById('principiuIITitle'); 
+
+    //variabile comune din cele 4 fisiere index
     const invataTitle = document.querySelectorAll('#invataTitle');
     const inchideBtn = document.querySelectorAll('#inchideBtn');
     const teorieBtn = document.querySelectorAll('#teorieBtn');
@@ -118,6 +126,29 @@ function loadLanguages(attr)
         });
         acasaBtn.textContent = data[attr].acasaBtn;
     }
+
+    //termodinamica.html
+    if(window.location.pathname == "/termodinamica.html")
+        {
+            termodinamicaTitle.textContent = data[attr].termodinamicaTitle;
+            notiuniTitle.textContent = data[attr].notiuniTitle;
+            principiuITitle.textContent = data[attr].principiuITitle;
+            motoareTitle.textContent = data[attr].motoareTitle;
+            principiuIITitle.textContent = data[attr].principiuIITitle;
+            invataTitle.forEach(el => {
+                el.textContent = data[attr].invataTitle;
+            });
+            inchideBtn.forEach(el => {
+                el.textContent = data[attr].inchideBtn;
+            });
+            teorieBtn.forEach(el => {
+                el.textContent = data[attr].teorieBtn;
+            });
+            testBtn.forEach(el => {
+                el.textContent = data[attr].testBtn;
+            });
+            acasaBtn.textContent = data[attr].acasaBtn;
+        }
 }
 
 var data = {
@@ -162,6 +193,12 @@ var data = {
                         '<li>'+'The law of conservation of mechanical energy'+'</li>'+
                         '<li>'+'The momentum variation theorem'+'</li>'+
                         '<li>'+'Law of conservation of momentum'+'</li>'),
+
+        "termodinamicaTitle": "Thermodynamics",
+        "notiuniTitle": "Getting started",
+        "pricipiuITitle": "The first principle",
+        "motoare": "Thermal engines",
+        "principiuIITitle": "The second principle",
 
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
@@ -211,6 +248,12 @@ var data = {
                         '<li>'+'Teorema variației impulsului'+'</li>'+
                         '<li>'+'Legea conservării impulsului'+'</li>'),
 
+        "termodinamicaTitle": "Termodinamică",
+        "notiuniTitle": "Noțiuni de bază",
+        "pricipiuITitle": "Principiul I",
+        "motoare": "Motoare termice",
+        "principiuIITitle": "Principiul al II-lea",
+
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
         "teorieBtn": "Teorie",
@@ -258,6 +301,12 @@ var data = {
                         '<li>'+'A mechanikai energia megmaradásának törvénye'+'</li>'+
                         '<li>'+'Az impulzusváltozás tétele'+'</li>'+
                         '<li>'+'A lendület megmaradásának törvénye'+'</li>'),
+
+        "termodinamicaTitle": "Termodinamika",
+        "notiuniTitle": "Elkezdeni",
+        "pricipiuITitle": "I. alapelv",
+        "motoare": "Hőmotorok",
+        "principiuIITitle": "A második elv",
 
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
         "inchideBtn": "Rakd le",
@@ -307,6 +356,12 @@ var data = {
                         '<li>'+'Der Impulsvariationssatz'+'</li>'+
                         '<li>'+'Gesetz der Impulserhaltung'+'</li>'),
 
+        "termodinamicaTitle": "Thermodynamik",
+        "notiuniTitle": "Erste Schritte",
+        "pricipiuITitle": "Prinzip I",
+        "motoare": "Wärmekraftmaschinen",
+        "principiuIITitle": "Das zweite Prinzip",
+
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
         "inchideBtn": "Auflegen",
         "teorieBtn": "Theorie",
@@ -355,6 +410,12 @@ var data = {
                         '<li>'+'Le théorème de variation de quantité de mouvement'+'</li>'+
                         '<li>'+'Loi de conservation de la quantité de mouvement'+'</li>'),
 
+        "termodinamicaTitle": "Thermodynamique",
+        "notiuniTitle": "Commencer",
+        "pricipiuITitle": "Principe I",
+        "motoare": "Moteurs thermiques",
+        "principiuIITitle": "Le deuxième principe",
+
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
         "teorieBtn": "Théorie",
@@ -402,6 +463,12 @@ var data = {
                         '<li>'+'Закон сохранения механической энергии'+'</li>'+
                         '<li>'+'Теорема об изменении импульса'+'</li>'+
                         '<li>'+'Закон сохранения импульса'+'</li>'),
+
+        "termodinamicaTitle": "Термодинамика",
+        "notiuniTitle": "начиная",
+        "pricipiuITitle": "Принцип I",
+        "motoare": "Тепловые двигатели",
+        "principiuIITitle": "Второй принцип",
 
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
         "inchideBtn": "Вешать трубку",
