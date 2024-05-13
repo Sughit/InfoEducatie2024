@@ -38,6 +38,9 @@
     color : white;
     font-size : 1.6rem;
 }
+html {  
+    scroll-behavior: smooth;  
+}
 
 
 @media (max-width: 782px) {
