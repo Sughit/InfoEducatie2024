@@ -9,7 +9,9 @@
 
     <!--Our files-->
     <link rel="stylesheet" href="./style.css">
+
     <script defer href="./index.js"></script>
+    <script defer src="./languages/langIndex.js"></script>
     <script defer href="./sw.js"></script>
 
     <title>Mecanică</title>
@@ -27,9 +29,11 @@
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța noțiuni precum:<br>
-                        <ul>
+                    </font>
+                    <font style="font-family: Comic Sans MS;" color="white">
+                        <ul id="principiiRez">
                             <li>Mișcare și repaus</li>
                             <li>Principiul I al mecanicii</li>
                             <li>Principiul al II-lea al mecanicii</li>
@@ -41,20 +45,20 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white">
+                        <font style="font-family: Comic Sans MS;" color="white" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieMecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black">
+                            <font style="font-family: Comic Sans MS;" color="black" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <a href="testMecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black">
+                            <font style="font-family: Comic Sans MS;" color="black" id="testBtn">
                                 Începe un test
                             </font>
                         </button>
@@ -76,9 +80,11 @@
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:
-                        <ul>
+                    </font>
+                    <font style="font-family: Comic Sans MS;" color="white">
+                        <ul id="teoremeRez">
                             <li>Lucrul mecanic și puterea mecanică</li>
                             <li>Teorema variației energiei cinatice</li>
                             <li>Energia potențială gravitațională</li>
@@ -90,20 +96,20 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white">
+                        <font style="font-family: Comic Sans MS;" color="white" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieMecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black">
+                            <font style="font-family: Comic Sans MS;" color="black" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <a href="testMecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black">
+                            <font style="font-family: Comic Sans MS;" color="black" id="testBtn">
                                 Începe un test
                             </font>
                         </button>
@@ -118,7 +124,7 @@
         <font style="font-family: Comic Sans MS;" color="white" size="50">
             FIZIX
         </font>
-        <font style="font-family: Comic Sans MS;" color="white" size="6">
+        <font style="font-family: Comic Sans MS;" color="white" size="6" id="mecanicaTitle">
             <b>Mecanică</b>
         </font>
     </p><br><br>
@@ -126,18 +132,18 @@
     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
         <p align="center">
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #468189;" data-bs-toggle="modal" data-bs-target="#principiiModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6">
+                <font style="font-family: Comic Sans MS;" color="white" size="6" id="principiiTitle">
                     Principii și legi 
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; min-height: 150px; width: 75%; height: 37%; background-color: #77ACA2;" data-bs-toggle="modal" data-bs-target="#teoremeModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6">
+                <font style="font-family: Comic Sans MS;" color="white" size="6" id="teoremeTitle">
                     Teoreme de variație și legi de conservare
                 </font>
             </button><br><br>
             <a href="./index.html" style="position: relative; bottom: 3%; top: 1%;" class="pb-3">
                 <button type="button" class="btn btn-lg btn-block" style="justify-content: center; min-width: 275px; width: 45%; height: 15%; background-color: #F4E9CD;">
-                    <font style="font-family: Comic Sans MS;" color="black" size="5">
+                    <font style="font-family: Comic Sans MS;" color="black" size="5" id="acasaBtn">
                         Acasă
                     </font>
                 </button>
