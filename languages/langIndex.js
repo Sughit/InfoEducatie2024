@@ -202,11 +202,11 @@ function loadLanguages(attr)
         kirchhoffTitleModal.textContent = data[attr].kirchhoffTitleModal;
         grupareTitleModal.textContent = data[attr].grupareTitleModal;
         energieTitleModal.textContent = data[attr].energieTitleModal;
-        curentulRez.textContent = data[attr].curentulRez;
-        ohmRez.textContent = data[attr].ohmRez;
-        kirchhoffRez.textContent = data[attr].kirchhoffRez;
-        grupareRez.textContent = data[attr].grupareRez;
-        energieRez.textContent = data[attr].energieRez;
+        curentulRez.innerHTML = data[attr].curentulRez;
+        ohmRez.innerHTML = data[attr].ohmRez;
+        kirchhoffRez.innerHTML = data[attr].kirchhoffRez;
+        grupareRez.innerHTML = data[attr].grupareRez;
+        energieRez.innerHTML = data[attr].energieRez;
         invataTitle.forEach(el => {
             el.textContent = data[attr].invataTitle;
         });
@@ -310,21 +310,36 @@ var data = {
         "principiuIIRez": ('<li>'+'The Carnot cycle, the efficiency of the Carnot cycle'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Electromechanics",
+        "curentulTitle": "Electricity",
+        "ohmTitle": "Ohm's law",
+        "kirchhoffTitle": "Kirchhoff's law",
+        "grupareTitle": "Grouping of resistors and generators",
+        "energieTitle": "Energy and electrical power",
+        "curentulTitleModal": "Electricity",
+        "ohmTitleModal": "Ohm's law",
+        "kirchhoffTitleModal": "Kirchhoff's law",
+        "grupareTitleModal": "Grouping of resistors and generators",
+        "energieTitleModal": "Energy and electrical power",
+        "curentulRez": ('<li>'+'Electricity'+'</li>'+
+                        '<li>'+'The intensity of the electric current'+'</li>'+
+                        '<li>'+'The unit of measurement of the intensity of the electric current'+'</li>'+
+                        '<li>'+'Simple electrical circuit'+'</li>'+
+                        '<li>'+'The electromotive voltage of an electric generator, the voltage at the generator terminals, the voltage drop inside the generator'+'</li>'),
+        "ohmRez": ('<li>'+'Electrical resistance'+'</li>'+
+                    '<li>'+'Ohm\'s law for a portion of a circuit and for the entire circuit'+'</li>'+
+                    '<li>'+'The unit of measure for electrical resistance'+'</li>'+
+                    '<li>'+'Electrical resistance, dependence of electrical resistivity on temperature'+'</li>'),
+        "kirchhoffRez": ('<li>'+'The electrical network'+'</li>'+
+                        '<li>'+'The network node'+'</li>'+
+                        '<li>'+'The network eye'+'</li>'+
+                        '<li>'+'Kirchhoff\'s laws'+'</li>'),
+        "grupareRez": ('<li>'+'The equivalent electrical resistance of series, parallel or mixed grouping of several resistors'+'</li>'+
+                        '<li>'+'The equivalent electrical resistance and the equivalent electromotive voltage corresponding to the series/parallel grouping of several electrical generators'+'</li>'),
+        "energieRez": ('<li>'+'The expression of the energy transmitted by the generator to the consumer in a time interval'+'</li>'+
+                        '<li>'+'Expression of the energy dissipated inside the generator'+'</li>'+
+                        '<li>'+'The efficiency of a simple electric circuit'+'</li>'+
+                        '<li>'+'Electric power, relationships that characterize electric power'+'</li>'),
 
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
@@ -429,10 +444,25 @@ var data = {
         "kirchhoffTitleModal": "Legea lui Kirchhoff",
         "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
         "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "curentulRez": ('<li>'+'Curentul electric'+'</li>'+
+                        '<li>'+'Intensitatea curentului electric'+'</li>'+
+                        '<li>'+'Unitatea de măsură a intensității curentului electric'+'</li>'+
+                        '<li>'+'Circuitul electric simplu'+'</li>'+
+                        '<li>'+'Tensiunea electromotoare a unui generator electric, tensiunea la bornele generatorului, căderea de tensiune în interiorul generatorului'+'</li>'),
+        "ohmRez": ('<li>'+'Rezistența electrică'+'</li>'+
+                    '<li>'+'Legea lui Ohm pentru o porțiune de circuit și pentru întreg circuitul'+'</li>'+
+                    '<li>'+'Unitatea de măsură pentru rezistența electrică'+'</li>'+
+                    '<li>'+'Rezistența electrică, dependența rezistivității electrice de temperatură'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Rețeaua electrică'+'</li>'+
+                        '<li>'+'Nodul de rețea'+'</li>'+
+                        '<li>'+'Ochiul de rețea'+'</li>'+
+                        '<li>'+'Legile lui Kirchhoff'+'</li>'),
+        "grupareRez": ('<li>'+'Rezistența electrică echivalentă a grupării serie, paralel sau mixtă a mai multor rezistori'+'</li>'+
+                        '<li>'+'Rezistența electrică echivalentă și tensiunea electromotoare echivalentă corespunzătoare grupării serie/paralel a mai multor generatoare electrice'+'</li>'),
+        "energieRez": ('<li>'+'Expresia energiei transmise de generator consumatorului într-un interval de timp'+'</li>'+
+                        '<li>'+'Expresia energiei disipate în interiorul generatorului'+'</li>'+
+                        '<li>'+'Randamentul unui circuit electric simplu'+'</li>'+
+                        '<li>'+'Puterea electrică, relații ce caracterizează puterea electrică'+'</li>'),
 
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
@@ -526,21 +556,36 @@ var data = {
         "principiuIIRez": ('<li>'+'A Carnot-ciklus, a Carnot-ciklus hatékonysága'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Elektromechanikai",
+        "curentulTitle": "Elektromosság",
+        "ohmTitle": "Ohm törvénye",
+        "kirchhoffTitle": "Kirchhoff törvénye",
+        "grupareTitle": "Az ellenállások és generátorok csoportosítása",
+        "energieTitle": "Energia és elektromos energia",
+        "curentulTitleModal": "Elektromosság",
+        "ohmTitleModal": "Ohm törvénye",
+        "kirchhoffTitleModal": "Kirchhoff törvénye",
+        "grupareTitleModal": "Az ellenállások és generátorok csoportosítása",
+        "energieTitleModal": "Energia és elektromos energia",
+        "curentulRez": ('<li>'+'Elektromosság'+'</li>'+
+                        '<li>'+'Az elektromos áram intenzitása'+'</li>'+
+                        '<li>'+'Az elektromos áram intenzitásának mértékegysége'+'</li>'+
+                        '<li>'+'Egyszerű elektromos áramkör'+'</li>'+
+                        '<li>'+'Az elektromos generátor elektromotoros feszültsége, a feszültség a generátor kapcsain, a feszültségesés a generátor belsejében'+'</li>'),
+        "ohmRez": ('<li>'+'Elektromos ellenállás'+'</li>'+
+                    '<li>'+'Ohm törvénye az áramkör egy részére és az egész áramkörre'+'</li>'+
+                    '<li>'+'Az elektromos ellenállás mértékegysége'+'</li>'+
+                    '<li>'+'Elektromos ellenállás, az elektromos ellenállás függése a hőmérséklettől'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Az elektromos hálózat'+'</li>'+
+                        '<li>'+'A hálózati csomópont'+'</li>'+
+                        '<li>'+'A hálózati szem'+'</li>'+
+                        '<li>'+'Kirchhoff törvényei'+'</li>'),
+        "grupareRez": ('<li>'+'Több ellenállás soros, párhuzamos vagy vegyes csoportosításának egyenértékű elektromos ellenállása'+'</li>'+
+                        '<li>'+'Több villamos generátor soros/párhuzamos csoportosításának megfelelő egyenértékű elektromos ellenállás és egyenértékű elektromotoros feszültség'+'</li>'),
+        "energieRez": ('<li>'+'A generátor által a fogyasztónak adott időintervallumban továbbított energia kifejezése'+'</li>'+
+                        '<li>'+'A generátoron belül disszipált energia kifejezése'+'</li>'+
+                        '<li>'+'Egy egyszerű elektromos áramkör hatásfoka'+'</li>'+
+                        '<li>'+'Villamos teljesítmény, a villamos energiát jellemző összefüggések'+'</li>'),
 
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
         "inchideBtn": "Rakd le",
@@ -634,21 +679,36 @@ var data = {
         "principiuIIRez": ('<li>'+'Der Carnot-Zyklus, die Effizienz des Carnot-Zyklus'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Elektromechanisch",
+        "curentulTitle": "Elektrizität",
+        "ohmTitle": "Ohm'sches Gesetz",
+        "kirchhoffTitle": "Kirchhoffs Gesetz",
+        "grupareTitle": "Gruppierung von Widerständen und Generatoren",
+        "energieTitle": "Energie und Strom",
+        "curentulTitleModal": "Elektrizität",
+        "ohmTitleModal": "Ohm'sches Gesetz",
+        "kirchhoffTitleModal": "Kirchhoffs Gesetz",
+        "grupareTitleModal": "Gruppierung von Widerständen und Generatoren",
+        "energieTitleModal": "Energie und Strom",
+        "curentulRez": ('<li>'+'Elektrizität'+'</li>'+
+                        '<li>'+'Die Intensität des elektrischen Stroms'+'</li>'+
+                        '<li>'+'Die Maßeinheit für die Intensität des elektrischen Stroms'+'</li>'+
+                        '<li>'+'Einfacher Stromkreis'+'</li>'+
+                        '<li>'+'Die elektromotorische Spannung eines elektrischen Generators, die Spannung an den Generatorklemmen, der Spannungsabfall innerhalb des Generators'+'</li>'),
+        "ohmRez": ('<li>'+'Elektrischer Wiederstand'+'</li>'+
+                    '<li>'+'Ohmsches Gesetz für einen Teil eines Stromkreises und für den gesamten Stromkreis'+'</li>'+
+                    '<li>'+'Die Maßeinheit für den elektrischen Widerstand'+'</li>'+
+                    '<li>'+'Elektrischer Widerstand, Abhängigkeit des elektrischen Widerstands von der Temperatur'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Das Stromnetz'+'</li>'+
+                        '<li>'+'Der Netzwerkknoten'+'</li>'+
+                        '<li>'+'Das Netzwerkauge'+'</li>'+
+                        '<li>'+'Kirchhoffs Gesetze'+'</li>'),
+        "grupareRez": ('<li>'+'Der äquivalente elektrische Widerstand einer Reihen-, Parallel- oder Mischgruppierung mehrerer Widerstände'+'</li>'+
+                        '<li>'+'Der äquivalente elektrische Widerstand und die äquivalente elektromotorische Spannung entsprechen der Reihen-/Parallelschaltung mehrerer elektrischer Generatoren'+'</li>'),
+        "energieRez": ('<li>'+'Der Ausdruck der Energie, die der Generator in einem Zeitintervall an den Verbraucher überträgt'+'</li>'+
+                        '<li>'+'Ausdruck der im Generator abgegebenen Energie'+'</li>'+
+                        '<li>'+'Der Wirkungsgrad eines einfachen Stromkreises'+'</li>'+
+                        '<li>'+'Elektrische Energie, Beziehungen, die elektrische Energie charakterisieren'+'</li>'),
 
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
         "inchideBtn": "Auflegen",
@@ -742,21 +802,36 @@ var data = {
         "principiuIIRez": ('<li>'+'Le cycle Carnot, l\'efficacité du cycle Carnot'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Électromécanique",
+        "curentulTitle": "Électricité",
+        "ohmTitle": "La loi d'Ohm",
+        "kirchhoffTitle": "La loi de Kirchhoff",
+        "grupareTitle": "Regroupement de résistances et de générateurs",
+        "energieTitle": "Énergie et puissance électrique",
+        "curentulTitleModal": "Électricité",
+        "ohmTitleModal": "La loi d'Ohm",
+        "kirchhoffTitleModal": "La loi de Kirchhoff",
+        "grupareTitleModal": "Regroupement de résistances et de générateurs",
+        "energieTitleModal": "Énergie et puissance électrique",
+        "curentulRez": ('<li>'+'Électricité'+'</li>'+
+                        '<li>'+'L\'intensité du courant électrique'+'</li>'+
+                        '<li>'+'L\'unité de mesure de l\'intensité du courant électrique'+'</li>'+
+                        '<li>'+'Circuit électrique simple'+'</li>'+
+                        '<li>'+'La tension électromotrice d\'un générateur électrique, la tension aux bornes du générateur, la chute de tension à l\'intérieur du générateur'+'</li>'),
+        "ohmRez": ('<li>'+'Résistance électrique'+'</li>'+
+                    '<li>'+'Loi d\'Ohm pour une partie d\'un circuit et pour l\'ensemble du circuit'+'</li>'+
+                    '<li>'+'L\'unité de mesure de la résistance électrique'+'</li>'+
+                    '<li>'+'Résistance électrique, dépendance de la résistivité électrique à la température'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Le réseau électrique'+'</li>'+
+                        '<li>'+'Le noeud du réseau'+'</li>'+
+                        '<li>'+'L\'oeil du réseau'+'</li>'+
+                        '<li>'+'Les lois de Kirchhoff'+'</li>'),
+        "grupareRez": ('<li>'+'La résistance électrique équivalente d\'un groupement série, parallèle ou mixte de plusieurs résistances'+'</li>'+
+                        '<li>'+'La résistance électrique équivalente et la tension électromotrice équivalente correspondant au regroupement série/parallèle de plusieurs générateurs électriques'+'</li>'),
+        "energieRez": ('<li>'+'L\'expression de l\'énergie transmise par le générateur au consommateur dans un intervalle de temps'+'</li>'+
+                        '<li>'+'Expression de l\'énergie dissipée à l\'intérieur du générateur'+'</li>'+
+                        '<li>'+'L\'efficacité d\'un simple circuit électrique'+'</li>'+
+                        '<li>'+'L\'énergie électrique, les relations qui caractérisent l\'énergie électrique'+'</li>'),
 
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
@@ -850,21 +925,36 @@ var data = {
         "principiuIIRez": ('<li>'+'Цикл Карно, эффективность цикла Карно'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Электромеханический",
+        "curentulTitle": "Электричество",
+        "ohmTitle": "Закон Ома",
+        "kirchhoffTitle": "Закон Кирхгофа",
+        "grupareTitle": "Группировка резисторов и генераторов",
+        "energieTitle": "Энергетика и электроэнергия",
+        "curentulTitleModal": "Электричество",
+        "ohmTitleModal": "Закон Ома",
+        "kirchhoffTitleModal": "Закон Кирхгофа",
+        "grupareTitleModal": "Группировка резисторов и генераторов",
+        "energieTitleModal": "Энергетика и электроэнергия",
+        "curentulRez": ('<li>'+'Электричество'+'</li>'+
+                        '<li>'+'Интенсивность электрического тока'+'</li>'+
+                        '<li>'+'Единица измерения силы электрического тока'+'</li>'+
+                        '<li>'+'Простая электрическая схема'+'</li>'+
+                        '<li>'+'Электродвижущее напряжение электрогенератора, напряжение на клеммах генератора, падение напряжения внутри генератора'+'</li>'),
+        "ohmRez": ('<li>'+'Электрическое сопротивление'+'</li>'+
+                    '<li>'+'Закон Ома для части цепи и для всей цепи'+'</li>'+
+                    '<li>'+'Единица измерения электрического сопротивления'+'</li>'+
+                    '<li>'+'Электрическое сопротивление, зависимость удельного электросопротивления от температуры'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Электрическая сеть'+'</li>'+
+                        '<li>'+'Сетевой узел'+'</li>'+
+                        '<li>'+'Сетевой глаз'+'</li>'+
+                        '<li>'+'Законы Кирхгофа'+'</li>'),
+        "grupareRez": ('<li>'+'Эквивалентное электрическое сопротивление последовательной, параллельной или смешанной группы нескольких резисторов.'+'</li>'+
+                        '<li>'+'Эквивалентное электрическое сопротивление и эквивалентное электродвижущее напряжение, соответствующее последовательному/параллельному соединению нескольких электрических генераторов.'+'</li>'),
+        "energieRez": ('<li>'+'Выражение энергии, передаваемой генератором потребителю за интервал времени'+'</li>'+
+                        '<li>'+'Выражение энергии, рассеиваемой внутри генератора'+'</li>'+
+                        '<li>'+'КПД простой электрической цепи'+'</li>'+
+                        '<li>'+'Электроэнергия, отношения, характеризующие электроэнергию'+'</li>'),
 
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
         "inchideBtn": "Вешать трубку",
