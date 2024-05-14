@@ -33,7 +33,7 @@
     <!--Main things-->
     <div class="d-grid gap-2 justify-content-md-center">
         <p>
-            <div style="background-color: #468189; width: 920px;" class="mx-auto rounded p-3 ms-2 me-2">
+            <div style="background-color: #468189; width: 390px;" class="mx-auto rounded p-3 ms-2 me-2">
                 <font style="font-family: Comic Sans MS;" color="white">
 
                     <!--Noțiuni termodinamice de bază-->
@@ -103,9 +103,9 @@
                     </ul>
 
                     <!--Principiul I-->
-
-                    <br><br><br><br><u><h2 class="p-3" align = center>Principiul I</h2><br><br><br></u>
                     <a name="element_target"></a>
+                    <br><br><br><br><u><h2 class="p-3" align = center>Principiul I</h2><br><br><br></u>
+                    
 
                     <h2 class="p-3">Lucrul mecanic:</h2>
                     <ul>
@@ -213,12 +213,263 @@
                             [C<sub>μ</sub>] = J/mol∙K
                         </li>
                     </ul>
+                    <h2 class="p-3">Grade de libertate:</h2>
+                    <ul>
+                        <li>Cum în termodinamică moleculele gazului ideal sunt considerate puncte materiale, coordonatele independente ce caracterizează sistemul termodinamic se numesc grade de libertate.<br><br>
+                            - Pentru gazele monoatomice: i = 3<br>
+                            - Pentru gazele diatomice: i = 5<br>
+                            - Pentru gazele poliatomice: i = 6<br><br>
+
+                            Căldura molară la volum constant este:<br><br>
+                            C<sub>v</sub> = i/2 R<br><br>
+                            Căldura molară la presiune constantă este:<br><br>
+                            C<sub>p</sub> = (i + 2)/2 R<br><br>
+                            R =  8,3143 ∙ 10<sup>3</sup> J/kmol ∙ K (constanta universală a gazelor)</li>
+                    </ul>
+                    <h2 class="p-3">Transformare izocoră :</h2>
+                    <ul>
+                        <li>(ν și V const.) → ΔV = 0 → L<sub>V</sub> = p ∙ ΔV = 0</li><br>
+                        <li>Avem două cazuri:<br><br>
+                            - Gazul închis într-un de volum constant este încălzit, absoarbe căldură → QV > 0 și ΔU > 0 (crește energia internă a gazului).<br><br>
+                            - Gazul închis într-un de volum constant este răcit, cedează căldură → QV < 0 și ΔU < 0 (scade energia internă a gazului)</li><br>
+                        <li> Formule: <br><br>
+                            
+                            ΔU = Q<sub>V</sub> = ν ∙ Csub>V</sub> ∙ ΔT<br><br>
+                            ΔU = U – U<sub>0</sub> și ΔT = T – T<sub>0</sub>, pentru T<sub>0</sub> = 0 K → U<sub>0</sub> = 0<br><br>
+                            Energia internă a unui gaz ideal monoatomic este:<br>
+                            U = ν ∙ C<sub>V</sub>∙ T = 3/2 ∙ ν ∙ R ∙ T</li>
+                    </ul>
+                    <h2 class="p-3">Transformare izobară:</h2>
+                    <ul>
+                        <li>
+                            (ν și p const.)<br><br>
+                            Dacă gazul este încălzit, absoarbe căldură → Qp > 0 și o parte din energie este folosită la creșterea energiei interne a gazului ΔU > 0 și cealaltă parte este lucrul mecanic efectuat de gaz asupra exteriorului, L > 0.
+                        </li><br>
+                        <li> Formule: <br><br>
+                                L = p ∙ ΔV<br><br>
+                                Q<sub>p</sub> = ν ∙ C<sub>p</sub> ∙ ΔT<br><br>
+                                Variația energiei interne nu depinde de proces și putem scrie:<br>
+                                ΔU = ν ∙ C<sub>V</sub> ∙ ΔT
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Transformare izotermă:</h2>
+                    <ul>
+                        <li>
+                            (ν și T const.) → U = const. și ΔU = 0.
+                        </li><br>
+                        <li>
+                            Când gazul este încălzit, absoarbe căldură → QT > 0 și L > 0, fiind folosită integral pentru efectuarea de lucru mecanic asupra exteriorului.
+                        </li><br>
+                        <li>
+                            Într-o transformare izotermă, presiunea este invers proporțională cu volumul gazului și atunci avem lucrul mecanic.
+                        </li><br>
+                        <li> Formule: <br><br>
+                            L<sub>T</sub> = v ∙ R ∙ T ∙ ln(V<sub>2</sub> / V<sub>1</sub>)<br><br>
+                            Q<sub>T</sub> = L<sub>T</sub> = v ∙ R ∙ T ∙ ln(V<sub>2</sub> / V<sub>1</sub>)<br><br>
+                            p<sub>1</sub> ∙ V<sub>1</sub> = p<sub>2</sub> ∙ V<sub>2</sub><br><br>
+                            Q<sub>T</sub> = L<sub>T</sub> = v ∙ R ∙ T ∙ ln(V<sub>2</sub> / V<sub>1</sub>) = v ∙ R ∙ T ∙ ln(p1 / p2)<br><br>
+                            U = const și ΔU = 0
+                        </li><br>
+                    </ul>
+                    <h2 class="p-3">Transformare adiabatică:</h2>
+                    <ul>
+                        <li>
+                            (ν const.) → Qad = 0
+                        </li><br>
+                        <li>
+                            Formule:<br><br>
+                            ΔU = - L<sub>ad</sub><br><br>
+                            ΔU = ν ∙ C<sub>v</sub> ∙ΔT<br><br>
+                            L<sub>ad</sub> = - ν ∙ C<sub>v</sub> ∙ ΔT<br><br>
+                            Ecuația procesului adiabatic se numește ecuația Poisson:<br>
+                            p ∙ V<sup>y</sup> = const.<br>
+                            y = coeficient adiabatic = C<sub>p</sub> / C<sub>V</sub><br>
+                            T ∙ V<sup>y-1</sup> - const
+                            T<sup>y</sup> / p <sup>y-1</sup> = const
+                        </li>
+                    </ul>
+                    
+                    <h2 class="p-3">Relația lui Robert – Mayer:</h2>
+                    <ul>
+                        <li>
+                            În cazul transformării izocore:<br><br>
+                            ΔU = Q<sub>V</sub> = v ∙ C<sub>V</sub> ∙ ΔT<br><br>
+                            C<sub>V</sub> = Q<sub>V</sub> / (v ∙ ΔT) =  ΔU / (v ∙ ΔT) 
+                        </li><br>
+                        <li>
+                            În cazul transformării izobare:<br><br>
+                            Q<sub>p</sub> = (v ∙ C<sub>p</sub> ∙ ΔT) = ΔU + p ∙ ΔV<br><br>
+                            C<sub>p</sub> = Q<sub>p</sub> / (v ∙ ΔT) = (ΔU + p ∙ ΔV) / (v ∙ ΔT)
+                        </li><br>
+                        <li>
+                            Combinând cele două relații ale lui Cp și CV obținem:<br><br>
+                            C<sub>p</sub> = C<sub>V</sub> + (p ∙ ΔV) / (v ∙ ΔT)<br><br>
+                            Din ecuația termică de stare:<br><br>
+                            p ∙ ΔV = ν ∙ R ∙ ΔT
+                        </li><br>
+                        <li>
+                            Relația lui Robert–Mayer stabilește relația între căldurile molare:<br><br>
+                            C<sub>p</sub> = C<sub>V</sub> + R
+                        </li><br>
+                        <li>
+                            Relația lui Robert–Mayer stabilește relația între căldurile specifice molare:<br><br>
+                            c<sub>p</sub> = c<sub>V</sub> + (R / μ)
+                        </li>
+                    </ul>
+
 
                     <!--Motoare termice-->
-                    
-                    <br><br><br><br><u><h2 class="p-3" align = center>Motoare termice</h2><br><br><br></u>
                     <a name="element_target2"></a>
+                    <br><br><br><br><u><h2 class="p-3" align = center>Motoare termice</h2><br><br><br></u>
                     
+                    <h2 class="p-3">Mașini termice:</h2>
+                    <ul>
+                        <li>
+                            În cursul unei transformări ciclice biterme, sistemul termodinamic schimbă căldurile Q<sub>1</sub>, respectiv Q<sub>2</sub>  cu două izvoare de căldură ale căror temperaturi sunt T<sub>1</sub> (izvor cald) și T<sub>2</sub>  (izvor rece), cu T<sub>1</sub>  > T<sub>2</sub> .<br><br>
+                                Cum transformările ciclice au ΔU = 0, conform principiului I al termodinamicii avem<br><br>
+                                Q<sub>1</sub> + Q<sub>2</sub> = L<br><br>
+
+                                Mașina termică este un sistem termodinamic care efectuează o transformare ciclică în care schimbă căldură și lucru mecanic cu mediul exterior.  
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Motoare termice:</h2>
+                    <ul>
+                        <li>
+                            Motorul termic este un sistem care transformă căldura primită, prin arderea unui combustibilul (benzina, motorina, gazul metan etc.) în lucru mecanic.
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Motorul Otto:</h2>
+                    <ul>
+                        <li>
+                            Motorul Otto folosește drept combustibil un amestec de aer cu vapori de benzină ce se realizează în carburator.<br><br>
+                            - Amestecul carburant este aspirat prin supapa de admisie (S1) în cilindru cu piston.<br><br>
+                            - Gazele rezultate în urma arderii amestecului carburant sunt eleminate prin supapa de evacuare (S2).<br><br>
+                            - Timpul de funcționare este perioada de deplasare a pistonului de la punctul mort superior = PMS (cilindru închide un volum minim de substanță) la punctul mort inferior = PMI (cilindru închide un volum maxim de substanță) și invers.<br><br>
+                            - Pistonul este legat de un sistem bielă-manivelă (vilbrochen = arbore cotit), pentru transformarea mișcării rectilinie a pistonului în mișcare de rotație.<br><br>
+                            - Blocul motor este format din mai mulți cilindri legați în serie. Fiecare piston are alt timp de desfășurare pentru a permite învârtirea permanentă și constantă a vilborchenului.
+                        </li><br>
+                        <li>
+                            Timpii de funcționare ai motorului Otto:<br><br>
+
+                             - <b>Timpul 1: Admisia</b> - (proces izobar):<br><br>
+                             Supapa de admisie se deschide, în cilindru se aspiră amestecul de benzină-aer și pistonul coboară de la PMS la PMI, la presiune constantă. Este prima coborâre a pistonului.<br><br>
+                            
+                             -<b>Timpul 2: Compresia</b> - (proces adiabatic):<br><br>
+                             Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât combustibilul este puternic comprimat, caz în care presiunea și temperatura cresc. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.<br><br>
+
+                             -<b>Timpul 3 : Aprinderea</b> - (proces izocor) și <b>detenta</b> - (proces adiabatic):<br><br>
+                             Ambele supape sunt închise și pistonul se află la PMS. Scânteia electrică produsă de bujie aprinde amestecul, care explodează și duce la o creștere considerabilă a presiunii la volum constant. Amestecul arde cu degajare de căldură (Q1 = căldura primită de motor). Gazele rezultate din ardere se destind adiabatic, împing pistonul în PMI cu efectuare de lucru mecanic.Este a doua coborâre a pistonului.<br><br>
+
+                             -<b>Timpul 4 : Evacuarea</b> - (proces izocor) și (proces izobar):<br><br>
+                             Supapa de evacuare S2 se deschide, caz în care presiunea scade brusc până la valoarea presiunii atmosferice.În acest proces izocor amestecul cedează căldura Q2 în mediul exterior. Pistonul urcă până la PMS împingând afară gazele arse la presiune constantă. De aici ciclul se reia.
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Randamentul motorului termic Otto:</h2>
+                    <ul>
+                        <li>
+                            Randamentul motorului termic Otto (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).<br><br>
+                            η = L / Q<sub>1</sub> = 1 - (|Q<sub>cedată</sub>| / Q<sub>primită</sub>) = 1 - (|Q<sub>2</sub>| / Q<sub>1</sub>)<br><br>
+
+                            Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V<sub>1</sub>/V<sub>2</sub>.<br><br>
+
+                            Căldurile în cele patru transformări sunt :<br><br>
+                             - Q<sub>12</sub> = 0<br>
+                             - Q<sub>23</sub> = ν ∙ C<sub>V</sub> ∙ (T<sub>3</sub> – T<sub>2</sub>) = Q<sub>1</sub> > 0<br>
+                             - Q<sub>34</sub> = 0<br>
+                             - Q<sub>41</sub> = ν ∙ C<sub>V</sub> ∙ (T<sub>31</sub> – T<sub>4</sub>) = Q<sub>2</sub> < 0<br><br>
+
+                             η = 1 - (1 / ε<sup>y-1</sup>)
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Motorul Diesel:</h2>
+                    <ul>
+                        <li>
+                            Motorul Diesel este un motor cu ardere internă, în patru timpi cu aprindere prin injecție a motorinei.
+                        </li><br>
+                        <li>
+                            Timpii de funcționare ai motorului Diesel:<br><br>
+
+                            - <b>Timpul 1: Admisia </b> - (proces izobar):<br><br>
+                            Supapa de admisie se deschide, în cilindru se aspiră aer la presiunea atmosferică și pistonul coboară de la PMS la PMI, la presiune constantă (proces izobar). Este prima coborâre a pistonului.<br><br>
+                            - <b>Timpul 2: Compresia</b> - (proces adiabatic):<br><br>
+                            Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât aerul este puternic comprimat, caz în care presiunea și temperatura cresc considerabil. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.<br><br>
+                            - <b>Timpul 3: Aprinderea</b> - (proces izobar) și <b>detenta</b> - (proces adiabatic):<br><br>
+                            Ambele supape sunt închise și pistonul se află la PMS. Pompa de injecție pulverizează motorină în cilindrul motorului. Temperatura aerului din cilindru este mai mare decât temperatura de aprindere a motorinei, astfel încât aceasta se aprinde și arde la presiune constantă, cu degajare de căldură (Q1 = căldura primită de motor). Gazele rezultate din ardere se destind adiabatic, împing pistonul în PMI cu efectuare de lucru mecanic.Este a doua coborâre a pistonului.<br><br>
+                            - <b>Timpul 4: Evacuarea</b> - (proces izocor) și (proces izobar):<br><br>
+                            Supapa de evacuare S2 se deschide, caz în care presiunea scade brusc până la valoarea presiunii atmosferice. În acest proces izocor (la volum constant) amestecul cedează căldura Q2 în mediul exterior. Pistonul urcă până la PMS împingând afară gazele arse la presiune constantă. De aici ciclul se reia.
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Randamentul motorului termic Diesel:</h2>
+                    <ul>
+                        <li>
+                            Randamentul motorului termic Diesel (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).<br><br>
+                            η = L / Q<sub>1</sub> = 1 - (|Q<sub>cedată</sub>| / Q<sub>primită</sub>) = 1 - (|Q<sub>2</sub>| / Q<sub>1</sub>)<br><br>
+
+                            Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V<sub>1</sub>/V<sub>2</sub> și α = V<sub>3</sub>/V<sub>2</sub><br><br>
+
+                            Căldurile în cele patru transformări sunt :<br><br>
+                            - Q<sub>12</sub> = 0 (proces adiabatic)<br>
+                            - Q<sub>23</sub> = ν ∙ C<sub>p</sub> ∙ (T<sub>3</sub> – T<sub>2</sub>) = Q<sub>1</sub> > 0 (proces izobar)<br>
+                            - Q<sub>34</sub> = 0 (proces adiabatic)<br>
+                            - Q<sub>41</sub> = ν ∙ C<sub>V</sub> ∙ (T<sub>1</sub> – T<sub>4</sub>) = Q<sub>2</sub> < 0 (proces izocor)<br><br>
+
+                            η = 1 - (1 / y) ∙ (a<sup>y-1</sup> / ε<sup>y-1</sup>(a-1))
+                            
+                        </li>
+                    </ul>
+                    
+
+                    <!--Principiul al II-lea-->
+
+                    <a name="element_target3"></a>
+                    <br><br><br><br><u><h2 class="p-3" align = center>Principiul al II-lea</h2><br><br><br></u>
+                    
+                    <h2 class="p-3">Formularea Carnot a principiul al doilea al termodinamicii:</h2>
+                    <ul>
+                        <li>
+                            Prima formulare a principiul al doilea al termodinamicii îi aparține lui Sadi Carnot, care în 1824 arăta că există o limită superioară a eficienței conversiei căldurii în energie mecanică într-un motor termic, care implică folosirea unui ciclu termodinamic al unui fluid de lucru.
+                        </li><br>
+                        <li>
+                            Carnot a fost primul care a arătat că nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate. Astfel, sistemul primește căldură de la o sursă caldă (termostat cu T<sub>1</sub>) și cedează căldură unei surse reci (termostat cu T<sub>2</sub>).
+                        </li><br>
+                        <li>
+                            Parametrii gazului în stare inițială sunt p<sub>1</sub>, V<sub>1</sub> și T<sub>1</sub>.
+                        </li><br>
+                        <li>
+                            Aducem cilindrul cu gaz pe un încălzitor (termostat cu T<sub>1</sub>). Gazul va absorbi căldură Q<sub>1</sub> de la sursa caldă și se va destinde izoterm (T<sub>1</sub> = const.) și cvasistatic de la V<sub>1</sub> la V<sub>2</sub>, efectuând lucrul mecanic L<sub>1</sub>.
+                        </li><br>
+                        <li>
+                            Aducem cilindrul cu gaz pe un suport termoizolator. Gazul se destinde adiabatic până la V<sub>3</sub>, efectuând lucrul mecanic L<sub>2</sub>. Gazul se răcește având temperatura T<sub>2</sub> < T<sub>1</sub>.
+                        </li><br>
+                        <li>
+                            Aducem cilindrul cu gaz pe o sursă rece (termostat cu T<sub>2</sub>). Gazul va ceda căldură Q<sub>2</sub> și se va comprima izoterm (T<sub>2</sub> = const.) și cvasistatic de la V<sub>3</sub> la V<sub>4</sub>, primind lucrul mecanic L<sub>3</sub>.
+                        </li><br>
+                        <li>
+                            Aducem cilindrul cu gaz pe un suport termoizolator. Gazul se comprimă adiabatic de la V<sub>4</sub> până la <sub>1</sub>. Temperatura lui va crește de la T<sub>2</sub> la T<sub>1</sub>, primind lucrul mecanic L<sub>4</sub>. Gazul revine în starea inițială. 
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Randamentul ciclului Carnot:</h2>
+                    <ul>
+                        <li>
+                            Randamentul ciclului Carnot (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q<sub>1</sub>).<br><br>
+                            η = L / Q<sub>1</sub><br><br>
+                            L = L<sub>1</sub> + L<sub>2</sub> + L<sub>3</sub> + L<sub>4</sub>
+                        </li>
+                    </ul>
+                    <h2 class="p-3">Formularea Carnot a principiul al doilea al termodinamicii:</h2>
+                    <ul>
+                        <li>
+                            Randamentul ciclului Carnot este întotdeauna subunitar, deoarece T<sub>2</sub> ≠ 0
+                        </li><br>
+                        <li>
+                            Randamentul ciclului Carnot depinde numai de temperatura sursei calde (T<sub>1</sub>) și a celei reci (T<sub>2</sub>) și nu depinde de substanța de lucru.
+                        </li><br>
+                        <li>
+                            Randamentul unei mașini termice ireversibile este întotdeauna mai mic decît randamentul unei mașini termice care funcționează reversibil între aceleași limite de temperatură.
+                        </li>
+                    </ul>
+
+
                 </font>
             </div>
         </p><br><br>
