@@ -89,6 +89,18 @@ function loadLanguages(attr)
     const grupareRez = document.getElementById('grupareRez');
     const energieRez = document.getElementById('energieRez');
 
+    //variabile din optica.html
+    const opticaTitle = document.getElementById('opticaTitle');
+    const geometricaTitle = document.getElementById('geometricaTitle');
+    const ondulatorieTitle = document.getElementById('ondulatorieTitle');
+    const cuanticaTitle = document.getElementById('cuanticaTitle');
+    const geometricaTitleModal = document.getElementById('geometricaTitleModal');
+    const ondulatorieTitleModal = document.getElementById('ondulatorieTitleModal');
+    const cuanticaTitleModal = document.getElementById('cuanticaTitleModal');
+    const geometricaRez = document.getElementById('geometricaRez');
+    const ondulatorieRez = document.getElementById('ondulatorieRez');
+    const cuanticaRez = document.getElementById('cuanticaRez');
+
     //variabile comune din cele 4 fisiere index
     const invataTitle = document.querySelectorAll('#invataTitle');
     const inchideBtn = document.querySelectorAll('#inchideBtn');
@@ -202,11 +214,39 @@ function loadLanguages(attr)
         kirchhoffTitleModal.textContent = data[attr].kirchhoffTitleModal;
         grupareTitleModal.textContent = data[attr].grupareTitleModal;
         energieTitleModal.textContent = data[attr].energieTitleModal;
-        curentulRez.textContent = data[attr].curentulRez;
-        ohmRez.textContent = data[attr].ohmRez;
-        kirchhoffRez.textContent = data[attr].kirchhoffRez;
-        grupareRez.textContent = data[attr].grupareRez;
-        energieRez.textContent = data[attr].energieRez;
+        curentulRez.innerHTML = data[attr].curentulRez;
+        ohmRez.innerHTML = data[attr].ohmRez;
+        kirchhoffRez.innerHTML = data[attr].kirchhoffRez;
+        grupareRez.innerHTML = data[attr].grupareRez;
+        energieRez.innerHTML = data[attr].energieRez;
+        invataTitle.forEach(el => {
+            el.textContent = data[attr].invataTitle;
+        });
+        inchideBtn.forEach(el => {
+            el.textContent = data[attr].inchideBtn;
+        });
+        teorieBtn.forEach(el => {
+            el.textContent = data[attr].teorieBtn;
+        });
+        testBtn.forEach(el => {
+            el.textContent = data[attr].testBtn;
+        });
+        acasaBtn.textContent = data[attr].acasaBtn;
+    }
+
+    //optica.html
+    if(window.location.pathname == "/optica.html")
+    {
+        opticaTitle.textContent = data[attr].opticaTitle;
+        geometricaTitle.textContent = data[attr].geometricaTitle;
+        ondulatorieTitle.textContent = data[attr].ondulatorieTitle;
+        cuanticaTitle.textContent = data[attr].cuanticaTitle;
+        geometricaTitleModal.textContent = data[attr].geometricaTitleModal;
+        ondulatorieTitleModal.textContent = data[attr].ondulatorieTitleModal;
+        cuanticaTitleModal.textContent = data[attr].cuanticaTitleModal;
+        geometricaRez.innerHTML = data[attr].geometricaRez;
+        ondulatorieRez.innerHTML = data[attr].ondulatorieRez;
+        cuanticaRez.innerHTML = data[attr].cuanticaRez;
         invataTitle.forEach(el => {
             el.textContent = data[attr].invataTitle;
         });
@@ -310,21 +350,69 @@ var data = {
         "principiuIIRez": ('<li>'+'The Carnot cycle, the efficiency of the Carnot cycle'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Electromechanics",
+        "curentulTitle": "Electricity",
+        "ohmTitle": "Ohm's law",
+        "kirchhoffTitle": "Kirchhoff's law",
+        "grupareTitle": "Grouping of resistors and generators",
+        "energieTitle": "Energy and electrical power",
+        "curentulTitleModal": "Electricity",
+        "ohmTitleModal": "Ohm's law",
+        "kirchhoffTitleModal": "Kirchhoff's law",
+        "grupareTitleModal": "Grouping of resistors and generators",
+        "energieTitleModal": "Energy and electrical power",
+        "curentulRez": ('<li>'+'Electricity'+'</li>'+
+                        '<li>'+'The intensity of the electric current'+'</li>'+
+                        '<li>'+'The unit of measurement of the intensity of the electric current'+'</li>'+
+                        '<li>'+'Simple electrical circuit'+'</li>'+
+                        '<li>'+'The electromotive voltage of an electric generator, the voltage at the generator terminals, the voltage drop inside the generator'+'</li>'),
+        "ohmRez": ('<li>'+'Electrical resistance'+'</li>'+
+                    '<li>'+'Ohm\'s law for a portion of a circuit and for the entire circuit'+'</li>'+
+                    '<li>'+'The unit of measure for electrical resistance'+'</li>'+
+                    '<li>'+'Electrical resistance, dependence of electrical resistivity on temperature'+'</li>'),
+        "kirchhoffRez": ('<li>'+'The electrical network'+'</li>'+
+                        '<li>'+'The network node'+'</li>'+
+                        '<li>'+'The network eye'+'</li>'+
+                        '<li>'+'Kirchhoff\'s laws'+'</li>'),
+        "grupareRez": ('<li>'+'The equivalent electrical resistance of series, parallel or mixed grouping of several resistors'+'</li>'+
+                        '<li>'+'The equivalent electrical resistance and the equivalent electromotive voltage corresponding to the series/parallel grouping of several electrical generators'+'</li>'),
+        "energieRez": ('<li>'+'The expression of the energy transmitted by the generator to the consumer in a time interval'+'</li>'+
+                        '<li>'+'Expression of the energy dissipated inside the generator'+'</li>'+
+                        '<li>'+'The efficiency of a simple electric circuit'+'</li>'+
+                        '<li>'+'Electric power, relationships that characterize electric power'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optics",
+        "geometricaTitle": "Geometric optics",
+        "ondulatorieTitle": "Wave optics",
+        "cuanticaTitle": "Elements of quantum physics",
+        "geometricaTitleModal": "Geometric optics",
+        "ondulatorieTitleModal": "Wave optics",
+        "cuanticaTitleModal": "Elements of quantum physics",
+        "geometricaRez": ('<li>'+'Light reflection'+'</li>'+
+                            '<li>'+'Refraction of light'+'</li>'+
+                            '<li>'+'The laws of reflection'+'</li>'+
+                            '<li>'+'The laws of refraction'+'</li>'+
+                            '<li>'+'Refractive index'+'</li>'+
+                            '<li>'+'Conjugate points'+'</li>'+
+                            '<li>'+'Fasciculele paraxiale'+'</li>'+
+                            '<li>'+'Real/virtual images'+'</li>'+
+                            '<li>'+'Optical lens'+'</li>'+
+                            '<li>'+'The characteristic elements of a thin lens (axes, optical center, foci)'+'</li>'+
+                            '<li>'+'Convergence of a thin lens'+'</li>'+
+                            '<li>'+'Thin lens formulas'+'</li>'+
+                            '<li>'+'Images of real/viral objects in thin lenses'+'</li>'+
+                            '<li>'+'Lens systems'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Conditions for obtaining stationary interference'+'</li>'+
+                            '<li>'+'The wavelength'+'</li>'+
+                            '<li>'+'Components of Young\'s device'+'</li>'+
+                            '<li>'+'Interference fringes'+'</li>'+
+                            '<li>'+'Optical path difference'+'</li>'+
+                            '<li>'+'Maximum and minimum interference conditions'+'</li>'+
+                            '<li>'+'Interfringe'+'</li>'),
+        "cuanticaRez": ('<li>'+'The laws of the external photoelectric effect'+'</li>'+
+                        '<li>'+'Planck\'s hypothesis. Einstein\'s hypothesis. Einstein\'s equation'+'</li>'+
+                        '<li>'+'Interpretation of the laws of the external photoelectric effect'+'</li>'),
 
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
@@ -429,10 +517,58 @@ var data = {
         "kirchhoffTitleModal": "Legea lui Kirchhoff",
         "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
         "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "curentulRez": ('<li>'+'Curentul electric'+'</li>'+
+                        '<li>'+'Intensitatea curentului electric'+'</li>'+
+                        '<li>'+'Unitatea de măsură a intensității curentului electric'+'</li>'+
+                        '<li>'+'Circuitul electric simplu'+'</li>'+
+                        '<li>'+'Tensiunea electromotoare a unui generator electric, tensiunea la bornele generatorului, căderea de tensiune în interiorul generatorului'+'</li>'),
+        "ohmRez": ('<li>'+'Rezistența electrică'+'</li>'+
+                    '<li>'+'Legea lui Ohm pentru o porțiune de circuit și pentru întreg circuitul'+'</li>'+
+                    '<li>'+'Unitatea de măsură pentru rezistența electrică'+'</li>'+
+                    '<li>'+'Rezistența electrică, dependența rezistivității electrice de temperatură'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Rețeaua electrică'+'</li>'+
+                        '<li>'+'Nodul de rețea'+'</li>'+
+                        '<li>'+'Ochiul de rețea'+'</li>'+
+                        '<li>'+'Legile lui Kirchhoff'+'</li>'),
+        "grupareRez": ('<li>'+'Rezistența electrică echivalentă a grupării serie, paralel sau mixtă a mai multor rezistori'+'</li>'+
+                        '<li>'+'Rezistența electrică echivalentă și tensiunea electromotoare echivalentă corespunzătoare grupării serie/paralel a mai multor generatoare electrice'+'</li>'),
+        "energieRez": ('<li>'+'Expresia energiei transmise de generator consumatorului într-un interval de timp'+'</li>'+
+                        '<li>'+'Expresia energiei disipate în interiorul generatorului'+'</li>'+
+                        '<li>'+'Randamentul unui circuit electric simplu'+'</li>'+
+                        '<li>'+'Puterea electrică, relații ce caracterizează puterea electrică'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optică",
+        "geometricaTitle": "Optica geometrică",
+        "ondulatorieTitle": "Optica ondulatorie",
+        "cuanticaTitle": "Elemente de fizică cuantică",
+        "geometricaTitleModal": "Optica geometrică",
+        "ondulatorieTitleModal": "Optica ondulatorie",
+        "cuanticaTitleModal": "Elemente de fizică cuantică",
+        "geometricaRez": ('<li>'+'Reflexia luminii'+'</li>'+
+                            '<li>'+'Refracția luminii'+'</li>'+
+                            '<li>'+'Legile reflexiei'+'</li>'+
+                            '<li>'+'Legile refracției'+'</li>'+
+                            '<li>'+'Indicele de refracție'+'</li>'+
+                            '<li>'+'Punctele conjugate'+'</li>'+
+                            '<li>'+'Fasciculele paraxiale'+'</li>'+
+                            '<li>'+'Imaginile reale/virtuale'+'</li>'+
+                            '<li>'+'Lentila optică'+'</li>'+
+                            '<li>'+'Elementele caracteristice ale unei lentile subțiri (axe, centru optic, focare)'+'</li>'+
+                            '<li>'+'Convergența unei lentile subțiri'+'</li>'+
+                            '<li>'+'Formulele lentilelor subțiri'+'</li>'+
+                            '<li>'+'Imaginile obiectelor reale/virtuale în lentile subțiri'+'</li>'+
+                            '<li>'+'Sisteme de lentile'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Condiții de obținere a interferenței staționare'+'</li>'+
+                            '<li>'+'Lungimea de undă'+'</li>'+
+                            '<li>'+'Elementele componente ale dispozitivului Young'+'</li>'+
+                            '<li>'+'Franje de interferență'+'</li>'+
+                            '<li>'+'Diferența de drum optic'+'</li>'+
+                            '<li>'+'Condițiile de maxim, respectiv de minim de interferență'+'</li>'+
+                            '<li>'+'Interfranja'+'</li>'),
+        "cuanticaRez": ('<li>'+'Legile efectului fotoelectric extern'+'</li>'+
+                        '<li>'+'Ipoteza lui Planck. Ipoteza lui Einstein. Ecuația lui Einstein'+'</li>'+
+                        '<li>'+'Interpretarea legilor efectului fotoelectric extern'+'</li>'),
 
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
@@ -526,21 +662,69 @@ var data = {
         "principiuIIRez": ('<li>'+'A Carnot-ciklus, a Carnot-ciklus hatékonysága'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Elektromechanikai",
+        "curentulTitle": "Elektromosság",
+        "ohmTitle": "Ohm törvénye",
+        "kirchhoffTitle": "Kirchhoff törvénye",
+        "grupareTitle": "Az ellenállások és generátorok csoportosítása",
+        "energieTitle": "Energia és elektromos energia",
+        "curentulTitleModal": "Elektromosság",
+        "ohmTitleModal": "Ohm törvénye",
+        "kirchhoffTitleModal": "Kirchhoff törvénye",
+        "grupareTitleModal": "Az ellenállások és generátorok csoportosítása",
+        "energieTitleModal": "Energia és elektromos energia",
+        "curentulRez": ('<li>'+'Elektromosság'+'</li>'+
+                        '<li>'+'Az elektromos áram intenzitása'+'</li>'+
+                        '<li>'+'Az elektromos áram intenzitásának mértékegysége'+'</li>'+
+                        '<li>'+'Egyszerű elektromos áramkör'+'</li>'+
+                        '<li>'+'Az elektromos generátor elektromotoros feszültsége, a feszültség a generátor kapcsain, a feszültségesés a generátor belsejében'+'</li>'),
+        "ohmRez": ('<li>'+'Elektromos ellenállás'+'</li>'+
+                    '<li>'+'Ohm törvénye az áramkör egy részére és az egész áramkörre'+'</li>'+
+                    '<li>'+'Az elektromos ellenállás mértékegysége'+'</li>'+
+                    '<li>'+'Elektromos ellenállás, az elektromos ellenállás függése a hőmérséklettől'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Az elektromos hálózat'+'</li>'+
+                        '<li>'+'A hálózati csomópont'+'</li>'+
+                        '<li>'+'A hálózati szem'+'</li>'+
+                        '<li>'+'Kirchhoff törvényei'+'</li>'),
+        "grupareRez": ('<li>'+'Több ellenállás soros, párhuzamos vagy vegyes csoportosításának egyenértékű elektromos ellenállása'+'</li>'+
+                        '<li>'+'Több villamos generátor soros/párhuzamos csoportosításának megfelelő egyenértékű elektromos ellenállás és egyenértékű elektromotoros feszültség'+'</li>'),
+        "energieRez": ('<li>'+'A generátor által a fogyasztónak adott időintervallumban továbbított energia kifejezése'+'</li>'+
+                        '<li>'+'A generátoron belül disszipált energia kifejezése'+'</li>'+
+                        '<li>'+'Egy egyszerű elektromos áramkör hatásfoka'+'</li>'+
+                        '<li>'+'Villamos teljesítmény, a villamos energiát jellemző összefüggések'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optikai",
+        "geometricaTitle": "Geometrikus optika",
+        "ondulatorieTitle": "Hullám optika",
+        "cuanticaTitle": "A kvantumfizika elemei",
+        "geometricaTitleModal": "Geometrikus optika",
+        "ondulatorieTitleModal": "Hullám optika",
+        "cuanticaTitleModal": "A kvantumfizika elemei",
+        "geometricaRez": ('<li>'+'Fényvisszaverődés'+'</li>'+
+                            '<li>'+'Fénytörés'+'</li>'+
+                            '<li>'+'A tükrözés törvényei'+'</li>'+
+                            '<li>'+'A fénytörés törvényei'+'</li>'+
+                            '<li>'+'Törésmutató'+'</li>'+
+                            '<li>'+'Konjugált pontok'+'</li>'+
+                            '<li>'+'Paraxiális facsontok'+'</li>'+
+                            '<li>'+'Valós/virtuális képek'+'</li>'+
+                            '<li>'+'Optikai lencse'+'</li>'+
+                            '<li>'+'A vékony lencse jellemző elemei (tengelyek, optikai középpont, gócok)'+'</li>'+
+                            '<li>'+'Vékony lencse konvergenciája'+'</li>'+
+                            '<li>'+'Vékony lencse formulák'+'</li>'+
+                            '<li>'+'Valós/virtuális tárgyak képei vékony lencsékkel'+'</li>'+
+                            '<li>'+'Lencserendszerek'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Stacionárius interferencia keletkezésének feltételei'+'</li>'+
+                            '<li>'+'A hullámhossz'+'</li>'+
+                            '<li>'+'Young készülékének alkatrészei'+'</li>'+
+                            '<li>'+'Interferencia peremek'+'</li>'+
+                            '<li>'+'Optikai út különbség'+'</li>'+
+                            '<li>'+'Maximális és minimális interferencia feltételek'+'</li>'+
+                            '<li>'+'Interfringe'+'</li>'),
+        "cuanticaRez": ('<li>'+'A külső fotoelektromos hatás törvényei'+'</li>'+
+                        '<li>'+'Planck hipotézise. Einstein hipotézise. Einstein egyenlete'+'</li>'+
+                        '<li>'+'A külső fotoelektromos hatás törvényeinek értelmezése'+'</li>'),
 
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
         "inchideBtn": "Rakd le",
@@ -634,21 +818,69 @@ var data = {
         "principiuIIRez": ('<li>'+'Der Carnot-Zyklus, die Effizienz des Carnot-Zyklus'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Elektromechanisch",
+        "curentulTitle": "Elektrizität",
+        "ohmTitle": "Ohm'sches Gesetz",
+        "kirchhoffTitle": "Kirchhoffs Gesetz",
+        "grupareTitle": "Gruppierung von Widerständen und Generatoren",
+        "energieTitle": "Energie und Strom",
+        "curentulTitleModal": "Elektrizität",
+        "ohmTitleModal": "Ohm'sches Gesetz",
+        "kirchhoffTitleModal": "Kirchhoffs Gesetz",
+        "grupareTitleModal": "Gruppierung von Widerständen und Generatoren",
+        "energieTitleModal": "Energie und Strom",
+        "curentulRez": ('<li>'+'Elektrizität'+'</li>'+
+                        '<li>'+'Die Intensität des elektrischen Stroms'+'</li>'+
+                        '<li>'+'Die Maßeinheit für die Intensität des elektrischen Stroms'+'</li>'+
+                        '<li>'+'Einfacher Stromkreis'+'</li>'+
+                        '<li>'+'Die elektromotorische Spannung eines elektrischen Generators, die Spannung an den Generatorklemmen, der Spannungsabfall innerhalb des Generators'+'</li>'),
+        "ohmRez": ('<li>'+'Elektrischer Wiederstand'+'</li>'+
+                    '<li>'+'Ohmsches Gesetz für einen Teil eines Stromkreises und für den gesamten Stromkreis'+'</li>'+
+                    '<li>'+'Die Maßeinheit für den elektrischen Widerstand'+'</li>'+
+                    '<li>'+'Elektrischer Widerstand, Abhängigkeit des elektrischen Widerstands von der Temperatur'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Das Stromnetz'+'</li>'+
+                        '<li>'+'Der Netzwerkknoten'+'</li>'+
+                        '<li>'+'Das Netzwerkauge'+'</li>'+
+                        '<li>'+'Kirchhoffs Gesetze'+'</li>'),
+        "grupareRez": ('<li>'+'Der äquivalente elektrische Widerstand einer Reihen-, Parallel- oder Mischgruppierung mehrerer Widerstände'+'</li>'+
+                        '<li>'+'Der äquivalente elektrische Widerstand und die äquivalente elektromotorische Spannung entsprechen der Reihen-/Parallelschaltung mehrerer elektrischer Generatoren'+'</li>'),
+        "energieRez": ('<li>'+'Der Ausdruck der Energie, die der Generator in einem Zeitintervall an den Verbraucher überträgt'+'</li>'+
+                        '<li>'+'Ausdruck der im Generator abgegebenen Energie'+'</li>'+
+                        '<li>'+'Der Wirkungsgrad eines einfachen Stromkreises'+'</li>'+
+                        '<li>'+'Elektrische Energie, Beziehungen, die elektrische Energie charakterisieren'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optisch",
+        "geometricaTitle": "Geometrische Optik",
+        "ondulatorieTitle": "Wellenoptik",
+        "cuanticaTitle": "Elemente der Quantenphysik",
+        "geometricaTitleModal": "Geometrische Optik",
+        "ondulatorieTitleModal": "Wellenoptik",
+        "cuanticaTitleModal": "Elemente der Quantenphysik",
+        "geometricaRez": ('<li>'+'Lichtreflexion'+'</li>'+
+                            '<li>'+'Lichtbrechung'+'</li>'+
+                            '<li>'+'Die Gesetze der Reflexion'+'</li>'+
+                            '<li>'+'Die Brechungsgesetze'+'</li>'+
+                            '<li>'+'Brechungsindex'+'</li>'+
+                            '<li>'+'Konjugierte Punkte'+'</li>'+
+                            '<li>'+'Paraxiale Faszikel'+'</li>'+
+                            '<li>'+'Reale/virtuelle Bilder'+'</li>'+
+                            '<li>'+'Optische Linse'+'</li>'+
+                            '<li>'+'Die charakteristischen Elemente einer dünnen Linse (Achsen, optisches Zentrum, Brennpunkte)'+'</li>'+
+                            '<li>'+'Konvergenz einer dünnen Linse'+'</li>'+
+                            '<li>'+'Formeln für dünne Linsen'+'</li>'+
+                            '<li>'+'Bilder realer/virtueller Objekte in dünnen Linsen'+'</li>'+
+                            '<li>'+'Linsensysteme'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Bedingungen für den Erhalt stationärer Interferenzen'+'</li>'+
+                            '<li>'+'Die Wellenlänge'+'</li>'+
+                            '<li>'+'Komponenten von Youngs Gerät'+'</li>'+
+                            '<li>'+'Interferenzstreifen'+'</li>'+
+                            '<li>'+'Optischer Wegunterschied'+'</li>'+
+                            '<li>'+'Maximale und minimale Interferenzbedingungen'+'</li>'+
+                            '<li>'+'Eingreifen'+'</li>'),
+        "cuanticaRez": ('<li>'+'Die Gesetze des äußeren photoelektrischen Effekts'+'</li>'+
+                        '<li>'+'Plancks Hypothese. Einsteins Hypothese. Einsteins Gleichung'+'</li>'+
+                        '<li>'+'Interpretation der Gesetze des externen photoelektrischen Effekts'+'</li>'),
 
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
         "inchideBtn": "Auflegen",
@@ -742,21 +974,69 @@ var data = {
         "principiuIIRez": ('<li>'+'Le cycle Carnot, l\'efficacité du cycle Carnot'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Électromécanique",
+        "curentulTitle": "Électricité",
+        "ohmTitle": "La loi d'Ohm",
+        "kirchhoffTitle": "La loi de Kirchhoff",
+        "grupareTitle": "Regroupement de résistances et de générateurs",
+        "energieTitle": "Énergie et puissance électrique",
+        "curentulTitleModal": "Électricité",
+        "ohmTitleModal": "La loi d'Ohm",
+        "kirchhoffTitleModal": "La loi de Kirchhoff",
+        "grupareTitleModal": "Regroupement de résistances et de générateurs",
+        "energieTitleModal": "Énergie et puissance électrique",
+        "curentulRez": ('<li>'+'Électricité'+'</li>'+
+                        '<li>'+'L\'intensité du courant électrique'+'</li>'+
+                        '<li>'+'L\'unité de mesure de l\'intensité du courant électrique'+'</li>'+
+                        '<li>'+'Circuit électrique simple'+'</li>'+
+                        '<li>'+'La tension électromotrice d\'un générateur électrique, la tension aux bornes du générateur, la chute de tension à l\'intérieur du générateur'+'</li>'),
+        "ohmRez": ('<li>'+'Résistance électrique'+'</li>'+
+                    '<li>'+'Loi d\'Ohm pour une partie d\'un circuit et pour l\'ensemble du circuit'+'</li>'+
+                    '<li>'+'L\'unité de mesure de la résistance électrique'+'</li>'+
+                    '<li>'+'Résistance électrique, dépendance de la résistivité électrique à la température'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Le réseau électrique'+'</li>'+
+                        '<li>'+'Le noeud du réseau'+'</li>'+
+                        '<li>'+'L\'oeil du réseau'+'</li>'+
+                        '<li>'+'Les lois de Kirchhoff'+'</li>'),
+        "grupareRez": ('<li>'+'La résistance électrique équivalente d\'un groupement série, parallèle ou mixte de plusieurs résistances'+'</li>'+
+                        '<li>'+'La résistance électrique équivalente et la tension électromotrice équivalente correspondant au regroupement série/parallèle de plusieurs générateurs électriques'+'</li>'),
+        "energieRez": ('<li>'+'L\'expression de l\'énergie transmise par le générateur au consommateur dans un intervalle de temps'+'</li>'+
+                        '<li>'+'Expression de l\'énergie dissipée à l\'intérieur du générateur'+'</li>'+
+                        '<li>'+'L\'efficacité d\'un simple circuit électrique'+'</li>'+
+                        '<li>'+'L\'énergie électrique, les relations qui caractérisent l\'énergie électrique'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optique",
+        "geometricaTitle": "Optique géométrique",
+        "ondulatorieTitle": "Optique ondulatoire",
+        "cuanticaTitle": "Éléments de physique quantique",
+        "geometricaTitleModal": "Optique géométrique",
+        "ondulatorieTitleModal": "Optique ondulatoire",
+        "cuanticaTitleModal": "Éléments de physique quantique",
+        "geometricaRez": ('<li>'+'Réflexion de la lumière'+'</li>'+
+                            '<li>'+'Réfraction de la lumière'+'</li>'+
+                            '<li>'+'Les lois de la réflexion'+'</li>'+
+                            '<li>'+'Les lois de la réfraction'+'</li>'+
+                            '<li>'+'Indice de réfraction'+'</li>'+
+                            '<li>'+'Points conjugués'+'</li>'+
+                            '<li>'+'Fascicules paraxiaux'+'</li>'+
+                            '<li>'+'Images réelles/virtuelles'+'</li>'+
+                            '<li>'+'Lentille optique'+'</li>'+
+                            '<li>'+'Les éléments caractéristiques d\'une lentille mince (axes, centre optique, foyers)'+'</li>'+
+                            '<li>'+'Convergence d\'une lentille mince'+'</li>'+
+                            '<li>'+'Formules de lentilles fines'+'</li>'+
+                            '<li>'+'Images d\'objets réels/virtuels dans des lentilles fines'+'</li>'+
+                            '<li>'+'Systèmes de lentilles'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Conditions d\'obtention d\'interférences stationnaires'+'</li>'+
+                            '<li>'+'La longueur d\'onde'+'</li>'+
+                            '<li>'+'Composants de l\'appareil de Young'+'</li>'+
+                            '<li>'+'Franges d\'interférence'+'</li>'+
+                            '<li>'+'Différence de chemin optique'+'</li>'+
+                            '<li>'+'Conditions d\'interférence maximales et minimales'+'</li>'+
+                            '<li>'+'Interfrange'+'</li>'),
+        "cuanticaRez": ('<li>'+'Les lois de l\'effet photoélectrique externe'+'</li>'+
+                        '<li>'+'L\'hypothèse de Planck. L\'hypothèse d\'Einstein. L\'équation d\'Einstein'+'</li>'+
+                        '<li>'+'Interprétation des lois de l\'effet photoélectrique externe'+'</li>'),
 
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
@@ -850,21 +1130,69 @@ var data = {
         "principiuIIRez": ('<li>'+'Цикл Карно, эффективность цикла Карно'+'</li>'),
 
         //electromecanica.html
-        "electromecanicaTitle": "Electromecanică",
-        "curentulTitle": "Curentul electric",
-        "ohmTitle": "Legea lui Ohm",
-        "kirchhoffTitle": "Legea lui Kirchhoff",
-        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
-        "energieTitle": "Energia și puterea electrică",
-        "curentulTitleModal": "Curentul electric",
-        "ohmTitleModal": "Legea lui Ohm",
-        "kirchhoffTitleModal": "Legea lui Kirchhoff",
-        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
-        "energieTitleModal": "Energia și puterea electrică",
-        "curentulRez": "",
-        "ohmRez": "",
-        "kirchhoffRez": "",
-        "grupareRez": "",
+        "electromecanicaTitle": "Электромеханический",
+        "curentulTitle": "Электричество",
+        "ohmTitle": "Закон Ома",
+        "kirchhoffTitle": "Закон Кирхгофа",
+        "grupareTitle": "Группировка резисторов и генераторов",
+        "energieTitle": "Энергетика и электроэнергия",
+        "curentulTitleModal": "Электричество",
+        "ohmTitleModal": "Закон Ома",
+        "kirchhoffTitleModal": "Закон Кирхгофа",
+        "grupareTitleModal": "Группировка резисторов и генераторов",
+        "energieTitleModal": "Энергетика и электроэнергия",
+        "curentulRez": ('<li>'+'Электричество'+'</li>'+
+                        '<li>'+'Интенсивность электрического тока'+'</li>'+
+                        '<li>'+'Единица измерения силы электрического тока'+'</li>'+
+                        '<li>'+'Простая электрическая схема'+'</li>'+
+                        '<li>'+'Электродвижущее напряжение электрогенератора, напряжение на клеммах генератора, падение напряжения внутри генератора'+'</li>'),
+        "ohmRez": ('<li>'+'Электрическое сопротивление'+'</li>'+
+                    '<li>'+'Закон Ома для части цепи и для всей цепи'+'</li>'+
+                    '<li>'+'Единица измерения электрического сопротивления'+'</li>'+
+                    '<li>'+'Электрическое сопротивление, зависимость удельного электросопротивления от температуры'+'</li>'),
+        "kirchhoffRez": ('<li>'+'Электрическая сеть'+'</li>'+
+                        '<li>'+'Сетевой узел'+'</li>'+
+                        '<li>'+'Сетевой глаз'+'</li>'+
+                        '<li>'+'Законы Кирхгофа'+'</li>'),
+        "grupareRez": ('<li>'+'Эквивалентное электрическое сопротивление последовательной, параллельной или смешанной группы нескольких резисторов.'+'</li>'+
+                        '<li>'+'Эквивалентное электрическое сопротивление и эквивалентное электродвижущее напряжение, соответствующее последовательному/параллельному соединению нескольких электрических генераторов.'+'</li>'),
+        "energieRez": ('<li>'+'Выражение энергии, передаваемой генератором потребителю за интервал времени'+'</li>'+
+                        '<li>'+'Выражение энергии, рассеиваемой внутри генератора'+'</li>'+
+                        '<li>'+'КПД простой электрической цепи'+'</li>'+
+                        '<li>'+'Электроэнергия, отношения, характеризующие электроэнергию'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Оптический",
+        "geometricaTitle": "Геометрическая оптика",
+        "ondulatorieTitle": "Волновая оптика",
+        "cuanticaTitle": "Элементы квантовой физики",
+        "geometricaTitleModal": "Геометрическая оптика",
+        "ondulatorieTitleModal": "Волновая оптика",
+        "cuanticaTitleModal": "Элементы квантовой физики",
+        "geometricaRez": ('<li>'+'Отражение света'+'</li>'+
+                            '<li>'+'Преломление света'+'</li>'+
+                            '<li>'+'Законы отражения'+'</li>'+
+                            '<li>'+'Законы преломления'+'</li>'+
+                            '<li>'+'Показатель преломления'+'</li>'+
+                            '<li>'+'Сопряженные точки'+'</li>'+
+                            '<li>'+'Параксиальные пучки'+'</li>'+
+                            '<li>'+'Реальные/виртуальные изображения'+'</li>'+
+                            '<li>'+'Оптическая линза'+'</li>'+
+                            '<li>'+'Характерные элементы тонкой линзы (оси, оптический центр, фокусы)'+'</li>'+
+                            '<li>'+'Конвергенция тонкой линзы'+'</li>'+
+                            '<li>'+'Формулы тонких линз'+'</li>'+
+                            '<li>'+'Изображения реальных/виртуальных объектов в тонких линзах'+'</li>'+
+                            '<li>'+'Системы линз'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Условия получения стационарных помех'+'</li>'+
+                            '<li>'+'Длина волны'+'</li>'+
+                            '<li>'+'Компоненты устройства Янга'+'</li>'+
+                            '<li>'+'Интерференционные полосы'+'</li>'+
+                            '<li>'+'Оптическая разность путей'+'</li>'+
+                            '<li>'+'Максимальные и минимальные условия помех'+'</li>'+
+                            '<li>'+'Интербаринг'+'</li>'),
+        "cuanticaRez": ('<li>'+'Законы внешнего фотоэффекта'+'</li>'+
+                        '<li>'+'Гипотеза Планка. Гипотеза Эйнштейна. Уравнение Эйнштейна'+'</li>'+
+                        '<li>'+'Интерпретация законов внешнего фотоэффекта'+'</li>'),
 
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
         "inchideBtn": "Вешать трубку",
