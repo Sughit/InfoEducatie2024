@@ -10,6 +10,7 @@
     <!--Our files-->
     <link rel="stylesheet" href="./style.css">
     <script defer href="./index.js"></script>
+    <script defer src="./languages/langIndex.js"></script>
     <script defer href="./sw.js"></script>
 
     <title>Electromecanică</title>
@@ -21,15 +22,17 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">
-                        <font style="font-family: Comic Sans MS;" color=white>
+                        <font style="font-family: Comic Sans MS;" color=white id="curentulTitleModal">
                             Curentul electric
                         </font>
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:<br>
-                        <ul>
+                    </font>
+                    <font style="font-family: Comic Sans MS;" color="white">
+                        <ul id="curentulRez">
                             <li>Curentul electric</li>
                             <li>Intensitatea curentului electric</li>
                             <li>Unitatea de măsură a intensității curentului electri</li>
@@ -40,19 +43,19 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa">
+                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieElectromecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers">
+                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers">
+                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers" id="testBtn">
                             Începe un test
                         </font>
                     </button>
@@ -67,15 +70,17 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">
-                        <font style="font-family: Comic Sans MS;" color=white>
+                        <font style="font-family: Comic Sans MS;" color=white id="ohmTitleModal">
                             Legea lui Ohm
                         </font>
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:<br>
-                        <ul>
+                    </font>
+                    <font>
+                        <ul id="ohmRez">
                             <li>Rezistența electrică</li>
                             <li>Legea lui Ohm pentru o porțiune de circuit și pentru întreg circuitul</li>
                             <li>Unitatea de măsură pentru rezistența electrică</li>
@@ -85,19 +90,19 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa">
+                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieElectromecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers">
+                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers">
+                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers" id="testBtn">
                             Începe un test
                         </font>
                     </button>
@@ -112,15 +117,17 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">
-                        <font style="font-family: Comic Sans MS;" color=white>
+                        <font style="font-family: Comic Sans MS;" color=white id="kirchhoffTitleModal">
                             Legea lui Kirchhoff
                         </font>
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:<br>
-                        <ul>
+                    </font>
+                    <font>
+                        <ul id="kirchhoffRez">
                             <li>Rețeaua electrică</li>
                             <li>Nodul de rețea</li>
                             <li>Ochiul de rețea</li>
@@ -130,19 +137,19 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa">
+                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieElectromecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers">
+                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers">
+                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers" id="testBtn">
                             Începe un test
                         </font>
                     </button>
@@ -157,15 +164,17 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">
-                        <font style="font-family: Comic Sans MS;" color=white>
+                        <font style="font-family: Comic Sans MS;" color=white id="grupareTitleModal">
                             Gruparea rezistoarelor și generatoarelor
                         </font>
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:<br>
-                        <ul>
+                    </font>
+                    <font>
+                        <ul id="grupareRez">
                             <li>Rezistența electrică echivalentă a grupării serie, paralel sau mixtă a mai multor rezistori</li>
                             <li>Rezistența electrică echivalentă și tensiunea electromotoare echivalentă corespunzătoare grupării serie/paralel a mai multor generatoare electrice</li>
                         </ul>
@@ -173,19 +182,19 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa">
+                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieElectromecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers">
+                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers">
+                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers" id="testBtn">
                             Începe un test
                         </font>
                     </button>
@@ -200,15 +209,17 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">
-                        <font style="font-family: Comic Sans MS;" color=white>
+                        <font style="font-family: Comic Sans MS;" color=white id="energieTitleModal">
                             Energia și puterea electrică
                         </font>
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:<br>
-                        <ul>
+                    </font>
+                    <font>
+                        <ul id="energieRez">
                             <li>Expresia energiei transmise de generator consumatorului într-un interval de timp</li>
                             <li>Expresia energiei disipate în interiorul generatorului</li>
                             <li>Randamentul unui circuit electric simplu</li>
@@ -218,19 +229,19 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn" data-bs-dismiss="modal" style=" background-color: #38666c;">
-                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa">
+                        <font style="font-family: Comic Sans MS;" color="white"class = "buton-clasa" id="inchideBtn">
                             Închide
                         </font>
                     </button>
                     <a href="teorieElectromecanica.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers">
+                            <font style="font-family: Comic Sans MS;" color="black" class = "buton-clasa-invers" id="teorieBtn">
                                 Teorie
                             </font>
                         </button>
                     </a>
                     <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
-                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers">
+                        <font style="font-family: Comic Sans MS;" color="black " class = "buton-clasa-invers" id="testBtn">
                             Începe un test
                         </font>
                     </button>
@@ -244,7 +255,7 @@
         <font style="font-family: Comic Sans MS;" color="white" size="50">
             FIZIX
         </font>
-        <font style="font-family: Comic Sans MS;" color="white" size="7">
+        <font style="font-family: Comic Sans MS;" color="white" size="7" id="electromecanicaTitle">
             <b>Electromecanică</b>
         </font>
     </p><br><br>
@@ -252,33 +263,33 @@
     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
         <p align="center">
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 20%; background-color: #468189;" data-bs-toggle="modal" data-bs-target="#curentulModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6"class = "buton-clasa">
+                <font style="font-family: Comic Sans MS;" color="white" size="6"class = "buton-clasa" id="curentulTitle">
                     Curentul electric
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 20%; background-color: #77ACA2;" data-bs-toggle="modal" data-bs-target="#ohmModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa">
+                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa" id="ohmTitle">
                     Legea lui Ohm
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 20%; background-color: #8CB6B0;" data-bs-toggle="modal" data-bs-target="#kirchhoffModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa">
+                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa" id="kirchhoffTitle">
                     Legea lui Kirchhoff
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #9DBEBB;" data-bs-toggle="modal" data-bs-target="#grupareModal">
-                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers">
+                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers" id="grupareTitle">
                     Gruparea rezistoarelor si generatoarelor
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 275px; width: 75%; height: 30%; background-color: #bce4e1;" data-bs-toggle="modal" data-bs-target="#energieModal">
-                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers">
+                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers" id="energieTitle">
                     Energia și puterea electrică
                 </font>
             </button><br><br>
             <a href="index.html" style="position: relative; bottom: 3%; top: 1%;" class="pb-3">
                 <button type="button" class="btn btn-lg btn-block" style="justify-content: center; min-width: 275px; width: 45%; height: 8%; background-color: #F4E9CD;">
-                    <font style="font-family: Comic Sans MS;" color="black" size="5" class = "buton-clasa-invers">
+                    <font style="font-family: Comic Sans MS;" color="black" size="5" class = "buton-clasa-invers" id="acasaBtn">
                         Acasă
                     </font>
                 </button>

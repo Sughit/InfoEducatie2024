@@ -71,6 +71,24 @@ function loadLanguages(attr)
     const motoareRez = document.getElementById('motoareRez');
     const principiuIIRez = document.getElementById('principiuIIRez');
 
+    //variabile din electromecanica.html
+    const electromecanicaTitle = document.getElementById('electromecanicaTitle');
+    const curentulTitle = document.getElementById('curentulTitle');
+    const ohmTitle = document.getElementById('ohmTitle');
+    const kirchhoffTitle = document.getElementById('kirchhoffTitle');
+    const grupareTitle = document.getElementById('grupareTitle');
+    const energieTitle = document.getElementById('energieTitle');
+    const curentulTitleModal = document.getElementById('curentulTitleModal');
+    const ohmTitleModal = document.getElementById('ohmTitleModal');
+    const kirchhoffTitleModal = document.getElementById('kirchhoffTitleModal');
+    const grupareTitleModal = document.getElementById('grupareTitleModal');
+    const energieTitleModal = document.getElementById('energieTitleModal');
+    const curentulRez = document.getElementById('curentulRez');
+    const ohmRez = document.getElementById('ohmRez');
+    const kirchhoffRez = document.getElementById('kirchhoffRez');
+    const grupareRez = document.getElementById('grupareRez');
+    const energieRez = document.getElementById('energieRez');
+
     //variabile comune din cele 4 fisiere index
     const invataTitle = document.querySelectorAll('#invataTitle');
     const inchideBtn = document.querySelectorAll('#inchideBtn');
@@ -114,7 +132,7 @@ function loadLanguages(attr)
         footerLogBtn.textContent = data[attr].footerLogBtn;
     }
 
-    //macanica.html
+    //mecanica.html
     if(window.location.pathname == "/mecanica.html")
     {
         mecanicaTitle.textContent = data[attr].mecanicaTitle;
@@ -169,11 +187,46 @@ function loadLanguages(attr)
         });
         acasaBtn.textContent = data[attr].acasaBtn;
     }
+
+    //electromecanica.html
+    if(window.location.pathname == "/electromecanica.html")
+    {
+        electromecanicaTitle.textContent = data[attr].electromecanicaTitle;
+        curentulTitle.textContent = data[attr].curentulTitle;
+        ohmTitle.textContent = data[attr].ohmTitle;
+        kirchhoffTitle.textContent = data[attr].kirchhoffTitle;
+        grupareTitle.textContent = data[attr].grupareTitle;
+        energieTitle.textContent = data[attr].energieTitle;
+        curentulTitleModal.textContent = data[attr].curentulTitleModal;
+        ohmTitleModal.textContent = data[attr].ohmTitleModal;
+        kirchhoffTitleModal.textContent = data[attr].kirchhoffTitleModal;
+        grupareTitleModal.textContent = data[attr].grupareTitleModal;
+        energieTitleModal.textContent = data[attr].energieTitleModal;
+        curentulRez.textContent = data[attr].curentulRez;
+        ohmRez.textContent = data[attr].ohmRez;
+        kirchhoffRez.textContent = data[attr].kirchhoffRez;
+        grupareRez.textContent = data[attr].grupareRez;
+        energieRez.textContent = data[attr].energieRez;
+        invataTitle.forEach(el => {
+            el.textContent = data[attr].invataTitle;
+        });
+        inchideBtn.forEach(el => {
+            el.textContent = data[attr].inchideBtn;
+        });
+        teorieBtn.forEach(el => {
+            el.textContent = data[attr].teorieBtn;
+        });
+        testBtn.forEach(el => {
+            el.textContent = data[attr].testBtn;
+        });
+        acasaBtn.textContent = data[attr].acasaBtn;
+    }
 }
 
 var data = {
     "engleza":
     {
+        //index.html
         "titleSet": "Settings",
         "titleLogin": "Log in",
         "titleLang": "Languages",
@@ -182,6 +235,7 @@ var data = {
         "titleElec": "Electromechanics",
         "titleOp": "Optics",
 
+        //register.html
         "goBackReg": "go back",
         "titleReg": "Enter your registration credentials",
         "emailReg": "Enter your email",
@@ -190,6 +244,7 @@ var data = {
         "footerReg": "Already have an account?",
         "footerRegBtn": "Log in",
 
+        //login.html
         "goBackLog": "go back",
         "titleLog": "Enter your login credentials",
         "emailLog": "Enter your email",
@@ -198,6 +253,7 @@ var data = {
         "footerLog": "Not registered?",
         "footerLogBtn": "Create an account",
 
+        //mecanica.html
         "mecanicaTitle": "Mechanics",
         "principiiTitle": "Principles and laws",
         "teoremeTitle": "Variation theorems and conservation laws",
@@ -216,6 +272,7 @@ var data = {
                         '<li>'+'The momentum variation theorem'+'</li>'+
                         '<li>'+'Law of conservation of momentum'+'</li>'),
 
+        //termodinamica.html
         "termodinamicaTitle": "Thermodynamics",
         "notiuniTitle": "Getting started",
         "principiuITitle": "The first principle",
@@ -252,6 +309,23 @@ var data = {
                     '<li>'+'The efficiency of a heat engine'+'</li>'),
         "principiuIIRez": ('<li>'+'The Carnot cycle, the efficiency of the Carnot cycle'+'</li>'),
 
+        //electromecanica.html
+        "electromecanicaTitle": "Electromecanică",
+        "curentulTitle": "Curentul electric",
+        "ohmTitle": "Legea lui Ohm",
+        "kirchhoffTitle": "Legea lui Kirchhoff",
+        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
+        "energieTitle": "Energia și puterea electrică",
+        "curentulTitleModal": "Curentul electric",
+        "ohmTitleModal": "Legea lui Ohm",
+        "kirchhoffTitleModal": "Legea lui Kirchhoff",
+        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
+        "energieTitleModal": "Energia și puterea electrică",
+        "curentulRez": "",
+        "ohmRez": "",
+        "kirchhoffRez": "",
+        "grupareRez": "",
+
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
         "teorieBtn": "Theory",
@@ -260,6 +334,7 @@ var data = {
     },
     "romana":
     {
+        //index.html
         "titleSet": "Setări",
         "titleLogin": "Conectează-te",
         "titleLang": "Limbi",
@@ -268,7 +343,8 @@ var data = {
         "titleElec": "Electromecanică",
         "titleOp": "Optică",
 
-        "goBackReg": "înapoit",
+        //register.html
+        "goBackReg": "înapoi",
         "titleReg": "Introduceți acreditările dvs. de înregistrare",
         "emailReg": "Introduceți adresa dvs. de email",
         "passwordReg": "Introduceți parola",
@@ -276,6 +352,7 @@ var data = {
         "footerReg": "Deja aveți un cont?",
         "footerRegBtn": "Conectați-vă",
 
+        //login.html
         "goBackLog": "înapoi",
         "titleLog": "Introduceți datele dvs. de conectare",
         "emailLog": "Introduceți adresa dvs. de email",
@@ -284,6 +361,7 @@ var data = {
         "footerLog": "Nu sunteți înregistrat?",
         "footerLogBtn": "Creați un cont",
 
+        //mecanica.html
         "mecanicaTitle": "Mecanică",
         "principiiTitle": "Principii și legi",
         "teoremeTitle": "Teoreme de variație și legi de conservare",
@@ -302,6 +380,7 @@ var data = {
                         '<li>'+'Teorema variației impulsului'+'</li>'+
                         '<li>'+'Legea conservării impulsului'+'</li>'),
 
+        //termodinamica.html
         "termodinamicaTitle": "Termodinamică",
         "notiuniTitle": "Noțiuni de bază",
         "principiuITitle": "Principiul I",
@@ -338,6 +417,23 @@ var data = {
                     '<li>'+'Randamentul unui motor termic'+'</li>'),
         "principiuIIRez": ('<li>'+'Ciclul Carnot, randamentul ciclului Carnot'+'</li>'),
 
+        //electromecanica.html
+        "electromecanicaTitle": "Electromecanică",
+        "curentulTitle": "Curentul electric",
+        "ohmTitle": "Legea lui Ohm",
+        "kirchhoffTitle": "Legea lui Kirchhoff",
+        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
+        "energieTitle": "Energia și puterea electrică",
+        "curentulTitleModal": "Curentul electric",
+        "ohmTitleModal": "Legea lui Ohm",
+        "kirchhoffTitleModal": "Legea lui Kirchhoff",
+        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
+        "energieTitleModal": "Energia și puterea electrică",
+        "curentulRez": "",
+        "ohmRez": "",
+        "kirchhoffRez": "",
+        "grupareRez": "",
+
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
         "teorieBtn": "Teorie",
@@ -346,6 +442,7 @@ var data = {
     },
     "maghiara":
     {
+        //index.html
         "titleSet": "Beállítások",
         "titleLogin": "Bejelentkezés",
         "titleLang": "Nyelvek",
@@ -354,6 +451,7 @@ var data = {
         "titleElec": "Elektromechanikai",
         "titleOp": "Optikai",
 
+        //register.html
         "goBackReg": "vissza",
         "titleReg": "Adja meg regisztrációs hitelesítő adatait",
         "emailReg": "Írd be az email címed",
@@ -362,6 +460,7 @@ var data = {
         "footerReg": "Már van fiókja?",
         "footerRegBtn": "Bejelentkezés",
 
+        //login.html
         "goBackLog": "vissza",
         "titleLog": "Adja meg bejelentkezési adatait",
         "emailLog": "Írd be az email címed",
@@ -370,6 +469,7 @@ var data = {
         "footerLog": "Nem regisztrált?",
         "footerLogBtn": "Hozzon létre egy fiókot",
 
+        //mecanica.html
         "mecanicaTitle": "Mechanika",
         "principiiTitle": "Elvek és törvények",
         "teoremeTitle": "Variációs tételek és megmaradási törvények",
@@ -388,6 +488,7 @@ var data = {
                         '<li>'+'Az impulzusváltozás tétele'+'</li>'+
                         '<li>'+'A lendület megmaradásának törvénye'+'</li>'),
 
+        //termodinamica.html
         "termodinamicaTitle": "Termodinamika",
         "notiuniTitle": "Elkezdeni",
         "principiuITitle": "I. alapelv",
@@ -424,6 +525,23 @@ var data = {
                     '<li>'+'A hőmotor hatásfoka'+'</li>'),
         "principiuIIRez": ('<li>'+'A Carnot-ciklus, a Carnot-ciklus hatékonysága'+'</li>'),
 
+        //electromecanica.html
+        "electromecanicaTitle": "Electromecanică",
+        "curentulTitle": "Curentul electric",
+        "ohmTitle": "Legea lui Ohm",
+        "kirchhoffTitle": "Legea lui Kirchhoff",
+        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
+        "energieTitle": "Energia și puterea electrică",
+        "curentulTitleModal": "Curentul electric",
+        "ohmTitleModal": "Legea lui Ohm",
+        "kirchhoffTitleModal": "Legea lui Kirchhoff",
+        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
+        "energieTitleModal": "Energia și puterea electrică",
+        "curentulRez": "",
+        "ohmRez": "",
+        "kirchhoffRez": "",
+        "grupareRez": "",
+
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
         "inchideBtn": "Rakd le",
         "teorieBtn": "Elmélet",
@@ -432,6 +550,7 @@ var data = {
     },
     "germana":
     {
+        //index.html
         "titleSet": "Einstellungen",
         "titleLogin": "Anmelden",
         "titleLang": "Fremdsprachen",
@@ -440,6 +559,7 @@ var data = {
         "titleElec": "Elektromechanisch",
         "titleOp": "Optisch",
 
+        //register.html
         "goBackReg": "zurück",
         "titleReg": "Geben Sie Ihre Anmeldedaten ein",
         "emailReg": "Geben sie ihre E-Mailadresse ein",
@@ -448,6 +568,7 @@ var data = {
         "footerReg": "Sie haben bereits ein Konto?",
         "footerRegBtn": "Anmelden",
 
+        //login.html
         "goBackLog": "zurück",
         "titleLog": "Geben Sie Ihre Anmeldedaten ein",
         "emailLog": "Geben sie ihre E-Mailadresse ein",
@@ -456,6 +577,7 @@ var data = {
         "footerLog": "Nicht registriert?",
         "footerLogBtn": "Ein Konto erstellen",
 
+        //mecanica.html
         "mecanicaTitle": "Mechanik",
         "principiiTitle": "Prinzipien und Gesetze",
         "teoremeTitle": "Variationssätze und Erhaltungssätze",
@@ -474,6 +596,7 @@ var data = {
                         '<li>'+'Der Impulsvariationssatz'+'</li>'+
                         '<li>'+'Gesetz der Impulserhaltung'+'</li>'),
 
+        //termodinamica.html
         "termodinamicaTitle": "Thermodynamik",
         "notiuniTitle": "Erste Schritte",
         "principiuITitle": "Prinzip I",
@@ -510,6 +633,23 @@ var data = {
                     '<li>'+'Der Wirkungsgrad einer Wärmekraftmaschine'+'</li>'),
         "principiuIIRez": ('<li>'+'Der Carnot-Zyklus, die Effizienz des Carnot-Zyklus'+'</li>'),
 
+        //electromecanica.html
+        "electromecanicaTitle": "Electromecanică",
+        "curentulTitle": "Curentul electric",
+        "ohmTitle": "Legea lui Ohm",
+        "kirchhoffTitle": "Legea lui Kirchhoff",
+        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
+        "energieTitle": "Energia și puterea electrică",
+        "curentulTitleModal": "Curentul electric",
+        "ohmTitleModal": "Legea lui Ohm",
+        "kirchhoffTitleModal": "Legea lui Kirchhoff",
+        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
+        "energieTitleModal": "Energia și puterea electrică",
+        "curentulRez": "",
+        "ohmRez": "",
+        "kirchhoffRez": "",
+        "grupareRez": "",
+
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
         "inchideBtn": "Auflegen",
         "teorieBtn": "Theorie",
@@ -518,6 +658,7 @@ var data = {
     },
     "franceza":
     {
+        //index.html
         "titleSet": "Paramètres",
         "titleLogin": "Se connecter",
         "titleLang": "Langues",
@@ -526,6 +667,7 @@ var data = {
         "titleElec": "Électromécanique",
         "titleOp": "Optique",
 
+        //register.html
         "goBackReg": "dos",
         "titleReg": "Entrez vos identifiants d'inscription",
         "emailReg": "Entrez votre adresse email",
@@ -534,6 +676,7 @@ var data = {
         "footerReg": "Vous avez déjà un compte?",
         "footerRegBtn": "Se connecter",
 
+        //login.html
         "goBackLog": "dos",
         "titleLog": "Entrez vos informations de connexion",
         "emailLog": "Entrez votre adresse email",
@@ -542,6 +685,7 @@ var data = {
         "footerLog": "Non enregistré?",
         "footerLogBtn": "Créer un compte",
 
+        //mecanica.html
         "mecanicaTitle": "Mécanique",
         "principiiTitle": "Principes et lois",
         "teoremeTitle": "Théorèmes de variation et lois de conservation",
@@ -560,6 +704,7 @@ var data = {
                         '<li>'+'Le théorème de variation de quantité de mouvement'+'</li>'+
                         '<li>'+'Loi de conservation de la quantité de mouvement'+'</li>'),
 
+        //termodinamica.html
         "termodinamicaTitle": "Thermodynamique",
         "notiuniTitle": "Commencer",
         "principiuITitle": "Principe I",
@@ -596,6 +741,23 @@ var data = {
                     '<li>'+'L\'efficacité d\'un moteur thermique'+'</li>'),
         "principiuIIRez": ('<li>'+'Le cycle Carnot, l\'efficacité du cycle Carnot'+'</li>'),
 
+        //electromecanica.html
+        "electromecanicaTitle": "Electromecanică",
+        "curentulTitle": "Curentul electric",
+        "ohmTitle": "Legea lui Ohm",
+        "kirchhoffTitle": "Legea lui Kirchhoff",
+        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
+        "energieTitle": "Energia și puterea electrică",
+        "curentulTitleModal": "Curentul electric",
+        "ohmTitleModal": "Legea lui Ohm",
+        "kirchhoffTitleModal": "Legea lui Kirchhoff",
+        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
+        "energieTitleModal": "Energia și puterea electrică",
+        "curentulRez": "",
+        "ohmRez": "",
+        "kirchhoffRez": "",
+        "grupareRez": "",
+
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
         "teorieBtn": "Théorie",
@@ -604,6 +766,7 @@ var data = {
     },
     "rusa":
     {
+        //index.html
         "titleSet": "Настройки",
         "titleLogin": "Bойти",
         "titleLang": "Конечность",
@@ -612,6 +775,7 @@ var data = {
         "titleElec": "Электромеханический",
         "titleOp": "Оптический",
 
+        //register.html
         "goBackReg": "Hазад",
         "titleReg": "",
         "emailReg": "Введите ваш адрес электронной почты",
@@ -620,6 +784,7 @@ var data = {
         "footerReg": "У вас уже есть аккаунт?",
         "footerRegBtn": "Войти",
 
+        //login.html
         "goBackLog": "Hазад",
         "titleLog": "Введите данные для входа",
         "emailLog": "Введите ваш адрес электронной почты",
@@ -628,6 +793,7 @@ var data = {
         "footerLog": "Не зарегистрирован?",
         "footerLogBtn": "Завести аккаунт",
 
+        //mecanica.html
         "mecanicaTitle": "Механика",
         "principiiTitle": "Принципы и законы",
         "teoremeTitle": "Вариационные теоремы и законы сохранения",
@@ -646,6 +812,7 @@ var data = {
                         '<li>'+'Теорема об изменении импульса'+'</li>'+
                         '<li>'+'Закон сохранения импульса'+'</li>'),
 
+        //termodinamica.html
         "termodinamicaTitle": "Термодинамика",
         "notiuniTitle": "начиная",
         "principiuITitle": "Принцип I",
@@ -681,6 +848,23 @@ var data = {
                     '<li>'+'Описание основных термодинамических циклов – Отто, Дизеля – на основе которых работают тепловые двигатели.'+'</li>'+
                     '<li>'+'КПД теплового двигателя'+'</li>'),
         "principiuIIRez": ('<li>'+'Цикл Карно, эффективность цикла Карно'+'</li>'),
+
+        //electromecanica.html
+        "electromecanicaTitle": "Electromecanică",
+        "curentulTitle": "Curentul electric",
+        "ohmTitle": "Legea lui Ohm",
+        "kirchhoffTitle": "Legea lui Kirchhoff",
+        "grupareTitle": "Gruparea rezistoarelor si generatoarelor",
+        "energieTitle": "Energia și puterea electrică",
+        "curentulTitleModal": "Curentul electric",
+        "ohmTitleModal": "Legea lui Ohm",
+        "kirchhoffTitleModal": "Legea lui Kirchhoff",
+        "grupareTitleModal": "Gruparea rezistoarelor și generatoarelor",
+        "energieTitleModal": "Energia și puterea electrică",
+        "curentulRez": "",
+        "ohmRez": "",
+        "kirchhoffRez": "",
+        "grupareRez": "",
 
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
         "inchideBtn": "Вешать трубку",
