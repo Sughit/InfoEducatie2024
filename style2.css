@@ -48,6 +48,26 @@ input::placeholder {
     font-family: Comic Sans MS;
 }
 
+.btn:hover 
+{
+    border-color: #285e8e;
+    border-width : 1.8px;
+    
+}
+.buton-clasa:hover 
+{
+    color: #000000;
+}
+.buton-clasa-invers:hover 
+{
+    color: #ffffff;
+}
+
+.font-log:hover 
+{
+    color: #000000;
+}
+
 
 input {
     display: block;
@@ -75,9 +95,15 @@ button {
     font-family: Comic Sans MS;
     font-size:1.3rem;
 }
+.submit:hover {
+    color: #000000;
+}
 .not {
     font-family: Comic Sans MS;
     font-size:1.2rem;
+}
+.not:hover {
+    color: #d33737;
 }
 .wrap {
     display: flex;
