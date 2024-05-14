@@ -89,6 +89,18 @@ function loadLanguages(attr)
     const grupareRez = document.getElementById('grupareRez');
     const energieRez = document.getElementById('energieRez');
 
+    //variabile din optica.html
+    const opticaTitle = document.getElementById('opticaTitle');
+    const geometricaTitle = document.getElementById('geometricaTitle');
+    const ondulatorieTitle = document.getElementById('ondulatorieTitle');
+    const cuanticaTitle = document.getElementById('cuanticaTitle');
+    const geometricaTitleModal = document.getElementById('geometricaTitleModal');
+    const ondulatorieTitleModal = document.getElementById('ondulatorieTitleModal');
+    const cuanticaTitleModal = document.getElementById('cuanticaTitleModal');
+    const geometricaRez = document.getElementById('geometricaRez');
+    const ondulatorieRez = document.getElementById('ondulatorieRez');
+    const cuanticaRez = document.getElementById('cuanticaRez');
+
     //variabile comune din cele 4 fisiere index
     const invataTitle = document.querySelectorAll('#invataTitle');
     const inchideBtn = document.querySelectorAll('#inchideBtn');
@@ -207,6 +219,34 @@ function loadLanguages(attr)
         kirchhoffRez.innerHTML = data[attr].kirchhoffRez;
         grupareRez.innerHTML = data[attr].grupareRez;
         energieRez.innerHTML = data[attr].energieRez;
+        invataTitle.forEach(el => {
+            el.textContent = data[attr].invataTitle;
+        });
+        inchideBtn.forEach(el => {
+            el.textContent = data[attr].inchideBtn;
+        });
+        teorieBtn.forEach(el => {
+            el.textContent = data[attr].teorieBtn;
+        });
+        testBtn.forEach(el => {
+            el.textContent = data[attr].testBtn;
+        });
+        acasaBtn.textContent = data[attr].acasaBtn;
+    }
+
+    //optica.html
+    if(window.location.pathname == "/optica.html")
+    {
+        opticaTitle.textContent = data[attr].opticaTitle;
+        geometricaTitle.textContent = data[attr].geometricaTitle;
+        ondulatorieTitle.textContent = data[attr].ondulatorieTitle;
+        cuanticaTitle.textContent = data[attr].cuanticaTitle;
+        geometricaTitleModal.textContent = data[attr].geometricaTitleModal;
+        ondulatorieTitleModal.textContent = data[attr].ondulatorieTitleModal;
+        cuanticaTitleModal.textContent = data[attr].cuanticaTitleModal;
+        geometricaRez.innerHTML = data[attr].geometricaRez;
+        ondulatorieRez.innerHTML = data[attr].ondulatorieRez;
+        cuanticaRez.innerHTML = data[attr].cuanticaRez;
         invataTitle.forEach(el => {
             el.textContent = data[attr].invataTitle;
         });
@@ -341,6 +381,39 @@ var data = {
                         '<li>'+'The efficiency of a simple electric circuit'+'</li>'+
                         '<li>'+'Electric power, relationships that characterize electric power'+'</li>'),
 
+        //optica.html
+        "opticaTitle": "Optics",
+        "geometricaTitle": "Geometric optics",
+        "ondulatorieTitle": "Wave optics",
+        "cuanticaTitle": "Elements of quantum physics",
+        "geometricaTitleModal": "Geometric optics",
+        "ondulatorieTitleModal": "Wave optics",
+        "cuanticaTitleModal": "Elements of quantum physics",
+        "geometricaRez": ('<li>'+'Light reflection'+'</li>'+
+                            '<li>'+'Refraction of light'+'</li>'+
+                            '<li>'+'The laws of reflection'+'</li>'+
+                            '<li>'+'The laws of refraction'+'</li>'+
+                            '<li>'+'Refractive index'+'</li>'+
+                            '<li>'+'Conjugate points'+'</li>'+
+                            '<li>'+'Fasciculele paraxiale'+'</li>'+
+                            '<li>'+'Real/virtual images'+'</li>'+
+                            '<li>'+'Optical lens'+'</li>'+
+                            '<li>'+'The characteristic elements of a thin lens (axes, optical center, foci)'+'</li>'+
+                            '<li>'+'Convergence of a thin lens'+'</li>'+
+                            '<li>'+'Thin lens formulas'+'</li>'+
+                            '<li>'+'Images of real/viral objects in thin lenses'+'</li>'+
+                            '<li>'+'Lens systems'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Conditions for obtaining stationary interference'+'</li>'+
+                            '<li>'+'The wavelength'+'</li>'+
+                            '<li>'+'Components of Young\'s device'+'</li>'+
+                            '<li>'+'Interference fringes'+'</li>'+
+                            '<li>'+'Optical path difference'+'</li>'+
+                            '<li>'+'Maximum and minimum interference conditions'+'</li>'+
+                            '<li>'+'Interfringe'+'</li>'),
+        "cuanticaRez": ('<li>'+'The laws of the external photoelectric effect'+'</li>'+
+                        '<li>'+'Planck\'s hypothesis. Einstein\'s hypothesis. Einstein\'s equation'+'</li>'+
+                        '<li>'+'Interpretation of the laws of the external photoelectric effect'+'</li>'),
+
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
         "teorieBtn": "Theory",
@@ -463,6 +536,39 @@ var data = {
                         '<li>'+'Expresia energiei disipate în interiorul generatorului'+'</li>'+
                         '<li>'+'Randamentul unui circuit electric simplu'+'</li>'+
                         '<li>'+'Puterea electrică, relații ce caracterizează puterea electrică'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optică",
+        "geometricaTitle": "Optica geometrică",
+        "ondulatorieTitle": "Optica ondulatorie",
+        "cuanticaTitle": "Elemente de fizică cuantică",
+        "geometricaTitleModal": "Optica geometrică",
+        "ondulatorieTitleModal": "Optica ondulatorie",
+        "cuanticaTitleModal": "Elemente de fizică cuantică",
+        "geometricaRez": ('<li>'+'Reflexia luminii'+'</li>'+
+                            '<li>'+'Refracția luminii'+'</li>'+
+                            '<li>'+'Legile reflexiei'+'</li>'+
+                            '<li>'+'Legile refracției'+'</li>'+
+                            '<li>'+'Indicele de refracție'+'</li>'+
+                            '<li>'+'Punctele conjugate'+'</li>'+
+                            '<li>'+'Fasciculele paraxiale'+'</li>'+
+                            '<li>'+'Imaginile reale/virtuale'+'</li>'+
+                            '<li>'+'Lentila optică'+'</li>'+
+                            '<li>'+'Elementele caracteristice ale unei lentile subțiri (axe, centru optic, focare)'+'</li>'+
+                            '<li>'+'Convergența unei lentile subțiri'+'</li>'+
+                            '<li>'+'Formulele lentilelor subțiri'+'</li>'+
+                            '<li>'+'Imaginile obiectelor reale/virtuale în lentile subțiri'+'</li>'+
+                            '<li>'+'Sisteme de lentile'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Condiții de obținere a interferenței staționare'+'</li>'+
+                            '<li>'+'Lungimea de undă'+'</li>'+
+                            '<li>'+'Elementele componente ale dispozitivului Young'+'</li>'+
+                            '<li>'+'Franje de interferență'+'</li>'+
+                            '<li>'+'Diferența de drum optic'+'</li>'+
+                            '<li>'+'Condițiile de maxim, respectiv de minim de interferență'+'</li>'+
+                            '<li>'+'Interfranja'+'</li>'),
+        "cuanticaRez": ('<li>'+'Legile efectului fotoelectric extern'+'</li>'+
+                        '<li>'+'Ipoteza lui Planck. Ipoteza lui Einstein. Ecuația lui Einstein'+'</li>'+
+                        '<li>'+'Interpretarea legilor efectului fotoelectric extern'+'</li>'),
 
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
@@ -587,6 +693,39 @@ var data = {
                         '<li>'+'Egy egyszerű elektromos áramkör hatásfoka'+'</li>'+
                         '<li>'+'Villamos teljesítmény, a villamos energiát jellemző összefüggések'+'</li>'),
 
+        //optica.html
+        "opticaTitle": "Optikai",
+        "geometricaTitle": "Geometrikus optika",
+        "ondulatorieTitle": "Hullám optika",
+        "cuanticaTitle": "A kvantumfizika elemei",
+        "geometricaTitleModal": "Geometrikus optika",
+        "ondulatorieTitleModal": "Hullám optika",
+        "cuanticaTitleModal": "A kvantumfizika elemei",
+        "geometricaRez": ('<li>'+'Fényvisszaverődés'+'</li>'+
+                            '<li>'+'Fénytörés'+'</li>'+
+                            '<li>'+'A tükrözés törvényei'+'</li>'+
+                            '<li>'+'A fénytörés törvényei'+'</li>'+
+                            '<li>'+'Törésmutató'+'</li>'+
+                            '<li>'+'Konjugált pontok'+'</li>'+
+                            '<li>'+'Paraxiális facsontok'+'</li>'+
+                            '<li>'+'Valós/virtuális képek'+'</li>'+
+                            '<li>'+'Optikai lencse'+'</li>'+
+                            '<li>'+'A vékony lencse jellemző elemei (tengelyek, optikai középpont, gócok)'+'</li>'+
+                            '<li>'+'Vékony lencse konvergenciája'+'</li>'+
+                            '<li>'+'Vékony lencse formulák'+'</li>'+
+                            '<li>'+'Valós/virtuális tárgyak képei vékony lencsékkel'+'</li>'+
+                            '<li>'+'Lencserendszerek'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Stacionárius interferencia keletkezésének feltételei'+'</li>'+
+                            '<li>'+'A hullámhossz'+'</li>'+
+                            '<li>'+'Young készülékének alkatrészei'+'</li>'+
+                            '<li>'+'Interferencia peremek'+'</li>'+
+                            '<li>'+'Optikai út különbség'+'</li>'+
+                            '<li>'+'Maximális és minimális interferencia feltételek'+'</li>'+
+                            '<li>'+'Interfringe'+'</li>'),
+        "cuanticaRez": ('<li>'+'A külső fotoelektromos hatás törvényei'+'</li>'+
+                        '<li>'+'Planck hipotézise. Einstein hipotézise. Einstein egyenlete'+'</li>'+
+                        '<li>'+'A külső fotoelektromos hatás törvényeinek értelmezése'+'</li>'),
+
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
         "inchideBtn": "Rakd le",
         "teorieBtn": "Elmélet",
@@ -709,6 +848,39 @@ var data = {
                         '<li>'+'Ausdruck der im Generator abgegebenen Energie'+'</li>'+
                         '<li>'+'Der Wirkungsgrad eines einfachen Stromkreises'+'</li>'+
                         '<li>'+'Elektrische Energie, Beziehungen, die elektrische Energie charakterisieren'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Optisch",
+        "geometricaTitle": "Geometrische Optik",
+        "ondulatorieTitle": "Wellenoptik",
+        "cuanticaTitle": "Elemente der Quantenphysik",
+        "geometricaTitleModal": "Geometrische Optik",
+        "ondulatorieTitleModal": "Wellenoptik",
+        "cuanticaTitleModal": "Elemente der Quantenphysik",
+        "geometricaRez": ('<li>'+'Lichtreflexion'+'</li>'+
+                            '<li>'+'Lichtbrechung'+'</li>'+
+                            '<li>'+'Die Gesetze der Reflexion'+'</li>'+
+                            '<li>'+'Die Brechungsgesetze'+'</li>'+
+                            '<li>'+'Brechungsindex'+'</li>'+
+                            '<li>'+'Konjugierte Punkte'+'</li>'+
+                            '<li>'+'Paraxiale Faszikel'+'</li>'+
+                            '<li>'+'Reale/virtuelle Bilder'+'</li>'+
+                            '<li>'+'Optische Linse'+'</li>'+
+                            '<li>'+'Die charakteristischen Elemente einer dünnen Linse (Achsen, optisches Zentrum, Brennpunkte)'+'</li>'+
+                            '<li>'+'Konvergenz einer dünnen Linse'+'</li>'+
+                            '<li>'+'Formeln für dünne Linsen'+'</li>'+
+                            '<li>'+'Bilder realer/virtueller Objekte in dünnen Linsen'+'</li>'+
+                            '<li>'+'Linsensysteme'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Bedingungen für den Erhalt stationärer Interferenzen'+'</li>'+
+                            '<li>'+'Die Wellenlänge'+'</li>'+
+                            '<li>'+'Komponenten von Youngs Gerät'+'</li>'+
+                            '<li>'+'Interferenzstreifen'+'</li>'+
+                            '<li>'+'Optischer Wegunterschied'+'</li>'+
+                            '<li>'+'Maximale und minimale Interferenzbedingungen'+'</li>'+
+                            '<li>'+'Eingreifen'+'</li>'),
+        "cuanticaRez": ('<li>'+'Die Gesetze des äußeren photoelektrischen Effekts'+'</li>'+
+                        '<li>'+'Plancks Hypothese. Einsteins Hypothese. Einsteins Gleichung'+'</li>'+
+                        '<li>'+'Interpretation der Gesetze des externen photoelektrischen Effekts'+'</li>'),
 
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
         "inchideBtn": "Auflegen",
@@ -833,6 +1005,39 @@ var data = {
                         '<li>'+'L\'efficacité d\'un simple circuit électrique'+'</li>'+
                         '<li>'+'L\'énergie électrique, les relations qui caractérisent l\'énergie électrique'+'</li>'),
 
+        //optica.html
+        "opticaTitle": "Optique",
+        "geometricaTitle": "Optique géométrique",
+        "ondulatorieTitle": "Optique ondulatoire",
+        "cuanticaTitle": "Éléments de physique quantique",
+        "geometricaTitleModal": "Optique géométrique",
+        "ondulatorieTitleModal": "Optique ondulatoire",
+        "cuanticaTitleModal": "Éléments de physique quantique",
+        "geometricaRez": ('<li>'+'Réflexion de la lumière'+'</li>'+
+                            '<li>'+'Réfraction de la lumière'+'</li>'+
+                            '<li>'+'Les lois de la réflexion'+'</li>'+
+                            '<li>'+'Les lois de la réfraction'+'</li>'+
+                            '<li>'+'Indice de réfraction'+'</li>'+
+                            '<li>'+'Points conjugués'+'</li>'+
+                            '<li>'+'Fascicules paraxiaux'+'</li>'+
+                            '<li>'+'Images réelles/virtuelles'+'</li>'+
+                            '<li>'+'Lentille optique'+'</li>'+
+                            '<li>'+'Les éléments caractéristiques d\'une lentille mince (axes, centre optique, foyers)'+'</li>'+
+                            '<li>'+'Convergence d\'une lentille mince'+'</li>'+
+                            '<li>'+'Formules de lentilles fines'+'</li>'+
+                            '<li>'+'Images d\'objets réels/virtuels dans des lentilles fines'+'</li>'+
+                            '<li>'+'Systèmes de lentilles'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Conditions d\'obtention d\'interférences stationnaires'+'</li>'+
+                            '<li>'+'La longueur d\'onde'+'</li>'+
+                            '<li>'+'Composants de l\'appareil de Young'+'</li>'+
+                            '<li>'+'Franges d\'interférence'+'</li>'+
+                            '<li>'+'Différence de chemin optique'+'</li>'+
+                            '<li>'+'Conditions d\'interférence maximales et minimales'+'</li>'+
+                            '<li>'+'Interfrange'+'</li>'),
+        "cuanticaRez": ('<li>'+'Les lois de l\'effet photoélectrique externe'+'</li>'+
+                        '<li>'+'L\'hypothèse de Planck. L\'hypothèse d\'Einstein. L\'équation d\'Einstein'+'</li>'+
+                        '<li>'+'Interprétation des lois de l\'effet photoélectrique externe'+'</li>'),
+
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
         "teorieBtn": "Théorie",
@@ -955,6 +1160,39 @@ var data = {
                         '<li>'+'Выражение энергии, рассеиваемой внутри генератора'+'</li>'+
                         '<li>'+'КПД простой электрической цепи'+'</li>'+
                         '<li>'+'Электроэнергия, отношения, характеризующие электроэнергию'+'</li>'),
+
+        //optica.html
+        "opticaTitle": "Оптический",
+        "geometricaTitle": "Геометрическая оптика",
+        "ondulatorieTitle": "Волновая оптика",
+        "cuanticaTitle": "Элементы квантовой физики",
+        "geometricaTitleModal": "Геометрическая оптика",
+        "ondulatorieTitleModal": "Волновая оптика",
+        "cuanticaTitleModal": "Элементы квантовой физики",
+        "geometricaRez": ('<li>'+'Отражение света'+'</li>'+
+                            '<li>'+'Преломление света'+'</li>'+
+                            '<li>'+'Законы отражения'+'</li>'+
+                            '<li>'+'Законы преломления'+'</li>'+
+                            '<li>'+'Показатель преломления'+'</li>'+
+                            '<li>'+'Сопряженные точки'+'</li>'+
+                            '<li>'+'Параксиальные пучки'+'</li>'+
+                            '<li>'+'Реальные/виртуальные изображения'+'</li>'+
+                            '<li>'+'Оптическая линза'+'</li>'+
+                            '<li>'+'Характерные элементы тонкой линзы (оси, оптический центр, фокусы)'+'</li>'+
+                            '<li>'+'Конвергенция тонкой линзы'+'</li>'+
+                            '<li>'+'Формулы тонких линз'+'</li>'+
+                            '<li>'+'Изображения реальных/виртуальных объектов в тонких линзах'+'</li>'+
+                            '<li>'+'Системы линз'+'</li>'),
+        "ondulatorieRez": ('<li>'+'Условия получения стационарных помех'+'</li>'+
+                            '<li>'+'Длина волны'+'</li>'+
+                            '<li>'+'Компоненты устройства Янга'+'</li>'+
+                            '<li>'+'Интерференционные полосы'+'</li>'+
+                            '<li>'+'Оптическая разность путей'+'</li>'+
+                            '<li>'+'Максимальные и минимальные условия помех'+'</li>'+
+                            '<li>'+'Интербаринг'+'</li>'),
+        "cuanticaRez": ('<li>'+'Законы внешнего фотоэффекта'+'</li>'+
+                        '<li>'+'Гипотеза Планка. Гипотеза Эйнштейна. Уравнение Эйнштейна'+'</li>'+
+                        '<li>'+'Интерпретация законов внешнего фотоэффекта'+'</li>'),
 
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
         "inchideBtn": "Вешать трубку",
