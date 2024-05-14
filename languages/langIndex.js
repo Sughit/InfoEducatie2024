@@ -51,6 +51,8 @@ function loadLanguages(attr)
     const mecanicaTitle = document.getElementById('mecanicaTitle');
     const principiiTitle = document.getElementById('principiiTitle');
     const teoremeTitle = document.getElementById('teoremeTitle');
+    const principiiTitleModal = document.getElementById('principiiTitleModal');
+    const teoremeTitleModal = document.getElementById('teoremeTitleModal');
     const principiiRez = document.getElementById('principiiRez');
     const teoremeRez = document.getElementById('teoremeRez');
 
@@ -59,7 +61,15 @@ function loadLanguages(attr)
     const notiuniTitle = document.getElementById('notiuniTitle');
     const principiuITitle = document.getElementById('principiuITitle');
     const motoareTitle = document.getElementById('motoareTitle');
-    const principiuIITitle = document.getElementById('principiuIITitle'); 
+    const principiuIITitle = document.getElementById('principiuIITitle');
+    const notiuniTitleModal = document.getElementById('notiuniTitleModal');
+    const principiuITitleModal = document.getElementById('principiuITitleModal');
+    const motoareTitleModal = document.getElementById('motoareTitleModal');
+    const principiuIITitleModal = document.getElementById('principiuIITitleModal'); 
+    const notiuniRez = document.getElementById('notiuniRez');
+    const principiuIRez = document.getElementById('principiuIRez');
+    const motoareRez = document.getElementById('motoareRez');
+    const principiuIIRez = document.getElementById('principiuIIRez');
 
     //variabile comune din cele 4 fisiere index
     const invataTitle = document.querySelectorAll('#invataTitle');
@@ -110,6 +120,8 @@ function loadLanguages(attr)
         mecanicaTitle.textContent = data[attr].mecanicaTitle;
         principiiTitle.textContent = data[attr].principiiTitle;
         teoremeTitle.textContent = data[attr].teoremeTitle;
+        principiiTitleModal.textContent = data[attr].principiiTitleModal;
+        teoremeTitleModal.textContent = data[attr].teoremeTitleModal;
         principiiRez.innerHTML = data[attr].principiiRez;
         teoremeRez.innerHTML = data[attr].teoremeRez;
         invataTitle.forEach(el => {
@@ -129,26 +141,34 @@ function loadLanguages(attr)
 
     //termodinamica.html
     if(window.location.pathname == "/termodinamica.html")
-        {
-            termodinamicaTitle.textContent = data[attr].termodinamicaTitle;
-            notiuniTitle.textContent = data[attr].notiuniTitle;
-            principiuITitle.textContent = data[attr].principiuITitle;
-            motoareTitle.textContent = data[attr].motoareTitle;
-            principiuIITitle.textContent = data[attr].principiuIITitle;
-            invataTitle.forEach(el => {
-                el.textContent = data[attr].invataTitle;
-            });
-            inchideBtn.forEach(el => {
-                el.textContent = data[attr].inchideBtn;
-            });
-            teorieBtn.forEach(el => {
-                el.textContent = data[attr].teorieBtn;
-            });
-            testBtn.forEach(el => {
-                el.textContent = data[attr].testBtn;
-            });
-            acasaBtn.textContent = data[attr].acasaBtn;
-        }
+    {
+        termodinamicaTitle.textContent = data[attr].termodinamicaTitle;
+        notiuniTitle.textContent = data[attr].notiuniTitle;
+        principiuITitle.textContent = data[attr].principiuITitle;
+        motoareTitle.textContent = data[attr].motoareTitle;
+        principiuIITitle.textContent = data[attr].principiuIITitle;
+        notiuniTitleModal.textContent = data[attr].notiuniTitleModal;
+        principiuITitleModal.textContent = data[attr].principiuITitleModal;
+        motoareTitleModal.textContent = data[attr].motoareTitleModal;
+        principiuIITitleModal.textContent = data[attr].principiuIITitleModal;
+        notiuniRez.innerHTML = data[attr].notiuniRez;
+        principiuIRez.innerHTML = data[attr].principiuIRez;
+        motoareRez.innerHTML = data[attr].motoareRez;
+        principiuIIRez.innerHTML = data[attr].principiuIIRez;
+        invataTitle.forEach(el => {
+            el.textContent = data[attr].invataTitle;
+        });
+        inchideBtn.forEach(el => {
+            el.textContent = data[attr].inchideBtn;
+        });
+        teorieBtn.forEach(el => {
+            el.textContent = data[attr].teorieBtn;
+        });
+        testBtn.forEach(el => {
+            el.textContent = data[attr].testBtn;
+        });
+        acasaBtn.textContent = data[attr].acasaBtn;
+    }
 }
 
 var data = {
@@ -181,6 +201,8 @@ var data = {
         "mecanicaTitle": "Mechanics",
         "principiiTitle": "Principles and laws",
         "teoremeTitle": "Variation theorems and conservation laws",
+        "principiiTitleModal": "Principles and laws of classical mechanics",
+        "teoremeTitleModal": "Variation theorems and conservation laws",
         "principiiRez": ('<li>'+'Movement and rest'+'</li>'+
                          '<li>'+'First principle of mechanics'+'</li>'+
                          '<li>'+'Second principle of mechanics'+'</li>'+
@@ -196,9 +218,39 @@ var data = {
 
         "termodinamicaTitle": "Thermodynamics",
         "notiuniTitle": "Getting started",
-        "pricipiuITitle": "The first principle",
-        "motoare": "Thermal engines",
+        "principiuITitle": "The first principle",
+        "motoareTitle": "Thermal engines",
         "principiuIITitle": "The second principle",
+        "notiuniTitleModal": "Basic concepts in thermodynamics",
+        "principiuITitleModal": "The first principle of thermodynamics",
+        "motoareTitleModal": "Thermal engines",
+        "principiuIITitleModal": "The second principle of thermodynamics",
+        "notiuniRez": ('<li>'+'Molecular mass'+'</li>'+
+                        '<li>'+'Relative molecular mass'+'</li>'+
+                        '<li>'+'Amount of substance'+'</li>'+
+                        '<li>'+'Molar mass'+'</li>'+
+                        '<li>'+'Molar volume'+'</li>'+
+                        '<li>'+'Avogadro\'s number'+'</li>'+
+                        '<li>'+'Thermal balance'+'</li>'+
+                        '<li>'+'Correspondence between numerical value of temperature in Celsius scale and numerical value x'+'</li>'),
+        "principiuIRez": ('<li>'+'Mechanical work in thermodynamics, process quantity'+'</li>'+
+                        '<li>'+'Geometric interpretation of mechanical work in thermodynamics'+'</li>'+
+                        '<li>'+'Internal energy of a thermodynamic system, state quantity'+'</li>'+
+                        '<li>'+'Heat, process size'+'</li>'+
+                        '<li>'+'Adiabatic shell'+'</li>'+
+                        '<li>'+'The first principle of thermodynamics'+'</li>'+
+                        '<li>'+'Caloric coefficients (definition relations, SI units)'+'</li>'+
+                        '<li>'+'The Robert-Mayer relationship'+'</li>'+
+                        '<li>'+'Application of the First Principle of thermodynamics to ideal gas transformations:'+'<br>'+
+                            '<ul>'+
+                                '<li>'+'Internal energy of ideal gas (monoatomic, diatomic, polyatomic)'+'</li>'+	
+                                '<li>'+'Variation of internal energy, mechanical work and amount of heat for simple ideal gas transformations (isobaric, isochoric, isothermal, adiabatic)'+'</li>'+
+                            '</ul>'+
+                        '</li>'),
+        "motoareRez": ('<li>'+'Explaining the functionality of a heat engine'+'</li>'+
+                    '<li>'+'Description of the main thermodynamic cycles – Otto, Diesel – based on which heat engines work'+'</li>'+
+                    '<li>'+'The efficiency of a heat engine'+'</li>'),
+        "principiuIIRez": ('<li>'+'The Carnot cycle, the efficiency of the Carnot cycle'+'</li>'),
 
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
@@ -235,6 +287,8 @@ var data = {
         "mecanicaTitle": "Mecanică",
         "principiiTitle": "Principii și legi",
         "teoremeTitle": "Teoreme de variație și legi de conservare",
+        "principiiTitleModal": "Principii și legi ale mecanicii clasice",
+        "teoremeTitleModal": "Teoreme de variație și legi de conservare",
         "principiiRez": ('<li>'+'Mișcare și repaus'+'</li>'+
                          '<li>'+'Principiul I al mecanicii'+'</li>'+
                          '<li>'+'Principiul al II-lea al mecanicii'+'</li>'+
@@ -250,9 +304,39 @@ var data = {
 
         "termodinamicaTitle": "Termodinamică",
         "notiuniTitle": "Noțiuni de bază",
-        "pricipiuITitle": "Principiul I",
-        "motoare": "Motoare termice",
+        "principiuITitle": "Principiul I",
+        "motoareTitle": "Motoare termice",
         "principiuIITitle": "Principiul al II-lea",
+        "notiuniTitleModal": "Noțiuni de bază în termodinamică",
+        "principiuITitleModal": "Principiul I al termodinamicii",
+        "motoareTitleModal": "Motoare termice",
+        "principiuIITitleModal": "Principiul al II-lea al termodinamicii",
+        "notiuniRez": ('<li>'+'Masă moleculară'+'</li>'+
+                        '<li>'+'Masă moleculară relativă'+'</li>'+
+                        '<li>'+'Cantitatea de substanță'+'</li>'+
+                        '<li>'+'Masă molară'+'</li>'+
+                        '<li>'+'Volumul molar'+'</li>'+
+                        '<li>'+'Numărul lui Avogadro'+'</li>'+
+                        '<li>'+'Echilibrul termic'+'</li>'+
+                        '<li>'+'Corespondența între valoarea numerică a temperaturii în scara Celsius și valoarea numerică x'+'</li>'),
+        "principiuIRez": ('<li>'+'Lucrul mecanic în termodinamică, mărime de proces'+'</li>'+
+                        '<li>'+'Interpretarea geometrică a lucrului mecanic în termodinamică'+'</li>'+
+                        '<li>'+'Energia internă a unui sistem termodinamic, mărime de stare'+'</li>'+
+                        '<li>'+'Căldura, mărime de proces'+'</li>'+
+                        '<li>'+'Înveliș adiabatic'+'</li>'+
+                        '<li>'+'Principiul I al termodinamicii'+'</li>'+
+                        '<li>'+'Coeficienți calorici (relații de definiție, unități de măsură în SI)'+'</li>'+
+                        '<li>'+'Relația Robert-Mayer'+'</li>'+
+                        '<li>'+'Aplicarea Principiului I al termodinamicii la transformările gazului ideal:'+'<br>'+
+                            '<ul>'+
+                                '<li>'+'Energia internă a gazului ideal (monoatomic, diatomic, poliatomic)'+'</li>'+	
+                                '<li>'+'Variația energiei interne, lucrul mecanic și cantitatea de căldură pentru transformările simple ale gazului ideal (izobară, izocoră, izotermă, adiabatică)'+'</li>'+
+                            '</ul>'+
+                        '</li>'),
+        "motoareRez": ('<li>'+'Explicarea funcționalității unui motor termic'+'</li>'+
+                    '<li>'+'Descrierea principalelor cicluri termodinamice – Otto, Diesel – pe baza cărora funcționează motoarele termice'+'</li>'+
+                    '<li>'+'Randamentul unui motor termic'+'</li>'),
+        "principiuIIRez": ('<li>'+'Ciclul Carnot, randamentul ciclului Carnot'+'</li>'),
 
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
@@ -289,6 +373,8 @@ var data = {
         "mecanicaTitle": "Mechanika",
         "principiiTitle": "Elvek és törvények",
         "teoremeTitle": "Variációs tételek és megmaradási törvények",
+        "principiiTitleModal": "",
+        "teoremeTitleModal": "",
         "principiiRez": ('<li>'+'Mozgás és pihenés'+'</li>'+
                          '<li>'+'A mechanika első elve'+'</li>'+
                          '<li>'+'A mechanika második elve'+'</li>'+
@@ -304,9 +390,39 @@ var data = {
 
         "termodinamicaTitle": "Termodinamika",
         "notiuniTitle": "Elkezdeni",
-        "pricipiuITitle": "I. alapelv",
-        "motoare": "Hőmotorok",
+        "principiuITitle": "I. alapelv",
+        "motoareTitle": "Hőmotorok",
         "principiuIITitle": "A második elv",
+        "notiuniTitleModal": "Termodinamikai alapfogalmak",
+        "principiuITitleModal": "A termodinamika első elve",
+        "motoareTitleModal": "Hőmotorok",
+        "principiuIITitleModal": "A termodinamika második elve",
+        "notiuniRez": ('<li>'+'Molekulatömeg'+'</li>'+
+                        '<li>'+'Relatív molekulatömeg'+'</li>'+
+                        '<li>'+'Anyagmennyiség'+'</li>'+
+                        '<li>'+'Moláris tömeg'+'</li>'+
+                        '<li>'+'Moláris térfogat'+'</li>'+
+                        '<li>'+'Avogadro száma'+'</li>'+
+                        '<li>'+'Termikus egyensúly'+'</li>'+
+                        '<li>'+'A hőmérséklet Celsius-skálán mért számértéke és x számértéke közötti megfelelés'+'</li>'),
+        "principiuIRez": ('<li>'+'Termodinamikai mechanikai munka, folyamatmennyiség'+'</li>'+
+                        '<li>'+'Mechanikai munka geometriai értelmezése a termodinamikában'+'</li>'+
+                        '<li>'+'Termodinamikai rendszer belső energiája, állapotmennyiség'+'</li>'+
+                        '<li>'+'Hő, folyamat mérete'+'</li>'+
+                        '<li>'+'Adiabatikus héj'+'</li>'+
+                        '<li>'+'A termodinamika első elve'+'</li>'+
+                        '<li>'+'Kalóriaegyütthatók (definíciós összefüggés, mértékegységek SI-ben)'+'</li>'+
+                        '<li>'+'A Robert-Mayer kapcsolat'+'</li>'+
+                        '<li>'+'A termodinamika első elvének alkalmazása ideális gázátalakításokra:'+'<br>'+
+                            '<ul>'+
+                                '<li>'+'Ideális gáz belső energiája (egyatomos, kétatomos, többatomos)'+'</li>'+	
+                                '<li>'+'A belső energia, a mechanikai munka és a hőmennyiség változása egyszerű ideális gázátalakításokhoz (izobár, izochor, izoterm, adiabatikus)'+'</li>'+
+                            '</ul>'+
+                        '</li>'),
+        "motoareRez": ('<li>'+'A hőgép működésének magyarázata'+'</li>'+
+                    '<li>'+'A főbb termodinamikai ciklusok – Otto, Diesel – leírása, amelyek alapján a hőmotorok működnek'+'</li>'+
+                    '<li>'+'A hőmotor hatásfoka'+'</li>'),
+        "principiuIIRez": ('<li>'+'A Carnot-ciklus, a Carnot-ciklus hatékonysága'+'</li>'),
 
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
         "inchideBtn": "Rakd le",
@@ -343,6 +459,8 @@ var data = {
         "mecanicaTitle": "Mechanik",
         "principiiTitle": "Prinzipien und Gesetze",
         "teoremeTitle": "Variationssätze und Erhaltungssätze",
+        "principiiTitleModal": "Prinzipien und Gesetze der klassischen Mechanik",
+        "teoremeTitleModal": "Variationssätze und Erhaltungssätze",
         "principiiRez": ('<li>'+'Bewegung und Ruhe'+'</li>'+
                          '<li>'+'Erstes Prinzip der Mechanik'+'</li>'+
                          '<li>'+'Zweites Prinzip der Mechanik'+'</li>'+
@@ -358,9 +476,39 @@ var data = {
 
         "termodinamicaTitle": "Thermodynamik",
         "notiuniTitle": "Erste Schritte",
-        "pricipiuITitle": "Prinzip I",
-        "motoare": "Wärmekraftmaschinen",
+        "principiuITitle": "Prinzip I",
+        "motoareTitle": "Wärmekraftmaschinen",
         "principiuIITitle": "Das zweite Prinzip",
+        "notiuniTitleModal": "Grundbegriffe der Thermodynamik",
+        "principiuITitleModal": "Das erste Prinzip der Thermodynamik",
+        "motoareTitleModal": "Wärmekraftmaschinen",
+        "principiuIITitleModal": "Das zweite Prinzip der Thermodynamik",
+        "notiuniRez": ('<li>'+'Molekulare Masse'+'</li>'+
+                        '<li>'+'Relative Molekülmasse'+'</li>'+
+                        '<li>'+'Menge der Substanz'+'</li>'+
+                        '<li>'+'Molmasse'+'</li>'+
+                        '<li>'+'Molares Volumen'+'</li>'+
+                        '<li>'+'Avogadros Nummer'+'</li>'+
+                        '<li>'+'Wärmehaushalt'+'</li>'+
+                        '<li>'+'Entsprechung zwischen Zahlenwert der Temperatur in Celsius-Skala und Zahlenwert x'+'</li>'),
+        "principiuIRez": ('<li>'+'Mechanische Arbeit in der Thermodynamik, Prozessgröße'+'</li>'+
+                        '<li>'+'Geometrische Interpretation mechanischer Arbeit in der Thermodynamik'+'</li>'+
+                        '<li>'+'Innere Energie eines thermodynamischen Systems, Zustandsgröße'+'</li>'+
+                        '<li>'+'Wärme, Prozessgröße'+'</li>'+
+                        '<li>'+'Adiabatische Schale'+'</li>'+
+                        '<li>'+'Das erste Prinzip der Thermodynamik'+'</li>'+
+                        '<li>'+'Kalorienkoeffizienten (Definitionsrelationen, SI-Einheiten)'+'</li>'+
+                        '<li>'+'Die Robert-Mayer-Beziehung'+'</li>'+
+                        '<li>'+'Anwendung des ersten Prinzips der Thermodynamik auf ideale Gasumwandlungen:'+'<br>'+
+                            '<ul>'+
+                                '<li>'+'Innere Energie des idealen Gases (einatomig, zweiatomig, mehratomig)'+'</li>'+	
+                                '<li>'+'Variation der inneren Energie, der mechanischen Arbeit und der Wärmemenge für einfache ideale Gasumwandlungen (isobar, isochor, isotherm, adiabatisch)'+'</li>'+
+                            '</ul>'+
+                        '</li>'),
+        "motoareRez": ('<li>'+'Erklären der Funktionsweise einer Wärmekraftmaschine'+'</li>'+
+                    '<li>'+'Beschreibung der wichtigsten thermodynamischen Kreisläufe – Otto, Diesel – auf deren Grundlage Wärmekraftmaschinen funktionieren'+'</li>'+
+                    '<li>'+'Der Wirkungsgrad einer Wärmekraftmaschine'+'</li>'),
+        "principiuIIRez": ('<li>'+'Der Carnot-Zyklus, die Effizienz des Carnot-Zyklus'+'</li>'),
 
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
         "inchideBtn": "Auflegen",
@@ -397,6 +545,8 @@ var data = {
         "mecanicaTitle": "Mécanique",
         "principiiTitle": "Principes et lois",
         "teoremeTitle": "Théorèmes de variation et lois de conservation",
+        "principiiTitleModal": "Principes et lois de la mécanique classique",
+        "teoremeTitleModal": "Théorèmes de variation et lois de conservation",
         "principiiRez": ('<li>'+'Mouvement et repos'+'</li>'+
                          '<li>'+'Premier principe de la mécanique'+'</li>'+
                          '<li>'+'Deuxième principe de la mécanique'+'</li>'+
@@ -412,9 +562,39 @@ var data = {
 
         "termodinamicaTitle": "Thermodynamique",
         "notiuniTitle": "Commencer",
-        "pricipiuITitle": "Principe I",
-        "motoare": "Moteurs thermiques",
+        "principiuITitle": "Principe I",
+        "motoareTitle": "Moteurs thermiques",
         "principiuIITitle": "Le deuxième principe",
+        "notiuniTitleModal": "Concepts de base en thermodynamique",
+        "principiuITitleModal": "Le premier principe de la thermodynamique",
+        "motoareTitleModal": "Moteurs thermiques",
+        "principiuIITitleModal": "Le deuxième principe de la thermodynamique",
+        "notiuniRez": ('<li>'+'Masse moléculaire'+'</li>'+
+                        '<li>'+'Masse moléculaire relative'+'</li>'+
+                        '<li>'+'Une quantité de substance'+'</li>'+
+                        '<li>'+'Masse molaire'+'</li>'+
+                        '<li>'+'Volume molaire'+'</li>'+
+                        '<li>'+'Le numéro d\'Avogadro'+'</li>'+
+                        '<li>'+'Bilan thermique'+'</li>'+
+                        '<li>'+'Correspondance entre la valeur numérique de la température sur l\'échelle Celsius et la valeur numérique x'+'</li>'),
+        "principiuIRez": ('<li>'+'Travaux mécaniques en thermodynamique, quantité de processus'+'</li>'+
+                        '<li>'+'Interprétation géométrique du travail mécanique en thermodynamique'+'</li>'+
+                        '<li>'+'Énergie interne d\'un système thermodynamique, quantité d\'état'+'</li>'+
+                        '<li>'+'Chaleur, taille du processus'+'</li>'+
+                        '<li>'+'Coque adiabatique'+'</li>'+
+                        '<li>'+'Le premier principe de la thermodynamique'+'</li>'+
+                        '<li>'+'Coefficients caloriques (relation de définition, unités de mesure en SI)'+'</li>'+
+                        '<li>'+'La relation Robert-Mayer'+'</li>'+
+                        '<li>'+'Application du premier principe de la thermodynamique aux transformations des gaz parfaits :'+'<br>'+
+                            '<ul>'+
+                                '<li>'+'Énergie interne du gaz parfait (monoatomique, diatomique, polyatomique)'+'</li>'+	
+                                '<li>'+'Variation de l\'énergie interne, du travail mécanique et de la quantité de chaleur pour des transformations simples de gaz parfaits (isobare, isochore, isotherme, adiabatique)'+'</li>'+
+                            '</ul>'+
+                        '</li>'),
+        "motoareRez": ('<li>'+'Expliquer le fonctionnement d\'un moteur thermique'+'</li>'+
+                    '<li>'+'Description des principaux cycles thermodynamiques – Otto, Diesel – sur lesquels fonctionnent les moteurs thermiques'+'</li>'+
+                    '<li>'+'L\'efficacité d\'un moteur thermique'+'</li>'),
+        "principiuIIRez": ('<li>'+'Le cycle Carnot, l\'efficacité du cycle Carnot'+'</li>'),
 
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
@@ -451,6 +631,8 @@ var data = {
         "mecanicaTitle": "Механика",
         "principiiTitle": "Принципы и законы",
         "teoremeTitle": "Вариационные теоремы и законы сохранения",
+        "principiiTitleModal": "Принципы и законы классической механики",
+        "teoremeTitleModal": "Вариационные теоремы и законы сохранения",
         "principiiRez": ('<li>'+'Движение и отдых'+'</li>'+
                          '<li>'+'Первый принцип механики'+'</li>'+
                          '<li>'+'Второй принцип механики'+'</li>'+
@@ -466,9 +648,39 @@ var data = {
 
         "termodinamicaTitle": "Термодинамика",
         "notiuniTitle": "начиная",
-        "pricipiuITitle": "Принцип I",
-        "motoare": "Тепловые двигатели",
+        "principiuITitle": "Принцип I",
+        "motoareTitle": "Тепловые двигатели",
         "principiuIITitle": "Второй принцип",
+        "notiuniTitleModal": "Основные понятия термодинамики",
+        "principiuITitleModal": "Первый принцип термодинамики",
+        "motoareTitleModal": "Тепловые двигатели",
+        "principiuIITitleModal": "Второй принцип термодинамики",
+        "notiuniRez": ('<li>'+'Молекулярная масса'+'</li>'+
+                        '<li>'+'Относительная молекулярная масса'+'</li>'+
+                        '<li>'+'Количество вещества'+'</li>'+
+                        '<li>'+'Молярная масса'+'</li>'+
+                        '<li>'+'Молярный объем'+'</li>'+
+                        '<li>'+'Число Авогадро'+'</li>'+
+                        '<li>'+'Тепловой баланс'+'</li>'+
+                        '<li>'+'Соответствие между числовым значением температуры по шкале Цельсия и числовым значением x'+'</li>'),
+        "principiuIRez": ('<li>'+'Механическая работа в термодинамике, количество процесса'+'</li>'+
+                        '<li>'+'Геометрическая интерпретация механической работы в термодинамике'+'</li>'+
+                        '<li>'+'Внутренняя энергия термодинамической системы, величина состояния'+'</li>'+
+                        '<li>'+'Тепло, размер процесса'+'</li>'+
+                        '<li>'+'Адиабатическая оболочка'+'</li>'+
+                        '<li>'+'Первый принцип термодинамики'+'</li>'+
+                        '<li>'+'Коэффициенты калорийности (определение отношений, единицы измерения в СИ)'+'</li>'+
+                        '<li>'+'Отношения Роберта-Майера'+'</li>'+
+                        '<li>'+'Применение первого принципа термодинамики к превращениям идеального газа:'+'<br>'+
+                            '<ul>'+
+                                '<li>'+'Внутренняя энергия идеального газа (одноатомного, двухатомного, многоатомного)'+'</li>'+	
+                                '<li>'+'Изменение внутренней энергии, механической работы и количества тепла при простых превращениях идеального газа (изобарное, изохорное, изотермическое, адиабатическое)'+'</li>'+
+                            '</ul>'+
+                        '</li>'),
+        "motoareRez": ('<li>'+'Объяснение работы теплового двигателя.'+'</li>'+
+                    '<li>'+'Описание основных термодинамических циклов – Отто, Дизеля – на основе которых работают тепловые двигатели.'+'</li>'+
+                    '<li>'+'КПД теплового двигателя'+'</li>'),
+        "principiuIIRez": ('<li>'+'Цикл Карно, эффективность цикла Карно'+'</li>'),
 
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
         "inchideBtn": "Вешать трубку",

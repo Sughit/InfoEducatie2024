@@ -22,7 +22,7 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">
-                        <font style="font-family: Comic Sans MS;" color=white id="notiuniTitle">
+                        <font style="font-family: Comic Sans MS;" color=white id="notiuniTitleModal">
                             Noțiuni de bază în termodinamică
                         </font>
                     </h5>
@@ -32,7 +32,7 @@
                         În această parte a capitolului vei învăța despre:<br>
                     </font>
                     <font style="font-family: Comic Sans MS;" color="white">
-                        <ul>
+                        <ul id="notiuniRez">
                             <li>Masă moleculară</li>
                             <li>Masă moleculară relativă</li>
                             <li>Cantitatea de substanță</li>
@@ -40,7 +40,7 @@
                             <li>Volumul molar</li>
                             <li>Numărul lui Avogadro</li>
                             <li>Echilibrul termic</li>
-                            <li>Corespondența între valoarea numerică a temperaturii în scara Celsius și valoarea numerică a</li>
+                            <li>Corespondența între valoarea numerică a temperaturii în scara Celsius și valoarea numerică x</li>
                         </ul>
                     </font>
                 </div>
@@ -73,7 +73,7 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title">
-                        <font style="font-family: Comic Sans MS;" color=white id="principiuITitle">
+                        <font style="font-family: Comic Sans MS;" color=white id="principiuITitleModal">
                             Principiul I al termodinamicii
                         </font>
                     </h5>
@@ -83,7 +83,7 @@
                         În această parte a capitolului vei învăța despre:<br>
                     </font>
                     <font style="font-family: Comic Sans MS;" color="white">
-                        <ul>
+                        <ul id="principiuIRez">
                             <li>Lucrul mecanic în termodinamică, mărime de proces</li>
                             <li>Interpretarea geometrică a lucrului mecanic în termodinamică</li>
                             <li>Energia internă a unui sistem termodinamic, mărime de stare</li>
@@ -131,7 +131,7 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title">
-                        <font style="font-family: Comic Sans MS;" color="white" id="motoareTitle">
+                        <font style="font-family: Comic Sans MS;" color="white" id="motoareTitleModal">
                             Motoare termice
                         </font>
                     </h5>
@@ -141,10 +141,10 @@
                         În această parte a capitolului vei învăța despre:<br>
                     </font>
                     <font style="font-family: Comic Sans MS;" color="white">
-                        <ul>
-                            <li>Explicarea funcționalității unui motoc termic</li>
+                        <ul id="motoareRez">
+                            <li>Explicarea funcționalității unui motor termic</li>
                             <li>Descrierea principalelor cicluri termodinamice – Otto, Diesel – pe baza cărora funcționează motoarele termice</li>
-                            <li>Randamentul unui motoc termic</li>
+                            <li>Randamentul unui motor termic</li>
                         </ul>
                     </font>
                 </div>
@@ -177,17 +177,17 @@
             <div class="modal-content mx-auto" style="width: 90%; background-color: #468189;">
                 <div class="modal-header">
                     <h5 class="modal-title">
-                        <font style="font-family: Comic Sans MS;" color="white" id="principiuIITitle">
+                        <font style="font-family: Comic Sans MS;" color="white" id="principiuIITitleModal">
                             Principiul al II-lea al termodinamicii
                         </font>
                     </h5>
                 </div>
                 <div class="modal-body">
-                    <font style="font-family: Comic Sans MS;" color="white" id="invataBtn">
+                    <font style="font-family: Comic Sans MS;" color="white" id="invataTitle">
                         În această parte a capitolului vei învăța despre:<br>
                     </font>
                     <font style="font-family: Comic Sans MS;" color="white">
-                        <ul>
+                        <ul id="principiuIIRez">
                             <li>Ciclul Carnot, randamentul ciclului Carnot</li>
                         </ul>
                     </font>
@@ -228,22 +228,22 @@
     <div class="d-grid gap-2 d-md-flex justify-content-md-center">
         <p align="center">
             <button type="button" class="btn btn-lg btn-block" style="min-width: 330px; width: 75%; height: 20%; background-color: #468189;" data-bs-toggle="modal" data-bs-target="#notiuniModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa">
+                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa" id="notiuniTitle">
                     Noțiuni de bază
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 330px; width: 75%; height: 20%; background-color: #77ACA2;" data-bs-toggle="modal" data-bs-target="#principiuIModal">
-                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa">
+                <font style="font-family: Comic Sans MS;" color="white" size="6" class = "buton-clasa" id="principiuITitle">
                     Principiul I
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 330px; width: 75%; height: 30%; background-color: #9DBEBB;" data-bs-toggle="modal" data-bs-target="#motoareModal">
-                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers">
+                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers" id="motoareTitle">
                     Motoare termice
                 </font>
             </button><br><br>
             <button type="button" class="btn btn-lg btn-block" style="min-width: 330px; width: 75%; height: 30%; background-color: #b9e7e3;" data-bs-toggle="modal" data-bs-target="#principiuIIModal">
-                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers">
+                <font style="font-family: Comic Sans MS;" color="black" size="6" class = "buton-clasa-invers" id="principiuIITitle">
                     Principiul al II-lea
                 </font>
             </button><br><br>
