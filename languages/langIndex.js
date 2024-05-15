@@ -32,8 +32,9 @@ function loadLanguages(attr)
     //variabile din register.html
     const goBackReg = document.getElementById('goBackReg');
     const titleReg = document.getElementById('titleReg');
-    var placeHolderEmailReg = document.getElementById('emailReg');
-    var placeHolderPasswordReg = document.getElementById('passwordReg');
+    const usernameReg = document.getElementById('usernameReg');
+    const emailReg = document.getElementById('emailReg');
+    const passwordReg = document.getElementById('passwordReg');
     const register = document.getElementById('register');
     const footerReg = document.getElementById('footerReg');
     const footerRegBtn = document.getElementById('footerRegBtn');
@@ -41,8 +42,8 @@ function loadLanguages(attr)
     //variabile din login.html
     const goBackLog = document.getElementById('goBackLog');
     const titleLog = document.getElementById('titleLog');
-    const placeHolderEmailLog = document.getElementById('emailLog');
-    const placeHolderPasswordLog = document.getElementById('passwordLog');
+    const emailLog = document.getElementById('emailLog');
+    const passwordLog = document.getElementById('passwordLog');
     const login = document.getElementById('login');
     const footerLog = document.getElementById('footerLog');
     const footerLogBtn = document.getElementById('footerLogBtn');
@@ -125,8 +126,9 @@ function loadLanguages(attr)
     {
         goBackReg.textContent = data[attr].goBackReg;
         titleReg.textContent = data[attr].titleReg;
-        placeHolderEmailReg.placeholder.textContent = data[attr].emailReg;
-        placeHolderPasswordReg.placeholder.textContent = data[attr].passwordReg;
+        usernameReg.textContent = data[attr].usernameReg;
+        emailReg.textContent = data[attr].emailReg;
+        passwordReg.textContent = data[attr].passwordReg;
         register.textContent = data[attr].register;
         footerReg.textContent = data[attr].footerReg;
         footerRegBtn.textContent = data[attr].footerRegBtn;
@@ -137,8 +139,8 @@ function loadLanguages(attr)
     {
         goBackLog.textContent = data[attr].goBackLog
         titleLog.textContent = data[attr].titleLog
-        placeHolderEmailLog.placeholder.textContent = data[attr].emailLog;
-        placeHolderPasswordLog.placeholder.textContent = data[attr].passwordLog;
+        emailLog.textContent = data[attr].emailLog;
+        passwordLog.textContent = data[attr].passwordLog;
         login.textContent = data[attr].login;
         footerLog.textContent = data[attr].footerLog;
         footerLogBtn.textContent = data[attr].footerLogBtn;
@@ -278,6 +280,7 @@ var data = {
         //register.html
         "goBackReg": "go back",
         "titleReg": "Enter your registration credentials",
+        "usernameReg": "Enter your username",
         "emailReg": "Enter your email",
         "passwordReg": "Enter your password",
         "register": "Register account",
@@ -434,6 +437,7 @@ var data = {
         //register.html
         "goBackReg": "înapoi",
         "titleReg": "Introduceți acreditările dvs. de înregistrare",
+        "usernameReg": "Introduceți numele dvs. de utilizator",
         "emailReg": "Introduceți adresa dvs. de email",
         "passwordReg": "Introduceți parola",
         "register": "Înregistrează-te",
@@ -590,6 +594,7 @@ var data = {
         //register.html
         "goBackReg": "vissza",
         "titleReg": "Adja meg regisztrációs hitelesítő adatait",
+        "usernameReg": "Írd be a felhasználóneved",
         "emailReg": "Írd be az email címed",
         "passwordReg": "Írja be a jelszót",
         "register": "Regisztrálj",
@@ -746,6 +751,7 @@ var data = {
         //register.html
         "goBackReg": "zurück",
         "titleReg": "Geben Sie Ihre Anmeldedaten ein",
+        "usernameReg": "Geben Sie Ihren Benutzernamen ein",
         "emailReg": "Geben sie ihre E-Mailadresse ein",
         "passwordReg": "Geben Sie das Passwort ein",
         "register": "Melden Sie sich an",
@@ -902,6 +908,7 @@ var data = {
         //register.html
         "goBackReg": "dos",
         "titleReg": "Entrez vos identifiants d'inscription",
+        "usernameReg": "Entrez votre nom d'utilisateur",
         "emailReg": "Entrez votre adresse email",
         "passwordReg": "Entrer le mot de passe",
         "register": "S'inscrire",
@@ -1057,7 +1064,8 @@ var data = {
 
         //register.html
         "goBackReg": "Hазад",
-        "titleReg": "",
+        "titleReg": "Введите свои регистрационные данные",
+        "usernameReg": "Введите имя пользователя",
         "emailReg": "Введите ваш адрес электронной почты",
         "passwordReg": "Введите пароль",
         "register": "Зарегистрироваться",

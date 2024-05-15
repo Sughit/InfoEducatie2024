@@ -29,20 +29,14 @@
         <h3 id="titleLog">Introduceți datele dvs. de conectare</h3>
         <form autocomplete="off">
             <label for="email">
-                 <font class = "fontt">Email:</font>
+                 <font class = "fontt" id="emailLog">Email:</font>
             </label>
-            <input type="email" 
-                   id="emailLog"
-                   name="email" 
-                   placeholder="Enter your Email" required>
+            <input type="email" name="email" required id="emailLogInput">
 
             <label for="password">
-                <font class = "fontt">Password:</font>
+                <font class = "fontt" id="passwordLog">Password:</font>
             </label>
-            <input type="password"
-                   id="passwordLog" 
-                   name="password" 
-                   placeholder="Enter your Password" required>
+            <input type="password" name="password" required id="passwordLogInput">
 
             <div class="wrap">
                 <button name="login"

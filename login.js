@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -14,15 +14,14 @@ const firebaseConfig = {
 
 // Initialize Firebase
 var app = initializeApp(firebaseConfig);
-var auth = getAuth();
+var auth = getAuth(app);
 
 const login = document.getElementById('login');
 login.addEventListener("click", function(event){
-    console.log('merge');
     event.preventDefault();
     
-    var email = document.getElementById('emailLog').value;
-    var password = document.getElementById('passwordLog').value;
+    var email = document.getElementById('emailLogInput').value;
+    var password = document.getElementById('passwordLogInput').value;
 
     signInWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
@@ -39,7 +38,15 @@ login.addEventListener("click", function(event){
         alert(errorMessage);
         // ..
     });
-})
+});
+
+onAuthStateChanged(auth, user => {
+    if (user) {
+      // User is signed in.
+    } else {
+      // No user is signed in.
+    }
+});
 
 function validate_email(email)
 {

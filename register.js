@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -13,28 +14,36 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-var app = initializeApp(firebaseConfig);
-var auth = getAuth(app);
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+
+const db = getDatabase(app);
 
 const register = document.getElementById('register');
 register.addEventListener("click", function(event){
     event.preventDefault();
     
-    var email = document.getElementById('emailReg').value;
-    var password = document.getElementById('passwordReg').value;
+    var username = document.getElementById('usernameRegInput').value;
+    var email = document.getElementById('emailRegInput').value;
+    var password = document.getElementById('passwordRegInput').value;
+
+    var form = document.getElementById('formReg');
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;
+        set(ref(db, 'users/' + username), {
+            username: username,
+            email: email
+        });
+        
         alert('Creating an Account');
-        window.location.href = "index.html";
-        // ...
+        form.reset();
     })
     .catch((error) => {
         const errorCode = error.code;
         const errorMessage = error.message;
         alert(errorMessage);
-        // ..
     });
-})
+});
