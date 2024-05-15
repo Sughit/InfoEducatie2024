@@ -23,17 +23,18 @@ const register = document.getElementById('register');
 register.addEventListener("click", function(event){
     event.preventDefault();
     
-    var username = document.getElementById('usernameRegInput').value;
-    var email = document.getElementById('emailRegInput').value;
-    var password = document.getElementById('passwordRegInput').value;
+    const username = document.getElementById('usernameRegInput').value;
+    const email = document.getElementById('emailRegInput').value;
+    const password = document.getElementById('passwordRegInput').value;
 
-    var form = document.getElementById('formReg');
+    const form = document.getElementById('formReg');
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;
-        set(ref(db, 'users/' + username), {
+        localStorage.setItem('userUid', JSON.stringify(user.uid));
+        set(ref(db, 'users/' + user.uid), {
             username: username,
             email: email
         });

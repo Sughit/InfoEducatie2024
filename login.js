@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
+import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -13,40 +14,82 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-var app = initializeApp(firebaseConfig);
-var auth = getAuth(app);
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
 
-const login = document.getElementById('login');
-login.addEventListener("click", function(event){
-    event.preventDefault();
-    
-    var email = document.getElementById('emailLogInput').value;
-    var password = document.getElementById('passwordLogInput').value;
+const db = getDatabase(app);
 
-    signInWithEmailAndPassword(auth, email, password)
-    .then((userCredential) => {
-        // Signed in
-        const user = userCredential.user;
-        alert('Loggin in');
-        window.location.href = "index.html";
-        // ...
-    })
-    .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        alert(errorCode);
-        alert(errorMessage);
-        // ..
+const user = null;
+
+if(window.location.pathname == "/login.html")
+{
+    const login = document.getElementById('login');
+    login.addEventListener("click", function(event){
+        event.preventDefault();
+        
+        var email = document.getElementById('emailLogInput').value;
+        var password = document.getElementById('passwordLogInput').value;
+
+        signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            // Signed in
+            user = userCredential.user;
+            alert('Loggin in');
+            window.location.href = "index.html";
+            // ...
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            alert(errorCode);
+            alert(errorMessage);
+            // ..
+        });
     });
-});
+}
 
-onAuthStateChanged(auth, user => {
-    if (user) {
-      // User is signed in.
-    } else {
-      // No user is signed in.
-    }
-});
+if(window.location.pathname == "/index.html")
+{
+    var profileDiv = document.getElementById('profileDiv');
+    var connectBtn = document.getElementById('connectBtn');
+    var disconnectBtn = document.getElementById('disconnectBtn');
+
+    var profileUsername = document.getElementById('profileUsername');
+    onAuthStateChanged(auth, user => {
+        if(user) 
+        {
+            profileDiv.style.display = "block";
+            connectBtn.style.display = "none";
+
+            get(child(ref(db), 'users/' + JSON.parse(localStorage.getItem('userUid'))))
+            .then((snapshot) => {
+                if(snapshot.exists())
+                {
+                    profileUsername.value = JSON.stringify(snapshot.val().username);
+                }
+            })
+            .catch((error) => {
+                alert(error.message);
+            })
+        }
+        else 
+        {
+            profileDiv.style.display = "none";
+            connectBtn.style.display = "block";
+        }
+    });
+    disconnectBtn.addEventListener("click", function(event){
+        event.preventDefault();
+
+        signOut(auth)
+        .then(() => {
+            alert('Signed out');
+        })
+        .catch(error => {
+            alert(error.message);
+        })
+    });
+};
 
 function validate_email(email)
 {

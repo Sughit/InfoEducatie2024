@@ -15,6 +15,7 @@
 
     <script defer src="./index.js"></script>
     <script defer src="./languages/langIndex.js"></script>
+    <script defer type="module" src="./login.js"></script>
     <script defer src="./sw.js"></script>
 
     <title>FIZIX</title>
@@ -39,13 +40,24 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <a href="login.html" class="m-auto">
+                    <a href="login.html" class="m-auto" id="connectBtn">
                         <button type="button" class="1 btn btn-block m-auto" style="width: 100%; background-color: #42598a;">
                             <font id="titleLogin" class = "font-log">
                                 Conectează-te
                             </font>
                         </button>
-                    </a><hr>
+                    </a>
+                    <div id="profileDiv" class="rounded-3 m-auto mb-3 text-center" style="background-color: #42598a;">
+                        <font style="font-family: Comic Sans MS;" color=white size="6" id="profileUsername">
+                            Username Test
+                        </font>
+                        <br><br>
+                        <button id="disconnectBtn" class="1 btn mb-2 m-auto" style="background-color: #77ACA2;">
+                            <font style="font-family: Comic Sans MS;" color=white size="3" id="titleDisconnect">
+                                Deconectează-te
+                            </font>
+                        </button>
+                    </div><hr>
                     <font id="titleLang" style="font-family: Comic Sans MS;" color=white size="5">
                         Limbi
                     </font>
