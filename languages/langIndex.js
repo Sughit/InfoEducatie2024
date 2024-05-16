@@ -1,10 +1,6 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
-
-//variabile din mecanica.html
-
-
 btns.forEach(el => {
     el.addEventListener('click', () => {
         // lagnEl.querySelector('.active-lang-btn').classList.remove('active-lang-btn');
@@ -23,6 +19,7 @@ function loadLanguages(attr)
     //variabile din index.html
     const titleSet = document.getElementById('titleSet');
     const titleLogin = document.getElementById('titleLogin');
+    const titleDisconnect = document.getElementById('titleDisconnect');
     const titleLang = document.getElementById('titleLang');
     const titleMec = document.getElementById('titleMec');
     const titleTer = document.getElementById('titleTer');
@@ -114,6 +111,7 @@ function loadLanguages(attr)
     {
         titleSet.textContent = data[attr].titleSet;
         titleLogin.textContent = data[attr].titleLogin;
+        titleDisconnect.textContent = data[attr].titleDisconnect;
         titleLang.textContent = data[attr].titleLang;
         titleMec.textContent = data[attr].titleMec;
         titleTer.textContent = data[attr].titleTer;
@@ -271,6 +269,7 @@ var data = {
         //index.html
         "titleSet": "Settings",
         "titleLogin": "Log in",
+        "titleDisconnect": "Sign Out",
         "titleLang": "Languages",
         "titleMec": "Mechanics",
         "titleTer": "Thermodynamics",
@@ -428,6 +427,7 @@ var data = {
         //index.html
         "titleSet": "Setări",
         "titleLogin": "Conectează-te",
+        "titleDisconnect": "Deconectează-te",
         "titleLang": "Limbi",
         "titleMec": "Mecanică",
         "titleTer": "Termodinamică",
@@ -585,6 +585,7 @@ var data = {
         //index.html
         "titleSet": "Beállítások",
         "titleLogin": "Bejelentkezés",
+        "titleDisconnect": "Kijelentkezés",
         "titleLang": "Nyelvek",
         "titleMec": "Mechanika",
         "titleTer": "Termodinamika",
@@ -742,6 +743,7 @@ var data = {
         //index.html
         "titleSet": "Einstellungen",
         "titleLogin": "Anmelden",
+        "titleDisconnect": "Abmelden",
         "titleLang": "Fremdsprachen",
         "titleMec": "Mechanik",
         "titleTer": "Thermodynamik",
@@ -899,6 +901,7 @@ var data = {
         //index.html
         "titleSet": "Paramètres",
         "titleLogin": "Se connecter",
+        "titleDisconnect": "Se déconnecter",
         "titleLang": "Langues",
         "titleMec": "Mécanique",
         "titleTer": "Thermodynamique",
@@ -1056,6 +1059,7 @@ var data = {
         //index.html
         "titleSet": "Настройки",
         "titleLogin": "Bойти",
+        "titleDisconnect": "Выход",
         "titleLang": "Конечность",
         "titleMec": "Механика",
         "titleTer": "Термодинамика",
