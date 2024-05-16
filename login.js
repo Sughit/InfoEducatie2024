@@ -19,8 +19,6 @@ const auth = getAuth(app);
 
 const db = getDatabase(app);
 
-const user = null;
-
 if(window.location.pathname == "/login.html")
 {
     const login = document.getElementById('login');
@@ -33,7 +31,7 @@ if(window.location.pathname == "/login.html")
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed in
-            user = userCredential.user;
+            const user = userCredential.user;
             alert('Loggin in');
             window.location.href = "index.html";
             // ...
@@ -41,7 +39,6 @@ if(window.location.pathname == "/login.html")
         .catch((error) => {
             const errorCode = error.code;
             const errorMessage = error.message;
-            alert(errorCode);
             alert(errorMessage);
             // ..
         });
@@ -65,7 +62,7 @@ if(window.location.pathname == "/index.html")
             .then((snapshot) => {
                 if(snapshot.exists())
                 {
-                    profileUsername.value = JSON.stringify(snapshot.val().username);
+                    profileUsername.textContent = JSON.stringify(snapshot.val().username).replace(/\"/g, "");
                 }
             })
             .catch((error) => {
