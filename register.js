@@ -33,7 +33,6 @@ register.addEventListener("click", function(event){
     .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;
-        localStorage.setItem('userUid', JSON.stringify(user.uid));
         set(ref(db, 'users/' + user.uid), {
             username: username,
             email: email

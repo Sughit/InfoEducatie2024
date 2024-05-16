@@ -19,6 +19,8 @@ const auth = getAuth(app);
 
 const db = getDatabase(app);
 
+var user;
+
 if(window.location.pathname == "/login.html")
 {
     const login = document.getElementById('login');
@@ -31,7 +33,7 @@ if(window.location.pathname == "/login.html")
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             // Signed in
-            const user = userCredential.user;
+            user = userCredential.user;
             alert('Loggin in');
             window.location.href = "index.html";
             // ...
@@ -58,7 +60,7 @@ if(window.location.pathname == "/index.html")
             profileDiv.style.display = "block";
             connectBtn.style.display = "none";
 
-            get(child(ref(db), 'users/' + JSON.parse(localStorage.getItem('userUid'))))
+            get(child(ref(db), 'users/' + user.uid))
             .then((snapshot) => {
                 if(snapshot.exists())
                 {
