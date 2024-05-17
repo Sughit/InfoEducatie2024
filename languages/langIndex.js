@@ -107,6 +107,14 @@ function loadLanguages(attr)
     const teorieTermodinamicaTitle = document.getElementById('teorieTermodinamicaTitle');
     const teorieTermodinamica = document.getElementById('teorieTermodinamica');
 
+    //variabile din teorieElectromecanica.html
+    const teorieElectromecanicaTitle = document.getElementById('teorieElectromecanicaTitle');
+    const teorieElectromecanica = document.getElementById('teorieElectromecanica');
+
+    //variabile din teorieOptica.html
+    const teorieOpticaTitle = document.getElementById('teorieOpticaTitle');
+    const teorieOptica = document.getElementById('teorieOptica');
+
     //variabile comune din cele 4 teorii
     const teorieInapoiBtn = document.getElementById('teorieInapoiBtn');
 
@@ -288,6 +296,22 @@ function loadLanguages(attr)
         teorieTermodinamica.innerHTML = data[attr].teorieTermodinamica;
         teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
     }
+
+    //teorieElectromecanica.html
+    if(window.location.pathname == "/teorieElectromecanica.html")
+    {
+        teorieElectromecanicaTitle.textContent = data[attr].teorieElectromecanicaTitle;
+        teorieElectromecanica.innerHTML = data[attr].teorieElectromecanica;
+        teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
+    }
+
+    //teorieElectromecanica.html
+    if(window.location.pathname == "/teorieOptica.html")
+    {
+        teorieOpticaTitle.textContent = document[attr].teorieOpticaTitle;
+        teorieOptica.innerHTML = document[attr].teorieOptica;
+        teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
+    }
 }
 
 var data = {
@@ -449,8 +473,8 @@ var data = {
                         '<h2 class=\"p-3\">'+'Speed'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Formula: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Measurement unit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</ li>'+
-                                    '<li>'+'Average speed: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b >'+'</li>'+
+                            '<li>'+'Measurement unit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
+                                    '<li>'+'Average speed: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
                                     '<li>'+'Velocity vector has the same meaning as displacement: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+ ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Acceleration'+'</h2>'+
@@ -464,7 +488,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Speed ​​law: '+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</ li>'+
+                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
                         '</ul>'+    
                         '<h2 class=\"p-3\">'+'Law of motion:'+'</h2>'+
                         '<ul>'+
@@ -484,7 +508,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Third principle of mechanics:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'When one body acts on another body with a force (called the action force), the second body also acts on the first body with a force (called the reaction force) of the same magnitude and direction, but opposite. This principle is also known as the Principle of Action and Reaction.'+'</li>'+
-                            '<li>'+'Written as a formula: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub >'+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'Written as a formula: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Hooke\'s law:'+'</h2>'+
                         '<ul>'+
@@ -492,7 +516,7 @@ var data = {
     
                             'Δl ~ F'+'<br>'+'<br>'+
     
-                            '<li>'+'Directly proportional to the Initial Spring Length (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br >'+
+                            '<li>'+'Directly proportional to the Initial Spring Length (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
     
@@ -534,7 +558,7 @@ var data = {
                         //Teoreme de variatie si legi de conservare
                         
                         '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center >'+'Theorems of variation and conservation laws'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Theorems of variation and conservation laws'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                         
                         '<h2 class=\"p-3\">'+'Mechanical work:'+'</h2>'+
                         '<ul>'+
@@ -563,7 +587,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Gravitational potential energy:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Gravitational potential energy (E'+'<sub>'+'pg'+'</sub>'+') is the energy that a body has at a certain height from the ground. '+'</li>'+'<br>'+
-                            '<li>'+'The gravitational potential energy of a body is equal to: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li >'+'<br>'+
+                            '<li>'+'The gravitational potential energy of a body is equal to: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
                             '<li>'+'Law of variation of gravitational potential energy:'+'<br>'+'<br>'+
                                 'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
                             '<li>'+'A force that does mechanical work that is independent of the path traveled and depends only on the extreme positions (initial and final) is called a conservative force.'+'</li>'+
@@ -600,7 +624,7 @@ var data = {
                                 '<ul>'+
                                     '<li>'+'<b>'+'Thermal agitation'+'</b>'+' is the disordered and continuous movement of the particles of a substance (atoms or molecules).'+'</li>'+' <br>'+
                                     '<li>'+'<b>'+'Diffusion'+'</b>'+' is the phenomenon of penetration of the molecules of one substance among the molecules of another substance, without the intervention of an external force (by itself).'+ '</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Atom'+'</b>'+' is the smallest particle of a substance that cannot be further divided by ordinary chemical processes.'+'</li >'+'<br>'+
+                                    '<li>'+'<b>'+'Atom'+'</b>'+' is the smallest particle of a substance that cannot be further divided by ordinary chemical processes.'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Molecule'+'</b>'+' represents the smallest particle in a substance, which can also exist in a free state and which retains the properties of the substance from which it comes. '+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Molecular mass'+'</b>'+' is a dimensionless quantity (no unit of measure) that shows us how many times the real mass of a molecule is greater than atomic mass unit (u.a.m.).'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'The relative atomic mass (A)'+'</b>'+' is the number that shows how many times the mass of an atom is greater than the atomic mass unit.'+ '</li>'+'<br>'+
@@ -620,7 +644,7 @@ var data = {
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Thermodynamic equilibrium and thermodynamic processes:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'The state of a thermodynamic system'+'</b>'+', at a certain moment, is characterized by certain physical quantities called state parameters.'+'</li >'+'<br>'+
+                                    '<li>'+'<b>'+'The state of a thermodynamic system'+'</b>'+', at a certain moment, is characterized by certain physical quantities called state parameters.'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Principle of thermodynamic equilibrium'+'</b>'+':'+'<br>'+'<br>'+
 
                                         'An isolated thermodynamic system spontaneously evolves towards a state of thermodynamic equilibrium that it never leaves on its own.'+'</li>'+'<br>'+
@@ -900,7 +924,7 @@ var data = {
                                         'The Otto engine uses as fuel a mixture of air with gasoline vapors that is created in the carburetor.'+'<br>'+'<br>'+
                                         '- The fuel mixture is sucked through the intake valve (S1) into the piston cylinder.'+'<br>'+'<br>'+
                                         '- The gases resulting from the combustion of the fuel mixture are eliminated through the exhaust valve (S2).'+'<br>'+'<br>'+
-                                        '- Operating time is the period of displacement of the piston from top dead center = TDC (cylinder closes a minimum volume of substance) to bottom dead center = PMI (cylinder closes a maximum volume of substance) and vice versa.'+'<br >'+'<br>'+
+                                        '- Operating time is the period of displacement of the piston from top dead center = TDC (cylinder closes a minimum volume of substance) to bottom dead center = PMI (cylinder closes a maximum volume of substance) and vice versa.'+'<br>'+'<br>'+
                                         '- The piston is connected to a connecting rod-crank system (vilbrochen = crankshaft), to transform the rectilinear movement of the piston into rotational movement.'+'<br>'+'<br>'+
                                         '- The engine block consists of several cylinders connected in series. Each piston has a different deployment time to allow permanent and constant rotation of the vilborchen.'+
                                     '</li>'+'<br>'+
@@ -930,9 +954,9 @@ var data = {
 
                                         'The heats in the four transformations are :'+'<br>'+'<br>'+
                                         ' - Q'+'<sub>'+'12'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub >'+'1'+'</sub>'+' > 0'+'<br>'+
+                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
                                         ' - Q'+'<sub>'+'34'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub >'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
+                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
 
                                         ' η = 1 - (1 / ε'+'<sup>'+'y-1'+'</sup>'+')'+
                                     '</li>'+
@@ -965,9 +989,9 @@ var data = {
 
                                         'The heats in the four transformations are :'+'<br>'+'<br>'+
                                         '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (adiabatic process)'+'<br>'+
-                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub >'+'1'+'</sub>'+' > 0 (isobaric process)'+'<br>'+
+                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (isobaric process)'+'<br>'+
                                         '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (adiabatic process)'+'<br>'+
-                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub >'+'2'+'</sub>'+' < 0 (isochoric process)'+'<br>'+'<br>'+
+                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (isochoric process)'+'<br>'+'<br>'+
 
                                         'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+                                        
                                     '</li>'+
@@ -985,7 +1009,7 @@ var data = {
                                         'The first formulation of the second law of thermodynamics belongs to Sadi Carnot, who in 1824 showed that there is an upper limit to the efficiency of the conversion of heat into mechanical energy in a heat engine, which involves the use of a thermodynamic cycle of a working fluid.' +
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Carnot was the first to show that it is not possible to operate a heat engine with a single thermostat, needing at least two thermostats. Thus, the system receives heat from a warm source (thermostat with T'+'<sub>'+'1'+'</sub>'+') and gives heat to a cold source (thermostat with T'+'<sub >'+'2'+'</sub>'+').'+
+                                        'Carnot was the first to show that it is not possible to operate a heat engine with a single thermostat, needing at least two thermostats. Thus, the system receives heat from a warm source (thermostat with T'+'<sub>'+'1'+'</sub>'+') and gives heat to a cold source (thermostat with T'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Gas parameters in initial state are p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' and T'+'<sub>'+'1'+'</sub>'+'.'+
@@ -1023,6 +1047,331 @@ var data = {
                                         "The efficiency of an irreversible heat engine is always lower than the efficiency of a heat engine operating reversibly between the same temperature limits."+
                                     '</li>'+
                                 '</ul>'),
+
+        //teorieElectromecanica.html
+        "teorieElectromecanicaTitle": "Electromecanică teorie",
+        "teorieElectromecanica": ('<u>' +'<h2 class="p-3" align = center>Electric Current</h2><br><br><br>' +'</u>'         
+                                +'<ul>'
+                                    +'<li>'
+                                        +'<b>Electric current</b> is the organized movement of electric charge carriers through an electric circuit.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'<b>Electric charge carriers</b> whose movement causes the electric current to appear can be:<br><br>'
+                                        +'a) Free electrons, in metals.<br><br>'
+                                        +'b) Ions and electrons, in electrolytes (solutions or melts of acids, bases, or salts) and in gases.'
+                                    +'</li>'
+                                +'</ul>'
+                                +'<h2 class="p-3">Components of an Electric Circuit:</h2>'
+                                +'<ul>'
+                                    +'<li>'
+                                        +'Electric generators<br><br>'
+                                        +'- Direct current generators<br><br>'
+                                        +'- Alternating current generators'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Electric devices<br><br>'
+                                        +'- Electric bulb<br><br>'
+                                        +'- Electric resistor<br><br>'
+                                        +'- Electric motor<br><br>'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Connecting conductors<br>'
+                                        +'are wires made of aluminum or copper that connect the components of the circuit together.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Electric switches<br>'
+                                        +'which are used to open and close the electric circuit. Only when the switch is in the closed position, the electric current flows through the circuit.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'The conventional direction of direct electric current through a circuit is from the positive terminal of the source to the negative terminal, through the external circuit (through consumers).'
+                                    +'</li>'
+
+                                    
+                                    +'</ul>'
+                                    +'<h2 class="p-3">Electric Current Intensity:</h2>'
+                                    +'<ul>'
+                                        +'<li>'
+                                            +'When we apply an electric voltage between two points of a conductor, an electric current appears, meaning a directed movement of its free electrons, which carry a charge q = n ∙ e.'
+                                        +'</li><br>'
+                                        +'<li>'
+                                            +'The electric current intensity (I) is a scalar physical quantity equal to the ratio between the electric charge (q) passing through the cross-sectional area of a conductor and the time interval (Δt).'
+                                        +'</li><br>'
+                                        +'<li>'
+                                        +'Characterization of electric current intensity as a physical quantity:<br><br>'
+                                        +'I = Electric Charge / Time = q / Δt = (n ∙ e) / Δt<br><br>'
+                                        +'n - number of electrons<br><br>'
+                                        +'e - charge of an electron (in magnitude)<br><br>'
+                                        +'e = 1.6 ∙ 10<sup>-19</sup> C'
+                                    +'</li>'
+                                +'</ul>'
+    
+                            
+                                +'<h2 class="p-3">Electric Voltage:</h2>'
+                                +'<ul>'
+                                    +'<li>'
+                                        +'<b>Electric generators</b> (electric sources) are devices that produce and maintain electric current through a circuit, meaning they ensure the movement of electric charge carriers through the circuit. They perform mechanical work on these carriers to move them.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'<b>Electromotive force</b> (abbreviated EMF, symbol E) of a source is the scalar physical quantity that measures the mechanical work done by the source (L<sub>total</sub>) to move the unit of electric charge (q) along the entire circuit.<br><br>'
+                                        +'E = L<sub>total</sub> / q<br><br>'
+                                        +'The unit of measurement in the International System of Units (SI) for electric voltage is the volt (V):<br><br>'
+                                        +'[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V (volt)'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'<b>Total mechanical work</b> done by the source to move the charge q through the entire circuit is equal to the external mechanical work done by the source to move the charge q through the external circuit (L<sub>ext</sub>) and the mechanical work done by the source to move the charge q through the internal circuit of the source (L<sub>int</sub>):<br><br>'
+                                        +'L<sub>Total</sub> = L<sub>ext</sub> + L<sub>int</sub><br><br>'
+                                        +'L<sub>Total</sub> / q = (L<sub>ext</sub> / q) + (L<sub>int</sub> / q)'
+                                    +'</li><br>'
+                                    +'<li>'
+                                    +'<b>Electric voltage</b> at the terminals (symbol U) is the scalar physical quantity that measures the mechanical work done by the source (L<sub>ext</sub>) to move the unit of electric charge (q) along the external circuit.<br><br>'
+                                    +'U = L<sub>ext</sub> / q'
+                                +'</li><br>'
+    
+                                +'<li>'
+                                +'<b>Internal voltage</b> (symbol u) is the scalar physical quantity that measures the mechanical work done by the source (L<sub>int</sub>) to move the unit of electric charge (q) along the internal circuit.<br><br>'
+                                +'u = L<sub>int</sub> / q'
+                            +'</li>'
+                            +'<li>'
+                                +'Thus, we obtain the relationship between the three electric voltages of an electric circuit:<br><br>'
+                                +'E = U + u'
+                            +'</li><br>'
+                            +'<li>'
+                                +'U = Mechanical work / Electric charge<br><br>'
+                                +'U = L / q'
+                            +'</li>'
+                        +'</ul>'
+
+
+                        //Legea lui Ohm
+                        +'<a name="element_target"></a>'
+                        +'<br><br><br><br><u><h2 class="p-3" align = center>Ohm\'s Law</h2><br><br><br></u>'
+                        
+                        +'<h2 class="p-3">Electric Voltage:</h2>'
+                        +'<ul>'
+                            +'<li>'
+                                +'Measuring electrical resistance'
+                            +'</li><br>'
+                            +'<li>'
+                            +'The constant of proportionality between the applied voltage (U) and the current intensity (I) is known as the electrical resistance of the conductor.'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Electric resistance is the physical quantity that shows how much a conductor opposes the flow of electric current through it.'
+                            +'</li><br>'
+                            +'<li>'
+                                +'The electrical resistance of a conductor (R) is the scalar quantity equal to the ratio of the applied voltage (U) across the conductor and the current intensity (I) established through it, when the conductor\'s temperature remains constant.'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Characterization of electrical resistance as a physical quantity:<br><br>'
+                                +'R = Electric Voltage / Electric Intensity = U / I<br><br>'
+                                +'[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω (ohm)<br><br>'
+                                +'The dependence of electrical resistance on the nature and dimensions of the conductor is:<br><br>'
+                                +'R = ρ ∙ (l / s) <br><br>'
+                                +'l - length of the conductor<br>'
+                                +'S - cross-sectional area of the conductor<br>'
+                                +'ρ - electrical resistivity of the conductor material:<br><br>'
+                                +'[ρ]<sub>SI</sub> = 1Ω ∙ m'
+                            +'</li>'
+                        +'</ul>'
+
+                        +'<h2 class="p-3">Ohm\'s Law for a Circuit Segment:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'The current intensity flowing through the resistor depends on:<br><br>'
+                            +'1) The voltage across the resistor: as the voltage across the resistor terminals increases, the current intensity passing through it also increases.<br><br>'
+                            +'2) Electrical resistance: as the resistance of the resistor increases, the current intensity passing through the resistor decreases.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Ohm\'s Law for a Circuit Segment:<br><br>'
+                            +'"If a voltage (U) is applied across the terminals of a circuit segment, then the electric current intensity (I) produced through that circuit segment is directly proportional to the applied electric voltage (U)." <br><br>'
+                            +'I = U / R'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Ohm\'s Law for the Entire Circuit:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Ohm\'s Law for the Entire Circuit:<br><br>'
+                            +'"The electric current intensity through a simple circuit is directly proportional to the electromotive force of the source (E) and inversely proportional to the total resistance of the circuit (R+r)." <br><br>'
+                            +'I = E / (R + r)<br><br>'
+                            +'1) Ohm\'s Law is generally valid for chemical sources because they have low internal resistance, but it can also be applied to other sources.<br><br>'
+                            +'2) If the external resistance (R) has very low values, obtained for example by short-circuiting the source with a short conductor, meaning R = 0, the current intensity supplied by the source becomes maximum:<br><br>'
+                            +'I<sub>sc</sub> = E / r (short-circuit current)<br><br>'
+                            +'This is not desirable, as high currents can cause damage, and the source depletes quickly.'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Ohm\'s Law for a Circuit Segment:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Elements of electrical networks (branch circuits):<br><br>'
+                            +'1. <b>Circuit Node</b> represents the intersection of at least three electrical conductors.<br><br>'
+                            +'2. <b>Circuit Branch</b> is the portion of the circuit between two successive nodes, through which the same electric current flows.<br><br>'
+                            +'3. <b>Circuit Loop</b> represents a circuit portion formed by at least two branches connected to form a closed loop (closed polygonal line).<br><br>'
+                        +'</li><br>'
+                    +'</ul>'
+
+
+                    //Legea lui Kirchhoff
+                    +'<a name="element_target2"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Kirchhoff\'s Law</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Kirchhoff\'s First Law:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'"The algebraic sum of the currents meeting at a circuit node is zero."<br><br>'
+                        +'</li>'
+                    +'</ul>'
+                        +'<h2 align = center>'
+                            +'<img src ="img/lege1.png" width = 240>'
+                        +'</h2>'
+                    +'<ul>'
+                        +'The currents I<sub>k</sub> can be positive or negative, depending on how the current flows through the node (enters or exits the node).<br><br>'
+                        +'<li>'
+                            +'Another way to state Kirchhoff\'s first law:<br><br>'
+                            +'"The algebraic sum of the currents entering a circuit node is equal to the sum of the currents leaving the node."'
+                        +'</li>'
+                    +'</ul>'
+
+                    +'<h2 align = center>'
+                        +'<img src ="img/lege1_alt.png" width = 240>'
+                    +'</h2>'
+                    +'<ul>'
+                        +'I<sub>1</sub> + I<sub>2</sub> + I<sub>4</sub> = I<sub>3</sub> + I<sub>5</sub>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Kirchhoff\'s Second Law:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'"The algebraic sum of the electromotive forces in a circuit loop is equal to the algebraic sum of the voltages across each branch in that circuit loop."'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 align = center>'
+                        +'<img src ="img/lege2.png" width = 240>'
+                    +'</h2>'
+                    +'<ul>'
+                        +'The terms in the sums can be positive or negative, depending on the direction of the voltage or current with respect to the arbitrarily chosen direction for the considered loop.<br><br>'
+                        +'For m = number of simple loops, m equations are written using Kirchhoff\'s second law.'
+                    +'</ul>'
+                    +'<h2 class="p-3">Sign Conventions:</h2>'
+
+                    +'<ul>'
+                        +'<li>'
+                            +'Electromotive Force:<br><br>'
+                            +' - taken as positive if the direction of the electric current through the source is the same as the direction chosen arbitrarily for the loop: + E<br><br>'
+                            +' - taken as negative if the direction of the electric current through the source is opposite to the direction chosen arbitrarily for the loop: - E<br><br>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Electric Voltage:<br><br>'
+                            +' - taken as positive if the direction of the electric current is the same as the reference direction chosen arbitrarily for the loop: + I ∙ R<br><br>'
+                            +' - taken as negative if the direction of the electric current is opposite to the reference direction chosen arbitrarily for the loop: - I ∙ R<br><br>'
+                        +'</li>'
+                    +'</ul>'
+
+                    //Gruparea rezistoarelor și generatoarelor electrice
+                    +'<a name="element_target3"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Grouping of Resistors and Electric Generators</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Grouping of Resistors:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Any circuit element (electric generator, light bulb, resistor, motor, switch) can be connected (grouped) with another (of the same type or different) in two ways:<br><br>'
+                            +'- In series<br><br>'
+                            +'- In parallel<br><br>'
+                            +'A group of resistors is replaced by a single one, called an equivalent resistor. Its resistance represents the equivalent of the resistances in that grouping.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Resistors through which the same current passes and which are on the same side of a circuit form a series grouping, being equivalent to the resistor R<sub>s</sub>.<br><br>'
+                            +'The equivalent resistance of a series grouping of resistors is equal to the sum of the resistances of each resistor:<br><br>'
+                            +'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Resistors located on different sides between the same two nodes of a circuit, having the same voltage across them, form a parallel grouping, being equivalent to the resistor R<sub>p</sub>.<br><br>'
+                            +'The inverse of the equivalent resistance of a parallel grouping of resistors is equal to the sum of the inverses of the resistances of each resistor:<br><br>'
+                            +'1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
+                        +'</li>'
+                    +'</ul>'
+
+                    +'<h2 class="p-3">Grouping of Identical Generators:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'By grouping multiple sources, an "equivalent source" is obtained with an equivalent electromotive force and an equivalent internal resistance.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'For a series grouping of n identical sources: the electromotive force of the series grouping of electric generators:<br><br>'
+                            +'E<sub>s</sub> = n · E'
+                        +'</li><br>'
+                        +'<li>'
+                            +'The internal resistance of the series grouping of identical electric generators:<br><br>'
+                            +'r<sub>s</sub> = n · r'
+                        +'</li><br>'
+                        +'<li>'
+                            +'For a parallel grouping of n identical sources: the electromotive force of the parallel grouping of electric generators:<br><br>'
+                            +'E<sub>p</sub> = E<sub>1</sub> = E<sub>2</sub> = … = E<sub>n</sub>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'The internal resistance of the parallel grouping of identical electric generators:<br><br>'
+                            +'r<sub>p</sub> = r / n'
+                        +'</li>'
+                    +'</ul>'
+
+                    //Eneriga si puterea electrica
+                    +'<a name="element_target4"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Energy and Electric Power</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Electric Energy:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Electric energy (denoted by W) of a source measures the mechanical work done by it to move electric charge (q) through the cross-section of the circuit in a time interval (Δt):<br><br>'
+                            +'W = L = E ∙ q<br><br>'
+                            +'But q = I ∙ Δt (from the current formula)<br><br>'
+                            +'W<sub>total</sub> = E ∙ I ∙ Δt (energy consumed over the entire circuit)<br><br>'
+                            +'W<sub>external</sub> = U ∙ I ∙ Δt (energy consumed on the external circuit)<br><br>'
+                            +'W<sub>internal</sub> = u ∙ I ∙ Δt (energy consumed on the internal circuit)<br><br>'
+                            +'W = U ∙ I ∙ Δt = R ∙ I<sup>2</sup> ∙ Δt = (U<sup>2</sup> / R) ∙ Δt<br><br>'
+                            +'[W]<sub>SI</sub> = J(joule)'
+                        +'</li><br>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Electric Power:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Electric power (P) is a physical quantity that measures the rate of transfer of electric energy in a unit of time.<br><br>'
+                            +'P = W / Δt = U ∙ I = R ∙ I<sup>2</sup> = (U<sup>2</sup> / R)<br><br>'
+                            +'[P]<sub>SI</sub> = J / s = W(watt)'
+                        +'</li><br>'
+                        +'<li>'
+                            +'The electric power of an electric generator, with electromotive force E and internal resistance r is:<br><br>'
+                            +'P = W<sub>total</sub> / Δt = E ∙ I = (R + r) ∙ I<sup>2</sup> = E<sup>2</sup> / (R + r)'
+                        +'</li>'
+                    +'</ul>'
+
+                    +'<h2 class="p-3">Electric Efficiency:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'The electric energy of an electric generator is supplied to the external circuit (useful energy = external energy), while the rest of the energy is received by the interior of the generator (internal energy).<br><br>'
+                            +'The electric efficiency of a receiver (consumer) is given by the relationship:<br><br>'
+                            +'η = W<sub>useful</sub> / W<sub>total</sub> = P<sub>external</sub> / P<sub>total</sub>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'For a simple circuit consisting of a source with electromotive force E and internal resistance r, connected to a resistor of resistance R, the electric efficiency is given by the relationship:<br><br>'
+                            +'η = (U ∙ I) / (E ∙ I) = U / E = R / (R + r)'
+                        +'</li><br>'
+                        +'<li>'
+                            +'The power developed by the resistor is maximum when: <br><br>'
+                            +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
+                            +'which occurs when:<br><br>'
+                            +'R = r'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Joule\'s Law:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'The thermal effect of electric current (Joule effect) consists of heating a conductor when an electric current passes through it.<br><br>'
+                            +'Joule\'s Law quantitatively measures the heat produced when an electric current passes through a conductor.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Joule\'s Law:<br><br>'
+                            +'The heat Q produced when an electric current passes through a conductor is proportional to the resistance of the conductor R, the square of the electric current intensity I<sup>2</sup>, and the time interval Δt during which the electric current flows through it.<br><br>'
+                            +'Q = R ∙ I<sup>2</sup> ∙ Δt'
+                        +'</li>'
+                    +'</ul>'),
+
+        //teorieOptica.html
+        "teorieOpticaTitle": "Optică teorie",
+        "teorieOptica": "",
 
         "teorieInapoiBtn": "Back to the selection menu",
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
@@ -1767,6 +2116,321 @@ var data = {
                                     '</li>'+
                                 '</ul>'),
 
+        //teorieElectromecanica.html
+        "teorieElectromecanicaTitle": "Electromecanică teorie",
+        "teorieElectromecanica": ('<u>' +'<h2 class="p-3" align = center>Curentul electric</h2><br><br><br>' +'</u>'         
+                                +'<ul>'
+                                    +'<li>'
+                                        +'Curentul electric </b>este mișcarea ordonată a purtătorilor de sarcină electrică printr-un circuit electric.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'<b>Purtătorii de sarcină</b> electrică a căror mișcare determină apariția curentului electric pot fi:<br><br>'
+                                        +'a) Electronii liberi, în metale.<br><br>'
+                                        +'b) Ionii și electronii, în electroliți (soluții sau topituri de acizi, baze sau săruri) și în gaze.'
+                                    +'</li>'
+                                +'</ul>'
+                                +'<h2 class="p-3">Componentele unui circuit electric:</h2>'
+                                +'<ul>'
+                                    +'<li>'
+                                        +'Generatoare electrice<br><br>'
+                                        +'- Generatoare de curent continuu<br><br>'
+                                        +'- Generatoare de curent alternativ'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Aparate electrice<br><br>'
+                                        +'- bec electric<br><br>'
+                                        +'- rezistor electric<br><br>'
+                                        +'- motor electric<br><br>'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Conductoare de legătură<br>'
+                                        +'sunt fire confecționate din aluminiu sau cupru și care leagă componentele circuitului între ele.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Întrerupătoare electrice<br>'
+                                        +'care au rolul de a închide și de a deschide circuitul electric. Numai când întrerupătorul este pe poziție închis, trece curentul electric prin circuit.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Sensul convențional al curentului electric continuu printr-un circuit este de la borna pozitivă a sursei spre borna negativă, prin circuitul exterior (prin consumatori).'
+                                    +'</li>'
+                                    
+                                +'</ul>'
+                                +'<h2 class="p-3">Intensitatea curentului electric:</h2>'
+                                +'<ul>'
+                                    +'<li>'
+                                        +'Când aplicăm o tensiune electrică între două puncte ale unui conductor, apare un curent electric, adică o mișcare dirijată a electronilor săi liberi, care transportă o sarcină q = n ∙ e.'
+                                    +'</li><br>'
+                                    +'<li>'
+                                        +'Intensitatea curentului electric (I) este o mărime fizică scalară numeric egală cu raportul dintre sarcina electrică (q) ce trece prin secțiunea transversală a unui conductor și intervalul de timp (Δt).'
+                                    +'</li><br>'
+                                    +'<li>'
+                                    +'Caracterizarea intensității curentului electric ca mărime fizică:<br><br>'
+                                    +'I = Sarcina electrică / Timp = q / Δt = (n ∙ e) / Δt<br><br>'
+                                    +'n - numărul de electroni<br><br>'
+                                    +'e - sarcina unui electron (în modul)<br><br>'
+                                    +'e = 1,6 ∙ 10<sup>-19</sup> C'
+                                +'</li>'
+                            +'</ul>'
+                            
+                            +'<h2 class="p-3">Tensiunea electrică:</h2>'
+                            +'<ul>'
+                                +'<li>'
+                                    +'<b>Generatoarele electrice</b> (sursele electrice) sunt dispozitive care au rolul de a produce și de a menține curentul electric printr-un circuit, adică asigură deplasarea purtătorilor de sarcină electrică prin circuit. Ele efectuează un lucru mecanic asupra acestor purtători pentru a-i deplasa.'
+                                +'</li><br>'
+                                +'<li>'
+                                    +'<b>Tensiunea electromotoare</b> (prescurtată t.e.m., cu simbolul E) a unei surse este mărimea fizică scalară care măsoară lucrul mecanic efectuat de sursă (L<sub>total</sub>) pentru deplasarea unității de sarcină electrică (q) de-a lungul întregului circuit.<br><br>'
+                                    +'E = L<sub>total</sub> / q<br><br>'
+                                    +'Unitate de măsură în S.I pentru tensiunea electrică este voltul (V):<br><br>'
+                                    +'[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V(volt)'
+                                +'</li><br>'
+                                +'<li>'
+                                    +'<b>Lucrul mecanic total</b> efectuat de sursă pentru a deplasa sarcina q prin întreg circuitul este egal cu lucrul mecanic exterior efectuat de sursă pentru a deplasa sarcina q prin circuitul exterior (L<sub>ext</sub>) și lucrul mecanic efectuat de sursă pentru a deplasa sarcina q prin circuitul interior al sursei (L<sub>int</sub>):<br><br>'
+                                    +'L<sub>Total</sub> = L<sub>ext</sub> + L<sub>int</sub><br><br>'
+                                    +'L<sub>Total</sub> / q = (L<sub>ext</sub> / q) + (L<sub>int</sub> / q)'
+                                +'</li><br>'
+                                +'<li>'
+                                +'<b> Tensiunea electrică</b> la borne (cu simbolul U ) este mărimea fizică scalară care măsoară lucrul mecanic efectuat de sursă (L<sub>ext</sub>) pentru deplasarea unității de sarcină electrică (q) de-a lungul circuitului exterior.<br><br>'
+                                 +'U = L<sub>ext</sub> / q'
+                             +'</li><br>'
+                             +'<li>'
+                                 +'<b>Tensiunea internă</b> (cu simbolul u) este mărimea fizică scalară care măsoară lucrul mecanic efectuat de sursă (L<sub>int</sub>) pentru deplasarea unității de sarcină electrică (q) de-a lungul circuitului interior.<br><br>'
+                                 +'u = L<sub>int</sub> / q'
+                             +'</li>'
+                             +'<li>'
+                                 +'Astfel obținem relația dintre cele trei tensiuni electrice ale unui circuit electric:<br><br>'
+                                 +'E = U + u'
+                             +'</li><br>'
+                             +'<li>'
+                                 +'U = Lucru mecanic / Sarcina electrică<br><br>'
+                                 +'U = L / q'
+                             +'</li>'
+                         +'</ul>'
+
+                        //Legea lui Ohm
+                        +'<a name="element_target"></a>'
+                        +'<br><br><br><br><u><h2 class="p-3" align = center>Legea lui Ohm</h2><br><br><br></u>'
+                        
+                        +'<h2 class="p-3">Tensiunea electrică:</h2>'
+                        +'<ul>'
+                            +'<li>'
+                                +'Măsurarea rezistenței electrice'
+                            +'</li><br>'
+                            +'<li>'
+                            +'Constanta de proporționalitate dintre tensiunea aplicată (U) și intensitatea curentului (I) este cunoscută sub numele de rezistența electrică a conductorului.'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Rezistenţa electrică este mărimea fizică ce ne arată cât de mult se opune un conductor la trecerea curentului electric prin el.'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Rezistența electrică a unui conductor (R) este mărimea scalară egală cu raportul dintre tensiunea aplicată (U) la capetele conductorului și intensitatea curentului (I) stabilit prin el, când temperatura conductorului rămâne constantă.'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Caracterizarea rezistenței electrice ca mărime fizică:<br><br>'
+                                +'R = Tensiunea electrică / Intensitatea electrică = U / I<br><br>'
+                                +'[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω(ohm)<br><br>'
+                                +'Dependența rezistenței electrice de natura și de dimensiunile conductorului este:<br><br>'
+                                +'R = ρ ∙ (l / s) <br><br>'
+                                +'l - lungimea conductorului<br>'
+                                +'S - aria secțiunii transversale a conductorului<br>'
+                                +'ρ - rezistivitatea electrică a materialului conductor:<br><br>'
+                                +'[ρ]<sub>SI</sub> = 1Ω ∙ m'
+                            +'</li>'
+                        +'</ul>'
+                        +'<h2 class="p-3">Legea lui Ohm pentru o porțiune de circuit:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Intensitatea curentului ce traversează rezistorul depinde de :<br><br>'
+                            +'1) Tensiunea de la capetele rezistorului: cu cât creşte tensiunea de la bornele rezistorului, cu atât creşte şi intensitatea curentului ce trece prin el.<br><br>'
+                            +'2) Rezistenţa electrică: cu cât creşte rezistenţa rezistorului, cu atât scade intensitatea curentului ce trece prin rezistor.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Legea lui Ohm pentru o porțiune de circuit:<br><br>'
+                            +'“Dacă la capetele unei porțiuni de circuit se aplică o tensiune(U), atunci intensitatea curentului electric (I) produs prin porțiune respectivă de circuit este direct proporțională cu tensiunea electrică (U) aplicată acelei porțiuni.”<br><br>'
+                            +'I = U / R'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Legea lui Ohm pentru întregul circuit:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Legea lui Ohm pentru întregul circuit:<br><br>'
+                            +'“Intensitatea curentului electric printr-un circuit simplu este direct proporțională cu tensiunea electromotoare a sursei (E) și invers proporțională cu rezistența totală a circuitului (R+r).“<br><br>'
+                            +'I = E / (R + r)<br><br>'
+                            +'1) Legea lui Ohm este valabilă în general pentru surse chimice deoarece au rezistența internă mică, dar poate fi particularizată și pentru alte surse.<br><br>'
+                            +'2) Dacă rezistența exterioară (R) are valori foarte mici, obținută de exemplu prin scurtcircuitarea sursei cu un conductor scurt, adică dacă R = 0, intensitatea curentului debitat de sursă devine maximă:<br><br>'
+                            +'I<sub>sc</sub> = E / r (curent de scurtcircuit)<br><br>'
+                            +'Acest lucru nu este de dorit, deoarece curenții mari pot provoca daune, iar sursa se consumă rapid.'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Legea lui Ohm pentru o porțiune de circuit:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Elementele rețelelor electrice (circuitelor ramificate):<br><br>'
+                            +'1. <b>Nodul de circuit</b> reprezintă intersecția a cel puțin trei conductoare electrice.<br><br>'
+                            +'2. <b>Latura de circuit</b> este porțiunea de circuit cuprinsă între două noduri succesive, astfel încât prin elementele ei să circule același curent electric.<br><br>'
+                            +'3. <b>Ochiul de circuit</b> reprezintă porțiunea de circuit formată din cel puțin două laturi, conectate astfel încât să formeze un contur închis (linie poligonală închisă).<br><br>'
+                        +'</li><br>'
+                    +'</ul>'
+
+                    //Legea lui Kirchhoff
+                    +'<a name="element_target2"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Legea lui Kirchhoff</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Prima lege a lui Kirchhoff:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'“Suma algebrică a intensităților curenților care se întâlnesc într-un nod de circuit este nulă“.<br><br>'
+                        +'</li>'
+                    +'</ul>'
+                        +'<h2 align = center>'
+                            +'<img src ="img/lege1.png" width = 240>'
+                        +'</h2>'
+                    +'<ul>'
+                        +'Intensitățile I<sub>k</sub> pot fi pozitive sau negative, în funcție de modul în care trece curentul prin nod (intră în nod sau iese din nod).<br><br>'
+                        +'<li>'
+                            +'O altă modalitate de enunțare a primei legi a lui Kirchhoff:<br><br>'
+                            +'“Suma algebrică a intensităților curenților care intră într-un nod de circuit este egală cu suma intensităților curenților care ies din nodul de rețea“.'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 align = center>'
+                        +'<img src ="img/lege1_alt.png" width = 240>'
+                    +'</h2>'
+                    +'<ul>'
+                        +'I<sub>1</sub> + I<sub>2</sub> + I<sub>4</sub> = I<sub>3</sub> + I<sub>5</sub>'
+                    +'</ul>'
+                    +'<h2 class="p-3">A doua lege a lui Kirchhoff:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'“Suma algebrică a tensiunilor electromotoare dintr-un ochi de rețea este egală cu suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit“.'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 align = center>'
+                        +'<img src ="img/lege2.png" width = 240>'
+                    +'</h2>'
+                    +'<ul>'
+                        +'Termenii sumelor pot fi pozitivi sau negativi, în funcție de sensul tensiunii sau al intensității în raport cu sensul ales arbitrar pentru ochiul considerat.<br><br>'
+                        +'Pentru m = nr. ochiuri simple, se scriu m ecuații cu a doua teoremă a lui Kirchhoff.'
+                    +'</ul>'
+                    +'<h2 class="p-3">Convenții de semne:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Tensiunea electromotoare:<br><br>'
+                            +' - se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar : + E<br><br>'
+                            +' - se ia cu minus dacă sensul curentului electric prin sursă este opus cu cel al ochiului ales arbitrar : - E<br><br>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Tensiunea electrică:<br><br>'
+                            +' - se ia cu plus dacă sensul curentului electric este același cu cel al ochiului ales arbitrar (sens de referință): + I ∙ R<br><br>'
+                            +' - se ia cu minus dacă sensul curentului electric este opus cu cel al ochiului ales arbitrar (sens de referință): - I ∙ R<br><br>'
+                        +'</li>'
+                    +'</ul>'
+
+                    //Gruparea rezistoarelor și generatoarelor electrice
+                    +'<a name="element_target3"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Gruparea rezistoarelor și generatoarelor electrice</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Gruparea rezistoarelor:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Orice element de circuit (generator electric, bec, rezistor, motor, întrerupător) poate fi legat (grupat) cu un altul (de același fel sau diferit) în două moduri:<br><br>'
+                            +'- În serie<br><br>'
+                            +'- În paralel<br><br>'
+                            +'Un grup de rezistoare se înlocuiește cu unul singur, denumit rezistor echivalent. Rezistența acestuia reprezintă echivalentul rezistențelor respectivei grupări.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Rezistoarele prin care trece același curent și care se află pe aceeași latură a unui circuit formează o grupare în serie, fiind echivalate cu rezistorul R<sub>s</sub>.<br><br>'
+                            +'Rezistența echivalentă a unei grupări serie de rezistoare este egală cu suma rezistențelor fiecărui rezistor:<br><br>'
+                            +'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Rezistoarele care se află pe laturi diferite între aceleași două noduri ale unui circuit, având aceeași tensiune la capete formează o grupare în paralel, fiind echivalate cu rezistorul R<sub>p</sub>.<br><br>'
+                            +'Inversul rezistenței echivalente a unei grupări paralel de rezistoare este egal cu suma inverselor rezistențelor fiecărui rezistor:<br><br>'
+                            +'1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Gruparea generatoarelor identice:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Prin gruparea mai multor surse se obține o „sursă echivalentă“ cu o tensiune electromotoare echivalentă și o rezistență internă echivalentă.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Pentru o grupare în serie de n surse identice: tensiunea electromotoare a grupării serie de generatoare electrice:<br><br>'
+                            +'E<sub>s</sub> = n · E'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Rezistența internă a grupării serie de generatoare electrice identice:<br><br>'
+                            +'r<sub>s</sub> = n · r'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Pentru o grupare în paralel de n surse identice: tensiunea electromotoare a grupării paralel de generatoare electrice:<br><br>'
+                            +'E<sub>p</sub> = E<sub>1</sub> = E<sub>2</sub> = … = E<sub>n</sub>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Rezistența internă a grupării serie de generatoare electrice identice:<br><br>'
+                            +'r<sub>p</sub> = r / n'
+                        +'</li>'
+                    +'</ul>'
+
+                    //Eneriga si puterea electrica
+                    +'<a name="element_target4"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Energia și puterea electrică</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Energia electrică:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Energia electrică (notată cu W) a unei surse măsoară lucrul mecanic efectuat de aceasta pentru a deplasa sarcina electrică (q) prin secțiunea transversală a circuitului, într-un interval de timp (Δt):<br><br>'
+                            +'W = L = E ∙ q<br><br>'
+                            +'Dar q = I ∙ Δt (din formula intensității)<br><br>'
+                            +'W<sub>tot</sub> = E ∙ I ∙ Δt (energia consumată pe întreg circuitul)<br><br>'
+                            +'W<sub>ext</sub> = U ∙ I ∙ Δt (energia consumată pe circuitul exterior)<br><br>'
+                            +'W<sub>int</sub> = u ∙ I ∙ Δt (energia consumată pe circuitul interior)<br><br>'
+                            +'W = U ∙ I ∙ Δt = R ∙ I<sup>2</sup> ∙ Δt = (U<sup>2</sup> / R) ∙ Δt<br><br>'
+                            +'[W]<sub>SI</sub> = J(joule)'
+                        +'</li><br>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Puterea electrică:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Puterea electrică (P) este o mărime fizică ce măsoară viteza de transfer a energiei electrice în unitatea de timp.<br><br>'
+                            +'P = W / Δt = U ∙ I = R ∙ I<sup>2</sup> = (U<sup>2</sup> / R)<br><br>'
+                            +'[P]<sub>SI</sub> = J / s = W(watt)'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Puterea electrică a unui generator electric, cu t.e.m. E și rezistență interioară r este:<br><br>'
+                            +'P = W<sub>tot</sub> / Δt = E ∙ I = (R + r) ∙ I<sup>2</sup> = E<sup>2</sup> / (R + r)'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Randamentul electric:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Energia electrică a generatorului electric este furnizată circuitului exterior (W<sub>utilă</sub> - energie utilă = energia exterioară), restul energiei o primește interiorul generatorului (energie interioară).<br><br>'
+                            +'Randamentul electric al unui receptor (consumator) este dat de relația:<br><br>'
+                            +'η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală>'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Pentru un circuit simplu format dintr-o sursă cu t.e.m. E și rezistență interioară r, legată la un rezistor de rezistență R, randamentul electric este dat de relația:<br><br>'
+                            +'η = (U ∙ I) / (E ∙ I) = U / E = R / (R + r)'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Puterea dezvoltată de rezistor este maximă când: <br><br>'
+                            +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
+                            +'adică atunci când:<br><br>'
+                            +'R = r'
+                        +'</li>'
+                    +'</ul>'
+                    +'<h2 class="p-3">Legea lui Joule:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Efectul termic al curentului electric (efectul Joule) constă în încălzirea unui conductor la trecerea curentului electric prin el.<br><br>'
+                            +'Legea lui Joule măsoară cantitativ căldura degajată la trecerea curentului electric printr-un conductor.'
+                        +'</li><br>'
+                        +'<li>'
+                            +'Legea lui Joule:<br><br>'
+                            +'Căldura Q degajată la trecerea curentului electric printr-un conductor este proporțională cu rezistența conductorului R, cu pătratul intensității curentului electric I<sup>2</sup> și cu intervalul de timp Δt cât circulă curentul electric prin el.<br><br>'
+                            +'Q = R ∙ I<sup>2</sup> ∙ Δt'
+                        +'</li>'
+                    +'</ul>'),
+
+        //teorieOptica.html
+        "teorieOpticaTitle": "Optică teorie",
+        "teorieOptica": "",
+
         "teorieInapoiBtn": "Înapoi la meniul de selecție",
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
@@ -1932,8 +2596,8 @@ var data = {
                         '<h2 class=\"p-3\">'+'Sebesség'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Képlet: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Mérési egység: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</ li >'+
-                                    '<li>'+'Átlagsebesség: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b >'+'</li>'+
+                            '<li>'+'Mérési egység: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li >'+
+                                    '<li>'+'Átlagsebesség: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
                                     '<li>'+'A sebességvektor jelentése ugyanaz, mint az elmozdulás: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>' + ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Gyorsulás'+'</h2>'+
@@ -1947,7 +2611,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Sebességszabály: '+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</b>'+'</ li>'+
+                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Mozgás törvénye:'+'</h2>'+
                         '<ul>'+
@@ -1967,7 +2631,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'A mechanika harmadik alapelve:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Amikor az egyik test egy másik testre erővel hat (amelyet cselekvési erőnek neveznek), akkor a második test is ugyanolyan nagyságú és irányú erővel (úgynevezett reakcióerővel) hat az első testre, de szemben. Ez az elv a cselekvés és reakció elveként is ismert.'+'</li>'+
-                            '<li>'+'Képletként írva: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub > '+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'Képletként írva: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub> '+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Hooke törvénye:'+'</h2>'+
                         '<ul>'+
@@ -1975,7 +2639,7 @@ var data = {
     
                             'Δl ~ F'+'<br>'+'<br>'+
     
-                            '<li>'+'Közvetlenül arányos a rugó kezdeti hosszával (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br >'+
+                            '<li>'+'Közvetlenül arányos a rugó kezdeti hosszával (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
     
@@ -2046,7 +2710,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Gravitációs potenciálenergia:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'A gravitációs potenciálenergia (E'+'<sub>'+'pg'+'</sub>'+') az az energia, amellyel egy test a talajtól egy bizonyos magasságban rendelkezik. '+'</li>'+'<br>'+
-                            '<li>'+'Egy test gravitációs potenciálenergiája egyenlő: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</ li >'+'<br>'+
+                            '<li>'+'Egy test gravitációs potenciálenergiája egyenlő: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
                             '<li>'+'A gravitációs potenciálenergia változásának törvénye:'+'<br>'+'<br>'+
                                 'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
                             '<li>'+'Azt az erőt, amely a megtett úttól független mechanikai munkát végez, és csak a szélső pozícióktól (kezdeti és végső) függ, konzervatív erőnek nevezzük.'+'</li>'+
@@ -2079,341 +2743,337 @@ var data = {
 
         //teorieTermodinamica.html
         "teorieTermodinamicaTitle": "Termodinamikai elmélet",
-        "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Noțiuni termodinamice de bază'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+        "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Termodinamikai alapfogalmak'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'Agitația termică'+'</b>'+' este mişcarea dezordonată şi continuă a particulelor unei substanţe (atomi sau molecule).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Difuzia'+'</b>'+' este fenomenul de pătrundere a moleculelor unei substanțe printre moleculele altei substanțe, fără intervenţia unei forţe exterioare (de la sine).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Atomul'+'</b>'+' este cea mai mică particulă dintr-o substanță care nu mai poate fi divizată prin procedee chimice obișnuite.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molecula'+'</b>'+' reprezintă cea mai mică particulă dintr-o substanță, care poate exista și în stare liberă și care păstrează proprietățile substanței din care provine.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Masa moleculară'+'</b>'+' este o mărime adimensională (fără unitate de măsură) care ne arată de câte ori este mai mare masa reală a unei molecule decât unitatea atomică de masă (u.a.m.).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Masa atomică relativă (A)'+'</b>'+' este numărul care arată de câte ori masa unui atom este mai mare decât unitatea atomică de masă.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Un mol de atomi'+'</b>'+' reprezintă cantitatea, în grame, dintr-o substanţă simplă care conţine 6,022 ∙ 10'+'<sup>'+'23'+'</sup>'+' de atomi. Se notează cu litera grecească ”niu”=  υ.'+'<br>'+'<br>'+
-
-                                        'υ = m(g) / A(g/mol) = masa de substanță simplă(g) / masa atomică(g/mol)'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Numărul lui Avogadro'+'</b>'+', notat cu N'+'<sub>'+'A'+'</sub>'+', este egal cu 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atomi şi reprezintă numărul de atomi conţinuţi într-un mol de atomi din orice substanță simplă.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Masa molară'+'</b>'+' (notată cu litera grecească miu = μ) este masa unui mol de substanță. Are ca unitate de măsură g/mol.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molul'+'</b>'+' este unitatea de măsură în Sistemul Internațional a cantității de substanță care conține un număr de particule egal cu numărul lui Avogadro, N'+'<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
-                                        'υ = m(g) / μ(g/mol) = Masa substanței compuse(g) / Masa molară(g/mol)'+'<br>'+'<br>'+
-                                        'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Număr de particule / Numărul lui Avogadro'+'</li>'+'<br>'+
-                                    '<li>'+'Un mol din orice gaz ocupă în condiții normale de temperatură (273 K) și presiune (10'+'<sup>'+'5'+'</sup>'+' Pa) un volum, numit '+'<b>'+'volum molar'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L/mol'+'<br>'+'<br>'+
-                                        'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Volumul gazului(L) / Volumul molar(L/mol)'+'<br>'+'<br>'+
-                                        'Relația între volumul molar și densitatea unei substanțe este:'+'<br>'+'<br>'+
-                                        'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
-                                        'Numărul volumic (n) reprezintă numărul de particule (atomi sau molecule) dintr-un m3 de substanță :'+'<br>'+'<br>'+
-                                        'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V'+'<br>'+'<br>'+'</li>'+
+                                '<li>'+'<b>'+'Thermal agitation'+'</b>'+' egy anyag részecskéinek (atomok vagy molekulák) rendezetlen és folyamatos mozgása.'+'</li> '+' <br>'+
+                                '<li>'+'<b>'+'Diffúzió'+'</b>'+' az a jelenség, amikor egy anyag molekulái behatolnak egy másik anyag molekulái közé, külső erő beavatkozása nélkül ( önmagában).'+ '</li>'+'<br>'+
+                                '<li>'+'<b>'+'Atom'+'</b>'+' egy anyag legkisebb részecskéje, amely szokásos kémiai folyamatokkal nem osztható tovább.'+'</li >'+ '<br>'+
+                                '<li>'+'<b>'+'Molekula'+'</b>'+' az anyag legkisebb részecskéje, amely szabad állapotban is létezhet, és amely megtartja annak az anyagnak a tulajdonságait, amelyből jön a '+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Molekulatömeg'+'</b>'+' egy dimenzió nélküli mennyiség (mértékegység nélkül), amely megmutatja, hogy egy molekula valós tömege hányszor nagyobb, mint atomtömeg egység (u.a.m.).'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A relatív atomtömeg (A)'+'</b>'+' az a szám, amely megmutatja, hogy egy atom tömege hányszor nagyobb az atomtömeg egységénél .'+ '</li>'+'<br>'+
+                                '<li>'+'<b>'+'Egy mól atom'+'</b>'+' egy egyszerű anyag mennyiségét jelöli grammban, amely 6,022 ∙ 10'+'<sup>' +'23'+'</sup>'+' atomok. A görög "niu"= υ betűvel írják.'+'<br>'+'<br>'+
+                                    'υ = m(g) / A(g/mol) = egyszerű anyag tömege (g) / atomtömeg (g/mol)'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Avogadro száma'+'</b>'+', N'+'<sub>'+'A'+'</sub>'+' , egyenlő 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atommal és bármely egyszerű anyag egy móljában található atomok számát jelenti.'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Móltömeg'+'</b>'+' (a görög miu = μ betűvel jelölve) egy mól anyag tömege. Mértékegysége g/mol.'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'A mól'+'</b>'+' az Avogadro számával megegyező számú részecskét tartalmazó anyag mennyiségének mértékegysége a Nemzetközi Rendszerben, N'+ '<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
+                                            'υ = m(g) / μ(g/mol) = vegyület tömege (g) / moláris tömege (g/mol)'+'<br>'+'<br>'+
+                                            'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Részecskék száma / Avogadro száma'+'</li>'+'<br>'+
+                                        '<li>'+'Egy mól gázt foglal el normál hőmérsékleti (273 K) és nyomási körülmények között (10'+'<sup>'+'5'+'</sup>'+' Pa) egy térfogatot '+'<b>'+'molar volume'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L /mol '+'<br>'+'<br>'+
+                                            'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Gáztérfogat (L) / Moláris térfogat (L/mol)'+'<br>'+'<br>'+
+                                            'Az anyag moláris térfogata és sűrűsége közötti kapcsolat:'+'<br>'+'<br>'+
+                                            'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
+                                            'A térfogatszám (n) a részecskék (atomok vagy molekulák) számát jelenti egy m3 anyagban:'+'<br>'+'<br>'+
+                                            'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V '+'<br>'+'<br>'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Echilibrul termodinamic și procese termodinamice:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Termodinamikai egyensúlyi és termodinamikai folyamatok:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'Starea unui sistem termodinamic'+'</b>'+', la un anumit moment, este caracterizat de anumite mărimi fizice numite parametrii de stare.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Principiul echilibrului termodinamic'+'</b>'+':'+'<br>'+'<br>'+
+                                    '<li>'+'<b>'+'Egy termodinamikai rendszer állapotát'+'</b>'+' egy bizonyos pillanatban bizonyos fizikai mennyiségek jellemzik, amelyeket állapotparamétereknek nevezünk.'+'</li >'+'<br>'+
+                                    '<li>'+'<b>'+'A termodinamikai egyensúly elve'+'</b>'+':'+'<br>'+'<br>'+
 
-                                        'Un sistem termodinamic izolat evoluează spontan spre o stare de echilibru termodinamic pe care nu o mai părăsește de la sine.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Starea de echilibru termodinamic'+'</b>'+' a unui sistem poate fi modificată prin contact :'+'<br>'+'<br>'+
-                                        '- mecanic cu mediul exterior'+'<br>'+
-                                        '- termic cu un alt mediu (când două corpuri cu temperaturi diferite se ating) sau cu mediul exterior'+'<br>'+
-                                        '- schimb de substanță cu mediul exterior sau alt mediu'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Procesul termodinamic'+'</b>'+' (transformarea de stare) reprezintă trecerea sistemului dintr-o stare în alta.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Transformarea cvasistatică'+'</b>'+' are loc când stările intermediare prin care trece sistemul sunt stări de echilibru termic, atunci când parametrii de stare variază foarte lent.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Procesul reversibil'+'</b>'+' este transformarea cvasistatică care poate avea loc în ambele sensuri, prin aceleași stări intermediare.'+'</li>'+'<br>'+
-                                    '<li>'+'Ecuația de stare (numită Clapeyron - Mendeleev) descrie dependența dintre parametrii de stare ai unui sistem termodinamic:'+'<br>'+'<br>'+
-                                        'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
-                                        'p = presiunea gazului ideal'+'<br>'+
-
-                                        'V = volumul gazului ideal'+'<br>'+
-
-                                        'ν = numărul de moli ai gazului ideal'+'<br>'+
-
-                                        'R = constanta universală a gazelor = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
-
-                                        'T = temperatura gazului ideal'+'</li>'+
+                                        'Egy izolált termodinamikai rendszer spontán módon fejlődik a termodinamikai egyensúlyi állapot felé, amelyet soha nem hagy ki magától.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Egy rendszer termodinamikai egyensúlyi állapota'+'</b>'+' a következő kapcsolattal módosítható:'+'<br>'+'<br>' +
+                                        '- mechanikus a külső környezettel'+'<br>'+
+                                        '- termikus egy másik környezettel (ha két különböző hőmérsékletű test érintkezik) vagy a külső környezettel'+'<br>'+
+                                        '- anyagcsere a külső környezettel vagy más környezettel'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'A termodinamikai folyamat'+'</b>'+' (állapottranszformáció) a rendszer átmenetét jelenti egyik állapotból a másikba.'+'</li>' +' <br>'+
+                                        '<li>'+'<b>'+'Kvázistatikus transzformáció'+'</b>'+' akkor fordul elő, ha a rendszer által áthaladó köztes állapotok termikus egyensúlyi állapotok, amikor az állapotparaméterek nagyon lassan változnak. ' +'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'A reverzibilis folyamat'+'</b>'+' az a kvázi statikus átalakulás, amely mindkét irányban, ugyanazon köztes állapotokon keresztül történhet.'+'</li>'+ '<br>'+
+                                        '<li>'+'Az állapotegyenlet (Clapeyron – Mengyelejev) egy termodinamikai rendszer állapotparaméterei közötti függést írja le:'+'<br>'+'<br>'+
+                                            'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
+                                            'p = ideális gáznyomás'+'<br>'+
+    
+                                            'V = ideális gáztérfogat'+'<br>'+
+    
+                                            'ν = az ideális gáz móljainak száma'+'<br>'+
+    
+                                            'R = univerzális gázállandó = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
+    
+                                            'T = ideális gázhőmérséklet'+'</li>'+
                                 '</ul>'+
                                 '<h2 align = center>'+
                                 '<img src = \"img/transformari.png\" width = 360>'+
                                 '</h2>'+
-                                '<h2 class=\"p-3\">'+'Temperatura empirică. Scări de temperatură:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Tapasztalati hőmérséklet. Hőmérséklet-skálák:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Două sisteme termodinamice închise și izolate adiabatic de exterior care nu schimbă energie între ele au aceeași temperatură, numită '+'<b>'+'temperatură empirică.'+'</b>'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Temperatura'+'</b>'+' este o mărime fizică de stare măsurată cu termometru, care implică un corp termometric, o mărime termometrică și o scară de temperatură.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Principiul zero al termodinamicii'+'</b>'+' (tranzitivității echilibrului termic):'+'<br>'+'<br>'+
-                                        'Dacă sistemul A este în echilibru termic cu sistemul B și sistemul B este în echilibru termic cu sistemul C, atunci și sistemul A este în echilibru termic cu sistemul C.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Relația de transformare'+'</b>'+' între scara Celsius t(°C) și Fahrenheit tF (°F):'+'<br>'+'<br>'+
+                                    '<li>'+'Két kívülről adiabatikusan elszigetelt, egymással energiát nem cserélő zárt termodinamikai rendszer hőmérséklete azonos, ezt nevezzük '+'<b>'+'empirikus hőmérsékletnek.'+'</b> '+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Hőmérséklet'+'</b>'+' egy hőmérővel mért fizikai állapotmennyiség, amely magában foglal egy hőmérőtestet, egy hőmérős mennyiséget és egy hőmérsékleti skálát.' +'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'A termodinamika nulla elve'+'</b>'+' (a termikus egyensúly tranzitivitása):'+'<br>'+'<br>'+
+                                        'Ha az A rendszer termikus egyensúlyban van B rendszerrel, és B rendszer termikus egyensúlyban van a C rendszerrel, akkor az A rendszer a C rendszerrel is termikus egyensúlyban van.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Transformációs reláció'+'</b>'+' Celsius t(°C) és Fahrenheit tF (°F) között:'+'<br>'+ '<br>'+
                                         't'+'<sub>'+'F'+'</sub>'+' = 9/5 ∙ t(°C) + 32'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Scara Kelvin'+'</b>'+' (absolută): '+'<br>'+'<br>'+
+                                    '<li>'+'<b>'+'Kelvin skála'+'</b>'+' (abszolút érték): '+'<br>'+'<br>'+
                                         '[T]'+'<sub>'+'SI'+'</sub>'+' = K (kelvin)'+'<br>'+'<br>'+
                                         'T(K) = t (°C) + 273,15'+'</li>'+
                                 '</ul>'+
 
                                 //Principiul I
                                 '<a name=\"element_target\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Principiul I'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'I. alapelv'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 
 
-                                '<h2 class=\"p-3\">'+'Lucrul mecanic:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Gépészeti munka:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Schimbul de energie dintre un sistem termodinamic închis și mediul exterior poate avea loc în două moduri:'+'<br>'+'<br>'+
-                                        '- Prin efectuare de lucru mecanic'+'<br>'+
-                                        '- Prin transfer de căldură.'+'<br>'+'<br>'+
+                                    '<li>'+'A zárt termodinamikai rendszer és a külső környezet közötti energiacsere kétféleképpen mehet végbe:'+'<br>'+'<br>'+
+                                        '- Gépészeti munka elvégzésével'+'<br>'+
+                                        '- Hőátadással.'+'<br>'+'<br>'+
                                         
-                                        'Măsura energiei transferate sistemului în condițiile interacțiunilor care au drept rezultat variația parametrilor de poziție sub acțiunea unor forțe se numește '+'<b>'+'lucru mecanic.'+'</b>'+'<br>'+'<br>'+
+                                        'Az egyes erők hatására a helyzetparaméterek változását eredményező kölcsönhatások körülményei között a rendszerbe átvitt energia mértékét '+'<b>'+'mechanikai munkának nevezzük.'+'</b>'+'<br>'+' <br>'+
                                         'L = F ∙ d'+'</li>'+'<br>'+
-                                    '<li>'+'Lucrul mecanic efectuat de forța exterioară F'+'<sub>'+'e'+'</sub>'+' este :'+'<br>'+'<br>'+
+                                    '<li>'+'Az F'+'<sub>'+'e'+'</sub>'+' külső erő által végzett mechanikai munka:'+'<br>'+'<br> '+
                                         'L'+'<sub>'+'e'+'</sub>'+' = p'+'<sub>'+'e'+'</sub>'+' ∙ S ∙ (x1 - x2) = - p'+'<sub>'+'e'+'</sub>'+' ∙ ΔV'+'<br>'+'<br>'+
-                                        'S = aria secțiunii transversale a cilindrului'+'<br>'+
-                                        'p'+'<sub>'+'e'+'</sub>'+' = presiunea exterioară'+'<br>'+
+                                        'S = a henger keresztmetszete'+'<br>'+
+                                        'p'+'<sub>'+'e'+'</sub>'+' = külső nyomás'+'<br>'+
 
                                         'V2 = S ∙ x2'+'<br>'+
                                         'V1 = S ∙ x1'+'<br>'+
                                         
                                         'ΔV = V2 - V1'+'</li>'+'<br>'+
-                                    '<li>'+'Lucrul mecanic efectuat de sistemul termodinamic într-o transformare izobară este:'+'<br>'+'<br>'+
+                                    '<li>'+'A termodinamikai rendszer izobár átalakulás során végzett mechanikai munkája:'+'<br>'+'<br>'+
                                         'L = p ∙ ΔV'+'</li>'+'<br>'+
                                     
-                                    '<li>'+'Convenții de semne pentru lucrul mecanic efectuat de sistemul termodinamic:'+'<br>'+'<br>'+
+                                    '<li>'+'A termodinamikai rendszer által végzett mechanikai munkára vonatkozó előjelek:'+'<br>'+'<br>'+
                                     
-                                        'a) Dacă gazul se destinde (îi crește volumul), ΔV > 0, atunci L > 0 și sistemul efectuează lucru mecanic asupra mediului exterior (cedează L).'+'<br>'+'<br>'+
+                                        'a) Ha a gáz kitágul (növeli a térfogatát), ΔV > 0, majd L > 0 és a rendszer mechanikai munkát végez a külső közegen (L hozam).'+'<br>'+'<br>'+
                                     
-                                        'b) Dacă gazul se comprimă (îi scade volumul), ΔV < 0, atunci L < 0 și asupra sistemului se efectuează lucru mecanic (primește L).'+'<br>'+'<br>'+
+                                        'b) Ha a gáz összenyomódik (a térfogata csökken), ΔV < 0, akkor L < 0 és mechanikai munka folyik a rendszeren (L-t kap).'+'<br>'+'<br>'+
                                     
-                                        'c) Dacă între sistem și exterior nu are loc transfer de energie prin lucru mecanic (L = 0), atunci gazul nu își modifică volumul (ΔV=0).'+'</li>'+'<br>'+
+                                        'c) Ha a rendszer és a külső között mechanikai munkával nem történik energiaátadás (L = 0), akkor a gáz térfogata nem változik (ΔV=0).'+'</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Lucrul mecanic:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Gépészeti munka:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Energia particulelor unui gaz real este dată:'+'<br>'+'<br>'+
-                                        '- Energie externă este dată de suma energiei cinetică a sistemului ca întreg și energiei potențială a acestuia aflat într-un câmp de forțe.'+'<br>'+'<br>'+
-                                        '- Energie internă (U) este dată de suma dintre energiile cinetice ale moleculelor (E'+'<sub>'+'c'+'</sub>'+') și energiile potențiale de interacțiune dintre moleculele sistemului termodinamic (E'+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
+                                        'Egy valódi gáz részecskéinek energiáját a következő képlet adja meg:'+'<br>'+'<br>'+
+                                        '- A külső energiát a rendszer egészének kinetikus energiájának és az erőtérben lévő potenciális energiájának összege adja meg.'+'<br>'+'<br>'+
+                                        '- A belső energiát (U) a molekulák kinetikus energiáinak (E'+'<sub>'+'c'+'</sub>'+') és a molekulák közötti kölcsönhatás potenciális energiáinak összege adja meg. a termodinamikai rendszer molekulái (E '+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
                                         'U = Ec + Ep'+'<br>'+'<br>'+
-                                        '- Dar variația energiei interne (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub>'+') este o mărime fizică de stare și nu depinde de stările intermediare prin care trece sistemul, ci numai de starea inițială (U'+'<sub>'+'1'+'</sub>'+') și cea finală (U'+'<sub>'+'2'+'</sub>'+').'+
-
+                                        '- De a belső energiaváltozás (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub> ' +') egy fizikai állapotmennyiség, és nem függ a köztes állapotoktól, amelyeken a rendszer áthalad, hanem csak a kezdeti állapottól (U'+'<sub>'+'1'+'</sub>'+ ') és az utolsó (U'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Căldura:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Heat:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Căldura (Q) este o mărime fizică care măsoară energia transferată, numai prin mișcarea dezordonată a moleculelor dintre două corpuri aflate în contact termic.'+'<br>'+'<br>'+
+                                        'A hő (Q) egy fizikai mennyiség, amely csak a molekulák rendezetlen mozgása révén méri át az energiát két termikus érintkező test között.'+'<br>'+'<br>'+
 
                                         '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+
-                                        'O altă unitate de măsură tolerată pentru căldură este caloria: 1cal = 4,18 J'+
+                                        "A hő másik megengedett mértékegysége a kalória: 1cal = 4,18 J"+
                                     '</li>'+'<br>'+
-                                    '<li>'+'Convenții de semne pentru căldură:'+'<br>'+'<br>'+
-                                        'a) Când sistemul primește căldură din exterior, atunci Q > 0'+'<br>'+'<br>'+
-                                        'b) Când sistemul cedează căldură în exterior, atunci Q < 0'+'<br>'+'<br>'+
-                                        'c) Când sistemul este izolat adiabatic (nu schimbă căldură cu exteriorul), atunci Q = 0'+
+                                    '<li>'+'A hő előírásai:'+'<br>'+'<br>'+
+                                        'a) Ha a rendszer kívülről kap hőt, akkor Q > 0'+'<br>'+'<br>'+
+                                        'b) Ha a rendszer hőt bocsát ki a kültérbe, akkor Q < 0'+'<br>'+'<br>'+
+                                        'c) Ha a rendszer adiabatikusan le van választva (nem cserél hőt a külsővel), akkor Q = 0'+
                                     '</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Consecințe ale principiul întâi al termodinamicii:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'A termodinamika első főtételének következményei:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Enunțul principiul întâi al termodinamicii:'+'<br>'+'<br>'+
-                                        'Variația energiei interne a unui sistem într-un proces oarecare este:'+'<br>'+'<br>'+
+                                    '<li>'+'Adja meg a termodinamika első elvét:'+'<br>'+'<br>'+
+                                        'Egy rendszer belső energiájának változása valamilyen folyamatban:'+'<br>'+'<br>'+
                                         'ΔU = Q - L'+'</li>'+'<br>'+
-                                    '<li>'+'Dacă sistemul este izolat (nu schimbă nici căldură și nici lucru mecanic cu exteriorul), atunci'+'<br>'+'<br>'+
-                                        'Q = L = 0, ΔU = U2 – U1 = 0 și U1 = U2, adică energia internă a unui sistem izolat se conservă.'+
+                                    '<li>'+'Ha a rendszer le van szigetelve (sem hőt, sem mechanikai munkát nem cserél ki a külsővel), akkor'+'<br>'+'<br>'+
+                                        'Q = L = 0, ΔU = U2 – U1 = 0 és U1 = U2, azaz egy elszigetelt rendszer belső energiája megmarad.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Ecuația principiul întâi al termodinamicii mai poate fi scrisă și sub forma definiției căldurii:'+'<br>'+'<br>'+
-                                        'Q = ΔU + L, adică căldura primită de un sistem servește atât la variația energiei interne a sistemului, cât și la efectuarea de lucru mecanic de către sistem.'+
+                                        'A termodinamika első elvének egyenlete a hő definíciójának formájában is felírható:'+'<br>'+'<br>'+
+                                        "Q = ΔU + L, azaz a rendszer által kapott hő egyrészt a rendszer belső energiájának megváltoztatására, másrészt a rendszer mechanikai munkájának elvégzésére szolgál."+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Dacă sistemul este izolat adiabatic (nu schimbă căldură cu exteriorul), atunci'+'<br>'+'<br>'+
-                                        'Q = 0 și L = –ΔU = –(U2 – U1), adică un sistem izolat adiabatic schimbă lucru mecanic cu exteriorul numai pe seama variației energiei interne.'+
+                                        'Ha a rendszer adiabatikusan le van szigetelve (nem cserél hőt a külsővel), akkor'+'<br>'+'<br>'+
+                                        'Q = 0 és L = –ΔU = –(U2 – U1), azaz egy izolált adiabatikus rendszer csak a belső energia változása miatt cserél mechanikai munkát a külsővel.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Dacă sistemul nu schimbă lucru mecanic cu exteriorul (L= 0), ci numai căldură atunci'+'<br>'+'<br>'+
-                                        'ΔU = Q, adică căldura primită de sistem duce la creșterea energiei interne a sistemului.'+
+                                        'Ha a rendszer nem cserél mechanikai munkát a külsővel (L=0), hanem csak hőt, akkor'+'<br>'+'<br>'+
+                                        'ΔU = Q, azaz a rendszer által kapott hő a rendszer belső energiájának növekedéséhez vezet.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Într-o transformare ciclică, ΔU = U2 – U1 = 0 și L = Q, adică sistemul poate efectua lucru mecanic numai dacă el primește căldură din exterior.'+
+                                        'Ciklikus transzformációban ΔU = U2 – U1 = 0 és L = Q, vagyis a rendszer csak akkor tud mechanikai munkát végezni, ha kívülről kap hőt.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'De aici rezultă și imposibilitatea existenței unui perpetuum mobile de speța întâi (dispozitiv care să producă lucru mecanic fără să consume energie din exterior).'+
+                                        'Ebből az következik, hogy lehetetlen létezni egy első típusú örökmobil (olyan eszköz, amely mechanikai munkát végez anélkül, hogy kívülről energiát fogyasztana).'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Coeficienții calorici:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Kalóriaegyütthatók:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Căldura specifică (c) reprezintă mărimea fizică ce caracterizează căldura absorbită /cedată de 1kg de substanță pentru a-și mări /micșora temperatura cu un grad. Ea este o constantă de material și o găsim în tabelul cu constante de la sfârșitul acestui capitol.'+'<br>'+'<br>'+
+                                        'A fajhő (c) azt a fizikai mennyiséget jelöli, amely 1 kg anyag által felvett/leadott hőt jellemzi, hogy a hőmérsékletét egy fokkal növelje/csökkentse. Ez egy anyagi állandó, és a fejezet végén található állandó táblázatban található.'+'<br>'+'<br>'+
                                         'c = 1 / m ∙ Q / ΔT'+'<br>'+'<br>'+
                                         '[c]'+'<sub>'+'SI'+'</sub>'+' = J/Kg∙K'+'<br>'+'<br>'+
                                         'Q = m ∙ c ∙ ΔT'+'<br>'+
-                                        'm = masa corpului'+'<br>'+
-                                        'c = căldura specifică'+'<br>'+
-                                        'ΔT = T'+'<sub>'+'finală'+'</sub>'+' – T'+'<sub>'+'inițială'+'</sub>'+' ,variația temperaturii corpului'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'primită'+'</sub>'+' > 0'+'<br>'+
-                                        'Q'+'<sub>'+'cedată'+'</sub>'+'< 0 '+'<br>'+'<br>'+
-                                        'Ecuația calorimetrică: '+'<br>'+'Q'+'<sub>'+'primită'+'</sub>'+' = | Q'+'<sub>'+'cedată'+'</sub>'+' |'+'<br>'+
+                                        'm = testtömeg'+'<br>'+
+                                        'c = fajhő'+'<br>'+
+                                        'ΔT = T'+'<sub>'+'final'+'</sub>'+' – T'+'<sub>'+'initial'+'</sub>'+' , a testhőmérséklet '+'<br>'+'<br>'+
+                                        'Q'+'<sub>'+'kapott'+'</sub>'+' > 0'+'<br>'+
+                                        'Q'+'<sub>'+'átadva'+'</sub>'+'< 0 '+'<br>'+'<br>'+
+                                        'A kalorimetrikus egyenlet: '+'<br>'+'Q'+'<sub>'+'received'+'</sub>'+' = | Q'+'<sub>'+'átadva'+'</sub>'+' |'+'<br>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Capacitatea calorică (C) reprezintă mărimea fizică ce caracterizează cantitatea de căldură necesară sistemului termodinamic pentru a-și varia temperatura cu un grad.'+'<br>'+'<br>'+
+                                        'A hőkapacitás (C) azt a fizikai mennyiséget jelöli, amely jellemzi azt a hőmennyiséget, amelyre a termodinamikai rendszernek szüksége van ahhoz, hogy hőmérsékletét egy fokkal változtassa.'+'<br>'+'<br>'+
                                         'C = Q / ΔT'+'<br>'+'<br>'+
                                         '[C]'+'<sub>'+'SI'+'</sub>'+' = J/Kg'+'<br>'+'<br>'+
                                         'Q = C ∙ ΔT'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Căldura molară (C'+'<sub>'+'μ'+'</sub>'+') este căldura necesară pentru a modifica temperatura unui mol dintr-o substanță cu un grad.'+'<br>'+'<br>'+
+                                        'Mólhő (C'+'<sub>'+'μ'+'</sub>'+') az a hő, amely egy mól anyag hőmérsékletének egy fokkal történő megváltoztatásához szükséges.'+'<br> ' +'<br>'+
                                         'C'+'<sub>'+'μ'+'</sub>'+' = Q / v ∙ ΔT'+
                                         '[C'+'<sub>'+'μ'+'</sub>'+'] = J/mol∙K'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Grade de libertate:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'A szabadság fokai:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Cum în termodinamică moleculele gazului ideal sunt considerate puncte materiale, coordonatele independente ce caracterizează sistemul termodinamic se numesc grade de libertate.'+'<br>'+'<br>'+
-                                        '- Pentru gazele monoatomice: i = 3'+'<br>'+
-                                        '- Pentru gazele diatomice: i = 5'+'<br>'+
-                                        '- Pentru gazele poliatomice: i = 6'+'<br>'+'<br>'+
+                                    '<li>'+'Mivel a termodinamikában az ideális gázmolekulákat anyagi pontoknak tekintjük, a termodinamikai rendszert jellemző független koordinátákat szabadsági fokoknak nevezzük.'+'<br>'+'<br>'+
+                                        '- Egyatomos gázok esetén: i = 3'+'<br>'+
+                                        '- Kétatomos gázok esetén: i = 5'+'<br>'+
+                                        '- Többatomos gázok esetén: i = 6'+'<br>'+'<br>'+
 
-                                        'Căldura molară la volum constant este:'+'<br>'+'<br>'+
+                                        'A moláris hő állandó térfogaton:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'v'+'</sub>'+' = i/2 R'+'<br>'+'<br>'+
-                                        'Căldura molară la presiune constantă este:'+'<br>'+'<br>'+
+                                        'A moláris hő állandó nyomáson:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = (i + 2)/2 R'+'<br>'+'<br>'+
-                                        'R =  8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (constanta universală a gazelor)'+'</li>'+
+                                        'R = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (univerzális gázállandó)'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare izocoră :'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Isochore transzformáció :'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'(ν și V const.) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
-                                    '<li>'+'Avem două cazuri:'+'<br>'+'<br>'+
-                                        '- Gazul închis într-un de volum constant este încălzit, absoarbe căldură → QV > 0 și ΔU > 0 (crește energia internă a gazului).'+'<br>'+'<br>'+
-                                        '- Gazul închis într-un de volum constant este răcit, cedează căldură → QV < 0 și ΔU < 0 (scade energia internă a gazului)'+'</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
+                                    '<li>'+'(ν és V állandó) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
+                                    '<li>'+'Két esetünk van:'+'<br>'+'<br>'+
+                                        '- Az állandó térfogatú gáz felmelegszik, hőt vesz fel → QV > 0 és ΔU > 0 (növeli a gáz belső energiáját).'+'<br>'+'<br>'+
+                                        '- Az állandó térfogatba zárt gáz lehűl, hőt ad fel → QV < 0 és ΔU < 0 (a gáz belső energiája csökken)'+'</li>'+'<br>'+
+                                    '<li>'+' Képletek: '+'<br>'+'<br>'+
                                         
-                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                        'ΔU = U – U'+'<sub>'+'0'+'</sub>'+' și ΔT = T – T'+'<sub>'+'0'+'</sub>'+', pentru T'+'<sub>'+'0'+'</sub>'+' = 0 K → U'+'<sub>'+'0'+'</sub>'+' = 0'+'<br>'+'<br>'+
-                                        'Energia internă a unui gaz ideal monoatomic este:'+'<br>'+
+                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT '+'<br>'+'<br>'+
+                                        'ΔU = U – U'+'<sub>'+'0'+'</sub>'+' és ΔT = T – T'+'<sub>'+'0'+'</sub>' +', T'+'<sub>'+'0'+'</sub>'+' = 0 K → U'+'<sub>'+'0'+'</sub>'+' = 0'+'<br>'+'<br>'+
+                                        'Egy monatomikus ideális gáz belső energiája:'+'<br>'+
                                         'U = ν ∙ C'+'<sub>'+'V'+'</sub>'+'∙ T = 3/2 ∙ ν ∙ R ∙ T'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare izobară:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Izobár transzformáció:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        '(ν și p const.)'+'<br>'+'<br>'+
-                                        'Dacă gazul este încălzit, absoarbe căldură → Qp > 0 și o parte din energie este folosită la creșterea energiei interne a gazului ΔU > 0 și cealaltă parte este lucrul mecanic efectuat de gaz asupra exteriorului, L > 0.'+
+                                        '(ν és p konst.)'+'<br>'+'<br>'+
+                                        'Ha a gázt felmelegítjük, hőt vesz fel → Qp > 0 és az energia egy része a gáz belső energiájának növelésére szolgál ΔU > 0, másik része pedig a gáz által a külső oldalon végzett mechanikai munka, L > 0.'+
                                     '</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
+                                    '<li>'+' Képletek: '+'<br>'+'<br>'+
                                             'L = p ∙ ΔV'+'<br>'+'<br>'+
-                                            'Q'+'<sub>'+'p'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                            'Variația energiei interne nu depinde de proces și putem scrie:'+'<br>'+
+                                            'Q'+'<sub>'+'p'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT'+ '<br>'+'<br>'+
+                                            'A belső energiaváltozás nem függ a folyamattól, és ezt írhatjuk:'+'<br>'+
                                             'ΔU = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare izotermă:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Izotermikus transzformáció:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        '(ν și T const.) → U = const. și ΔU = 0.'+
+                                        '(ν és T állandó) → U = állandó. és ΔU = 0.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Când gazul este încălzit, absoarbe căldură → QT > 0 și L > 0, fiind folosită integral pentru efectuarea de lucru mecanic asupra exteriorului.'+
+                                        "A gáz felmelegítésekor hőt nyel el → QT > 0 és L > 0, és teljes egészében a külső mechanikai munkák elvégzésére szolgál."+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Într-o transformare izotermă, presiunea este invers proporțională cu volumul gazului și atunci avem lucrul mecanic.'+
+                                        "Izoterm átalakulásnál a nyomás fordítottan arányos a gáz térfogatával, és akkor mechanikai munkánk van."+
                                     '</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
-                                        'L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                    '<li>'+' Képletek: '+'<br>'+'<br>'+
+                                        'L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>' +' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                        'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+' <br>'+'<br>'+
                                         'p'+'<sub>'+'1'+'</sub>'+' ∙ V'+'<sub>'+'1'+'</sub>'+' = p'+'<sub>'+'2'+'</sub>'+' ∙ V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
                                         'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+') = v ∙ R ∙ T ∙ ln(p1 / p2)'+'<br>'+'<br>'+
-                                        'U = const și ΔU = 0'+
+                                        'U = állandó és ΔU = 0'+
                                     '</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare adiabatică:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Adiabatikus transzformáció:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
                                         '(ν const.) → Qad = 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Formule:'+'<br>'+'<br>'+
+                                        'Képlet:'+'<br>'+'<br>'+
                                         'ΔU = - L'+'<sub>'+'ad'+'</sub>'+'<br>'+'<br>'+
                                         'ΔU = ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ΔT'+'<br>'+'<br>'+
-                                        'L'+'<sub>'+'ad'+'</sub>'+' = - ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                        'Ecuația procesului adiabatic se numește ecuația Poisson:'+'<br>'+
-                                        'p ∙ V'+'<sup>'+'y'+'</sup>'+' = const.'+'<br>'+
-                                        'y = coeficient adiabatic = C'+'<sub>'+'p'+'</sub>'+' / C'+'<sub>'+'V'+'</sub>'+'<br>'+
+                                        'L'+'<sub>'+'ad'+'</sub>'+' = - ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ ΔT' +'<br>'+'<br>'+
+                                        'Az adiabatikus folyamat egyenletét Poisson-egyenletnek nevezik:'+'<br>'+
+                                        'p ∙ V'+'<sup>'+'y'+'</sup>'+' = konst.'+'<br>'+
+                                        'y = adiabatikus együttható = C'+'<sub>'+'p'+'</sub>'+' / C'+'<sub>'+'V'+'</sub>'+'<br>'+
                                         'T ∙ V'+'<sup>'+'y-1'+'</sup>'+' - const'+
                                         'T'+'<sup>'+'y'+'</sup>'+' / p '+'<sup>'+'y-1'+'</sup>'+' = const'+
                                     '</li>'+
                                 '</ul>'+
                                 
-                                '<h2 class=\"p-3\">'+'Relația lui Robert – Mayer:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Robert – Mayer kapcsolat:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'În cazul transformării izocore:'+'<br>'+'<br>'+
-                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = v ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'V'+'</sub>'+' = Q'+'<sub>'+'V'+'</sub>'+' / (v ∙ ΔT) =  ΔU / (v ∙ ΔT)'+ 
+                                        'Izochore transzformáció esetén:'+'<br>'+'<br>'+
+                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = v ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT '+'<br>'+'<br>'+
+                                        'C'+'<sub>'+'V'+'</sub>'+' = Q'+'<sub>'+'V'+'</sub>'+' / (v ∙ ΔT) = ΔU / (v ∙ ΔT)'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'În cazul transformării izobare:'+'<br>'+'<br>'+
+                                        'Izobár transzformáció esetén:'+'<br>'+'<br>'+
                                         'Q'+'<sub>'+'p'+'</sub>'+' = (v ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT) = ΔU + p ∙ ΔV'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = Q'+'<sub>'+'p'+'</sub>'+' / (v ∙ ΔT) = (ΔU + p ∙ ΔV) / (v ∙ ΔT)'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Combinând cele două relații ale lui Cp și CV obținem:'+'<br>'+'<br>'+
+                                        'A Cp és CV két relációját kombinálva a következőt kapjuk:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + (p ∙ ΔV) / (v ∙ ΔT)'+'<br>'+'<br>'+
-                                        'Din ecuația termică de stare:'+'<br>'+'<br>'+
+                                        'A termikus állapotegyenletből:'+'<br>'+'<br>'+
                                         'p ∙ ΔV = ν ∙ R ∙ ΔT'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Relația lui Robert–Mayer stabilește relația între căldurile molare:'+'<br>'+'<br>'+
+                                        'A Robert–Mayer reláció megállapítja a moláris hőek közötti kapcsolatot:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Relația lui Robert–Mayer stabilește relația între căldurile specifice molare:'+'<br>'+'<br>'+
-                                        'c'+'<sub>'+'p'+'</sub>'+' = c'+'<sub>'+'V'+'</sub>'+' + (R / μ)'+
+                                        'A Robert–Mayer reláció megállapítja a kapcsolatot a moláris fajhők között:'+'<br>'+'<br>'+
+                                        'c'+'<sub>'+'p'+'</sub>'+' = c'+'<sub>'+'V'+'</sub>'+' + (R / μ) '+
                                     '</li>'+
                                 '</ul>'+
 
 
                                 //Motoare termice
                                 '<a name=\"element_target2\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Motoare termice'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Hőmotorok'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 
-                                '<h2 class=\"p-3\">'+'Mașini termice:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Hőgépek:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'În cursul unei transformări ciclice biterme, sistemul termodinamic schimbă căldurile Q'+'<sub>'+'1'+'</sub>'+', respectiv Q'+'<sub>'+'2'+'</sub>'+'  cu două izvoare de căldură ale căror temperaturi sunt T'+'<sub>'+'1'+'</sub>'+' (izvor cald) și T'+'<sub>'+'2'+'</sub>'+'  (izvor rece), cu T'+'<sub>'+'1'+'</sub>'+' > T'+'<sub>'+'2'+'</sub>'+' .'+'<br>'+'<br>'+
-                                            'Cum transformările ciclice au ΔU = 0, conform principiului I al termodinamicii avem'+'<br>'+'<br>'+
+                                        'A bitermikus ciklikus átalakulás során a termodinamikai rendszer hőt cserél Q'+'<sub>'+'1'+'</sub>'+', illetve Q'+'<sub>'+'2'+'</sub>'+' két hőforrással, amelyek hőmérséklete T'+'<sub>'+'1'+'</sub>'+' (forró forrás) és T'+'<sub>'+'2 '+'</sub>'+' (hideg tavasz), T'+'<sub>'+'1'+'</sub>'+' > T'+'<sub>'+' 2' +'</sub>'+' .'+'<br>'+'<br>'+
+                                            'Mivel a ciklikus transzformációk ΔU = 0, a termodinamika első elve szerint van'+'<br>'+'<br>'+
                                             'Q'+'<sub>'+'1'+'</sub>'+' + Q'+'<sub>'+'2'+'</sub>'+' = L'+'<br>'+'<br>'+
 
-                                            'Mașina termică este un sistem termodinamic care efectuează o transformare ciclică în care schimbă căldură și lucru mecanic cu mediul exterior.'+  
+                                            "A hőmotor egy termodinamikai rendszer, amely ciklikus átalakulást hajt végre, amelyben hőt és mechanikai munkát cserél ki a külső környezettel."+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Motoare termice:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Hőmotorok:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul termic este un sistem care transformă căldura primită, prin arderea unui combustibilul (benzina, motorina, gazul metan etc.) în lucru mecanic.'+
+                                        "A hőmotor olyan rendszer, amely a kapott hőt egy üzemanyag (benzin, gázolaj, metángáz stb.) elégetésével mechanikai munkává alakítja."+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Motorul Otto:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Az Otto motor:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul Otto folosește drept combustibil un amestec de aer cu vapori de benzină ce se realizează în carburator.'+'<br>'+'<br>'+
-                                        '- Amestecul carburant este aspirat prin supapa de admisie (S1) în cilindru cu piston.'+'<br>'+'<br>'+
-                                        '- Gazele rezultate în urma arderii amestecului carburant sunt eleminate prin supapa de evacuare (S2).'+'<br>'+'<br>'+
-                                        '- Timpul de funcționare este perioada de deplasare a pistonului de la punctul mort superior = PMS (cilindru închide un volum minim de substanță) la punctul mort inferior = PMI (cilindru închide un volum maxim de substanță) și invers.'+'<br>'+'<br>'+
-                                        '- Pistonul este legat de un sistem bielă-manivelă (vilbrochen = arbore cotit), pentru transformarea mișcării rectilinie a pistonului în mișcare de rotație.'+'<br>'+'<br>'+
-                                        '- Blocul motor este format din mai mulți cilindri legați în serie. Fiecare piston are alt timp de desfășurare pentru a permite învârtirea permanentă și constantă a vilborchenului.'+
+                                        'Az Otto motor üzemanyagként levegő és benzingőz keverékét használja, amely a karburátorban keletkezik.'+'<br>'+'<br>'+
+                                        '- Az üzemanyag-keveréket a szívószelepen (S1) keresztül szívja be a dugattyús hengerbe.'+'<br>'+'<br>'+
+                                        '- Az üzemanyag-keverék égéséből származó gázok a kipufogószelepen (S2) keresztül távoznak.'+'<br>'+'<br>'+
+                                        '- A működési idő a dugattyú elmozdulásának időtartama a felső holtponttól = TDC (a henger minimális mennyiségű anyagot zár) az alsó holtpontig = PMI (a henger maximális mennyiségű anyagot zár) és fordítva.'+'<br>'+'<br>'+
+                                        '- A dugattyú össze van kötve egy hajtókar-forgattyús rendszerrel (vilbrochen = főtengely), hogy a dugattyú egyenes vonalú mozgását forgó mozgássá alakítsa át.'+'<br>'+'<br>'+
+                                        '- A motorblokk több sorba kapcsolt hengerből áll. Minden dugattyúnak eltérő kioldási ideje van, hogy lehetővé tegye a vilborchen állandó és állandó forgását.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Timpii de funcționare ai motorului Otto:'+'<br>'+'<br>'+
+                                    'Otto motor futási idők:'+'<br>'+'<br>'+
 
-                                        ' - '+'<b>'+'Timpul 1: Admisia'+'</b>'+' - (proces izobar):'+'<br>'+'<br>'+
-                                        ' Supapa de admisie se deschide, în cilindru se aspiră amestecul de benzină-aer și pistonul coboară de la PMS la PMI, la presiune constantă. Este prima coborâre a pistonului.'+'<br>'+'<br>'+
-                                        
-                                        ' -'+'<b>'+'Timpul 2: Compresia'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        ' Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât combustibilul este puternic comprimat, caz în care presiunea și temperatura cresc. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.'+'<br>'+'<br>'+
+                                        '-'+'<b>'+'1. időpont: Belépés'+'</b>'+' - (izobar folyamat):'+'<br>'+'<br>'+
+                                        'A szívószelep kinyílik, a benzin-levegő keverék beszívódik a hengerbe, és a dugattyú állandó nyomáson leereszkedik a TDC-ről a TDC-re. Ez a dugattyú első leereszkedése.'+'<br>'+'<br>'+
+                                    
+                                        '-'+'<b>'+'2. idő: tömörítés'+'</b>'+' - (adiabatikus folyamat):'+'<br>'+'<br>'+
+                                        'Mindkét szelep zárva van. A dugattyú a TDC-ig mozog, így az üzemanyag erősen összenyomódik, ilyenkor a nyomás és a hőmérséklet nő. A tömörítés nagy sebessége miatt ez a folyamat adiabatikus (nincs hőcsere a külsővel). Ez a dugattyú első felemelkedése.'+'<br>'+'<br>'+
+                                        '-'+'<b>'+'3. idő: gyújtás'+'</b>'+' - (izokhor folyamat) és '+'<b>'+'detente'+'</b>'+ ' - (adiabatikus folyamat):'+'<br>'+'<br>'+
+                                        'Mindkét szelep zárva van, és a dugattyú TDC-n van. A gyújtógyertya által keltett elektromos szikra meggyújtja a keveréket, amely felrobban, és állandó térfogat mellett jelentős nyomásnövekedést okoz. A keverék hő leadásával ég (Q1 = a motor által kapott hő). Az égés során keletkező gázok adiabatikusan tágulnak, mechanikai munkával a dugattyút a PMI-be nyomják. Ez a dugattyú második leereszkedése.'+'<br>'+'<br>'+
 
-                                        ' -'+'<b>'+'Timpul 3 : Aprinderea'+'</b>'+' - (proces izocor) și '+'<b>'+'detenta'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        ' Ambele supape sunt închise și pistonul se află la PMS. Scânteia electrică produsă de bujie aprinde amestecul, care explodează și duce la o creștere considerabilă a presiunii la volum constant. Amestecul arde cu degajare de căldură (Q1 = căldura primită de motor). Gazele rezultate din ardere se destind adiabatic, împing pistonul în PMI cu efectuare de lucru mecanic.Este a doua coborâre a pistonului.'+'<br>'+'<br>'+
-
-                                        ' -'+'<b>'+'Timpul 4 : Evacuarea'+'</b>'+' - (proces izocor) și (proces izobar):'+'<br>'+'<br>'+
-                                        ' Supapa de evacuare S2 se deschide, caz în care presiunea scade brusc până la valoarea presiunii atmosferice.În acest proces izocor amestecul cedează căldura Q2 în mediul exterior. Pistonul urcă până la PMS împingând afară gazele arse la presiune constantă. De aici ciclul se reia.'+
-                                    '</li>'+
+                                        '-'+'<b>'+'4. időpont : Kiürítés'+'</b>'+' - (izokór folyamat) és (izobár folyamat):'+'<br>'+'<br>'+
+                                        'Kinyílik az S2 kipufogószelep, ekkor a nyomás hirtelen a légköri nyomás értékére esik le. Ebben az izokhorikus folyamatban a keverék a Q2 hőt a külső környezetnek adja át. A dugattyú felfelé halad a TDC-re, és állandó nyomáson nyomja ki az égett gázokat. Innentől a ciklus folytatódik.'+                                    '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Randamentul motorului termic Otto:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Az Otto hőmotor hatásfoka:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul motorului termic Otto (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'cedată'+'</sub>'+'| / Q'+'<sub>'+'primită'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                        'Az Otto hőmotor hatásfoka (η) a motor által végzett mechanikai munka (L) és a kapott hő (Q) arányával egyenlő fizikai mennyiség.'+'<br>'+'<br> '+
+                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'hozamos'+'</sub>'+'|)'+
 
-                                        'Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'.'+'<br>'+'<br>'+
+                                        'Feltételezzük, hogy a munkaanyag ideális gáz, és a kompressziós arány ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 '+'</sub>'+'.'+'<br>'+'<br>'+
 
-                                        'Căldurile în cele patru transformări sunt :'+'<br>'+'<br>'+
+                                        'A négy transzformáció hőfoka:'+'<br>'+'<br>'+
                                         ' - Q'+'<sub>'+'12'+'</sub>'+' = 0'+'<br>'+
                                         ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
                                         ' - Q'+'<sub>'+'34'+'</sub>'+' = 0'+'<br>'+
@@ -2425,88 +3085,87 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Motorul Diesel:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul Diesel este un motor cu ardere internă, în patru timpi cu aprindere prin injecție a motorinei.'+
+                                    "A dízelmotor belső égésű, négyütemű motor dízel befecskendezésű gyújtással."+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Timpii de funcționare ai motorului Diesel:'+'<br>'+'<br>'+
+                                        'Dízelmotor futási idők:'+'<br>'+'<br>'+
 
-                                        '- '+'<b>'+'Timpul 1: Admisia '+'</b>'+' - (proces izobar):'+'<br>'+'<br>'+
-                                        'Supapa de admisie se deschide, în cilindru se aspiră aer la presiunea atmosferică și pistonul coboară de la PMS la PMI, la presiune constantă (proces izobar). Este prima coborâre a pistonului.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Timpul 2: Compresia'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        'Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât aerul este puternic comprimat, caz în care presiunea și temperatura cresc considerabil. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Timpul 3: Aprinderea'+'</b>'+' - (proces izobar) și '+'<b>'+'detenta'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        'Ambele supape sunt închise și pistonul se află la PMS. Pompa de injecție pulverizează motorină în cilindrul motorului. Temperatura aerului din cilindru este mai mare decât temperatura de aprindere a motorinei, astfel încât aceasta se aprinde și arde la presiune constantă, cu degajare de căldură (Q1 = căldura primită de motor). Gazele rezultate din ardere se destind adiabatic, împing pistonul în PMI cu efectuare de lucru mecanic.Este a doua coborâre a pistonului.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Timpul 4: Evacuarea'+'</b>'+' - (proces izocor) și (proces izobar):'+'<br>'+'<br>'+
-                                        'Supapa de evacuare S2 se deschide, caz în care presiunea scade brusc până la valoarea presiunii atmosferice. În acest proces izocor (la volum constant) amestecul cedează căldura Q2 în mediul exterior. Pistonul urcă până la PMS împingând afară gazele arse la presiune constantă. De aici ciclul se reia.'+
+                                        '- '+'<b>'+'1. idő: Beszívás '+'</b>'+' - (izobar folyamat):'+'<br>'+'<br>'+
+                                        'A szívószelep kinyílik, levegő szívódik be a hengerbe atmoszférikus nyomáson, és a dugattyú a TDC-ről a TDC-re ereszkedik le állandó nyomáson (izobár folyamat). Ez a dugattyú első leereszkedése.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'2. idő: tömörítés'+'</b>'+' - (adiabatikus folyamat):'+'<br>'+'<br>'+                                        '– Mindkét szelep zárva van. A dugattyú TDC-re emelkedik, így a levegő erősen összenyomódik, ilyenkor a nyomás és a hőmérséklet jelentősen megnő. A tömörítés nagy sebessége miatt ez a folyamat adiabatikus (nincs hőcsere a külsővel). Ez a dugattyú első felemelkedése.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'3. idő: gyújtás'+'</b>'+' - (izobár folyamat) és '+'<b>'+'detente'+'</b>'+ ' - (adiabatikus folyamat):'+'<br>'+'<br>'+
+                                        '– Mindkét szelep zárva van, a dugattyú pedig TDC-n van. A befecskendező szivattyú dízel üzemanyagot permetez a motor hengerébe. A hengerben lévő levegő hőmérséklete magasabb, mint a gázolaj gyulladási hőmérséklete, ezért állandó nyomáson meggyullad és ég, hőt bocsát ki (Q1 = a motor által kapott hő). Az égés során keletkező gázok adiabatikusan tágulnak, mechanikai munkával a dugattyút a PMI-be nyomják. Ez a dugattyú második leereszkedése.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'4. időpont: Kiürítés'+'</b>'+' - (izokór folyamat) és (izobár folyamat):'+'<br>'+'<br>'+
+                                        'Az S2 kipufogószelep kinyílik, ekkor a nyomás hirtelen atmoszférikus nyomásra csökken. Ebben az izokoros folyamatban (állandó térfogat mellett) a keverék Q2 hőt ad le a külső környezetnek. A dugattyú felfelé halad a TDC-re, és állandó nyomáson nyomja ki az égett gázokat. Innentől a ciklus folytatódik.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Randamentul motorului termic Diesel:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Dízel termikus motor hatásfoka:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul motorului termic Diesel (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'cedată'+'</sub>'+'| / Q'+'<sub>'+'primită'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                    'A dízel hőmotor hatásfoka (η) a motor által végzett mechanikai munka (L) és a kapott hő (Q) arányával egyenlő fizikai mennyiség.'+'<br>'+'<br> '+
+                                    'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'hozamos'+'</sub>'+'|)'+
 
-                                        'Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+' și α = V'+'<sub>'+'3'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
+                                    'Feltételezzük, hogy a munkaanyag ideális gáz, és a kompressziós arány ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 '+'</sub>'+' és α = V'+'<sub>'+'3'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
 
-                                        'Căldurile în cele patru transformări sunt :'+'<br>'+'<br>'+
-                                        '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (proces adiabatic)'+'<br>'+
-                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T'+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (proces izobar)'+'<br>'+
-                                        '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (proces adiabatic)'+'<br>'+
-                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (proces izocor)'+'<br>'+'<br>'+
+                                    'A négy transzformáció hőfoka:'+'<br>'+'<br>'+
+                                    '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (adiabatikus folyamat)'+'<br>'+
+                                    '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub >'+'1'+'</sub>'+' > 0 (izobár folyamat)'+'<br>'+
+                                    '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (adiabatikus folyamat)'+'<br>'+
+                                    '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub >'+'2'+'</sub>'+' < 0 (izokór folyamat)'+'<br>'+'<br>'+
 
-                                        'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1'+'</sup>'+'(a-1))'+
-                                        
-                                    '</li>'+
+                                    'η = 1 - (1/y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+
+                                    
+                                '</li>'+
                                 '</ul>'+
                                 
 
                                 //Principiul al II-lea
 
                                 '<a name=\"element_target3\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Principiul al II-lea'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'A második elv'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 
-                                '<h2 class=\"p-3\">'+'Formularea Carnot a principiul al doilea al termodinamicii:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'A termodinamika második főtételének Carnot-féle megfogalmazása:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Prima formulare a principiul al doilea al termodinamicii îi aparține lui Sadi Carnot, care în 1824 arăta că există o limită superioară a eficienței conversiei căldurii în energie mecanică într-un motor termic, care implică folosirea unui ciclu termodinamic al unui fluid de lucru.'+
+                                        'A termodinamika második főtételének első megfogalmazása Sadi Carnoté, aki 1824-ben kimutatta, hogy van egy felső határa a hő mechanikai energiává alakításának hatékonyságának egy hőgépben, ami egy termodinamikai ciklus alkalmazását foglalja magában. munkafolyadék.' +
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Carnot a fost primul care a arătat că nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate. Astfel, sistemul primește căldură de la o sursă caldă (termostat cu T'+'<sub>'+'1'+'</sub>'+') și cedează căldură unei surse reci (termostat cu T'+'<sub>'+'2'+'</sub>'+').'+
+                                        'Carnot mutatta be először, hogy nem lehet egyetlen termosztáttal üzemeltetni egy hőmotort, amelyhez legalább két termosztát szükséges. Így a rendszer meleg forrásból kap hőt (termosztát T'+'<sub>'+'1'+'</sub>'+') és hőt ad egy hideg forrásnak (T'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Parametrii gazului în stare inițială sunt p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' și T'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'A gázparaméterek kezdeti állapotban: p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' és T'+'<sub>'+'1'+'</sub>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe un încălzitor (termostat cu T'+'<sub>'+'1'+'</sub>'+'). Gazul va absorbi căldură Q'+'<sub>'+'1'+'</sub>'+' de la sursa caldă și se va destinde izoterm (T'+'<sub>'+'1'+'</sub>'+' = const.) și cvasistatic de la V'+'<sub>'+'1'+'</sub>'+' la V'+'<sub>'+'2'+'</sub>'+', efectuând lucrul mecanic L'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'A gázpalackot egy fűtőtestbe visszük (termosztát T'+'<sub>'+'1'+'</sub>'+'-val). A gáz elnyeli a Q'+'<sub>'+'1'+'</sub>'+' hőt a forró forrásból, és izotermikusan kitágul (T'+'<sub>'+'1'+'</sub>'+' = állandó) és kvázi statikus V'+'<sub>'+'1'+'</sub>'+'-tól V'+'<sub>'+'2'+'-ig </sub>'+', L'+'<sub>'+'1'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe un suport termoizolator. Gazul se destinde adiabatic până la V'+'<sub>'+'3'+'</sub>'+', efectuând lucrul mecanic L'+'<sub>'+'2'+'</sub>'+'. Gazul se răcește având temperatura T'+'<sub>'+'2'+'</sub>'+' < T'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'A gázpalackot hőszigetelő tartón hozzuk. A gáz adiabatikusan kitágul V'+'<sub>'+'3'+'</sub>'+'-ig, mechanikai munkát végezve L'+'<sub>'+'2'+'</sub>' + '. A gáz lehűl T'+'<sub>'+'2'+'</sub>'+' < T'+'<sub>'+'1'+'</sub>'+'. ' +
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe o sursă rece (termostat cu T'+'<sub>'+'2'+'</sub>'+'). Gazul va ceda căldură Q'+'<sub>'+'2'+'</sub>'+' și se va comprima izoterm (T'+'<sub>'+'2'+'</sub>'+' = const.) și cvasistatic de la V'+'<sub>'+'3'+'</sub>'+' la V'+'<sub>'+'4'+'</sub>'+', primind lucrul mecanic L'+'<sub>'+'3'+'</sub>'+'.'+
+                                        'A gázpalackot hideg forrásba visszük (termosztát T'+'<sub>'+'2'+'</sub>'+'-val). A gáz Q'+'<sub>'+'2'+'</sub>'+' hőt ad le, és izotermikusan összenyomódik (T'+'<sub>'+'2'+'</sub> ' +' = állandó) és kvázi statikus V'+'<sub>'+'3'+'</sub>'+'-tól V'+'<sub>'+'4'+'</sub> '+', megkapja a mechanikai munkát L'+'<sub>'+'3'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe un suport termoizolator. Gazul se comprimă adiabatic de la V'+'<sub>'+'4'+'</sub>'+' până la '+'<sub>'+'1'+'</sub>'+'. Temperatura lui va crește de la T'+'<sub>'+'2'+'</sub>'+' la T'+'<sub>'+'1'+'</sub>'+', primind lucrul mecanic L'+'<sub>'+'4'+'</sub>'+'. Gazul revine în starea inițială.'+
+                                        'A gázpalackot hőszigetelő tartón hozzuk. A gázt adiabatikusan sűrítjük V'+'<sub>'+'4'+'</sub>'+'-ról '+'<sub>'+'1'+'</sub>'+'-ra. Hőmérséklete T'+'<sub>'+'2'+'</sub>'+'-ról T'+'<sub>'+'1'+'</sub>'+'-ra emelkedik, fogadva a mechanikai munka L'+'<sub>'+'4'+'</sub>'+'. A gáz visszatér eredeti állapotába.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Randamentul ciclului Carnot:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Carnot ciklus hozama:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+
-                                        'Randamentul ciclului Carnot (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q'+'<sub>'+'1'+'</sub>'+').'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
-                                        'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+'<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
-                                    '</li>'+
+                                '<li>'+
+                                    'A Carnot-ciklus hatásfoka (η) egy fizikai mennyiség, amely egyenlő a motor által végzett mechanikai munka (L) és a kapott hő (Q'+'<sub>'+'1'+'</sub>'+') '+'<br>'+'<br>'+
+                                    'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
+                                    'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+ '<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
+                                '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Formularea Carnot a principiul al doilea al termodinamicii:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'A termodinamika második főtételének Carnot-féle megfogalmazása:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul ciclului Carnot este întotdeauna subunitar, deoarece T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
+                                        'A Carnot-ciklus hozama mindig alegység, mert T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Randamentul ciclului Carnot depinde numai de temperatura sursei calde (T'+'<sub>'+'1'+'</sub>'+') și a celei reci (T'+'<sub>'+'2'+'</sub>'+') și nu depinde de substanța de lucru.'+
+                                        'A Carnot-ciklus teljesítménye csak a meleg forrás (T'+'<sub>'+'1'+'</sub>'+') és a hideg (T'+'<sub>'+'2' +'</sub>'+'), és nem függ a munkaanyagtól.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Randamentul unei mașini termice ireversibile este întotdeauna mai mic decît randamentul unei mașini termice care funcționează reversibil între aceleași limite de temperatură.'+
+                                        "Egy irreverzibilis hőmotor hatásfoka mindig alacsonyabb, mint az azonos hőmérsékleti határok között reverzibilisen működő hőmotoré."+
                                     '</li>'+
                                 '</ul>'),
 
@@ -2675,8 +3334,8 @@ var data = {
                         '<h2 class=\"p-3\">'+'Geschwindigkeit'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Formel: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Maßeinheit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</ li >'+
-                                    '<li>'+'Durchschnittsgeschwindigkeit: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b >'+'</li>'+
+                            '<li>'+'Maßeinheit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
+                                    '<li>'+'Durchschnittsgeschwindigkeit: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
                                     '<li>'+'Geschwindigkeitsvektor hat die gleiche Bedeutung wie Verschiebung: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>' + ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Acceleration'+'</h2>'+
@@ -2690,7 +3349,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Geschwindigkeitsgesetz: '+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</ li>'+
+                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Bewegungsgesetz:'+'</h2>'+
                         '<ul>'+
@@ -2710,7 +3369,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Drittes Prinzip der Mechanik:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Wenn ein Körper mit einer Kraft (Aktionskraft genannt) auf einen anderen Körper einwirkt, wirkt der zweite Körper ebenfalls mit einer Kraft (Reaktionskraft genannt) gleicher Größe und Richtung auf den ersten Körper ein, aber Gegenteil. Dieses Prinzip ist auch als Aktions- und Reaktionsprinzip bekannt.'+'</li>'+
-                            '<li>'+'Als Formel geschrieben: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub > '+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'Als Formel geschrieben: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub> '+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Hookes Gesetz:'+'</h2>'+
                         '<ul>'+
@@ -2718,7 +3377,7 @@ var data = {
     
                             'Δl ~ F'+'<br>'+'<br>'+
     
-                            '<li>'+'Direkt proportional zur anfänglichen Federlänge (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br >'+
+                            '<li>'+'Direkt proportional zur anfänglichen Federlänge (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
     
@@ -2760,7 +3419,7 @@ var data = {
                         //Teoreme de variatie si legi de conservare
                         
                         '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center >'+'Theoreme der Variations- und Erhaltungsgesetze'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Theoreme der Variations- und Erhaltungsgesetze'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                         
                         '<h2 class=\"p-3\">'+'Mechanische Arbeit:'+'</h2>'+
                         '<ul>'+
@@ -2789,7 +3448,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Gravitationspotentialenergie:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Gravitationspotentialenergie (E'+'<sub>'+'pg'+'</sub>'+') ist die Energie, die ein Körper in einer bestimmten Höhe über dem Boden hat'+'</li>'+'<br>'+
-                            '<li>'+'Die potentielle Gravitationsenergie eines Körpers ist gleich: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</ li >'+'<br>'+
+                            '<li>'+'Die potentielle Gravitationsenergie eines Körpers ist gleich: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
                             '<li>'+'Gesetz der Variation der potentiellen Gravitationsenergie:'+'<br>'+'<br>'+
                                 'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
                             '<li>'+'Eine Kraft, die mechanische Arbeit verrichtet, die unabhängig vom zurückgelegten Weg ist und nur von den Extrempositionen (Anfangs- und Endposition) abhängt, wird als konservative Kraft bezeichnet.'+'</li>'+
@@ -2822,382 +3481,377 @@ var data = {
 
         //teorieTermodinamica.html
         "teorieTermodinamicaTitle": "Theorie der Thermodynamische",
-        "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Noțiuni termodinamice de bază'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+        "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Grundlegende thermodynamische Konzepte'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'Agitația termică'+'</b>'+' este mişcarea dezordonată şi continuă a particulelor unei substanţe (atomi sau molecule).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Difuzia'+'</b>'+' este fenomenul de pătrundere a moleculelor unei substanțe printre moleculele altei substanțe, fără intervenţia unei forţe exterioare (de la sine).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Atomul'+'</b>'+' este cea mai mică particulă dintr-o substanță care nu mai poate fi divizată prin procedee chimice obișnuite.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molecula'+'</b>'+' reprezintă cea mai mică particulă dintr-o substanță, care poate exista și în stare liberă și care păstrează proprietățile substanței din care provine.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Masa moleculară'+'</b>'+' este o mărime adimensională (fără unitate de măsură) care ne arată de câte ori este mai mare masa reală a unei molecule decât unitatea atomică de masă (u.a.m.).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Masa atomică relativă (A)'+'</b>'+' este numărul care arată de câte ori masa unui atom este mai mare decât unitatea atomică de masă.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Un mol de atomi'+'</b>'+' reprezintă cantitatea, în grame, dintr-o substanţă simplă care conţine 6,022 ∙ 10'+'<sup>'+'23'+'</sup>'+' de atomi. Se notează cu litera grecească ”niu”=  υ.'+'<br>'+'<br>'+
-
-                                        'υ = m(g) / A(g/mol) = masa de substanță simplă(g) / masa atomică(g/mol)'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Numărul lui Avogadro'+'</b>'+', notat cu N'+'<sub>'+'A'+'</sub>'+', este egal cu 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atomi şi reprezintă numărul de atomi conţinuţi într-un mol de atomi din orice substanță simplă.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Masa molară'+'</b>'+' (notată cu litera grecească miu = μ) este masa unui mol de substanță. Are ca unitate de măsură g/mol.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molul'+'</b>'+' este unitatea de măsură în Sistemul Internațional a cantității de substanță care conține un număr de particule egal cu numărul lui Avogadro, N'+'<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
-                                        'υ = m(g) / μ(g/mol) = Masa substanței compuse(g) / Masa molară(g/mol)'+'<br>'+'<br>'+
-                                        'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Număr de particule / Numărul lui Avogadro'+'</li>'+'<br>'+
-                                    '<li>'+'Un mol din orice gaz ocupă în condiții normale de temperatură (273 K) și presiune (10'+'<sup>'+'5'+'</sup>'+' Pa) un volum, numit '+'<b>'+'volum molar'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L/mol'+'<br>'+'<br>'+
-                                        'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Volumul gazului(L) / Volumul molar(L/mol)'+'<br>'+'<br>'+
-                                        'Relația între volumul molar și densitatea unei substanțe este:'+'<br>'+'<br>'+
+                                '<li>'+'<b>'+'Thermische Bewegung'+'</b>'+' ist die ungeordnete und kontinuierliche Bewegung der Teilchen einer Substanz (Atome oder Moleküle).'+'</li> '+' <br>'+
+                                '<li>'+'<b>'+'Diffusion'+'</b>'+' ist das Phänomen des Eindringens der Moleküle einer Substanz in die Moleküle einer anderen Substanz, ohne dass eine äußere Kraft eingreift ( von selbst).'+ '</li>'+'<br>'+
+                                '<li>'+'<b>'+'Atom'+'</b>'+' ist das kleinste Teilchen einer Substanz, das durch gewöhnliche chemische Prozesse nicht weiter zerlegt werden kann.'+'</li>'+ '<br>'+
+                                '<li>'+'<b>'+'Molekül'+'</b>'+' stellt das kleinste Teilchen in einem Stoff dar, das auch in freiem Zustand existieren kann und die Eigenschaften des Stoffes behält, aus dem es stammt es kommt. '+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Molekularmasse'+'</b>'+' ist eine dimensionslose Größe (keine Maßeinheit), die uns zeigt, wie oft die tatsächliche Masse eines Moleküls größer ist als Atomare Masseneinheit (u.a.m.).'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Die relative Atommasse (A)'+'</b>'+' ist die Zahl, die angibt, wie oft die Masse eines Atoms größer als die Atommasseneinheit ist .'+ '</li>'+'<br>'+
+                                '<li>'+'<b>'+'Ein Mol Atome'+'</b>'+' stellt die Menge einer einfachen Substanz in Gramm dar, die 6,022 ∙ 10'+'<sup>'+'23'+'</sup>'+' Atome. Es wird mit dem griechischen Buchstaben „niu“= υ.'+'<br>'+'<br>'+
+                                        'υ = m(g) / A(g/mol) = Masse der einfachen Substanz (g) / Atommasse (g/mol)'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Avogadros Zahl'+'</b>'+', bezeichnet durch N'+'<sub>'+'A'+'</sub>'+' , ist gleich 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' Atome und stellt die Anzahl der Atome dar, die in einem Mol Atome einer einfachen Substanz enthalten sind.'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Molmasse'+'</b>'+' (gekennzeichnet durch den griechischen Buchstaben miu = μ) ist die Masse eines Mols einer Substanz. Seine Maßeinheit ist g/mol.'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Das Mol'+'</b>'+' ist im Internationalen System die Maßeinheit für die Stoffmenge, die eine Anzahl von Teilchen enthält, die der Avogadro-Zahl entspricht. N'+ '<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
+                                        'υ = m(g) / μ(g/mol) = Masse der Verbindung (g) / Molmasse (g/mol)'+'<br>'+'<br>'+
+                                        'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Anzahl der Teilchen / Avogadro-Zahl'+'</li>'+'<br>'+
+                                        '<li>'+'Ein Mol eines beliebigen Gases nimmt unter normalen Bedingungen von Temperatur (273 K) und Druck (10'+'<sup>'+'5'+'</sup>'+' Pa) ein Volumen ein , genannt '+'<b>'+'molares Volumen'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L /mol '+'<br>'+'<br>'+
+                                        'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Gasvolumen (L) / Molvolumen (L/mol)'+'<br>'+'<br>'+
+                                        'Die Beziehung zwischen dem Molvolumen und der Dichte einer Substanz ist:'+'<br>'+'<br>'+
                                         'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
-                                        'Numărul volumic (n) reprezintă numărul de particule (atomi sau molecule) dintr-un m3 de substanță :'+'<br>'+'<br>'+
-                                        'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V'+'<br>'+'<br>'+'</li>'+
+                                        'Die Volumenzahl (n) stellt die Anzahl der Teilchen (Atome oder Moleküle) in einem m3 Substanz dar:'+'<br>'+'<br>'+
+                                        'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V '+'<br>'+'<br>'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Echilibrul termodinamic și procese termodinamice:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Thermodynamisches Gleichgewicht und thermodynamische Prozesse:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'Starea unui sistem termodinamic'+'</b>'+', la un anumit moment, este caracterizat de anumite mărimi fizice numite parametrii de stare.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Principiul echilibrului termodinamic'+'</b>'+':'+'<br>'+'<br>'+
-
-                                        'Un sistem termodinamic izolat evoluează spontan spre o stare de echilibru termodinamic pe care nu o mai părăsește de la sine.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Starea de echilibru termodinamic'+'</b>'+' a unui sistem poate fi modificată prin contact :'+'<br>'+'<br>'+
-                                        '- mecanic cu mediul exterior'+'<br>'+
-                                        '- termic cu un alt mediu (când două corpuri cu temperaturi diferite se ating) sau cu mediul exterior'+'<br>'+
-                                        '- schimb de substanță cu mediul exterior sau alt mediu'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Procesul termodinamic'+'</b>'+' (transformarea de stare) reprezintă trecerea sistemului dintr-o stare în alta.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Transformarea cvasistatică'+'</b>'+' are loc când stările intermediare prin care trece sistemul sunt stări de echilibru termic, atunci când parametrii de stare variază foarte lent.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Procesul reversibil'+'</b>'+' este transformarea cvasistatică care poate avea loc în ambele sensuri, prin aceleași stări intermediare.'+'</li>'+'<br>'+
-                                    '<li>'+'Ecuația de stare (numită Clapeyron - Mendeleev) descrie dependența dintre parametrii de stare ai unui sistem termodinamic:'+'<br>'+'<br>'+
-                                        'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
-                                        'p = presiunea gazului ideal'+'<br>'+
-
-                                        'V = volumul gazului ideal'+'<br>'+
-
-                                        'ν = numărul de moli ai gazului ideal'+'<br>'+
-
-                                        'R = constanta universală a gazelor = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
-
-                                        'T = temperatura gazului ideal'+'</li>'+
+                                '<li>'+'<b>'+'Der Zustand eines thermodynamischen Systems'+'</b>'+' wird zu einem bestimmten Zeitpunkt durch bestimmte physikalische Größen, sogenannte Zustandsparameter, charakterisiert.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Prinzip des thermodynamischen Gleichgewichts'+'</b>'+':'+'<br>'+'<br>'+
+                                        'Ein isoliertes thermodynamisches System entwickelt sich spontan zu einem thermodynamischen Gleichgewichtszustand, den es nie von selbst verlässt.'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Der Zustand des thermodynamischen Gleichgewichts'+'</b>'+' eines Systems kann durch Kontakt geändert werden:'+'<br>'+'<br>' +
+                                        '- mechanisch mit der äußeren Umgebung'+'<br>'+
+                                        '- thermisch mit einer anderen Umgebung (wenn sich zwei Körper mit unterschiedlichen Temperaturen berühren) oder mit der äußeren Umgebung'+'<br>'+
+                                        '- Stoffaustausch mit der äußeren Umgebung oder einer anderen Umgebung'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Der thermodynamische Prozess'+'</b>'+' (Zustandstransformation) stellt den Übergang des Systems von einem Zustand in einen anderen dar.'+'</li>' +' <br>'+
+                                        '<li>'+'<b>'+'Quasistatische Transformation'+'</b>'+' tritt auf, wenn die Zwischenzustände, die das System durchläuft, Zustände des thermischen Gleichgewichts sind, wenn die Zustandsparameter sehr langsam variieren. ' +'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'Der reversible Prozess'+'</b>'+' ist die quasistatische Transformation, die in beide Richtungen über dieselben Zwischenzustände erfolgen kann.'+'</li>'+ '<br>'+
+                                        '<li>'+'Die Zustandsgleichung (genannt Clapeyron - Mendeleev) beschreibt die Abhängigkeit zwischen den Zustandsparametern eines thermodynamischen Systems:'+'<br>'+'<br>'+
+                                            'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
+                                            'p = idealer Gasdruck'+'<br>'+
+    
+                                            'V = ideales Gasvolumen'+'<br>'+
+    
+                                            'ν = Anzahl der Mol des idealen Gases'+'<br>'+
+    
+                                            'R = universelle Gaskonstante = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
+    
+                                            'T = ideale Gastemperatur'+'</li>'+
                                 '</ul>'+
                                 '<h2 align = center>'+
                                 '<img src = \"img/transformari.png\" width = 360>'+
                                 '</h2>'+
-                                '<h2 class=\"p-3\">'+'Temperatura empirică. Scări de temperatură:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Empirische Temperatur. Temperaturskalen:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Două sisteme termodinamice închise și izolate adiabatic de exterior care nu schimbă energie între ele au aceeași temperatură, numită '+'<b>'+'temperatură empirică.'+'</b>'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Temperatura'+'</b>'+' este o mărime fizică de stare măsurată cu termometru, care implică un corp termometric, o mărime termometrică și o scară de temperatură.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Principiul zero al termodinamicii'+'</b>'+' (tranzitivității echilibrului termic):'+'<br>'+'<br>'+
-                                        'Dacă sistemul A este în echilibru termic cu sistemul B și sistemul B este în echilibru termic cu sistemul C, atunci și sistemul A este în echilibru termic cu sistemul C.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Relația de transformare'+'</b>'+' între scara Celsius t(°C) și Fahrenheit tF (°F):'+'<br>'+'<br>'+
+                                    '<li>'+'Zwei von außen adiabatisch isolierte geschlossene thermodynamische Systeme, die keine Energie miteinander austauschen, haben die gleiche Temperatur, die sogenannte '+'<b>'+'empirische Temperatur.'+'</b> '+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Temperatur'+'</b>'+' ist eine physikalische Zustandsgröße, die mit einem Thermometer gemessen wird und einen thermometrischen Körper, eine thermometrische Größe und eine Temperaturskala umfasst.' +'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Das Nullprinzip der Thermodynamik'+'</b>'+' (Transitivität des thermischen Gleichgewichts):'+'<br>'+'<br>'+
+                                        'Wenn System A im thermischen Gleichgewicht mit System B und System B im thermischen Gleichgewicht mit System C steht, dann befindet sich System A auch im thermischen Gleichgewicht mit System C.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Transformationsbeziehung'+'</b>'+' zwischen Celsius t(°C) und Fahrenheit tF (°F):'+'<br>'+ '<br>'+
                                         't'+'<sub>'+'F'+'</sub>'+' = 9/5 ∙ t(°C) + 32'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Scara Kelvin'+'</b>'+' (absolută): '+'<br>'+'<br>'+
-                                        '[T]'+'<sub>'+'SI'+'</sub>'+' = K (kelvin)'+'<br>'+'<br>'+
+                                    '<li>'+'<b>'+'Kelvin-Skala'+'</b>'+' (absolut): '+'<br>'+'<br>'+
+                                        '[T]'+'<sub>'+'SI'+'</sub>'+' = K (Kelvin)'+'<br>'+'<br>'+
                                         'T(K) = t (°C) + 273,15'+'</li>'+
                                 '</ul>'+
 
                                 //Principiul I
                                 '<a name=\"element_target\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Principiul I'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'The Prinzip I'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 
 
-                                '<h2 class=\"p-3\">'+'Lucrul mecanic:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Mechanische Arbeit:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Schimbul de energie dintre un sistem termodinamic închis și mediul exterior poate avea loc în două moduri:'+'<br>'+'<br>'+
-                                        '- Prin efectuare de lucru mecanic'+'<br>'+
-                                        '- Prin transfer de căldură.'+'<br>'+'<br>'+
+                                    '<li>'+'Der Energieaustausch zwischen einem geschlossenen thermodynamischen System und der äußeren Umgebung kann auf zwei Arten erfolgen:'+'<br>'+'<br>'+
+                                        '- Durch die Ausführung mechanischer Arbeit'+'<br>'+
+                                        '- Durch Wärmeübertragung.'+'<br>'+'<br>'+
                                         
-                                        'Măsura energiei transferate sistemului în condițiile interacțiunilor care au drept rezultat variația parametrilor de poziție sub acțiunea unor forțe se numește '+'<b>'+'lucru mecanic.'+'</b>'+'<br>'+'<br>'+
+                                        'Das Maß für die Energie, die unter den Bedingungen der Wechselwirkungen, die zur Variation der Positionsparameter unter der Wirkung einiger Kräfte führen, auf das System übertragen wird, wird als '+'<b>'+'mechanische Arbeit.'+'</b>'+'<br>'+' <br>'+
                                         'L = F ∙ d'+'</li>'+'<br>'+
-                                    '<li>'+'Lucrul mecanic efectuat de forța exterioară F'+'<sub>'+'e'+'</sub>'+' este :'+'<br>'+'<br>'+
+                                    '<li>'+'Die mechanische Arbeit, die von der äußeren Kraft F'+'<sub>'+'e'+'</sub>'+' verrichtet wird, ist:'+'<br>'+'<br>'+
                                         'L'+'<sub>'+'e'+'</sub>'+' = p'+'<sub>'+'e'+'</sub>'+' ∙ S ∙ (x1 - x2) = - p'+'<sub>'+'e'+'</sub>'+' ∙ ΔV'+'<br>'+'<br>'+
-                                        'S = aria secțiunii transversale a cilindrului'+'<br>'+
-                                        'p'+'<sub>'+'e'+'</sub>'+' = presiunea exterioară'+'<br>'+
+                                        'S = Querschnittsfläche des Zylinders'+'<br>'+
+                                        'p'+'<sub>'+'e'+'</sub>'+' = äußerer Druck'+'<br>'+
 
                                         'V2 = S ∙ x2'+'<br>'+
                                         'V1 = S ∙ x1'+'<br>'+
                                         
                                         'ΔV = V2 - V1'+'</li>'+'<br>'+
-                                    '<li>'+'Lucrul mecanic efectuat de sistemul termodinamic într-o transformare izobară este:'+'<br>'+'<br>'+
+                                    '<li>'+'Die mechanische Arbeit, die das thermodynamische System bei einer isobaren Transformation leistet, ist:'+'<br>'+'<br>'+
                                         'L = p ∙ ΔV'+'</li>'+'<br>'+
                                     
-                                    '<li>'+'Convenții de semne pentru lucrul mecanic efectuat de sistemul termodinamic:'+'<br>'+'<br>'+
+                                    '<li>'+'Vorzeichenkonventionen für die mechanische Arbeit des thermodynamischen Systems:'+'<br>'+'<br>'+
                                     
-                                        'a) Dacă gazul se destinde (îi crește volumul), ΔV > 0, atunci L > 0 și sistemul efectuează lucru mecanic asupra mediului exterior (cedează L).'+'<br>'+'<br>'+
+                                        'a) Wenn sich das Gas ausdehnt (sein Volumen vergrößert), ΔV > 0, dann ist L > 0 und das System verrichtet mechanische Arbeit am externen Medium (ergibt L).'+'<br>'+'<br>'+
                                     
-                                        'b) Dacă gazul se comprimă (îi scade volumul), ΔV < 0, atunci L < 0 și asupra sistemului se efectuează lucru mecanic (primește L).'+'<br>'+'<br>'+
+                                        'b) Wenn das Gas komprimiert wird (sein Volumen abnimmt), ΔV < 0, dann ist L < 0 und es wird mechanische Arbeit am System verrichtet (erhält L).'+'<br>'+'<br>'+
                                     
-                                        'c) Dacă între sistem și exterior nu are loc transfer de energie prin lucru mecanic (L = 0), atunci gazul nu își modifică volumul (ΔV=0).'+'</li>'+'<br>'+
+                                        'c) Wenn keine Energieübertragung durch mechanische Arbeit zwischen dem System und der Außenwelt stattfindet (L = 0), ändert das Gas sein Volumen nicht (ΔV=0).'+'</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Lucrul mecanic:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Mechanische Arbeit:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Energia particulelor unui gaz real este dată:'+'<br>'+'<br>'+
-                                        '- Energie externă este dată de suma energiei cinetică a sistemului ca întreg și energiei potențială a acestuia aflat într-un câmp de forțe.'+'<br>'+'<br>'+
-                                        '- Energie internă (U) este dată de suma dintre energiile cinetice ale moleculelor (E'+'<sub>'+'c'+'</sub>'+') și energiile potențiale de interacțiune dintre moleculele sistemului termodinamic (E'+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
+                                        'Die Energie der Teilchen eines realen Gases ist gegeben durch:'+'<br>'+'<br>'+
+                                        '- Äußere Energie ergibt sich aus der Summe der kinetischen Energie des Gesamtsystems und seiner potentiellen Energie in einem Kraftfeld.'+'<br>'+'<br>'+
+                                        '- Die innere Energie (U) ergibt sich aus der Summe der kinetischen Energien der Moleküle (E'+'<sub>'+'c'+'</sub>'+') und der potentiellen Wechselwirkungsenergien zwischen ihnen Moleküle des thermodynamischen Systems (E '+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
                                         'U = Ec + Ep'+'<br>'+'<br>'+
-                                        '- Dar variația energiei interne (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub>'+') este o mărime fizică de stare și nu depinde de stările intermediare prin care trece sistemul, ci numai de starea inițială (U'+'<sub>'+'1'+'</sub>'+') și cea finală (U'+'<sub>'+'2'+'</sub>'+').'+
+                                        '- Aber die interne Energieschwankung (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub> ' +') ist eine physikalische Zustandsgröße und hängt nicht von den Zwischenzuständen ab, die das System durchläuft, sondern nur vom Anfangszustand (U'+'<sub>'+'1'+'</sub>'+ ') und das Finale (U'+'<sub>'+'2'+'</sub>'+').'+
 
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Căldura:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Die Hitze:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Căldura (Q) este o mărime fizică care măsoară energia transferată, numai prin mișcarea dezordonată a moleculelor dintre două corpuri aflate în contact termic.'+'<br>'+'<br>'+
+                                    'Wärme (Q) ist eine physikalische Größe, die die Energie misst, die nur durch die ungeordnete Bewegung von Molekülen zwischen zwei Körpern in thermischem Kontakt übertragen wird.'+'<br>'+'<br>'+
 
-                                        '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+
-                                        'O altă unitate de măsură tolerată pentru căldură este caloria: 1cal = 4,18 J'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+'Convenții de semne pentru căldură:'+'<br>'+'<br>'+
-                                        'a) Când sistemul primește căldură din exterior, atunci Q > 0'+'<br>'+'<br>'+
-                                        'b) Când sistemul cedează căldură în exterior, atunci Q < 0'+'<br>'+'<br>'+
-                                        'c) Când sistemul este izolat adiabatic (nu schimbă căldură cu exteriorul), atunci Q = 0'+
-                                    '</li>'+'<br>'+
+                                    '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(Joule)'+'<br>'+'<br>'+
+                                    'Eine weitere tolerierte Maßeinheit für Wärme ist die Kalorie: 1cal = 4,18 J'+
+                                '</li>'+'<br>'+
+                                '<li>'+'Vorzeichenkonventionen für Wärme:'+'<br>'+'<br>'+
+                                    'a) Wenn das System Wärme von außen erhält, dann ist Q > 0'+'<br>'+'<br>'+
+                                    'b) Wenn das System Wärme nach außen abgibt, dann ist Q < 0'+'<br>'+'<br>'+
+                                    'c) Wenn das System adiabatisch isoliert ist (keine Wärmeaustausch mit der Außenwelt), dann ist Q = 0'+
+                                '</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Consecințe ale principiul întâi al termodinamicii:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Konsequenzen des ersten Prinzips der Thermodynamik:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Enunțul principiul întâi al termodinamicii:'+'<br>'+'<br>'+
-                                        'Variația energiei interne a unui sistem într-un proces oarecare este:'+'<br>'+'<br>'+
+                                    '<li>'+'Beschreiben Sie das erste Prinzip der Thermodynamik:'+'<br>'+'<br>'+
+                                        'Die Variation der inneren Energie eines Systems in einem Prozess ist:'+'<br>'+'<br>'+
                                         'ΔU = Q - L'+'</li>'+'<br>'+
-                                    '<li>'+'Dacă sistemul este izolat (nu schimbă nici căldură și nici lucru mecanic cu exteriorul), atunci'+'<br>'+'<br>'+
-                                        'Q = L = 0, ΔU = U2 – U1 = 0 și U1 = U2, adică energia internă a unui sistem izolat se conservă.'+
+                                    '<li>'+'Wenn das System isoliert ist (es tauscht weder Wärme noch mechanische Arbeit mit der Außenwelt aus), dann'+'<br>'+'<br>'+
+                                        'Q = L = 0, ΔU = U2 – U1 = 0 und U1 = U2, d. h. die innere Energie eines isolierten Systems bleibt erhalten.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Ecuația principiul întâi al termodinamicii mai poate fi scrisă și sub forma definiției căldurii:'+'<br>'+'<br>'+
-                                        'Q = ΔU + L, adică căldura primită de un sistem servește atât la variația energiei interne a sistemului, cât și la efectuarea de lucru mecanic de către sistem.'+
+                                        'Die Gleichung des ersten Prinzips der Thermodynamik kann auch in Form der Definition von Wärme geschrieben werden:'+'<br>'+'<br>'+
+                                        'Q = ΔU + L, d. h. die von einem System aufgenommene Wärme dient sowohl der Veränderung der inneren Energie des Systems als auch der Verrichtung mechanischer Arbeit durch das System.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Dacă sistemul este izolat adiabatic (nu schimbă căldură cu exteriorul), atunci'+'<br>'+'<br>'+
-                                        'Q = 0 și L = –ΔU = –(U2 – U1), adică un sistem izolat adiabatic schimbă lucru mecanic cu exteriorul numai pe seama variației energiei interne.'+
+                                        'Wenn das System adiabatisch isoliert ist (keine Wärmeaustausch mit der Außenwelt), dann'+'<br>'+'<br>'+
+                                        'Q = 0 und L = –ΔU = –(U2 – U1), d. h. ein isoliertes adiabatisches System tauscht nur aufgrund der Variation der inneren Energie mechanische Arbeit mit der Außenwelt aus.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Dacă sistemul nu schimbă lucru mecanic cu exteriorul (L= 0), ci numai căldură atunci'+'<br>'+'<br>'+
-                                        'ΔU = Q, adică căldura primită de sistem duce la creșterea energiei interne a sistemului.'+
+                                        'Wenn das System keine mechanische Arbeit mit der Außenwelt austauscht (L= 0), sondern nur Wärme, dann'+'<br>'+'<br>'+
+                                        'ΔU = Q, d. h. die vom System aufgenommene Wärme führt zu einer Erhöhung der inneren Energie des Systems.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Într-o transformare ciclică, ΔU = U2 – U1 = 0 și L = Q, adică sistemul poate efectua lucru mecanic numai dacă el primește căldură din exterior.'+
+                                        'Bei einer zyklischen Transformation ist ΔU = U2 – U1 = 0 und L = Q, das heißt, das System kann nur dann mechanische Arbeit leisten, wenn es Wärme von außen erhält.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'De aici rezultă și imposibilitatea existenței unui perpetuum mobile de speța întâi (dispozitiv care să producă lucru mecanic fără să consume energie din exterior).'+
+                                        'Daraus folgt die Unmöglichkeit der Existenz eines Perpetuum Mobile erster Art (ein Gerät, das mechanische Arbeit leistet, ohne Energie von außen zu verbrauchen).'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Coeficienții calorici:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Kalorische Koeffizienten:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Căldura specifică (c) reprezintă mărimea fizică ce caracterizează căldura absorbită /cedată de 1kg de substanță pentru a-și mări /micșora temperatura cu un grad. Ea este o constantă de material și o găsim în tabelul cu constante de la sfârșitul acestui capitol.'+'<br>'+'<br>'+
+                                        'Die spezifische Wärme (c) stellt die physikalische Größe dar, die die Wärme charakterisiert, die von 1 kg Stoff aufgenommen/abgegeben wird, um seine Temperatur um ein Grad zu erhöhen/zu senken. Sie ist eine Materialkonstante und kann in der Konstantentabelle am Ende dieses Kapitels gefunden werden.'+'<br>'+'<br>'+
                                         'c = 1 / m ∙ Q / ΔT'+'<br>'+'<br>'+
                                         '[c]'+'<sub>'+'SI'+'</sub>'+' = J/Kg∙K'+'<br>'+'<br>'+
                                         'Q = m ∙ c ∙ ΔT'+'<br>'+
-                                        'm = masa corpului'+'<br>'+
-                                        'c = căldura specifică'+'<br>'+
-                                        'ΔT = T'+'<sub>'+'finală'+'</sub>'+' – T'+'<sub>'+'inițială'+'</sub>'+' ,variația temperaturii corpului'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'primită'+'</sub>'+' > 0'+'<br>'+
-                                        'Q'+'<sub>'+'cedată'+'</sub>'+'< 0 '+'<br>'+'<br>'+
-                                        'Ecuația calorimetrică: '+'<br>'+'Q'+'<sub>'+'primită'+'</sub>'+' = | Q'+'<sub>'+'cedată'+'</sub>'+' |'+'<br>'+
+                                        'm = Körpermasse'+'<br>'+
+                                        'c = spezifische Wärme'+'<br>'+
+                                        'ΔT = T'+'<sub>'+'final'+'</sub>'+' – T'+'<sub>'+'initial'+'</sub>'+' , die Körpertemperatur Variation '+'<br>'+'<br>'+
+                                        'Q'+'<sub>'+'erhalten'+'</sub>'+' > 0'+'<br>'+
+                                        'Q'+'<sub>'+'datum'+'</sub>'+'< 0 '+'<br>'+'<br>'+
+                                        'Die kalorimetrische Gleichung: '+'<br>'+'Q'+'<sub>'+'erhalten'+'</sub>'+' = | Q'+'<sub>'+'datum'+'</sub>'+' |'+'<br>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Capacitatea calorică (C) reprezintă mărimea fizică ce caracterizează cantitatea de căldură necesară sistemului termodinamic pentru a-și varia temperatura cu un grad.'+'<br>'+'<br>'+
+                                        'Die Wärmekapazität (C) stellt die physikalische Größe dar, die die Wärmemenge charakterisiert, die das thermodynamische System benötigt, um seine Temperatur um ein Grad zu ändern.'+'<br>'+'<br>'+
                                         'C = Q / ΔT'+'<br>'+'<br>'+
                                         '[C]'+'<sub>'+'SI'+'</sub>'+' = J/Kg'+'<br>'+'<br>'+
                                         'Q = C ∙ ΔT'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Căldura molară (C'+'<sub>'+'μ'+'</sub>'+') este căldura necesară pentru a modifica temperatura unui mol dintr-o substanță cu un grad.'+'<br>'+'<br>'+
+                                        'Molare Wärme (C'+'<sub>'+'μ'+'</sub>'+') ist die Wärme, die erforderlich ist, um die Temperatur eines Mols einer Substanz um ein Grad zu ändern.'+'<br> ' +'<br>'+
                                         'C'+'<sub>'+'μ'+'</sub>'+' = Q / v ∙ ΔT'+
                                         '[C'+'<sub>'+'μ'+'</sub>'+'] = J/mol∙K'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Grade de libertate:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Freiheitsgrade:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Cum în termodinamică moleculele gazului ideal sunt considerate puncte materiale, coordonatele independente ce caracterizează sistemul termodinamic se numesc grade de libertate.'+'<br>'+'<br>'+
-                                        '- Pentru gazele monoatomice: i = 3'+'<br>'+
-                                        '- Pentru gazele diatomice: i = 5'+'<br>'+
-                                        '- Pentru gazele poliatomice: i = 6'+'<br>'+'<br>'+
+                                    '<li>'+'Da in der Thermodynamik ideale Gasmoleküle als materielle Punkte gelten, werden die unabhängigen Koordinaten, die das thermodynamische System charakterisieren, Freiheitsgrade genannt.'+'<br>'+'<br>'+
+                                        '- Für einatomige Gase: i = 3'+'<br>'+
+                                        '- Für zweiatomige Gase: i = 5'+'<br>'+
+                                        '- Für mehratomige Gase: i = 6'+'<br>'+'<br>'+
 
-                                        'Căldura molară la volum constant este:'+'<br>'+'<br>'+
+                                        'Die molare Wärme bei konstantem Volumen beträgt:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'v'+'</sub>'+' = i/2 R'+'<br>'+'<br>'+
-                                        'Căldura molară la presiune constantă este:'+'<br>'+'<br>'+
+                                        'Die molare Wärme bei konstantem Druck beträgt:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = (i + 2)/2 R'+'<br>'+'<br>'+
-                                        'R =  8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (constanta universală a gazelor)'+'</li>'+
+                                        'R = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (universelle Gaskonstante)'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare izocoră :'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Isochorentransformation :'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'(ν și V const.) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
-                                    '<li>'+'Avem două cazuri:'+'<br>'+'<br>'+
-                                        '- Gazul închis într-un de volum constant este încălzit, absoarbe căldură → QV > 0 și ΔU > 0 (crește energia internă a gazului).'+'<br>'+'<br>'+
-                                        '- Gazul închis într-un de volum constant este răcit, cedează căldură → QV < 0 și ΔU < 0 (scade energia internă a gazului)'+'</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
+                                    '<li>'+'(ν und V const.) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
+                                    '<li>'+'Wir haben zwei Fälle:'+'<br>'+'<br>'+
+                                        '- Das in einem konstanten Volumen eingeschlossene Gas wird erhitzt, nimmt Wärme auf → QV > 0 und ΔU > 0 (erhöht die innere Energie des Gases).'+'<br>'+'<br>'+
+                                        '- Das in einem konstanten Volumen eingeschlossene Gas wird abgekühlt, es gibt Wärme ab → QV < 0 und ΔU < 0 (die innere Energie des Gases nimmt ab)'+'</li>'+'<br>'+
+                                    '<li>'+' Formeln: '+'<br>'+'<br>'+
                                         
-                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                        'ΔU = U – U'+'<sub>'+'0'+'</sub>'+' și ΔT = T – T'+'<sub>'+'0'+'</sub>'+', pentru T'+'<sub>'+'0'+'</sub>'+' = 0 K → U'+'<sub>'+'0'+'</sub>'+' = 0'+'<br>'+'<br>'+
-                                        'Energia internă a unui gaz ideal monoatomic este:'+'<br>'+
+                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT '+'<br>'+'<br>'+
+                                        'ΔU = U – U'+'<sub>'+'0'+'</sub>'+' und ΔT = T – T'+'<sub>'+'0'+'</sub>' +', für T'+'<sub>'+'0'+'</sub>'+' = 0 K → U'+'<sub>'+'0'+'</sub>'+' = 0'+'<br>'+'<br>'+
+                                        'Die innere Energie eines einatomigen idealen Gases ist:'+'<br>'+
                                         'U = ν ∙ C'+'<sub>'+'V'+'</sub>'+'∙ T = 3/2 ∙ ν ∙ R ∙ T'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare izobară:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Isobare Transformation:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        '(ν și p const.)'+'<br>'+'<br>'+
-                                        'Dacă gazul este încălzit, absoarbe căldură → Qp > 0 și o parte din energie este folosită la creșterea energiei interne a gazului ΔU > 0 și cealaltă parte este lucrul mecanic efectuat de gaz asupra exteriorului, L > 0.'+
+                                        '(ν und p const.)'+'<br>'+'<br>'+
+                                        'Wenn das Gas erhitzt wird, nimmt es Wärme auf → Qp > 0 und ein Teil der Energie wird zur Erhöhung der inneren Energie des Gases verwendet ΔU > 0 und der andere Teil ist die mechanische Arbeit, die das Gas außen verrichtet, L > 0.'+
                                     '</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
+                                    '<li>'+' Formeln: '+'<br>'+'<br>'+
                                             'L = p ∙ ΔV'+'<br>'+'<br>'+
-                                            'Q'+'<sub>'+'p'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                            'Variația energiei interne nu depinde de proces și putem scrie:'+'<br>'+
+                                            'Q'+'<sub>'+'p'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT'+ '<br>'+'<br>'+
+                                            'Die interne Energieschwankung hängt nicht vom Prozess ab und wir können schreiben:'+'<br>'+
                                             'ΔU = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare izotermă:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Isotherme Transformation:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        '(ν și T const.) → U = const. și ΔU = 0.'+
+                                        '(ν und T const.) → U = const. und ΔU = 0.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Când gazul este încălzit, absoarbe căldură → QT > 0 și L > 0, fiind folosită integral pentru efectuarea de lucru mecanic asupra exteriorului.'+
+                                        'Wenn das Gas erhitzt wird, nimmt es Wärme auf → QT > 0 und L > 0 und wird vollständig zur Verrichtung mechanischer Arbeit an der Außenseite verwendet.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Într-o transformare izotermă, presiunea este invers proporțională cu volumul gazului și atunci avem lucrul mecanic.'+
+                                        'Bei einer isothermen Umwandlung ist der Druck umgekehrt proportional zum Volumen des Gases und wir haben dann mechanische Arbeit.'+
                                     '</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
-                                        'L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                    '<li>'+' Formeln: '+'<br>'+'<br>'+
+                                        'L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>' +' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                        'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+' <br>'+'<br>'+
                                         'p'+'<sub>'+'1'+'</sub>'+' ∙ V'+'<sub>'+'1'+'</sub>'+' = p'+'<sub>'+'2'+'</sub>'+' ∙ V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
                                         'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+') = v ∙ R ∙ T ∙ ln(p1 / p2)'+'<br>'+'<br>'+
-                                        'U = const și ΔU = 0'+
+                                        'U = const und ΔU = 0'+
                                     '</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Transformare adiabatică:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Adiabatische Transformation:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
                                         '(ν const.) → Qad = 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Formule:'+'<br>'+'<br>'+
+                                        'Formel:'+'<br>'+'<br>'+
                                         'ΔU = - L'+'<sub>'+'ad'+'</sub>'+'<br>'+'<br>'+
                                         'ΔU = ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ΔT'+'<br>'+'<br>'+
-                                        'L'+'<sub>'+'ad'+'</sub>'+' = - ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                        'Ecuația procesului adiabatic se numește ecuația Poisson:'+'<br>'+
+                                        'L'+'<sub>'+'ad'+'</sub>'+' = - ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ ΔT' +'<br>'+'<br>'+
+                                        'Die Gleichung des adiabatischen Prozesses heißt Poisson-Gleichung:'+'<br>'+
                                         'p ∙ V'+'<sup>'+'y'+'</sup>'+' = const.'+'<br>'+
-                                        'y = coeficient adiabatic = C'+'<sub>'+'p'+'</sub>'+' / C'+'<sub>'+'V'+'</sub>'+'<br>'+
+                                        'y = adiabatischer Koeffizient = C'+'<sub>'+'p'+'</sub>'+' / C'+'<sub>'+'V'+'</sub>'+'<br>'+
                                         'T ∙ V'+'<sup>'+'y-1'+'</sup>'+' - const'+
                                         'T'+'<sup>'+'y'+'</sup>'+' / p '+'<sup>'+'y-1'+'</sup>'+' = const'+
                                     '</li>'+
                                 '</ul>'+
                                 
-                                '<h2 class=\"p-3\">'+'Relația lui Robert – Mayer:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Robert-Mayer-Beziehung:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'În cazul transformării izocore:'+'<br>'+'<br>'+
-                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = v ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'V'+'</sub>'+' = Q'+'<sub>'+'V'+'</sub>'+' / (v ∙ ΔT) =  ΔU / (v ∙ ΔT)'+ 
+                                        'Im Falle einer Isochorentransformation:'+'<br>'+'<br>'+
+                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = v ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT '+'<br>'+'<br>'+
+                                        'C'+'<sub>'+'V'+'</sub>'+' = Q'+'<sub>'+'V'+'</sub>'+' / (v ∙ ΔT) = ΔU / (v ∙ ΔT)'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'În cazul transformării izobare:'+'<br>'+'<br>'+
+                                        'Im Falle einer isobaren Transformation:'+'<br>'+'<br>'+
                                         'Q'+'<sub>'+'p'+'</sub>'+' = (v ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT) = ΔU + p ∙ ΔV'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = Q'+'<sub>'+'p'+'</sub>'+' / (v ∙ ΔT) = (ΔU + p ∙ ΔV) / (v ∙ ΔT)'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Combinând cele două relații ale lui Cp și CV obținem:'+'<br>'+'<br>'+
+                                        'Wenn wir die beiden Beziehungen von Cp und CV kombinieren, erhalten wir:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + (p ∙ ΔV) / (v ∙ ΔT)'+'<br>'+'<br>'+
-                                        'Din ecuația termică de stare:'+'<br>'+'<br>'+
+                                        'Aus der thermischen Zustandsgleichung:'+'<br>'+'<br>'+
                                         'p ∙ ΔV = ν ∙ R ∙ ΔT'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Relația lui Robert–Mayer stabilește relația între căldurile molare:'+'<br>'+'<br>'+
+                                        'Die Robert-Mayer-Beziehung stellt die Beziehung zwischen molaren Wärmen her:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Relația lui Robert–Mayer stabilește relația între căldurile specifice molare:'+'<br>'+'<br>'+
-                                        'c'+'<sub>'+'p'+'</sub>'+' = c'+'<sub>'+'V'+'</sub>'+' + (R / μ)'+
+                                        'Die Robert-Mayer-Beziehung stellt die Beziehung zwischen molaren spezifischen Wärmen her:'+'<br>'+'<br>'+
+                                        'c'+'<sub>'+'p'+'</sub>'+' = c'+'<sub>'+'V'+'</sub>'+' + (R / μ) '+
                                     '</li>'+
                                 '</ul>'+
 
 
                                 //Motoare termice
                                 '<a name=\"element_target2\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Motoare termice'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Engines Thermal'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 
-                                '<h2 class=\"p-3\">'+'Mașini termice:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Thermische Maschinen:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'În cursul unei transformări ciclice biterme, sistemul termodinamic schimbă căldurile Q'+'<sub>'+'1'+'</sub>'+', respectiv Q'+'<sub>'+'2'+'</sub>'+'  cu două izvoare de căldură ale căror temperaturi sunt T'+'<sub>'+'1'+'</sub>'+' (izvor cald) și T'+'<sub>'+'2'+'</sub>'+'  (izvor rece), cu T'+'<sub>'+'1'+'</sub>'+' > T'+'<sub>'+'2'+'</sub>'+' .'+'<br>'+'<br>'+
-                                            'Cum transformările ciclice au ΔU = 0, conform principiului I al termodinamicii avem'+'<br>'+'<br>'+
+                                        'Während einer bithermischen zyklischen Transformation tauscht das thermodynamische System Wärme Q'+'<sub>'+'1'+'</sub>'+' bzw. Q'+'<sub>'+'2'+'</sub>'+' mit zwei Wärmequellen, deren Temperaturen T'+'<sub>'+'1'+'</sub>'+' (heiße Quelle) und T'+'<sub>'+ '2 sind '+'</sub>'+' (kalte Quelle), mit T'+'<sub>'+'1'+'</sub>'+' > T'+'<sub>'+' 2' +'</sub>'+' .'+'<br>'+'<br>'+
+                                            'Da zyklische Transformationen ΔU = 0 haben, gilt nach dem ersten Prinzip der Thermodynamik'+'<br>'+'<br>'+
                                             'Q'+'<sub>'+'1'+'</sub>'+' + Q'+'<sub>'+'2'+'</sub>'+' = L'+'<br>'+'<br>'+
 
-                                            'Mașina termică este un sistem termodinamic care efectuează o transformare ciclică în care schimbă căldură și lucru mecanic cu mediul exterior.'+  
+                                            'Die Wärmekraftmaschine ist ein thermodynamisches System, das eine zyklische Umwandlung durchführt, bei der es Wärme und mechanische Arbeit mit der äußeren Umgebung austauscht.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Motoare termice:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Wärmekraftmaschinen:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul termic este un sistem care transformă căldura primită, prin arderea unui combustibilul (benzina, motorina, gazul metan etc.) în lucru mecanic.'+
+                                        'Die Wärmekraftmaschine ist ein System, das die aufgenommene Wärme durch die Verbrennung eines Kraftstoffs (Benzin, Diesel, Methangas usw.) in mechanische Arbeit umwandelt.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Motorul Otto:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Die Otto-Engine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul Otto folosește drept combustibil un amestec de aer cu vapori de benzină ce se realizează în carburator.'+'<br>'+'<br>'+
-                                        '- Amestecul carburant este aspirat prin supapa de admisie (S1) în cilindru cu piston.'+'<br>'+'<br>'+
-                                        '- Gazele rezultate în urma arderii amestecului carburant sunt eleminate prin supapa de evacuare (S2).'+'<br>'+'<br>'+
-                                        '- Timpul de funcționare este perioada de deplasare a pistonului de la punctul mort superior = PMS (cilindru închide un volum minim de substanță) la punctul mort inferior = PMI (cilindru închide un volum maxim de substanță) și invers.'+'<br>'+'<br>'+
-                                        '- Pistonul este legat de un sistem bielă-manivelă (vilbrochen = arbore cotit), pentru transformarea mișcării rectilinie a pistonului în mișcare de rotație.'+'<br>'+'<br>'+
-                                        '- Blocul motor este format din mai mulți cilindri legați în serie. Fiecare piston are alt timp de desfășurare pentru a permite învârtirea permanentă și constantă a vilborchenului.'+
+                                        'Der Ottomotor nutzt als Kraftstoff ein Gemisch aus Luft und Benzindämpfen, das im Vergaser entsteht.'+'<br>'+'<br>'+
+                                        '- Das Kraftstoffgemisch wird durch das Einlassventil (S1) in den Kolbenzylinder gesaugt.'+'<br>'+'<br>'+
+                                        '- Die bei der Verbrennung des Kraftstoffgemisches entstehenden Gase werden durch das Auslassventil (S2) ausgeschieden.'+'<br>'+'<br>'+
+                                        '- Betriebszeit ist die Zeitspanne der Verschiebung des Kolbens vom oberen Totpunkt = TDC (Zylinder schließt ein minimales Substanzvolumen) zum unteren Totpunkt = PMI (Zylinder schließt ein maximales Substanzvolumen) und umgekehrt.'+'<br>'+'<br>'+
+                                        '- Der Kolben ist mit einem Pleuel-Kurbel-System (vilbrochen = Kurbelwelle) verbunden, um die geradlinige Bewegung des Kolbens in eine Drehbewegung umzuwandeln.'+'<br>'+'<br>'+
+                                        '- Der Motorblock besteht aus mehreren in Reihe geschalteten Zylindern. Jeder Kolben hat eine unterschiedliche Auslösezeit, um eine dauerhafte und konstante Drehung des Vilborchens zu ermöglichen.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Timpii de funcționare ai motorului Otto:'+'<br>'+'<br>'+
+                                        'Otto-Motorlaufzeiten:'+'<br>'+'<br>'+
 
-                                        ' - '+'<b>'+'Timpul 1: Admisia'+'</b>'+' - (proces izobar):'+'<br>'+'<br>'+
-                                        ' Supapa de admisie se deschide, în cilindru se aspiră amestecul de benzină-aer și pistonul coboară de la PMS la PMI, la presiune constantă. Este prima coborâre a pistonului.'+'<br>'+'<br>'+
+                                        ' - '+'<b>'+'Zeitpunkt 1: Einlass'+'</b>'+' - (Isobarenverfahren):'+'<br>'+'<br>'+
+                                        ' Das Einlassventil öffnet sich, das Benzin-Luft-Gemisch wird in den Zylinder gesaugt und der Kolben senkt sich bei konstantem Druck von OT zu OT. Es ist der erste Abstieg des Kolbens.'+'<br>'+'<br>'+
                                         
-                                        ' -'+'<b>'+'Timpul 2: Compresia'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        ' Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât combustibilul este puternic comprimat, caz în care presiunea și temperatura cresc. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.'+'<br>'+'<br>'+
+                                        ' -'+'<b>'+'Zeit 2: Kompression'+'</b>'+' - (adiabatischer Prozess):'+'<br>'+'<br>'+
+                                        ' Beide Ventile sind geschlossen. Der Kolben bewegt sich bis zum oberen Totpunkt, wodurch der Kraftstoff stark komprimiert wird. Dabei steigen Druck und Temperatur. Aufgrund der hohen Kompressionsgeschwindigkeit ist dieser Prozess adiabatisch (kein Wärmeaustausch mit der Außenwelt). Es ist der erste Anstieg des Kolbens.'+'<br>'+'<br>'+
+                                        ' -'+'<b>'+'Zeit 3: Zündung'+'</b>'+' - (Isochorenprozess) und '+'<b>'+'Entspannung'+'</b>'+ ' - (adiabatischer Prozess):'+'<br>'+'<br>'+
+                                        ' Beide Ventile sind geschlossen und der Kolben steht im oberen Totpunkt. Der von der Zündkerze erzeugte elektrische Funke entzündet das Gemisch, das explodiert und bei konstantem Volumen zu einem erheblichen Druckanstieg führt. Das Gemisch verbrennt unter Freisetzung von Wärme (Q1 = vom Motor aufgenommene Wärme). Die bei der Verbrennung entstehenden Gase dehnen sich adiabatisch aus und drücken den Kolben durch die geleistete mechanische Arbeit in den PMI.'+'<br>'+'<br>'+
 
-                                        ' -'+'<b>'+'Timpul 3 : Aprinderea'+'</b>'+' - (proces izocor) și '+'<b>'+'detenta'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        ' Ambele supape sunt închise și pistonul se află la PMS. Scânteia electrică produsă de bujie aprinde amestecul, care explodează și duce la o creștere considerabilă a presiunii la volum constant. Amestecul arde cu degajare de căldură (Q1 = căldura primită de motor). Gazele rezultate din ardere se destind adiabatic, împing pistonul în PMI cu efectuare de lucru mecanic.Este a doua coborâre a pistonului.'+'<br>'+'<br>'+
-
-                                        ' -'+'<b>'+'Timpul 4 : Evacuarea'+'</b>'+' - (proces izocor) și (proces izobar):'+'<br>'+'<br>'+
-                                        ' Supapa de evacuare S2 se deschide, caz în care presiunea scade brusc până la valoarea presiunii atmosferice.În acest proces izocor amestecul cedează căldura Q2 în mediul exterior. Pistonul urcă până la PMS împingând afară gazele arse la presiune constantă. De aici ciclul se reia.'+
+                                        ' -'+'<b>'+'Zeit 4: Evakuierung'+'</b>'+' - (isochorischer Prozess) und (isobarer Prozess):'+'<br>'+'<br>'+
+                                        ' Das Auslassventil S2 öffnet, wobei der Druck schlagartig auf den Wert des Atmosphärendrucks abfällt. Bei diesem isochoren Prozess gibt das Gemisch die Wärme Q2 an die Außenumgebung ab. Der Kolben bewegt sich bis zum oberen Totpunkt und drückt die verbrannten Gase bei konstantem Druck heraus. Von hier aus wird der Zyklus fortgesetzt.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Randamentul motorului termic Otto:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Wirkungsgrad der Otto-Wärmekraftmaschine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul motorului termic Otto (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'cedată'+'</sub>'+'| / Q'+'<sub>'+'primită'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                        'Der Wirkungsgrad der Otto-Wärmekraftmaschine (η) ist eine physikalische Größe, die dem Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit (L) und der aufgenommenen Wärme (Q) entspricht.'+'<br>'+'<br> '+
+                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'datum'+'</sub>' +'|. / Q'+'<sub>'+'erhalten'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub> ' +'|. / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
 
-                                        'Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'.'+'<br>'+'<br>'+
+                                        'Wir gehen davon aus, dass der Arbeitsstoff ein ideales Gas ist und das Kompressionsverhältnis ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 beträgt '+'</sub>'+'.'+'<br>'+'<br>'+
 
-                                        'Căldurile în cele patru transformări sunt :'+'<br>'+'<br>'+
+                                        'Die Wärmemengen in den vier Transformationen sind:'+'<br>'+'<br>'+
                                         ' - Q'+'<sub>'+'12'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
+                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
                                         ' - Q'+'<sub>'+'34'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
+                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
 
                                         ' η = 1 - (1 / ε'+'<sup>'+'y-1'+'</sup>'+')'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Motorul Diesel:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Dieselmotor:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul Diesel este un motor cu ardere internă, în patru timpi cu aprindere prin injecție a motorinei.'+
+                                        'Der Dieselmotor ist ein Viertakt-Verbrennungsmotor mit Dieseleinspritzung.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Timpii de funcționare ai motorului Diesel:'+'<br>'+'<br>'+
-
-                                        '- '+'<b>'+'Timpul 1: Admisia '+'</b>'+' - (proces izobar):'+'<br>'+'<br>'+
-                                        'Supapa de admisie se deschide, în cilindru se aspiră aer la presiunea atmosferică și pistonul coboară de la PMS la PMI, la presiune constantă (proces izobar). Este prima coborâre a pistonului.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Timpul 2: Compresia'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        'Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât aerul este puternic comprimat, caz în care presiunea și temperatura cresc considerabil. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Timpul 3: Aprinderea'+'</b>'+' - (proces izobar) și '+'<b>'+'detenta'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
-                                        'Ambele supape sunt închise și pistonul se află la PMS. Pompa de injecție pulverizează motorină în cilindrul motorului. Temperatura aerului din cilindru este mai mare decât temperatura de aprindere a motorinei, astfel încât aceasta se aprinde și arde la presiune constantă, cu degajare de căldură (Q1 = căldura primită de motor). Gazele rezultate din ardere se destind adiabatic, împing pistonul în PMI cu efectuare de lucru mecanic.Este a doua coborâre a pistonului.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Timpul 4: Evacuarea'+'</b>'+' - (proces izocor) și (proces izobar):'+'<br>'+'<br>'+
-                                        'Supapa de evacuare S2 se deschide, caz în care presiunea scade brusc până la valoarea presiunii atmosferice. În acest proces izocor (la volum constant) amestecul cedează căldura Q2 în mediul exterior. Pistonul urcă până la PMS împingând afară gazele arse la presiune constantă. De aici ciclul se reia.'+
+                                    'Laufzeiten Dieselmotor:'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'Zeitpunkt 1: Aufnahme '+'</b>'+' - (Isobarenprozess):'+'<br>'+'<br>'+
+                                        'Das Einlassventil öffnet sich, Luft wird bei Atmosphärendruck in den Zylinder gesaugt und der Kolben senkt sich bei konstantem Druck von OT zu OT (isobarer Prozess). Es ist der erste Abstieg des Kolbens.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'Zeit 2: Kompression'+'</b>'+' - (adiabatischer Prozess):'+'<br>'+'<br>'+
+                                        'Beide Ventile sind geschlossen.“ Der Kolben steigt auf den oberen Totpunkt, die Luft wird also stark komprimiert, wodurch Druck und Temperatur deutlich ansteigen. Aufgrund der hohen Kompressionsgeschwindigkeit ist dieser Prozess adiabatisch (kein Wärmeaustausch mit der Außenwelt). Es ist der erste Anstieg des Kolbens.'+'<br>'+'<br>'+                                        '- '+'<b>'+'Zeit 3: Zündung'+'</b>'+' - (isobarer Prozess) und '+'<b>'+'Entspannung'+'</b>'+ ' - (adiabatischer Prozess):'+'<br>'+'<br>'+
+                                        'Beide Ventile sind geschlossen und der Kolben steht im OT.“ Die Einspritzpumpe spritzt Dieselkraftstoff in den Motorzylinder. Die Temperatur der Luft im Zylinder ist höher als die Zündtemperatur des Diesels, daher zündet und verbrennt er bei konstantem Druck und setzt dabei Wärme frei (Q1 = vom Motor aufgenommene Wärme). Die bei der Verbrennung entstehenden Gase dehnen sich adiabatisch aus und drücken den Kolben durch die geleistete mechanische Arbeit in den PMI.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'Zeit 4: Evakuierung'+'</b>'+' - (isochorischer Prozess) und (isobarer Prozess):'+'<br>'+'<br>'+
+                                        'Das Auslassventil S2 öffnet, wodurch der Druck schlagartig auf Atmosphärendruck absinkt.“ Bei diesem isochoren Prozess (bei konstantem Volumen) gibt das Gemisch Wärme Q2 an die Außenumgebung ab. Der Kolben bewegt sich bis zum oberen Totpunkt und drückt die verbrannten Gase bei konstantem Druck heraus. Von hier aus wird der Zyklus fortgesetzt.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Randamentul motorului termic Diesel:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Wirkungsgrad des Diesel-Wärmemotors:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul motorului termic Diesel (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'cedată'+'</sub>'+'| / Q'+'<sub>'+'primită'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                        'Der Wirkungsgrad der Diesel-Wärmekraftmaschine (η) ist eine physikalische Größe, die dem Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit (L) und der aufgenommenen Wärme (Q) entspricht.'+'<br>'+'<br> '+
+                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'datum'+'</sub>' +'|. / Q'+'<sub>'+'erhalten'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub> ' +'|. / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
 
-                                        'Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+' și α = V'+'<sub>'+'3'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
+                                        'Wir gehen davon aus, dass der Arbeitsstoff ein ideales Gas ist und das Kompressionsverhältnis ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 beträgt '+'</sub>'+' und α = V'+'<sub>'+'3'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
 
-                                        'Căldurile în cele patru transformări sunt :'+'<br>'+'<br>'+
-                                        '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (proces adiabatic)'+'<br>'+
-                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T'+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (proces izobar)'+'<br>'+
-                                        '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (proces adiabatic)'+'<br>'+
-                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (proces izocor)'+'<br>'+'<br>'+
+                                        'Die Wärmemengen in den vier Transformationen sind:'+'<br>'+'<br>'+
+                                        '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (adiabatischer Prozess)'+'<br>'+
+                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (isobarer Prozess)'+'<br>'+
+                                        '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (adiabatischer Prozess)'+'<br>'+
+                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (isochorischer Prozess)'+'<br>'+'<br>'+
 
-                                        'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1'+'</sup>'+'(a-1))'+
+                                        'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+
                                         
                                     '</li>'+
                                 '</ul>'+
@@ -3206,50 +3860,49 @@ var data = {
                                 //Principiul al II-lea
 
                                 '<a name=\"element_target3\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Principiul al II-lea'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                                
-                                '<h2 class=\"p-3\">'+'Formularea Carnot a principiul al doilea al termodinamicii:'+'</h2>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'The Prinzip II'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                '<h2 class=\"p-3\">'+'Carnots Formulierung des zweiten Hauptsatzes der Thermodynamik:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+
-                                        'Prima formulare a principiul al doilea al termodinamicii îi aparține lui Sadi Carnot, care în 1824 arăta că există o limită superioară a eficienței conversiei căldurii în energie mecanică într-un motor termic, care implică folosirea unui ciclu termodinamic al unui fluid de lucru.'+
+                                '<li>'+
+                                        'Die erste Formulierung des zweiten Hauptsatzes der Thermodynamik stammt von Sadi Carnot, der 1824 zeigte, dass es eine Obergrenze für die Effizienz der Umwandlung von Wärme in mechanische Energie in einer Wärmekraftmaschine gibt, die die Verwendung eines thermodynamischen Kreisprozesses beinhaltet.“ eine Arbeitsflüssigkeit.' +
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Carnot a fost primul care a arătat că nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate. Astfel, sistemul primește căldură de la o sursă caldă (termostat cu T'+'<sub>'+'1'+'</sub>'+') și cedează căldură unei surse reci (termostat cu T'+'<sub>'+'2'+'</sub>'+').'+
+                                        'Carnot hat als erster gezeigt, dass es nicht möglich ist, eine Wärmekraftmaschine mit einem einzigen Thermostat zu betreiben, sondern dass mindestens zwei Thermostate erforderlich sind.“ Somit erhält das System Wärme von einer warmen Quelle (Thermostat mit T'+'<sub>'+'1'+'</sub>'+') und gibt Wärme an eine kalte Quelle (Thermostat mit T'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Parametrii gazului în stare inițială sunt p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' și T'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'Gasparameter im Ausgangszustand sind p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' und T'+'<sub>'+'1'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe un încălzitor (termostat cu T'+'<sub>'+'1'+'</sub>'+'). Gazul va absorbi căldură Q'+'<sub>'+'1'+'</sub>'+' de la sursa caldă și se va destinde izoterm (T'+'<sub>'+'1'+'</sub>'+' = const.) și cvasistatic de la V'+'<sub>'+'1'+'</sub>'+' la V'+'<sub>'+'2'+'</sub>'+', efectuând lucrul mecanic L'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'Wir bringen die Gasflasche zu einer Heizung (Thermostat mit T'+'<sub>'+'1'+'</sub>'+'). Das Gas absorbiert Wärme Q'+'<sub>'+'1'+'</sub>'+' von der heißen Quelle und dehnt sich isotherm aus (T'+'<sub>'+'1'+'</sub>'+' = const.) und quasistatisch von V'+'<sub>'+'1'+'</sub>'+' bis V'+'<sub>'+'2'+' </sub>'+', Verrichtung der mechanischen Arbeit L'+'<sub>'+'1'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe un suport termoizolator. Gazul se destinde adiabatic până la V'+'<sub>'+'3'+'</sub>'+', efectuând lucrul mecanic L'+'<sub>'+'2'+'</sub>'+'. Gazul se răcește având temperatura T'+'<sub>'+'2'+'</sub>'+' < T'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'Wir bringen die Gasflasche auf eine wärmeisolierende Unterlage. Das Gas dehnt sich adiabatisch auf V'+'<sub>'+'3'+'</sub>'+' aus und verrichtet dabei mechanische Arbeit L'+'<sub>'+'2'+'</sub>' + '. Das Gas kühlt auf die Temperatur T'+'<sub>'+'2'+'</sub>'+' < T'+'<sub>'+'1'+'</sub>'+' ab. ' +
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe o sursă rece (termostat cu T'+'<sub>'+'2'+'</sub>'+'). Gazul va ceda căldură Q'+'<sub>'+'2'+'</sub>'+' și se va comprima izoterm (T'+'<sub>'+'2'+'</sub>'+' = const.) și cvasistatic de la V'+'<sub>'+'3'+'</sub>'+' la V'+'<sub>'+'4'+'</sub>'+', primind lucrul mecanic L'+'<sub>'+'3'+'</sub>'+'.'+
+                                        'Wir bringen die Gasflasche zu einer Kältequelle (Thermostat mit T'+'<sub>'+'2'+'</sub>'+'). Das Gas gibt Wärme Q'+'<sub>'+'2'+'</sub>'+' ab und verdichtet sich isotherm (T'+'<sub>'+'2'+'</sub> ' +' = const.) und quasistatisch von V'+'<sub>'+'3'+'</sub>'+' bis V'+'<sub>'+'4'+'</sub> '+', Empfang der mechanischen Arbeit L'+'<sub>'+'3'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Aducem cilindrul cu gaz pe un suport termoizolator. Gazul se comprimă adiabatic de la V'+'<sub>'+'4'+'</sub>'+' până la '+'<sub>'+'1'+'</sub>'+'. Temperatura lui va crește de la T'+'<sub>'+'2'+'</sub>'+' la T'+'<sub>'+'1'+'</sub>'+', primind lucrul mecanic L'+'<sub>'+'4'+'</sub>'+'. Gazul revine în starea inițială.'+
+                                        'Wir bringen die Gasflasche auf eine wärmeisolierende Unterlage. Das Gas wird adiabatisch von V'+'<sub>'+'4'+'</sub>'+' auf '+'<sub>'+'1'+'</sub>'+' komprimiert. Seine Temperatur wird von T'+'<sub>'+'2'+'</sub>'+' auf T'+'<sub>'+'1'+'</sub>'+' ansteigen und empfangen die mechanische Arbeit L'+'<sub>'+'4'+'</sub>'+'. Das Gas kehrt in seinen Ausgangszustand zurück.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Randamentul ciclului Carnot:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Carnot-Zyklus-Ausbeute:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+
-                                        'Randamentul ciclului Carnot (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q'+'<sub>'+'1'+'</sub>'+').'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
-                                        'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+'<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
-                                    '</li>'+
+                                '<li>'+
+                                    'Der Wirkungsgrad des Carnot-Zyklus (η) ist eine physikalische Größe, die dem Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit (L) und der aufgenommenen Wärme (Q'+'<sub>'+'1'+'</sub>'+'). '+'<br>'+'<br>'+
+                                    'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
+                                    'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+ '<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
+                                '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Formularea Carnot a principiul al doilea al termodinamicii:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Carnots Formulierung des zweiten Hauptsatzes der Thermodynamik:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul ciclului Carnot este întotdeauna subunitar, deoarece T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
+                                        'Die Ausbeute des Carnot-Zyklus ist immer Untereinheit, weil T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Randamentul ciclului Carnot depinde numai de temperatura sursei calde (T'+'<sub>'+'1'+'</sub>'+') și a celei reci (T'+'<sub>'+'2'+'</sub>'+') și nu depinde de substanța de lucru.'+
+                                        'Die Leistung des Carnot-Zyklus hängt nur von der Temperatur der heißen Quelle (T'+'<sub>'+'1'+'</sub>'+') und der kalten Quelle (T'+'<sub>'+'2' +'</sub>'+') und ist unabhängig vom Arbeitsstoff.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Randamentul unei mașini termice ireversibile este întotdeauna mai mic decît randamentul unei mașini termice care funcționează reversibil între aceleași limite de temperatură.'+
+                                        'Der Wirkungsgrad einer irreversiblen Wärmekraftmaschine ist immer geringer als der Wirkungsgrad einer Wärmekraftmaschine, die reversibel zwischen denselben Temperaturgrenzen arbeitet.'+
                                     '</li>'+
                                 '</ul>'),
 
@@ -3418,8 +4071,8 @@ var data = {
                         '<h2 class=\"p-3\">'+'Vitesse'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Formule : '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Unité de mesure : '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</ li >'+
-                                    '<li>'+'Vitesse moyenne : '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b >'+'</li>'+
+                            '<li>'+'Unité de mesure : '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
+                                    '<li>'+'Vitesse moyenne : '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
                                     '<li>'+'Le vecteur vitesse a la même signification que le déplacement : v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>' + ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Accélération'+'</h2>'+
@@ -3433,7 +4086,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Loi de vitesse : '+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</ li>'+
+                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Loi du mouvement :'+'</h2>'+
                         '<ul>'+
@@ -3453,7 +4106,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Troisième principe de la mécanique :'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Lorsqu\'un corps agit sur un autre corps avec une force (appelée force d\'action), le deuxième corps agit également sur le premier corps avec une force (appelée force de réaction) de même ampleur et direction, mais opposé. Ce principe est également connu sous le nom de principe d\'action et de réaction.'+'</li>'+
-                            '<li>'+'Écrit sous forme de formule : '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub > '+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'Écrit sous forme de formule : '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub> '+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Loi de Hooke :'+'</h2>'+
                         '<ul>'+
@@ -3461,7 +4114,7 @@ var data = {
     
                             'Δl ~ F'+'<br>'+'<br>'+
     
-                            '<li>'+'Directement proportionnel à la longueur initiale du ressort (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br >'+
+                            '<li>'+'Directement proportionnel à la longueur initiale du ressort (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
     
@@ -3503,7 +4156,7 @@ var data = {
                         //Teoreme de variatie si legi de conservare
                         
                         '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center >'+'Théorèmes des lois de variation et de conservation'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Théorèmes des lois de variation et de conservation'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                         
                         '<h2 class=\"p-3\">'+'Travaux mécaniques :'+'</h2>'+
                         '<ul>'+
@@ -3532,7 +4185,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Énergie potentielle gravitationnelle :'+'</h2>'+
                         '<ul>'+
                             '<li>'+'L\'énergie potentielle gravitationnelle (E'+'<sub>'+'pg'+'</sub>'+') est l\'énergie qu\'un corps possède à une certaine hauteur du sol.'+'</li>'+'<br>'+
-                            '<li>'+'L\'énergie potentielle gravitationnelle d\'un corps est égale à : E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</ li >'+'<br>'+
+                            '<li>'+'L\'énergie potentielle gravitationnelle d\'un corps est égale à : E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
                             '<li>'+'Loi de variation de l\'énergie potentielle gravitationnelle :'+'<br>'+'<br>'+
                                 'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
                             '<li>'+'Une force qui effectue un travail mécanique indépendant du chemin parcouru et dépendant uniquement des positions extrêmes (initiale et finale) est appelée force conservatrice.'+'</li>'+
@@ -3569,7 +4222,7 @@ var data = {
                                 '<ul>'+
                                     '<li>'+'<b>'+'L\'agitation thermique'+'</b>'+' est le mouvement désordonné et continu des particules d\'une substance (atomes ou molécules).'+'</li> '+' <br>'+
                                     '<li>'+'<b>'+'Diffusion'+'</b>'+' est le phénomène de pénétration des molécules d\'une substance parmi les molécules d\'une autre substance, sans intervention d\'une force extérieure ( par lui-même).'+ '</li>'+'<br>'+
-                                    '<li>'+'<b>'+'L\'atome'+'</b>'+' est la plus petite particule d\'une substance qui ne peut pas être divisée davantage par des processus chimiques ordinaires.'+'</li >' +'<br>'+
+                                    '<li>'+'<b>'+'L\'atome'+'</b>'+' est la plus petite particule d\'une substance qui ne peut pas être divisée davantage par des processus chimiques ordinaires.'+'</li>' +'<br>'+
                                     '<li>'+'<b>'+'Molecule'+'</b>'+' représente la plus petite particule d\'une substance, qui peut également exister à l\'état libre et qui préserve les propriétés de la substance à partir de laquelle ça vient. '+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Masse moléculaire'+'</b>'+' est une quantité sans dimension (pas d\'unité de mesure) qui nous montre combien de fois la masse réelle d\'une molécule est supérieure à unité de masse atomique (u.a.m.).'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'La masse atomique relative (A)'+'</b>'+' est le nombre qui montre combien de fois la masse d\'un atome est supérieure à l\'unité de masse atomique. .'+ '</li>'+'<br>'+
@@ -3590,7 +4243,7 @@ var data = {
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Équilibre thermodynamique et processus thermodynamiques :'+'</h2>'+
                                 '<ul>'+
-                                '<li>'+'<b>'+'L\'état d\'un système thermodynamique'+'</b>'+', à un certain moment, est caractérisé par certaines grandeurs physiques appelées paramètres d\'état.'+'</li >'+'<br>'+
+                                '<li>'+'<b>'+'L\'état d\'un système thermodynamique'+'</b>'+', à un certain moment, est caractérisé par certaines grandeurs physiques appelées paramètres d\'état.'+'</li>'+'<br>'+
                                 '<li>'+'<b>'+'Principe d\'équilibre thermodynamique'+'</b>'+':'+'<br>'+'<br>'+
 
                                     'Un système thermodynamique isolé évolue spontanément vers un état d\'équilibre thermodynamique qu\'il ne quitte jamais de lui-même.'+'</li>'+'<br>'+
@@ -3618,7 +4271,7 @@ var data = {
                                 '</h2>'+
                                 '<h2 class=\"p-3\">'+'Température empirique. Échelles de température : '+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Deux systèmes thermodynamiques fermés isolés adiabatiquement de l\'extérieur qui n\'échangent pas d\'énergie entre eux ont la même température, appelée '+'<b>'+'température empirique.'+'</b> '+'< /li>'+'<br>'+
+                                    '<li>'+'Deux systèmes thermodynamiques fermés isolés adiabatiquement de l\'extérieur qui n\'échangent pas d\'énergie entre eux ont la même température, appelée '+'<b>'+'température empirique.'+'</b> '+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Température'+'</b>'+' est une grandeur physique d\'état mesurée avec un thermomètre, impliquant un corps thermométrique, une grandeur thermométrique et une échelle de température.' +'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Le principe zéro de la thermodynamique'+'</b>'+' (transitivité de l\'équilibre thermique) :'+'<br>'+'<br>'+
                                         'Si le système A est en équilibre thermique avec le système B et que le système B est en équilibre thermique avec le système C, alors le système A est également en équilibre thermique avec le système C.'+'</li>'+'<br>'+
@@ -3640,7 +4293,7 @@ var data = {
                                     '- En effectuant des travaux mécaniques'+'<br>'+
                                     '- Par transfert thermique.'+'<br>'+'<br>'+
                                     
-                                    'La mesure de l\'énergie transférée au système dans les conditions des interactions qui entraînent la variation des paramètres de position sous l\'action de certaines forces est appelée '+'<b>'+'travail mécanique.'+'</b >'+'<br>'+' <br>'+
+                                    'La mesure de l\'énergie transférée au système dans les conditions des interactions qui entraînent la variation des paramètres de position sous l\'action de certaines forces est appelée '+'<b>'+'travail mécanique.'+'</b>'+'<br>'+' <br>'+
                                     'L = F ∙ d'+'</li>'+'<br>'+
                                 '<li>'+'Le travail mécanique effectué par la force externe F'+'<sub>'+'e'+'</sub>'+' est :'+'<br>'+'<br> '+
                                     'L'+'<sub>'+'e'+'</sub>'+' = p'+'<sub>'+'e'+'</sub>'+' ∙ S ∙ (x1 - x2) = - p'+'<sub>'+'e'+'</sub>'+' ∙ ΔV'+'<br>'+'<br>'+
@@ -3869,7 +4522,7 @@ var data = {
                                         'Le moteur Otto utilise comme carburant un mélange d\'air et de vapeurs d\'essence créé dans le carburateur.'+'<br>'+'<br>'+
                                         '- Le mélange de carburant est aspiré par la soupape d\'admission (S1) dans le cylindre à piston.'+'<br>'+'<br>'+
                                         '- Les gaz issus de la combustion du mélange carburé sont éliminés par la soupape d\'échappement (S2).'+'<br>'+'<br>'+
-                                        '- Le temps de fonctionnement est la durée de déplacement du piston depuis le point mort haut = PMH (le cylindre ferme un volume minimum de substance) jusqu\'au point mort bas = PMI (le cylindre ferme un volume maximum de substance) et vice versa.'+'< br >'+'<br>'+
+                                        '- Le temps de fonctionnement est la durée de déplacement du piston depuis le point mort haut = PMH (le cylindre ferme un volume minimum de substance) jusqu\'au point mort bas = PMI (le cylindre ferme un volume maximum de substance) et vice versa.'+'<br>'+'<br>'+
                                         '- Le piston est relié à un système bielle-manivelle (vilbrochen = vilebrequin), pour transformer le mouvement rectiligne du piston en mouvement de rotation.'+'<br>'+'<br>'+
                                         '- Le bloc moteur est constitué de plusieurs cylindres connectés en série. Chaque piston a un temps de déploiement différent pour permettre une rotation permanente et constante du vilborchen.'+
                                     '</li>'+'<br>'+
@@ -3899,9 +4552,9 @@ var data = {
 
                                         'Les chaleurs dans les quatre transformations sont :'+'<br>'+'<br>'+
                                         ' - Q'+'<sub>'+'12'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub >'+'1'+'</sub>'+' > 0'+'<br>'+
+                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
                                         ' - Q'+'<sub>'+'34'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub >'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
+                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
 
                                         ' η = 1 - (1 / ε'+'<sup>'+'y-1'+'</sup>'+')'+
                                     '</li>'+
@@ -3934,9 +4587,9 @@ var data = {
 
                                     'Les chaleurs dans les quatre transformations sont :'+'<br>'+'<br>'+
                                     '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (processus adiabatique)'+'<br>'+
-                                    '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub >'+'1'+'</sub>'+' > 0 (processus isobare)'+'<br>'+
+                                    '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (processus isobare)'+'<br>'+
                                     '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (processus adiabatique)'+'<br>'+
-                                    '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub >'+'2'+'</sub>'+' < 0 (processus isochore)'+'<br>'+'<br>'+
+                                    '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (processus isochore)'+'<br>'+'<br>'+
 
                                     'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+
                                     
@@ -3976,7 +4629,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Rendement cycle Carnot :'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Le rendement du cycle de Carnot (η) est une grandeur physique égale au rapport entre le travail mécanique effectué par le moteur (L) et la chaleur reçue (Q'+'<sub>'+'1'+'</sub >'+'). '+'<br>'+'<br>'+
+                                        'Le rendement du cycle de Carnot (η) est une grandeur physique égale au rapport entre le travail mécanique effectué par le moteur (L) et la chaleur reçue (Q'+'<sub>'+'1'+'</sub>'+'). '+'<br>'+'<br>'+
                                         'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
                                         'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+ '<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
                                     '</li>'+
@@ -3987,7 +4640,7 @@ var data = {
                                         'Le rendement du cycle de Carnot est toujours sous-unitaire, car T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'La performance du cycle Carnot dépend uniquement de la température de la source chaude (T'+'<sub>'+'1'+'</sub>'+') et de la source froide (T'+'<sub >'+'2' +'</sub>'+') et ne dépend pas de la substance active.'+
+                                        'La performance du cycle Carnot dépend uniquement de la température de la source chaude (T'+'<sub>'+'1'+'</sub>'+') et de la source froide (T'+'<sub>'+'2' +'</sub>'+') et ne dépend pas de la substance active.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         "Le rendement d'un moteur thermique irréversible est toujours inférieur au rendement d'un moteur thermique fonctionnant de manière réversible entre les mêmes limites de température."+
@@ -4159,8 +4812,8 @@ var data = {
                         '<h2 class=\"p-3\">'+'Скорость'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Формула: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Единица измерения: '+'<b>'+'&lt;'+'v'+'&gt;'+' = м/с'+'</b>'+'</ li >'+
-                                    '<li>'+'Средняя скорость: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b >'+'</li>'+
+                            '<li>'+'Единица измерения: '+'<b>'+'&lt;'+'v'+'&gt;'+' = м/с'+'</b>'+'</li>'+
+                                    '<li>'+'Средняя скорость: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
                                     '<li>'+'Вектор скорости имеет то же значение, что и смещение: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>' + ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Ускорение'+'</h2>'+
@@ -4174,7 +4827,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Закон скорости: '+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</ ли>'+
+                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Закон движения:'+'</h2>'+
                         '<ul>'+
@@ -4194,7 +4847,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Третий принцип механики:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Когда одно тело действует на другое тело с силой (называемой силой действия), второе тело также действует на первое тело с силой (называемой силой реакции) той же величины и направления, но противоположный. Этот принцип также известен как принцип действия и противодействия.'+'</li>'+
-                            '<li>'+'Записывается в виде формулы: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub > '+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'Записывается в виде формулы: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub> '+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Закон Гука:'+'</h2>'+
                         '<ul>'+
@@ -4202,7 +4855,7 @@ var data = {
     
                             'Δl ~ F'+'<br>'+'<br>'+
     
-                            '<li>'+'Прямо пропорционально начальной длине пружины (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br >'+
+                            '<li>'+'Прямо пропорционально начальной длине пружины (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
     
@@ -4244,7 +4897,7 @@ var data = {
                         //Teoreme de variatie si legi de conservare
                         
                         '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center >'+'Теоремы законов вариации и сохранения'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Теоремы законов вариации и сохранения'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                         
                         '<h2 class=\"p-3\">'+'Механическая работа:'+'</h2>'+
                         '<ul>'+
@@ -4273,7 +4926,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Потенциальная гравитационная энергия:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Гравитационная потенциальная энергия (E'+'<sub>'+'pg'+'</sub>'+') — это энергия, которой обладает тело на определенной высоте от земли.'+'</li>'+'<br>'+
-                            '<li>'+'Гравитационная потенциальная энергия тела равна: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</ ли >'+'<br>'+
+                            '<li>'+'Гравитационная потенциальная энергия тела равна: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
                             '<li>'+'Закон изменения гравитационной потенциальной энергии:'+'<br>'+'<br>'+
                                 'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
                             '<li>'+'Сила, совершающая механическую работу, независимую от пройденного пути и зависящую только от крайних положений (начального и конечного), называется консервативной силой.'+'</li>'+
@@ -4310,7 +4963,7 @@ var data = {
                                 '<ul>'+
                                 '<li>'+'<b>'+'Термическое перемешивание'+'</b>'+' — это беспорядочное и непрерывное движение частиц вещества (атомов или молекул).'+'</li> '+' <br>'+
                                 '<li>'+'<b>'+'Диффузия'+'</b>'+' — явление проникновения молекул одного вещества среди молекул другого вещества без вмешательства внешней силы ( само по себе).'+ '</li>'+'<br>'+
-                                '<li>'+'<b>'+'Атом'+'</b>'+' — это мельчайшая частица вещества, которую невозможно разделить обычными химическими процессами.'+'</li >'+ '<br>'+
+                                '<li>'+'<b>'+'Атом'+'</b>'+' — это мельчайшая частица вещества, которую невозможно разделить обычными химическими процессами.'+'</li>'+ '<br>'+
                                 '<li>'+'<b>'+'Молекула'+'</b>'+' представляет собой наименьшую частицу вещества, которая может существовать также в свободном состоянии и сохраняет свойства вещества, из которого оно приходит. '+'</li>'+'<br>'+
                                 '<li>'+'<b>'+'Молекулярная масса'+'</b>'+' — это безразмерная величина (без единицы измерения), которая показывает, во сколько раз реальная масса молекулы больше, чем атомная единица массы (а.е.м.).'+'</li>'+'<br>'+
                                 '<li>'+'<b>'+'Относительная атомная масса (A)'+'</b>'+' — это число, которое показывает, во сколько раз масса атома больше атомной единицы массы. .'+ '</li>'+'<br>'+
@@ -4332,7 +4985,7 @@ var data = {
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Термодинамическое равновесие и термодинамические процессы:'+'</h2>'+
                                 '<ul>'+
-                                '<li>'+'<b>'+'Состояние термодинамической системы'+'</b>'+' в определенный момент характеризуется определенными физическими величинами, называемыми параметрами состояния.'+'</ ли >'+'<br>'+
+                                '<li>'+'<b>'+'Состояние термодинамической системы'+'</b>'+' в определенный момент характеризуется определенными физическими величинами, называемыми параметрами состояния.'+'</li>'+'<br>'+
                                 '<li>'+'<b>'+'Принцип термодинамического равновесия'+'</b>'+':'+'<br>'+'<br>'+
 
                                     'Изолированная термодинамическая система самопроизвольно развивается к состоянию термодинамического равновесия, из которого она никогда не выходит сама.'+'</li>'+'<br>'+
@@ -4342,7 +4995,7 @@ var data = {
                                     '- обмен веществ с внешней средой или другой средой'+'</li>'+'<br>'+
                                         '<li>'+'<b>'+'Термодинамический процесс'+'</b>'+' (преобразование состояний) представляет собой переход системы из одного состояния в другое.'+'</li>' +' <br>'+
                                         '<li>'+'<b>'+'Квазистатическое преобразование'+'</b>'+' происходит, когда промежуточные состояния, через которые проходит система, являются состояниями теплового равновесия, когда параметры состояния изменяются очень медленно. ' +'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'Обратимый процесс'+'</b>'+' — это квазистатическое преобразование, которое может происходить в обоих направлениях, через одни и те же промежуточные состояния.'+'</ li>'+ '<br>'+
+                                        '<li>'+'<b>'+'Обратимый процесс'+'</b>'+' — это квазистатическое преобразование, которое может происходить в обоих направлениях, через одни и те же промежуточные состояния.'+'</li>'+ '<br>'+
                                         '<li>'+'Уравнение состояния (называемое Клапейроном - Менделеевым) описывает зависимость между параметрами состояния термодинамической системы:'+'<br>'+'<br>'+
                                             'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
                                             'p = давление идеального газа'+'<br>'+
@@ -4382,7 +5035,7 @@ var data = {
                                         '- Выполняя механическую работу'+'<br>'+
                                         '- За счет теплопередачи.'+'<br>'+'<br>'+
                                         
-                                        'Мера энергии, передаваемой системе в условиях взаимодействий, приводящих к изменению параметров положения под действием некоторых сил, называется '+'<b>'+'механической работой.'+'</b >'+'<br>'+' <br>'+
+                                        'Мера энергии, передаваемой системе в условиях взаимодействий, приводящих к изменению параметров положения под действием некоторых сил, называется '+'<b>'+'механической работой.'+'</b>'+'<br>'+' <br>'+
                                         'L = F ∙ d'+'</li>'+'<br>'+
                                     '<li>'+'Механическая работа, совершаемая внешней силой F'+'<sub>'+'e'+'</sub>'+' равна:'+'<br>'+'<br> '+
                                         'L'+'<sub>'+'e'+'</sub>'+' = p'+'<sub>'+'e'+'</sub>'+' ∙ S ∙ (x1 - x2) = - p'+'<sub>'+'e'+'</sub>'+' ∙ ΔV'+'<br>'+'<br>'+
@@ -4676,7 +5329,7 @@ var data = {
 
                                     'Теплости четырех превращений:'+'<br>'+'<br>'+
                                     '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (адиабатический процесс)'+'<br>'+
-                                    '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub >'+'1'+'</sub>'+' > 0 (изобарический процесс)'+'<br>'+
+                                    '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (изобарический процесс)'+'<br>'+
                                     '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (адиабатический процесс)'+'<br>'+
                                     '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (изохорный процесс)'+'<br>'+'<br>'+
 
@@ -4717,7 +5370,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Выход цикла Карно:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'КПД цикла Карно (η) — это физическая величина, равная отношению механической работы, совершаемой двигателем (L), к полученному теплу (Q'+'<sub>'+'1'+'</sub >'+'). '+'<br>'+'<br>'+
+                                        'КПД цикла Карно (η) — это физическая величина, равная отношению механической работы, совершаемой двигателем (L), к полученному теплу (Q'+'<sub>'+'1'+'</sub>'+'). '+'<br>'+'<br>'+
                                         'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
                                         'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+ '<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
                                     '</li>'+
@@ -4728,7 +5381,7 @@ var data = {
                                         'Выход цикла Карно всегда субъединичный, потому что T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Производительность цикла Карно зависит только от температуры горячего источника (T'+'<sub>'+'1'+'</sub>'+') и холодного (T'+'<sub >'+'2' +'</sub>'+') и не зависит от рабочего вещества.'+
+                                        'Производительность цикла Карно зависит только от температуры горячего источника (T'+'<sub>'+'1'+'</sub>'+') и холодного (T'+'<sub>'+'2' +'</sub>'+') и не зависит от рабочего вещества.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'КПД необратимой тепловой машины всегда ниже, чем КПД тепловой машины, обратимо работающей в тех же пределах температуры.'+
