@@ -10,34 +10,39 @@ cuprinsBtns.forEach(el => {
     });
 });
 
+const ondulatorieSection = document.getElementById("element_target").offsetTop;
+const cuanticaSection = document.getElementById("element_target2").offsetTop;
+
+const geometricaBtn = document.getElementById('cuprinsGeometrica');
+const ondulatorieBtn = document.getElementById('cuprinsOndulatorie');
+const cuanticaBtn = document.getElementById('cuprinsCuantica');
+
 window.onscroll = function nextChapter()
 {
-    var ondulatorieSection = document.getElementsByName("element_target")[0].offsetTop;
-    var cuanticaSection = document.getElementsByName("element_target2")[0].offsetTop;
     var scrollTop = document.documentElement.scrollTop;
 
-    if(scrollTop >= ondulatorieSection)
+    if(scrollTop >= ondulatorieSection && scrollTop < cuanticaSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        ondulatorieBtn.classList.add('cuprins-active');
 
-        let btn = document.getElementById('cuprinsTeoreme');
-        btn.classList.add('cuprins-active');
+        geometricaBtn.classList.remove('cuprins-active');
+
+        cuanticaBtn.classList.remove('cuprins-active');
     }
     else if(scrollTop >= cuanticaSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        ondulatorieBtn.classList.remove('cuprins-active');
 
-        let btn = document.getElementById('cuprinsCuantica');
-        btn.classList.add('cuprins-active');
+        geometricaBtn.classList.remove('cuprins-active');
+
+        cuanticaBtn.classList.add('cuprins-active');
     }
     else
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        ondulatorieBtn.classList.remove('cuprins-active');
 
-        let btn = document.getElementById('cuprinsGeometrica');
-        btn.classList.add('cuprins-active');
+        geometricaBtn.classList.add('cuprins-active');
+
+        cuanticaBtn.classList.remove('cuprins-active');
     }
 }

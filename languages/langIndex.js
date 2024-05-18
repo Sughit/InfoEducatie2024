@@ -130,7 +130,7 @@ function loadLanguages(attr)
     const cuprinsOhm = document.getElementById('cuprinsOhm');
     const cuprinsKirchhoff = document.getElementById('cuprinsKirchhoff');
     const cuprinsGrupare = document.getElementById('cuprinsGrupare');
-    const cuprinsEnergiei = document.getElementById('cuprinsEnergie');
+    const cuprinsEnergie = document.getElementById('cuprinsEnergie');
 
     //variabile din cuprinsOptica
     const cuprinsGeometrica = document.getElementById('cuprinsGeometrica');
@@ -139,6 +139,7 @@ function loadLanguages(attr)
 
     //variabile comune din cele 4 teorii
     const teorieInapoiBtn = document.getElementById('teorieInapoiBtn');
+    const cuprinsAcasaBtn = document.getElementById('cuprinsAcasaBtn');
 
     //variabile comune din cele 4 fisiere index
     const invataTitle = document.querySelectorAll('#invataTitle');
@@ -311,6 +312,7 @@ function loadLanguages(attr)
         teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
         cuprinsPrincipii.textContent = data[attr].cuprinsPrincipii;
         cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
+        cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
     }
 
     //teorieTermodinamica.html
@@ -323,6 +325,7 @@ function loadLanguages(attr)
         cuprinsPrincipiuI.textContent = data[attr].cuprinsPrincipiuI;
         cuprinsMotoare.textContent = data[attr].cuprinsMotoare;
         cuprinsPrincipiuII.textContent = data[attr].cuprinsPrincipiuII;
+        cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
     }
 
     //teorieElectromecanica.html
@@ -335,7 +338,8 @@ function loadLanguages(attr)
         cuprinsOhm.textContent = data[attr].cuprinsOhm;
         cuprinsKirchhoff.textContent = data[attr].cuprinsKirchhoff;
         cuprinsGrupare.textContent = data[attr].cuprinsGrupare;
-        cuprinsEnergiei.textContent = data[attr].cuprinsEnergiei;
+        cuprinsEnergie.textContent = data[attr].cuprinsEnergie;
+        cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
     }
 
     //teorieOptica.html
@@ -347,6 +351,7 @@ function loadLanguages(attr)
         cuprinsGeometrica.textContent = data[attr].cuprinsGeometrica;
         cuprinsOndulatorie.textContent = data[attr].cuprinsOndulatorie;
         cuprinsCuantica.textContent = data[attr].cuprinsCuantica;
+        cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
     }
 }
 

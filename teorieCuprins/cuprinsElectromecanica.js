@@ -10,53 +10,59 @@ cuprinsBtns.forEach(el => {
     });
 });
 
+const ohmSection = document.getElementById("element_target").offsetTop;
+const kirchhoffSection = document.getElementById("element_target2").offsetTop;
+const grupareaSection = document.getElementById("element_target3").offsetTop;
+const energieSection = document.getElementById("element_target4").offsetTop;
+
+const curentulBtn = document.getElementById('cuprinsCurentul');
+const ohmBtn = document.getElementById('cuprinsOhm');
+const kirchhoffBnt = document.getElementById('cuprinsKirchhoff');
+const grupareBtn = document.getElementById('cuprinsGrupare');
+const energieBtn = document.getElementById('cuprinsEnergie');
+
 window.onscroll = function nextChapter()
 {
-    var ohmSection = document.getElementsByName("element_target")[0].offsetTop;
-    var kirchhoffSection = document.getElementsByName("element_target2")[0].offsetTop;
-    var grupareaSection = document.getElementsByName("element_target3")[0].offsetTop;
-    var energieSection = document.getElementsByName("element_target4")[0].offsetTop;
-
     var scrollTop = document.documentElement.scrollTop;
 
-    if(scrollTop >= ohmSection)
+    if(scrollTop >= ohmSection && scrollTop < kirchhoffSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-
-        let btn = document.getElementById('cuprinsOhm');
-        btn.classList.add('cuprins-active');
+        curentulBtn.classList.remove('cuprins-active');
+        ohmBtn.classList.add('cuprins-active');
+        kirchhoffBnt.classList.remove('cuprins-active');
+        grupareBtn.classList.remove('cuprins-active');
+        energieBtn.classList.remove('cuprins-active');
     }
     else if(scrollTop >= kirchhoffSection && scrollTop < grupareaSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-
-        let btn = document.getElementById('cuprinsKirchhoff');
-        btn.classList.add('cuprins-active');
+        curentulBtn.classList.remove('cuprins-active');
+        ohmBtn.classList.remove('cuprins-active');
+        kirchhoffBnt.classList.add('cuprins-active');
+        grupareBtn.classList.remove('cuprins-active');
+        energieBtn.classList.remove('cuprins-active');
     }
     else if(scrollTop >= grupareaSection && scrollTop < energieSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-    
-        let btn = document.getElementById('cuprinsGruparea');
-        btn.classList.add('cuprins-active');
+        curentulBtn.classList.remove('cuprins-active');
+        ohmBtn.classList.remove('cuprins-active');
+        kirchhoffBnt.classList.remove('cuprins-active');
+        grupareBtn.classList.add('cuprins-active');
+        energieBtn.classList.remove('cuprins-active');
     }
     else if(scrollTop >= energieSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-        
-        let btn = document.getElementById('cuprinsEnergie');
-        btn.classList.add('cuprins-active');
+        curentulBtn.classList.remove('cuprins-active');
+        ohmBtn.classList.remove('cuprins-active');
+        kirchhoffBnt.classList.remove('cuprins-active');
+        grupareBtn.classList.remove('cuprins-active');
+        energieBtn.classList.add('cuprins-active');
     }
     else
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-        
-        let btn = document.getElementById('cuprinsCurentul');
-        btn.classList.add('cuprins-active');
+        curentulBtn.classList.add('cuprins-active');
+        ohmBtn.classList.remove('cuprins-active');
+        kirchhoffBnt.classList.remove('cuprins-active');
+        grupareBtn.classList.remove('cuprins-active');
+        energieBtn.classList.remove('cuprins-active');
     }
 }

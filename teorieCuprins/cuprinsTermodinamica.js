@@ -10,44 +10,58 @@ cuprinsBtns.forEach(el => {
     });
 });
 
+const principiuISection = document.getElementById('element_target').offsetTop;
+const motoareSection = document.getElementById("element_target2").offsetTop;
+const principiuIISection = document.getElementById("element_target3").offsetTop;
+
+const notiuniBtn = document.getElementById('cuprinsNotiuni');
+const principiuIBtn = document.getElementById('cuprinsPrincipiuI');
+const motoareBtn = document.getElementById('cuprinsMotoare');
+const principiuIIBtn = document.getElementById('cuprinsPrincipiuII');
+
+
 window.onscroll = function nextChapter()
 {
-    var principiuISection = document.getElementsByName("element_target")[0].offsetTop;
-    var motoareSection = document.getElementsByName("element_target2")[0].offsetTop;
-    var principiuIISection = document.getElementsByName("element_target3").offsetTop;
-
     var scrollTop = document.documentElement.scrollTop;
 
     if(scrollTop >= principiuISection && scrollTop < motoareSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        principiuIBtn.classList.add('cuprins-active');
 
-        let btn = document.getElementById('cuprinsPrincipiuI');
-        btn.classList.add('cuprins-active');
+        notiuniBtn.classList.remove('cuprins-active');
+
+        motoareBtn.classList.remove('cuprins-active');
+
+        principiuIIBtn.classList.remove('cuprins-active');
     }
     else if(scrollTop >= motoareSection && scrollTop < principiuIISection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        motoareBtn.classList.add('cuprins-active');
 
-        let btn = document.getElementById('cuprinsMotoare');
-        btn.classList.add('cuprins-active');
+        principiuIBtn.classList.remove('cuprins-active');
+
+        notiuniBtn.classList.remove('cuprins-active');
+
+        principiuIIBtn.classList.remove('cuprins-active');
     }
     else if(scrollTop >= principiuIISection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        principiuIIBtn.classList.add('cuprins-active');
 
-        let btn = document.getElementById('cuprinsPrincipiuII');
-        btn.classList.add('cuprins-active');
+        principiuIBtn.classList.remove('cuprins-active');
+
+        motoareBtn.classList.remove('cuprins-active');
+
+        notiuniBtn.classList.remove('cuprins-active');
     }
     else
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
+        notiuniBtn.classList.add('cuprins-active');
 
-        let btn = document.getElementById('cuprinsNotiuni');
-        btn.classList.add('cuprins-active');
+        principiuIBtn.classList.remove('cuprins-active');
+
+        motoareBtn.classList.remove('cuprins-active');
+
+        principiuIIBtn.classList.remove('cuprins-active');
     }
 }
