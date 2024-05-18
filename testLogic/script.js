@@ -51,7 +51,7 @@ restart_quiz.onclick = ()=>{
     clearInterval(counterLine);
     startTimer(timeValue);
     startTimerLine(widthValue);
-    timeText.textContent = "Time Left";
+    timeText.textContent = "Timp rămas";
     next_btn.classList.remove("show");
 }
 
@@ -67,11 +67,11 @@ var choice;
 function choose(choice){
     
     localStorage.setItem("myCat", choice);
-    alert(choice);
 }
 function verify(){
-        alert(localStorage.getItem("myCat"));
+
         choice = localStorage.getItem("myCat")
+
         if(choice == 1)
             questions = questions1;
         else if(choice == 2)
@@ -211,7 +211,7 @@ function startTimer(time){
         }
         if(time < 0){
             clearInterval(counter); 
-            timeText.textContent = "Time Off"; 
+            timeText.textContent = "Gata timpul"; 
             const allOptions = option_list.children.length;
             let correcAns = questions[que_count].answer; 
             for(i=0; i < allOptions; i++){
