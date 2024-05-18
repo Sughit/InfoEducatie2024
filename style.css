@@ -22,6 +22,45 @@
     top: 0;
 }
 
+.btn-cuprins
+{
+    opacity: .7;
+    width: 40%; 
+    position: fixed; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: #031926;
+}
+
+.cuprins-body
+{
+    width: 350px;
+    position: relative; 
+    background-color: #031926;
+    padding: 10px; 
+    overflow-x: hidden;
+}
+
+.cuprins-active
+{
+    color: red !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+}
+
+.cuprins-inactive
+{
+    color: blue !important;
+    text-decoration: none !important;
+    font-size: 15px !important;
+}
+
+.cuprins
+{
+    color: white;
+    text-decoration: none;
+}
+
 .active-lang-btn
 {
     background-color: #1d4498;
