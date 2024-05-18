@@ -1,0 +1,85 @@
+<!-- Created By Ali Aslan  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>test</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn" onClick = "verify()"><button><font class = "buton-clasa">Start</font></button></div>
+    <a class="quit_btn" href = "index.html"><button><font class = "buton-clasa">Ieși</font></button></a>
+    <div class="bg-shape"></div>
+    
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Câteva reguli ale acestui test</span></div>
+        <div class="info-list">
+            <div class="info">1. Vei avea doar <span>15 secunde</span> pentru fiecare întrebare.</div>
+            <div class="info">2. Odată ce selectezi un răspuns, nu îl mai poți schimba.</div>
+            <div class="info">3. Nu mai poți selecta răspunsuri odată ce timpul a expirat.</div>
+            <div class="info">4. Nu poți ieși din timpul testului.</div>
+            <div class="info">5. Vei primi puncte pe baza răspunsurilor tale.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit"><font class = "buton-clasa">Ieși din test</font></button>
+            <button class="restart"><font class = "buton-clasa">Continuă</font></button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Test</div>
+            <div class="timer">
+                <div class="time_left_txt">Timp rămas:</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn"><font class = "buton-clasa">Următorul</font></button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Ai terminat testul!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart"><font class = "buton-clasa">Fă testul din nou</font></button>
+            <button class="quit"><font class = "buton-clasa">Ieși din test</font></button>
+        </div>
+    </div>
+    
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="testLogic/questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="testLogic/script.js"></script>
+
+</body>
+</html>

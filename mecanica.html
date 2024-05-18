@@ -9,10 +9,13 @@
 
     <!--Our files-->
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style3.css">
 
     <script defer href="./index.js"></script>
     <script defer src="./languages/langIndex.js"></script>
     <script defer href="./sw.js"></script>
+    <script defer src="testLogic/script.js"></script>
+    <script src="testLogic/questions.js"></script>
 
     <title>Mecanică</title>
 </head>
@@ -56,13 +59,15 @@
                             </font>
                         </button>
                     </a>
-                    <a href="testMecanica.html">
-                        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
+                    <div onclick = "choose(1)">
+                    <a href="test.html">
+                        <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;" >
                             <font style="font-family: Comic Sans MS;" color="black" id="testBtn" class = "buton-clasa-invers">
                                 Începe un test
                             </font>
                         </button>
                     </a>
+                </div>
                 </div>
             </div>
         </div>
@@ -107,7 +112,7 @@
                             </font>
                         </button>
                     </a>
-                    <a href="testMecanica.html">
+                    <a href="test.html">
                         <button type="button" class="btn" data-bs-dismiss="modal" style="background-color: #F4E9CD;">
                             <font style="font-family: Comic Sans MS;" color="black" id="testBtn" class = "buton-clasa-invers">
                                 Începe un test
