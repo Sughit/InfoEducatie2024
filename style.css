@@ -46,7 +46,7 @@
 
 .cuprins-active
 {
-    color: red !important;
+    color: #e3b749 !important; 
     font-weight: bold !important;
     font-size: 25px !important;
 }
