@@ -1,57 +1,57 @@
 let questions1 = [
     {
     numb: 1,
-    question: "??????????",
-    answer: "C",
+    question: "Care din următoarele ecuații reprezintă formula Galilei?",
+    answer: '<span>v<sup>2</sup> = v<sub>0</sub><sup>2</sup> + 2a(x - x<sub>0</sub>)</span>',
     options: [
-      "A",
-      "B",
-      "C",
-      "D"
+      'v<sup>2</sup> = v<sub>0</sub><sup>2</sup> - 2ax',
+      'v<sup>2</sup> + v<sub>0</sub><sup>2</sup> = 2ax',
+      'v<sup>2</sup> = v<sub>0</sub><sup>2</sup> + 2a(x - x<sub>0</sub>)',
+      'v<sup>2</sup> + v<sub>0</sub><sup>2</sup> = 2ax<sub>0</sub>'
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Care este unitatea de măsură pentru accelerație?",
+    answer: '<span>m / s<sup>2</sup></span>',
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      'm / s<sup>2</sup>',
+      'm<sup>2</sup> / s',
+      'm / s',
+      'm ∙ s'
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Formula forței de frecare este:",
+    answer: "<span>F<sub>f</sub> = μ ∙ N</span>",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "F<sub>f</sub> = μ ∙ F",
+      "F<sub>f</sub> = μ ∙ N",
+      "F<sub>f</sub> = v ∙ N",
+      "F<sub>f</sub> = -N ∙ a"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Care este legea variației energiei cinetice?",
+    answer: "<span>ΔE<sub>c</sub> = L<sub>Total</sub></span>",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "E<sub>c</sub> =  L / Δt",
+      "ΔE<sub>c</sub> = L<sub>Total</sub>",
+      "ΔE<sub>c</sub> = m ∙ v<sub>2</sub> / 2",
+      "ΔE<sub>c</sub> = m ∙ g ∙ h"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Puterea mecanică:",
+    answer: "<span>Este o mărime fizică scalară</span>",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Este produsul dintre lucrul mecanic efectuat și timpul în care se efectuează acest lucru mecanic",
+      "Este o mărime fizică vectorială",
+      "Este mărimea ce caracterizează capacitatea unui corp de a efectua lucru mecanic",
+      "Este o mărime fizică scalară"
     ]
   },
 ];
