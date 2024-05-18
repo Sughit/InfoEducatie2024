@@ -148,7 +148,8 @@ let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 function optionSelected(answer){
     clearInterval(counter);
     clearInterval(counterLine);
-    let userAns = answer.textContent;
+    let userAns = answer.innerHTML;
+    alert(userAns);
     let correcAns = questions[que_count].answer;
     const allOptions = option_list.children.length;
     
@@ -164,7 +165,7 @@ function optionSelected(answer){
         console.log("Wrong Answer");
 
         for(i=0; i < allOptions; i++){
-            if(option_list.children[i].textContent == correcAns){
+            if(option_list.children[i].innerHTML == correcAns){
                 option_list.children[i].setAttribute("class", "option correct"); 
                 option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); 
                 console.log("Auto selected correct answer.");
@@ -182,12 +183,12 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.add("activeResult"); 
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 3){
+    if (userScore > 4){
         let scoreTag = '<span>Bravo! 🎉, Ai făcut <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
-    else if(userScore > 1){
-        let scoreTag = '<span>and Bine 😎, Ai făcut <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
+    else if(userScore > 2){
+        let scoreTag = '<span>Destul de bine 😎, Ai făcut <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else if(userScore == 1){
@@ -215,7 +216,7 @@ function startTimer(time){
             const allOptions = option_list.children.length;
             let correcAns = questions[que_count].answer; 
             for(i=0; i < allOptions; i++){
-                if(option_list.children[i].textContent == correcAns){
+                if(option_list.children[i].innerHTML == correcAns){
                     option_list.children[i].setAttribute("class", "option correct");
                     option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag);
                     console.log("Time Off: Auto selected correct answer.");
