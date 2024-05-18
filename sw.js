@@ -31,7 +31,9 @@ const assets = [
     "./img/optica4.png",
     "./img/optica5.png",
     "./img/optica6.png",
-    "./img/transformari.png"
+    "./img/transformari.png",
+    "./testLogic/questions.js",
+    "./testLogic/script.js"
 ]
 
 self.addEventListener("install", e => {
