@@ -9,7 +9,7 @@ let questions1 = [
       'v<sup>2</sup> = v<sub>0</sub><sup>2</sup> + 2a(x - x<sub>0</sub>)',
       'v<sup>2</sup> + v<sub>0</sub><sup>2</sup> = 2ax<sub>0</sub>'
     ],
-    tag: "teorieMecanica.html#1"
+    tag: "./teorieMecanica.html#1"
   },
     {
     numb: 2,
@@ -21,7 +21,7 @@ let questions1 = [
       'm / s',
       'm ∙ s'
     ],
-    tag: "teorieMecanica.html#2"
+    tag: "./teorieMecanica.html#2"
   },
     {
     numb: 3,
