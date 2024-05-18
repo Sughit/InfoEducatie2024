@@ -75,31 +75,31 @@ function verify(){
         if(choice == 1)
             questions = questions1;
         else if(choice == 2)
-            question = questions2;
+            questions = questions2;
         else if(choice == 3)
-            question = questions3;
+            questions = questions3;
         else if(choice == 4)
-            question = questions4;
+            questions = questions4;
         else if(choice == 5)
-            question = questions5;
+            questions = questions5;
         else if(choice == 6)
-            question = questions6;
+            questions = questions6;
         else if(choice == 7)
-            question = questions7;
+            questions = questions7;
         else if(choice == 8)
-            question = questions8;
+            questions = questions8;
         else if(choice == 9)
-            question = questions9;
+            questions = questions9;
         else if(choice == 10)
-            question = questions10;
+            questions = questions10;
         else if(choice == 11)
-            question = questions11;
+            questions = questions11;
         else if(choice == 12)
-            question = questions12;
+            questions = questions12;
         else if(choice == 13)
-            question = questions13;
+            questions = questions13;
         else if(choice == 14)
-            question = questions14;
+            questions = questions14;
 }
 
 
@@ -149,7 +149,6 @@ function optionSelected(answer){
     clearInterval(counter);
     clearInterval(counterLine);
     let userAns = answer.innerHTML;
-    alert(userAns);
     let correcAns = questions[que_count].answer;
     const allOptions = option_list.children.length;
     
