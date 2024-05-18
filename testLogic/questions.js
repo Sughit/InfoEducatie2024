@@ -336,7 +336,7 @@ let questions7 = [
   {
   numb: 3,
   question: "Relația dintre cele trei tensiuni electrice ale unui circuit electric este:",
-  answer: "<span></span>",
+  answer: "<span>E = U + u</span>",
   options: [
     "E = U + u",
     "E = U / u",
@@ -358,7 +358,7 @@ let questions7 = [
   {
   numb: 5,
   question: "De la borna negativă a sursei spre borna pozitivă:",
-  answer: "<span></span>",
+  answer: "<span>De la borna pozitivă a sursei spre borna negativă</span>",
   options: [
     "Dat de către intensitatea curentului",
     "Același cu al electronilor",
@@ -371,57 +371,383 @@ let questions7 = [
 let questions8 = [
   {
   numb: 1,
-  question: "",
-  answer: '<span></span>',
+  question: "Legea lui Ohm pentru o porțiune de circuit:",
+  answer: '<span>I = U / R</span>',
   options: [
-    'Amperé (A)',
-    'Volt (V)',
-    'Watt (W)',
-    'Ohm (Ω)'
+    'I = U / R',
+    'I = U ∙ R',
+    'U = R / I',
+    'R = U ∙ I'
   ]
 },
   {
   numb: 2,
-  question: "",
-  answer: '<span></span>',
+  question: "Dependența rezistenței electrice de natura și de dimensiunile conductorului este:",
+  answer: '<span>R = ρ ∙ (l / s)</span>',
   options: [
-    'Raportul dintre sarcina electrică și timp',
-    'Raportul dintre tensiunea electrică și timp',
-    'Raportul dintre lucrul mecanic și sarcina electrică',
-    'Raportul dintre timp și sarcina electrică'
+    'R = l / s',
+    'R = ρ / s)',
+    'R = l ∙ (ρ / s)',
+    'R = ρ ∙ (l / s)'
   ]
 },
   {
   numb: 3,
-  question: "",
-  answer: "<span></span>",
+  question: "Legea lui Ohm pentru întregul circuit:",
+  answer: "<span>I = E / (R + r)</span>",
   options: [
-    "E = U + u",
-    "E = U / u",
-    "U = E / u",
-    "E = U ∙ u"
+    "E = (R + r) / E",
+    "I = E ∙ (R + r)",
+    "I = E / (R + r)",
+    "I = E"
   ]
 },
   {
   numb: 4,
-  question: "",
-  answer: "<span></span>",
+  question: "Rezistența în S.I se măsoară în:",
+  answer: "<span>Ohm (Ω)</span>",
   options: [
-    "u = U / q",
-    "u = L<sub>int</sub> ∙ q",
-    "u = L<sub>int</sub> / q",
-    "u = q / L<sub>int</sub>"
+    'Watt (W)',
+    'Ohm (Ω)',
+    'Volt (V)',
+    'Amperé (A)'
   ]
 },
   {
   numb: 5,
-  question: "",
-  answer: "<span></span>",
+  question: "Formula intensității curentului electric de scurt circuit este:",
+  answer: "<span>I<sub>sc</sub> = E / r</span>",
   options: [
-    "Dat de către intensitatea curentului",
-    "Același cu al electronilor",
-    "De la borna negativă a sursei spre borna pozitivă",
-    "De la borna pozitivă a sursei spre borna negativă"
+    "I<sub>sc</sub> = R / r",
+    "I<sub>sc</sub> = E / r",
+    "I<sub>sc</sub> = E / R",
+    "I<sub>sc</sub> = r / E"
+  ]
+},
+];
+
+let questions9 = [
+  {
+  numb: 1,
+  question: "Tensiunea electromotoare:",
+  answer: '<span>Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar</span>',
+  options: [
+    'Se ia cu plus dacă sensul curentului electric prin sursă este opus cu cel al ochiului ales arbitrar ',
+    'Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar',
+    'Se ia cu minus dacă intensitatea este pozitivă',
+    'Se ia cu minus dacă tensiunea este negativă'
+  ]
+},
+  {
+  numb: 2,
+  question: "Ce reprezintă nodul de circuit?",
+  answer: '<span>Intersecția a cel puțin trei conductoare electrice</span>',
+  options: [
+    'Punctul în care circuitul s-a înnodat',
+    'Intersecția a cel puțin două conductoare electrice',
+    'Locul în care a fost amplasat un întrerupător',
+    'Intersecția a cel puțin trei conductoare electrice'
+  ]
+},
+  {
+  numb: 3,
+  question: "Suma algebrică a intensităților curenților care se întâlnesc într-un nod de circuit este:",
+  answer: "<span>Nulă</span>",
+  options: [
+    "Egală cu raportul dintre tensiunea electromotoare și rezistența întregului circuit ",
+    "Egală cu 1",
+    "Nulă",
+    "Negativă"
+  ]
+},
+  {
+  numb: 4,
+  question: "Suma algebrică a tensiunilor electromotoare dintr-un ochi de rețea este egală cu:",
+  answer: "<span>Suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit</span>",
+  options: [
+    'Suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit',
+    'Suma algebrică a rezistențelor de pe fiecare latură din acel ochi de circuit',
+    'Suma algebrică a intensităților de pe fiecare latură din acel ochi de circuit',
+    'Egală cu 0'
+  ]
+},
+];
+
+let questions10 = [
+  {
+  numb: 1,
+  question: "Rezistența echivalentă a unei grupări serie de rezistoare este egală cu:",
+  answer: '<span>R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub></span>',
+  options: [
+    'R<sub>s</sub> = R<sub>1</sub> / R<sub>2</sub>',
+    'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>',
+    'R<sub>s</sub> = R<sub>2</sub> ∙ R<sub>2</sub>',
+    'R<sub>s</sub> = R<sub>2</sub> / R<sub>1</sub>'
+  ]
+},
+  {
+  numb: 2,
+  question: "Inversul rezistenței echivalente a unei grupări paralel de rezistoare este egal cu:",
+  answer: '<span>1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)</span>',
+  options: [
+    '1 / R<sub>p</sub> = 1 / R<sub>2</sub> ∙ R<sub>2</sub>',
+    '1 / R<sub>p</sub> = R<sub>2</sub> / R<sub>1</sub>',
+    '1 / R<sub>p</sub> = R<sub>1</sub> + R<sub>2</sub>',
+    '1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
+  ]
+},
+  {
+  numb: 3,
+  question: "Rezistența internă a grupării serie de generatoare electrice identice:",
+  answer: "<span>r<sub>s</sub> = n · r</span>",
+  options: [
+    "r<sub>s</sub> = n · r",
+    "r<sub>s</sub> = n · 1 / r",
+    "r<sub>s</sub> = n · 2r",
+    "r<sub>s</sub>= 1 / (n · r)"
+  ]
+},
+  {
+  numb: 4,
+  question: "Rezistența internă a grupării paralel de generatoare electrice identice:",
+  answer: "<span>r<sub>p</sub> = r / n</span>",
+  options: [
+    'r<sub>p</sub> = r / 2n',
+    'r<sub>p</sub> = 2r / n',
+    'r<sub>p</sub> = r / n',
+    'r<sub>p</sub> = n · (1 / r) '
+  ]
+},
+{
+  numb: 5,
+  question: "Un grup de rezistoare se înlocuiește cu unul singur, denumit rezistor ",
+  answer: "<span>Echivalent</span>",
+  options: [
+    'Aferent',
+    'Simetric',
+    'Rezultant',
+    'Echivalent'
+  ]
+},
+];
+
+let questions11 = [
+  {
+  numb: 1,
+  question: "Cu ce se notează energia electrică?",
+  answer: '<span>W</span>',
+  options: [
+    'W',
+    'E',
+    'E<sub>e</sub>',
+    'F'
+  ]
+},
+  {
+  numb: 2,
+  question: "Formula energiei electrice consumate pe întreg circuitul:",
+  answer: '<span>W<sub>tot</sub> = E ∙ I ∙ Δt</span>',
+  options: [
+    'W<sub>tot</sub> = E / q',
+    'W<sub>tot</sub> = U ∙ I ∙ Δt',
+    'W<sub>tot</sub> = E ∙ I ∙ Δt',
+    'W<sub>tot</sub> = R ∙ I'
+  ]
+},
+  {
+  numb: 3,
+  question: "Puterea dezvoltată de rezistor este maximă când: ",
+  answer: "<span>R = r</span>",
+  options: [
+    "W<sub>gen</sub> = W<sub>tot>/sub>",
+    "U = u",
+    "R = R / r",
+    "R = r"
+  ]
+},
+  {
+  numb: 4,
+  question: "Randamentul electric al unui receptor (consumator) este dat de relația:",
+  answer: "<span>η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub></span>",
+  options: [
+    'η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub>',
+    'η = W<sub>utilă</sub> / P<sub>exterioară</sub> = W<sub>totală</sub> / P<sub>totală</sub>',
+    'η = W<sub>utilă</sub> / P<sub>totală</sub> = W<sub>totală</sub> / P<sub>exterioară</sub>',
+    'η = W<sub>totală</sub> / W<sub>utilă</sub> = P<sub>totală</sub> / P<sub>exterioară</sub>'
+  ]
+},
+{
+  numb: 5,
+  question: "Legea lui Joule are formula: ",
+  answer: "<span>Q = R ∙ I<sup>2</sup> ∙ Δt</span>",
+  options: [
+    'Q = R ∙ (I<sup>2</sup> ∙ Δt)',
+    'Q = I<sup>2</sup> / (R ∙ Δt)',
+    'Q = R ∙ I<sup>2</sup> ∙ Δt',
+    'Q = (I<sup>2</sup> ∙ Δt) / R'
+  ]
+},
+];
+
+let questions12 = [
+  {
+  numb: 1,
+  question: "Indicele de refracție  al unui mediu transparent este: ",
+  answer: '<span>n = c / v</span>',
+  options: [
+    'n = v / c',
+    'n = c ∙ v',
+    'n = c / v',
+    'n = 1 / (c ∙ v)'
+  ]
+},
+  {
+  numb: 2,
+  question: "Raza incidentă , normala la suprafața de separare și raza refractată sunt:",
+  answer: '<span>coplanare</span>',
+  options: [
+    'egale',
+    'perpendiculare',
+    'coplanare',
+    'paralele'
+  ]
+},
+  {
+  numb: 3,
+  question: "Puterea dezvoltată de rezistor este maximă când: ",
+  answer: "<span>R = r</span>",
+  options: [
+    "W<sub>gen</sub> = W<sub>tot</sub>",
+    "U = u",
+    "R = R / r",
+    "R = r"
+  ]
+},
+  {
+  numb: 4,
+  question: "Unghiul maxim de incidență este: ",
+  answer: "<span>i = 90°</span>",
+  options: [
+    'i = 30°',
+    'i = 90°',
+    'i = 180°',
+    'i = 45°'
+  ]
+},
+{
+  numb: 5,
+  question: "Lentilele convergente: ",
+  answer: "<span>Sunt mai groase la mijloc și mai subțiri la capete</span>",
+  options: [
+    'Sunt mai groase la mijloc și mai subțiri la capete',
+    'Micșorează obiectul',
+    'Sunt mai groase la capete și mai subțiri la mijloc',
+    'Li se mai zice și lentile negative'
+  ]
+},
+];
+
+let questions13 = [
+  {
+  numb: 1,
+  question: "Cu cât este egală viteza luminii în vid?",
+  answer: '<span>300.000.000 m/s</span>',
+  options: [
+    '400.000.000 m/s',
+    '300.000.000 m/s',
+    '250.000.000 m/s',
+    '80.000.000 m/s'
+  ]
+},
+  {
+  numb: 2,
+  question: "De ce fasciculele colorate ies din prismă sub unghiuri diferite ?",
+  answer: '<span>Deoarece au viteze diferite</span>',
+  options: [
+    'Pentru că anumite culori încălzesc prisma',
+    'Fiindcă unele culori se resping',
+    'Pentru că au frecvențe diferite',
+    'Deoarece au viteze diferite'
+  ]
+},
+  {
+  numb: 3,
+  question: "În cazul interferenței constructive: ",
+  answer: "<span>Cele două unde sunt în fază</span>",
+  options: [
+    "Cele două unde sunt în defazaj",
+    "Cele două unde sunt în fază",
+    "Suma lor este egală cu 0",
+    "Se risipesc"
+  ]
+},
+  {
+  numb: 4,
+  question: "Una dintre condițiile de interferență este: ",
+  answer: "<span>Undele să aibă aceeași frecvență</span>",
+  options: [
+    'Undele să aibă aceiași lungime',
+    'Diferența de fază să fie egală cu sin90°',
+    'Undele să aibă aceeași frecvență',
+    'Diferența de fază să varieze'
+  ]
+},
+{
+  numb: 5,
+  question: "Pentru a produce dispersia luminii trebuie ca: ",
+  answer: "<span>Indicele de refracție să fie mai mare decât unu</span>",
+  options: [
+    'Indicele de refracție să fie mai mare egal cu unu',
+    'Indicele de refracție să fie mai mare decât zero',
+    'Indicele de refracție să fie mai mare decât unu',
+    'Indicele de refracție să fie mai mare egal cu zero'
+  ]
+},
+];
+
+let questions14 = [
+  {
+  numb: 1,
+  question: "Diferența dintre nivelurile de energie: ",
+  answer: '<span>Este proporțională cu frecvența oscilatorului și constanta lui Planck</span>',
+  options: [
+    'Este invers proporțională cu frecvența oscilatorului și constanta lui Planck',
+    'Este proporțională cu frecvența oscilatorului și constanta lui Planck',
+    'Este invers proporțională cu frecvența oscilatorului și direct proporțională constanta lui Planck',
+    'Este proporțională cu frecvența oscilatorului și invers proporțională constanta lui Planck'
+  ]
+},
+  {
+  numb: 2,
+  question: "Constanta lui Planck (h) este egală cu:",
+  answer: '<span>6,62 ∙ 10<sub>-34</sub> J ∙ s</span>',
+  options: [
+    '6,62 ∙ 10<sub>-34</sub> J ∙ s',
+    '6,61 ∙ 10<sub>-34</sub> J / s',
+    '6,62 ∙ 10<sub>-34</sub> J / s',
+    '6,62 ∙ 10<sub>-32</sub> J ∙ s'
+  ]
+},
+  {
+  numb: 3,
+  question: "Energia cinetică a electronilor emiși:",
+  answer: "<span>Crește liniar cu frecvența radiației incidente</span>",
+  options: [
+    "Crește liniar odată cu trecerea timpului",
+    "Scade liniar cu frecvența radiației incidente",
+    "Crește liniar cu frecvența radiației incidente",
+    "Rămâne constantă"
+  ]
+},
+  {
+  numb: 4,
+  question: "'v' reprezintă: ",
+  answer: "<span>Frecvența oscilatorului</span>",
+  options: [
+    'Constanta lui Planck',
+    'Constanta lui Einstein',
+    'Radiația emisă',
+    'Frecvența oscilatorului'
   ]
 },
 ];
