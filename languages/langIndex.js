@@ -1370,81 +1370,83 @@ var data = {
                     +'</ul>'),
 
         //teorieOptica.html
-        //teorieOptica.html
-        "teorieOpticaTitle": "Optică teorie",
-        "teorieOptica": ('<u>' +'<h2 class="p-3" align = center>Optica geometrică</h2><br><br><br>' +'</u>'
-                        +'<h2 class="p-3">Reflexia luminii:</h2>'
-                        +'<ul>'
-                            +'<li>'
-                                +'PRINCIPIUL LUI FERMAT:<br><br>'
-                                    +'“Lumina se propagă între două puncte A și B, astfel încât drumul său optic și, implicit, intervalul de timp necesar parcurgerii distanței AB să fie minim.”<br><br>'
-                                    +'Reflexia luminii este fenomenul în care lumina se întoarce în primul mediu, cu schimbarea direcţiei de propagare, atunci când ea întâlneşte un alt mediu (suprafaţa de separare dintre două medii optice diferite).'
-                            +'</li><br>'
-                            +'<li>'
-                                +'Legile reflexiei:<br><br>'
-                                +'- Legea I:<br><br>'
-                                +'Raza incidentă, normala și raza reflectată sunt coplanare (aparțin aceluiași plan).<br><br>'
-                                +'- Legea a II a:<br><br>'
-                                +'Unghiul de incidență (i) este egal cu unghiul de reflexie (r).'
-                            +'</li><br>'
-                            +'<li>'
-                                +'Oglinzile plane<br><br>'
-                                +'Oglinzile sunt corpuri netede și lucioase, în care lumina se reflectă.<br><br>'
-                                +'Oglinzile plane au suprafața plană (dreaptă) și sunt cele pe care le avem cu toții acasă și în care ne uităm zilnic.<br><br>'
-                                +'Iată simbolul ei (partea din spate care nu reflectă lumina se hașurează):<br><br>'
-                            +'</li>'
-                        +'</ul>'
+        "teorieOpticaTitle": "Optics theory",
+        "teorieOptica": ('<u>' +
+                            '<h2 class="p-3" align = center>Geometric Optics</h2><br><br><br>' +
+                        '</u>' +
+                        '<h2 class="p-3">Reflection of Light:</h2>' +
+                        '<ul>' +
+                            '<li>' +
+                                'FERMAT\'S PRINCIPLE:<br><br>' +
+                                '"Light propagates between two points A and B, so that its optical path and, implicitly, the time interval required to cover the distance AB are minimized."<br><br>' +
+                                'Reflection of light is the phenomenon in which light returns to the first medium, with a change in the direction of propagation, when it encounters another medium (the interface between two different optical media).' +
+                            '</li><br>' +
+                            '<li>' +
+                                'Laws of Reflection:<br><br>' +
+                                '- Law I:<br><br>' +
+                                'The incident ray, the normal, and the reflected ray are coplanar (they belong to the same plane).<br><br>' +
+                                '- Law II:<br><br>' +
+                                'The angle of incidence (i) is equal to the angle of reflection (r).' +
+                            '</li><br>' +
+                            '<li>' +
+                                'Plane Mirrors<br><br>' +
+                                'Mirrors are smooth and shiny surfaces on which light reflects.<br><br>' +
+                                'Plane mirrors have a flat (straight) surface and are the ones we all have at home and look at daily.<br><br>' +
+                                'Here is their symbol (the part that does not reflect light is shaded):<br><br>' +
+                            '</li>' +
+                        '</ul>'    
                         +'<h2 align = center>'
                             +'<img style = "border: 2px solid #1b4188" src ="img/optica1.png" width = 100>'
                         +'</h2><br>'
                         +'<ul>'
                             +'<li>'
-                                +'Formarea imaginii unui obiect într-o oglindă plană:<br><br>'
-                                +'- Se desenează oglinda plană pe verticală.<br><br>'
-                                +'- Se trasează prin mijlocul oglinzii axa optică principală, perpendiculară pe oglindă (pe orizontală).<br><br>'
-                                +'- Se desenează obiectul AB sub forma unui segment cu săgeată, în fața oglinzii.<br><br>'
-                                +'- Se duce prima rază din vârful obiectului (B) perpendiculară pe oglindă și se prelungește punctată în spatele oglinzii (fiind perpendiculară pe suprafața oglinzii nu își schimbă direcția de propagare când se reflectă).<br><br>'
-                                +'- Se duce a doua rază din vârful obiectului (B) oblică pe oglindă se trasează raza reflectată a acesteia, respectând legile reflexiei (unghiul i = unghiul r)<br><br>'
-                                +'- Se prelungește punctată în spatele oglinzii raza reflectată, până se întâlnește cu prelungirea primei raze. Punctul de intersecție al lor se notează cu B\', care reprezintă vârful imaginii obiectului în oglindă.<br><br>'
-                                +'- Din punctul B\' se duce perpendiculară pe axa optică principală, iar piciorul perpendicularei se notează cu A\' și reprezintă baza imaginii obiectului în oglindă. Se pune vârful săgeții în B\'.'
+                                +'Formation of an object\'s image in a flat mirror:<br><br>'
+                                +'- The flat mirror is drawn vertically.<br><br>'
+                                +'- The principal optical axis, perpendicular to the mirror (horizontally), is drawn through the mirror\'s center.<br><br>'
+                                +'- The object AB is drawn as a segment with an arrow, in front of the mirror.<br><br>'
+                                +'- The first ray is drawn from the object\'s tip (B) perpendicular to the mirror and extended dotted behind the mirror (being perpendicular to the mirror\'s surface, it does not change its propagation direction upon reflection).<br><br>'
+                                +'- The second ray is drawn from the object\'s tip (B) obliquely to the mirror, and the reflected ray of it is drawn, respecting the laws of reflection (angle of incidence = angle of reflection).<br><br>'
+                                +'- The reflected ray is extended behind the mirror until it meets the extension of the first ray. Their point of intersection is marked as B\', representing the tip of the object\'s image in the mirror.<br><br>'
+                                +'- From point B\', a perpendicular is drawn to the principal optical axis, and the foot of the perpendicular is marked as A\', representing the base of the object\'s image in the mirror. The arrowhead is placed at B\'.'
                             +'</li>'
                         +'</ul>'
-                        +'<h2 align = center>' +
-                        '<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>' +
-                    '</h2><br>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Caracteristicile imaginii A\'B\':<br><br>' +
-                            '- Virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (în spatele oglinzii)<br><br>' +
-                            '- Dreaptă<br><br>' +
-                            '- Egală cu obiectul AB (y<sub>1</sub> = y<sub>2</sub>)' +
-                            '- Ob. și Im. sunt simetrice față de oglindă' +
-                            'Formula oglinzii plane: x<sub>2</sub> = -x<sub>1</sub>, deoarece R → ∞(nu are focare)<br><br>' +
-                            'Mărirea liniară transversală :	β = 1' +
-                        '</li>' +
-                    '</ul>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Caracterizarea imaginii (A\'B\') obiectului în oglinda plană:<br><br>' +
-                            'Ob. AB și im. A\'B\' sunt simetrice față de oglindă (imaginea se formează în spatele oglinzii, la aceeaşi distanţă faţă de oglindă ca şi obiectul).<br><br>' +
-                            'Imaginea este virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (ea nu poate fi prinsă pe ecran sau film foto).<br><br>' +
-                            'Im. A\'B\' este la fel de mare ca ob. AB.' +
-                        '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">Oglinzile sferice:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Oglinzile sferice sunt porțiuni din sfere (calote sferice) care reflectă lumina ce cade pe ele.<br><br>' +
-                            'Clasificarea oglinzilor sferice: <br><br>' +
-                            'a) Oglinzile concave reflectă cu partea interioară, scobită a suprafeței sferice (adică au partea lucioasă pe partea interioară a sferei). Ele transformă un fascicul de lumină paralel într-unul convergent.' +
-                        '</li>' +
-                    '</ul>'
+                        +'<h2 align = center>'
+                            +'<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>'
+                        +'</h2><br>'
+                        +'<ul>'
+                            +'<li>'
+                                +'Characteristics of the image A\'B\':<br><br>'
+                                +'- Virtual, as it forms at the intersection of the extensions of the reflected rays (behind the mirror)<br><br>'
+                                +'- Straight<br><br>'
+                                +'- Equal to the object AB (y<sub>1</sub> = y<sub>2</sub>)<br><br>'
+                                +'- Object and image are symmetrical with respect to the mirror<br><br>'
+                                +'Formula of the flat mirror: x<sub>2</sub> = -x<sub>1</sub>, since R → ∞ (it has no focal points)<br><br>'
+                                +'Transverse linear magnification: β = 1'
+                            +'</li>'
+                        +'</ul>'
+                        +'<ul>'
+                            +'<li>'
+                                +'Characterization of the image (A\'B\') of the object in the flat mirror:<br><br>'
+                                +'Object AB and image A\'B\' are symmetrical with respect to the mirror (the image is formed behind the mirror, at the same distance from the mirror as the object).<br><br>'
+                                +'The image is virtual, as it forms at the intersection of the extensions of the reflected rays (it cannot be caught on a screen or photograph).<br><br>'
+                                +'Image A\'B\' is as large as object AB.'
+                            +'</li><br>'
+                        +'</ul>'
+                        +'<h2 class="p-3">Spherical Mirrors:</h2>'
+                        +'<ul>'
+                            +'<li>'
+                                +'Spherical mirrors are portions of spheres (spherical caps) that reflect light falling on them.<br><br>'
+                                +'Classification of spherical mirrors:<br><br>'
+                                +'a) Concave mirrors reflect with the inner, curved part of the spherical surface (i.e., they have the shiny part on the inner side of the sphere). They transform a parallel beam of light into a convergent one.'
+                            +'</li>'
+                        +'</ul>'
+
                     +'<h2 align = center>' +
                     '<img style = "border: 2px solid #1b4188" src ="img/optica3.png" width = 300>' +
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'b) Oglinzile convexe reflectă cu partea exterioară, bombată a suprafeței sferice (adică au partea lucioasă pe partea exterioară a sferei). Ele transformă un fascicul de lumină paralel într-unul divergent.' +
+                        'b) Convex mirrors reflect with the outer, bulging part of the spherical surface (i.e., they have the shiny part on the outer side of the sphere). They transform a parallel beam of light into a divergent one.' +
                     '</li>' +
                 '</ul>' +
                 '<h2 align = center>' +
@@ -1452,11 +1454,11 @@ var data = {
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formarea imaginii unui obiect într-o oglindă sferică<br><br>' +
-                        'Pentru a forma imaginea unui obiect într-o oglindă sferică trebuie să ducem minim două raze:<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă paralelă cu axa optică principală până întâlnește suprafața oglinzii și de acolo se reflectă prin focar.<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă prin centrul de curbură până se intersectează cu prima rază (aceasta se reflectă pe aceeași direcție).<br><br>' +
-                        'Cele două raze se prelungesc până se întâlnesc. Punctul lor de intersecție este vârful imaginii, A\'. Din acest punct se duce o perpendiculară pe axa optică principală. Piciorul perpendicularei, B\', este baza imaginii formate.' +
+                        'Formation of an object\'s image in a spherical mirror<br><br>' +
+                        'To form the image of an object in a spherical mirror, we need to draw at least two rays:<br><br>' +
+                        'From the object\'s tip A, a line parallel to the principal optical axis must be drawn until it meets the mirror surface and then it reflects through the focal point.<br><br>' +
+                        'From the object\'s tip A, a line must be drawn through the center of curvature until it intersects with the first ray (which reflects in the same direction).<br><br>' +
+                        'Both rays are extended until they meet. Their point of intersection is the tip of the image, A\'. From this point, a perpendicular is drawn to the principal optical axis. The foot of the perpendicular, B\', is the base of the formed image.' +
                     '</li>' +
                 '</ul>' +
                 '<h2 align = center>' +
@@ -1464,385 +1466,387 @@ var data = {
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formula oglinzilor sferice:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
-                        'Mărirea liniară transversală:<br>' +
+                        'Formula of spherical mirrors:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
+                        'Transverse linear magnification:<br>' +
                         'β = y<sub>2</sub> / y<sub>1</sub> = - x<sub>2</sub> / x<sub>1</sub>' +
                     '</li>' +
                 '</ul>' +
                 '<ul>' +
                     '<li>' +
-                        'Imaginea unui obiect într-o oglindă concavă depinde de distanța de la ob. la oglindă.' +
+                        'The image of an object in a concave mirror depends on the distance from the object to the mirror.' +
                     '</li><br>' +
                     '<li>' +
-                        'Tipul oglinzii:<br><br>' +
-                        '- Concava:<br>' +
-                        '|x<sub>1</sub>| > 2|f| - Reală - Micșorată - Răsturnată<br>' +
-                        '|x<sub>1</sub>| = 2|f| - Reală - Egală - Răsturnată<br>' +
-                        '2|f| > |x<sub>1</sub>| > |f| - Reală - Mărită - Răsturnată<br>' +
-                        '|x<sub>1</sub>| < |f| - Virtuală - Mărită - Dreaptă<br><br>' +
-                        '-Convexă:<br>' +
-                        'Orice |x<sub>1</sub>| - Virtuală - Micșorată - Dreaptă' +
+                        'Mirror type:<br><br>' +
+                        '- Concave:<br>' +
+                        '|x<sub>1</sub>| > 2|f| - Real - Diminished - Inverted<br>' +
+                        '|x<sub>1</sub>| = 2|f| - Real - Same Size - Inverted<br>' +
+                        '2|f| > |x<sub>1</sub>| > |f| - Real - Enlarged - Inverted<br>' +
+                        '|x<sub>1</sub>| < |f| - Virtual - Enlarged - Upright<br><br>' +
+                        '- Convex:<br>' +
+                        'Any |x<sub>1</sub>| - Virtual - Diminished - Upright' +
                     '</li><br>' +
-                '</ul>' +
-                '<h2 class="p-3">Refracția luminii:</h2>' +
+                '</ul>'+
+                '<h2 class="p-3">Refraction of Light:</h2>' +
                 '<ul>' +
                     '<li>' +
-                        'Legile refracției luminii:<br><br>' +
-                        'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul respectiv (v).<br><br>' +
+                        'Laws of refraction of light:<br><br>' +
+                        'The refractive index (denoted by n) of a transparent medium is given by the ratio of the speed of light in vacuum (c) and the speed of light in that medium (v).<br><br>' +
                         'n = c / v<br><br>' +
-                        'Refracția luminii este fenomenul în care lumina își schimbă direcția de propagare atunci când traversează suprafața de separație dintre două medii transparente diferite.' +
+                        'Refraction of light is the phenomenon in which light changes its direction of propagation when it crosses the interface between two different transparent media.' +
                     '</li><br>' +
                     '<li>' +
-                        'Legile refracției<br><br>' +
-                        'Legea I a refracției:<br>' +
-                        'Raza incidentă (SI), normala la suprafața de separare (NI) și raza refractată (IR\') sunt coplanare.<br><br>' +
-                        'Legea a II-a a refracției:<br>' +
-                        'Raportul dintre unghiul de incidență(i) ș sinusul unghiului de refracție(r\') este egal cu raportul dintre indicele de refracție absolut al mediului al II-lea și indicele de refracție absolut al I mediu:<br><br>' +
+                        'Laws of refraction:<br><br>' +
+                        'Law I of refraction:<br>' +
+                        'The incident ray (SI), the normal to the separating surface (NI), and the refracted ray (IR\') are coplanar.<br><br>' +
+                        'Law II of refraction:<br>' +
+                        'The ratio of the angle of incidence (i) to the sine of the angle of refraction (r\') is equal to the ratio of the absolute refractive index of the second medium to the absolute refractive index of the first medium:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
-                        'n<sub>21</sub> = indicele de refracție al mediului al II-lea față de primul' +
+                        'n<sub>21</sub> = refractive index of the second medium relative to the first' +
                     '</li><br>' +
                     '<li>' +
-                        'Consecințele refracției luminii:<br><br>' +
-                        'Consecințele refracției luminii au loc datorită schimbării direcţiei razei refractate faţă de direcţia razei incidente, modificând imaginea obiectelor aflate în apă:<br><br>' +
-                        '- Un corp aflat în apă pare rupt la suprafața apei, ca și cum partea din apă a corpului nu este în continuarea celei din aer.<br><br>' +
-                        '- Un corp aflat în apă este perceput de ochiul nostru mai la suprafaţă decât este el în realitate. Astfel apele limpezi sunt mult mai adânci decât par.<br><br>' +
-                        '- Obiectele aflate în apă par mai mari decât în realitate, apa comportându-se ca o lupă.<br><br>'+
-                        '</li>'+
-                    '</ul>'
-                    +'<h2 class="p-3">Prisma optică:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Refracția luminii monocromatice în prisma optică:<br><br>' +
-                            'Prisma este un mediu transparent (cu indicele de refracție n) mărginit de două fețe plane, care fac între ele un unghi diedru, numit unghiul prismei (A).<br><br>' +
-                        '</li>' +
-                    '</ul>' +
-                    '<h2 align = center>' +
-                        '<img style = "border: 2px solid #1b4188" src ="img/optica6.png" width = 300>' +
-                    '</h2><br>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Când raza incidentă (SI) cade pe fața AB a prismei se refractă (prima rază refractată II\'), apropiindu-se de normala NI (n<sub>aer</sub> < n<sub>prismă</sub>) după legea:<br>' +
-                            'sin i = n ∙ sin r<br><br>' +
-                            'Raza II\' se refractă la căderea pe fața AC a prismei în punctul I\', depărtându-se de normala NN\' (n<sub>prismă</sub> > n<sub>aer</sub>), după legea:<br>' +
-                            'n ∙ sin r\' = sin i\'<br><br>' +
-                            'Unghiul dintre direcția razei incidente (SI) și direcția razei emergente (I\'R) se numește unghi de deviație (δ) care are valoarea:<br>' +
-                            'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
-                        '</li>' +
-                    '</ul>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Pentru a stabili condiția de emergență (adică raza incidentă să iasă din prismă) trebuie să nu aibă loc reflexia totală a razei II\' pe fața AC, adică:<br>' +
-                            'r\' ≤ l (unghiul limită).<br><br>' +
-                            'Cum A = r + r\' → r\' = A – r<br>' +
+                        'Consequences of refraction of light:<br><br>' +
+                        'The consequences of refraction of light occur due to the change in the direction of the refracted ray compared to the direction of the incident ray, altering the image of objects immersed in water:<br><br>' +
+                        '- An object in water appears broken at the water surface, as if the underwater part of the object is not in line with the part in air.<br><br>' +
+                        '- An object in water is perceived by our eye closer to the surface than it actually is. Thus clear waters are much deeper than they appear.<br><br>' +
+                        '- Objects in water appear larger than they actually are, with water behaving like a magnifying glass.<br><br>' +
+                    '</li>'+
+                '</ul>' +
+                '<h2 class="p-3">Optical Prism:</h2>' +
+                '<ul>' +
+                    '<li>' +
+                        'Monochromatic light refraction in an optical prism:<br><br>' +
+                        'The prism is a transparent medium (with refractive index n) bounded by two plane faces, which form a dihedral angle, called the prism angle (A).<br><br>' +
+                    '</li>' +
+                '</ul>' +
+                '<h2 align = center>' +
+                    '<img style = "border: 2px solid #1b4188" src ="img/optica6.png" width = 300>' +
+                '</h2><br>' +
+                '<ul>' +
+                    '<li>' +
+                        'When the incident ray (SI) falls on face AB of the prism, it refracts (first refracted ray II\'), approaching the normal NI (n<sub>air</sub> < n<sub>prism</sub>) according to the law:<br>' +
+                        'sin i = n ∙ sin r<br><br>' +
+                        'Ray II\' refracts upon falling on face AC of the prism at point I\', moving away from the normal NN\' (n<sub>prism</sub> > n<sub>air</sub>), according to the law:<br>' +
+                        'n ∙ sin r\' = sin i\'<br><br>' +
+                        'The angle between the direction of the incident ray (SI) and the direction of the emergent ray (I\'R) is called the angle of deviation (δ) which has the value:<br>' +
+                        'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
+                    '</li>' +
+                '</ul>'+
+                    '<ul>' + 
+                        '<li>' + 
+                            'To establish the condition for emergence (i.e., the incident ray to exit the prism), the total internal reflection of ray II\' on face AC must not occur, i.e.,:<br>' +
+                            'r\' ≤ l (critical angle).<br><br>' +
+                            'Since A = r + r\' → r\' = A – r<br>' +
                             'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
-                            'Dar din prima lege a refracției avem:<br>' +
+                            'But from Snell\'s first law of refraction, we have:<br>' +
                             'sin r = sin i / n <br>' +
                             'sin i / n >= sin (A - l)<br><br>' +
                         '</li>' +
                         '<li>' +
-                            'Unghiul maxim de incidență este<br>' +
+                            'The maximum angle of incidence is<br>' +
                             'i = 90° → sin 90° = 1 <br>' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
-                            'sin l >= sin(A-l) sau A <= 2 ∙ 1<br>' +
-                            'sin l = 1 / n → 1 = arc sin 1 / n<br>' +
+                            'sin l >= sin(A-l) or A <= 2 ∙ 1<br>' +
+                            'sin l = 1 / n → 1 = arcsin 1 / n<br>' +
                         '</li>' +
                         '<li>' +
-                            'O rază incidentă pe prismă poate ieși din prismă dacă unghiul ei refringent (A) îndeplinește condiția:<br>' +
-                            'A ≤ 2 ∙ arc sin 1/n<br><br>' +
-                            'Dacă prisma are A > 2 ∙ arc sin 1/n, toate razele incidente pe prismă se vor reflecta total pe fața AC.' +
+                            'An incident ray on the prism can exit the prism if its refractive angle (A) satisfies the condition:<br>' +
+                            'A ≤ 2 ∙ arcsin (1/n)<br><br>' +
+                            'If the prism has A > 2 ∙ arcsin (1/n), all incident rays on the prism will undergo total reflection on face AC.' +
                         '</li><br>' +
                         '<li>' +
-                            'Când unghiul de incidență (i) variază și unghiul de deviație (δ) variază, luând întotdeauna valori mai mari decât o anumită valoare minimă (δ<sub>m</sub>).<br><br>' +
-                            'Când i = i\' și r = r\' obținem valoarea unghiul de deviație minimă (δ<sub>m</sub>):<br>' +
+                            'When the angle of incidence (i) varies and the angle of deviation (δ) varies, always taking values greater than a certain minimum value (δ<sub>m</sub>).<br><br>' +
+                            'When i = i\' and r = r\', we obtain the value of the minimum deviation angle (δ<sub>m</sub>):<br>' +
                             'δ<sub>m</sub> = 2 ∙ i – A<br><br>' +
-                            'Dacă măsurăm experimental unghiul de deviație minimă se poate determina indicele de refracție al prismei cu formula:<br>' +
-                            'n = sin((A + <sub>m</sub>) / 2) / sin (A / 2)' +
+                            'If we experimentally measure the minimum deviation angle, we can determine the refractive index of the prism using the formula:<br>' +
+                            'n = sin((A + δ<sub>m</sub>) / 2) / sin (A / 2)' +
                         '</li><br>' +
-                    '</ul>'
-                    +'<h2 class="p-3">' + 'Tipuri de lentile:' + '</h2>' + 
+                    '</ul>' +
+                    '<h2 class="p-3">' + 'Types of Lenses:' + '</h2>' + 
                     '<ul>' + 
                         '<li>' + 
-                            'Lentilele sunt corpuri transparente care au cel puțin o suprafață sferică.<br><br>' + 
-                            'Elementele unei lentile :<br><br>' + 
-                            'Axa optică principală care se trasează prin mijlocul lentilei.<br><br>' + 
-                            'Centrul optic al lentilei (O) aflat la intersecția lentilei cu axa optică principală.<br><br>' + 
-                            'Două focare așezate de-o parte și de alta față de centrul optic al lentilei, la distanțe egale.<br><br>' + 
-                            'Focarul aflat în partea stângă față de O se numește focar negativ / obiect (F<sub>1</sub>), deoarece se află pe axa numerelor negative.<br><br>' + 
-                            'Focarul aflat în partea dreaptă față de O se numește focar pozitiv / imagine (F<sub>2</sub>), deoarece se află pe axa numerelor pozitive.<br><br>' + 
-                            'Centrele de curbură (C<sub>1</sub> și C<sub>2</sub>) ale dioptrilor care mărginesc lentila aflate de-o parte și de alta față de O, la o distanță dublă față de OF.' + 
+                            'Lenses are transparent bodies that have at least one spherical surface.<br><br>' + 
+                            'The elements of a lens:<br><br>' + 
+                            'The principal optical axis drawn through the center of the lens.<br><br>' + 
+                            'The optical center of the lens (O) located at the intersection of the lens with the principal optical axis.<br><br>' + 
+                            'Two foci placed on either side of the optical center of the lens, at equal distances.<br><br>' + 
+                            'The focus located to the left of O is called the negative focus / object (F<sub>1</sub>), because it is on the axis of negative numbers.<br><br>' + 
+                            'The focus located to the right of O is called the positive focus / image (F<sub>2</sub>), because it is on the axis of positive numbers.<br><br>' + 
+                            'The centers of curvature (C<sub>1</sub> and C<sub>2</sub>) of the dioptrs that border the lens located on either side of O, at a double distance from OF.' + 
                         '</li>' + 
-                    '</ul>' + 
-                    '<h2 class="p-3">' + 'Clasificarea lentilelor:' + '</h2>' + 
-                    '<ul>' + 
-                        '- <b>Lentile convergente</b> (convexe) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul convergent. Ele refractă lumina prin focarul pozitiv și de aceea se mai numesc și lentile pozitive. Ele măresc scrisul. Sunt mai groase la mijloc și mai subțiri la capete.<br><br>' + 
-                        '- <b>Lentile divergente</b> (concave) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul divergent. Ele refractă lumina prin focarul negativ și de aceea se mai numesc și lentile negative. Ele micșorează scrisul. Sunt mai groase la capete și mai subțiri la mijloc.<br><br>' + 
-                        '<li>' + 
-                            'Formarea imaginii unui obiect în lentile: <br><br>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă convergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei convergente.<br>' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.<br>' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă), printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul pozitiv (F<sub>2</sub>), deoarece lentila convergentă refractă lumina prin focarul pozitiv.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.'+
-                            '</li><br></br>'+
-                        '<li>' + 
-                            'În funcție de distanța obiectului față de lentilă, avem trei tipuri de imagini în lentila convergentă.<br><br>' + 
-                            'I. Când obiectul este situat în intervalul (-∞) și C, imaginea obiectului are următoarele caracteristici :<br>' + 
-                            '- Mai mică decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'II. Când obiectul este situat în intervalul C și F1, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'III. Când obiectul este situat în intervalul F1 și O, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
-                        '</li><br>' + 
-                        '<li>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă divergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei divergente.' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă) printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul negativ (F<sub>1</sub>), deoarece lentila divergentă refractă lumina prin focarul negativ.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.<br>' + 
-                        '</li><br>' + 
-                        '<li>' + 
-                            'În lentila divergentă obținem o imagine care are aceleași caracteristici indiferent de distanța obiectului față de lentilă:<br><br>' + 
-                            '- Mai mică decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
-                        '</li>'+
                     '</ul>'+
-                    '<h2 class="p-3">Formulele lentilelor subțiri:</h2>' +
+
+                    '<h2 class="p-3">' + 'Classification of lenses:' + '</h2>' + 
+                    '<ul>' + 
+                        '- <b>Converging lenses</b> (convex) are lenses that transform a parallel beam of light into a converging beam. They refract light through the positive focal point and therefore are also called positive lenses. They enlarge the writing. They are thicker in the middle and thinner at the edges.<br><br>' + 
+                        '- <b>Diverging lenses</b> (concave) are lenses that transform a parallel beam of light into a diverging beam. They refract light through the negative focal point and therefore are also called negative lenses. They reduce the writing. They are thicker at the edges and thinner in the middle.<br><br>' + 
+                        '<li>' + 
+                            'Formation of an image of an object in lenses: <br><br>' + 
+                            'To form the image of an object in a converging lens, we need to draw two rays:<br><br>' + 
+                            '- Draw the symbol of the converging lens.<br>' + 
+                            '- Draw the principal optical axis through its center.<br>' + 
+                            '- Place the lens elements (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Draw the object (AB) in front of the lens (on the left side), with an arrow indicating its direction.<br>' + 
+                            '- Draw a ray from the top of the object (B) parallel to the optical axis until it meets the lens, and then direct it through the positive focal point (F<sub>2</sub>), because the converging lens refracts light through the positive focal point.<br>' + 
+                            '- Draw a second ray from the top of the object passing through the optical center of the lens (O). Extend these rays until they intersect. At their intersection, place B\' which is the top of the image (im) of the object (ob) AB.<br>' + 
+                            '- From B\', draw a perpendicular to the optical axis, and denote its foot by A\', representing the base im A\'B\'.<br>' + 
+                            '- Place the tip of the arrow at B\', and thus we obtain the image of the object AB in the converging lens.'+
+                        '</li><br></br>'+                                       
+                        '<li>' + 
+                            'Depending on the distance of the object from the lens, we have three types of images in a converging lens.<br><br>' + 
+                            'I. When the object is located in the interval (-∞) and C, the image of the object has the following characteristics:<br>' + 
+                            '- Smaller than the object AB.<br>' + 
+                            '- Inverted.<br>' + 
+                            '- Real (formed at the intersection of refracted rays, can be projected onto a screen).<br><br>' + 
+                            'II. When the object is located in the interval C and F1, the image of the object has the following characteristics:<br>' + 
+                            '- Larger than the object AB.<br>' + 
+                            '- Inverted.<br>' + 
+                            '- Real (formed at the intersection of refracted rays, can be projected onto a screen).<br><br>' + 
+                            'III. When the object is located in the interval F1 and O, the image of the object has the following characteristics:<br>' + 
+                            '- Larger than the object.<br>' + 
+                            '- Upright.<br>' + 
+                            '- Virtual (formed at the intersection of extensions of refracted rays, cannot be projected onto a screen).' + 
+                        '</li><br>' + 
+                        '<li>' + 
+                            'To form the image of an object in a diverging lens, we need to draw two rays:<br><br>' + 
+                            '- Draw the symbol of the diverging lens.<br>' + 
+                            '- Draw the principal optical axis through its center.<br>' + 
+                            '- Mark the lens elements (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Draw the object (AB) in front of the lens (on the left) with an arrow.<br>' + 
+                            '- Draw a ray from the tip of the object (B) parallel to the optical axis until it meets the lens and then pass it through the negative focal point (F<sub>1</sub>), as the diverging lens refracts light through the negative focal point.<br>' + 
+                            '- Draw the second ray from the tip of the object passing through the optical center of the lens (O). Extend these rays until they intersect. At their intersection, mark B\', which is the tip of the image (im) of the object (ob) AB.<br>' + 
+                            '- From B\', draw a perpendicular to the optical axis, mark its foot as A\', which represents the base of the image A\'B\'.<br>' + 
+                            '- Place the tip of the arrow at B\', thus obtaining the image of the object AB in the diverging lens.<br>' + 
+                        '</li><br>' + 
+                        '<li>' + 
+                            'In a diverging lens, we obtain an image that has the following characteristics regardless of the distance of the object from the lens:<br><br>' + 
+                            '- Smaller than the object.<br>' + 
+                            '- Upright.<br>' + 
+                            '- Virtual (formed at the intersection of extensions of refracted rays, cannot be projected onto a screen).' + 
+                        '</li>'+                        
+                    '</ul>'+
+                    '<h2 class="p-3">Thin Lens Formulas:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Convenții de semne:<br><br>' +
-                            'x<sub>1</sub> = distanța de la obiectul AB la lentilă care se ia tot timpul negativă deoarece este pe axa numerelor negative.<br><br>' +
-                            'x<sub>2</sub> = distanța de la imaginea A\'B\' la lentilă care se ia pozitivă când imaginea este reală (se formează în spatele lentilei, pe axa numerelor pozitive) și negativ când imaginea este virtuală (se formează în fața lentilei, pe axa numerelor negative).<br><br>' +
-                            'y<sub>1</sub> = înălțimea obiectului AB care se ia pozitivă dacă obiectul este deasupra axei optice principale și negativă dacă obiectul este sub axa optică principală.<br><br>' +
-                            'y<sub>2</sub> = înălțimea imaginii A\'B\' se ia pozitivă când imaginea este dreaptă (deasupra axei optice principale) sau negativă când imaginea este răsturnată (sub axa optică principală).<br><br>' +
-                            'Distanța focală se consideră pozitivă (f > 0) pentru lentilele convergente și negativă (f < 0) pentru lentilele divergente.' +
+                            'Sign conventions:<br><br>' +
+                            'x<sub>1</sub> = the distance from the object AB to the lens, which is always taken as negative because it is on the negative number axis.<br><br>' +
+                            'x<sub>2</sub> = the distance from the image A\'B\' to the lens, which is taken as positive when the image is real (formed behind the lens, on the positive number axis) and negative when the image is virtual (formed in front of the lens, on the negative number axis).<br><br>' +
+                            'y<sub>1</sub> = the height of the object AB, which is taken as positive if the object is above the principal optical axis and negative if the object is below the principal optical axis.<br><br>' +
+                            'y<sub>2</sub> = the height of the image A\'B\', which is taken as positive when the image is upright (above the principal optical axis) or negative when the image is inverted (below the principal optical axis).<br><br>' +
+                            'The focal length is considered positive (f > 0) for converging lenses and negative (f < 0) for diverging lenses.' +
                         '</li><br>' +
                         '<li>' +
-                            'Formula fundamentală a lentilelor subțiri:<br><br>' +
-                            '(1 / x<sub>2</sub>) -(1 / x<sub>1</sub>) = 1 / f' +
+                            'The fundamental formula of thin lenses:<br><br>' +
+                            '(1 / x<sub>2</sub>) - (1 / x<sub>1</sub>) = 1 / f' +
                         '</li><br>' +
                         '<li>' +
-                            'Mărirea liniară transversală (β) este o mărime fizică adimensională egală cu raportul dintre înălțimea imaginii și înălțimea obiectului.<br><br>' +
+                            'The transverse linear magnification (β) is a dimensionless physical quantity equal to the ratio of the height of the image to the height of the object.<br><br>' +
                             'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>' +
                         '</li><br>' +
                         '<li>' +
-                            'Convergența unei lentile (C) este o mărime fizică egală cu inversul distanței focale (f).<br><br>' +
+                            'The convergence of a lens (C) is a physical quantity equal to the inverse of the focal distance (f).<br><br>' +
                             'C = 1 / f<br><br>' +
                             '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(dioptrie)<br>' +
-                            'Lentilă convergentă are C > 0 <br><br>' +
-                            'Lentilă divergentă are C < 0' +
+                            'A converging lens has C > 0 <br><br>' +
+                            'A diverging lens has C < 0' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">Asociații de lentile:</h2>' +
+                    '<h2 class="p-3">Lens associations:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Un sistem format din două sau mai multe lentile care au aceeași axă optică principală se numește <b>asociație de lentile</b>.<br><br>' +
-                            'Imaginea formată de prima lentilă devine obiect pentru lentila următoare și așa mai departe până la ultima lentilă care va da imaginea finală.' +
+                            'A system consisting of two or more lenses that have the same principal optical axis is called a <b>lens combination</b>.<br><br>' +
+                            'The image formed by the first lens becomes the object for the next lens and so on until the last lens, which gives the final image.' +
                         '</li>' +
                         '<li>' +
-                            'Cel mai utilizat sistem este cel cu lentile alipite (acolate) în care distanța (d) dintre lentile este zero, având același centru optic și focarul imagine (F<sub>2</sub>) al primei lentile (L) coincide cu focarul obiect (F\'2).<br><br>' +
-                            'Pentru un astfel de sistem format din k lentile avem:<br><br>' +
-                            '1. Inversul distanței focale a sistemului de lentile (F) este egal cu suma inverselor distanțelor focale a lentilelor asociației:<br><br>' +
+                            'The most commonly used system is the one with lenses placed side by side (adjacent), where the distance (d) between lenses is zero, having the same optical center and the focal point of the image (F<sub>2</sub>) of the first lens (L) coincides with the object focus (F\'<sub>2</sub>).<br><br>' +
+                            'For such a system consisting of k lenses, we have:<br><br>' +
+                            '1. The inverse of the focal length of the lens system (F) equals the sum of the inverses of the focal lengths of the lenses in the combination:<br><br>' +
                             '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>' +
-                            '2. Convergența sistemului (C) este egală cu suma convergențelor lentilelor componente:<br><br>' +
-                            'C = C<sub>1</sub> + C<sub>2</sub> +...+ C<sub>k</sub><br><br>' +
-                            '3. Mărirea liniară transversală a sistemului (β) este egală cu produsul măririlor transversale a lentilelor componente:<br><br>' +
-                            'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙… β<sub>k</sub><br><br>' +
-                            'Dacă notăm cu x\'2 distanța de la imaginea finală la lentila a doua L2 și cu x1 distanța de la obiect la prima lentilă L1, avem relația :<br><br>' +
+                            '2. The convergence of the system (C) equals the sum of the convergences of the component lenses:<br><br>' +
+                            'C = C<sub>1</sub> + C<sub>2</sub> + ... + C<sub>k</sub><br><br>' +
+                            '3. The transverse linear magnification of the system (β) equals the product of the transverse magnifications of the component lenses:<br><br>' +
+                            'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙ … β<sub>k</sub><br><br>' +
+                            'If we denote with x\'2 the distance from the final image to the second lens L2 and with x1 the distance from the object to the first lens L1, we have the relation:<br><br>' +
                             '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C' +
                         '</li>' +
                         '<li>' +
-                            'Un alt sistem de lentile este sistemul telescopic care este un sistem afocal, în care fasciculul de ieșire (emergent), provenit dintr-un fascicul paralel, este tot paralel. Focarul imagine al primei lentile (F2) coincide cu focarul obiect al celei de-a doua lentilă (F\'<sub>1</sub>).<br><br>' +
-                            '1. Distanța dintre lentile este:<br><br>' +
+                            'Another lens system is the telescopic system which is an afocal system, where the output (emergent) beam, derived from a parallel beam, remains parallel. The image focal point of the first lens (F2) coincides with the object focal point of the second lens (F\'<sub>1</sub>).<br><br>' +
+                            '1. The distance between lenses is:<br><br>' +
                             'd = f<sub>1</sub> + f<sub>2</sub><br><br>' +
-                            '2. Mărirea liniară transversală este:<br><br>' +
+                            '2. The transverse linear magnification is:<br><br>' +
                             'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>' +
-                            'Pentru a afla poziția (x\'1) a imaginii intermediare față de prima lentilă (L<sub>1</sub>) și dimensiunea imaginii formată de prima lentilă, aplicăm formula punctelor conjugate pentru L<sub>1</sub>:<br><br>' +
+                            'To find the position (x\'1) of the intermediate image relative to the first lens (L<sub>1</sub>) and the size of the image formed by the first lens, we apply the formula for conjugate points for L<sub>1</sub>:<br><br>' +
                             'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>' +
                             'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>' +
-                            'Știind distanța dintre lentile putem calcula poziția imaginii intermediare (formată de L<sub>1</sub>) față de lentila L<sub>2</sub>:<br><br>' +
+                            'Knowing the distance between lenses, we can calculate the position of the intermediate image (formed by L<sub>1</sub>) relative to lens L<sub>2</sub>:<br><br>' +
                             'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>' +
                             'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>' +
-                            'Pentru a afla poziția (x\'2) a imaginii finale față de a doua lentilă (L<sub>2</sub>) și dimensiunea imaginii formată de a doua lentilă, aplicăm formula punctelor conjugate pentru L<sub>2</sub>:<br><br>' +
+                            'To find the position (x\'2) of the final image relative to the second lens (L<sub>2</sub>) and the size of the image formed by the second lens, we apply the formula for conjugate points for L<sub>2</sub>:<br><br>' +
                             'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>' +
                             'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>' +
-                        '</li>' +
+                        '</li>'+                
                     '</ul>'+
 
                     //Optica ondulatorie
                     '<a name="element_target"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Optica Ondulatorie</h2><br><br><br></u>' +
-                    '<h2 class="p-3">Dispersia luminii:</h2>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Wave optics</h2><br><br><br></u>' +
+                    '<h2 class="p-3">Light dispersion:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            '<b>OPTICA</b> este o ramură a fizicii care studiază natura, proprietățile și fenomenele suferite de lumină.<br><br>' +
-                            'Optica este alcătuită din trei părți:<br><br>' +
-                            '1. Optica geometrică care operează cu raze de lumină (direcțiile de propagare ale luminii), neluând în considerare natura luminii. Ca fenomene studiate avem reflexia, refracția și reflexia totală a luminii.<br><br>' +
-                            '2. Optica ondulatorie studiază fenomenele de interferență, difracție și polarizare, în care se relevă caracterul de undă al luminii, mai precis ca undă (radiație) electromagnetică.<br><br>' +
-                            '3. Optica fotonică (corpusculară) studiază efectul fotoelectric, efectul Compton, emisia și absorbția luminii etc. care scot în evidență natura corpusculară a luminii (fotoni).<br><br>' +
-                            'Dispersia luminii albe a fost studiată prima dată de către Newton în 1672, când a obținut spectrul luminii albe pe o prismă optică.<br><br>' +
-                            'Fenomenul de variație a indicelui de refracție cu lungimea de undă se numește dispersia luminii.<br><br>' +
-                            'Astfel, când lumina trece printr-o prismă, ea se descompune în fascicule colorate în culorile curcubeului.<br><br>' +
-                            'Prin vid toate undele electromagnetice se propagă cu aceeași viteză, indiferent de lungimea lor de undă și prin urmare spunem că vidul este un mediu nedispersiv. Dacă prisma ar fi vidată, un fascicul de lumină albă nu s-ar descompune, ci numai ar fi deviat de la direcția incidentă prin fenomenul de refracție (adică schimbarea direcției de propagare la trecerea dintr-un mediu în altul).<br><br>' +
-                            'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul repectiv (v).<br><br>' +
+                            '<b>OPTICS</b> is a branch of physics that studies the nature, properties, and phenomena undergone by light.<br><br>' +
+                            'Optics consists of three parts:<br><br>' +
+                            '1. Geometric optics which operates with light rays (directions of light propagation), disregarding the nature of light. The studied phenomena include reflection, refraction, and total internal reflection of light.<br><br>' +
+                            '2. Wave optics studies the phenomena of interference, diffraction, and polarization, revealing the wave nature of light, more precisely as an electromagnetic wave.<br><br>' +
+                            '3. Photonic (corpuscular) optics studies the photoelectric effect, the Compton effect, light emission and absorption, etc., which highlight the corpuscular nature of light (photons).<br><br>' +
+                            'The dispersion of white light was first studied by Newton in 1672, when he obtained the spectrum of white light on an optical prism.<br><br>' +
+                            'The phenomenon of variation of the refractive index with the wavelength is called the dispersion of light.<br><br>' +
+                            'Thus, when light passes through a prism, it decomposes into colored beams in the colors of the rainbow.<br><br>' +
+                            'In a vacuum, all electromagnetic waves propagate at the same speed, regardless of their wavelength, and therefore we say that vacuum is a non-dispersive medium. If the prism were evacuated, a white light beam would not decompose, but would only be deviated from the incident direction by the phenomenon of refraction (i.e., changing the direction of propagation when passing from one medium to another).<br><br>' +
+                            'The refractive index (denoted by n) of a transparent medium is given by the ratio between the speed of light in vacuum (c) and the speed of light in the respective medium (v).<br><br>' +
                             'n = c / v<br><br>' +
-                            'c = viteza luminii în vid = 300.000.000 m/s<br><br>' +
-                            'v = viteza luminii în mediul respectiv<br><br>' +
-                            'Toate mediile transparente (apa, sticla, diamantul etc.) caracterizate de un anumit indice de refracție mai mare decât unu, produc dispersia luminii.<br><br>' +
-                            'Dar indicele de refracție este constant numai pentru lumina monocromatică.<br><br>' +
-                            'Pentru lumina albă, alcătuită din șapte radiații de culori diferite și lungimi de undă diferite, indicele de refracție nu mai este constant, ci variază cu lungimea de undă a acestor lumini.<br><br>' +
-                            'Dacă indicele de refracție al unei prisme variază, prisma va refracta sub diferite unghiuri aceste lumini.<br><br>' +
-                            'În general, la difuzia normală, în aceste medii transparente indicele de refracție crește cu scăderea lungimii de undă, astfel razele violete (au o lungime de undă mai mică, 400 nm) vor fi refractate mai puternic decât cele roșii (cu lungimea de undă mai mare, 700 nm, decât cele violet).<br><br>' +
-                            'Dacă λ<sub>violetă</sub> < λ<sub>roșie</sub> → n<sub>violetă</sub> > n<sub>roșie</sub> → v<sub>violetă</sub> < v<sub>roșie</sub>.<br><br>' +
-                            'Fasciculele colorate trec prin prismă cu viteze diferite și de aceea ies din prismă sub unghiuri diferite.<br><br>' +
-                            'Razele violet ies mai puțin înclinate față de axa optică, deoarece se propagă cu o viteză mai mică prin materialul prismei decât raza roșie, străbătând în același timp o distanță mai mică decât cea roșie.<br><br>' +
-                        '</li><br>' +
+                            'c = speed of light in vacuum = 300,000,000 m/s<br><br>' +
+                            'v = speed of light in the respective medium<br><br>' +
+                            'All transparent media (water, glass, diamond, etc.) characterized by a refractive index greater than one, produce the dispersion of light.<br><br>' +
+                            'But the refractive index is constant only for monochromatic light.<br><br>' +
+                            'For white light, consisting of seven different color radiations and different wavelengths, the refractive index is no longer constant, but varies with the wavelength of these lights.<br><br>' +
+                            'If the refractive index of a prism varies, the prism will refract these lights at different angles.<br><br>' +
+                            'In general, under normal diffusion, in these transparent media the refractive index increases with decreasing wavelength, thus the violet rays (with a shorter wavelength, 400 nm) will be refracted more strongly than the red ones (with a longer wavelength, 700 nm, than the violet ones).<br><br>' +
+                            'If λ<sub>violet</sub> < λ<sub>red</sub> → n<sub>violet</sub> > n<sub>red</sub> → v<sub>violet</sub> < v<sub>red</sub>.<br><br>' +
+                            'The colored beams pass through the prism with different speeds and therefore exit the prism at different angles.<br><br>' +
+                            'The violet rays emerge less inclined to the optical axis, because they propagate at a slower speed through the prism material than the red ray, while traveling a shorter distance than the red ray at the same time.<br><br>' +
+                        '</li><br>'+
                     '</ul>' +
-                    '<h2 class="p-3">Interferența luminii:</h2>'+
+                    '<h2 class="p-3">Light Interference:</h2>'+
                     '<ul>' +
                     '<li>' +
-                        'Interferența luminii nelocalizată în dispozitivul Young.<br><br>' +
-                        'INTERFERENȚA este fenomenul de suprapunere a două unde coerente (cu aceeași frecvență și aceeași diferență de fază) care se întâlnesc într-un punct din spațiu.<br><br>' +
-                        'În anumite puncte din spațiu se vor forma franje de interferență, adică o succesiune de regiuni luminoase și întunecate.<br><br>' +
-                        'Undele coerente se obțin prin separarea dintr-un flux luminos emis de o sursă monocromatică , două fascicule de lumină care ulterior se întâlnesc.<br><br>' +
-                        'Există două modalități de obținere a undelor coerente :<br><br>' +
-                        '- Divizarea frontului de undă în dispozitivul Young, biprisma Fresnel etc.<br><br>' +
-                        '- Divizarea amplitudinii undei în lama cu fețe plan paralele, pana optică, inelele lui Newton.' +
+                        'Non-localized light interference in the Young\'s apparatus.<br><br>' +
+                        'INTERFERENCE is the phenomenon of overlap of two coherent waves (with the same frequency and phase difference) that meet at a point in space.<br><br>' +
+                        'In certain points in space, interference fringes will form, i.e., a succession of bright and dark regions.<br><br>' +
+                        'Coherent waves are obtained by separating from a light flux emitted by a monochromatic source, two beams of light which subsequently meet.<br><br>' +
+                        'There are two ways to obtain coherent waves:<br><br>' +
+                        '- Division of the wavefront in the Young\'s apparatus, Fresnel biprism, etc.<br><br>' +
+                        '- Division of the wave amplitude in the parallel-faced plate, optical wedge, Newton\'s rings.' +
                     '</li><br>' +
                     '<li>' +
-                        'Dispozitivul Young folosește o sursă de lumină monocromatică S (laser), un paravan cu două fante dreptunghiulare (cu lățimea mai mică de 1 mm) și paralele cu o distanță între ele de maxim 1 mm, un ecran (coală albă). Pentru observarea figurii de interferență nu există o poziție preferențială a ecranului, putând fi plasat la o distanță D între 1 m și 5 m față de fante și din acest motiv se numește interferență nelocalizată.<br><br>' +
-                        'Atât interferența, cât și difracția se bazează pe principiul lui Hyugens-Fresnel care spune că fiecare punct de pe un front de undă se comportă ca o sursă secundară de undă cu aceeași frecvență și fază cu unda inițială. Noul front de undă este creat prin însumarea amplitudinilor undelor secundare.' +
+                        'The Young\'s apparatus uses a monochromatic light source S (laser), a screen with two rectangular slits (with a width smaller than 1 mm) and parallel with a maximum distance between them of 1 mm, and a screen (white sheet). For observing the interference pattern, there is no preferred position of the screen, it can be placed at a distance D between 1 m and 5 m from the slits, and for this reason it is called non-localized interference.<br><br>' +
+                        'Both interference and diffraction are based on the Huygens-Fresnel principle, which states that each point on a wavefront behaves like a secondary source of wave with the same frequency and phase as the initial wave. The new wavefront is created by adding the amplitudes of the secondary waves.' +
                     '</li><br>' +
                     '<li>' +
-                        'În cazul interferenței constructive, cele două unde sunt în fază (defazaj zero) și suma lor este mai mare, formând regiuni luminoase.<br><br>' +
-                        'Când cele două unde vibrează în antifază (defazaj 180°) se vor anihila (suma lor este zero), formând zone întunecate, caz în care vorbim de interferență distructivă.' +
+                        'In the case of constructive interference, the two waves are in phase (zero phase difference) and their sum is greater, forming bright regions.<br><br>' +
+                        'When the two waves vibrate in antiphase (180° phase difference) they will annihilate (their sum is zero), forming dark zones, in which case we speak of destructive interference.' +
                     '</li><br>' +
                     '<li>' +
-                        'Unda electromagnetică (lumina) are două componente electrică și magnetică. Numai componenta electrică (E) influențează senzația vizuală.<br><br>' +
-                        'Undele de aceeași amplitudine emise de cele două surse au ecuațiile :<br><br>' +
+                        'The electromagnetic wave (light) has two electric and magnetic components. Only the electric component (E) influences visual sensation.<br><br>' +
+                        'Waves of the same amplitude emitted by the two sources have the equations:<br><br>' +
                         'E<sub>1</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>1</sub> / λ))<br><br>' +
                         'E<sub>2</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>2</sub> / λ))<br><br>' +
-                        'Unda electromagnetică se propagă cu viteza c în intervalul de timp Δt prin suprafața de arie S așezată perpendicular pe direcția de propagare.<br><br>' +
-                        'Energia transportată de undă este:<br><br>' +
+                        'The electromagnetic wave propagates with velocity c in the time interval Δt through the area surface S placed perpendicular to the propagation direction.<br><br>' +
+                        'The energy carried by the wave is:<br><br>' +
                         'ΔW = w ΔV<br><br>' +
                         'ΔW = (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup>E<sup>2</sup>SΔt<br><br>' +
                         'I = 1/2 · (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup> ·E<sup>2</sup><sub>0</sub><br><br>' +
                         'E\'<sub>0</sub> = 2 E<sub>0</sub> cos (π(r<sub>2</sub> - r<sub>1</sub>) / λ)' +
                     '</li><br>'+
                     '<li>' +
-                        'Condițiile de interferență sunt:<br><br>' +
-                        '- Undele să aibă aceeași frecvență<br><br>' +
-                        '- Diferența de fază : ΔΦ = 2π(Δr / λ) = constantă<br><br>' +
-                        'Intensitatea luminoasă, I, într-un punct de interferență este proporțională cu pătratul amplitudinii undei rezultante:<br><br>' +
+                        'Interference conditions are:<br><br>' +
+                        '- The waves have the same frequency<br><br>' +
+                        '- Phase difference: ΔΦ = 2π(Δr / λ) = constant<br><br>' +
+                        'The luminous intensity, I, at an interference point is proportional to the square of the amplitude of the resultant wave:<br><br>' +
                         'I = const 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
-                        'În interferența constructivă (cu formarea de franje luminoase) avem condiția de maxim de iluminare:<br><br>' +
+                        'In constructive interference (with the formation of bright fringes) we have the condition for maximum illumination:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ)<br><br> = 1 → Δr = kλ = 2k(λ/2),<br><br>' +
-                        'unde k = nr.întreg<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu par de semiundă se află pe o franjă luminoasă.<br><br>' +
-                        'În interferența distructivă (cu formarea de franje întunecoase) avem condiția de minim de iluminare:<br><br>' +
+                        'where k = integer<br><br>' +
+                        'Points in the interference zone for which the path difference, Δr, is an even multiple of half-wavelength are on a bright fringe.<br><br>' +
+                        'In destructive interference (with the formation of dark fringes) we have the condition for minimum illumination:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ) = 0 → Δr = kλ = 2(k+1)(λ/2)<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu impar de semiundă se află pe o franjă întunecoasă.' +
+                        'Points in the interference zone for which the path difference, Δr, is an odd multiple of half-wavelength are on a dark fringe.' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea pozițiilor franjelor în dispozitivul Young<br><br>' +
-                        'în ΔAEP aplicăm Teorema lui Pitagora: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
-                        'în ΔBE\'P aplicăm Teorema lui Pitagora: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'Determining the positions of the fringes in the Young\'s apparatus<br><br>' +
+                        'in ΔAEP we apply the Pythagorean theorem: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'in ΔBE\'P we apply the Pythagorean theorem: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
                         'Δr = r<sub>2</sub> = r<sub>1</sub> = 4xl / (r<sub>1</sub> + r<sub>2</sub>)' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea lungimii de undă prin măsurarea interfranjei<br><br>' +
+                        'Determining the wavelength by measuring the fringe spacing<br><br>' +
                         'i = x<sub>k+1</sub> - x<sub>k</sub> = (k+1)λD / 2l - kλD / 2l = λD / 2l<br><br>' +
                         'i = λD / 2l' +
-                    '</li>'+
-                    '</ul>'+
-                    '<h2 class="p-3">'+'Interferența localizată pe lama cu fețe plan paralele:'+'</h2>'+
+                    '</li>' +
+                    '</ul>' +
+                    '<h2 class="p-3">'+'Localized Interference on Parallel Faced Plate:'+'</h2>'+
                     '<ul>' +
                         '<li>' +
-                            'Interferența localizată pe lama cu fețe plan paralele are loc atunci când un fascicul de lumină este divizat în două fascicule coerente pe suprafețe reflectătoare, prin reflexia luminii pe fața superioară și prin transmiterea luminii pe fața inferioară a lamei subțiri.<br><br>' +
-                            'Lumina ajunsă pe fața superioară a lamei (peliculei) se și reflectă (IR), se și refractă (IŔ ). Raza refractată prin lamă se reflectă pe fața inferioară a lamei (MN). Cele două raze, IR și MN, vor interfera la suprafața lamei.<br><br>' +
-                            'Franjele de interferență sunt localizate în planul focal al lentilei sau, în absența acesteia, la infinit. Așa explicăm irizațiile baloanelor de săpun și ale peliculelor de ulei sau petrol de pe stradă.' +
+                            'Localized interference on the parallel-faced plate occurs when a beam of light is split into two coherent beams on reflecting surfaces, by light reflection on the upper face and by light transmission on the lower face of the thin plate.<br><br>' +
+                            'The light reaching the upper face of the plate (film) is both reflected (IR) and refracted (IŔ ). The refracted ray through the plate is reflected on the lower face of the plate (MN). The two rays, IR and MN, interfere at the surface of the plate.<br><br>' +
+                            'Interference fringes are located in the focal plane of the lens or, in its absence, at infinity. This explains the iridescences of soap bubbles and oil or petrol films on the street.' +
                         '</li>' +
                     '</ul>' +
                     '<h2 class="p-3">' +
-                        'Inelele lui Newton la interferența pe o pană de aer:' +
+                        'Newton\'s Rings in Air Wedge Interference:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Inelele lui Newton se obțin prin iluminarea perpendiculară cu lumină monocromatică a unei lentile plan-convexă cu distanță focală mare și așezată cu fața curbă pe o placă de sticlă plană. Între lentilă și placă se formează o pană de aer subțire având ca rezultat formarea unor franje luminoase și întunecate circulare, concentrice cu punctul de contact între lentilă și placă.' +
+                            'Newton\'s rings are obtained by perpendicular illumination with monochromatic light of a plano-convex lens with a large focal length placed with the curved face on a flat glass plate. A thin air wedge is formed between the lens and the plate resulting in the formation of circular bright and dark fringes, concentric with the point of contact between the lens and the plate.' +
                         '</li>' +
                     '</ul>'+
 
+
                     //Elemente de fizica cuantica
                     '<a name="element_target2"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Elemente de fizică cuantică</h2><br><br><br></u>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Quantum Physics Elements</h2><br><br><br></u>' +
                     '<h2 class="p-3">' +
-                        'Ipoteza lui Planck asupra cuantelor de lumină:' +
+                        'Planck\'s Hypothesis on Light Quanta:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Planck a afirmat că radiația emisă de corpul negru există sub forma unor pachețele discrete de energie pe care le-a numit cuante (numite ulterior fotoni), dependente de frecvența radiației respective.<br><br>' +
-                            'Valorile discrete ale energiei unui oscilator armonic sunt echidistante, astfel încât diferența dintre nivelurile de energie ( ΔE) este proporțională cu frecvența (ν) a oscilatorului și constanta lui Planck (h).<br><br>' +
+                            'Planck stated that the radiation emitted by a blackbody exists in the form of discrete packets of energy which he named quanta (later called photons), dependent on the frequency of the respective radiation.<br><br>' +
+                            'The discrete values of energy of a harmonic oscillator are equidistant, so the difference between energy levels (ΔE) is proportional to the frequency (ν) of the oscillator and Planck\'s constant (h).<br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = frecvența oscilatorului<br><br>' +
-                            'Constanta lui Planck este una dintre cele mai mici constante folosite în fizică la scară macroscopică, reflectând scara microscopică la care se observă efectele cuantice.' +
-                        '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">' +
-                        'Efectul fotoelectric:' +
-                    '</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Efectul fotoelectric a fost descoperit experimental în anul 1887 de către Heinrich Hertz (1857-1894) și în anul 1888 de către W. Hallwachs (1859-1922) și constă în emiterea de electroni de către un metal sub acțiunea unei radiații electromagnetice.<br><br>' +
-                            'În 1905, Albert Einstein (1879-1955) a remarcat că explicația efectului fotoelectric ar putea fi rezolvată, generalizând ipoteza cuantică propusă de Planck privind radiația corpului negru la radiația electromagnetică.<br><br>' +
-                            'Astfel, electronii din catod primesc de la lumină numai un singur pachet (foton) de energie luminoasă (E = h ∙ ν) pentru a fi accelerați și să părăsească metalul.<br><br>' +
-                            'Astfel energia cinetică maximă a electronilor emiși nu va depăși această valoare de energie primită, indiferent de intensitatea radiației incidente.<br><br>' +
-                            'În plus explică de ce viteza maximă a electronilor depinde de frecvența radiației.' +
-                        '</li><br>' +
-                        '<li>' +
-                            'Prima lege a efectului fotoelectric extern:<br><br>' +
-                            'Efectul fotoelectric extern se produce numai când frecvența radiației incidente este mai mare decât frecvența de prag caracteristică metalului din care este confecționat catodul.<br><br>' +
-                            'Pentru a părăsi metalul electronii liberi trebuie să primească o energie egală cu lucrul mecanic de extracție (L) pentru frecvența de prag (ν<sub>0</sub>):<br><br>' +
-                            'L = h ∙ ν<sub>0</sub> h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
-                            'Fotonul de energie h ∙ ν cedează energia sa unui electron de conducție.<br><br>' +
-                            'Electronul poate părăsi metalul numai dacă h ∙ ν ≥ L.' +
+                            'h = Planck\'s constant = 6.62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
+                            'ν = frequency of the oscillator<br><br>' +
+                            'Planck\'s constant is one of the smallest constants used in physics on a macroscopic scale, reflecting the microscopic scale at which quantum effects are observed.' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">A doua lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">' +
+                        'Photoelectric Effect:' +
+                    '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Efectul fotoelectric se produce practic instantaneu.<br><br>' +
-                            'Emisia unui electron este rezultatul ciocnirii dintre un foton și un electron într-un timp mai mic de 10<sup>-9</sup> s.' +
+                            'The photoelectric effect was experimentally discovered in 1887 by Heinrich Hertz (1857-1894) and in 1888 by W. Hallwachs (1859-1922), and it consists of the emission of electrons by a metal under the action of electromagnetic radiation.<br><br>' +
+                            'In 1905, Albert Einstein (1879-1955) remarked that the explanation of the photoelectric effect could be resolved by generalizing the quantum hypothesis proposed by Planck regarding blackbody radiation to electromagnetic radiation.<br><br>' +
+                            'Thus, electrons from the cathode receive only a single packet (photon) of light energy (E = h ∙ ν) from light to be accelerated and leave the metal.<br><br>' +
+                            'Thus, the maximum kinetic energy of the emitted electrons will not exceed this received energy value, regardless of the intensity of the incident radiation.<br><br>' +
+                            'Additionally, it explains why the maximum speed of electrons depends on the frequency of the radiation.' +
+                            '</li><br>' +
+                            '<li>' +
+                            'First Law of External Photoelectric Effect:<br><br>' +
+                            'The external photoelectric effect occurs only when the frequency of the incident radiation is higher than the characteristic threshold frequency of the metal from which the cathode is made.<br><br>' +
+                            'To leave the metal, free electrons must receive an energy equal to the extraction work (L) for the threshold frequency (ν<sub>0</sub>):<br><br>' +
+                            'L = h ∙ ν<sub>0</sub> h = Planck\'s constant = 6.62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
+                            'The photon of energy h ∙ ν transfers its energy to a conduction electron.<br><br>' +
+                            'The electron can leave the metal only if h ∙ ν ≥ L.' +
+                        '</li><br>' +
+                    '</ul>'+
+                    '<h2 class="p-3">Second Law of External Photoelectric Effect:</h2>' +
+                    '<ul>' +
+                        '<li>' +
+                            'The photoelectric effect occurs practically instantaneously.<br><br>' +
+                            'The emission of an electron is the result of the collision between a photon and an electron in a time shorter than 10<sup>-9</sup> s.' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A treia lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">Third Law of External Photoelectric Effect:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Energia cinetică a electronilor emiși crește liniar cu frecvența radiației incidente.<br><br>' +
-                            'Dacă energia fotonului h ∙ ν > L, atunci electronul are o energie cinetică suficientă pentru a părăsi metalul:<br><br>' +
+                            'The kinetic energy of the emitted electrons increases linearly with the frequency of the incident radiation.<br><br>' +
+                            'If the energy of the photon h ∙ ν > L, then the electron has sufficient kinetic energy to leave the metal:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A patra lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">Fourth Law of External Photoelectric Effect:</h2>' +
                     '<ul>' +
-                        '<li>' +
-                            'Numărul de fotoelectroni emiși de catod în unitatea de timp este proporțional cu numărul de fotoni incidenți în acest interval de timp, care este proporțional cu fluxul de energie luminoasă.' +
-                        '</li>' +
+                    '<li>' +
+                    'The number of photoelectrons emitted from the cathode per unit time is proportional to the number of incident photons in this time interval, which is proportional to the flux of light energy.' +
+                    '</li>' +
                     '</ul>'),
 
         "teorieInapoiBtn": "Back to the selection menu",
@@ -4416,72 +4420,72 @@ var data = {
                     +'</ul>'),
 
         //teorieOptica.html
-        "teorieOpticaTitle": "Optică teorie",
-        "teorieOptica": ('<u>' +'<h2 class="p-3" align = center>Optica geometrică</h2><br><br><br>' +'</u>'
-                        +'<h2 class="p-3">Reflexia luminii:</h2>'
+        "teorieOpticaTitle": "Optika elmélet",
+        "teorieOptica": ('<u>' +'<h2 class="p-3" align = center>Geometriai optika</h2><br><br><br>' +'</u>'
+                        +'<h2 class="p-3">Fényvisszaverődés:</h2>'
                         +'<ul>'
                             +'<li>'
-                                +'PRINCIPIUL LUI FERMAT:<br><br>'
-                                    +'“Lumina se propagă între două puncte A și B, astfel încât drumul său optic și, implicit, intervalul de timp necesar parcurgerii distanței AB să fie minim.”<br><br>'
-                                    +'Reflexia luminii este fenomenul în care lumina se întoarce în primul mediu, cu schimbarea direcţiei de propagare, atunci când ea întâlneşte un alt mediu (suprafaţa de separare dintre două medii optice diferite).'
+                                +'FERMAT ELVE:<br><br>'
+                                +'“A fény két pont között terjed úgy, hogy az optikai útja, és így az AB távolság megtételéhez szükséges idő minimális legyen.”<br><br>'
+                                +'A fényvisszaverődés olyan jelenség, amelyben a fény visszatér az első közegbe, megváltoztatva terjedési irányát, amikor más közeggel találkozik (a két különböző optikai közeg határán).'
                             +'</li><br>'
                             +'<li>'
-                                +'Legile reflexiei:<br><br>'
-                                +'- Legea I:<br><br>'
-                                +'Raza incidentă, normala și raza reflectată sunt coplanare (aparțin aceluiași plan).<br><br>'
-                                +'- Legea a II a:<br><br>'
-                                +'Unghiul de incidență (i) este egal cu unghiul de reflexie (r).'
+                                +'A visszaverődés törvényei:<br><br>'
+                                +'- I. törvény:<br><br>'
+                                +'Az beesési sugár, a merőleges és a visszavert sugár ugyanabban a síkban vannak (ugyanazon a síkon vannak).<br><br>'
+                                +'- II. törvény:<br><br>'
+                                +'Az beesési szög (i) egyenlő a visszaverődési szöggel (r).'
                             +'</li><br>'
                             +'<li>'
-                                +'Oglinzile plane<br><br>'
-                                +'Oglinzile sunt corpuri netede și lucioase, în care lumina se reflectă.<br><br>'
-                                +'Oglinzile plane au suprafața plană (dreaptă) și sunt cele pe care le avem cu toții acasă și în care ne uităm zilnic.<br><br>'
-                                +'Iată simbolul ei (partea din spate care nu reflectă lumina se hașurează):<br><br>'
+                                +'Síktükrök<br><br>'
+                                +'A tükrök sima és fényes testek, amelyekben a fény visszaverődik.<br><br>'
+                                +'A síktükrök sík (egyenes) felületűek, és ezeket mindennap otthonunkban és mindennap nézzük.<br><br>'
+                                +'Itt van a szimbóluma (a hátsó rész, amely nem tükrözi a fényt, csíkozott):<br><br>'
                             +'</li>'
                         +'</ul>'
-                        +'<h2 align = center>'
-                            +'<img style = "border: 2px solid #1b4188" src ="img/optica1.png" width = 100>'
-                        +'</h2><br>'
-                        +'<ul>'
-                            +'<li>'
-                                +'Formarea imaginii unui obiect într-o oglindă plană:<br><br>'
-                                +'- Se desenează oglinda plană pe verticală.<br><br>'
-                                +'- Se trasează prin mijlocul oglinzii axa optică principală, perpendiculară pe oglindă (pe orizontală).<br><br>'
-                                +'- Se desenează obiectul AB sub forma unui segment cu săgeată, în fața oglinzii.<br><br>'
-                                +'- Se duce prima rază din vârful obiectului (B) perpendiculară pe oglindă și se prelungește punctată în spatele oglinzii (fiind perpendiculară pe suprafața oglinzii nu își schimbă direcția de propagare când se reflectă).<br><br>'
-                                +'- Se duce a doua rază din vârful obiectului (B) oblică pe oglindă se trasează raza reflectată a acesteia, respectând legile reflexiei (unghiul i = unghiul r)<br><br>'
-                                +'- Se prelungește punctată în spatele oglinzii raza reflectată, până se întâlnește cu prelungirea primei raze. Punctul de intersecție al lor se notează cu B\', care reprezintă vârful imaginii obiectului în oglindă.<br><br>'
-                                +'- Din punctul B\' se duce perpendiculară pe axa optică principală, iar piciorul perpendicularei se notează cu A\' și reprezintă baza imaginii obiectului în oglindă. Se pune vârful săgeții în B\'.'
-                            +'</li>'
-                        +'</ul>'
+                            +'<h2 align = center>'
+                                +'<img style = "border: 2px solid #1b4188" src ="img/optica1.png" width = 100>'
+                            +'</h2><br>'
+                            +'<ul>'
+                                +'<li>'
+                                    +'Egy tárgy képének kialakítása síktükörben:<br><br>'
+                                    +'- Rajzoljunk egy függőleges síktükröt.<br><br>'
+                                    +'- Az optikai főtengelyt húzzuk a tükör közepén, amely merőleges a tükörre (vízszintesen).<br><br>'
+                                    +'- Rajzoljuk le az AB tárgyat egy nyíllal a tükör előtt.<br><br>'
+                                    +'- Az első sugár a tárgy csúcsából (B) merőlegesen érkezik a tükörre, és pontozottan továbbhúzódik a tükör mögött (mivel merőleges a tükör felületére, nem változtatja meg terjedési irányát a visszaverődéskor).<br><br>'
+                                    +'- A második sugár az oblikus tárgy csúcsából (B) érkezik a tükörre, és lehúzzuk az erre visszaverődött sugárt, a visszaverődés törvényeit követve (a beütési szög egyenlő a visszaverődési szöggel).<br><br>'
+                                    +'- A visszaverődött sugárt továbbhúzzuk pontozottan, amíg el nem éri az első sugár hosszabbítását. Az ő találkozási pontjukat B\'-vel jelöljük, ami a tárgy képének csúcsát jelöli a tükörben.<br><br>'
+                                    +'- B\'-ből merőlegesen lehúzzuk az optikai főtengelyre, és a merőleges talppontját A\'-val jelöljük, ami a tárgy képének alapját jelöli a tükörben. Az iránytű hegyét B\'-re helyezzük.'
+                                +'</li>'
+                            +'</ul>'
                         +'<h2 align = center>' +
                         '<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>' +
                     '</h2><br>' +
                     '<ul>' +
                         '<li>' +
-                            'Caracteristicile imaginii A\'B\':<br><br>' +
-                            '- Virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (în spatele oglinzii)<br><br>' +
-                            '- Dreaptă<br><br>' +
-                            '- Egală cu obiectul AB (y<sub>1</sub> = y<sub>2</sub>)' +
-                            '- Ob. și Im. sunt simetrice față de oglindă' +
-                            'Formula oglinzii plane: x<sub>2</sub> = -x<sub>1</sub>, deoarece R → ∞(nu are focare)<br><br>' +
-                            'Mărirea liniară transversală :	β = 1' +
+                            'A\'B\' kép jellemzői:<br><br>' +
+                            '- Virtuális, mert azon a ponton képződik, ahol a tükrözött sugarakat tovább hosszabbítjuk (a tükör mögött)<br><br>' +
+                            '- Egyenes<br><br>' +
+                            '- Egyenlő az AB tárggyal (y<sub>1</sub> = y<sub>2</sub>)<br>' +
+                            '- A tárgy és a kép szimmetrikusak a tükörrel szemben<br>' +
+                            'Síktükör képlet: x<sub>2</sub> = -x<sub>1</sub>, mivel R → ∞ (nincsenek fókuszok)<br><br>' +
+                            'A lineáris transzverzális nagyítás :	β = 1' +
                         '</li>' +
                     '</ul>' +
                     '<ul>' +
                         '<li>' +
-                            'Caracterizarea imaginii (A\'B\') obiectului în oglinda plană:<br><br>' +
-                            'Ob. AB și im. A\'B\' sunt simetrice față de oglindă (imaginea se formează în spatele oglinzii, la aceeaşi distanţă faţă de oglindă ca şi obiectul).<br><br>' +
-                            'Imaginea este virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (ea nu poate fi prinsă pe ecran sau film foto).<br><br>' +
-                            'Im. A\'B\' este la fel de mare ca ob. AB.' +
+                            'A tárgy (A\'B\') jellemzése a síktükörben:<br><br>' +
+                            'Az AB tárgy és az A\'B\' kép szimmetrikusak a tükörrel szemben (a kép ugyanolyan távolságra képződik a tükörtől, mint a tárgy).<br><br>' +
+                            'A kép virtuális, mert azon a ponton képződik, ahol a tükrözött sugarakat tovább hosszabbítjuk (nem lehet egy képernyőn vagy fényképfilmeken megörökíteni).<br><br>' +
+                            'Az A\'B\' kép ugyanolyan nagy, mint az AB tárgy.' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">Oglinzile sferice:</h2>' +
+                    '<h2 class="p-3">Gömbi tükrök:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Oglinzile sferice sunt porțiuni din sfere (calote sferice) care reflectă lumina ce cade pe ele.<br><br>' +
-                            'Clasificarea oglinzilor sferice: <br><br>' +
-                            'a) Oglinzile concave reflectă cu partea interioară, scobită a suprafeței sferice (adică au partea lucioasă pe partea interioară a sferei). Ele transformă un fascicul de lumină paralel într-unul convergent.' +
+                            'A gömbi tükrök gömbök részei (gömbkalapok), amelyek visszaverik a rájuk eső fényt.<br><br>' +
+                            'A gömbi tükrök osztályozása: <br><br>' +
+                            'a) A domború tükrök a gömbfelület belső, kiálló részével visszatükrözik a fényt (azaz a gömb belsejében visszaverődő fénytörő felülettel rendelkeznek). Ezek egy párhuzamos fényfascikulumot egy konvergensé alakítanak át.' +
                         '</li>' +
                     '</ul>'
                     +'<h2 align = center>' +
@@ -4489,7 +4493,7 @@ var data = {
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'b) Oglinzile convexe reflectă cu partea exterioară, bombată a suprafeței sferice (adică au partea lucioasă pe partea exterioară a sferei). Ele transformă un fascicul de lumină paralel într-unul divergent.' +
+                        'b) A domború tükrök a gömbfelület külső, kiálló részével visszatükrözik a fényt (azaz a gömb külső részén visszaverődő fénytörő felülettel rendelkeznek). Ezek egy párhuzamos fényfascikulumot egy divergense alakítanak át.' +
                     '</li>' +
                 '</ul>' +
                 '<h2 align = center>' +
@@ -4497,11 +4501,11 @@ var data = {
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formarea imaginii unui obiect într-o oglindă sferică<br><br>' +
-                        'Pentru a forma imaginea unui obiect într-o oglindă sferică trebuie să ducem minim două raze:<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă paralelă cu axa optică principală până întâlnește suprafața oglinzii și de acolo se reflectă prin focar.<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă prin centrul de curbură până se intersectează cu prima rază (aceasta se reflectă pe aceeași direcție).<br><br>' +
-                        'Cele două raze se prelungesc până se întâlnesc. Punctul lor de intersecție este vârful imaginii, A\'. Din acest punct se duce o perpendiculară pe axa optică principală. Piciorul perpendicularei, B\', este baza imaginii formate.' +
+                        'Egy gömbi tükörben történő kép kialakítása<br><br>' +
+                        'Ahhoz, hogy egy tárgy képét egy gömbi tükörben kialakítsuk, legalább két sugarat kell vezetnünk:<br><br>' +
+                        'Az A tárgy csúcsából egy egyeneset kell vezetni, amely párhuzamos az optikai tengellyel, amíg el nem éri a tükörfelületet, és onnan visszaverődik a fókuszon keresztül.<br><br>' +
+                        'Az A tárgy csúcsából egy egyeneset kell vezetni a görbület középpontjáig, amíg keresztezi az első sugarat (ez ugyanabba az irányba tükröződik vissza).<br><br>' +
+                        'A két sugarat tovább kell hosszabbítani, amíg össze nem érnek. Az ő kereszteződési pontjuk az ábra csúcsa, A\'. Erről a pontból egy merőlegeset kell vezetni az optikai tengelyre. A merőleges talpa, B\', a képzett kép alapja.' +
                     '</li>' +
                 '</ul>' +
                 '<h2 align = center>' +
@@ -4509,56 +4513,56 @@ var data = {
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formula oglinzilor sferice:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
-                        'Mărirea liniară transversală:<br>' +
+                        'A gömbi tükrök képlete:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
+                        'A lineáris transzverzális nagyítás:<br>' +
                         'β = y<sub>2</sub> / y<sub>1</sub> = - x<sub>2</sub> / x<sub>1</sub>' +
                     '</li>' +
                 '</ul>' +
                 '<ul>' +
                     '<li>' +
-                        'Imaginea unui obiect într-o oglindă concavă depinde de distanța de la ob. la oglindă.' +
+                        'Egy tárgy képe egy domború tükörben attól függ, hogy milyen távolságra van a tárgytól a tükör.' +
                     '</li><br>' +
                     '<li>' +
-                        'Tipul oglinzii:<br><br>' +
-                        '- Concava:<br>' +
-                        '|x<sub>1</sub>| > 2|f| - Reală - Micșorată - Răsturnată<br>' +
-                        '|x<sub>1</sub>| = 2|f| - Reală - Egală - Răsturnată<br>' +
-                        '2|f| > |x<sub>1</sub>| > |f| - Reală - Mărită - Răsturnată<br>' +
-                        '|x<sub>1</sub>| < |f| - Virtuală - Mărită - Dreaptă<br><br>' +
-                        '-Convexă:<br>' +
-                        'Orice |x<sub>1</sub>| - Virtuală - Micșorată - Dreaptă' +
+                        'A tükör típusa:<br><br>' +
+                        '- Domború:<br>' +
+                        '|x<sub>1</sub>| > 2|f| - Valós - Kisebbített - Fordított<br>' +
+                        '|x<sub>1</sub>| = 2|f| - Valós - Egyenlő - Fordított<br>' +
+                        '2|f| > |x<sub>1</sub>| > |f| - Valós - Nagyított - Fordított<br>' +
+                        '|x<sub>1</sub>| < |f| - Virtuális - Nagyított - Egyenes<br><br>' +
+                        '- Domború:<br>' +
+                        'Bármely |x<sub>1</sub>| - Virtuális - Kisebbített - Egyenes' +
                     '</li><br>' +
                 '</ul>' +
-                '<h2 class="p-3">Refracția luminii:</h2>' +
+                '<h2 class="p-3">Fénytörés:</h2>' +
                 '<ul>' +
                     '<li>' +
-                        'Legile refracției luminii:<br><br>' +
-                        'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul respectiv (v).<br><br>' +
+                        'A fény törvényei:<br><br>' +
+                        'Egy átlátszó közeg abszolút törésmutatója (jelölve n) a fény sebességének (c) és a közegben való fénysebesség arányának a reciproka.<br><br>' +
                         'n = c / v<br><br>' +
-                        'Refracția luminii este fenomenul în care lumina își schimbă direcția de propagare atunci când traversează suprafața de separație dintre două medii transparente diferite.' +
+                        'A fénytörés az a jelenség, amikor a fény iránya megváltozik, amikor áthalad két különböző átlátszó közeg határának felületén.' +
                     '</li><br>' +
                     '<li>' +
-                        'Legile refracției<br><br>' +
-                        'Legea I a refracției:<br>' +
-                        'Raza incidentă (SI), normala la suprafața de separare (NI) și raza refractată (IR\') sunt coplanare.<br><br>' +
-                        'Legea a II-a a refracției:<br>' +
-                        'Raportul dintre unghiul de incidență(i) ș sinusul unghiului de refracție(r\') este egal cu raportul dintre indicele de refracție absolut al mediului al II-lea și indicele de refracție absolut al I mediu:<br><br>' +
+                        'Fénytörés törvényei<br><br>' +
+                        'Fénytörés I. törvénye:<br>' +
+                        'Az incidens sugár (SI), a határfelülethez normális sugár (NI), és a tört sugár (IR\') azonos síkban vannak.<br><br>' +
+                        'Fénytörés II. törvénye:<br>' +
+                        'Az incidencia szög (i) és a törési szög (r\') sinuszának aránya megegyezik a második közeg abszolút törésmutatójának és az első közeg abszolút törésmutatójának arányával:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
-                        'n<sub>21</sub> = indicele de refracție al mediului al II-lea față de primul' +
+                        'n<sub>21</sub> = a második közeg abszolút törésmutatója az elsőhöz képest' +
                     '</li><br>' +
                     '<li>' +
-                        'Consecințele refracției luminii:<br><br>' +
-                        'Consecințele refracției luminii au loc datorită schimbării direcţiei razei refractate faţă de direcţia razei incidente, modificând imaginea obiectelor aflate în apă:<br><br>' +
-                        '- Un corp aflat în apă pare rupt la suprafața apei, ca și cum partea din apă a corpului nu este în continuarea celei din aer.<br><br>' +
-                        '- Un corp aflat în apă este perceput de ochiul nostru mai la suprafaţă decât este el în realitate. Astfel apele limpezi sunt mult mai adânci decât par.<br><br>' +
-                        '- Obiectele aflate în apă par mai mari decât în realitate, apa comportându-se ca o lupă.<br><br>'+
+                        'Fénytörés következményei:<br><br>' +
+                        'A fénytörés következményei a törött sugár irányának megváltozása miatt jönnek létre az incidens sugárhoz képest, megváltoztatva a vízben lévő tárgyak képét:<br><br>' +
+                        '- Egy vízben lévő test a víz felszínén megtörtnek tűnik, mintha a test vízbeli része nem folytatódna a levegőbeli részével.<br><br>' +
+                        '- Egy vízben lévő testet a saját szemünk felszínen magasabbnak lát, mint amilyen valójában. Így a tiszta vizek sokkal mélyebbeknek tűnnek, mint amilyenek valójában.<br><br>' +
+                        '- A vízben lévő tárgyak nagyobbnak tűnnek, mint amilyenek valójában, mivel a víz egy nagyítóként működik.<br><br>'+
                         '</li>'+
                     '</ul>'
-                    +'<h2 class="p-3">Prisma optică:</h2>' +
+                    +'<h2 class="p-3">Optikai prizma:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Refracția luminii monocromatice în prisma optică:<br><br>' +
-                            'Prisma este un mediu transparent (cu indicele de refracție n) mărginit de două fețe plane, care fac între ele un unghi diedru, numit unghiul prismei (A).<br><br>' +
+                            'Monokromatikus fénytörés az optikai prizmában:<br><br>' +
+                            'A prizma egy átlátszó közeg (n törésmutatóval) két sík felülettel, amelyek között egy diédert szög található, amit prizma szögnek (A) nevezünk.<br><br>' +
                         '</li>' +
                     '</ul>' +
                     '<h2 align = center>' +
@@ -4566,327 +4570,327 @@ var data = {
                     '</h2><br>' +
                     '<ul>' +
                         '<li>' +
-                            'Când raza incidentă (SI) cade pe fața AB a prismei se refractă (prima rază refractată II\'), apropiindu-se de normala NI (n<sub>aer</sub> < n<sub>prismă</sub>) după legea:<br>' +
+                            'Amikor az incidens sugár (SI) az AB síkra esik, megtörik (az első tört sugár II\'), közeledve a normál NN\'-hez (n<sub>levegő</sub> < n<sub>prizma</sub>), a törvény szerint:<br>' +
                             'sin i = n ∙ sin r<br><br>' +
-                            'Raza II\' se refractă la căderea pe fața AC a prismei în punctul I\', depărtându-se de normala NN\' (n<sub>prismă</sub> > n<sub>aer</sub>), după legea:<br>' +
+                            'Az II\' sugár, amikor az AC síkra esik a prizma, az I\' pontban tör, távolodva a normáltól NN\' (n<sub>prizma</sub> > n<sub>levegő</sub>), a törvény szerint:<br>' +
                             'n ∙ sin r\' = sin i\'<br><br>' +
-                            'Unghiul dintre direcția razei incidente (SI) și direcția razei emergente (I\'R) se numește unghi de deviație (δ) care are valoarea:<br>' +
+                            'Az incidens sugár (SI) és a kilépő sugár (I\'R) közötti szög az úgynevezett deviációs szög (δ), amelynek az értéke:<br>' +
                             'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
                         '</li>' +
                     '</ul>' +
                     '<ul>' +
                         '<li>' +
-                            'Pentru a stabili condiția de emergență (adică raza incidentă să iasă din prismă) trebuie să nu aibă loc reflexia totală a razei II\' pe fața AC, adică:<br>' +
-                            'r\' ≤ l (unghiul limită).<br><br>' +
-                            'Cum A = r + r\' → r\' = A – r<br>' +
+                            'Az emergencia feltételeinek megállapításához (azaz az I\' sugarat kell kikerülni a prizmából), nem szabad, hogy a II\' sugarat teljes reflexió érje el az AC síkon, vagyis:<br>' +
+                            'r\' ≤ l (határszög).<br><br>' +
+                            'Mivel A = r + r\' → r\' = A – r<br>' +
                             'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
-                            'Dar din prima lege a refracției avem:<br>' +
+                            'De az első törvény szerint:<br>' +
                             'sin r = sin i / n <br>' +
                             'sin i / n >= sin (A - l)<br><br>' +
                         '</li>' +
                         '<li>' +
-                            'Unghiul maxim de incidență este<br>' +
+                            'Az incidencia maximális szöge<br>' +
                             'i = 90° → sin 90° = 1 <br>' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
-                            'sin l >= sin(A-l) sau A <= 2 ∙ 1<br>' +
+                            'sin l >= sin(A-l) vagy A <= 2 ∙ 1<br>' +
                             'sin l = 1 / n → 1 = arc sin 1 / n<br>' +
                         '</li>' +
                         '<li>' +
-                            'O rază incidentă pe prismă poate ieși din prismă dacă unghiul ei refringent (A) îndeplinește condiția:<br>' +
+                            'Egy sugarat ki lehet hozni a prizmából, ha a refringens szöge (A) teljesíti a következő feltételt:<br>' +
                             'A ≤ 2 ∙ arc sin 1/n<br><br>' +
-                            'Dacă prisma are A > 2 ∙ arc sin 1/n, toate razele incidente pe prismă se vor reflecta total pe fața AC.' +
+                            'Ha a prizma A > 2 ∙ arc sin 1/n, akkor az összes sugarat teljes reflexióval fognak tükrözni az AC síkra.' +
                         '</li><br>' +
                         '<li>' +
-                            'Când unghiul de incidență (i) variază și unghiul de deviație (δ) variază, luând întotdeauna valori mai mari decât o anumită valoare minimă (δ<sub>m</sub>).<br><br>' +
-                            'Când i = i\' și r = r\' obținem valoarea unghiul de deviație minimă (δ<sub>m</sub>):<br>' +
+                            'Amikor az incidencia szöge (i) és a deviációs szög (δ) változik, mindig nagyobb értékeket vesz fel, mint egy bizonyos minimális érték (δ<sub>m</sub>).<br><br>' +
+                            'Amikor i = i\' és r = r\', akkor kapjuk meg a minimális deviációs szög értékét (δ<sub>m</sub>):<br>' +
                             'δ<sub>m</sub> = 2 ∙ i – A<br><br>' +
-                            'Dacă măsurăm experimental unghiul de deviație minimă se poate determina indicele de refracție al prismei cu formula:<br>' +
+                            'Ha kísérleti úton meghatározzuk a minimális deviációs szöget, akkor a prizma törésmutatóját a következő képlettel meghatározhatjuk:<br>' +
                             'n = sin((A + <sub>m</sub>) / 2) / sin (A / 2)' +
                         '</li><br>' +
                     '</ul>'
-                    +'<h2 class="p-3">' + 'Tipuri de lentile:' + '</h2>' + 
+                    +'<h2 class="p-3">' + 'Lencsék típusai:' + '</h2>' + 
                     '<ul>' + 
                         '<li>' + 
-                            'Lentilele sunt corpuri transparente care au cel puțin o suprafață sferică.<br><br>' + 
-                            'Elementele unei lentile :<br><br>' + 
-                            'Axa optică principală care se trasează prin mijlocul lentilei.<br><br>' + 
-                            'Centrul optic al lentilei (O) aflat la intersecția lentilei cu axa optică principală.<br><br>' + 
-                            'Două focare așezate de-o parte și de alta față de centrul optic al lentilei, la distanțe egale.<br><br>' + 
-                            'Focarul aflat în partea stângă față de O se numește focar negativ / obiect (F<sub>1</sub>), deoarece se află pe axa numerelor negative.<br><br>' + 
-                            'Focarul aflat în partea dreaptă față de O se numește focar pozitiv / imagine (F<sub>2</sub>), deoarece se află pe axa numerelor pozitive.<br><br>' + 
-                            'Centrele de curbură (C<sub>1</sub> și C<sub>2</sub>) ale dioptrilor care mărginesc lentila aflate de-o parte și de alta față de O, la o distanță dublă față de OF.' + 
+                            'A lencsék átlátszó testek, amelyek legalább egy gömbfelülettel rendelkeznek.<br><br>' + 
+                            'A lencsék elemzése:<br><br>' + 
+                            'A fő optikai tengely, amelyet a lencse közepén húznak.<br><br>' + 
+                            'A lencse optikai központja (O), amely a lencse és a fő optikai tengely metszéspontja.<br><br>' + 
+                            'Két fókuszpont, amelyek az optikai központ mindkét oldalán azonos távolságra vannak.<br><br>' + 
+                            'Az O bal oldalán lévő fókuszpontot negatív fókuszpont / tárgy (F<sub>1</sub>) néven ismerjük el, mert a negatív számok tengelyén helyezkedik el.<br><br>' + 
+                            'Az O jobb oldalán lévő fókuszpontot pozitív fókuszpont / kép (F<sub>2</sub>) néven ismerjük el, mert a pozitív számok tengelyén helyezkedik el.<br><br>' + 
+                            'Az O-tól kettőzött távolságra levő dioptriumok központi pontjai (C<sub>1</sub> és C<sub>2</sub>) a lencse peremén, O-tól mindkét oldalon, egyenlő távolságra vannak OF-től.' + 
                         '</li>' + 
                     '</ul>' + 
-                    '<h2 class="p-3">' + 'Clasificarea lentilelor:' + '</h2>' + 
+                    '<h2 class="p-3">' + 'A lencsék osztályozása:' + '</h2>' + 
                     '<ul>' + 
-                        '- <b>Lentile convergente</b> (convexe) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul convergent. Ele refractă lumina prin focarul pozitiv și de aceea se mai numesc și lentile pozitive. Ele măresc scrisul. Sunt mai groase la mijloc și mai subțiri la capete.<br><br>' + 
-                        '- <b>Lentile divergente</b> (concave) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul divergent. Ele refractă lumina prin focarul negativ și de aceea se mai numesc și lentile negative. Ele micșorează scrisul. Sunt mai groase la capete și mai subțiri la mijloc.<br><br>' + 
+                        '- <b>Konvergens lencsék</b> (konvexek) azok a lencsék, amelyek egy párhuzamos fénysugarat konvergens sugarúvá alakítanak. Ezek a lencsék a pozitív fókuszponton keresztül törnek és ezért pozitív lencséknek is nevezik őket. Nagyítják a képet. Középen vastagabbak és a végük felé vékonyabbak.<br><br>' + 
+                        '- <b>Divergens lencsék</b> (konkáv) azok a lencsék, amelyek egy párhuzamos fénysugarat divergens sugarúvá alakítanak. Ezek a lencsék a negatív fókuszponton keresztül törnek és ezért negatív lencséknek is nevezik őket. Kicsinyítik a képet. A végük felé vastagabbak és középen vékonyabbak.<br><br>' + 
                         '<li>' + 
-                            'Formarea imaginii unui obiect în lentile: <br><br>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă convergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei convergente.<br>' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.<br>' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă), printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul pozitiv (F<sub>2</sub>), deoarece lentila convergentă refractă lumina prin focarul pozitiv.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.'+
-                            '</li><br></br>'+
+                            'Egy objektum képének kialakítása lencsékben: <br><br>' + 
+                            'Egy objektum képének kialakításához egy konvergens lencsében két sugarat kell húznunk:<br><br>' + 
+                            '- Rajzoljuk meg a konvergens lencse szimbólumát.<br>' + 
+                            '- Húzzuk meg a fő optikai tengelyét a közepén.<br>' + 
+                            '- Helyezzük el a lencse elemeit (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Rajzoljuk meg az objektumot (AB) a lencse előtt (bal oldalon) egy nyíllal.<br>' + 
+                            '- Húzzunk egy sugarat, amely a tárgy hegyétől (B) párhuzamos az optikai tengellyel, amíg el nem éri a lencsét, majd vezessük át a pozitív fókuszponton (F<sub>2</sub>), mivel a konvergens lencse a pozitív fókuszponton keresztül törli a fényt.<br>' + 
+                            '- Húzzunk egy második sugarat a tárgy hegyétől, amely áthalad a lencse optikai központján (O). Ezeket a sugarakat hosszabbítsuk meg, amíg nem metszik egymást. A metszéspontba helyezzük az B\', ami az AB tárgy képének csúcsa (im).<br>' + 
+                            '- Az B\'-ből húzzunk egy merőlegest az optikai tengelyre, lábát jelöljük A\'-val, ami az A\'B\' alapja.<br>' + 
+                            '- Helyezzük a nyíl hegyét az B\'-be, és így kapjuk meg az objektum AB képét a konvergens lencsében.'+
+                        '</li><br></br>'+
                         '<li>' + 
-                            'În funcție de distanța obiectului față de lentilă, avem trei tipuri de imagini în lentila convergentă.<br><br>' + 
-                            'I. Când obiectul este situat în intervalul (-∞) și C, imaginea obiectului are următoarele caracteristici :<br>' + 
-                            '- Mai mică decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'II. Când obiectul este situat în intervalul C și F1, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'III. Când obiectul este situat în intervalul F1 și O, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
+                            'A tárgy távolságától függően háromféle képet kapunk a konvergens lencsében.<br><br>' + 
+                            'I. Ha a tárgy az (-∞) és C tartományban van, akkor a tárgy képe a következő jellemzőkkel rendelkezik:<br>' + 
+                            '- Kisebb, mint az AB tárgy.<br>' + 
+                            '- Fejjel lefelé fordított.<br>' + 
+                            '- Valós (a törött sugarak metszéspontjában képződik, vetítővászonra vetíthető).<br><br>' + 
+                            'II. Ha a tárgy a C és F1 tartományban van, akkor a tárgy képe a következő jellemzőkkel rendelkezik:<br>' + 
+                            '- Nagyobb, mint az AB tárgy.<br>' + 
+                            '- Fejjel lefelé fordított.<br>' + 
+                            '- Valós (a törött sugarak metszéspontjában képződik, vetítővászonra vetíthető).<br><br>' + 
+                            'III. Ha a tárgy az F1 és O tartományban van, akkor a tárgy képe a következő jellemzőkkel rendelkezik:<br>' + 
+                            '- Nagyobb, mint az objektum.<br>' + 
+                            '- Egyenes<br>' + 
+                            '- Virtuális (a törött sugarak hosszabbításának metszéspontjában képződik, nem vetíthető vetítővászonra).' + 
                         '</li><br>' + 
                         '<li>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă divergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei divergente.' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă) printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul negativ (F<sub>1</sub>), deoarece lentila divergentă refractă lumina prin focarul negativ.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.<br>' + 
+                            'A tárgy képének kialakításához egy divergens lencsében két sugarat kell húznunk:<br><br>' + 
+                            '- Rajzoljuk meg a divergens lencse szimbólumát.' + 
+                            '- Húzzuk meg a fő optikai tengelyét a közepén.' + 
+                            '- Helyezzük el a lencse elemeit (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Rajzoljuk meg a tárgyat (AB) a lencse előtt (bal oldalon) egy nyíllal.<br>' + 
+                            '- Húzzunk egy sugarat, amely a tárgy hegyétől (B) párhuzamos az optikai tengellyel, amíg el nem éri a lencsét, majd vezessük át a negatív fókuszponton (F<sub>1</sub>), mivel a divergens lencse a negatív fókuszponton keresztül törli a fényt.<br>' + 
+                            '- Húzzunk egy második sugarat a tárgy hegyétől, amely áthalad a lencse optikai központján (O). Ezeket a sugarakat hosszabbítsuk meg, amíg nem metszik egymást. A metszéspontba helyezzük az B\', ami az AB tárgy képének csúcsa (im).<br>' + 
+                            '- Az B\'-ből húzzunk egy merőlegest az optikai tengelyre, lábát jelöljük A\'-val, ami az A\'B\' alapja.<br>' + 
+                            '- Helyezzük a nyíl hegyét az B\'-be, és így kapjuk meg az AB tárgy képét a konvergens lencsében.<br>' + 
                         '</li><br>' + 
                         '<li>' + 
-                            'În lentila divergentă obținem o imagine care are aceleași caracteristici indiferent de distanța obiectului față de lentilă:<br><br>' + 
-                            '- Mai mică decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
+                            'A divergens lencsében az objektumtól való távolságtól függetlenül ugyanazokat a jellemzőket kapjuk a képnek:<br><br>' + 
+                            '- Kisebb, mint az objektum.<br>' + 
+                            '- Egyenes<br>' + 
+                            '- Virtuális (a törött sugarak hosszabbításának metszéspontjában képződik, nem vetíthető vetítővászonra).' + 
+                        '</li>'+                        
+                    '</ul>'+
+                    '<h2 class="p-3">A vékony lencsék formulái:</h2>'+
+                    '<ul>'+
+                        '<li>'+
+                            'Konvenciók aláírása:<br><br>'+
+                            'x<sub>1</sub> = távolság az AB objektumtól a lencséig, mindig negatív, mert a negatív számok tengelyén van.<br><br>'+
+                            'x<sub>2</sub> = távolság az A\'B\' képtől a lencséig, pozitív, ha a kép valós (a lencse mögött, a pozitív számok tengelyén) és negatív, ha a kép virtuális (a lencse előtt, a negatív számok tengelyén).<br><br>'+
+                            'y<sub>1</sub> = AB objektum magassága, pozitív, ha az objektum a fő optikai tengely felett van, és negatív, ha az objektum a fő optikai tengely alatt van.<br><br>'+
+                            'y<sub>2</sub> = A\'B\' kép magassága, pozitív, ha a kép egyenes (a fő optikai tengely felett) vagy negatív, ha a kép fordított (a fő optikai tengely alatt).<br><br>'+
+                            'A fókusztávolságot pozitívnak tekintik (f > 0) a konvergens lencsék esetén, és negatívnak (f < 0) a divergens lencsék esetén.'+
+                        '</li><br>'+
+                        '<li>'+
+                            'A vékony lencsék alapvető képlete:<br><br>'+
+                            '(1 / x<sub>2</sub>) -(1 / x<sub>1</sub>) = 1 / f'+
+                        '</li><br>'+
+                        '<li>'+
+                            'A transzverzális lineáris nagyítás (β) egy dimenzió nélküli fizikai méret, amely a kép magasságának és az objektum magasságának arányát jelöli.<br><br>'+
+                            'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>'+
+                        '</li><br>'+
+                        '<li>'+
+                            'A lencse konvergenciája (C) egy fizikai méret, amely a fókusztávolság inverze (f) egyenlő.<br><br>'+
+                            'C = 1 / f<br><br>'+
+                            '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(diópteria)<br>'+
+                            'A konvergens lencse esetén C > 0 <br><br>'+
+                            'A divergens lencse esetén C < 0'+
+                        '</li><br>'+
+                    '</ul>'+
+                    '<h2 class="p-3">Lencse társulatok:</h2>'+
+                    '<ul>'+
+                        '<li>'+
+                            'Egy olyan rendszer, amely két vagy több lencsét tartalmaz, és azoknak azonos fő optikai tengelye van, <b>lencsetársulatnak</b> nevezhető.<br><br>'+
+                            'Az első lencse által létrehozott kép válik a következő lencse objektumává, és így tovább egészen az utolsó lencséig, amely a végső képet adja.<br><br>'+
                         '</li>'+
-                    '</ul>'+
-                    '<h2 class="p-3">Formulele lentilelor subțiri:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Convenții de semne:<br><br>' +
-                            'x<sub>1</sub> = distanța de la obiectul AB la lentilă care se ia tot timpul negativă deoarece este pe axa numerelor negative.<br><br>' +
-                            'x<sub>2</sub> = distanța de la imaginea A\'B\' la lentilă care se ia pozitivă când imaginea este reală (se formează în spatele lentilei, pe axa numerelor pozitive) și negativ când imaginea este virtuală (se formează în fața lentilei, pe axa numerelor negative).<br><br>' +
-                            'y<sub>1</sub> = înălțimea obiectului AB care se ia pozitivă dacă obiectul este deasupra axei optice principale și negativă dacă obiectul este sub axa optică principală.<br><br>' +
-                            'y<sub>2</sub> = înălțimea imaginii A\'B\' se ia pozitivă când imaginea este dreaptă (deasupra axei optice principale) sau negativă când imaginea este răsturnată (sub axa optică principală).<br><br>' +
-                            'Distanța focală se consideră pozitivă (f > 0) pentru lentilele convergente și negativă (f < 0) pentru lentilele divergente.' +
-                        '</li><br>' +
-                        '<li>' +
-                            'Formula fundamentală a lentilelor subțiri:<br><br>' +
-                            '(1 / x<sub>2</sub>) -(1 / x<sub>1</sub>) = 1 / f' +
-                        '</li><br>' +
-                        '<li>' +
-                            'Mărirea liniară transversală (β) este o mărime fizică adimensională egală cu raportul dintre înălțimea imaginii și înălțimea obiectului.<br><br>' +
-                            'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>' +
-                        '</li><br>' +
-                        '<li>' +
-                            'Convergența unei lentile (C) este o mărime fizică egală cu inversul distanței focale (f).<br><br>' +
-                            'C = 1 / f<br><br>' +
-                            '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(dioptrie)<br>' +
-                            'Lentilă convergentă are C > 0 <br><br>' +
-                            'Lentilă divergentă are C < 0' +
-                        '</li><br>' +
-                    '</ul>'+
-                    '<h2 class="p-3">Asociații de lentile:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Un sistem format din două sau mai multe lentile care au aceeași axă optică principală se numește <b>asociație de lentile</b>.<br><br>' +
-                            'Imaginea formată de prima lentilă devine obiect pentru lentila următoare și așa mai departe până la ultima lentilă care va da imaginea finală.' +
-                        '</li>' +
-                        '<li>' +
-                            'Cel mai utilizat sistem este cel cu lentile alipite (acolate) în care distanța (d) dintre lentile este zero, având același centru optic și focarul imagine (F<sub>2</sub>) al primei lentile (L) coincide cu focarul obiect (F\'2).<br><br>' +
-                            'Pentru un astfel de sistem format din k lentile avem:<br><br>' +
-                            '1. Inversul distanței focale a sistemului de lentile (F) este egal cu suma inverselor distanțelor focale a lentilelor asociației:<br><br>' +
-                            '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>' +
-                            '2. Convergența sistemului (C) este egală cu suma convergențelor lentilelor componente:<br><br>' +
-                            'C = C<sub>1</sub> + C<sub>2</sub> +...+ C<sub>k</sub><br><br>' +
-                            '3. Mărirea liniară transversală a sistemului (β) este egală cu produsul măririlor transversale a lentilelor componente:<br><br>' +
-                            'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙… β<sub>k</sub><br><br>' +
-                            'Dacă notăm cu x\'2 distanța de la imaginea finală la lentila a doua L2 și cu x1 distanța de la obiect la prima lentilă L1, avem relația :<br><br>' +
-                            '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C' +
-                        '</li>' +
-                        '<li>' +
-                            'Un alt sistem de lentile este sistemul telescopic care este un sistem afocal, în care fasciculul de ieșire (emergent), provenit dintr-un fascicul paralel, este tot paralel. Focarul imagine al primei lentile (F2) coincide cu focarul obiect al celei de-a doua lentilă (F\'<sub>1</sub>).<br><br>' +
-                            '1. Distanța dintre lentile este:<br><br>' +
-                            'd = f<sub>1</sub> + f<sub>2</sub><br><br>' +
-                            '2. Mărirea liniară transversală este:<br><br>' +
-                            'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>' +
-                            'Pentru a afla poziția (x\'1) a imaginii intermediare față de prima lentilă (L<sub>1</sub>) și dimensiunea imaginii formată de prima lentilă, aplicăm formula punctelor conjugate pentru L<sub>1</sub>:<br><br>' +
-                            'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>' +
-                            'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>' +
-                            'Știind distanța dintre lentile putem calcula poziția imaginii intermediare (formată de L<sub>1</sub>) față de lentila L<sub>2</sub>:<br><br>' +
-                            'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>' +
-                            'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>' +
-                            'Pentru a afla poziția (x\'2) a imaginii finale față de a doua lentilă (L<sub>2</sub>) și dimensiunea imaginii formată de a doua lentilă, aplicăm formula punctelor conjugate pentru L<sub>2</sub>:<br><br>' +
-                            'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>' +
-                            'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>' +
-                        '</li>' +
+                        '<li>'+
+                            'A leggyakrabban használt rendszer az azonosított lencsekombináció (akoplett), ahol a lencsék közötti távolság (d) nulla, és ugyanaz az optikai középpont és a lencse képfókusza (F<sub>2</sub>) az első lencse (L) objektumfókuszával (F\'<sub>2</sub>) egybeesik.<br><br>'+
+                            'Egy ilyen rendszer esetén, amely k lencséből áll:<br><br>'+
+                            '1. A lencsetársulat fókusztávolságának fordítottja (F) egyenlő a lencsék fókusztávolságának fordított összegével:<br><br>'+
+                            '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>'+
+                            '2. A rendszer összkonvergenciája (C) egyenlő a komponens lencsék összkonvergenciájával:<br><br>'+
+                            'C = C<sub>1</sub> + C<sub>2</sub> +...+ C<sub>k</sub><br><br>'+
+                            '3. A rendszer transzverzális lineáris nagyítása (β) egyenlő a komponens lencsék transzverzális nagyításainak szorzatával:<br><br>'+
+                            'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙… β<sub>k</sub><br><br>'+
+                            'Ha x\'2 jelöli a végső kép távolságát a második lencsétől, L2-től, és x1 a távolság az objektumtól az első lencséig, L1-ig, akkor az alábbi összefüggés áll fenn:<br><br>'+
+                            '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C<br><br>'+
+                        '</li>'+
+                        '<li>'+
+                            'Egy másik lencseszerkezet a teleszkóp, amely egy afokális rendszer, ahol a kimenő (emergent) fókuszált függvény (a kiinduló párhuzamos függvényből származik) továbbra is párhuzamos marad. Az első lencse képének fókusza (F<sub>2</sub>) megegyezik a második lencse tárgyfókuszával (F\'<sub>1</sub>).<br><br>'+
+                            '1. A lencsék közötti távolság:<br><br>'+
+                            'd = f<sub>1</sub> + f<sub>2</sub><br><br>'+
+                            '2. A transzverzális lineáris nagyítás:<br><br>'+
+                            'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>'+
+                            'Az első lencse (L<sub>1</sub>) által alkotott köztes kép pozíciójának (x\'<sub>1</sub>) és a kép méretének meghatározásához alkalmazzuk az L<sub>1</sub>-hez tartozó konjugált pontok képletét:<br><br>'+
+                            'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>'+
+                            'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>'+
+                            'A lencsék közötti távolság ismeretében kiszámíthatjuk az első lencse által alkotott köztes kép (amelyet L<sub>1</sub> hoz létre) pozícióját az L<sub>2</sub> lencsehez képest:<br><br>'+
+                            'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>'+
+                            'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>'+
+                            'A második lencse (L<sub>2</sub>) által alkotott végső kép (x\'<sub>2</sub>) pozíciójának és méretének meghatározásához alkalmazzuk az L<sub>2</sub>-hez tartozó konjugált pontok képletét:<br><br>'+
+                            'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>'+
+                            'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>'+
+                        '</li>'+
                     '</ul>'+
 
                     //Optica ondulatorie
                     '<a name="element_target"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Optica Ondulatorie</h2><br><br><br></u>' +
-                    '<h2 class="p-3">Dispersia luminii:</h2>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Hullámoptika</h2><br><br><br></u>' +
+                    '<h2 class="p-3">Fénydiszperzió:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            '<b>OPTICA</b> este o ramură a fizicii care studiază natura, proprietățile și fenomenele suferite de lumină.<br><br>' +
-                            'Optica este alcătuită din trei părți:<br><br>' +
-                            '1. Optica geometrică care operează cu raze de lumină (direcțiile de propagare ale luminii), neluând în considerare natura luminii. Ca fenomene studiate avem reflexia, refracția și reflexia totală a luminii.<br><br>' +
-                            '2. Optica ondulatorie studiază fenomenele de interferență, difracție și polarizare, în care se relevă caracterul de undă al luminii, mai precis ca undă (radiație) electromagnetică.<br><br>' +
-                            '3. Optica fotonică (corpusculară) studiază efectul fotoelectric, efectul Compton, emisia și absorbția luminii etc. care scot în evidență natura corpusculară a luminii (fotoni).<br><br>' +
-                            'Dispersia luminii albe a fost studiată prima dată de către Newton în 1672, când a obținut spectrul luminii albe pe o prismă optică.<br><br>' +
-                            'Fenomenul de variație a indicelui de refracție cu lungimea de undă se numește dispersia luminii.<br><br>' +
-                            'Astfel, când lumina trece printr-o prismă, ea se descompune în fascicule colorate în culorile curcubeului.<br><br>' +
-                            'Prin vid toate undele electromagnetice se propagă cu aceeași viteză, indiferent de lungimea lor de undă și prin urmare spunem că vidul este un mediu nedispersiv. Dacă prisma ar fi vidată, un fascicul de lumină albă nu s-ar descompune, ci numai ar fi deviat de la direcția incidentă prin fenomenul de refracție (adică schimbarea direcției de propagare la trecerea dintr-un mediu în altul).<br><br>' +
-                            'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul repectiv (v).<br><br>' +
+                            '<b>OPTIKA</b> a fizika egy ága, amely a fény természetét, tulajdonságait és általános jelenségeit tanulmányozza.<br><br>' +
+                            'Az optika három részből áll:<br><br>' +
+                            '1. Geometriai optika, amely a fény sugarainak (a fény terjedési irányainak) viselkedésével foglalkozik, anélkül, hogy figyelembe venné a fény természetét. Ezen jelenségek közé tartozik a tükröződés, a törés és a teljes tükröződés.<br><br>' +
+                            '2. Hullámoptika tanulmányozza az interferencia, a diffrakció és a polarizáció jelenségeit, amelyekben a fény hullámtermészetét hangsúlyozzák, pontosabban az elektromágneses hullámot.<br><br>' +
+                            '3. Fotónikus (korpuszkuláris) optika vizsgálja a fotoelektromos hatást, a Compton-hatást, a fény kibocsátását és elnyelését stb., amelyek kiemelik a fény korpuszkuláris természetét (fotonok).<br><br>' +
+                            'Az fehér fény diszperzióját először Newton tanulmányozta 1672-ben, amikor megfigyelte a fehér fény spektrumát egy optikai prizmán keresztül.<br><br>' +
+                            'A törésmutató változásának jelensége hullámhosszfüggő fénydiszperziónak nevezhető.<br><br>' +
+                            'Így amikor a fény áthalad egy prizmán, szivárvány színekké bontja a színes sugarakat.<br><br>' +
+                            'Az elektromágneses hullámok mindegyike ugyanazzal a sebességgel terjed a vákuumban, függetlenül a hullámhossztól, így a vákuumot nem diszperzív közegnek nevezzük. Ha a prizma vákuumból lenne, egy fehér fényes sugarakból álló csokor nem bontódna szét, csak elhajlana a beesési iránytól a törés jelensége révén (azaz a terjedési irány megváltoztatása egy közegből a másikba történő áthaladáskor).<br><br>' +
+                            'Az átlátszó közeg (víz, üveg, gyémánt stb.) törési mutatója (n-el jelölve) az a sebességarány, amelyet a fény sebessége vákuumban (c) és a megfelelő közegben (v) között kapunk.<br><br>' +
                             'n = c / v<br><br>' +
-                            'c = viteza luminii în vid = 300.000.000 m/s<br><br>' +
-                            'v = viteza luminii în mediul respectiv<br><br>' +
-                            'Toate mediile transparente (apa, sticla, diamantul etc.) caracterizate de un anumit indice de refracție mai mare decât unu, produc dispersia luminii.<br><br>' +
-                            'Dar indicele de refracție este constant numai pentru lumina monocromatică.<br><br>' +
-                            'Pentru lumina albă, alcătuită din șapte radiații de culori diferite și lungimi de undă diferite, indicele de refracție nu mai este constant, ci variază cu lungimea de undă a acestor lumini.<br><br>' +
-                            'Dacă indicele de refracție al unei prisme variază, prisma va refracta sub diferite unghiuri aceste lumini.<br><br>' +
-                            'În general, la difuzia normală, în aceste medii transparente indicele de refracție crește cu scăderea lungimii de undă, astfel razele violete (au o lungime de undă mai mică, 400 nm) vor fi refractate mai puternic decât cele roșii (cu lungimea de undă mai mare, 700 nm, decât cele violet).<br><br>' +
-                            'Dacă λ<sub>violetă</sub> < λ<sub>roșie</sub> → n<sub>violetă</sub> > n<sub>roșie</sub> → v<sub>violetă</sub> < v<sub>roșie</sub>.<br><br>' +
-                            'Fasciculele colorate trec prin prismă cu viteze diferite și de aceea ies din prismă sub unghiuri diferite.<br><br>' +
-                            'Razele violet ies mai puțin înclinate față de axa optică, deoarece se propagă cu o viteză mai mică prin materialul prismei decât raza roșie, străbătând în același timp o distanță mai mică decât cea roșie.<br><br>' +
+                            'c = a fény sebessége vákuumban = 300.000.000 m/s<br><br>' +
+                            'v = a fény sebessége a megfelelő közegben<br><br>' +
+                            'Az összes átlátszó közeg (víz, üveg, gyémánt stb.), amelynek a törési mutatója nagyobb, mint egy, diszperziót okoz a fényben.<br><br>' +
+                            'De a törési mutató csak a monokromatikus fényre konstans.<br><br>' +
+                            'A fehér fény esetében, amely hét különböző színű és különböző hullámhosszú sugárzásból áll, a törési mutató már nem konstans, hanem változik ezeknek a fényeknek a hullámhossza szerint.<br><br>' +
+                            'Ha egy prizma törési mutatója változik, akkor a prizma különböző szögekben fogja megtörni ezeket a sugarakat.<br><br>' +
+                            'Általánosan elmondható, hogy a normális diszperzió esetén ezekben az átlátszó közegben a törési mutató a hullámhossz csökkenésével nő, így az ibolya sugarak (amelyeknek kisebb a hullámhossza, 400 nm) erőteljesebben lesznek törve, mint a vörösek (amelyeknek nagyobb a hullámhossza, 700 nm, mint a lila sugár).<br><br>' +
+                            'Ha λ<sub>lila</sub> < λ<sub>vörös</sub> → n<sub>lila</sub> > n<sub>vörös</sub> → v<sub>lila</sub> < v<sub>vörös</sub>.<br><br>' +
+                            'A színes sugarak különböző sebességekkel haladnak át a prizmán, és ezért különböző szögekkel lépnek ki a prizmából.<br><br>' +
+                            'Az ibolya sugarak kevésbé meredekek az optikai tengelyhez képest, mert kisebb sebességgel terjednek a prizma anyagában, mint a vörös sugarak, ugyanakkor kevesebb távolságot tesznek meg, mint a vörös sugarak.<br><br>' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">Interferența luminii:</h2>'+
+                    '<h2 class="p-3">Fény interferencia:</h2>'+
                     '<ul>' +
                     '<li>' +
-                        'Interferența luminii nelocalizată în dispozitivul Young.<br><br>' +
-                        'INTERFERENȚA este fenomenul de suprapunere a două unde coerente (cu aceeași frecvență și aceeași diferență de fază) care se întâlnesc într-un punct din spațiu.<br><br>' +
-                        'În anumite puncte din spațiu se vor forma franje de interferență, adică o succesiune de regiuni luminoase și întunecate.<br><br>' +
-                        'Undele coerente se obțin prin separarea dintr-un flux luminos emis de o sursă monocromatică , două fascicule de lumină care ulterior se întâlnesc.<br><br>' +
-                        'Există două modalități de obținere a undelor coerente :<br><br>' +
-                        '- Divizarea frontului de undă în dispozitivul Young, biprisma Fresnel etc.<br><br>' +
-                        '- Divizarea amplitudinii undei în lama cu fețe plan paralele, pana optică, inelele lui Newton.' +
+                        'A fény interferenciája nem lokalizált a Young-féle kísérletben.<br><br>' +
+                        'AZ INTERFERENCIA az a jelenség, amikor két koherens hullám (ugyanolyan frekvenciával és ugyanazzal a fáziseltéréssel) átfedik egymást egy térbeli pontban.<br><br>' +
+                        'Bizonyos térbeli pontokban interferencia csíkok fognak kialakulni, azaz egy világos és egy sötét terület sorozata.<br><br>' +
+                        'A koherens hullámokat úgy kapjuk, hogy kettéválasztjuk egy monokromatikus fényforrásból származó fényáramot, majd két fényfre osztjuk, amelyek később találkoznak.<br><br>' +
+                        'Két módja van a koherens hullámok előállításának:<br><br>' +
+                        '- A hullámfront felosztása a Young-féle kísérlet, a Fresnel biprismája stb.<br><br>' +
+                        '- A hullám amplitúdójának felosztása a párhuzamos síkú lemezeken, optikai pánán, Newton gyűrűin.' +
                     '</li><br>' +
                     '<li>' +
-                        'Dispozitivul Young folosește o sursă de lumină monocromatică S (laser), un paravan cu două fante dreptunghiulare (cu lățimea mai mică de 1 mm) și paralele cu o distanță între ele de maxim 1 mm, un ecran (coală albă). Pentru observarea figurii de interferență nu există o poziție preferențială a ecranului, putând fi plasat la o distanță D între 1 m și 5 m față de fante și din acest motiv se numește interferență nelocalizată.<br><br>' +
-                        'Atât interferența, cât și difracția se bazează pe principiul lui Hyugens-Fresnel care spune că fiecare punct de pe un front de undă se comportă ca o sursă secundară de undă cu aceeași frecvență și fază cu unda inițială. Noul front de undă este creat prin însumarea amplitudinilor undelor secundare.' +
+                        'A Young-féle kísérlet egy monokromatikus fényforrást (láser) (S), egy két egyenes nyílással ellátott (kisebb mint 1 mm széles) és egymással párhuzamosan lévő táblát (legfeljebb 1 mm távolsággal), valamint egy képernyőt (fehér papírlap). Az interferencia mintázat megfigyeléséhez nincs preferált képernyőhelyzet, ezért a képernyőt 1 m és 5 m közötti távolságba helyezhetjük a nyílásoktól, és ezért nevezik a helyi interferenciát nem lokalizáltnak.<br><br>' +
+                        'Mind az interferencia, mind a diffrakció Huygens-Fresnel elvére épül, amely szerint az összes hullámeloszlás pontja viselkedik egy másodlagos hullámforrásként, ugyanazzal a frekvenciával és fázissal, mint az eredeti hullám. Az új hullámfrontot a másodlagos hullámok amplitúdóinak összege alkotja.' +
                     '</li><br>' +
                     '<li>' +
-                        'În cazul interferenței constructive, cele două unde sunt în fază (defazaj zero) și suma lor este mai mare, formând regiuni luminoase.<br><br>' +
-                        'Când cele două unde vibrează în antifază (defazaj 180°) se vor anihila (suma lor este zero), formând zone întunecate, caz în care vorbim de interferență distructivă.' +
+                        'A konstruktív interferenciában a két hullám fázisban van (nulla fáziskülönbség) és az összeg nagyobb, világos területeket alkotva.<br><br>' +
+                        'Amikor a két hullám antifázisban rezeg (180°-os fáziskülönbség), akkor megsemmisülnek (az összeg nulla), sötét területeket képezve, ezt nevezzük destruktív interferenciának.' +
                     '</li><br>' +
                     '<li>' +
-                        'Unda electromagnetică (lumina) are două componente electrică și magnetică. Numai componenta electrică (E) influențează senzația vizuală.<br><br>' +
-                        'Undele de aceeași amplitudine emise de cele două surse au ecuațiile :<br><br>' +
+                        'Az elektromágneses hullám (fény) két elektromos és mágneses komponensből áll. Csak az elektromos komponens (E) befolyásolja a vizuális érzékelést.<br><br>' +
+                        'Azonos amplitúdójú hullámok, amelyeket a két forrásból sugároznak, az alábbi egyenletekkel rendelkeznek:<br><br>' +
                         'E<sub>1</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>1</sub> / λ))<br><br>' +
                         'E<sub>2</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>2</sub> / λ))<br><br>' +
-                        'Unda electromagnetică se propagă cu viteza c în intervalul de timp Δt prin suprafața de arie S așezată perpendicular pe direcția de propagare.<br><br>' +
-                        'Energia transportată de undă este:<br><br>' +
+                        'Az elektromágneses hullám a c sebességgel terjed a Δt időintervallum alatt, egy S keresztmetszetű felületen, amely merőleges a terjedési irányra.<br><br>' +
+                        'Az általuk szállított energia:<br><br>' +
                         'ΔW = w ΔV<br><br>' +
                         'ΔW = (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup>E<sup>2</sup>SΔt<br><br>' +
                         'I = 1/2 · (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup> ·E<sup>2</sup><sub>0</sub><br><br>' +
                         'E\'<sub>0</sub> = 2 E<sub>0</sub> cos (π(r<sub>2</sub> - r<sub>1</sub>) / λ)' +
-                    '</li><br>'+
+                    '</li><br>'+ 
                     '<li>' +
-                        'Condițiile de interferență sunt:<br><br>' +
-                        '- Undele să aibă aceeași frecvență<br><br>' +
-                        '- Diferența de fază : ΔΦ = 2π(Δr / λ) = constantă<br><br>' +
-                        'Intensitatea luminoasă, I, într-un punct de interferență este proporțională cu pătratul amplitudinii undei rezultante:<br><br>' +
-                        'I = const 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
-                        'În interferența constructivă (cu formarea de franje luminoase) avem condiția de maxim de iluminare:<br><br>' +
+                        'Az interferencia feltételei:<br><br>' +
+                        '- Az hullámoknak azonos frekvenciával kell rendelkezniük<br><br>' +
+                        '- Fáziskülönbség: ΔΦ = 2π(Δr / λ) = állandó<br><br>' +
+                        'A fény intenzitása, I, egy interferenciapontban arányos a rezultáló hullám amplitúdójának négyzetével:<br><br>' +
+                        'I = konst 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
+                        'A konstruktív interferenciában (fénycsíkok kialakulásával) az intenzitás maximális feltétele:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ)<br><br> = 1 → Δr = kλ = 2k(λ/2),<br><br>' +
-                        'unde k = nr.întreg<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu par de semiundă se află pe o franjă luminoasă.<br><br>' +
-                        'În interferența distructivă (cu formarea de franje întunecoase) avem condiția de minim de iluminare:<br><br>' +
+                        'ahol k = egész szám<br><br>' +
+                        'Az interferencia területén azok a pontok, amelyekben az út különbsége, Δr, egy páros számú félföldet tesz ki, világos csíkon helyezkednek el.<br><br>' +
+                        'A destruktív interferenciában (sötét csíkok kialakulásával) az intenzitás minimális feltétele:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ) = 0 → Δr = kλ = 2(k+1)(λ/2)<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu impar de semiundă se află pe o franjă întunecoasă.' +
+                        'Az interferencia területén azok a pontok, amelyekben az út különbsége, Δr, egy páratlan számú félföldet tesz ki, sötét csíkon helyezkednek el.' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea pozițiilor franjelor în dispozitivul Young<br><br>' +
-                        'în ΔAEP aplicăm Teorema lui Pitagora: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
-                        'în ΔBE\'P aplicăm Teorema lui Pitagora: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'A csíkok pozícióinak meghatározása a Young-rendszerben<br><br>' +
+                        'ΔAEP háromszögében alkalmazzuk Pitagorasz tételét: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'ΔBE\'P háromszögében alkalmazzuk Pitagorasz tételét: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
                         'Δr = r<sub>2</sub> = r<sub>1</sub> = 4xl / (r<sub>1</sub> + r<sub>2</sub>)' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea lungimii de undă prin măsurarea interfranjei<br><br>' +
+                        'A hullámhossz meghatározása a köztes terek mérésével<br><br>' +
                         'i = x<sub>k+1</sub> - x<sub>k</sub> = (k+1)λD / 2l - kλD / 2l = λD / 2l<br><br>' +
                         'i = λD / 2l' +
                     '</li>'+
                     '</ul>'+
-                    '<h2 class="p-3">'+'Interferența localizată pe lama cu fețe plan paralele:'+'</h2>'+
+                    '<h2 class="p-3">'+'A párhuzamos síkú lemezeken megjelenő interferencia:'+'</h2>'+
                     '<ul>' +
                         '<li>' +
-                            'Interferența localizată pe lama cu fețe plan paralele are loc atunci când un fascicul de lumină este divizat în două fascicule coerente pe suprafețe reflectătoare, prin reflexia luminii pe fața superioară și prin transmiterea luminii pe fața inferioară a lamei subțiri.<br><br>' +
-                            'Lumina ajunsă pe fața superioară a lamei (peliculei) se și reflectă (IR), se și refractă (IŔ ). Raza refractată prin lamă se reflectă pe fața inferioară a lamei (MN). Cele două raze, IR și MN, vor interfera la suprafața lamei.<br><br>' +
-                            'Franjele de interferență sunt localizate în planul focal al lentilei sau, în absența acesteia, la infinit. Așa explicăm irizațiile baloanelor de săpun și ale peliculelor de ulei sau petrol de pe stradă.' +
+                            'Az interferencia megjelenése párhuzamos síkú lemezen akkor következik be, amikor egy fényf két koherens f束re oszlik tükröző felületeken, a felső felületen történő fényvisszaverődés és az alsó lemez síkjában történő fényátvezetés révén.<br><br>' +
+                            'A lemez felső felületére érkező fény (film) részben visszaverődik (IR), részben pedig törődik (IŔ ). A lemezen keresztül történő törött sugár a lemez alsó felületén visszaverődik (MN). Az IR és az MN két sugara interferál a lemez felületén.<br><br>' +
+                            'Az interferencia csíkok a lencse fókuszpontjában vagy annak hiányában a végtelenben helyezkednek el. Így magyarázhatjuk meg a szappanbuborékok és az utcai olaj- vagy benzinrétegek irizációját.' +
                         '</li>' +
                     '</ul>' +
                     '<h2 class="p-3">' +
-                        'Inelele lui Newton la interferența pe o pană de aer:' +
+                        'Newton gyűrűi a levegőpárán való interferencia során:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Inelele lui Newton se obțin prin iluminarea perpendiculară cu lumină monocromatică a unei lentile plan-convexă cu distanță focală mare și așezată cu fața curbă pe o placă de sticlă plană. Între lentilă și placă se formează o pană de aer subțire având ca rezultat formarea unor franje luminoase și întunecate circulare, concentrice cu punctul de contact între lentilă și placă.' +
+                            'A Newton gyűrűit egy nagy fókusztávolságú sík-konvex lencsével való merőleges monokromatikus fény megvilágításával kapjuk meg, amelyet egy lapos üveglapra helyezünk. A lencse és a lap között vékony légburok keletkezik, amelynek eredményeként kör alakú, koherens fény- és sötétcsíkok jönnek létre a lencse és a lap érintkezési pontja körül.' +
                         '</li>' +
                     '</ul>'+
 
                     //Elemente de fizica cuantica
                     '<a name="element_target2"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Elemente de fizică cuantică</h2><br><br><br></u>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Kvantumfizika alapjai</h2><br><br><br></u>' +
                     '<h2 class="p-3">' +
-                        'Ipoteza lui Planck asupra cuantelor de lumină:' +
+                        'Planck hipotézise a fény kvantumairól:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Planck a afirmat că radiația emisă de corpul negru există sub forma unor pachețele discrete de energie pe care le-a numit cuante (numite ulterior fotoni), dependente de frecvența radiației respective.<br><br>' +
-                            'Valorile discrete ale energiei unui oscilator armonic sunt echidistante, astfel încât diferența dintre nivelurile de energie ( ΔE) este proporțională cu frecvența (ν) a oscilatorului și constanta lui Planck (h).<br><br>' +
+                            'Planck azt állította, hogy a fekete test által kibocsátott sugárzás diszkrét energiaegységek formájában létezik, amelyeket kvantumoknak nevezett el (később fotonoknak nevezett el), a sugárzás frekvenciájától függően.<br><br>' +
+                            'Az oszcillátor energia diszkrét értékei egyenlő távolságra vannak egymástól, így az energia szintjei közötti különbség (ΔE) arányos az oszcillátor frekvenciájával (ν) és a Planck-állandóval (h).<br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = frecvența oscilatorului<br><br>' +
-                            'Constanta lui Planck este una dintre cele mai mici constante folosite în fizică la scară macroscopică, reflectând scara microscopică la care se observă efectele cuantice.' +
+                            'h = Planck-állandó = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
+                            'ν = az oszcillátor frekvenciája<br><br>' +
+                            'A Planck-állandó az egyik legkisebb állandó, amelyet a fizikában makroszkopikus méretarányokban használnak, ami a kvantumhatásokat mikroszkopikus szinten tükrözi.' +
                         '</li><br>' +
                     '</ul>' +
                     '<h2 class="p-3">' +
-                        'Efectul fotoelectric:' +
+                        'Fotoelektromos hatás:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Efectul fotoelectric a fost descoperit experimental în anul 1887 de către Heinrich Hertz (1857-1894) și în anul 1888 de către W. Hallwachs (1859-1922) și constă în emiterea de electroni de către un metal sub acțiunea unei radiații electromagnetice.<br><br>' +
-                            'În 1905, Albert Einstein (1879-1955) a remarcat că explicația efectului fotoelectric ar putea fi rezolvată, generalizând ipoteza cuantică propusă de Planck privind radiația corpului negru la radiația electromagnetică.<br><br>' +
-                            'Astfel, electronii din catod primesc de la lumină numai un singur pachet (foton) de energie luminoasă (E = h ∙ ν) pentru a fi accelerați și să părăsească metalul.<br><br>' +
-                            'Astfel energia cinetică maximă a electronilor emiși nu va depăși această valoare de energie primită, indiferent de intensitatea radiației incidente.<br><br>' +
-                            'În plus explică de ce viteza maximă a electronilor depinde de frecvența radiației.' +
+                            'A fotoelektromos hatást kísérletileg 1887-ben Heinrich Hertz (1857-1894) fedezte fel, és 1888-ban W. Hallwachs (1859-1922), és az elektromágneses sugárzás hatására elektronok kibocsátásából áll.<br><br>' +
+                            '1905-ben Albert Einstein (1879-1955) megjegyezte, hogy a fotoelektromos hatás magyarázata megoldható, ha általánosítják Planck által javasolt kvantum hipotézist a fekete test sugárzására az elektromágneses sugárzásra.<br><br>' +
+                            'Így a katód elektronjai csak egyetlen energiacsomagot (fotont) kapnak a fénytől (E = h ∙ ν), hogy felgyorsítsák és elhagyják a fémet.<br><br>' +
+                            'Így az emitált elektronok maximális kinetikus energiája nem fogja túllépni ezt az energiát, függetlenül a beeső sugárzás intenzitásától.<br><br>' +
+                            'Ezen felül megmagyarázza, hogy az elektronok maximális sebessége miért függ a sugárzás frekvenciájától.' +
                         '</li><br>' +
                         '<li>' +
-                            'Prima lege a efectului fotoelectric extern:<br><br>' +
-                            'Efectul fotoelectric extern se produce numai când frecvența radiației incidente este mai mare decât frecvența de prag caracteristică metalului din care este confecționat catodul.<br><br>' +
-                            'Pentru a părăsi metalul electronii liberi trebuie să primească o energie egală cu lucrul mecanic de extracție (L) pentru frecvența de prag (ν<sub>0</sub>):<br><br>' +
-                            'L = h ∙ ν<sub>0</sub> h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
-                            'Fotonul de energie h ∙ ν cedează energia sa unui electron de conducție.<br><br>' +
-                            'Electronul poate părăsi metalul numai dacă h ∙ ν ≥ L.' +
+                            'A fotoelektromos hatás első törvénye:<br><br>' +
+                            'A külső fotoelektromos hatás akkor következik be, ha a beeső sugárzás frekvenciája nagyobb, mint a katód jellemző küszöbfrekvenciája.<br><br>' +
+                            'A fémből szabad elektronoknak a kinyerési munka (L) egyenlő energiát kell kapniuk a küszöbfrekvenciához (ν<sub>0</sub>):<br><br>' +
+                            'L = h ∙ ν<sub>0</sub> h = Planck-állandó = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
+                            'A foton h ∙ ν energiáját az elektromos vezetőnek adja át.<br><br>' +
+                            'Az elektron csak akkor hagyhatja el a fémet, ha h ∙ ν ≥ L.' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">A doua lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">A fotoelektromos hatás második törvénye:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Efectul fotoelectric se produce practic instantaneu.<br><br>' +
-                            'Emisia unui electron este rezultatul ciocnirii dintre un foton și un electron într-un timp mai mic de 10<sup>-9</sup> s.' +
+                            'A fotoelektromos hatás gyakorlatilag azonnal megtörténik.<br><br>' +
+                            'Az elektron emissziója egy foton és egy elektron ütközése eredményeként történik egy 10<sup>-9</sup> s-nál rövidebb idő alatt.' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A treia lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">A fotoelektromos hatás harmadik törvénye:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Energia cinetică a electronilor emiși crește liniar cu frecvența radiației incidente.<br><br>' +
-                            'Dacă energia fotonului h ∙ ν > L, atunci electronul are o energie cinetică suficientă pentru a părăsi metalul:<br><br>' +
+                            'Az emissziós elektronok kinetikus energiája lineárisan nő a beeső sugárzás frekvenciájával.<br><br>' +
+                            'Ha a foton energia h ∙ ν > L, akkor az elektron elegendő kinetikus energiával rendelkezik a fémből történő kilépéshez:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A patra lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">A fotoelektromos hatás negyedik törvénye:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Numărul de fotoelectroni emiși de catod în unitatea de timp este proporțional cu numărul de fotoni incidenți în acest interval de timp, care este proporțional cu fluxul de energie luminoasă.' +
+                            'A katód által egységnyi idő alatt kibocsátott fotoelektronok száma arányos a beeső fotonok számával ebben az időintervallumban, ami arányos a fényenergia áramlásával.' +
                         '</li>' +
                     '</ul>'),
 
@@ -5937,92 +5941,94 @@ var data = {
                     +'</ul>'),
 
         //teorieOptica.html
-        "teorieOpticaTitle": "Optică teorie",
-        "teorieOptica": ('<u>' +'<h2 class="p-3" align = center>Optica geometrică</h2><br><br><br>' +'</u>'
-                        +'<h2 class="p-3">Reflexia luminii:</h2>'
-                        +'<ul>'
-                            +'<li>'
-                                +'PRINCIPIUL LUI FERMAT:<br><br>'
-                                    +'“Lumina se propagă între două puncte A și B, astfel încât drumul său optic și, implicit, intervalul de timp necesar parcurgerii distanței AB să fie minim.”<br><br>'
-                                    +'Reflexia luminii este fenomenul în care lumina se întoarce în primul mediu, cu schimbarea direcţiei de propagare, atunci când ea întâlneşte un alt mediu (suprafaţa de separare dintre două medii optice diferite).'
-                            +'</li><br>'
-                            +'<li>'
-                                +'Legile reflexiei:<br><br>'
-                                +'- Legea I:<br><br>'
-                                +'Raza incidentă, normala și raza reflectată sunt coplanare (aparțin aceluiași plan).<br><br>'
-                                +'- Legea a II a:<br><br>'
-                                +'Unghiul de incidență (i) este egal cu unghiul de reflexie (r).'
-                            +'</li><br>'
-                            +'<li>'
-                                +'Oglinzile plane<br><br>'
-                                +'Oglinzile sunt corpuri netede și lucioase, în care lumina se reflectă.<br><br>'
-                                +'Oglinzile plane au suprafața plană (dreaptă) și sunt cele pe care le avem cu toții acasă și în care ne uităm zilnic.<br><br>'
-                                +'Iată simbolul ei (partea din spate care nu reflectă lumina se hașurează):<br><br>'
-                            +'</li>'
-                        +'</ul>'
+        "teorieOpticaTitle": "Optiktheorie",
+        "teorieOptica": ('<u>' +
+                            '<h2 class="p-3" align = center>Geometrische Optik</h2><br><br><br>' +
+                        '</u>' +
+                        '<h2 class="p-3">Lichtreflexion:</h2>' +
+                        '<ul>' +
+                            '<li>' +
+                                'FERMATSCHES PRINZIP:<br><br>' 
+                                    +'"Licht breitet sich zwischen zwei Punkten A und B so aus, dass seine optische Weglänge und damit die benötigte Zeit, um die Strecke AB zurückzulegen, minimal ist."<br><br>' 
+                                    +'Lichtreflexion ist das Phänomen, bei dem Licht in das erste Medium zurückkehrt, wobei sich die Ausbreitungsrichtung ändert, wenn es auf ein anderes Medium trifft (Trennfläche zwischen zwei verschiedenen optischen Medien).' +
+                            '</li><br>' +
+                            '<li>' +
+                                'Reflexionsgesetze:<br><br>' +
+                                '- Gesetz I:<br><br>' 
+                                +'Der einfallende Strahl, die Normale und der reflektierte Strahl liegen in einer Ebene (gehören zu derselben Ebene).<br><br>' +
+                                '- Gesetz II:<br><br>' 
+                                +'Der Einfallswinkel (i) ist gleich dem Reflexionswinkel (r).' +
+                            '</li><br>' +
+                            '<li>' +
+                                'Ebene Spiegel<br><br>' 
+                                +'Spiegel sind glatte und glänzende Oberflächen, auf denen Licht reflektiert wird.<br><br>' 
+                                +'Ebene Spiegel haben eine ebene (gerade) Oberfläche und sind diejenigen, die wir alle zu Hause haben und täglich betrachten.<br><br>' 
+                                +'Hier ist ihr Symbol (der Teil auf der Rückseite, der kein Licht reflektiert, ist schattiert):<br><br>' +
+                            '</li>' +
+                        '</ul>'    
                         +'<h2 align = center>'
                             +'<img style = "border: 2px solid #1b4188" src ="img/optica1.png" width = 100>'
                         +'</h2><br>'
                         +'<ul>'
                             +'<li>'
-                                +'Formarea imaginii unui obiect într-o oglindă plană:<br><br>'
-                                +'- Se desenează oglinda plană pe verticală.<br><br>'
-                                +'- Se trasează prin mijlocul oglinzii axa optică principală, perpendiculară pe oglindă (pe orizontală).<br><br>'
-                                +'- Se desenează obiectul AB sub forma unui segment cu săgeată, în fața oglinzii.<br><br>'
-                                +'- Se duce prima rază din vârful obiectului (B) perpendiculară pe oglindă și se prelungește punctată în spatele oglinzii (fiind perpendiculară pe suprafața oglinzii nu își schimbă direcția de propagare când se reflectă).<br><br>'
-                                +'- Se duce a doua rază din vârful obiectului (B) oblică pe oglindă se trasează raza reflectată a acesteia, respectând legile reflexiei (unghiul i = unghiul r)<br><br>'
-                                +'- Se prelungește punctată în spatele oglinzii raza reflectată, până se întâlnește cu prelungirea primei raze. Punctul de intersecție al lor se notează cu B\', care reprezintă vârful imaginii obiectului în oglindă.<br><br>'
-                                +'- Din punctul B\' se duce perpendiculară pe axa optică principală, iar piciorul perpendicularei se notează cu A\' și reprezintă baza imaginii obiectului în oglindă. Se pune vârful săgeții în B\'.'
+                                +'Bildbildung in einem ebenen Spiegel:<br><br>'
+                                +'- Der ebene Spiegel wird vertikal gezeichnet.<br><br>'
+                                +'- Die Hauptachse wird durch die Mitte des Spiegels gezeichnet, senkrecht zur Spiegeloberfläche (horizontal).<br><br>'
+                                +'- Das Objekt AB wird als Pfeil unter der Form eines Segments vor dem Spiegel gezeichnet.<br><br>'
+                                +'- Die erste Strahl von der Spitze des Objekts (B) wird senkrecht auf den Spiegel geführt und gestrichelt hinter den Spiegel verlängert (da sie senkrecht zur Spiegeloberfläche ist, ändert sie ihre Ausbreitungsrichtung nicht, wenn sie reflektiert wird).<br><br>'
+                                +'- Die zweite Strahl von der Spitze des Objekts (B) wird schräg auf den Spiegel geführt, und der reflektierte Strahl wird unter Beachtung der Reflexionsgesetze gezeichnet (Einfallswinkel = Reflexionswinkel).<br><br>'
+                                +'- Der reflektierte Strahl wird gestrichelt hinter den Spiegel verlängert, bis er sich mit der Verlängerung des ersten Strahls trifft. Der Schnittpunkt wird als B\' bezeichnet und stellt die Spitze des Bildes des Objekts im Spiegel dar.<br><br>'
+                                +'- Von B\' wird senkrecht zur Hauptachse geführt, und der Fuß des Senkrechten wird als A\' bezeichnet und stellt die Basis des gebildeten Bildes des Objekts im Spiegel dar. Die Spitze des Pfeils wird in B\' platziert.'
                             +'</li>'
                         +'</ul>'
                         +'<h2 align = center>' +
                         '<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>' +
-                    '</h2><br>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Caracteristicile imaginii A\'B\':<br><br>' +
-                            '- Virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (în spatele oglinzii)<br><br>' +
-                            '- Dreaptă<br><br>' +
-                            '- Egală cu obiectul AB (y<sub>1</sub> = y<sub>2</sub>)' +
-                            '- Ob. și Im. sunt simetrice față de oglindă' +
-                            'Formula oglinzii plane: x<sub>2</sub> = -x<sub>1</sub>, deoarece R → ∞(nu are focare)<br><br>' +
-                            'Mărirea liniară transversală :	β = 1' +
-                        '</li>' +
-                    '</ul>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Caracterizarea imaginii (A\'B\') obiectului în oglinda plană:<br><br>' +
-                            'Ob. AB și im. A\'B\' sunt simetrice față de oglindă (imaginea se formează în spatele oglinzii, la aceeaşi distanţă faţă de oglindă ca şi obiectul).<br><br>' +
-                            'Imaginea este virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (ea nu poate fi prinsă pe ecran sau film foto).<br><br>' +
-                            'Im. A\'B\' este la fel de mare ca ob. AB.' +
-                        '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">Oglinzile sferice:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Oglinzile sferice sunt porțiuni din sfere (calote sferice) care reflectă lumina ce cade pe ele.<br><br>' +
-                            'Clasificarea oglinzilor sferice: <br><br>' +
-                            'a) Oglinzile concave reflectă cu partea interioară, scobită a suprafeței sferice (adică au partea lucioasă pe partea interioară a sferei). Ele transformă un fascicul de lumină paralel într-unul convergent.' +
-                        '</li>' +
-                    '</ul>'
-                    +'<h2 align = center>' +
-                    '<img style = "border: 2px solid #1b4188" src ="img/optica3.png" width = 300>' +
-                '</h2><br>' +
-                '<ul>' +
-                    '<li>' +
-                        'b) Oglinzile convexe reflectă cu partea exterioară, bombată a suprafeței sferice (adică au partea lucioasă pe partea exterioară a sferei). Ele transformă un fascicul de lumină paralel într-unul divergent.' +
-                    '</li>' +
-                '</ul>' +
+                        '</h2><br>' +
+                        '<ul>' +
+                            '<li>' +
+                                'Merkmale des Bildes A\'B\':<br><br>' +
+                                '- Virtuell, da es sich an der Schnittstelle der verlängerten reflektierten Strahlen bildet (hinter dem Spiegel)<br><br>' +
+                                '- Gerade<br><br>' +
+                                '- Gleich dem Objekt AB (y<sub>1</sub> = y<sub>2</sub>)<br>' +
+                                '- Objekt und Bild sind symmetrisch zur Spiegelachse<br>' +
+                                'Formel für ebenen Spiegel: x<sub>2</sub> = -x<sub>1</sub>, da R → ∞ (keine Brennpunkte)<br><br>' +
+                                'Transversale lineare Vergrößerung :	β = 1' +
+                            '</li>' +
+                        '</ul>' +
+                        '<ul>' +
+                            '<li>' +
+                                'Charakterisierung des Bildes (A\'B\') des Objekts im ebenen Spiegel:<br><br>' +
+                                'Das Objekt AB und das Bild A\'B\' sind symmetrisch zum Spiegel (das Bild bildet sich hinter dem Spiegel an derselben Stelle wie das Objekt).<br><br>' +
+                                'Das Bild ist virtuell, da es sich an der Schnittstelle der verlängerten reflektierten Strahlen bildet (es kann nicht auf einem Bildschirm oder einem Foto festgehalten werden).<br><br>' +
+                                'Das Bild A\'B\' ist genauso groß wie das Objekt AB.' +
+                            '</li><br>' +
+                        '</ul>' +
+                        '<h2 class="p-3">Sphärische Spiegel:</h2>' +
+                        '<ul>' +
+                            '<li>' +
+                                'Sphärische Spiegel sind Abschnitte von Kugeln (sphärische Schalen), die das auf sie fallende Licht reflektieren.<br><br>' +
+                                'Klassifizierung der sphärischen Spiegel: <br><br>' +
+                                'a) Konkave Spiegel reflektieren mit der inneren, eingedellten Seite der sphärischen Oberfläche (dh sie haben die glänzende Seite auf der inneren Seite der Kugel). Sie verwandeln einen parallelen Lichtstrahl in einen konvergenten Lichtstrahl.' +
+                            '</li>' +
+                        '</ul>'
+                        +'<h2 align = center>' +
+                        '<img style = "border: 2px solid #1b4188" src ="img/optica3.png" width = 300>' +
+                        '</h2><br>' +
+                        '<ul>' +
+                            '<li>' +
+                                'b) Konvexe Spiegel reflektieren mit der äußeren, gewölbten Seite der sphärischen Oberfläche (dh sie haben die glänzende Seite auf der äußeren Seite der Kugel). Sie verwandeln einen parallelen Lichtstrahl in einen divergenten Lichtstrahl.' +
+                            '</li>' +
+                        '</ul>'+
                 '<h2 align = center>' +
                     '<img style = "border: 2px solid #1b4188" src ="img/optica4.png" width = 300>' +
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formarea imaginii unui obiect într-o oglindă sferică<br><br>' +
-                        'Pentru a forma imaginea unui obiect într-o oglindă sferică trebuie să ducem minim două raze:<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă paralelă cu axa optică principală până întâlnește suprafața oglinzii și de acolo se reflectă prin focar.<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă prin centrul de curbură până se intersectează cu prima rază (aceasta se reflectă pe aceeași direcție).<br><br>' +
-                        'Cele două raze se prelungesc până se întâlnesc. Punctul lor de intersecție este vârful imaginii, A\'. Din acest punct se duce o perpendiculară pe axa optică principală. Piciorul perpendicularei, B\', este baza imaginii formate.' +
+                        'Bildbildung in einem sphärischen Spiegel<br><br>' +
+                        'Um ein Bild in einem sphärischen Spiegel zu erzeugen, müssen mindestens zwei Strahlen gezogen werden:<br><br>' +
+                        'Vom Ob. A wird eine Linie parallel zur Hauptachse bis zur Spiegeloberfläche geführt und von dort aus durch den Brennpunkt reflektiert.<br><br>' +
+                        'Vom Ob. A wird eine Linie durch den Krümmungsmittelpunkt geführt, bis sie sich mit dem ersten Strahl schneidet (dieser wird in dieselbe Richtung reflektiert).<br><br>' +
+                        'Die beiden Strahlen werden verlängert, bis sie sich treffen. Ihr Schnittpunkt ist der Bildpunkt, A\'. Von diesem Punkt wird eine Senkrechte zur Hauptachse gezogen. Der Fuß der Senkrechten, B\', ist die Basis des gebildeten Bildes.' +
                     '</li>' +
                 '</ul>' +
                 '<h2 align = center>' +
@@ -6030,221 +6036,221 @@ var data = {
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formula oglinzilor sferice:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
-                        'Mărirea liniară transversală:<br>' +
+                        'Formel für sphärische Spiegel:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
+                        'Transversale lineare Vergrößerung:<br>' +
                         'β = y<sub>2</sub> / y<sub>1</sub> = - x<sub>2</sub> / x<sub>1</sub>' +
                     '</li>' +
                 '</ul>' +
                 '<ul>' +
                     '<li>' +
-                        'Imaginea unui obiect într-o oglindă concavă depinde de distanța de la ob. la oglindă.' +
+                        'Das Bild eines Objekts in einem konkaven Spiegel hängt von der Entfernung des Objekts zum Spiegel ab.' +
                     '</li><br>' +
                     '<li>' +
-                        'Tipul oglinzii:<br><br>' +
-                        '- Concava:<br>' +
-                        '|x<sub>1</sub>| > 2|f| - Reală - Micșorată - Răsturnată<br>' +
-                        '|x<sub>1</sub>| = 2|f| - Reală - Egală - Răsturnată<br>' +
-                        '2|f| > |x<sub>1</sub>| > |f| - Reală - Mărită - Răsturnată<br>' +
-                        '|x<sub>1</sub>| < |f| - Virtuală - Mărită - Dreaptă<br><br>' +
-                        '-Convexă:<br>' +
-                        'Orice |x<sub>1</sub>| - Virtuală - Micșorată - Dreaptă' +
+                        'Art des Spiegels:<br><br>' +
+                        '- Konkav:<br>' +
+                        '|x<sub>1</sub>| > 2|f| - Real - Verkleinert - Auf dem Kopf<br>' +
+                        '|x<sub>1</sub>| = 2|f| - Real - Gleich - Auf dem Kopf<br>' +
+                        '2|f| > |x<sub>1</sub>| > |f| - Real - Vergrößert - Auf dem Kopf<br>' +
+                        '|x<sub>1</sub>| < |f| - Virtuell - Vergrößert - Aufrecht<br><br>' +
+                        '- Konvex:<br>' +
+                        'Beliebiges |x<sub>1</sub>| - Virtuell - Verkleinert - Aufrecht' +
                     '</li><br>' +
-                '</ul>' +
-                '<h2 class="p-3">Refracția luminii:</h2>' +
+                '</ul>'+
+                '<h2 class="p-3">Brechung des Lichts:</h2>' +
                 '<ul>' +
                     '<li>' +
-                        'Legile refracției luminii:<br><br>' +
-                        'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul respectiv (v).<br><br>' +
+                        'Gesetze der Lichtbrechung:<br><br>' +
+                        'Der Brechungsindex (notiert als n) eines transparenten Mediums wird durch das Verhältnis der Lichtgeschwindigkeit im Vakuum (c) zur Lichtgeschwindigkeit im jeweiligen Medium (v) gegeben.<br><br>' +
                         'n = c / v<br><br>' +
-                        'Refracția luminii este fenomenul în care lumina își schimbă direcția de propagare atunci când traversează suprafața de separație dintre două medii transparente diferite.' +
+                        'Die Brechung des Lichts ist das Phänomen, bei dem Licht seine Ausbreitungsrichtung ändert, wenn es die Trennfläche zwischen zwei verschiedenen transparenten Medien durchläuft.' +
                     '</li><br>' +
                     '<li>' +
-                        'Legile refracției<br><br>' +
-                        'Legea I a refracției:<br>' +
-                        'Raza incidentă (SI), normala la suprafața de separare (NI) și raza refractată (IR\') sunt coplanare.<br><br>' +
-                        'Legea a II-a a refracției:<br>' +
-                        'Raportul dintre unghiul de incidență(i) ș sinusul unghiului de refracție(r\') este egal cu raportul dintre indicele de refracție absolut al mediului al II-lea și indicele de refracție absolut al I mediu:<br><br>' +
+                        'Gesetze der Lichtbrechung:<br><br>' +
+                        'Erstes Brechungsgesetz:<br>' +
+                        'Der einfallende Strahl (SI), die Senkrechte zur Trennfläche (NI) und der gebrochene Strahl (IR\') liegen in einer Ebene.<br><br>' +
+                        'Zweites Brechungsgesetz:<br>' +
+                        'Das Verhältnis zwischen dem Einfallswinkel (i) und dem Sinus des Brechungswinkels (r\') ist gleich dem Verhältnis zwischen dem absoluten Brechungsindex des zweiten Mediums und dem absoluten Brechungsindex des ersten Mediums:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
-                        'n<sub>21</sub> = indicele de refracție al mediului al II-lea față de primul' +
+                        'n<sub>21</sub> = Brechungsindex des zweiten Mediums zum ersten' +
                     '</li><br>' +
                     '<li>' +
-                        'Consecințele refracției luminii:<br><br>' +
-                        'Consecințele refracției luminii au loc datorită schimbării direcţiei razei refractate faţă de direcţia razei incidente, modificând imaginea obiectelor aflate în apă:<br><br>' +
-                        '- Un corp aflat în apă pare rupt la suprafața apei, ca și cum partea din apă a corpului nu este în continuarea celei din aer.<br><br>' +
-                        '- Un corp aflat în apă este perceput de ochiul nostru mai la suprafaţă decât este el în realitate. Astfel apele limpezi sunt mult mai adânci decât par.<br><br>' +
-                        '- Obiectele aflate în apă par mai mari decât în realitate, apa comportându-se ca o lupă.<br><br>'+
-                        '</li>'+
-                    '</ul>'
-                    +'<h2 class="p-3">Prisma optică:</h2>' +
+                        'Konsequenzen der Lichtbrechung:<br><br>' +
+                        'Die Konsequenzen der Lichtbrechung treten aufgrund der Änderung der Richtung des gebrochenen Strahls im Vergleich zur Richtung des einfallenden Strahls auf und ändern das Bild von Objekten im Wasser:<br><br>' +
+                        '- Ein Objekt im Wasser erscheint an der Wasseroberfläche gebrochen, als ob der im Wasser befindliche Teil des Körpers nicht mit dem in der Luft befindlichen Teil verbunden wäre.<br><br>' +
+                        '- Ein im Wasser befindliches Objekt wird von unserem Auge oberflächlicher wahrgenommen, als es tatsächlich ist. Daher wirken klare Gewässer viel tiefer als sie erscheinen.<br><br>' +
+                        '- Objekte im Wasser erscheinen größer als sie tatsächlich sind, da sich das Wasser wie eine Lupe verhält.<br><br>' +
+                    '</li>'+
+                '</ul>' +
+                '<h2 class="p-3">Optisches Prisma:</h2>' +
+                '<ul>' +
+                    '<li>' +
+                        'Brechung von monochromatischem Licht im optischen Prisma:<br><br>' +
+                        'Ein Prisma ist ein transparentes Medium (mit dem Brechungsindex n), begrenzt durch zwei plane Flächen, die einen dihedralen Winkel bilden, genannt der Prismenwinkel (A).<br><br>' +
+                    '</li>' +
+                '</ul>' +
+                '<h2 align = center>' +
+                    '<img style = "border: 2px solid #1b4188" src ="img/optica6.png" width = 300>' +
+                '</h2><br>' +
+                '<ul>' +
+                    '<li>' +
+                        'Wenn der einfallende Strahl (SI) auf die Fläche AB des Prismas fällt, wird er (erster gebrochener Strahl II\') in Richtung der Senkrechten NI (n<sub>Luft</sub> < n<sub>Prisma</sub>) gebrochen gemäß dem Gesetz:<br>' +
+                        'sin i = n ∙ sin r<br><br>' +
+                        'Der Strahl II\' wird beim Auftreffen auf die Fläche AC des Prismas am Punkt I\' gebrochen und entfernt sich von der Senkrechten NN\' (n<sub>Prisma</sub> > n<sub>Luft</sub>), gemäß dem Gesetz:<br>' +
+                        'n ∙ sin r\' = sin i\'<br><br>' +
+                        'Der Winkel zwischen der Richtung des einfallenden Strahls (SI) und der Richtung des austretenden Strahls (I\'R) wird als Ablenkwinkel (δ) bezeichnet, der den Wert hat:<br>' +
+                        'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
+                    '</li>' +
+                '</ul>'+
                     '<ul>' +
                         '<li>' +
-                            'Refracția luminii monocromatice în prisma optică:<br><br>' +
-                            'Prisma este un mediu transparent (cu indicele de refracție n) mărginit de două fețe plane, care fac între ele un unghi diedru, numit unghiul prismei (A).<br><br>' +
-                        '</li>' +
-                    '</ul>' +
-                    '<h2 align = center>' +
-                        '<img style = "border: 2px solid #1b4188" src ="img/optica6.png" width = 300>' +
-                    '</h2><br>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Când raza incidentă (SI) cade pe fața AB a prismei se refractă (prima rază refractată II\'), apropiindu-se de normala NI (n<sub>aer</sub> < n<sub>prismă</sub>) după legea:<br>' +
-                            'sin i = n ∙ sin r<br><br>' +
-                            'Raza II\' se refractă la căderea pe fața AC a prismei în punctul I\', depărtându-se de normala NN\' (n<sub>prismă</sub> > n<sub>aer</sub>), după legea:<br>' +
-                            'n ∙ sin r\' = sin i\'<br><br>' +
-                            'Unghiul dintre direcția razei incidente (SI) și direcția razei emergente (I\'R) se numește unghi de deviație (δ) care are valoarea:<br>' +
-                            'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
-                        '</li>' +
-                    '</ul>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Pentru a stabili condiția de emergență (adică raza incidentă să iasă din prismă) trebuie să nu aibă loc reflexia totală a razei II\' pe fața AC, adică:<br>' +
-                            'r\' ≤ l (unghiul limită).<br><br>' +
-                            'Cum A = r + r\' → r\' = A – r<br>' +
+                            'Um die Austrittsbedingung festzulegen (dh dass der einfallende Strahl das Prisma verlässt), darf keine Totalreflexion des Strahls II\' an der Fläche AC auftreten, dh:<br>' +
+                            'r\' ≤ l (Grenzwinkel).<br><br>' +
+                            'Da A = r + r\' → r\' = A – r<br>' +
                             'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
-                            'Dar din prima lege a refracției avem:<br>' +
+                            'Aber gemäß dem ersten Brechungsgesetz haben wir:<br>' +
                             'sin r = sin i / n <br>' +
                             'sin i / n >= sin (A - l)<br><br>' +
                         '</li>' +
                         '<li>' +
-                            'Unghiul maxim de incidență este<br>' +
+                            'Der maximale Einfallswinkel ist<br>' +
                             'i = 90° → sin 90° = 1 <br>' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
-                            'sin l >= sin(A-l) sau A <= 2 ∙ 1<br>' +
+                            'sin l >= sin(A-l) oder A <= 2 ∙ 1<br>' +
                             'sin l = 1 / n → 1 = arc sin 1 / n<br>' +
                         '</li>' +
                         '<li>' +
-                            'O rază incidentă pe prismă poate ieși din prismă dacă unghiul ei refringent (A) îndeplinește condiția:<br>' +
+                            'Ein einfallender Strahl auf das Prisma kann das Prisma verlassen, wenn sein Brechungswinkel (A) die Bedingung erfüllt:<br>' +
                             'A ≤ 2 ∙ arc sin 1/n<br><br>' +
-                            'Dacă prisma are A > 2 ∙ arc sin 1/n, toate razele incidente pe prismă se vor reflecta total pe fața AC.' +
+                            'Wenn das Prisma A > 2 ∙ arc sin 1/n hat, werden alle auf das Prisma auftreffenden Strahlen vollständig an der Fläche AC reflektiert.' +
                         '</li><br>' +
                         '<li>' +
-                            'Când unghiul de incidență (i) variază și unghiul de deviație (δ) variază, luând întotdeauna valori mai mari decât o anumită valoare minimă (δ<sub>m</sub>).<br><br>' +
-                            'Când i = i\' și r = r\' obținem valoarea unghiul de deviație minimă (δ<sub>m</sub>):<br>' +
+                            'Wenn der Einfallswinkel (i) und der Ablenkwinkel (δ) variieren und immer Werte größer als einen bestimmten minimalen Wert (δ<sub>m</sub>) annehmen.<br><br>' +
+                            'Wenn i = i\' und r = r\', erhalten wir den Wert des minimalen Ablenkwinkels (δ<sub>m</sub>):<br>' +
                             'δ<sub>m</sub> = 2 ∙ i – A<br><br>' +
-                            'Dacă măsurăm experimental unghiul de deviație minimă se poate determina indicele de refracție al prismei cu formula:<br>' +
+                            'Wenn wir experimentell den minimalen Ablenkwinkel messen, kann der Brechungsindex des Prismas mit der Formel bestimmt werden:<br>' +
                             'n = sin((A + <sub>m</sub>) / 2) / sin (A / 2)' +
                         '</li><br>' +
-                    '</ul>'
-                    +'<h2 class="p-3">' + 'Tipuri de lentile:' + '</h2>' + 
+                    '</ul>'+
+                    '<h2 class="p-3">' + 'Arten von Linsen:' + '</h2>' + 
                     '<ul>' + 
                         '<li>' + 
-                            'Lentilele sunt corpuri transparente care au cel puțin o suprafață sferică.<br><br>' + 
-                            'Elementele unei lentile :<br><br>' + 
-                            'Axa optică principală care se trasează prin mijlocul lentilei.<br><br>' + 
-                            'Centrul optic al lentilei (O) aflat la intersecția lentilei cu axa optică principală.<br><br>' + 
-                            'Două focare așezate de-o parte și de alta față de centrul optic al lentilei, la distanțe egale.<br><br>' + 
-                            'Focarul aflat în partea stângă față de O se numește focar negativ / obiect (F<sub>1</sub>), deoarece se află pe axa numerelor negative.<br><br>' + 
-                            'Focarul aflat în partea dreaptă față de O se numește focar pozitiv / imagine (F<sub>2</sub>), deoarece se află pe axa numerelor pozitive.<br><br>' + 
-                            'Centrele de curbură (C<sub>1</sub> și C<sub>2</sub>) ale dioptrilor care mărginesc lentila aflate de-o parte și de alta față de O, la o distanță dublă față de OF.' + 
+                            'Linsen sind transparente Körper, die mindestens eine sphärische Oberfläche haben.<br><br>' + 
+                            'Die Elemente einer Linse:<br><br>' + 
+                            'Die Hauptoptikachse, die durch die Mitte der Linse gezogen wird.<br><br>' + 
+                            'Das optische Zentrum der Linse (O), das sich am Schnittpunkt der Linse mit der Hauptoptikachse befindet.<br><br>' + 
+                            'Zwei Brennpunkte, die jeweils auf einer Seite des optischen Zentrums der Linse in gleicher Entfernung liegen.<br><br>' + 
+                            'Der Brennpunkt auf der linken Seite von O wird als negativer Brennpunkt / Objekt (F<sub>1</sub>) bezeichnet, da er sich auf der negativen Zahlenachse befindet.<br><br>' + 
+                            'Der Brennpunkt auf der rechten Seite von O wird als positiver Brennpunkt / Bild (F<sub>2</sub>) bezeichnet, da er sich auf der positiven Zahlenachse befindet.<br><br>' + 
+                            'Die Krümmungszentren (C<sub>1</sub> und C<sub>2</sub>) der Dioptrien, die die Linse begrenzen, befinden sich jeweils auf einer Seite von O, in doppelter Entfernung von OF.' + 
                         '</li>' + 
                     '</ul>' + 
-                    '<h2 class="p-3">' + 'Clasificarea lentilelor:' + '</h2>' + 
+                    '<h2 class="p-3">' + 'Klassifizierung der Linsen:' + '</h2>' + 
                     '<ul>' + 
-                        '- <b>Lentile convergente</b> (convexe) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul convergent. Ele refractă lumina prin focarul pozitiv și de aceea se mai numesc și lentile pozitive. Ele măresc scrisul. Sunt mai groase la mijloc și mai subțiri la capete.<br><br>' + 
-                        '- <b>Lentile divergente</b> (concave) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul divergent. Ele refractă lumina prin focarul negativ și de aceea se mai numesc și lentile negative. Ele micșorează scrisul. Sunt mai groase la capete și mai subțiri la mijloc.<br><br>' + 
+                        '- <b>Konvergente Linsen</b> (konvex) sind Linsen, die einen parallelen Lichtstrahl in einen konvergenten Lichtstrahl umwandeln. Sie brechen das Licht durch den positiven Brennpunkt und werden daher auch als positive Linsen bezeichnet. Sie vergrößern das Schreiben. Sie sind in der Mitte dicker und an den Enden dünner.<br><br>' + 
+                        '- <b>Divergente Linsen</b> (konkav) sind Linsen, die einen parallelen Lichtstrahl in einen divergenten Lichtstrahl umwandeln. Sie brechen das Licht durch den negativen Brennpunkt und werden daher auch als negative Linsen bezeichnet. Sie verkleinern das Schreiben. Sie sind an den Enden dicker und in der Mitte dünner.<br><br>' + 
                         '<li>' + 
-                            'Formarea imaginii unui obiect în lentile: <br><br>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă convergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei convergente.<br>' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.<br>' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă), printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul pozitiv (F<sub>2</sub>), deoarece lentila convergentă refractă lumina prin focarul pozitiv.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.'+
-                            '</li><br></br>'+
+                            'Bildung des Bildes eines Objekts in Linsen: <br><br>' + 
+                            'Um das Bild eines Objekts in einer konvergenten Linse zu erzeugen, müssen wir zwei Strahlen zeichnen:<br><br>' + 
+                            '- Wir zeichnen das Symbol der konvergenten Linse.<br>' + 
+                            '- Wir zeichnen die Hauptoptikachse durch ihre Mitte.<br>' + 
+                            '- Wir setzen die Elemente der Linse (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Wir zeichnen das Objekt (AB) vor der Linse (auf der linken Seite) als Segment mit einem Pfeil.<br>' + 
+                            '- Wir ziehen einen Strahl vom oberen Ende des Objekts (B) parallel zur Hauptoptikachse, bis er auf die Linse trifft, und lenken ihn dann durch den positiven Brennpunkt (F<sub>2</sub>), da die konvergente Linse das Licht durch den positiven Brennpunkt bricht.<br>' + 
+                            '- Wir ziehen einen zweiten Strahl vom oberen Ende des Objekts, der durch das optische Zentrum der Linse (O) verläuft. Wir verlängern diese Strahlen, bis sie sich schneiden. An ihrem Schnittpunkt setzen wir B\', das der obere Punkt des Bildes (im) des Objekts (ob) AB ist.<br>' + 
+                            '- Von B\' ziehen wir eine Senkrechte zur Hauptoptikachse, deren Fuß wir mit A\' bezeichnen, und dies bildet die Basis im A\'B\'.<br>' + 
+                            '- Wir setzen den Pfeilkopf in B\' und erhalten so das Bild des Objekts AB in der konvergenten Linse.'+
+                        '</li><br></br>'+
                         '<li>' + 
-                            'În funcție de distanța obiectului față de lentilă, avem trei tipuri de imagini în lentila convergentă.<br><br>' + 
-                            'I. Când obiectul este situat în intervalul (-∞) și C, imaginea obiectului are următoarele caracteristici :<br>' + 
-                            '- Mai mică decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'II. Când obiectul este situat în intervalul C și F1, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'III. Când obiectul este situat în intervalul F1 și O, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
+                            'In Abhängigkeit von der Entfernung des Objekts von der Linse gibt es drei Arten von Bildern in einer konvergierenden Linse.<br><br>' + 
+                            'I. Wenn sich das Objekt im Bereich (-∞) bis C befindet, hat das Bild des Objekts folgende Eigenschaften:<br>' + 
+                            '- Kleiner als das Objekt AB.<br>' + 
+                            '- Verkehrt herum<br>' + 
+                            '- Real (es entsteht an der Schnittstelle der gebrochenen Strahlen und kann auf einen Bildschirm projiziert werden).<br><br>' + 
+                            'II. Wenn sich das Objekt im Bereich von C bis F1 befindet, hat das Bild des Objekts folgende Eigenschaften:<br>' + 
+                            '- Größer als das Objekt AB.<br>' + 
+                            '- Verkehrt herum<br>' + 
+                            '- Real (es entsteht an der Schnittstelle der gebrochenen Strahlen und kann auf einen Bildschirm projiziert werden).<br><br>' + 
+                            'III. Wenn sich das Objekt im Bereich von F1 bis O befindet, hat das Bild des Objekts folgende Eigenschaften:<br>' + 
+                            '- Größer als das Objekt.<br>' + 
+                            '- Aufrecht<br>' + 
+                            '- Virtual (es entsteht an der Schnittstelle der Verlängerungen der gebrochenen Strahlen und kann nicht auf einen Bildschirm projiziert werden).' + 
                         '</li><br>' + 
                         '<li>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă divergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei divergente.' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă) printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul negativ (F<sub>1</sub>), deoarece lentila divergentă refractă lumina prin focarul negativ.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.<br>' + 
+                            'Um das Bild eines Objekts in einer divergierenden Linse zu erzeugen, müssen wir zwei Strahlen zeichnen:<br><br>' + 
+                            '- Zeichnen Sie das Symbol der divergierenden Linse.<br>' + 
+                            '- Zeichnen Sie durch ihre Mitte die Hauptoptikachse.<br>' + 
+                            '- Legen Sie die Elemente der Linse fest (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Zeichnen Sie das Objekt (AB) vor der Linse (links) als Segment mit Pfeil.<br>' + 
+                            '- Zeichnen Sie einen Strahl, der vom Spitze des Objekts (B) parallel zur Hauptachse ausgeht, bis er die Linse trifft, und führen Sie ihn dann durch den negativen Brennpunkt (F<sub>1</sub>), da die divergierende Linse das Licht durch den negativen Brennpunkt bricht.<br>' + 
+                            '- Zeichnen Sie den zweiten Strahl von der Spitze des Objekts, der durch das optische Zentrum der Linse (O) verläuft. Verlängern Sie diese Strahlen, bis sie sich schneiden. An ihrem Schnittpunkt setzen wir B\', das der Spitze des Bildes (im) des Objekts (ob) AB entspricht.<br>' + 
+                            '- Von B\' aus ziehen wir eine Senkrechte zur Hauptachse, deren Fuß wir mit A\' bezeichnen, und dies entspricht der Basis im A\'B\'.<br>' + 
+                            '- Legen Sie den Pfeilkopf in B\', und so erhalten Sie das Bild des Objekts AB in der konvergierenden Linse.<br>' + 
                         '</li><br>' + 
                         '<li>' + 
-                            'În lentila divergentă obținem o imagine care are aceleași caracteristici indiferent de distanța obiectului față de lentilă:<br><br>' + 
-                            '- Mai mică decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
-                        '</li>'+
+                            'In einer divergierenden Linse erhalten wir ein Bild, das unabhängig von der Entfernung des Objekts von der Linse die folgenden Merkmale aufweist:<br><br>' + 
+                            '- Kleiner als das Objekt.<br>' + 
+                            '- Aufrecht<br>' + 
+                            '- Virtual (es entsteht an der Schnittstelle der Verlängerungen der gebrochenen Strahlen und kann nicht auf einen Bildschirm projiziert werden).' + 
+                        '</li>'+                        
                     '</ul>'+
-                    '<h2 class="p-3">Formulele lentilelor subțiri:</h2>' +
+                    '<h2 class="p-3">Formeln für dünne Linsen:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Convenții de semne:<br><br>' +
-                            'x<sub>1</sub> = distanța de la obiectul AB la lentilă care se ia tot timpul negativă deoarece este pe axa numerelor negative.<br><br>' +
-                            'x<sub>2</sub> = distanța de la imaginea A\'B\' la lentilă care se ia pozitivă când imaginea este reală (se formează în spatele lentilei, pe axa numerelor pozitive) și negativ când imaginea este virtuală (se formează în fața lentilei, pe axa numerelor negative).<br><br>' +
-                            'y<sub>1</sub> = înălțimea obiectului AB care se ia pozitivă dacă obiectul este deasupra axei optice principale și negativă dacă obiectul este sub axa optică principală.<br><br>' +
-                            'y<sub>2</sub> = înălțimea imaginii A\'B\' se ia pozitivă când imaginea este dreaptă (deasupra axei optice principale) sau negativă când imaginea este răsturnată (sub axa optică principală).<br><br>' +
-                            'Distanța focală se consideră pozitivă (f > 0) pentru lentilele convergente și negativă (f < 0) pentru lentilele divergente.' +
+                            'Vorzeichenkonventionen:<br><br>' +
+                            'x<sub>1</sub> = Abstand vom Objekt AB zur Linse, der immer negativ genommen wird, da er auf der Achse der negativen Zahlen liegt.<br><br>' +
+                            'x<sub>2</sub> = Abstand vom Bild A\'B\' zur Linse, der positiv genommen wird, wenn das Bild real ist (es hinter der Linse entsteht, auf der Achse der positiven Zahlen) und negativ, wenn das Bild virtuell ist (es vor der Linse entsteht, auf der Achse der negativen Zahlen).<br><br>' +
+                            'y<sub>1</sub> = Höhe des Objekts AB, die positiv genommen wird, wenn das Objekt über der Hauptachse liegt, und negativ, wenn das Objekt unterhalb der Hauptachse liegt.<br><br>' +
+                            'y<sub>2</sub> = Höhe des Bildes A\'B\', die positiv genommen wird, wenn das Bild aufrecht ist (über der Hauptachse) und negativ, wenn das Bild umgekehrt ist (unterhalb der Hauptachse).<br><br>' +
+                            'Die Brennweite wird als positiv betrachtet (f > 0) für konvergierende Linsen und als negativ (f < 0) für divergierende Linsen.' +
                         '</li><br>' +
                         '<li>' +
-                            'Formula fundamentală a lentilelor subțiri:<br><br>' +
-                            '(1 / x<sub>2</sub>) -(1 / x<sub>1</sub>) = 1 / f' +
+                            'Grundformel für dünne Linsen:<br><br>' +
+                            '(1 / x<sub>2</sub>) - (1 / x<sub>1</sub>) = 1 / f' +
                         '</li><br>' +
                         '<li>' +
-                            'Mărirea liniară transversală (β) este o mărime fizică adimensională egală cu raportul dintre înălțimea imaginii și înălțimea obiectului.<br><br>' +
+                            'Die lineare transversale Vergrößerung (β) ist eine dimensionslose physikalische Größe, die dem Verhältnis der Bildhöhe zur Objekthöhe entspricht.<br><br>' +
                             'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>' +
                         '</li><br>' +
                         '<li>' +
-                            'Convergența unei lentile (C) este o mărime fizică egală cu inversul distanței focale (f).<br><br>' +
+                            'Die Konvergenz einer Linse (C) ist eine physikalische Größe, die dem Kehrwert der Brennweite (f) entspricht.<br><br>' +
                             'C = 1 / f<br><br>' +
-                            '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(dioptrie)<br>' +
-                            'Lentilă convergentă are C > 0 <br><br>' +
-                            'Lentilă divergentă are C < 0' +
+                            '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(Dioptrie)<br>' +
+                            'Konvergierende Linse hat C > 0 <br><br>' +
+                            'Divergierende Linse hat C < 0' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">Asociații de lentile:</h2>' +
+                    '<h2 class="p-3">Linsenassoziationen:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Un sistem format din două sau mai multe lentile care au aceeași axă optică principală se numește <b>asociație de lentile</b>.<br><br>' +
-                            'Imaginea formată de prima lentilă devine obiect pentru lentila următoare și așa mai departe până la ultima lentilă care va da imaginea finală.' +
+                            'Ein System aus zwei oder mehreren Linsen, die dieselbe Hauptachse haben, wird als <b>Linsenassoziation</b> bezeichnet.<br><br>' +
+                            'Das Bild, das von der ersten Linse erzeugt wird, wird zum Objekt für die nächste Linse und so weiter bis zur letzten Linse, die das endgültige Bild liefert.' +
                         '</li>' +
                         '<li>' +
-                            'Cel mai utilizat sistem este cel cu lentile alipite (acolate) în care distanța (d) dintre lentile este zero, având același centru optic și focarul imagine (F<sub>2</sub>) al primei lentile (L) coincide cu focarul obiect (F\'2).<br><br>' +
-                            'Pentru un astfel de sistem format din k lentile avem:<br><br>' +
-                            '1. Inversul distanței focale a sistemului de lentile (F) este egal cu suma inverselor distanțelor focale a lentilelor asociației:<br><br>' +
+                            'Das am häufigsten verwendete System ist dasjenige mit aneinandergefügten (akkommodierten) Linsen, bei dem der Abstand (d) zwischen den Linsen null beträgt und der Bildfokus (F<sub>2</sub>) der ersten Linse (L) mit dem Objektfokus (F\'<sub>2</sub>) zusammenfällt.<br><br>' +
+                            'Für ein solches System aus k Linsen haben wir:<br><br>' +
+                            '1. Das Kehrwert der Brennweite des Linsensystems (F) ist gleich der Summe der Kehrwerte der Brennweiten der Linsen der Assoziation:<br><br>' +
                             '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>' +
-                            '2. Convergența sistemului (C) este egală cu suma convergențelor lentilelor componente:<br><br>' +
+                            '2. Die Konvergenz des Systems (C) ist gleich der Summe der Konvergenzen der Komponentenlinsen:<br><br>' +
                             'C = C<sub>1</sub> + C<sub>2</sub> +...+ C<sub>k</sub><br><br>' +
-                            '3. Mărirea liniară transversală a sistemului (β) este egală cu produsul măririlor transversale a lentilelor componente:<br><br>' +
+                            '3. Die transversale lineare Vergrößerung des Systems (β) entspricht dem Produkt der transversalen Vergrößerungen der Komponentenlinsen:<br><br>' +
                             'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙… β<sub>k</sub><br><br>' +
-                            'Dacă notăm cu x\'2 distanța de la imaginea finală la lentila a doua L2 și cu x1 distanța de la obiect la prima lentilă L1, avem relația :<br><br>' +
+                            'Wenn wir mit x\'2 den Abstand vom endgültigen Bild zur zweiten Linse L2 und mit x1 den Abstand vom Objekt zur ersten Linse L1 bezeichnen, haben wir die Beziehung:<br><br>' +
                             '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C' +
                         '</li>' +
                         '<li>' +
-                            'Un alt sistem de lentile este sistemul telescopic care este un sistem afocal, în care fasciculul de ieșire (emergent), provenit dintr-un fascicul paralel, este tot paralel. Focarul imagine al primei lentile (F2) coincide cu focarul obiect al celei de-a doua lentilă (F\'<sub>1</sub>).<br><br>' +
-                            '1. Distanța dintre lentile este:<br><br>' +
+                            'Ein weiteres Linsensystem ist das Teleskop-System, das ein afokales System ist, bei dem der austretende Strahl (emergent), der aus einem parallelen Strahl stammt, ebenfalls parallel ist. Der Bildfokus der ersten Linse (F2) fällt mit dem Objektfokus der zweiten Linse (F\'<sub>1</sub>) zusammen.<br><br>' +
+                            '1. Der Abstand zwischen den Linsen beträgt:<br><br>' +
                             'd = f<sub>1</sub> + f<sub>2</sub><br><br>' +
-                            '2. Mărirea liniară transversală este:<br><br>' +
+                            '2. Die transversale lineare Vergrößerung ist:<br><br>' +
                             'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>' +
-                            'Pentru a afla poziția (x\'1) a imaginii intermediare față de prima lentilă (L<sub>1</sub>) și dimensiunea imaginii formată de prima lentilă, aplicăm formula punctelor conjugate pentru L<sub>1</sub>:<br><br>' +
+                            'Um die Position (x\'1) des Zwischenbildes vor der ersten Linse (L<sub>1</sub>) und die Größe des Bildes, das von der ersten Linse erzeugt wird, zu berechnen, wenden wir die Formel für konjugierte Punkte für L<sub>1</sub> an:<br><br>' +
                             'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>' +
                             'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>' +
-                            'Știind distanța dintre lentile putem calcula poziția imaginii intermediare (formată de L<sub>1</sub>) față de lentila L<sub>2</sub>:<br><br>' +
+                            'Indem wir den Abstand zwischen den Linsen kennen, können wir die Position des Zwischenbildes (von L<sub>1</sub> erzeugt) relativ zur Linse L<sub>2</sub> berechnen:<br><br>' +
                             'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>' +
                             'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>' +
-                            'Pentru a afla poziția (x\'2) a imaginii finale față de a doua lentilă (L<sub>2</sub>) și dimensiunea imaginii formată de a doua lentilă, aplicăm formula punctelor conjugate pentru L<sub>2</sub>:<br><br>' +
+                            'Um die Position (x\'2) des endgültigen Bildes relativ zur zweiten Linse (L<sub>2</sub>) und die Größe des Bildes, das von der zweiten Linse erzeugt wird, zu finden, wenden wir die Formel für konjugierte Punkte für L<sub>2</sub> an:<br><br>' +
                             'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>' +
                             'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>' +
                         '</li>' +
@@ -6252,162 +6258,168 @@ var data = {
 
                     //Optica ondulatorie
                     '<a name="element_target"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Optica Ondulatorie</h2><br><br><br></u>' +
-                    '<h2 class="p-3">Dispersia luminii:</h2>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Optische Wellenlehre</h2><br><br><br></u>' +
+                    '<h2 class="p-3">Lichtdispersion:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            '<b>OPTICA</b> este o ramură a fizicii care studiază natura, proprietățile și fenomenele suferite de lumină.<br><br>' +
-                            'Optica este alcătuită din trei părți:<br><br>' +
-                            '1. Optica geometrică care operează cu raze de lumină (direcțiile de propagare ale luminii), neluând în considerare natura luminii. Ca fenomene studiate avem reflexia, refracția și reflexia totală a luminii.<br><br>' +
-                            '2. Optica ondulatorie studiază fenomenele de interferență, difracție și polarizare, în care se relevă caracterul de undă al luminii, mai precis ca undă (radiație) electromagnetică.<br><br>' +
-                            '3. Optica fotonică (corpusculară) studiază efectul fotoelectric, efectul Compton, emisia și absorbția luminii etc. care scot în evidență natura corpusculară a luminii (fotoni).<br><br>' +
-                            'Dispersia luminii albe a fost studiată prima dată de către Newton în 1672, când a obținut spectrul luminii albe pe o prismă optică.<br><br>' +
-                            'Fenomenul de variație a indicelui de refracție cu lungimea de undă se numește dispersia luminii.<br><br>' +
-                            'Astfel, când lumina trece printr-o prismă, ea se descompune în fascicule colorate în culorile curcubeului.<br><br>' +
-                            'Prin vid toate undele electromagnetice se propagă cu aceeași viteză, indiferent de lungimea lor de undă și prin urmare spunem că vidul este un mediu nedispersiv. Dacă prisma ar fi vidată, un fascicul de lumină albă nu s-ar descompune, ci numai ar fi deviat de la direcția incidentă prin fenomenul de refracție (adică schimbarea direcției de propagare la trecerea dintr-un mediu în altul).<br><br>' +
-                            'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul repectiv (v).<br><br>' +
+                            '<b>OPTIK</b> ist ein Bereich der Physik, der die Natur, die Eigenschaften und die Phänomene des Lichts untersucht.<br><br>' +
+                            'Die Optik besteht aus drei Teilen:<br><br>' +
+                            '1. Die geometrische Optik, die mit Lichtstrahlen (Ausbreitungsrichtungen des Lichts) arbeitet, ohne die Natur des Lichts zu berücksichtigen. Zu den untersuchten Phänomenen gehören Reflexion, Brechung und Totalreflexion des Lichts.<br><br>' +
+                            '2. Die Wellenoptik untersucht Phänomene wie Interferenz, Beugung und Polarisation, bei denen der Wellencharakter des Lichts, genauer gesagt als elektromagnetische Welle, hervorgehoben wird.<br><br>' +
+                            '3. Die photonische (korpuskulare) Optik untersucht Phänomene wie den photoelektrischen Effekt, den Compton-Effekt, die Emission und Absorption von Licht usw., die die korpuskulare Natur des Lichts (Photonen) verdeutlichen.<br><br>' +
+                            'Die Dispersion von weißem Licht wurde erstmals von Newton im Jahr 1672 untersucht, als er das Spektrum des weißen Lichts an einem optischen Prisma erhielt.<br><br>' +
+                            'Das Phänomen der Änderung des Brechungsindexes mit der Wellenlänge wird Lichtdispersion genannt.<br><br>' +
+                            'Wenn Licht durch ein Prisma fällt, wird es in farbige Strahlen im Spektrum des Regenbogens zerlegt.<br><br>' +
+                            'Im Vakuum breiten sich alle elektromagnetischen Wellen mit derselben Geschwindigkeit aus, unabhängig von ihrer Wellenlänge, und daher sagen wir, dass das Vakuum ein nicht dispersives Medium ist. Wenn das Prisma evakuiert würde, würde ein Strahl weißen Lichts nicht zerlegt, sondern nur durch Brechung von der Einfallrichtung abgelenkt werden (d. h. die Änderung der Ausbreitungsrichtung beim Übergang von einem Medium in ein anderes).<br><br>' +
+                            'Der Brechungsindex (mit n bezeichnet) eines transparenten Mediums wird durch das Verhältnis der Lichtgeschwindigkeit im Vakuum (c) zur Lichtgeschwindigkeit im jeweiligen Medium (v) bestimmt.<br><br>' +
                             'n = c / v<br><br>' +
-                            'c = viteza luminii în vid = 300.000.000 m/s<br><br>' +
-                            'v = viteza luminii în mediul respectiv<br><br>' +
-                            'Toate mediile transparente (apa, sticla, diamantul etc.) caracterizate de un anumit indice de refracție mai mare decât unu, produc dispersia luminii.<br><br>' +
-                            'Dar indicele de refracție este constant numai pentru lumina monocromatică.<br><br>' +
-                            'Pentru lumina albă, alcătuită din șapte radiații de culori diferite și lungimi de undă diferite, indicele de refracție nu mai este constant, ci variază cu lungimea de undă a acestor lumini.<br><br>' +
-                            'Dacă indicele de refracție al unei prisme variază, prisma va refracta sub diferite unghiuri aceste lumini.<br><br>' +
-                            'În general, la difuzia normală, în aceste medii transparente indicele de refracție crește cu scăderea lungimii de undă, astfel razele violete (au o lungime de undă mai mică, 400 nm) vor fi refractate mai puternic decât cele roșii (cu lungimea de undă mai mare, 700 nm, decât cele violet).<br><br>' +
-                            'Dacă λ<sub>violetă</sub> < λ<sub>roșie</sub> → n<sub>violetă</sub> > n<sub>roșie</sub> → v<sub>violetă</sub> < v<sub>roșie</sub>.<br><br>' +
-                            'Fasciculele colorate trec prin prismă cu viteze diferite și de aceea ies din prismă sub unghiuri diferite.<br><br>' +
-                            'Razele violet ies mai puțin înclinate față de axa optică, deoarece se propagă cu o viteză mai mică prin materialul prismei decât raza roșie, străbătând în același timp o distanță mai mică decât cea roșie.<br><br>' +
+                            'c = Lichtgeschwindigkeit im Vakuum = 300.000.000 m/s<br><br>' +
+                            'v = Lichtgeschwindigkeit im jeweiligen Medium<br><br>' +
+                            'Alle transparenten Medien (Wasser, Glas, Diamant usw.), die durch einen Brechungsindex größer als eins gekennzeichnet sind, erzeugen Lichtdispersion.<br><br>' +
+                            'Der Brechungsindex ist jedoch nur für monochromatisches Licht konstant.<br><br>' +
+                            'Für weißes Licht, das aus sieben verschiedenen Farben und Wellenlängen besteht, ist der Brechungsindex nicht konstant, sondern variiert mit der Wellenlänge dieses Lichts.<br><br>' +
+                            'Wenn der Brechungsindex eines Prismas variiert, wird das Prisma diese Lichter unter verschiedenen Winkeln brechen.<br><br>' +
+                            'Im Allgemeinen nimmt der Brechungsindex in diesen transparenten Medien bei normaler Dispersion mit abnehmender Wellenlänge zu, sodass violettes Licht (mit einer kürzeren Wellenlänge von 400 nm) stärker gebrochen wird als rotes Licht (mit einer längeren Wellenlänge von 700 nm).<br><br>' +
+                            'Wenn λ<sub>violett</sub> < λ<sub>rot</sub> → n<sub>violett</sub> > n<sub>rot</sub> → v<sub>violett</sub> < v<sub>rot</sub>.<br><br>' +
+                            'Die farbigen Strahlen treten mit unterschiedlichen Geschwindigkeiten durch das Prisma aus und deshalb treten sie unter verschiedenen Winkeln aus dem Prisma aus.<br><br>' +
+                            'Die violetten Strahlen treten weniger geneigt zur optischen Achse aus, da sie sich langsamer durch das Material des Prismas bewegen als der rote Strahl und gleichzeitig eine kürzere Strecke als der rote Strahl zurücklegen.<br><br>' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">Interferența luminii:</h2>'+
+                    '<h2 class="p-3">Lichtinterferenz:</h2>' +
                     '<ul>' +
+                        '<li>' +
+                            'Lichtinterferenz im Young-Experiment.<br><br>' +
+                            'INTERFERENZ ist das Phänomen der Überlagerung von zwei kohärenten Wellen (mit der gleichen Frequenz und der gleichen Phasenverschiebung), die sich an einem Punkt im Raum treffen.<br><br>' +
+                            'An bestimmten Punkten im Raum bilden sich Interferenzstreifen, dh eine Abfolge von hellen und dunklen Bereichen.<br><br>' +
+                            'Kohärente Wellen werden durch die Trennung eines von einer monochromatischen Quelle emittierten Lichtstrahls in zwei Lichtbündel erzeugt, die sich anschließend treffen.<br><br>' +
+                            'Es gibt zwei Möglichkeiten, kohärente Wellen zu erzeugen:<br><br>' +
+                            '- Aufteilung der Wellenfront im Young-Experiment, Fresnelscher Biprisma usw.<br><br>' +
+                            '- Aufteilung der Wellenamplitude im Gitter mit parallelen planen Oberflächen, im Optikkeil, Newtonsche Ringe.' +
+                        '</li><br>' +
+                    '</ul>'+
                     '<li>' +
-                        'Interferența luminii nelocalizată în dispozitivul Young.<br><br>' +
-                        'INTERFERENȚA este fenomenul de suprapunere a două unde coerente (cu aceeași frecvență și aceeași diferență de fază) care se întâlnesc într-un punct din spațiu.<br><br>' +
-                        'În anumite puncte din spațiu se vor forma franje de interferență, adică o succesiune de regiuni luminoase și întunecate.<br><br>' +
-                        'Undele coerente se obțin prin separarea dintr-un flux luminos emis de o sursă monocromatică , două fascicule de lumină care ulterior se întâlnesc.<br><br>' +
-                        'Există două modalități de obținere a undelor coerente :<br><br>' +
-                        '- Divizarea frontului de undă în dispozitivul Young, biprisma Fresnel etc.<br><br>' +
-                        '- Divizarea amplitudinii undei în lama cu fețe plan paralele, pana optică, inelele lui Newton.' +
+                        'Der Young\'sche Doppelspalt verwendet eine monochromatische Lichtquelle S (Laser), einen Schirm mit zwei rechteckigen Schlitzen (mit einer Breite von weniger als 1 mm), die parallel zueinander angeordnet sind und einen Abstand von maximal 1 mm zwischen ihnen haben, und eine Leinwand (weißes Blatt). Zur Beobachtung des Interferenzmusters gibt es keine bevorzugte Position des Bildschirms, er kann in einem Abstand D zwischen 1 m und 5 m von den Schlitzen platziert werden, weshalb er als nicht lokalisierte Interferenz bezeichnet wird.<br><br>' +
+                        'Sowohl Interferenz als auch Beugung beruhen auf dem Huygens-Fresnel-Prinzip, das besagt, dass jeder Punkt auf einer Wellenfront wie eine sekundäre Wellenquelle mit derselben Frequenz und Phase wie die ursprüngliche Welle wirkt. Die neue Wellenfront entsteht durch die Addition der Amplituden der sekundären Wellen.' +
                     '</li><br>' +
                     '<li>' +
-                        'Dispozitivul Young folosește o sursă de lumină monocromatică S (laser), un paravan cu două fante dreptunghiulare (cu lățimea mai mică de 1 mm) și paralele cu o distanță între ele de maxim 1 mm, un ecran (coală albă). Pentru observarea figurii de interferență nu există o poziție preferențială a ecranului, putând fi plasat la o distanță D între 1 m și 5 m față de fante și din acest motiv se numește interferență nelocalizată.<br><br>' +
-                        'Atât interferența, cât și difracția se bazează pe principiul lui Hyugens-Fresnel care spune că fiecare punct de pe un front de undă se comportă ca o sursă secundară de undă cu aceeași frecvență și fază cu unda inițială. Noul front de undă este creat prin însumarea amplitudinilor undelor secundare.' +
+                        'Im Falle der konstruktiven Interferenz sind die beiden Wellen in Phase (Nullphasenunterschied) und ihre Summe ist größer, was zu hellen Bereichen führt.<br><br>' +
+                        'Wenn die beiden Wellen in entgegengesetzter Phase schwingen (Phasenunterschied 180°), heben sie sich auf (ihre Summe ist Null), was zu dunklen Bereichen führt, in denen wir von destruktiver Interferenz sprechen.' +
                     '</li><br>' +
                     '<li>' +
-                        'În cazul interferenței constructive, cele două unde sunt în fază (defazaj zero) și suma lor este mai mare, formând regiuni luminoase.<br><br>' +
-                        'Când cele două unde vibrează în antifază (defazaj 180°) se vor anihila (suma lor este zero), formând zone întunecate, caz în care vorbim de interferență distructivă.' +
-                    '</li><br>' +
-                    '<li>' +
-                        'Unda electromagnetică (lumina) are două componente electrică și magnetică. Numai componenta electrică (E) influențează senzația vizuală.<br><br>' +
-                        'Undele de aceeași amplitudine emise de cele două surse au ecuațiile :<br><br>' +
+                        'Die elektromagnetische Welle (Licht) hat zwei Komponenten, elektrisch und magnetisch. Nur die elektrische Komponente (E) beeinflusst die visuelle Wahrnehmung.<br><br>' +
+                        'Wellen gleicher Amplitude, die von den beiden Quellen ausgestrahlt werden, haben die Gleichungen:<br><br>' +
                         'E<sub>1</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>1</sub> / λ))<br><br>' +
                         'E<sub>2</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>2</sub> / λ))<br><br>' +
-                        'Unda electromagnetică se propagă cu viteza c în intervalul de timp Δt prin suprafața de arie S așezată perpendicular pe direcția de propagare.<br><br>' +
-                        'Energia transportată de undă este:<br><br>' +
+                        'Die elektromagnetische Welle breitet sich mit der Geschwindigkeit c in der Zeit Δt durch die Fläche S, die senkrecht zur Ausbreitungsrichtung liegt, aus.<br><br>' +
+                        'Die von der Welle transportierte Energie ist:<br><br>' +
                         'ΔW = w ΔV<br><br>' +
                         'ΔW = (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup>E<sup>2</sup>SΔt<br><br>' +
                         'I = 1/2 · (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup> ·E<sup>2</sup><sub>0</sub><br><br>' +
                         'E\'<sub>0</sub> = 2 E<sub>0</sub> cos (π(r<sub>2</sub> - r<sub>1</sub>) / λ)' +
                     '</li><br>'+
                     '<li>' +
-                        'Condițiile de interferență sunt:<br><br>' +
-                        '- Undele să aibă aceeași frecvență<br><br>' +
-                        '- Diferența de fază : ΔΦ = 2π(Δr / λ) = constantă<br><br>' +
-                        'Intensitatea luminoasă, I, într-un punct de interferență este proporțională cu pătratul amplitudinii undei rezultante:<br><br>' +
+                        'Die Bedingungen für Interferenz sind:<br><br>' +
+                        '- Die Wellen müssen dieselbe Frequenz haben<br><br>' +
+                        '- Phasenunterschied: ΔΦ = 2π(Δr / λ) = Konstante<br><br>' +
+                        'Die Lichtintensität, I, an einem Interferenzpunkt ist proportional zum Quadrat der Amplitude der resultierenden Welle:<br><br>' +
                         'I = const 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
-                        'În interferența constructivă (cu formarea de franje luminoase) avem condiția de maxim de iluminare:<br><br>' +
+                        'Bei konstruktiver Interferenz (mit der Bildung von Lichtstreifen) haben wir die maximale Beleuchtungsbedingung:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ)<br><br> = 1 → Δr = kλ = 2k(λ/2),<br><br>' +
-                        'unde k = nr.întreg<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu par de semiundă se află pe o franjă luminoasă.<br><br>' +
-                        'În interferența distructivă (cu formarea de franje întunecoase) avem condiția de minim de iluminare:<br><br>' +
+                        'wobei k = ganze Zahl<br><br>' +
+                        'Punkte im Interferenzbereich, bei denen der Wegunterschied Δr ein gerades Vielfaches von halber Wellenlänge ist, liegen auf einem hellen Streifen.<br><br>' +
+                        'Bei destruktiver Interferenz (mit der Bildung von dunklen Streifen) haben wir die minimale Beleuchtungsbedingung:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ) = 0 → Δr = kλ = 2(k+1)(λ/2)<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu impar de semiundă se află pe o franjă întunecoasă.' +
+                        'Punkte im Interferenzbereich, bei denen der Wegunterschied Δr ein ungerades Vielfaches von halber Wellenlänge ist, liegen auf einem dunklen Streifen.' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea pozițiilor franjelor în dispozitivul Young<br><br>' +
-                        'în ΔAEP aplicăm Teorema lui Pitagora: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
-                        'în ΔBE\'P aplicăm Teorema lui Pitagora: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'Bestimmung der Positionen der Streifen im Young\'schen Doppelspaltexperiment:<br><br>' +
+                        'Im ΔAEP wenden wir den Satz des Pythagoras an: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'Im ΔBE\'P wenden wir den Satz des Pythagoras an: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
                         'Δr = r<sub>2</sub> = r<sub>1</sub> = 4xl / (r<sub>1</sub> + r<sub>2</sub>)' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea lungimii de undă prin măsurarea interfranjei<br><br>' +
+                        'Bestimmung der Wellenlänge durch Messung des Interferenzabstands:<br><br>' +
                         'i = x<sub>k+1</sub> - x<sub>k</sub> = (k+1)λD / 2l - kλD / 2l = λD / 2l<br><br>' +
                         'i = λD / 2l' +
-                    '</li>'+
-                    '</ul>'+
-                    '<h2 class="p-3">'+'Interferența localizată pe lama cu fețe plan paralele:'+'</h2>'+
+                    '</li>' +
+                    '</ul>' +
+                    '<h2 class="p-3">' + 'Lokalisierte Interferenz auf einer Platte mit parallelen planen Oberflächen:' + '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Interferența localizată pe lama cu fețe plan paralele are loc atunci când un fascicul de lumină este divizat în două fascicule coerente pe suprafețe reflectătoare, prin reflexia luminii pe fața superioară și prin transmiterea luminii pe fața inferioară a lamei subțiri.<br><br>' +
-                            'Lumina ajunsă pe fața superioară a lamei (peliculei) se și reflectă (IR), se și refractă (IŔ ). Raza refractată prin lamă se reflectă pe fața inferioară a lamei (MN). Cele două raze, IR și MN, vor interfera la suprafața lamei.<br><br>' +
-                            'Franjele de interferență sunt localizate în planul focal al lentilei sau, în absența acesteia, la infinit. Așa explicăm irizațiile baloanelor de săpun și ale peliculelor de ulei sau petrol de pe stradă.' +
+                            'Lokalisierte Interferenz auf einer Platte mit parallelen planen Oberflächen tritt auf, wenn ein Lichtstrahl in zwei kohärente Strahlen auf den reflektierenden Oberflächen aufgeteilt wird, durch Reflexion des Lichts auf der oberen Oberfläche und durch Transmission des Lichts auf der unteren Oberfläche der dünnen Platte.<br><br>' +
+                            'Das Licht, das auf die obere Oberfläche der Platte (Schicht) trifft, wird sowohl reflektiert (IR) als auch gebrochen (IŔ ). Der durch die Platte gebrochene Strahl wird an der unteren Oberfläche der Platte reflektiert (MN). Die beiden Strahlen, IR und MN, interferieren an der Oberfläche der Platte miteinander.<br><br>' +
+                            'Die Interferenzstreifen sind im Brennpunkt der Linse oder, falls nicht vorhanden, unendlich weit entfernt lokalisiert. So erklären wir die Schillerfarben von Seifenblasen und von Öl- oder Benzinfilmen auf der Straße.' +
                         '</li>' +
                     '</ul>' +
-                    '<h2 class="p-3">' +
-                        'Inelele lui Newton la interferența pe o pană de aer:' +
-                    '</h2>' +
+                    '<h2 class="p-3">' + 'Newtonsche Ringe bei Interferenz auf einem Luftspalt:' + '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Inelele lui Newton se obțin prin iluminarea perpendiculară cu lumină monocromatică a unei lentile plan-convexă cu distanță focală mare și așezată cu fața curbă pe o placă de sticlă plană. Între lentilă și placă se formează o pană de aer subțire având ca rezultat formarea unor franje luminoase și întunecate circulare, concentrice cu punctul de contact între lentilă și placă.' +
+                            'Die Newtonschen Ringe entstehen durch senkrechte Beleuchtung mit monochromatischem Licht einer plan-konvexen Linse mit großer Brennweite, die mit der gewölbten Seite auf eine ebene Glasplatte gelegt wird. Zwischen Linse und Platte bildet sich ein dünner Luftspalt, der zur Bildung konzentrischer, hellen und dunklen Kreise um den Berührungspunkt zwischen Linse und Platte führt.' +
                         '</li>' +
                     '</ul>'+
 
                     //Elemente de fizica cuantica
                     '<a name="element_target2"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Elemente de fizică cuantică</h2><br><br><br></u>' +
+                    '<br><br><br><br>' +
+                    '<u><h2 class="p-3" align = center>Elemente der Quantenphysik</h2><br><br><br></u>' +
                     '<h2 class="p-3">' +
-                        'Ipoteza lui Planck asupra cuantelor de lumină:' +
+                        'Plancks Hypothese über Lichtquanten:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Planck a afirmat că radiația emisă de corpul negru există sub forma unor pachețele discrete de energie pe care le-a numit cuante (numite ulterior fotoni), dependente de frecvența radiației respective.<br><br>' +
-                            'Valorile discrete ale energiei unui oscilator armonic sunt echidistante, astfel încât diferența dintre nivelurile de energie ( ΔE) este proporțională cu frecvența (ν) a oscilatorului și constanta lui Planck (h).<br><br>' +
+                            'Planck behauptete, dass die von einem Schwarzen Strahler emittierte Strahlung in Form diskreter Energiepakete existiert, die er Quanten nannte (später als Photonen bezeichnet), abhängig von der Frequenz der jeweiligen Strahlung.<br><br>' +
+                            'Die diskreten Werte der Energie eines harmonischen Oszillators sind gleichmäßig verteilt, so dass der Unterschied zwischen den Energieleveln (ΔE) proportional zur Frequenz (ν) des Oszillators und der Planckschen Konstante (h) ist.<br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = frecvența oscilatorului<br><br>' +
-                            'Constanta lui Planck este una dintre cele mai mici constante folosite în fizică la scară macroscopică, reflectând scara microscopică la care se observă efectele cuantice.' +
-                        '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">' +
-                        'Efectul fotoelectric:' +
-                    '</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Efectul fotoelectric a fost descoperit experimental în anul 1887 de către Heinrich Hertz (1857-1894) și în anul 1888 de către W. Hallwachs (1859-1922) și constă în emiterea de electroni de către un metal sub acțiunea unei radiații electromagnetice.<br><br>' +
-                            'În 1905, Albert Einstein (1879-1955) a remarcat că explicația efectului fotoelectric ar putea fi rezolvată, generalizând ipoteza cuantică propusă de Planck privind radiația corpului negru la radiația electromagnetică.<br><br>' +
-                            'Astfel, electronii din catod primesc de la lumină numai un singur pachet (foton) de energie luminoasă (E = h ∙ ν) pentru a fi accelerați și să părăsească metalul.<br><br>' +
-                            'Astfel energia cinetică maximă a electronilor emiși nu va depăși această valoare de energie primită, indiferent de intensitatea radiației incidente.<br><br>' +
-                            'În plus explică de ce viteza maximă a electronilor depinde de frecvența radiației.' +
-                        '</li><br>' +
-                        '<li>' +
-                            'Prima lege a efectului fotoelectric extern:<br><br>' +
-                            'Efectul fotoelectric extern se produce numai când frecvența radiației incidente este mai mare decât frecvența de prag caracteristică metalului din care este confecționat catodul.<br><br>' +
-                            'Pentru a părăsi metalul electronii liberi trebuie să primească o energie egală cu lucrul mecanic de extracție (L) pentru frecvența de prag (ν<sub>0</sub>):<br><br>' +
-                            'L = h ∙ ν<sub>0</sub> h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
-                            'Fotonul de energie h ∙ ν cedează energia sa unui electron de conducție.<br><br>' +
-                            'Electronul poate părăsi metalul numai dacă h ∙ ν ≥ L.' +
+                            'h = Plancksche Konstante = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
+                            'ν = Frequenz des Oszillators<br><br>' +
+                            'Die Plancksche Konstante ist eine der kleinsten Konstanten, die in der Physik im makroskopischen Maßstab verwendet werden, und spiegelt den mikroskopischen Maßstab wider, auf dem Quanteneffekte beobachtet werden.' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">A doua lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">' +
+                        'Photoelektrischer Effekt:' +
+                    '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Efectul fotoelectric se produce practic instantaneu.<br><br>' +
-                            'Emisia unui electron este rezultatul ciocnirii dintre un foton și un electron într-un timp mai mic de 10<sup>-9</sup> s.' +
+                            'Der photoelektrische Effekt wurde experimentell im Jahr 1887 von Heinrich Hertz (1857-1894) und im Jahr 1888 von W. Hallwachs (1859-1922) entdeckt und besteht aus der Emission von Elektronen durch ein Metall unter Einwirkung elektromagnetischer Strahlung.<br><br>' +
+                            'Im Jahr 1905 bemerkte Albert Einstein (1879-1955), dass die Erklärung des photoelektrischen Effekts möglicherweise durch eine Verallgemeinerung der von Planck vorgeschlagenen quantenmechanischen Hypothese zur Schwarzkörperstrahlung auf elektromagnetische Strahlung gelöst werden könnte.<br><br>' +
+                            'Daher erhalten Elektronen auf dem Kathoden nur einen einzigen Energiepaket (Photon) aus Licht (E = h ∙ ν), um beschleunigt und das Metall zu verlassen.<br><br>' +
+                            'Die maximale kinetische Energie der emittierten Elektronen wird daher diesen Energiebetrag nicht überschreiten, unabhängig von der Intensität der einfallenden Strahlung.<br><br>' +
+                            'Außerdem erklärt es, warum die maximale Geschwindigkeit der Elektronen von der Frequenz der Strahlung abhängt.' +
+                        '</li><br>' +
+                        '<li>' +
+                            'Erstes Gesetz des externen photoelektrischen Effekts:<br><br>' +
+                            'Der externe photoelektrische Effekt tritt nur auf, wenn die Frequenz der einfallenden Strahlung höher ist als die charakteristische Grenzfrequenz des Metalls, aus dem die Kathode hergestellt ist.<br><br>' +
+                            'Um das Metall zu verlassen, müssen die freien Elektronen eine Energie erhalten, die der Austrittsarbeit (L) für die Grenzfrequenz (ν<sub>0</sub>) entspricht:<br><br>' +
+                            'L = h ∙ ν<sub>0</sub> h = Plancksche Konstante = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
+                            'Das Photon mit der Energie h ∙ ν überträgt seine Energie auf ein Leitungselektron.<br><br>' +
+                            'Das Elektron kann das Metall nur verlassen, wenn h ∙ ν ≥ L.' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A treia lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">' +
+                        'Zweites Gesetz des externen photoelektrischen Effekts:' +
+                    '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Energia cinetică a electronilor emiși crește liniar cu frecvența radiației incidente.<br><br>' +
-                            'Dacă energia fotonului h ∙ ν > L, atunci electronul are o energie cinetică suficientă pentru a părăsi metalul:<br><br>' +
+                            'Der photoelektrische Effekt tritt praktisch sofort auf.<br><br>' +
+                            'Die Emission eines Elektrons erfolgt durch den Zusammenstoß eines Photons und eines Elektrons in weniger als 10<sup>-9</sup> s.' +
+                        '</li><br>' +
+                    '</ul>' +
+                    '<h2 class="p-3">' +
+                        'Drittes Gesetz des externen photoelektrischen Effekts:' +
+                    '</h2>' +
+                    '<ul>' +
+                        '<li>' +
+                            'Die kinetische Energie der emittierten Elektronen nimmt linear mit der Frequenz der einfallenden Strahlung zu.<br><br>' +
+                            'Wenn die Energie des Photons h ∙ ν > L beträgt, hat das Elektron genug kinetische Energie, um das Metall zu verlassen:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A patra lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">' +
+                        'Viertes Gesetz des externen photoelektrischen Effekts:' +
+                    '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Numărul de fotoelectroni emiși de catod în unitatea de timp este proporțional cu numărul de fotoni incidenți în acest interval de timp, care este proporțional cu fluxul de energie luminoasă.' +
+                            'Die Anzahl der von der Kathode pro Zeiteinheit emittierten Fotoelektronen ist proportional zur Anzahl der in diesem Zeitintervall einfallenden Photonen, die proportional zum Lichtenergiefluss ist.' +
                         '</li>' +
                     '</ul>'),
 
@@ -7473,314 +7485,316 @@ var data = {
 ),
 
         //teorieOptica.html
-        "teorieOpticaTitle": "Optică teorie",
-        "teorieOptica": ('<u>' +'<h2 class="p-3" align = center>Optica geometrică</h2><br><br><br>' +'</u>'
-                        +'<h2 class="p-3">Reflexia luminii:</h2>'
-                        +'<ul>'
-                            +'<li>'
-                                +'PRINCIPIUL LUI FERMAT:<br><br>'
-                                    +'“Lumina se propagă între două puncte A și B, astfel încât drumul său optic și, implicit, intervalul de timp necesar parcurgerii distanței AB să fie minim.”<br><br>'
-                                    +'Reflexia luminii este fenomenul în care lumina se întoarce în primul mediu, cu schimbarea direcţiei de propagare, atunci când ea întâlneşte un alt mediu (suprafaţa de separare dintre două medii optice diferite).'
-                            +'</li><br>'
-                            +'<li>'
-                                +'Legile reflexiei:<br><br>'
-                                +'- Legea I:<br><br>'
-                                +'Raza incidentă, normala și raza reflectată sunt coplanare (aparțin aceluiași plan).<br><br>'
-                                +'- Legea a II a:<br><br>'
-                                +'Unghiul de incidență (i) este egal cu unghiul de reflexie (r).'
-                            +'</li><br>'
-                            +'<li>'
-                                +'Oglinzile plane<br><br>'
-                                +'Oglinzile sunt corpuri netede și lucioase, în care lumina se reflectă.<br><br>'
-                                +'Oglinzile plane au suprafața plană (dreaptă) și sunt cele pe care le avem cu toții acasă și în care ne uităm zilnic.<br><br>'
-                                +'Iată simbolul ei (partea din spate care nu reflectă lumina se hașurează):<br><br>'
-                            +'</li>'
-                        +'</ul>'
+        "teorieOpticaTitle": "Théorie de l'optique",
+        "teorieOptica": ('<u>' +
+                        '<h2 class="p-3" align = center>Optique géométrique</h2><br><br><br>' +
+                        '</u>' +
+                        '<h2 class="p-3">Réflexion de la lumière:</h2>' +
+                        '<ul>' +
+                            '<li>' +
+                                'PRINCIPE DE FERMAT:<br><br>' +
+                                '"La lumière se propage entre deux points A et B, de sorte que son chemin optique, et donc, implicitement, le temps nécessaire pour parcourir la distance AB, soit minimal."<br><br>' +
+                                'La réflexion de la lumière est le phénomène par lequel la lumière rebrousse chemin dans le premier milieu, en changeant de direction de propagation, lorsqu\'elle rencontre un autre milieu (la surface de séparation entre deux milieux optiques différents).' +
+                            '</li><br>' +
+                            '<li>' +
+                                'Les lois de la réflexion:<br><br>' +
+                                '- Loi I:<br><br>' +
+                                'Le rayon incident, la normale et le rayon réfléchi sont coplanaires (ils appartiennent au même plan).<br><br>' +
+                                '- Loi II:<br><br>' +
+                                'L\'angle d\'incidence (i) est égal à l\'angle de réflexion (r).' +
+                            '</li><br>' +
+                            '<li>' +
+                                'Miroirs plans<br><br>' +
+                                'Les miroirs sont des surfaces lisses et réfléchissantes dans lesquelles la lumière se reflète.<br><br>' +
+                                'Les miroirs plans ont une surface plane (droite) et ce sont ceux que nous avons tous chez nous et regardons quotidiennement.<br><br>' +
+                                'Voici leur symbole (la partie qui ne reflète pas la lumière est hachurée):<br><br>' +
+                            '</li>' +
+                        '</ul>'        
                         +'<h2 align = center>'
                             +'<img style = "border: 2px solid #1b4188" src ="img/optica1.png" width = 100>'
                         +'</h2><br>'
                         +'<ul>'
                             +'<li>'
-                                +'Formarea imaginii unui obiect într-o oglindă plană:<br><br>'
-                                +'- Se desenează oglinda plană pe verticală.<br><br>'
-                                +'- Se trasează prin mijlocul oglinzii axa optică principală, perpendiculară pe oglindă (pe orizontală).<br><br>'
-                                +'- Se desenează obiectul AB sub forma unui segment cu săgeată, în fața oglinzii.<br><br>'
-                                +'- Se duce prima rază din vârful obiectului (B) perpendiculară pe oglindă și se prelungește punctată în spatele oglinzii (fiind perpendiculară pe suprafața oglinzii nu își schimbă direcția de propagare când se reflectă).<br><br>'
-                                +'- Se duce a doua rază din vârful obiectului (B) oblică pe oglindă se trasează raza reflectată a acesteia, respectând legile reflexiei (unghiul i = unghiul r)<br><br>'
-                                +'- Se prelungește punctată în spatele oglinzii raza reflectată, până se întâlnește cu prelungirea primei raze. Punctul de intersecție al lor se notează cu B\', care reprezintă vârful imaginii obiectului în oglindă.<br><br>'
-                                +'- Din punctul B\' se duce perpendiculară pe axa optică principală, iar piciorul perpendicularei se notează cu A\' și reprezintă baza imaginii obiectului în oglindă. Se pune vârful săgeții în B\'.'
+                                +'Formation de l\'image d\'un objet dans un miroir plat:<br><br>'
+                                +'- Tracez le miroir plat verticalement.<br><br>'
+                                +'- Tracez l\'axe optique principal à travers le milieu du miroir, perpendiculairement au miroir (horizontalement).<br><br>'
+                                +'- Dessinez l\'objet AB sous la forme d\'un segment fléché, devant le miroir.<br><br>'
+                                +'- Tracez le premier rayon à partir du sommet de l\'objet (B) perpendiculaire au miroir et prolongez-le en pointillés derrière le miroir (étant perpendiculaire à la surface du miroir, il ne change pas de direction de propagation lorsqu\'il est réfléchi).<br><br>'
+                                +'- Tracez le deuxième rayon à partir du sommet de l\'objet (B) incliné sur le miroir et tracez le rayon réfléchi de celui-ci, en respectant les lois de la réflexion (angle i = angle r)<br><br>'
+                                +'- Prolongez en pointillés derrière le miroir le rayon réfléchi jusqu\'à ce qu\'il rencontre le prolongement du premier rayon. Le point d\'intersection est noté B\', qui représente le sommet de l\'image de l\'objet dans le miroir.<br><br>'
+                                +'- Du point B\', tracez perpendiculairement à l\'axe optique principal, et le pied de la perpendiculaire est noté A\', représentant la base de l\'image de l\'objet dans le miroir. Mettez la pointe de la flèche en B\'.'
                             +'</li>'
                         +'</ul>'
                         +'<h2 align = center>' +
                         '<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>' +
-                    '</h2><br>' +
+                        '</h2><br>' +
+                        '<ul>' +
+                            '<li>' +
+                                'Caractéristiques de l\'image A\'B\' :<br><br>' +
+                                '- Virtuelle, car elle se forme à l\'intersection des prolongements des rayons réfléchis (derrière le miroir)<br><br>' +
+                                '- Droite<br><br>' +
+                                '- Égale à l\'objet AB (y<sub>1</sub> = y<sub>2</sub>)<br><br>' +
+                                '- Objet et image sont symétriques par rapport au miroir' +
+                                'Formule du miroir plan : x<sub>2</sub> = -x<sub>1</sub>, car R → ∞ (pas de foyer)<br><br>' +
+                                'Grandissement linéaire transversal :	β = 1' +
+                            '</li>' +
+                        '</ul>' +
+                        '<ul>' +
+                            '<li>' +
+                                'Caractérisation de l\'image (A\'B\') de l\'objet dans le miroir plan:<br><br>' +
+                                'L\'objet AB et l\'image A\'B\' sont symétriques par rapport au miroir (l\'image se forme derrière le miroir, à la même distance du miroir que l\'objet).<br><br>' +
+                                'L\'image est virtuelle, car elle se forme à l\'intersection des prolongements des rayons réfléchis (elle ne peut pas être capturée sur un écran ou un film photo).<br><br>' +
+                                'L\'image A\'B\' est aussi grande que l\'objet AB.' +
+                            '</li><br>' +
+                        '</ul>'+
+                    '<h2 class="p-3">Miroirs sphériques:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Caracteristicile imaginii A\'B\':<br><br>' +
-                            '- Virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (în spatele oglinzii)<br><br>' +
-                            '- Dreaptă<br><br>' +
-                            '- Egală cu obiectul AB (y<sub>1</sub> = y<sub>2</sub>)' +
-                            '- Ob. și Im. sunt simetrice față de oglindă' +
-                            'Formula oglinzii plane: x<sub>2</sub> = -x<sub>1</sub>, deoarece R → ∞(nu are focare)<br><br>' +
-                            'Mărirea liniară transversală :	β = 1' +
-                        '</li>' +
-                    '</ul>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Caracterizarea imaginii (A\'B\') obiectului în oglinda plană:<br><br>' +
-                            'Ob. AB și im. A\'B\' sunt simetrice față de oglindă (imaginea se formează în spatele oglinzii, la aceeaşi distanţă faţă de oglindă ca şi obiectul).<br><br>' +
-                            'Imaginea este virtuală, deoarece se formează la intersecția prelungirilor razelor reflectate (ea nu poate fi prinsă pe ecran sau film foto).<br><br>' +
-                            'Im. A\'B\' este la fel de mare ca ob. AB.' +
-                        '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">Oglinzile sferice:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Oglinzile sferice sunt porțiuni din sfere (calote sferice) care reflectă lumina ce cade pe ele.<br><br>' +
-                            'Clasificarea oglinzilor sferice: <br><br>' +
-                            'a) Oglinzile concave reflectă cu partea interioară, scobită a suprafeței sferice (adică au partea lucioasă pe partea interioară a sferei). Ele transformă un fascicul de lumină paralel într-unul convergent.' +
+                            'Les miroirs sphériques sont des portions de sphères (calottes sphériques) qui réfléchissent la lumière qui tombe sur elles.<br><br>' +
+                            'Classification des miroirs sphériques : <br><br>' +
+                            'a) Les miroirs concaves réfléchissent avec la partie intérieure, creuse, de la surface sphérique (c\'est-à-dire qu\'ils ont la partie réfléchissante sur la partie intérieure de la sphère). Ils transforment un faisceau de lumière parallèle en un faisceau convergent.' +
                         '</li>' +
                     '</ul>'
                     +'<h2 align = center>' +
                     '<img style = "border: 2px solid #1b4188" src ="img/optica3.png" width = 300>' +
-                '</h2><br>' +
-                '<ul>' +
-                    '<li>' +
-                        'b) Oglinzile convexe reflectă cu partea exterioară, bombată a suprafeței sferice (adică au partea lucioasă pe partea exterioară a sferei). Ele transformă un fascicul de lumină paralel într-unul divergent.' +
-                    '</li>' +
-                '</ul>' +
-                '<h2 align = center>' +
+                    '</h2><br>' +
+                    '<ul>' +
+                        '<li>' +
+                            'b) Les miroirs convexes réfléchissent avec la partie extérieure, bombée, de la surface sphérique (c\'est-à-dire qu\'ils ont la partie réfléchissante sur la partie extérieure de la sphère). Ils transforment un faisceau de lumière parallèle en un faisceau divergent.' +
+                        '</li>' +
+                    '</ul>' +
+                    '<h2 align = center>' +
                     '<img style = "border: 2px solid #1b4188" src ="img/optica4.png" width = 300>' +
-                '</h2><br>' +
-                '<ul>' +
-                    '<li>' +
-                        'Formarea imaginii unui obiect într-o oglindă sferică<br><br>' +
-                        'Pentru a forma imaginea unui obiect într-o oglindă sferică trebuie să ducem minim două raze:<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă paralelă cu axa optică principală până întâlnește suprafața oglinzii și de acolo se reflectă prin focar.<br><br>' +
-                        'Din vârful ob. A se duce o dreaptă prin centrul de curbură până se intersectează cu prima rază (aceasta se reflectă pe aceeași direcție).<br><br>' +
-                        'Cele două raze se prelungesc până se întâlnesc. Punctul lor de intersecție este vârful imaginii, A\'. Din acest punct se duce o perpendiculară pe axa optică principală. Piciorul perpendicularei, B\', este baza imaginii formate.' +
-                    '</li>' +
-                '</ul>' +
+                    '</h2><br>' +
+                    '<ul>' +
+                        '<li>' +
+                            'Formation de l\'image d\'un objet dans un miroir sphérique<br><br>' +
+                            'Pour former l\'image d\'un objet dans un miroir sphérique, il faut amener au moins deux rayons :<br><br>' +
+                            'Du sommet de l\'objet A, un rayon parallèle à l\'axe optique principal est dirigé jusqu\'à la surface du miroir, puis il est réfléchi à travers le foyer.<br><br>' +
+                            'Du sommet de l\'objet A, un rayon est dirigé à travers le centre de courbure jusqu\'à ce qu\'il croise le premier rayon (celui-ci est réfléchi dans la même direction).<br><br>' +
+                            'Les deux rayons sont prolongés jusqu\'à ce qu\'ils se croisent. Leur point d\'intersection est le sommet de l\'image, A\'. De ce point, une perpendiculaire est dirigée vers l\'axe optique principal. Le pied de la perpendiculaire, B\', est la base de l\'image formée.' +
+                        '</li>' +
+                    '</ul>'+
                 '<h2 align = center>' +
                     '<img style = "border: 2px solid #1b4188" src ="img/optica5.png" width = 300>' +
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formula oglinzilor sferice:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
-                        'Mărirea liniară transversală:<br>' +
+                        'Les formules des miroirs sphériques:<br> (1 / x<sub>2</sub>) + (1 x<sub>1</sub>) = 1 / f = 2 / R<br><br>' +
+                        'Le grandissement linéaire transversal:<br>' +
                         'β = y<sub>2</sub> / y<sub>1</sub> = - x<sub>2</sub> / x<sub>1</sub>' +
                     '</li>' +
                 '</ul>' +
                 '<ul>' +
                     '<li>' +
-                        'Imaginea unui obiect într-o oglindă concavă depinde de distanța de la ob. la oglindă.' +
+                        'L’image d’un objet dans un miroir concave dépend de la distance de l’objet au miroir.' +
                     '</li><br>' +
                     '<li>' +
-                        'Tipul oglinzii:<br><br>' +
-                        '- Concava:<br>' +
-                        '|x<sub>1</sub>| > 2|f| - Reală - Micșorată - Răsturnată<br>' +
-                        '|x<sub>1</sub>| = 2|f| - Reală - Egală - Răsturnată<br>' +
-                        '2|f| > |x<sub>1</sub>| > |f| - Reală - Mărită - Răsturnată<br>' +
-                        '|x<sub>1</sub>| < |f| - Virtuală - Mărită - Dreaptă<br><br>' +
-                        '-Convexă:<br>' +
-                        'Orice |x<sub>1</sub>| - Virtuală - Micșorată - Dreaptă' +
+                        'Le type de miroir:<br><br>' +
+                        '- Concave:<br>' +
+                        '|x<sub>1</sub>| > 2|f| - Réelle - Réduite - Inversée<br>' +
+                        '|x<sub>1</sub>| = 2|f| - Réelle - Égale - Inversée<br>' +
+                        '2|f| > |x<sub>1</sub>| > |f| - Réelle - Agrandie - Inversée<br>' +
+                        '|x<sub>1</sub>| < |f| - Virtuelle - Agrandie - Droite<br><br>' +
+                        '- Convexe:<br>' +
+                        'Tout |x<sub>1</sub>| - Virtuelle - Réduite - Droite' +
                     '</li><br>' +
-                '</ul>' +
-                '<h2 class="p-3">Refracția luminii:</h2>' +
+                '</ul>'+
+                '<h2 class="p-3">Réfraction de la lumière :</h2>' +
                 '<ul>' +
                     '<li>' +
-                        'Legile refracției luminii:<br><br>' +
-                        'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul respectiv (v).<br><br>' +
+                        'Les lois de la réfraction de la lumière :<br><br>' +
+                        "L'indice de réfraction (noté n) d'un milieu transparent est donné par le rapport entre la vitesse de la lumière dans le vide (c) et la vitesse de la lumière dans ce milieu (v).<br><br>" +
                         'n = c / v<br><br>' +
-                        'Refracția luminii este fenomenul în care lumina își schimbă direcția de propagare atunci când traversează suprafața de separație dintre două medii transparente diferite.' +
+                        'La réfraction de la lumière est le phénomène selon lequel la lumière change de direction de propagation lorsqu\'elle traverse la surface de séparation entre deux milieux transparents différents.' +
                     '</li><br>' +
                     '<li>' +
-                        'Legile refracției<br><br>' +
-                        'Legea I a refracției:<br>' +
-                        'Raza incidentă (SI), normala la suprafața de separare (NI) și raza refractată (IR\') sunt coplanare.<br><br>' +
-                        'Legea a II-a a refracției:<br>' +
-                        'Raportul dintre unghiul de incidență(i) ș sinusul unghiului de refracție(r\') este egal cu raportul dintre indicele de refracție absolut al mediului al II-lea și indicele de refracție absolut al I mediu:<br><br>' +
+                        'Les lois de la réfraction:<br><br>' +
+                        'Loi de réfraction I :<br>' +
+                        'Le rayon incident (SI), la normale à la surface de séparation (NI) et le rayon réfracté (IR\') sont coplanaires.<br><br>' +
+                        'Loi de réfraction II :<br>' +
+                        'Le rapport entre l\'angle d\'incidence (i) et le sinus de l\'angle de réfraction (r\') est égal au rapport entre l\'indice de réfraction absolu du deuxième milieu et l\'indice de réfraction absolu du premier milieu :<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
-                        'n<sub>21</sub> = indicele de refracție al mediului al II-lea față de primul' +
+                        'n<sub>21</sub> = l\'indice de réfraction du deuxième milieu par rapport au premier' +
                     '</li><br>' +
                     '<li>' +
-                        'Consecințele refracției luminii:<br><br>' +
-                        'Consecințele refracției luminii au loc datorită schimbării direcţiei razei refractate faţă de direcţia razei incidente, modificând imaginea obiectelor aflate în apă:<br><br>' +
-                        '- Un corp aflat în apă pare rupt la suprafața apei, ca și cum partea din apă a corpului nu este în continuarea celei din aer.<br><br>' +
-                        '- Un corp aflat în apă este perceput de ochiul nostru mai la suprafaţă decât este el în realitate. Astfel apele limpezi sunt mult mai adânci decât par.<br><br>' +
-                        '- Obiectele aflate în apă par mai mari decât în realitate, apa comportându-se ca o lupă.<br><br>'+
+                        'Les conséquences de la réfraction de la lumière :<br><br>' +
+                        'Les conséquences de la réfraction de la lumière se produisent en raison du changement de direction du rayon réfracté par rapport au rayon incident, modifiant l\'image des objets dans l\'eau :<br><br>' +
+                        '- Un objet dans l\'eau semble cassé à la surface de l\'eau, comme si la partie de l\'eau de l\'objet n\'était pas dans le prolongement de celle de l\'air.<br><br>' +
+                        '- Un objet dans l\'eau est perçu par notre œil plus près de la surface qu\'il ne l\'est réellement. Ainsi, les eaux claires sont beaucoup plus profondes qu\'elles ne le paraissent.<br><br>' +
+                        '- Les objets dans l\'eau semblent plus gros qu\'en réalité, l\'eau agissant comme une loupe.<br><br>'+
                         '</li>'+
                     '</ul>'
-                    +'<h2 class="p-3">Prisma optică:</h2>' +
+                    +'<h2 class="p-3">Prisme optique :</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Refracția luminii monocromatice în prisma optică:<br><br>' +
-                            'Prisma este un mediu transparent (cu indicele de refracție n) mărginit de două fețe plane, care fac între ele un unghi diedru, numit unghiul prismei (A).<br><br>' +
+                            'Réfraction de la lumière monochromatique dans un prisme optique :<br><br>' +
+                            'Le prisme est un milieu transparent (avec un indice de réfraction n) délimité par deux faces planes, formant entre elles un angle dièdre, appelé angle du prisme (A).<br><br>' +
                         '</li>' +
                     '</ul>' +
-                    '<h2 align = center>' +
-                        '<img style = "border: 2px solid #1b4188" src ="img/optica6.png" width = 300>' +
+                    '<h2 align="center">' +
+                        '<img style="border: 2px solid #1b4188" src="img/optica6.png" width="300">' +
                     '</h2><br>' +
                     '<ul>' +
                         '<li>' +
-                            'Când raza incidentă (SI) cade pe fața AB a prismei se refractă (prima rază refractată II\'), apropiindu-se de normala NI (n<sub>aer</sub> < n<sub>prismă</sub>) după legea:<br>' +
+                            'Lorsque le rayon incident (SI) tombe sur la face AB du prisme, il se réfracte (premier rayon réfracté II\'), se rapprochant de la normale NI (n<sub>air</sub> < n<sub>prisme</sub>) selon la loi :<br>' +
                             'sin i = n ∙ sin r<br><br>' +
-                            'Raza II\' se refractă la căderea pe fața AC a prismei în punctul I\', depărtându-se de normala NN\' (n<sub>prismă</sub> > n<sub>aer</sub>), după legea:<br>' +
+                            'Le rayon II\' se réfracte lorsqu\'il tombe sur la face AC du prisme au point I\', s\'éloignant de la normale NN\' (n<sub>prisme</sub> > n<sub>air</sub>), selon la loi :<br>' +
                             'n ∙ sin r\' = sin i\'<br><br>' +
-                            'Unghiul dintre direcția razei incidente (SI) și direcția razei emergente (I\'R) se numește unghi de deviație (δ) care are valoarea:<br>' +
+                            'L\'angle entre la direction du rayon incident (SI) et la direction du rayon émergent (I\'R) est appelé angle de déviation (δ) qui a pour valeur :<br>' +
                             'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
                         '</li>' +
-                    '</ul>' +
+                    '</ul>'+
                     '<ul>' +
                         '<li>' +
-                            'Pentru a stabili condiția de emergență (adică raza incidentă să iasă din prismă) trebuie să nu aibă loc reflexia totală a razei II\' pe fața AC, adică:<br>' +
-                            'r\' ≤ l (unghiul limită).<br><br>' +
-                            'Cum A = r + r\' → r\' = A – r<br>' +
+                            'Pour établir la condition d\'émergence (c\'est-à-dire que le rayon incident sorte du prisme), il ne doit pas y avoir de réflexion totale du rayon II\' sur la face AC, c\'est-à-dire :<br>' +
+                            'r\' ≤ l (angle limite).<br><br>' +
+                            'Comme A = r + r\' → r\' = A – r<br>' +
                             'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
-                            'Dar din prima lege a refracției avem:<br>' +
+                            'Mais selon la première loi de la réfraction, nous avons :<br>' +
                             'sin r = sin i / n <br>' +
                             'sin i / n >= sin (A - l)<br><br>' +
                         '</li>' +
                         '<li>' +
-                            'Unghiul maxim de incidență este<br>' +
+                            'L\'angle maximal d\'incidence est<br>' +
                             'i = 90° → sin 90° = 1 <br>' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
-                            'sin l >= sin(A-l) sau A <= 2 ∙ 1<br>' +
+                            'sin l >= sin(A-l) ou A <= 2 ∙ 1<br>' +
                             'sin l = 1 / n → 1 = arc sin 1 / n<br>' +
                         '</li>' +
                         '<li>' +
-                            'O rază incidentă pe prismă poate ieși din prismă dacă unghiul ei refringent (A) îndeplinește condiția:<br>' +
+                            'Un rayon incident sur un prisme peut sortir du prisme si son angle de réfraction (A) satisfait la condition :<br>' +
                             'A ≤ 2 ∙ arc sin 1/n<br><br>' +
-                            'Dacă prisma are A > 2 ∙ arc sin 1/n, toate razele incidente pe prismă se vor reflecta total pe fața AC.' +
+                            'Si le prisme a A > 2 ∙ arc sin 1/n, tous les rayons incidents sur le prisme seront totalement réfléchis sur la face AC.' +
                         '</li><br>' +
                         '<li>' +
-                            'Când unghiul de incidență (i) variază și unghiul de deviație (δ) variază, luând întotdeauna valori mai mari decât o anumită valoare minimă (δ<sub>m</sub>).<br><br>' +
-                            'Când i = i\' și r = r\' obținem valoarea unghiul de deviație minimă (δ<sub>m</sub>):<br>' +
+                            'Lorsque l\'angle d\'incidence (i) varie et que l\'angle de déviation (δ) varie, prenant toujours des valeurs supérieures à une certaine valeur minimale (δ<sub>m</sub>).<br><br>' +
+                            'Lorsque i = i\' et r = r\', nous obtenons la valeur minimale de l\'angle de déviation (δ<sub>m</sub>) :<br>' +
                             'δ<sub>m</sub> = 2 ∙ i – A<br><br>' +
-                            'Dacă măsurăm experimental unghiul de deviație minimă se poate determina indicele de refracție al prismei cu formula:<br>' +
+                            'Si nous mesurons expérimentalement l\'angle de déviation minimale, nous pouvons déterminer l\'indice de réfraction du prisme avec la formule :<br>' +
                             'n = sin((A + <sub>m</sub>) / 2) / sin (A / 2)' +
                         '</li><br>' +
                     '</ul>'
-                    +'<h2 class="p-3">' + 'Tipuri de lentile:' + '</h2>' + 
+                    +'<h2 class="p-3">' + 'Types de lentilles:' + '</h2>' + 
                     '<ul>' + 
                         '<li>' + 
-                            'Lentilele sunt corpuri transparente care au cel puțin o suprafață sferică.<br><br>' + 
-                            'Elementele unei lentile :<br><br>' + 
-                            'Axa optică principală care se trasează prin mijlocul lentilei.<br><br>' + 
-                            'Centrul optic al lentilei (O) aflat la intersecția lentilei cu axa optică principală.<br><br>' + 
-                            'Două focare așezate de-o parte și de alta față de centrul optic al lentilei, la distanțe egale.<br><br>' + 
-                            'Focarul aflat în partea stângă față de O se numește focar negativ / obiect (F<sub>1</sub>), deoarece se află pe axa numerelor negative.<br><br>' + 
-                            'Focarul aflat în partea dreaptă față de O se numește focar pozitiv / imagine (F<sub>2</sub>), deoarece se află pe axa numerelor pozitive.<br><br>' + 
-                            'Centrele de curbură (C<sub>1</sub> și C<sub>2</sub>) ale dioptrilor care mărginesc lentila aflate de-o parte și de alta față de O, la o distanță dublă față de OF.' + 
+                            'Les lentilles sont des corps transparents qui ont au moins une surface sphérique.<br><br>' + 
+                            'Éléments d\'une lentille :<br><br>' + 
+                            'L\'axe optique principal tracé à travers le milieu de la lentille.<br><br>' + 
+                            'Le centre optique de la lentille (O) situé à l\'intersection de la lentille avec l\'axe optique principal.<br><br>' + 
+                            'Deux foyers placés de part et d\'autre du centre optique de la lentille, à des distances égales.<br><br>' + 
+                            'Le foyer situé à gauche de O est appelé foyer négatif / objet (F<sub>1</sub>), car il se trouve sur l\'axe des nombres négatifs.<br><br>' + 
+                            'Le foyer situé à droite de O est appelé foyer positif / image (F<sub>2</sub>), car il se trouve sur l\'axe des nombres positifs.<br><br>' + 
+                            'Les centres de courbure (C<sub>1</sub> et C<sub>2</sub>) des dioptres qui délimitent la lentille située de part et d\'autre de O, à une distance double de OF.' + 
                         '</li>' + 
                     '</ul>' + 
-                    '<h2 class="p-3">' + 'Clasificarea lentilelor:' + '</h2>' + 
+                    '<h2 class="p-3">' + 'Classification des lentilles:' + '</h2>' + 
                     '<ul>' + 
-                        '- <b>Lentile convergente</b> (convexe) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul convergent. Ele refractă lumina prin focarul pozitiv și de aceea se mai numesc și lentile pozitive. Ele măresc scrisul. Sunt mai groase la mijloc și mai subțiri la capete.<br><br>' + 
-                        '- <b>Lentile divergente</b> (concave) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul divergent. Ele refractă lumina prin focarul negativ și de aceea se mai numesc și lentile negative. Ele micșorează scrisul. Sunt mai groase la capete și mai subțiri la mijloc.<br><br>' + 
+                        '- <b>Lentilles convergentes</b> (convexes) sont des lentilles qui transforment un faisceau lumineux parallèle en un faisceau convergent. Elles réfractent la lumière par le foyer positif et c\'est pourquoi elles sont également appelées lentilles positives. Elles agrandissent l\'écriture. Elles sont plus épaisses au milieu et plus minces aux extrémités.<br><br>' + 
+                        '- <b>Lentilles divergentes</b> (concaves) sont des lentilles qui transforment un faisceau lumineux parallèle en un faisceau divergent. Elles réfractent la lumière par le foyer négatif et c\'est pourquoi elles sont également appelées lentilles négatives. Elles réduisent l\'écriture. Elles sont plus épaisses aux extrémités et plus minces au milieu.<br><br>'+
                         '<li>' + 
-                            'Formarea imaginii unui obiect în lentile: <br><br>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă convergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei convergente.<br>' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.<br>' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă), printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul pozitiv (F<sub>2</sub>), deoarece lentila convergentă refractă lumina prin focarul pozitiv.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.'+
-                            '</li><br></br>'+
-                        '<li>' + 
-                            'În funcție de distanța obiectului față de lentilă, avem trei tipuri de imagini în lentila convergentă.<br><br>' + 
-                            'I. Când obiectul este situat în intervalul (-∞) și C, imaginea obiectului are următoarele caracteristici :<br>' + 
-                            '- Mai mică decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'II. Când obiectul este situat în intervalul C și F1, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul AB.<br>' + 
-                            '- Răsturnată<br>' + 
-                            '- Reală (se formează la intersecția razelor refractate, poate fi proiectată pe un ecran).<br><br>' + 
-                            'III. Când obiectul este situat în intervalul F1 și O, imaginea obiectului are următoarele caracteristici:<br>' + 
-                            '- Mai mare decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
+                            'Formation de l\'image d\'un objet dans les lentilles : <br><br>' + 
+                            'Pour former l\'image d\'un objet dans une lentille convergente, il faut tracer deux rayons :<br><br>' + 
+                            '- Dessiner le symbole de la lentille convergente.<br>' + 
+                            '- Tracer son axe optique principal à travers son centre.<br>' + 
+                            '- Placer les éléments de la lentille (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Dessiner l\'objet (AB) devant la lentille (à gauche), avec une flèche.<br>' + 
+                            '- Tracer un rayon partant du sommet de l\'objet (B) parallèlement à l\'axe optique jusqu\'à rencontrer la lentille, puis le diriger vers le foyer positif (F<sub>2</sub>), car la lentille convergente réfracte la lumière par le foyer positif.<br>' + 
+                            '- Tracer un second rayon partant du sommet de l\'objet et passant par le centre optique de la lentille (O). Prolonger ces rayons jusqu\'à ce qu\'ils se croisent. À leur intersection, placer B\' qui est le sommet de l\'image (im) de l\'objet (ob) AB.<br>' + 
+                            '- À partir de B\', tracer une perpendiculaire à l\'axe optique, noter son pied A\' qui représente la base im A\'B\'.<br>' + 
+                            '- Placer la pointe de la flèche en B\', ainsi on obtient l\'image de l\'objet AB dans la lentille convergente.'+
+                        '</li><br></br>'+
+                            '<li>' + 
+                            'En fonction de la distance de l\'objet par rapport à la lentille, il existe trois types d\'images dans la lentille convergente.<br><br>' + 
+                            'I. Lorsque l\'objet est situé dans l\'intervalle (-∞) et C, l\'image de l\'objet a les caractéristiques suivantes :<br>' + 
+                            '- Plus petite que l\'objet AB.<br>' + 
+                            '- Inversée<br>' + 
+                            '- Réelle (se forme à l\'intersection des rayons réfractés, peut être projetée sur un écran).<br><br>' + 
+                            'II. Lorsque l\'objet est situé dans l\'intervalle C et F1, l\'image de l\'objet a les caractéristiques suivantes :<br>' + 
+                            '- Plus grande que l\'objet AB.<br>' + 
+                            '- Inversée<br>' + 
+                            '- Réelle (se forme à l\'intersection des rayons réfractés, peut être projetée sur un écran).<br><br>' + 
+                            'III. Lorsque l\'objet est situé dans l\'intervalle F1 et O, l\'image de l\'objet a les caractéristiques suivantes :<br>' + 
+                            '- Plus grande que l\'objet.<br>' + 
+                            '- Droite<br>' + 
+                            '- Virtuelle (se forme à l\'intersection des prolongements des rayons réfractés, ne peut pas être projetée sur un écran).' + 
                         '</li><br>' + 
                         '<li>' + 
-                            'Pentru a forma imaginea unui obiect într-o lentilă divergentă trebuie să trasăm două raze:<br><br>' + 
-                            '- Desenăm simbolul lentilei divergente.' + 
-                            '- Trasăm prin mijlocul ei axa optică principală.' + 
-                            '- Punem elementele lentilei (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Desenăm obiectul (AB) în fața lentilei (în partea stângă) printr-un segment cu săgeată.<br>' + 
-                            '- Trasăm o rază care pleacă din vârful obiectului (B) paralelă cu axa optică până întâlnește lentila și apoi o ducem prin focarul negativ (F<sub>1</sub>), deoarece lentila divergentă refractă lumina prin focarul negativ.<br>' + 
-                            '- Trasăm a doua rază din vârful obiectului care să treacă prin centrul optic al lentilei (O). Prelungim aceste raze până se intersectează. La intersecția lor punem B\' care este vârful imaginii (im) obiectului (ob) AB.<br>' + 
-                            '- Din B\' trasăm o perpendiculară pe axa optică, piciorul acesteia îl notăm cu A\' și reprezintă baza im A\'B\'.<br>' + 
-                            '- Punem vârful săgeții în B\' și așa obținem imaginea obiectului AB în lentila convergentă.<br>' + 
+                            'Pour former l\'image d\'un objet dans une lentille divergente, il faut tracer deux rayons :<br><br>' + 
+                            '- Dessiner le symbole de la lentille divergente.' + 
+                            '- Tracer l\'axe optique principal à travers son centre.' + 
+                            '- Placer les éléments de la lentille (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                            '- Dessiner l\'objet (AB) devant la lentille (à gauche) par un segment fléché.<br>' + 
+                            '- Tracer un rayon partant du sommet de l\'objet (B) parallèle à l\'axe optique jusqu\'à ce qu\'il rencontre la lentille, puis le faire passer par le foyer négatif (F<sub>1</sub>), car la lentille divergente réfracte la lumière par le foyer négatif.<br>' + 
+                            '- Tracer le deuxième rayon du sommet de l\'objet passant par le centre optique de la lentille (O). Prolonger ces rayons jusqu\'à ce qu\'ils se croisent. À leur intersection, placer B\' qui est le sommet de l\'image (im) de l\'objet (ob) AB.<br>' + 
+                            '- À partir de B\', tracer une perpendiculaire à l\'axe optique, noter le pied de celle-ci A\' et elle représente la base im A\'B\'.<br>' + 
+                            '- Placer le sommet de la flèche à B\' et ainsi obtenir l\'image de l\'objet AB dans la lentille convergente.<br>' + 
                         '</li><br>' + 
                         '<li>' + 
-                            'În lentila divergentă obținem o imagine care are aceleași caracteristici indiferent de distanța obiectului față de lentilă:<br><br>' + 
-                            '- Mai mică decât obiectul.<br>' + 
-                            '- Dreaptă<br>' + 
-                            '- Virtuală (se formează la intersecția prelungirilor razelor refractate, nu poate fi proiectată pe un ecran).' + 
+                            'Dans la lentille divergente, nous obtenons une image qui présente les mêmes caractéristiques quelle que soit la distance de l\'objet par rapport à la lentille :<br><br>' + 
+                            '- Plus petite que l\'objet.<br>' + 
+                            '- Droite<br>' + 
+                            '- Virtuelle (se forme à l\'intersection des prolongements des rayons réfractés, ne peut pas être projetée sur un écran).' + 
                         '</li>'+
                     '</ul>'+
-                    '<h2 class="p-3">Formulele lentilelor subțiri:</h2>' +
+                    '<h2 class="p-3">Formules des lentilles minces :</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Convenții de semne:<br><br>' +
-                            'x<sub>1</sub> = distanța de la obiectul AB la lentilă care se ia tot timpul negativă deoarece este pe axa numerelor negative.<br><br>' +
-                            'x<sub>2</sub> = distanța de la imaginea A\'B\' la lentilă care se ia pozitivă când imaginea este reală (se formează în spatele lentilei, pe axa numerelor pozitive) și negativ când imaginea este virtuală (se formează în fața lentilei, pe axa numerelor negative).<br><br>' +
-                            'y<sub>1</sub> = înălțimea obiectului AB care se ia pozitivă dacă obiectul este deasupra axei optice principale și negativă dacă obiectul este sub axa optică principală.<br><br>' +
-                            'y<sub>2</sub> = înălțimea imaginii A\'B\' se ia pozitivă când imaginea este dreaptă (deasupra axei optice principale) sau negativă când imaginea este răsturnată (sub axa optică principală).<br><br>' +
-                            'Distanța focală se consideră pozitivă (f > 0) pentru lentilele convergente și negativă (f < 0) pentru lentilele divergente.' +
+                            'Conventions de signes :<br><br>' +
+                            'x<sub>1</sub> = distance de l\'objet AB à la lentille, toujours prise négative car elle est sur l\'axe des nombres négatifs.<br><br>' +
+                            'x<sub>2</sub> = distance de l\'image A\'B\' à la lentille, prise positive lorsque l\'image est réelle (formée derrière la lentille, sur l\'axe des nombres positifs) et négative lorsque l\'image est virtuelle (formée devant la lentille, sur l\'axe des nombres négatifs).<br><br>' +
+                            'y<sub>1</sub> = hauteur de l\'objet AB, prise positive si l\'objet est au-dessus de l\'axe optique principal et négative si l\'objet est en dessous de l\'axe optique principal.<br><br>' +
+                            'y<sub>2</sub> = hauteur de l\'image A\'B\', prise positive lorsque l\'image est droite (au-dessus de l\'axe optique principal) ou négative lorsque l\'image est inversée (en dessous de l\'axe optique principal).<br><br>' +
+                            'La distance focale est considérée positive (f > 0) pour les lentilles convergentes et négative (f < 0) pour les lentilles divergentes.' +
                         '</li><br>' +
                         '<li>' +
-                            'Formula fundamentală a lentilelor subțiri:<br><br>' +
+                            'Formule fondamentale des lentilles minces :<br><br>' +
                             '(1 / x<sub>2</sub>) -(1 / x<sub>1</sub>) = 1 / f' +
                         '</li><br>' +
                         '<li>' +
-                            'Mărirea liniară transversală (β) este o mărime fizică adimensională egală cu raportul dintre înălțimea imaginii și înălțimea obiectului.<br><br>' +
+                            'Le grossissement linéaire transversal (β) est une grandeur physique adimensionnelle égale au rapport entre la hauteur de l\'image et la hauteur de l\'objet.<br><br>' +
                             'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>' +
                         '</li><br>' +
                         '<li>' +
-                            'Convergența unei lentile (C) este o mărime fizică egală cu inversul distanței focale (f).<br><br>' +
+                            'La convergence d\'une lentille (C) est une grandeur physique égale à l\'inverse de la distance focale (f).<br><br>' +
                             'C = 1 / f<br><br>' +
                             '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(dioptrie)<br>' +
-                            'Lentilă convergentă are C > 0 <br><br>' +
-                            'Lentilă divergentă are C < 0' +
+                            'Une lentille convergente a C > 0 <br><br>' +
+                            'Une lentille divergente a C < 0' +
                         '</li><br>' +
-                    '</ul>'+
-                    '<h2 class="p-3">Asociații de lentile:</h2>' +
+                    '</ul>'
+                    +'<h2 class="p-3">Associations de lentilles:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Un sistem format din două sau mai multe lentile care au aceeași axă optică principală se numește <b>asociație de lentile</b>.<br><br>' +
-                            'Imaginea formată de prima lentilă devine obiect pentru lentila următoare și așa mai departe până la ultima lentilă care va da imaginea finală.' +
+                            'Un système composé de deux ou plusieurs lentilles ayant le même axe optique principal est appelé <b>association de lentilles</b>.<br><br>' +
+                            'L\'image formée par la première lentille devient l\'objet pour la lentille suivante, et ainsi de suite jusqu\'à la dernière lentille qui donnera l\'image finale.' +
                         '</li>' +
                         '<li>' +
-                            'Cel mai utilizat sistem este cel cu lentile alipite (acolate) în care distanța (d) dintre lentile este zero, având același centru optic și focarul imagine (F<sub>2</sub>) al primei lentile (L) coincide cu focarul obiect (F\'2).<br><br>' +
-                            'Pentru un astfel de sistem format din k lentile avem:<br><br>' +
-                            '1. Inversul distanței focale a sistemului de lentile (F) este egal cu suma inverselor distanțelor focale a lentilelor asociației:<br><br>' +
+                            'Le système le plus utilisé est celui des lentilles accolées, dans lequel la distance (d) entre les lentilles est nulle, ayant le même centre optique et le foyer image (F<sub>2</sub>) de la première lentille (L) coïncide avec le foyer objet (F\'<sub>2</sub>).<br><br>' +
+                            'Pour un tel système composé de k lentilles, nous avons :<br><br>' +
+                            '1. L\'inverse de la distance focale du système de lentilles (F) est égal à la somme des inverses des distances focales des lentilles de l\'association :<br><br>' +
                             '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>' +
-                            '2. Convergența sistemului (C) este egală cu suma convergențelor lentilelor componente:<br><br>' +
+                            '2. La convergence du système (C) est égale à la somme des convergences des lentilles composantes :<br><br>' +
                             'C = C<sub>1</sub> + C<sub>2</sub> +...+ C<sub>k</sub><br><br>' +
-                            '3. Mărirea liniară transversală a sistemului (β) este egală cu produsul măririlor transversale a lentilelor componente:<br><br>' +
+                            '3. Le grossissement linéaire transversal du système (β) est égal au produit des grossissements transversaux des lentilles composantes :<br><br>' +
                             'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙… β<sub>k</sub><br><br>' +
-                            'Dacă notăm cu x\'2 distanța de la imaginea finală la lentila a doua L2 și cu x1 distanța de la obiect la prima lentilă L1, avem relația :<br><br>' +
+                            'Si nous notons x\'2 la distance de l\'image finale à la deuxième lentille L2 et x1 la distance de l\'objet à la première lentille L1, nous avons la relation :<br><br>' +
                             '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C' +
                         '</li>' +
                         '<li>' +
-                            'Un alt sistem de lentile este sistemul telescopic care este un sistem afocal, în care fasciculul de ieșire (emergent), provenit dintr-un fascicul paralel, este tot paralel. Focarul imagine al primei lentile (F2) coincide cu focarul obiect al celei de-a doua lentilă (F\'<sub>1</sub>).<br><br>' +
-                            '1. Distanța dintre lentile este:<br><br>' +
+                            'Un autre système de lentilles est le système télescopique qui est un système afocal, dans lequel le faisceau de sortie (émergent), provenant d\'un faisceau parallèle, est également parallèle. Le foyer image de la première lentille (F2) coïncide avec le foyer objet de la deuxième lentille (F\'<sub>1</sub>).<br><br>' +
+                            '1. La distance entre les lentilles est:<br><br>' +
                             'd = f<sub>1</sub> + f<sub>2</sub><br><br>' +
-                            '2. Mărirea liniară transversală este:<br><br>' +
+                            '2. Le grossissement linéaire transversal est:<br><br>' +
                             'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>' +
-                            'Pentru a afla poziția (x\'1) a imaginii intermediare față de prima lentilă (L<sub>1</sub>) și dimensiunea imaginii formată de prima lentilă, aplicăm formula punctelor conjugate pentru L<sub>1</sub>:<br><br>' +
+                            'Pour trouver la position (x\'1) de l\'image intermédiaire par rapport à la première lentille (L<sub>1</sub>) et la taille de l\'image formée par la première lentille, nous appliquons la formule des points conjugués pour L<sub>1</sub>:<br><br>' +
                             'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>' +
                             'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>' +
-                            'Știind distanța dintre lentile putem calcula poziția imaginii intermediare (formată de L<sub>1</sub>) față de lentila L<sub>2</sub>:<br><br>' +
+                            'En connaissant la distance entre les lentilles, nous pouvons calculer la position de l\'image intermédiaire (formée par L<sub>1</sub>) par rapport à la lentille L<sub>2</sub>:<br><br>' +
                             'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>' +
                             'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>' +
-                            'Pentru a afla poziția (x\'2) a imaginii finale față de a doua lentilă (L<sub>2</sub>) și dimensiunea imaginii formată de a doua lentilă, aplicăm formula punctelor conjugate pentru L<sub>2</sub>:<br><br>' +
+                            'Pour trouver la position (x\'2) de l\'image finale par rapport à la deuxième lentille (L<sub>2</sub>) et la taille de l\'image formée par la deuxième lentille, nous appliquons la formule des points conjugués pour L<sub>2</sub>:<br><br>' +
                             'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>' +
                             'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>' +
                         '</li>' +
@@ -7788,162 +7802,162 @@ var data = {
 
                     //Optica ondulatorie
                     '<a name="element_target"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Optica Ondulatorie</h2><br><br><br></u>' +
-                    '<h2 class="p-3">Dispersia luminii:</h2>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Optique Ondulatoire</h2><br><br><br></u>' +
+                    '<h2 class="p-3">Dispersion de la lumière:</h2>' +
                     '<ul>' +
-                        '<li>' +
-                            '<b>OPTICA</b> este o ramură a fizicii care studiază natura, proprietățile și fenomenele suferite de lumină.<br><br>' +
-                            'Optica este alcătuită din trei părți:<br><br>' +
-                            '1. Optica geometrică care operează cu raze de lumină (direcțiile de propagare ale luminii), neluând în considerare natura luminii. Ca fenomene studiate avem reflexia, refracția și reflexia totală a luminii.<br><br>' +
-                            '2. Optica ondulatorie studiază fenomenele de interferență, difracție și polarizare, în care se relevă caracterul de undă al luminii, mai precis ca undă (radiație) electromagnetică.<br><br>' +
-                            '3. Optica fotonică (corpusculară) studiază efectul fotoelectric, efectul Compton, emisia și absorbția luminii etc. care scot în evidență natura corpusculară a luminii (fotoni).<br><br>' +
-                            'Dispersia luminii albe a fost studiată prima dată de către Newton în 1672, când a obținut spectrul luminii albe pe o prismă optică.<br><br>' +
-                            'Fenomenul de variație a indicelui de refracție cu lungimea de undă se numește dispersia luminii.<br><br>' +
-                            'Astfel, când lumina trece printr-o prismă, ea se descompune în fascicule colorate în culorile curcubeului.<br><br>' +
-                            'Prin vid toate undele electromagnetice se propagă cu aceeași viteză, indiferent de lungimea lor de undă și prin urmare spunem că vidul este un mediu nedispersiv. Dacă prisma ar fi vidată, un fascicul de lumină albă nu s-ar descompune, ci numai ar fi deviat de la direcția incidentă prin fenomenul de refracție (adică schimbarea direcției de propagare la trecerea dintr-un mediu în altul).<br><br>' +
-                            'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul repectiv (v).<br><br>' +
-                            'n = c / v<br><br>' +
-                            'c = viteza luminii în vid = 300.000.000 m/s<br><br>' +
-                            'v = viteza luminii în mediul respectiv<br><br>' +
-                            'Toate mediile transparente (apa, sticla, diamantul etc.) caracterizate de un anumit indice de refracție mai mare decât unu, produc dispersia luminii.<br><br>' +
-                            'Dar indicele de refracție este constant numai pentru lumina monocromatică.<br><br>' +
-                            'Pentru lumina albă, alcătuită din șapte radiații de culori diferite și lungimi de undă diferite, indicele de refracție nu mai este constant, ci variază cu lungimea de undă a acestor lumini.<br><br>' +
-                            'Dacă indicele de refracție al unei prisme variază, prisma va refracta sub diferite unghiuri aceste lumini.<br><br>' +
-                            'În general, la difuzia normală, în aceste medii transparente indicele de refracție crește cu scăderea lungimii de undă, astfel razele violete (au o lungime de undă mai mică, 400 nm) vor fi refractate mai puternic decât cele roșii (cu lungimea de undă mai mare, 700 nm, decât cele violet).<br><br>' +
-                            'Dacă λ<sub>violetă</sub> < λ<sub>roșie</sub> → n<sub>violetă</sub> > n<sub>roșie</sub> → v<sub>violetă</sub> < v<sub>roșie</sub>.<br><br>' +
-                            'Fasciculele colorate trec prin prismă cu viteze diferite și de aceea ies din prismă sub unghiuri diferite.<br><br>' +
-                            'Razele violet ies mai puțin înclinate față de axa optică, deoarece se propagă cu o viteză mai mică prin materialul prismei decât raza roșie, străbătând în același timp o distanță mai mică decât cea roșie.<br><br>' +
-                        '</li><br>' +
+                    '<li>' +
+                    '<b>OPTIQUE</b> est une branche de la physique qui étudie la nature, les propriétés et les phénomènes subis par la lumière.<br><br>' +
+                    'L\'optique est composée de trois parties:<br><br>' +
+                    '1. L\'optique géométrique qui opère avec des rayons de lumière (les directions de propagation de la lumière), sans tenir compte de la nature de la lumière. Les phénomènes étudiés incluent la réflexion, la réfraction et la réflexion totale de la lumière.<br><br>' +
+                    '2. L\'optique ondulatoire étudie les phénomènes d\'interférence, de diffraction et de polarisation, qui révèlent le caractère ondulatoire de la lumière, plus précisément comme onde (radiation) électromagnétique.<br><br>' +
+                    '3. L\'optique photonique (corpusculaire) étudie l\'effet photoélectrique, l\'effet Compton, l\'émission et l\'absorption de la lumière, etc., qui mettent en évidence la nature corpusculaire de la lumière (photons).<br><br>' +
+                    'La dispersion de la lumière blanche a été étudiée pour la première fois par Newton en 1672, lorsqu\'il a obtenu le spectre de la lumière blanche à travers un prisme optique.<br><br>' +
+                    'Le phénomène de variation de l\'indice de réfraction avec la longueur d\'onde est appelé dispersion de la lumière.<br><br>' +
+                    'Ainsi, lorsque la lumière passe à travers un prisme, elle se décompose en faisceaux colorés dans les couleurs de l\'arc-en-ciel.<br><br>' +
+                    'Dans le vide, toutes les ondes électromagnétiques se propagent à la même vitesse, quelle que soit leur longueur d\'onde, et par conséquent, nous disons que le vide est un milieu non dispersif. Si le prisme était vidé, un faisceau de lumière blanche ne se décomposerait pas, mais serait seulement dévié de la direction incidente par le phénomène de réfraction (c\'est-à-dire le changement de direction de propagation lors du passage d\'un milieu à un autre).<br><br>' +
+                    'L\'indice de réfraction (noté n) d\'un milieu transparent est donné par le rapport entre la vitesse de la lumière dans le vide (c) et la vitesse de la lumière dans le milieu respectif (v).<br><br>' +
+                    'n = c / v<br><br>' +
+                    'c = vitesse de la lumière dans le vide = 300 000 000 m/s<br><br>' +
+                    'v = vitesse de la lumière dans le milieu respectif<br><br>' +
+                    'Tous les milieux transparents (eau, verre, diamant, etc.) caractérisés par un certain indice de réfraction supérieur à un, produisent la dispersion de la lumière.<br><br>' +
+                    'Mais l\'indice de réfraction est constant seulement pour la lumière monochromatique.<br><br>' +
+                    'Pour la lumière blanche, composée de sept radiations de couleurs différentes et de longueurs d\'onde différentes, l\'indice de réfraction n\'est plus constant, mais varie avec la longueur d\'onde de ces lumières.<br><br>' +
+                    'Si l\'indice de réfraction d\'un prisme varie, le prisme réfractera ces lumières sous des angles différents.<br><br>' +
+                    'En général, lors de la diffusion normale, dans ces milieux transparents, l\'indice de réfraction augmente avec la diminution de la longueur d\'onde, ainsi les rayons violets (ayant une longueur d\'onde plus courte, 400 nm) seront plus réfractés que les rouges (ayant une longueur d\'onde plus longue, 700 nm, que les violets).<br><br>' +
+                    'Si λ<sub>violette</sub> < λ<sub>rouge</sub> → n<sub>violette</sub> > n<sub>rouge</sub> → v<sub>violette</sub> < v<sub>rouge</sub>.<br><br>' +
+                    'Les faisceaux colorés traversent le prisme à des vitesses différentes et en conséquence sortent du prisme sous des angles différents.<br><br>' +
+                    'Les rayons violets sortent moins inclinés par rapport à l\'axe optique, car ils se propagent à une vitesse plus faible à travers le matériau du prisme que le rayon rouge, parcourant en même temps une distance plus courte que le rouge.<br><br>' +
+                    '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">Interferența luminii:</h2>'+
+                    '<h2 class="p-3">Interférence de la lumière:</h2>' +
                     '<ul>' +
                     '<li>' +
-                        'Interferența luminii nelocalizată în dispozitivul Young.<br><br>' +
-                        'INTERFERENȚA este fenomenul de suprapunere a două unde coerente (cu aceeași frecvență și aceeași diferență de fază) care se întâlnesc într-un punct din spațiu.<br><br>' +
-                        'În anumite puncte din spațiu se vor forma franje de interferență, adică o succesiune de regiuni luminoase și întunecate.<br><br>' +
-                        'Undele coerente se obțin prin separarea dintr-un flux luminos emis de o sursă monocromatică , două fascicule de lumină care ulterior se întâlnesc.<br><br>' +
-                        'Există două modalități de obținere a undelor coerente :<br><br>' +
-                        '- Divizarea frontului de undă în dispozitivul Young, biprisma Fresnel etc.<br><br>' +
-                        '- Divizarea amplitudinii undei în lama cu fețe plan paralele, pana optică, inelele lui Newton.' +
+                    'L\'interférence de la lumière non localisée dans le dispositif de Young.<br><br>' +
+                    'L\'INTERFÉRENCE est le phénomène de superposition de deux ondes cohérentes (ayant la même fréquence et la même différence de phase) qui se rencontrent en un point de l\'espace.<br><br>' +
+                    'En certains points de l\'espace, des franges d\'interférence se formeront, c\'est-à-dire une succession de régions lumineuses et sombres.<br><br>' +
+                    'Les ondes cohérentes sont obtenues en séparant d\'un flux lumineux émis par une source monochromatique, deux faisceaux de lumière qui se rencontrent par la suite.<br><br>' +
+                    'Il existe deux moyens d\'obtenir des ondes cohérentes :<br><br>' +
+                    '- Division du front d\'onde dans le dispositif de Young, biprisme de Fresnel, etc.<br><br>' +
+                    '- Division de l\'amplitude de l\'onde dans la lame à faces parallèles, le coin optique, les anneaux de Newton.' +
                     '</li><br>' +
                     '<li>' +
-                        'Dispozitivul Young folosește o sursă de lumină monocromatică S (laser), un paravan cu două fante dreptunghiulare (cu lățimea mai mică de 1 mm) și paralele cu o distanță între ele de maxim 1 mm, un ecran (coală albă). Pentru observarea figurii de interferență nu există o poziție preferențială a ecranului, putând fi plasat la o distanță D între 1 m și 5 m față de fante și din acest motiv se numește interferență nelocalizată.<br><br>' +
-                        'Atât interferența, cât și difracția se bazează pe principiul lui Hyugens-Fresnel care spune că fiecare punct de pe un front de undă se comportă ca o sursă secundară de undă cu aceeași frecvență și fază cu unda inițială. Noul front de undă este creat prin însumarea amplitudinilor undelor secundare.' +
+                    'Le dispositif de Young utilise une source de lumière monochromatique S (laser), un écran avec deux fentes rectangulaires (d\'une largeur inférieure à 1 mm) et parallèles avec une distance entre elles de maximum 1 mm, un écran (feuille blanche). Pour observer la figure d\'interférence, il n\'y a pas de position préférentielle de l\'écran, pouvant être placé à une distance D entre 1 m et 5 m par rapport aux fentes et pour cette raison, il est appelé interférence non localisée.<br><br>' +
+                    'Tant l\'interférence que la diffraction sont basées sur le principe de Huygens-Fresnel qui dit que chaque point sur un front d\'onde se comporte comme une source secondaire d\'onde avec la même fréquence et phase que l\'onde initiale. Le nouveau front d\'onde est créé en additionnant les amplitudes des ondes secondaires.' +
                     '</li><br>' +
                     '<li>' +
-                        'În cazul interferenței constructive, cele două unde sunt în fază (defazaj zero) și suma lor este mai mare, formând regiuni luminoase.<br><br>' +
-                        'Când cele două unde vibrează în antifază (defazaj 180°) se vor anihila (suma lor este zero), formând zone întunecate, caz în care vorbim de interferență distructivă.' +
+                        'Dans le cas de l\'interférence constructive, les deux ondes sont en phase (décalage de phase nul) et leur somme est plus grande, formant des régions lumineuses.<br><br>' +
+                        'Lorsque les deux ondes vibrent en opposition de phase (décalage de phase de 180°), elles s\'annihilent (leur somme est nulle), formant des zones sombres, cas où l\'on parle d\'interférence destructive.' +
                     '</li><br>' +
                     '<li>' +
-                        'Unda electromagnetică (lumina) are două componente electrică și magnetică. Numai componenta electrică (E) influențează senzația vizuală.<br><br>' +
-                        'Undele de aceeași amplitudine emise de cele două surse au ecuațiile :<br><br>' +
+                        'L\'onde électromagnétique (la lumière) a deux composantes, électrique et magnétique. Seule la composante électrique (E) influence la sensation visuelle.<br><br>' +
+                        'Les ondes de même amplitude émises par les deux sources ont les équations :<br><br>' +
                         'E<sub>1</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>1</sub> / λ))<br><br>' +
                         'E<sub>2</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>2</sub> / λ))<br><br>' +
-                        'Unda electromagnetică se propagă cu viteza c în intervalul de timp Δt prin suprafața de arie S așezată perpendicular pe direcția de propagare.<br><br>' +
-                        'Energia transportată de undă este:<br><br>' +
+                        'L\'onde électromagnétique se propage à la vitesse c dans l\'intervalle de temps Δt à travers une surface d\'aire S perpendiculaire à la direction de propagation.<br><br>' +
+                        'L\'énergie transportée par l\'onde est :<br><br>' +
                         'ΔW = w ΔV<br><br>' +
                         'ΔW = (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup>E<sup>2</sup>SΔt<br><br>' +
                         'I = 1/2 · (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup> ·E<sup>2</sup><sub>0</sub><br><br>' +
                         'E\'<sub>0</sub> = 2 E<sub>0</sub> cos (π(r<sub>2</sub> - r<sub>1</sub>) / λ)' +
                     '</li><br>'+
                     '<li>' +
-                        'Condițiile de interferență sunt:<br><br>' +
-                        '- Undele să aibă aceeași frecvență<br><br>' +
-                        '- Diferența de fază : ΔΦ = 2π(Δr / λ) = constantă<br><br>' +
-                        'Intensitatea luminoasă, I, într-un punct de interferență este proporțională cu pătratul amplitudinii undei rezultante:<br><br>' +
+                        'Les conditions d\'interférence sont :<br><br>' +
+                        '- Les ondes doivent avoir la même fréquence<br><br>' +
+                        '- La différence de phase : ΔΦ = 2π(Δr / λ) = constante<br><br>' +
+                        'L\'intensité lumineuse, I, en un point d\'interférence est proportionnelle au carré de l\'amplitude de l\'onde résultante :<br><br>' +
                         'I = const 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
-                        'În interferența constructivă (cu formarea de franje luminoase) avem condiția de maxim de iluminare:<br><br>' +
-                        'cos<sup>2</sup>(πΔr / λ)<br><br> = 1 → Δr = kλ = 2k(λ/2),<br><br>' +
-                        'unde k = nr.întreg<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu par de semiundă se află pe o franjă luminoasă.<br><br>' +
-                        'În interferența distructivă (cu formarea de franje întunecoase) avem condiția de minim de iluminare:<br><br>' +
+                        'Dans l\'interférence constructive (avec formation de franges lumineuses), nous avons la condition de maximum d\'éclairage :<br><br>' +
+                        'cos<sup>2</sup>(πΔr / λ) = 1 → Δr = kλ = 2k(λ/2),<br><br>' +
+                        'où k = nombre entier<br><br>' +
+                        'Les points dans la zone d\'interférence pour lesquels la différence de chemin, Δr, est un multiple pair de demi-longueur d\'onde se trouvent sur une frange lumineuse.<br><br>' +
+                        'Dans l\'interférence destructive (avec formation de franges sombres), nous avons la condition de minimum d\'éclairage :<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ) = 0 → Δr = kλ = 2(k+1)(λ/2)<br><br>' +
-                        'Punctele din zona de interferență pentru care diferența de drum, Δr, este un multiplu impar de semiundă se află pe o franjă întunecoasă.' +
+                        'Les points dans la zone d\'interférence pour lesquels la différence de chemin, Δr, est un multiple impair de demi-longueur d\'onde se trouvent sur une frange sombre.' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea pozițiilor franjelor în dispozitivul Young<br><br>' +
-                        'în ΔAEP aplicăm Teorema lui Pitagora: r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
-                        'în ΔBE\'P aplicăm Teorema lui Pitagora: r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'Détermination des positions des franges dans le dispositif de Young<br><br>' +
+                        'dans ΔAEP, appliquez le théorème de Pythagore : r<sup>1</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
+                        'dans ΔBE\'P, appliquez le théorème de Pythagore : r<sup>2</sup> = D<sup>2</sup> + (x-l)<sup>2</sup><br><br>' +
                         'Δr = r<sub>2</sub> = r<sub>1</sub> = 4xl / (r<sub>1</sub> + r<sub>2</sub>)' +
                     '</li><br>' +
                     '<li>' +
-                        'Determinarea lungimii de undă prin măsurarea interfranjei<br><br>' +
+                        'Détermination de la longueur d\'onde par la mesure de l\'interfrange<br><br>' +
                         'i = x<sub>k+1</sub> - x<sub>k</sub> = (k+1)λD / 2l - kλD / 2l = λD / 2l<br><br>' +
                         'i = λD / 2l' +
                     '</li>'+
                     '</ul>'+
-                    '<h2 class="p-3">'+'Interferența localizată pe lama cu fețe plan paralele:'+'</h2>'+
+                    '<h2 class="p-3">'+'Interférence localisée sur la lame à faces planes parallèles:'+'</h2>'+
                     '<ul>' +
                         '<li>' +
-                            'Interferența localizată pe lama cu fețe plan paralele are loc atunci când un fascicul de lumină este divizat în două fascicule coerente pe suprafețe reflectătoare, prin reflexia luminii pe fața superioară și prin transmiterea luminii pe fața inferioară a lamei subțiri.<br><br>' +
-                            'Lumina ajunsă pe fața superioară a lamei (peliculei) se și reflectă (IR), se și refractă (IŔ ). Raza refractată prin lamă se reflectă pe fața inferioară a lamei (MN). Cele două raze, IR și MN, vor interfera la suprafața lamei.<br><br>' +
-                            'Franjele de interferență sunt localizate în planul focal al lentilei sau, în absența acesteia, la infinit. Așa explicăm irizațiile baloanelor de săpun și ale peliculelor de ulei sau petrol de pe stradă.' +
+                        'L\'interférence localisée sur la lame à faces planes parallèles se produit lorsqu\'un faisceau de lumière est divisé en deux faisceaux cohérents sur des surfaces réfléchissantes, par la réflexion de la lumière sur la face supérieure et par la transmission de la lumière sur la face inférieure de la lame mince.<br><br>' +
+                        'La lumière atteignant la face supérieure de la lame (pellicule) est à la fois réfléchie (IR) et réfractée (IŔ ). Le rayon réfracté à travers la lame est réfléchi sur la face inférieure de la lame (MN). Les deux rayons, IR et MN, interféreront à la surface de la lame.<br><br>' +
+                        'Les franges d\'interférence sont localisées dans le plan focal de la lentille ou, en son absence, à l\'infini. C\'est ainsi que nous expliquons les irisations des bulles de savon et des pellicules d\'huile ou de pétrole sur la route.' +
                         '</li>' +
                     '</ul>' +
                     '<h2 class="p-3">' +
-                        'Inelele lui Newton la interferența pe o pană de aer:' +
+                    'Les anneaux de Newton dans l\'interférence sur une lame d\'air:'+
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Inelele lui Newton se obțin prin iluminarea perpendiculară cu lumină monocromatică a unei lentile plan-convexă cu distanță focală mare și așezată cu fața curbă pe o placă de sticlă plană. Între lentilă și placă se formează o pană de aer subțire având ca rezultat formarea unor franje luminoase și întunecate circulare, concentrice cu punctul de contact între lentilă și placă.' +
+                        'Les anneaux de Newton sont obtenus par illumination perpendiculaire avec de la lumière monochromatique d\'une lentille plano-convexe à grande distance focale, placée avec la face courbe sur une plaque de verre plane. Entre la lentille et la plaque se forme une lame d\'air mince, ayant pour résultat la formation de franges lumineuses et sombres circulaires, concentriques avec le point de contact entre la lentille et la plaque.' +
                         '</li>' +
                     '</ul>'+
 
                     //Elemente de fizica cuantica
                     '<a name="element_target2"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Elemente de fizică cuantică</h2><br><br><br></u>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Éléments de physique quantique</h2><br><br><br></u>' +
                     '<h2 class="p-3">' +
-                        'Ipoteza lui Planck asupra cuantelor de lumină:' +
+                        'L\'hypothèse de Planck sur les quanta de lumière:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Planck a afirmat că radiația emisă de corpul negru există sub forma unor pachețele discrete de energie pe care le-a numit cuante (numite ulterior fotoni), dependente de frecvența radiației respective.<br><br>' +
-                            'Valorile discrete ale energiei unui oscilator armonic sunt echidistante, astfel încât diferența dintre nivelurile de energie ( ΔE) este proporțională cu frecvența (ν) a oscilatorului și constanta lui Planck (h).<br><br>' +
+                            'Planck a affirmé que le rayonnement émis par le corps noir existe sous forme de petits paquets d\'énergie discrets qu\'il a appelés quanta (plus tard appelés photons), dépendant de la fréquence du rayonnement correspondant.<br><br>' +
+                            'Les valeurs discrètes de l\'énergie d\'un oscillateur harmonique sont équidistantes, de sorte que la différence entre les niveaux d\'énergie (ΔE) est proportionnelle à la fréquence (ν) de l\'oscillateur et à la constante de Planck (h).<br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = frecvența oscilatorului<br><br>' +
-                            'Constanta lui Planck este una dintre cele mai mici constante folosite în fizică la scară macroscopică, reflectând scara microscopică la care se observă efectele cuantice.' +
+                            'h = constante de Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
+                            'ν = fréquence de l\'oscillateur<br><br>' +
+                            'La constante de Planck est l\'une des plus petites constantes utilisées en physique à l\'échelle macroscopique, reflétant l\'échelle microscopique à laquelle les effets quantiques sont observés.' +
                         '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">' +
-                        'Efectul fotoelectric:' +
+                    '</ul>'
+                    +'<h2 class="p-3">' +
+                        'L\'effet photoélectrique:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Efectul fotoelectric a fost descoperit experimental în anul 1887 de către Heinrich Hertz (1857-1894) și în anul 1888 de către W. Hallwachs (1859-1922) și constă în emiterea de electroni de către un metal sub acțiunea unei radiații electromagnetice.<br><br>' +
-                            'În 1905, Albert Einstein (1879-1955) a remarcat că explicația efectului fotoelectric ar putea fi rezolvată, generalizând ipoteza cuantică propusă de Planck privind radiația corpului negru la radiația electromagnetică.<br><br>' +
-                            'Astfel, electronii din catod primesc de la lumină numai un singur pachet (foton) de energie luminoasă (E = h ∙ ν) pentru a fi accelerați și să părăsească metalul.<br><br>' +
-                            'Astfel energia cinetică maximă a electronilor emiși nu va depăși această valoare de energie primită, indiferent de intensitatea radiației incidente.<br><br>' +
-                            'În plus explică de ce viteza maximă a electronilor depinde de frecvența radiației.' +
+                            'L\'effet photoélectrique a été découvert expérimentalement en 1887 par Heinrich Hertz (1857-1894) et en 1888 par W. Hallwachs (1859-1922) et consiste en l\'émission d\'électrons par un métal sous l\'action d\'un rayonnement électromagnétique.<br><br>' +
+                            'En 1905, Albert Einstein (1879-1955) a remarqué que l\'explication de l\'effet photoélectrique pourrait être résolue en généralisant l\'hypothèse quantique proposée par Planck concernant le rayonnement du corps noir au rayonnement électromagnétique.<br><br>' +
+                            'Ainsi, les électrons du cathode reçoivent de la lumière seulement un seul paquet (photon) d\'énergie lumineuse (E = h ∙ ν) pour être accélérés et quitter le métal.<br><br>' +
+                            'Ainsi, l\'énergie cinétique maximale des électrons émis ne dépassera pas cette valeur d\'énergie reçue, quelle que soit l\'intensité du rayonnement incident.<br><br>' +
+                            'De plus, cela explique pourquoi la vitesse maximale des électrons dépend de la fréquence du rayonnement.' +
                         '</li><br>' +
                         '<li>' +
-                            'Prima lege a efectului fotoelectric extern:<br><br>' +
-                            'Efectul fotoelectric extern se produce numai când frecvența radiației incidente este mai mare decât frecvența de prag caracteristică metalului din care este confecționat catodul.<br><br>' +
-                            'Pentru a părăsi metalul electronii liberi trebuie să primească o energie egală cu lucrul mecanic de extracție (L) pentru frecvența de prag (ν<sub>0</sub>):<br><br>' +
-                            'L = h ∙ ν<sub>0</sub> h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
-                            'Fotonul de energie h ∙ ν cedează energia sa unui electron de conducție.<br><br>' +
-                            'Electronul poate părăsi metalul numai dacă h ∙ ν ≥ L.' +
+                            'La première loi de l\'effet photoélectrique externe:<br><br>' +
+                            'L\'effet photoélectrique externe se produit seulement lorsque la fréquence du rayonnement incident est supérieure à la fréquence seuil caractéristique du métal dont est fabriqué le cathode.<br><br>' +
+                            'Pour quitter le métal, les électrons libres doivent recevoir une énergie égale au travail d\'extraction (L) pour la fréquence seuil (ν<sub>0</sub>):<br><br>' +
+                            'L = h ∙ ν<sub>0</sub> h = constante de Planck = 6,62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
+                            'Le photon d\'énergie h ∙ ν transmet son énergie à un électron de conduction.<br><br>' +
+                            'L\'électron peut quitter le métal seulement si h ∙ ν ≥ L.' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">A doua lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">La deuxième loi de l\'effet photoélectrique externe:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Efectul fotoelectric se produce practic instantaneu.<br><br>' +
-                            'Emisia unui electron este rezultatul ciocnirii dintre un foton și un electron într-un timp mai mic de 10<sup>-9</sup> s.' +
+                            'L\'effet photoélectrique se produit pratiquement instantanément.<br><br>' +
+                            'L\'émission d\'un électron est le résultat de la collision entre un photon et un électron en moins de 10<sup>-9</sup> s.' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A treia lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">La troisième loi de l\'effet photoélectrique externe:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Energia cinetică a electronilor emiși crește liniar cu frecvența radiației incidente.<br><br>' +
-                            'Dacă energia fotonului h ∙ ν > L, atunci electronul are o energie cinetică suficientă pentru a părăsi metalul:<br><br>' +
+                            'L\'énergie cinétique des électrons émis augmente linéairement avec la fréquence du rayonnement incident.<br><br>' +
+                            'Si l\'énergie du photon h ∙ ν > L, alors l\'électron a une énergie cinétique suffisante pour quitter le métal:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">A patra lege a efectului fotoelectric extern:</h2>' +
+                    '<h2 class="p-3">La quatrième loi de l\'effet photoélectrique externe:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Numărul de fotoelectroni emiși de catod în unitatea de timp este proporțional cu numărul de fotoni incidenți în acest interval de timp, care este proporțional cu fluxul de energie luminoasă.' +
+                            'Le nombre de photoélectrons émis par le cathode par unité de temps est proportionnel au nombre de photons incidents pendant cet intervalle de temps, ce qui est proportionnel au flux d\'énergie lumineuse.' +
                         '</li>' +
                     '</ul>'),
 
