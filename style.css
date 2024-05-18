@@ -24,6 +24,8 @@
 
 .btn-cuprins
 {
+    min-width: 400px;
+    max-width: 800px;
     opacity: .7;
     width: 100%; 
     position: fixed; 
@@ -100,7 +102,10 @@
 html {  
     scroll-behavior: smooth;  
 }
-
+#cuprinsMecanica
+{
+    width:800px;
+}
 
 
 @media (max-width: 782px) {
