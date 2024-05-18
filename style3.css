@@ -452,7 +452,7 @@ footer button.show{
 .buttons button.restart{
     color: #fff;
     background: #315c74;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .buttons button.restart:hover{
@@ -462,7 +462,7 @@ footer button.show{
 .buttons button.quit{
     color: #315c74;
     background: #fff;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .buttons button.quit:hover{
