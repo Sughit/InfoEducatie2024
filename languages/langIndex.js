@@ -115,6 +115,28 @@ function loadLanguages(attr)
     const teorieOpticaTitle = document.getElementById('teorieOpticaTitle');
     const teorieOptica = document.getElementById('teorieOptica');
 
+    //variabile din cuprinsMecanica
+    const cuprinsPrincipii = document.getElementById('cuprinsPrincipii');
+    const cuprinsTeoreme = document.getElementById('cuprinsTeoreme');
+
+    //variabile din cuprinsTermodinamica
+    const cuprinsNotiuni = document.getElementById('cuprinsNotiuni');
+    const cuprinsPrincipiuI = document.getElementById('cuprinsPrincipiuI');
+    const cuprinsMotoare = document.getElementById('cuprinsMotoare');
+    const cuprinsPrincipiuII = document.getElementById('cuprinsPrincipiuII');
+
+    //variabile din cuprinsElectromecanica
+    const cuprinsCurentul = document.getElementById('cuprinsCurentul');
+    const cuprinsOhm = document.getElementById('cuprinsOhm');
+    const cuprinsKirchhoff = document.getElementById('cuprinsKirchhoff');
+    const cuprinsGrupare = document.getElementById('cuprinsGrupare');
+    const cuprinsEnergiei = document.getElementById('cuprinsEnergie');
+
+    //variabile din cuprinsOptica
+    const cuprinsGeometrica = document.getElementById('cuprinsGeometrica');
+    const cuprinsOndulatorie = document.getElementById('cuprinsOndulatorie');
+    const cuprinsCuantica = document.getElementById('cuprinsCuantica');
+
     //variabile comune din cele 4 teorii
     const teorieInapoiBtn = document.getElementById('teorieInapoiBtn');
 
@@ -287,6 +309,8 @@ function loadLanguages(attr)
         teorieMecanicaTitle.textContent = data[attr].teorieMecanicaTitle;
         teorieMecanica.innerHTML = data[attr].teorieMecanica;
         teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
+        cuprinsPrincipii.textContent = data[attr].cuprinsPrincipii;
+        cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
     }
 
     //teorieTermodinamica.html
@@ -295,6 +319,10 @@ function loadLanguages(attr)
         teorieTermodinamicaTitle.textContent = data[attr].teorieTermodinamicaTitle;
         teorieTermodinamica.innerHTML = data[attr].teorieTermodinamica;
         teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
+        cuprinsNotiuni.textContent = data[attr].cuprinsNotiuni;
+        cuprinsPrincipiuI.textContent = data[attr].cuprinsPrincipiuI;
+        cuprinsMotoare.textContent = data[attr].cuprinsMotoare;
+        cuprinsPrincipiuII.textContent = data[attr].cuprinsPrincipiuII;
     }
 
     //teorieElectromecanica.html
@@ -303,6 +331,11 @@ function loadLanguages(attr)
         teorieElectromecanicaTitle.textContent = data[attr].teorieElectromecanicaTitle;
         teorieElectromecanica.innerHTML = data[attr].teorieElectromecanica;
         teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
+        cuprinsCurentul.textContent = data[attr].cuprinsCurentul;
+        cuprinsOhm.textContent = data[attr].cuprinsOhm;
+        cuprinsKirchhoff.textContent = data[attr].cuprinsKirchhoff;
+        cuprinsGrupare.textContent = data[attr].cuprinsGrupare;
+        cuprinsEnergiei.textContent = data[attr].cuprinsEnergiei;
     }
 
     //teorieOptica.html
@@ -311,6 +344,9 @@ function loadLanguages(attr)
         teorieOpticaTitle.textContent = data[attr].teorieOpticaTitle;
         teorieOptica.innerHTML = data[attr].teorieOptica;
         teorieInapoiBtn.textContent = data[attr].teorieInapoiBtn;
+        cuprinsGeometrica.textContent = data[attr].cuprinsGeometrica;
+        cuprinsOndulatorie.textContent = data[attr].cuprinsOndulatorie;
+        cuprinsCuantica.textContent = data[attr].cuprinsCuantica;
     }
 }
 
@@ -1849,6 +1885,22 @@ var data = {
                     '</li>' +
                     '</ul>'),
 
+        //cuprins
+        "cuprinsPrincipii": "Principles and laws",
+        "cuprinsTeoreme": "Variation theorems and conservation laws",
+        "cuprinsNotiuni": "Getting started",
+        "cuprinsPrincipiuI": "The first principle",
+        "cuprinsMotoare": "Thermal engines",
+        "cuprinsPrincipiuII": "The second principle",
+        "cuprinsCurentul": "Electricity",
+        "cuprinsOhm": "Ohm\'s law",
+        "cuprinsKirchhoff": "Kirchhoff\'s law",
+        "cuprinsGrupare": "Grouping of resistors and generators",
+        "cuprinsEnergie": "Energy and electric power",
+        "cuprinsGeometrica": "Geometric optics",
+        "cuprinsOndulatorie": "Wave optics",
+        "cuprinsCuantica": "Quantum physics",
+
         "teorieInapoiBtn": "Back to the selection menu",
         "invataTitle": "In this part of the chapter you will learn concepts such as:",
         "inchideBtn": "Close",
@@ -3378,6 +3430,22 @@ var data = {
                         '</li>' +
                     '</ul>'),
 
+        //cuprins
+        "cuprinsPrincipii": "Principii și legi",
+        "cuprinsTeoreme": "Teoreme de variație și legi de conservare",
+        "cuprinsNotiuni": "Noțiuni de bază",
+        "cuprinsPrincipiuI": "Principiul I",
+        "cuprinsMotoare": "Motoare termice",
+        "cuprinsPrincipiuII": "Principiul al II-lea",
+        "cuprinsCurentul": "Curentul electric",
+        "cuprinsOhm": "Legea lui Ohm",
+        "cuprinsKirchhoff": "Legea lui Kirchhoff",
+        "cuprinsGrupare": "Gruparea rezistoarelor și generatoarelor",
+        "cuprinsEnergie": "Energia și puterea electrică",
+        "cuprinsGeometrica": "Optică geometrică",
+        "cuprinsOndulatorie": "Optică ondulatorie",
+        "cuprinsCuantica": "Fizică cuantică",
+
         "teorieInapoiBtn": "Înapoi la meniul de selecție",
         "invataTitle": "În această parte a capitolului vei învăța noțiuni precum:",
         "inchideBtn": "Închide",
@@ -4893,6 +4961,22 @@ var data = {
                             'A katód által egységnyi idő alatt kibocsátott fotoelektronok száma arányos a beeső fotonok számával ebben az időintervallumban, ami arányos a fényenergia áramlásával.' +
                         '</li>' +
                     '</ul>'),
+
+        //cuprins
+        "cuprinsPrincipii": "Elvek és törvények",
+        "cuprinsTeoreme": "Variációs tételek és megmaradási törvények",
+        "cuprinsNotiuni": "Elkezdeni",
+        "cuprinsPrincipiuI": "I. alapelv",
+        "cuprinsMotoare": "Hőmotorok",
+        "cuprinsPrincipiuII": "A második elv",
+        "cuprinsCurentul": "Elektromosság",
+        "cuprinsOhm": "Ohm törvénye",
+        "cuprinsKirchhoff": "Kirchhoff törvénye",
+        "cuprinsGrupare": "Az ellenállások és generátorok csoportosítása",
+        "cuprinsEnergie": "Energia és elektromos energia",
+        "cuprinsGeometrica": "Geometrikus optika",
+        "cuprinsOndulatorie": "Hullám optika",
+        "cuprinsCuantica": "Kvantumfizika",
 
         "teorieInapoiBtn": "Vissza a kiválasztási menühöz",
         "invataTitle": "A fejezet ezen részében olyan fogalmakat fogsz megtanulni, mint például:",
@@ -6422,6 +6506,22 @@ var data = {
                             'Die Anzahl der von der Kathode pro Zeiteinheit emittierten Fotoelektronen ist proportional zur Anzahl der in diesem Zeitintervall einfallenden Photonen, die proportional zum Lichtenergiefluss ist.' +
                         '</li>' +
                     '</ul>'),
+
+        //cuprins
+        "cuprinsPrincipii": "Prinzipien und Gesetze",
+        "cuprinsTeoreme": "Variationssätze und Erhaltungssätze",
+        "cuprinsNotiuni": "Erste Schritte",
+        "cuprinsPrincipiuI": "Prinzip I",
+        "cuprinsMotoare": "Wärmekraftmaschinen",
+        "cuprinsPrincipiuII": "Das zweite Prinzip",
+        "cuprinsCurentul": "Elektrizität",
+        "cuprinsOhm": "Ohm\'sches Gesetz",
+        "cuprinsKirchhoff": "Kirchhoffs Gesetz",
+        "cuprinsGrupare": "Gruppierung von Widerständen und Generatoren",
+        "cuprinsEnergie": "Energie und Strom",
+        "cuprinsGeometrica": "Geometrische Optik",
+        "cuprinsOndulatorie": "Wellenoptik",
+        "cuprinsCuantica": "Quantenphysik",
 
         "teorieInapoiBtn": "Zurück zum Auswahlmenü",
         "invataTitle": "In diesem Teil des Kapitels lernen Sie Konzepte kennen wie:",
@@ -7961,6 +8061,22 @@ var data = {
                         '</li>' +
                     '</ul>'),
 
+        //cuprins
+        "cuprinsPrincipii": "Principes et lois",
+        "cuprinsTeoreme": "Théorèmes de variation et lois de conservation",
+        "cuprinsNotiuni": "Commencer",
+        "cuprinsPrincipiuI": "Principe I",
+        "cuprinsMotoare": "Moteurs thermiques",
+        "cuprinsPrincipiuII": "Le deuxième principe",
+        "cuprinsCurentul": "Électricité",
+        "cuprinsOhm": "La loi d'Ohm",
+        "cuprinsKirchhoff": "La loi de Kirchhoff",
+        "cuprinsGrupare": "Regroupement de résistances et de générateurs",
+        "cuprinsEnergie": "Énergie et puissance électrique",
+        "cuprinsGeometrica": "Optique géométrique",
+        "cuprinsOndulatorie": "Optique ondulatoire",
+        "cuprinsCuantica": "La physique quantique",
+
         "teorieInapoiBtn": "Retour au menu de sélection",
         "invataTitle": "Dans cette partie du chapitre, vous apprendrez des concepts tels que :",
         "inchideBtn": "Raccrocher",
@@ -9493,6 +9609,22 @@ var data = {
                             'Количество фотоэлектронов, испускаемых катодом за единицу времени, пропорционально количеству падающих фотонов за это время, которое пропорционально потоку световой энергии.' +
                         '</li>' +
                     '</ul>'),
+
+        //cuprins
+        "cuprinsPrincipii": "Принципы и законы",
+        "cuprinsTeoreme": "Вариационные теоремы и законы сохранения",
+        "cuprinsNotiuni": "начиная",
+        "cuprinsPrincipiuI": "Принцип I",
+        "cuprinsMotoare": "Тепловые двигатели",
+        "cuprinsPrincipiuII": "Второй принцип",
+        "cuprinsCurentul": "Электричество",
+        "cuprinsOhm": "Закон Ома",
+        "cuprinsKirchhoff": "Закон Кирхгофа",
+        "cuprinsGrupare": "Группировка резисторов и генераторов",
+        "cuprinsEnergie": "Энергетика и электроэнергия",
+        "cuprinsGeometrica": "Геометрическая оптика",
+        "cuprinsOndulatorie": "Волновая оптика",
+        "cuprinsCuantica": "Квантовая физика",
 
         "teorieInapoiBtn": "Вернуться в меню выбора",
         "invataTitle": "В этой части главы вы познакомитесь с такими понятиями, как:",
