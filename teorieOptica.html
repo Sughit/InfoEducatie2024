@@ -15,13 +15,34 @@
 
     <!--Our files-->
     <link rel="stylesheet" href="./style.css">
-    <script defer src="./index.js"></script>
     <script defer src="./languages/langIndex.js"></script>
+    <script defer src="./index.js"></script>
+    <script defer src="./teorieCuprins/cuprinsOptica.js"></script>
     <script defer src="./sw.js"></script>
 
     <title>Optică Teorie</title>
 </head>
 <body style="background-color: #031926;">
+    <!--Btn cuprins-->
+    <div class="dropdown btn-group" style="text-align: center;">
+        <font style="font-family: Comic Sans MS;" color="white" size="6">
+            <button type="button" class="btn dropdown-toggle btn-cuprins" id="cuprinsOpticaBtn" data-bs-toggle="dropdown" aria-expanded="false">
+            </button>
+            <div class="text-center dropdown-menu dropdown-menu-dark cuprins-body" id="cuprinsOptica">
+                <a href="#top" class="cuprins cuprins-active" id="cuprinsGeometrica">
+                    Optică geometrică
+                </a><br>
+                <hr>
+                <a href="#element_target" class="cuprins" id="cuprinsOndulatorie">
+                    Optică ondulatorie
+                </a><br>
+                <hr>
+                <a href="#element_target2" class="cuprins" id="cuprinsCuantica">
+                    Element de fizică cuantică
+                </a>
+            </div>
+        </font>
+    </div>
     <!--Title-->
     <p align=center><br><br>
         <font style="font-family: Comic Sans MS;" color="white" size="50">

@@ -15,13 +15,42 @@
 
     <!--Our files-->
     <link rel="stylesheet" href="./style.css">
-    <script defer src="./index.js"></script>
     <script defer src="./languages/langIndex.js"></script>
+    <script defer src="./index.js"></script>
+    <script defer src="./teorieCuprins/cuprinsElectromecanica.js"></script>
     <script defer src="./sw.js"></script>
 
     <title>Electromecanică Teorie</title>
 </head>
 <body style="background-color: #031926;">
+    <!--Btn cuprins-->
+    <div class="dropdown btn-group" style="text-align: center;">
+        <font style="font-family: Comic Sans MS;" color="white" size="6">
+            <button type="button" class="btn dropdown-toggle btn-cuprins" id="cuprinsElectromecanicaBtn" data-bs-toggle="dropdown" aria-expanded="false">
+            </button>
+            <div class="text-center dropdown-menu dropdown-menu-dark cuprins-body" id="cuprinsElectromecanica">
+                <a href="#top" class="cuprins cuprins-active" id="cuprinsCurentul">
+                    Curentul electric
+                </a><br>
+                <hr>
+                <a href="#element_target" class="cuprins" id="cuprinsOhm">
+                    Legea lui Ohm
+                </a><br>
+                <hr>
+                <a href="#element_target2" class="cuprins" id="cuprinsKirchhoff">
+                    Legea lui Kirchhoff
+                </a><br>
+                <hr>
+                <a href="#element_target3" class="cuprins" id="cuprinsGrupare">
+                    Gruparea rezistoarelor și a generatoarelor
+                </a><br>
+                <hr>
+                <a href="#element_target4" class="cuprins" id="cuprinsEnergie">
+                    Energia și puterea electrică
+                </a>
+            </div>
+        </font>
+    </div>
     <!--Title-->
     <p align=center><br><br>
         <font style="font-family: Comic Sans MS;" color="white" size="50">

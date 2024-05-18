@@ -15,13 +15,38 @@
 
     <!--Our files-->
     <link rel="stylesheet" href="./style.css">
-    <script defer href="./index.js"></script>
     <script defer src="./languages/langIndex.js"></script>
+    <script defer src="./index.js"></script>
+    <script defer src="./teorieCuprins/cuprinsTermodinamica.js"></script>
     <script defer href="./sw.js"></script>
 
     <title>Termodinamică Teorie</title>
 </head>
 <body style="background-color: #031926;">
+    <!--Btn cuprins-->
+    <div class="dropdown btn-group" style="text-align: center;">
+        <font style="font-family: Comic Sans MS;" color="white" size="6">
+            <button type="button" class="btn dropdown-toggle btn-cuprins" id="cuprinsTermodinamicaBtn" data-bs-toggle="dropdown" aria-expanded="false">
+            </button>
+            <div class="text-center dropdown-menu dropdown-menu-dark cuprins-body" id="cuprinsTermodinamica">
+                <a href="#top" class="cuprins cuprins-active" id="cuprinsNotiuni">
+                    Noțiuni de bază
+                </a><br>
+                <hr>
+                <a href="#element_target" class="cuprins" id="cuprinsPrincipiuI">
+                    Principiul I
+                </a><br>
+                <hr>
+                <a href="#element_target2" class="cuprins" id="cuprinsMotoare">
+                    Motoare termice
+                </a><br>
+                <hr>
+                <a href="#element_target3" class="cuprins" id="cuprinsPrincipiuII">
+                    Principiul al II-lea
+                </a>
+            </div>
+        </font>
+    </div>
     <!--Title-->
     <p align=center><br><br>
         <font style="font-family: Comic Sans MS;" color="white" size="50">
