@@ -38,6 +38,7 @@ const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
 
 restart_quiz.onclick = ()=>{
+    
     quiz_box.classList.add("activeQuiz");
     result_box.classList.remove("activeResult");
     timeValue = 15; 
@@ -52,7 +53,10 @@ restart_quiz.onclick = ()=>{
     startTimer(timeValue);
     startTimerLine(widthValue);
     timeText.textContent = "Timp rămas";
+    see_why.classList.remove("show");
     next_btn.classList.remove("show");
+    
+    
 }
 
 
@@ -60,17 +64,18 @@ quit_quiz.onclick = ()=>{
     window.location.reload();
 }
 
+const see_why = quiz_box.querySelector(".see_why");
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
 var choice;
 function choose(choice){
     
-    localStorage.setItem("myCat", choice);
+    localStorage.setItem("quest", choice);
 }
 function verify(){
 
-        choice = localStorage.getItem("myCat")
+        choice = localStorage.getItem("quest")
 
         if(choice == 1)
             questions = questions1;
@@ -100,6 +105,15 @@ function verify(){
             questions = questions13;
         else if(choice == 14)
             questions = questions14;
+        highlight = questions[que_count].tag;
+    alert(highlight);
+
+        
+}
+
+function seeWhy()
+{
+    window.location.href = highlight;
 }
 
 
@@ -115,7 +129,9 @@ next_btn.onclick = ()=>{
         startTimer(timeValue);
         startTimerLine(widthValue);
         timeText.textContent = "Time Left";
+        see_why.classList.remove("show");
         next_btn.classList.remove("show");
+        
     }else{
         clearInterval(counter);
         clearInterval(counterLine);
@@ -150,6 +166,7 @@ function optionSelected(answer){
     clearInterval(counterLine);
     let userAns = answer.innerHTML;
     let correcAns = questions[que_count].answer;
+
     const allOptions = option_list.children.length;
     
     if(userAns == correcAns){
@@ -174,6 +191,7 @@ function optionSelected(answer){
     for(i=0; i < allOptions; i++){
         option_list.children[i].classList.add("disabled");
     }
+    see_why.classList.add("show");
     next_btn.classList.add("show");
 }
 
@@ -224,6 +242,7 @@ function startTimer(time){
             for(i=0; i < allOptions; i++){
                 option_list.children[i].classList.add("disabled");
             }
+            see_why.classList.add("show");
             next_btn.classList.add("show"); 
         }
     }

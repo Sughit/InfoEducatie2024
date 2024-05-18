@@ -95,11 +95,11 @@ body{
 {
     .info_box
     {
-        width: 240px;
+        width: 320px;
     }
     .quiz_box.activeQuiz
     {
-        width: 240px;
+        width: 320px;
     }
     
 }
@@ -333,10 +333,10 @@ footer .total_que span p{
 }
 
 footer .total_que span p:first-child{
-    padding-left: 0px;
+    padding-right:0px;
 }
 
-footer button{
+footer .next_btn{
     height: 40px;
     padding: 0 13px;
     font-size: 18px;
@@ -354,12 +354,36 @@ footer button{
     transform: scale(0.95);
     transition: all 0.3s ease;
 }
+.see_why{
+    height: 40px;
+    min-width: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    background: #315c74;
+    border: 1px solid #315c74;
+    line-height: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+    transition: all 0.3s ease;
+}
+
 
 footer button:hover{
     background: #4f8eb1;
 }
 
 footer button.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
+.see_why.show{
     opacity: 1;
     pointer-events: auto;
     transform: scale(1);
