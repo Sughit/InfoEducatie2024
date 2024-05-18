@@ -27,20 +27,21 @@
     min-width: 400px;
     max-width: 800px;
     opacity: .7;
-    width: 100%; 
+    width: 100vw; 
     position: fixed; 
     left: 50%; 
     transform: translate(-50%, -50%); 
     background-color: #031926;
+    overflow-x: hidden !important;
 }
-
 
 .cuprins-body
 {
-    position: relative; 
+    position: fixed; 
     background-color: #031926;
     padding-left: 10px; 
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: 100%; 
 }
 
 .cuprins-active
@@ -48,13 +49,6 @@
     color: red !important;
     font-weight: bold !important;
     font-size: 25px !important;
-}
-
-.cuprins-inactive
-{
-    color: blue !important;
-    text-decoration: none !important;
-    font-size: 15px !important;
 }
 
 .cuprins
@@ -121,18 +115,31 @@ html {
     }
     .font-log:hover 
     {
-    color: #000000;
+        color: #000000;
     }
 }
-@media (max-width: 830px) {
+@media (max-width: 819px) {
+    .cuprins-body
+    {
+        max-width: 420px;
+        overflow-x: hidden;
+    }
     .btn-cuprins
     {
-    opacity: .7;
-    width: 98%; 
-    position: fixed; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    background-color: #031926;
+        max-width: 420px;
+        overflow-x: hidden;
     }
+}
 
+@media (max-width: 419px) {
+    .cuprins-body
+    {
+        max-width: 400px;
+        overflow-x: hidden;
+    }
+    .btn-cuprins
+    {
+        max-width: 400px;
+        overflow-x: hidden;
+    }
 }
