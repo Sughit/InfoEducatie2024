@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--Bootstrap files-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>test</title>
     <link rel="stylesheet" href="style3.css">
+    <script defer src="./languages/langIndex.js"></script>
 </head>
 <body>
-    <div class="start_btn" onClick = "verify()"><button><font class = "buton-clasa">Start</font></button></div>
-    <a class="quit_btn" href = "index.html"><button><font class = "buton-clasa">Ieși</font></button></a>
+    <div class="start_btn" onClick = "verify()"><button class="btn"><font class = "buton-clasa" id="startTestBtn">Start</font></button></div>
+    <a class="quit_btn" href = "index.html"><button class="btn"><font id="iesiBtn" class = "buton-clasa">Ieși</font></button></a>
     <div class="bg-shape"></div>
     
-    <div class="info_box">
-        <div class="info-title"><span>Câteva reguli ale acestui test</span></div>
-        <div class="info-list">
+    <div class="info_box mx-auto">
+        <div class="info-title"><span id="reguliTitle">Câteva reguli ale acestui test</span></div>
+        <div class="info-list" id="reguli">
             <div class="info">1. Vei avea doar <span>15 secunde</span> pentru fiecare întrebare.</div>
             <div class="info">2. Odată ce selectezi un răspuns, nu îl mai poți schimba.</div>
             <div class="info">3. Nu mai poți selecta răspunsuri odată ce timpul a expirat.</div>
@@ -23,16 +28,16 @@
             <div class="info">5. Vei primi puncte pe baza răspunsurilor tale.</div>
         </div>
         <div class="buttons">
-            <button class="quit"><font class = "buton-clasa">Ieși din test</font></button>
-            <button class="restart"><font class = "buton-clasa">Continuă</font></button>
+            <button class="quit btn-lg"><font class="buton-clasa" id="iesiTestBtn">Ieși din test</font></button>
+            <button class="restart btn-lg"><font class="buton-clasa" id="continuaTestBtn">Continuă</font></button>
         </div>
     </div>
 
     <div class="quiz_box">
         <header>
-            <div class="title">Test</div>
+            <div class="title" id="testTitle">Test</div>
             <div class="timer">
-                <div class="time_left_txt">Timp rămas:</div>
+                <div class="time_left_txt" id="timpRamas">Timp rămas:</div>
                 <div class="timer_sec">15</div>
             </div>
             <div class="time_line"></div>
@@ -47,7 +52,7 @@
         <footer>
             <div class="total_que">
             </div>
-            <button class="next_btn"><font class = "buton-clasa">Urm.</font></button>
+            <button class="next_btn"><font class = "buton-clasa" id="urmatorulTestBtn">Urm.</font></button>
         </footer>
     </div>
 
@@ -55,12 +60,12 @@
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">Ai terminat testul!</div>
+        <div class="complete_text" id="finalTestTitle">Ai terminat testul!</div>
         <div class="score_text">
         </div>
         <div class="buttons">
-            <button class="restart"><font class = "buton-clasa">Fă testul din nou</font></button>
-            <button class="quit"><font class = "buton-clasa">Ieși din test</font></button>
+            <button class="restart"><font class = "buton-clasa" id="nouTestBtn">Fă testul din nou</font></button>
+            <button class="quit"><font class = "buton-clasa" id="iesiTestBtn">Ieși din test</font></button>
         </div>
     </div>
     

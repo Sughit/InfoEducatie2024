@@ -21,7 +21,7 @@ continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo");
     quiz_box.classList.add("activeQuiz");
     showQuetions(0);
-    queCounter(1);
+    queCounter(1, questions.length);
     startTimer(15);
     startTimerLine(0);
 }
@@ -102,14 +102,12 @@ function verify(){
             questions = questions14;
 }
 
-
-
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){
         que_count++; 
         que_numb++;
         showQuetions(que_count);
-        queCounter(que_numb);
+        queCounter(que_numb, questions.length);
         clearInterval(counter);
         clearInterval(counterLine);
         startTimer(timeValue);
@@ -182,22 +180,8 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz");
     result_box.classList.add("activeResult"); 
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 4){
-        let scoreTag = '<span>Bravo! 🎉, Ai făcut <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }
-    else if(userScore > 2){
-        let scoreTag = '<span>Destul de bine 😎, Ai făcut <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }
-    else if(userScore == 1){
-        let scoreTag = '<span>Mai încearcă 😐, Ai făcut doar <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }
-    else{
-        let scoreTag = '<span>Niciuna... 😐, Ai făcut <p>'+ userScore +'</p> din <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;
-    }
+    let score = results(userScore, questions.length, JSON.parse(localStorage.getItem('limba')));
+    scoreText.innerHTML = score;
 }
 
 function startTimer(time){
@@ -240,7 +224,74 @@ function startTimerLine(time){
     }
 }
 
-function queCounter(index){
-    let totalQueCounTag = '<span><p>'+ index +'</p> din <p>'+ questions.length +'</p> Întrebări</span>';
-    bottom_ques_counter.innerHTML = totalQueCounTag;
+function queCounter(index, len){
+    bottom_ques_counter.innerHTML = intrebariCount(index, len, JSON.parse(localStorage.getItem('limba')));
+}
+
+function results(userScore, len, language)
+{
+    if(language == "engleza"){
+        switch(userScore)
+        {
+            case 5: return '<span>Bravo! 🎉, you did <p>'+ userScore +'</p> of <p>'+ len +'</p></span>';
+            case 2: case 3: case 4: return '<span>Pretty good 😎, you did <p>'+ userScore +'</p> of <p>'+ len +'</p></span>';
+            case 1: return '<span>Try again 😐, you only did <p>'+ userScore +'</p> of <p>'+ len +'</p></span>';
+            case 0: return '<span>None... 😐, you did <p>'+ userScore +'</p> of <p>'+ len +'</p></span>'
+        }
+    }
+    if(language == "romana"){
+        switch(userScore)
+        {
+            case 5: return '<span>Bravo! 🎉, ai făcut <p>'+ userScore +'</p> din <p>'+ len +'</p></span>';
+            case 2: case 3: case 4: return '<span>Destul de bine 😎, ai făcut <p>'+ userScore +'</p> din <p>'+ len +'</p></span>';
+            case 1: return '<span>Mai încearcă 😐, ai făcut doar <p>'+ userScore +'</p> din <p>'+ len +'</p></span>';
+            case 0: return '<span>Niciuna... 😐, ai făcut <p>'+ userScore +'</p> din <p>'+ len +'</p></span>'
+        }
+    }
+    if(language == "maghiara"){
+        switch(userScore)
+        {
+            case 5: return '<span>Bravó! 🎉, sikerült <p>'+ userScore +'</p> tól től <p>'+ len +'</p></span>';
+            case 2: case 3: case 4: return '<span>Nagyon jó 😎, sikerült <p>'+ userScore +'</p> tól től <p>'+ len +'</p></span>';
+            case 1: return '<span>Próbáld újra 😐, most sikerült <p>'+ userScore +'</p> tól től <p>'+ len +'</p></span>';
+            case 0: return '<span>Egyik sem... 😐, sikerült <p>'+ userScore +'</p> tól től <p>'+ len +'</p></span>'
+        }
+    }
+    if(language == "germana"){
+        switch(userScore)
+        {
+            case 5: return '<span>Bravo! 🎉, das hast du <p>'+ userScore +'</p> aus <p>'+ len +'</p></span>';
+            case 2: case 3: case 4: return '<span>Ziemlich gut 😎, das hast du <p>'+ userScore +'</p> aus <p>'+ len +'</p></span>';
+            case 1: return '<span>Versuchen Sie es noch einmal 😐, Sie haben es gerade getan <p>'+ userScore +'</p> aus <p>'+ len +'</p></span>';
+            case 0: return '<span>Keine... 😐, das hast du <p>'+ userScore +'</p> aus <p>'+ len +'</p></span>'
+        }
+    }   
+    if(language == "franceza"){
+        switch(userScore)
+        {
+            case 5: return '<span>Bravo! 🎉, vous l\'avez fait <p>'+ userScore +'</p> depuis <p>'+ len +'</p></span>';
+            case 2: case 3: case 4: return '<span>Plutôt bien 😎, tu l\'as fait <p>'+ userScore +'</p> depuis <p>'+ len +'</p></span>';
+            case 1: return '<span>Réessayez 😐, vous venez de le faire <p>'+ userScore +'</p> depuis <p>'+ len +'</p></span>';
+            case 0: return '<span>Aucun... 😐, vous l\'avez fait <p>'+ userScore +'</p> depuis <p>'+ len +'</p></span>'
+        }
+    }
+    if(language == "rusa"){
+        switch(userScore)
+        {
+            case 5: return '<span>Браво! 🎉, Ты сделал <p>'+ userScore +'</p> ot <p>'+ len +'</p></span>';
+            case 2: case 3: case 4: return '<span>Очень хорошо 😎, ты сделал <p>'+ userScore +'</p> ot <p>'+ len +'</p></span>';
+            case 1: return '<span>Попробуй еще раз 😐, ты только что сделал <p>'+ userScore +'</p> ot <p>'+ len +'</p></span>';
+            case 0: return '<span>Нет... 😐, Ты сделал <p>'+ userScore +'</p> ot <p>'+ len +'</p></span>'
+        }
+    } 
+}
+
+function intrebariCount(index, len, language)
+{
+    if(language == "engleza") return '<span><p>'+ index +'</p> of <p>'+ len +'</p> Questions</span>';
+    if(language == "romana") return '<span><p>'+ index +'</p> din <p>'+ len +'</p> Întrebări</span>';
+    if(language == "maghiara") return '<span><p>'+ index +'</p> kérdés az <p>'+ len +'</p>-ből</span>';
+    if(language == "germana") return '<span><p>'+ index +'</p> von <p>'+ len +'</p> Fragen</span>';
+    if(language == "franceza") return '<span><p>'+ index +'</p> questions sur <p>'+ len;
+    if(language == "rusa") return '<span><p>'+ index +'</p> вопроса из <p>'+ len;
 }

@@ -95,11 +95,15 @@ body{
 {
     .info_box
     {
-        width: 240px;
+        width: 370px;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
     }
     .quiz_box.activeQuiz
     {
-        width: 240px;
+        width: 370px;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
     }
     
 }
@@ -425,6 +429,7 @@ footer button.show{
 .buttons button.restart{
     color: #fff;
     background: #315c74;
+    padding-bottom: 50px;
 }
 
 .buttons button.restart:hover{
@@ -434,6 +439,7 @@ footer button.show{
 .buttons button.quit{
     color: #315c74;
     background: #fff;
+    padding-bottom: 50px;
 }
 
 .buttons button.quit:hover{
