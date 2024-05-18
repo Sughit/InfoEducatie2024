@@ -20,7 +20,8 @@ let questions1 = [
       'm<sup>2</sup> / s',
       'm / s',
       'm ∙ s'
-    ]
+    ],
+    tag: "teorieMecanica.html#2"
   },
     {
     numb: 3,

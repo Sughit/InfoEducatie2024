@@ -105,10 +105,7 @@ function verify(){
             questions = questions13;
         else if(choice == 14)
             questions = questions14;
-        highlight = questions[que_count].tag;
-    alert(highlight);
-
-        
+        highlight = questions[que_count].tag; 
 }
 
 function seeWhy()
@@ -120,6 +117,7 @@ next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){
         que_count++; 
         que_numb++;
+        highlight = questions[que_count].tag;
         showQuetions(que_count);
         queCounter(que_numb, questions.length);
         clearInterval(counter);
