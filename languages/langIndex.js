@@ -148,6 +148,19 @@ function loadLanguages(attr)
     const testBtn = document.querySelectorAll('#testBtn');
     const acasaBtn = document.getElementById('acasaBtn');
 
+    //variabile din test.html
+    const startTestBtn = document.getElementById('startTestBtn');
+    const iesiBtn = document.getElementsByClassName('iesiBtn');
+    const reguliTitle = document.getElementById('reguliTitle');
+    const reguli = document.getElementById('reguli');
+    const iesiTestBtn = document.querySelectorAll('#iesiTestBtn');
+    const continuaTestBtn = document.getElementById('continuaTestBtn');
+    const testTitle = document.getElementById('testTitle');
+    const timpRamas = document.getElementById('timpRamas');
+    const urmatorulTestBtn = document.getElementById('urmatorulTestBtn');
+    const finalTestTitle = document.getElementById('finalTestTitle');
+    const nouTestBtn = document.getElementById('nouTestBtn');
+
     //index.html
     if(window.location.pathname == "/index.html")
     {
@@ -353,6 +366,24 @@ function loadLanguages(attr)
         cuprinsCuantica.textContent = data[attr].cuprinsCuantica;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
     }
+
+    //test.html
+    if(window.location.pathname == "/test.html")
+    {
+        startTestBtn.textContent = data[attr].startTestBtn;
+        iesiBtn.textContent = data[attr].iesiBtn;
+        reguliTitle.textContent = data[attr].reguliTitle;
+        reguli.innerHTML = data[attr].reguli;
+        iesiTestBtn.forEach(el => {
+            el.textContent = data[attr].iesiTestBtn;
+        });
+        continuaTestBtn.textContent = data[attr].continuaTestBtn;
+        testTitle.textContent = data[attr].testTitle;
+        timpRamas.textContent = data[attr].timpRamas;
+        urmatorulTestBtn.textContent = data[attr].urmatorulTestBtn;
+        finalTestTitle.textContent = data[attr].finalTestTitle;
+        nouTestBtn.textContent = data[attr].nouTestBtn;
+    }
 }
 
 var data = {
@@ -386,6 +417,23 @@ var data = {
         "login": "Log in",
         "footerLog": "Not registered?",
         "footerLogBtn": "Create an account",
+
+        //test.html
+        "startTestBtn": "Start",
+        "iesiBtn": "Exit",
+        "reguliTitle": "Some rules of this test",
+        "reguli": ('<div class="info">1. You will only have <span>15 seconds</span> for each question.</div>'+
+                    '<div class="info">2. Once you select an answer, you cannot change it.</div>'+
+                    '<div class="info">3. You can no longer select answers once the time is up.</div>'+
+                    '<div class="info">4. You cannot exit during the test.</div>'+
+                    '<div class="info">5. You will receive points based on your answers.</div>'),
+        "iesiTestBtn": "Exit the test",
+        "continuaTestBtn": "Continue",
+        "testTitle": "Test",
+        "timpRamas": "Remaining time:",
+        "urmatorulTestBtn": "Next",
+        "finalTestTitle": "You have completed the test!",
+        "nouTestBtn": "Take the test again",
 
         //mecanica.html
         "mecanicaTitle": "Mechanics",
@@ -1944,6 +1992,23 @@ var data = {
         "footerLog": "Nu sunteți înregistrat?",
         "footerLogBtn": "Creați un cont",
 
+        //test.html
+        "startTestBtn": "Start",
+        "iesiBtn": "Ieși",
+        "reguliTitle": "Câteva reguli ale acestui test",
+        "reguli": ('<div class="info">1. Vei avea doar <span>15 secunde</span> pentru fiecare întrebare.</div>'+
+                    '<div class="info">2. Odată ce selectezi un răspuns, nu îl mai poți schimba.</div>'+
+                    '<div class="info">3. Nu mai poți selecta răspunsuri odată ce timpul a expirat.</div>'+
+                    '<div class="info">4. Nu poți ieși din timpul testului.</div>'+
+                    '<div class="info">5. Vei primi puncte pe baza răspunsurilor tale.</div>'),
+        "iesiTestBtn": "Ieși din test",
+        "continuaTestBtn": "Continuă",
+        "testTitle": "Test",
+        "timpRamas": "Timp rămas:",
+        "urmatorulTestBtn": "Urm.",
+        "finalTestTitle": "Ai terminat testul!",
+        "nouTestBtn": "Fă testul din nou",
+
         //mecanica.html
         "mecanicaTitle": "Mecanică",
         "principiiTitle": "Principii și legi",
@@ -3489,6 +3554,23 @@ var data = {
         "footerLog": "Nem regisztrált?",
         "footerLogBtn": "Hozzon létre egy fiókot",
 
+        //test.html
+        "startTestBtn": "Rajt",
+        "iesiBtn": "menj ki",
+        "reguliTitle": "A teszt néhány szabálya",
+        "reguli": ('<div class="info">1. Minden kérdésre csak <span>15 másodperced</span> lesz.</div>'+
+                    '<div class="info">2. Miután kiválasztotta a választ, nem módosíthatja azt.</div>'+
+                    '<div class="info">3. Az idő lejárta után már nem választhat válaszokat.</div>'+
+                    '<div class="info">4. A teszt alatt nem léphet ki.</div>'+
+                    '<div class="info">5. A válaszai alapján pontokat kap.</div>'),
+        "iesiTestBtn": "Lépjen ki a tesztből",
+        "continuaTestBtn": "Folytasd",
+        "testTitle": "Teszt",
+        "timpRamas": "Hátralévő idő:",
+        "urmatorulTestBtn": "Köv.",
+        "finalTestTitle": "Elvégezte a tesztet!",
+        "nouTestBtn": "Csináld újra a tesztet",
+
         //mecanica.html
         "mecanicaTitle": "Mechanika",
         "principiiTitle": "Elvek és törvények",
@@ -5020,6 +5102,23 @@ var data = {
         "login": "Anmelden",
         "footerLog": "Nicht registriert?",
         "footerLogBtn": "Ein Konto erstellen",
+
+        //test.html
+        "startTestBtn": "Start",
+        "iesiBtn": "Hinausgehen",
+        "reguliTitle": "Einige Regeln dieses Tests",
+        "reguli": ('<div class="info">1. Sie haben für jede Frage nur <span>15 Sekunden</span> Zeit.</div>'+
+                    '<div class="info">2. Sobald Sie eine Antwort ausgewählt haben, können Sie diese nicht mehr ändern.</div>'+
+                    '<div class="info">3. Sobald die Zeit abgelaufen ist, können Sie keine Antworten mehr auswählen.</div>'+
+                    '<div class="info">4. Sie können den Test während des Tests nicht beenden.</div>'+
+                    '<div class="info">5. Sie erhalten Punkte basierend auf Ihren Antworten.</div>'),
+        "iesiTestBtn": "Beenden Sie den Test",
+        "continuaTestBtn": "Weitermachen",
+        "testTitle": "Prüfen",
+        "timpRamas": "Verbleibende Zeit:",
+        "urmatorulTestBtn": "Nächste",
+        "finalTestTitle": "Sie haben den Test abgeschlossen!",
+        "nouTestBtn": "Machen Sie den Test noch einmal",
 
         //mecanica.html
         "mecanicaTitle": "Mechanik",
@@ -6565,6 +6664,23 @@ var data = {
         "login": "Se connecter",
         "footerLog": "Non enregistré?",
         "footerLogBtn": "Créer un compte",
+
+        //test.html
+        "startTestBtn": "Commencer",
+        "iesiBtn": "Sortir",
+        "reguliTitle": "Quelques règles de ce test",
+        "reguli": ('<div class="info">1. Vous ne disposerez que de <span>15 secondes</span> pour chaque question.</div>'+
+                    '<div class="info">2. Une fois que vous avez sélectionné une réponse, vous ne pouvez pas la modifier.</div>'+
+                    '<div class="info">3. Vous ne pouvez plus sélectionner de réponses une fois le temps écoulé.</div>'+
+                    '<div class="info">4. Vous ne pouvez pas quitter pendant le test.</div>'+
+                    '<div class="info">5. Vous recevrez des points en fonction de vos réponses.</div>'),
+        "iesiTestBtn": "Quitter l'essai",
+        "continuaTestBtn": "Continue",
+        "testTitle": "Test",
+        "timpRamas": "Temps restant:",
+        "urmatorulTestBtn": "Suiv.",
+        "finalTestTitle": "Vous avez terminé le test !",
+        "nouTestBtn": "Refaites le test",
 
         //mecanica.html
         "mecanicaTitle": "Mécanique",
@@ -8119,6 +8235,23 @@ var data = {
         "login": "Авторизоваться",
         "footerLog": "Не зарегистрирован?",
         "footerLogBtn": "Завести аккаунт",
+
+        //test.html
+        "startTestBtn": "Начинать",
+        "iesiBtn": "выходить",
+        "reguliTitle": "Некоторые правила этого теста",
+        "reguli": ('<div class="info">1. На каждый вопрос у вас будет только <span>15 секунд</span>.</div>'+
+                    '<div class="info">2. Выбрав ответ, вы не сможете его изменить.</div>'+
+                    '<div class="info">3. Вы больше не сможете выбирать ответы по истечении времени.</div>'+
+                    '<div class="info">4. Выйти во время теста нельзя.</div>'+
+                    '<div class="info">5. За ваши ответы вы получите баллы.</div>'),
+        "iesiTestBtn": "Выйти из теста",
+        "continuaTestBtn": "Продолжать идти",
+        "testTitle": "Тест",
+        "timpRamas": "Оставшееся время:",
+        "urmatorulTestBtn": "след",
+        "finalTestTitle": "Вы завершили тест!",
+        "nouTestBtn": "Пройди тест еще раз",
 
         //mecanica.html
         "mecanicaTitle": "Механика",
