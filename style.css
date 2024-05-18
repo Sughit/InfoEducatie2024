@@ -143,7 +143,7 @@ html {
         overflow-x: hidden;
     }
 }
-:target:not([name="element_target"]):not([name="element_target2"]):not([name="element_target3"]):not([name="element_target4"]){
+:target:not([id="element_target"]):not([id="element_target2"]):not([id="element_target3"]):not([id="element_target4"]){
     border: 2px solid #D4D4D4;
     background-color: orange;
     color: white;
