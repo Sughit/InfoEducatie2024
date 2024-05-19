@@ -27,8 +27,9 @@ if(window.location.pathname == "/index.html")
     var corecteTot = 0;
     var gresiteTot = 0;
 
-    if(localStorage.getItem('corecteTot') !== null && localStorage.getItem('gresiteTot') !== null)
+    if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')) && localStorage.getItem('finishedATest'))
     {
+        localStorage.setItem('finishedATest', false);
         corecteTot = parseInt(localStorage.getItem('corecteTot'));
         gresiteTot = parseInt(localStorage.getItem('gresiteTot'));
         corecteTot += corecte;
@@ -56,6 +57,11 @@ if(window.location.pathname == "/index.html")
                     gresite: parseInt(localStorage.getItem('gresiteTot'))
                 });
             }
+        }
+        else
+        {
+            localStorage.setItem('corecteTot', 0);
+            localStorage.setItem('gresiteTot', 0);
         }
     });
 

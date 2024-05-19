@@ -193,8 +193,8 @@ function loadLanguages(attr)
     //login.html
     if(window.location.pathname == "/login.html")
     {
-        goBackLog.textContent = data[attr].goBackLog
-        titleLog.textContent = data[attr].titleLog
+        goBackLog.textContent = data[attr].goBackLog;
+        titleLog.textContent = data[attr].titleLog;
         emailLog.textContent = data[attr].emailLog;
         passwordLog.textContent = data[attr].passwordLog;
         login.textContent = data[attr].login;
