@@ -1,11 +1,6 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
-window.onload = function()
-{
-    loadLanguages(JSON.parse(localStorage.getItem('limba')));
-}
-
 btns.forEach(el => {
     el.addEventListener('click', () => {
         // lagnEl.querySelector('.active-lang-btn').classList.remove('active-lang-btn');
@@ -18,6 +13,11 @@ btns.forEach(el => {
         loadLanguages(JSON.parse(localStorage.getItem('limba')));
     });
 });
+
+window.onload = function()
+{
+    loadLanguages(JSON.parse(localStorage.getItem('limba')));
+}
 
 function loadLanguages(attr)
 {
