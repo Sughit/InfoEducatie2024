@@ -572,7 +572,8 @@ let questions10 = [
     'Simetric',
     'Rezultant',
     'Echivalent'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#19"
 },
 ];
 
@@ -586,7 +587,8 @@ let questions11 = [
     'E',
     'E<sub>e</sub>',
     'F'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#20"
 },
   {
   numb: 2,
@@ -597,7 +599,8 @@ let questions11 = [
     'W<sub>tot</sub> = U ∙ I ∙ Δt',
     'W<sub>tot</sub> = E ∙ I ∙ Δt',
     'W<sub>tot</sub> = R ∙ I'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#21"
 },
   {
   numb: 3,
@@ -608,18 +611,20 @@ let questions11 = [
     "U = u",
     "R = R / r",
     "R = r"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#22"
 },
   {
   numb: 4,
-  question: "Randamentul electric al unui receptor (consumator) este dat de relația:",
+  question: "Randamentul electric al unui consumator este dat de relația:",
   answer: "<span>η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub></span>",
   options: [
     'η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub>',
     'η = W<sub>utilă</sub> / P<sub>exterioară</sub> = W<sub>totală</sub> / P<sub>totală</sub>',
     'η = W<sub>utilă</sub> / P<sub>totală</sub> = W<sub>totală</sub> / P<sub>exterioară</sub>',
     'η = W<sub>totală</sub> / W<sub>utilă</sub> = P<sub>totală</sub> / P<sub>exterioară</sub>'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#23"
 },
 {
   numb: 5,
@@ -630,46 +635,38 @@ let questions11 = [
     'Q = I<sup>2</sup> / (R ∙ Δt)',
     'Q = R ∙ I<sup>2</sup> ∙ Δt',
     'Q = (I<sup>2</sup> ∙ Δt) / R'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#24"
 },
 ];
 
 let questions12 = [
   {
   numb: 1,
-  question: "Indicele de refracție  al unui mediu transparent este: ",
+  question: "Indicele de refracție al unui mediu transparent este: ",
   answer: '<span>n = c / v</span>',
   options: [
     'n = v / c',
     'n = c ∙ v',
     'n = c / v',
     'n = 1 / (c ∙ v)'
-  ]
+  ],
+  tag: "./teorieOptica.html#1"
 },
   {
   numb: 2,
-  question: "Raza incidentă , normala la suprafața de separare și raza refractată sunt:",
+  question: "Raza incidentă , normala la suprafață de separare și raza refractată sunt:",
   answer: '<span>coplanare</span>',
   options: [
     'egale',
     'perpendiculare',
     'coplanare',
     'paralele'
-  ]
+  ],
+  tag: "./teorieOptica.html#2"
 },
   {
   numb: 3,
-  question: "Puterea dezvoltată de rezistor este maximă când: ",
-  answer: "<span>R = r</span>",
-  options: [
-    "W<sub>gen</sub> = W<sub>tot</sub>",
-    "U = u",
-    "R = R / r",
-    "R = r"
-  ]
-},
-  {
-  numb: 4,
   question: "Unghiul maxim de incidență este: ",
   answer: "<span>i = 90°</span>",
   options: [
@@ -677,10 +674,11 @@ let questions12 = [
     'i = 90°',
     'i = 180°',
     'i = 45°'
-  ]
+  ],
+  tag: "./teorieOptica.html#3"
 },
 {
-  numb: 5,
+  numb: 4,
   question: "Lentilele convergente: ",
   answer: "<span>Sunt mai groase la mijloc și mai subțiri la capete</span>",
   options: [
@@ -688,7 +686,8 @@ let questions12 = [
     'Micșorează obiectul',
     'Sunt mai groase la capete și mai subțiri la mijloc',
     'Li se mai zice și lentile negative'
-  ]
+  ],
+  tag: "./teorieOptica.html#4"
 },
 ];
 
@@ -702,7 +701,8 @@ let questions13 = [
     '300.000.000 m/s',
     '250.000.000 m/s',
     '80.000.000 m/s'
-  ]
+  ],
+  tag: "./teorieOptica.html#5"
 },
   {
   numb: 2,
@@ -713,7 +713,8 @@ let questions13 = [
     'Fiindcă unele culori se resping',
     'Pentru că au frecvențe diferite',
     'Deoarece au viteze diferite'
-  ]
+  ],
+  tag: "./teorieOptica.html#6"
 },
   {
   numb: 3,
@@ -724,7 +725,8 @@ let questions13 = [
     "Cele două unde sunt în fază",
     "Suma lor este egală cu 0",
     "Se risipesc"
-  ]
+  ],
+  tag: "./teorieOptica.html#7"
 },
   {
   numb: 4,
@@ -735,7 +737,8 @@ let questions13 = [
     'Diferența de fază să fie egală cu sin90°',
     'Undele să aibă aceeași frecvență',
     'Diferența de fază să varieze'
-  ]
+  ],
+  tag: "./teorieOptica.html#8"
 },
 {
   numb: 5,
@@ -746,7 +749,8 @@ let questions13 = [
     'Indicele de refracție să fie mai mare decât zero',
     'Indicele de refracție să fie mai mare decât unu',
     'Indicele de refracție să fie mai mare egal cu zero'
-  ]
+  ],
+  tag: "./teorieOptica.html#9"
 },
 ];
 
@@ -760,7 +764,8 @@ let questions14 = [
     'Este proporțională cu frecvența oscilatorului și constanta lui Planck',
     'Este invers proporțională cu frecvența oscilatorului și direct proporțională constanta lui Planck',
     'Este proporțională cu frecvența oscilatorului și invers proporțională constanta lui Planck'
-  ]
+  ],
+  tag: "./teorieOptica.html#10"
 },
   {
   numb: 2,
@@ -771,7 +776,8 @@ let questions14 = [
     '6,61 ∙ 10<sub>-34</sub> J / s',
     '6,62 ∙ 10<sub>-34</sub> J / s',
     '6,62 ∙ 10<sub>-32</sub> J ∙ s'
-  ]
+  ],
+  tag: "./teorieOptica.html#11"
 },
   {
   numb: 3,
@@ -782,7 +788,8 @@ let questions14 = [
     "Scade liniar cu frecvența radiației incidente",
     "Crește liniar cu frecvența radiației incidente",
     "Rămâne constantă"
-  ]
+  ],
+  tag: "./teorieOptica.html#12"
 },
   {
   numb: 4,
@@ -793,6 +800,7 @@ let questions14 = [
     'Constanta lui Einstein',
     'Radiația emisă',
     'Frecvența oscilatorului'
-  ]
+  ],
+  tag: "./teorieOptica.html#13"
 },
 ];
