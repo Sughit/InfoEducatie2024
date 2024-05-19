@@ -2168,7 +2168,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Formula Galilei:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'<a id=\"1\">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
+                            '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Legea vitezei: '+'</h2>'+
                         '<ul>'+
@@ -2191,7 +2191,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Principiul al III-lea al mecanicii:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<a id =\"5\">'+'Când un corp acționează asupra altui corp cu o forță (numită forță de acțiune), cel de-al doilea corp acționează și el asupra primului cu o forță (numită forță de reacțiune) de aceeași mărime și de aceeași direcție, dar de sens contrar. Acest principiu este cunoscut și sub numele de Principiul acțiunii și reacțiunii.'+'</li>'+'</a>'+
+                            '<li>'+'<a id ="5">'+'Când un corp acționează asupra altui corp cu o forță (numită forță de acțiune), cel de-al doilea corp acționează și el asupra primului cu o forță (numită forță de reacțiune) de aceeași mărime și de aceeași direcție, dar de sens contrar. Acest principiu este cunoscut și sub numele de Principiul acțiunii și reacțiunii.'+'</li>'+'</a>'+
                             '<li>'+'Scris sub formă de formulă: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Legea lui Hooke:'+'</h2>'+
