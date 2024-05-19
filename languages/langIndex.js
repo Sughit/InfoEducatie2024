@@ -1,6 +1,11 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
+if(localStorage.getItem('limba') === undefined)
+{
+    localStorage.setItem('limba', "romana");
+}
+
 btns.forEach(el => {
     el.addEventListener('click', () => {
         //asta contine limbi curenta

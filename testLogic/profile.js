@@ -34,8 +34,6 @@ if(window.location.pathname == "/index.html")
         gresiteTot = parseInt(localStorage.getItem('gresiteTot'));
         corecteTot += corecte;
         gresiteTot += gresite;
-        console.log(corecteTot);
-        console.log(gresiteTot);
         localStorage.setItem('corecteTot', parseInt(corecteTot));
         localStorage.setItem('gresiteTot', parseInt(gresiteTot));
     }
