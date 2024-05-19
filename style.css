@@ -150,3 +150,9 @@ html {
     background-color: orange;
     color: white;
  }
+ #highlight
+ {
+    border: 2px solid #D4D4D4;
+    background-color: orange;
+    color: white;
+ }

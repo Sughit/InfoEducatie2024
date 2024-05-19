@@ -112,6 +112,8 @@ function verify(){
 function seeWhy()
 {
     window.location.href = highlight;
+    if(window.location.hash == '#1')
+    document.getElementById('1').id = 'highlight';
 }
 
 next_btn.onclick = ()=>{
