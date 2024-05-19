@@ -24,6 +24,8 @@
 
 .btn-cuprins
 {
+    border-color:#ffffff67;
+    border-width: 1px;
     min-width: 400px;
     max-width: 800px;
     opacity: .7;
