@@ -112,6 +112,7 @@ function verify(){
 function seeWhy()
 {
     window.location.href = highlight;
+    highlight.reload();
 }
 
 next_btn.onclick = ()=>{
