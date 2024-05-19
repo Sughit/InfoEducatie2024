@@ -1,7 +1,7 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
-if(localStorage.getItem('limba') === undefined)
+if(localStorage.getItem('limba') === undefined || localStorage.getItem('limba') == null)
 {
     localStorage.setItem('limba', "romana");
 }
