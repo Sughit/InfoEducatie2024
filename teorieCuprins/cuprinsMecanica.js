@@ -10,25 +10,23 @@ cuprinsBtns.forEach(el => {
     });
 });
 
+const teoremeSection = document.getElementById("element_target").offsetTop;
+
+const principiiBtn = document.getElementById('cuprinsPrincipii');
+const teoremeBtn = document.getElementById('cuprinsTeoreme'); 
+
 window.onscroll = function nextChapter()
 {
-    var teoremeSection = document.getElementsByName("element_target")[0].offsetTop;
     var scrollTop = document.documentElement.scrollTop;
 
     if(scrollTop >= teoremeSection)
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-
-        let teoremeBtn = document.getElementById('cuprinsTeoreme');
         teoremeBtn.classList.add('cuprins-active');
+        principiiBtn.classList.remove('cuprins-active');
     }
     else
     {
-        let currentCuprinsBtn = document.getElementsByClassName('cuprins-active')[0];
-        currentCuprinsBtn.classList.remove('cuprins-active');
-
-        let principiiBtn = document.getElementById('cuprinsPrincipii');
+        teoremeBtn.classList.remove('cuprins-active');
         principiiBtn.classList.add('cuprins-active');
     }
 }

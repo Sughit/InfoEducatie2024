@@ -124,7 +124,8 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine);
         startTimer(timeValue);
         startTimerLine(widthValue);
-        timeText.textContent = "Time Left";
+        
+        timeText.textContent = data[JSON.parse(localStorage.getItem('limba'))].timpRamas;
         see_why.classList.remove("show");
         next_btn.classList.remove("show");
         
