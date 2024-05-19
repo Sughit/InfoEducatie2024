@@ -17,8 +17,8 @@ window.onload = function()
     btns.forEach(el => {
         el.addEventListener('click', () => {
             //asta contine limbi curenta
-            const attribute = el.getAttribute('language');
-            localStorage.setItem('limba', JSON.stringify(attribute));
+            const attribute2 = el.getAttribute('language');
+            localStorage.setItem('limba', JSON.stringify(attribute2));
     
             loadLanguages(JSON.parse(localStorage.getItem('limba')));
         });
