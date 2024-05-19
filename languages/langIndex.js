@@ -4,7 +4,6 @@ const btns = document.querySelectorAll('#btn-lang');
 btns.forEach(el => {
     el.addEventListener('click', () => {
         //asta contine limbi curenta
-        alert('butonnul a fost apasat');
         const attribute = el.getAttribute('language');
         localStorage.setItem('limba', JSON.stringify(attribute));
 
@@ -15,6 +14,15 @@ btns.forEach(el => {
 window.onload = function()
 {
     loadLanguages(JSON.parse(localStorage.getItem('limba')));
+    btns.forEach(el => {
+        el.addEventListener('click', () => {
+            //asta contine limbi curenta
+            const attribute = el.getAttribute('language');
+            localStorage.setItem('limba', JSON.stringify(attribute));
+    
+            loadLanguages(JSON.parse(localStorage.getItem('limba')));
+        });
+    });
 }
 
 function loadLanguages(attr)
