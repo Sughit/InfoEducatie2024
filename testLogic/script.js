@@ -113,7 +113,6 @@ function seeWhy()
 {
     window.location.href = questions[que_count].tag;
     window.location.href = questions[que_count++].tag;
-    highlight.reload();
 }
 
 next_btn.onclick = ()=>{
