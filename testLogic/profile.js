@@ -27,9 +27,8 @@ if(window.location.pathname == "/index.html")
     var corecteTot = 0;
     var gresiteTot = 0;
 
-    if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')) && localStorage.getItem('finishedATest'))
+    if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')))
     {
-        localStorage.setItem('finishedATest', false);
         corecteTot = parseInt(localStorage.getItem('corecteTot'));
         gresiteTot = parseInt(localStorage.getItem('gresiteTot'));
         corecteTot += corecte;
