@@ -111,7 +111,7 @@ function verify(){
 
 function seeWhy()
 {
-    window.location.href = highlight;
+    window.location.href = 'teorieMecanica#1';
 }
 
 next_btn.onclick = ()=>{
