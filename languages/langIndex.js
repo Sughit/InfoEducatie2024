@@ -27,6 +27,7 @@ function loadLanguages(attr)
     const titleSet = document.getElementById('titleSet');
     const titleLogin = document.getElementById('titleLogin');
     const titleDisconnect = document.getElementById('titleDisconnect');
+    const titleStatistica = document.getElementById('titleStatistica');
     const titleLang = document.getElementById('titleLang');
     const titleMec = document.getElementById('titleMec');
     const titleTer = document.getElementById('titleTer');
@@ -175,6 +176,7 @@ function loadLanguages(attr)
         titleSet.textContent = data[attr].titleSet;
         titleLogin.textContent = data[attr].titleLogin;
         titleDisconnect.textContent = data[attr].titleDisconnect;
+        titleStatistica.textContent = data[attr].titleStatistica;
         titleLang.textContent = data[attr].titleLang;
         titleMec.textContent = data[attr].titleMec;
         titleTer.textContent = data[attr].titleTer;
@@ -402,6 +404,9 @@ var data = {
         "titleSet": "Settings",
         "titleLogin": "Log in",
         "titleDisconnect": "Sign Out",
+        "titleStatistica": "Your test results",
+        "corecte": "Right",
+        "gresite": "Wrong",
         "titleLang": "Languages",
         "titleMec": "Mechanics",
         "titleTer": "Thermodynamics",
@@ -1978,6 +1983,9 @@ var data = {
         "titleSet": "Setări",
         "titleLogin": "Conectează-te",
         "titleDisconnect": "Deconectează-te",
+        "titleStatistica": "Rezultatele tale de la teste",
+        "corecte": "Corecte",
+        "gresite": "Greșite",
         "titleLang": "Limbi",
         "titleMec": "Mecanică",
         "titleTer": "Termodinamică",
@@ -3542,6 +3550,9 @@ var data = {
         "titleSet": "Beállítások",
         "titleLogin": "Bejelentkezés",
         "titleDisconnect": "Kijelentkezés",
+        "titleStatistica": "A teszteredményeid",
+        "corecte": "Becsületes",
+        "gresite": "Rossz",
         "titleLang": "Nyelvek",
         "titleMec": "Mechanika",
         "titleTer": "Termodinamika",
@@ -5093,6 +5104,9 @@ var data = {
         "titleSet": "Einstellungen",
         "titleLogin": "Anmelden",
         "titleDisconnect": "Abmelden",
+        "titleStatistica": "Ihre Testergebnisse",
+        "corecte": "Gerecht",
+        "gresite": "Falsch",
         "titleLang": "Fremdsprachen",
         "titleMec": "Mechanik",
         "titleTer": "Thermodynamik",
@@ -6657,6 +6671,9 @@ var data = {
         "titleSet": "Paramètres",
         "titleLogin": "Se connecter",
         "titleDisconnect": "Se déconnecter",
+        "titleStatistica": "Les résultats de vos tests",
+        "corecte": "Équitable",
+        "gresite": "Faux",
         "titleLang": "Langues",
         "titleMec": "Mécanique",
         "titleTer": "Thermodynamique",
@@ -8230,6 +8247,9 @@ var data = {
         "titleSet": "Настройки",
         "titleLogin": "Bойти",
         "titleDisconnect": "Выход",
+        "titleStatistica": "Результаты вашего теста",
+        "corecte": "справедливый",
+        "gresite": "Неправильный",
         "titleLang": "Конечность",
         "titleMec": "Механика",
         "titleTer": "Термодинамика",
