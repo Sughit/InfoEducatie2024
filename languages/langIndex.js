@@ -2164,11 +2164,11 @@ var data = {
                         '<h2 class=\"p-3\">'+'Accelerația'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Fomula: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
-                            '<li>'+'<a id =\"2\">'+'Unitatea de măsură: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</li>'+'</a>'+
+                            '<li>'+'<a id ="2">'+'Unitatea de măsură: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</li>'+'</a>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Formula Galilei:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'<a id=\"1\">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</b>'+'</li>'+'</a>'+
+                            '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</b>'+'</li>'+'</a>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Legea vitezei: '+'</h2>'+
                         '<ul>'+
@@ -2214,7 +2214,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Tensiunea în fire:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Tensiunea din fir ( T ) reprezintă forța de reacțiune a firului inextensibil (care nu se alungește) la forța exercitată asupra lui.'+'</li>'+'<br>'+
-                            '<li>'+'<a id =\"4\">'+'Când suspendăm un corp de un fir inextensibil apar două forțe pereche:'+'<br>'+'<br>'+'</a>'+
+                            '<li>'+'<a id ="4">'+'Când suspendăm un corp de un fir inextensibil apar două forțe pereche:'+'<br>'+'<br>'+'</a>'+
     
                                 'Forța de apăsare a corpului (F) este forța cu care corpul acționează asupra firului (ea este egală cu greutatea corpului).'+'<br>'+'<br>'+
                                 
@@ -2226,7 +2226,7 @@ var data = {
                             
                                 'Valoarea forței de frecare la alunecare depinde de natura și de gradul de prelucrare al suprafețelor aflate în contact. Dependența este caracterizată de o mărime adimensională, numită coeficient de frecare al alunecare, ce ia valori între 0 și 1 și se notează cu μ.'+'<br>'+'<br>'+
     
-                                '<a id=\"3\">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
+                                '<a id="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
     
                             '<li>'+'Legea II a frecării:'+'<br>'+'<br>'+
                                 'Valoarea forței de frecare la alunecare nu depinde de aria suprafeței de contact dintre corpuri.'+'<br>'+'<br>'+'</li>'+
