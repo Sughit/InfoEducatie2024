@@ -160,6 +160,7 @@ function loadLanguages(attr)
     const urmatorulTestBtn = document.getElementById('urmatorulTestBtn');
     const finalTestTitle = document.getElementById('finalTestTitle');
     const nouTestBtn = document.getElementById('nouTestBtn');
+    const veziDeCeBtn = document.getElementById('veziDeCe');
 
     //index.html
     if(window.location.pathname == "/index.html")
@@ -383,6 +384,7 @@ function loadLanguages(attr)
         urmatorulTestBtn.textContent = data[attr].urmatorulTestBtn;
         finalTestTitle.textContent = data[attr].finalTestTitle;
         nouTestBtn.textContent = data[attr].nouTestBtn;
+        veziDeCeBtn.textContent = data[attr].veziDeCeBtn;
     }
 }
 
@@ -431,9 +433,11 @@ var data = {
         "continuaTestBtn": "Continue",
         "testTitle": "Test",
         "timpRamas": "Remaining time:",
+        "gataTimpul": "Time finished",
         "urmatorulTestBtn": "Next",
         "finalTestTitle": "You have completed the test!",
         "nouTestBtn": "Take the test again",
+        "veziDeCeBtn": "See why",
 
         //mecanica.html
         "mecanicaTitle": "Mechanics",
@@ -2005,9 +2009,11 @@ var data = {
         "continuaTestBtn": "Continuă",
         "testTitle": "Test",
         "timpRamas": "Timp rămas:",
+        "gataTimpul": "Gata timpul",
         "urmatorulTestBtn": "Urm.",
         "finalTestTitle": "Ai terminat testul!",
         "nouTestBtn": "Fă testul din nou",
+        "veziDeCeBtn": "Vezi de ce",
 
         //mecanica.html
         "mecanicaTitle": "Mecanică",
@@ -3567,9 +3573,11 @@ var data = {
         "continuaTestBtn": "Folytasd",
         "testTitle": "Teszt",
         "timpRamas": "Hátralévő idő:",
+        "gataTimpul": "Készenléti idő",
         "urmatorulTestBtn": "Köv.",
         "finalTestTitle": "Elvégezte a tesztet!",
         "nouTestBtn": "Csináld újra a tesztet",
+        "veziDeCeBtn": "Nézze meg, miért",
 
         //mecanica.html
         "mecanicaTitle": "Mechanika",
@@ -5116,9 +5124,11 @@ var data = {
         "continuaTestBtn": "Weitermachen",
         "testTitle": "Prüfen",
         "timpRamas": "Verbleibende Zeit:",
+        "gataTimpul": "Bereitschaftszeit",
         "urmatorulTestBtn": "Nächste",
         "finalTestTitle": "Sie haben den Test abgeschlossen!",
         "nouTestBtn": "Machen Sie den Test noch einmal",
+        "veziDeCeBtn": "Siehst du warum",
 
         //mecanica.html
         "mecanicaTitle": "Mechanik",
@@ -6678,9 +6688,11 @@ var data = {
         "continuaTestBtn": "Continue",
         "testTitle": "Test",
         "timpRamas": "Temps restant:",
+        "gataTimpul": "Temps prêt",
         "urmatorulTestBtn": "Suiv.",
         "finalTestTitle": "Vous avez terminé le test !",
         "nouTestBtn": "Refaites le test",
+        "veziDeCeBtn": "Voyez pourquoi",
 
         //mecanica.html
         "mecanicaTitle": "Mécanique",
@@ -8249,9 +8261,11 @@ var data = {
         "continuaTestBtn": "Продолжать идти",
         "testTitle": "Тест",
         "timpRamas": "Оставшееся время:",
+        "gataTimpul": "Время готовности",
         "urmatorulTestBtn": "след",
         "finalTestTitle": "Вы завершили тест!",
         "nouTestBtn": "Пройди тест еще раз",
+        "veziDeCeBtn": "Понять, почему",
 
         //mecanica.html
         "mecanicaTitle": "Механика",

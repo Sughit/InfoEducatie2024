@@ -212,7 +212,7 @@ function startTimer(time){
         }
         if(time < 0){
             clearInterval(counter); 
-            timeText.textContent = "Gata timpul"; 
+            timeText.textContent = data[JSON.parse(localStorage.getItem('limba'))].gataTimpul; 
             const allOptions = option_list.children.length;
             let correcAns = questions[que_count].answer; 
             for(i=0; i < allOptions; i++){
