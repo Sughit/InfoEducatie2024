@@ -1,6 +1,11 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
+if(localStorage.getItem('limba') === undefined)
+{
+    localStorage.setItem('limba', "romana");
+}
+
 btns.forEach(el => {
     el.addEventListener('click', () => {
         //asta contine limbi curenta
@@ -193,8 +198,8 @@ function loadLanguages(attr)
     //login.html
     if(window.location.pathname == "/login.html")
     {
-        goBackLog.textContent = data[attr].goBackLog
-        titleLog.textContent = data[attr].titleLog
+        goBackLog.textContent = data[attr].goBackLog;
+        titleLog.textContent = data[attr].titleLog;
         emailLog.textContent = data[attr].emailLog;
         passwordLog.textContent = data[attr].passwordLog;
         login.textContent = data[attr].login;
