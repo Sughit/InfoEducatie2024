@@ -1,6 +1,11 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
+window.onload = function()
+{
+    loadLanguages(JSON.parse(localStorage.getItem('limba')));
+}
+
 btns.forEach(el => {
     el.addEventListener('click', () => {
         // lagnEl.querySelector('.active-lang-btn').classList.remove('active-lang-btn');
@@ -150,7 +155,7 @@ function loadLanguages(attr)
 
     //variabile din test.html
     const startTestBtn = document.getElementById('startTestBtn');
-    const iesiBtn = document.getElementsByClassName('iesiBtn');
+    const iesiBtn = document.getElementById('iesiBtn');
     const reguliTitle = document.getElementById('reguliTitle');
     const reguli = document.getElementById('reguli');
     const iesiTestBtn = document.querySelectorAll('#iesiTestBtn');
@@ -11695,9 +11700,4 @@ var questionsData = {
             "Частота осциллятора"
         ],        
     }
-}
-
-window.onload = function()
-{
-    loadLanguages(JSON.parse(localStorage.getItem('limba')));
 }
