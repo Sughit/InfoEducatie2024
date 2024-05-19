@@ -104,3 +104,35 @@ function validate_fields(field)
 {
 
 }
+
+window.onload()
+{
+    var profileDiv = document.getElementById('profileDiv');
+    var connectBtn = document.getElementById('connectBtn');
+    var disconnectBtn = document.getElementById('disconnectBtn');
+
+    var profileUsername = document.getElementById('profileUsername');
+    onAuthStateChanged(auth, user => {
+        if(user) 
+        {
+            profileDiv.style.display = "block";
+            connectBtn.style.display = "none";
+
+            get(child(ref(db), 'users/' + user.uid))
+            .then((snapshot) => {
+                if(snapshot.exists())
+                {
+                    profileUsername.textContent = JSON.stringify(snapshot.val().username).replace(/\"/g, "");
+                }
+            })
+            .catch((error) => {
+                alert(error.message);
+            })
+        }
+        else 
+        {
+            profileDiv.style.display = "none";
+            connectBtn.style.display = "block";
+        }
+    });
+}
