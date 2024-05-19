@@ -111,8 +111,7 @@ function verify(){
 
 function seeWhy()
 {
-    window.location.href = questions[que_count].tag;
-    window.location.href = questions[que_count++].tag;
+    window.location.href = highlight;
 }
 
 next_btn.onclick = ()=>{
