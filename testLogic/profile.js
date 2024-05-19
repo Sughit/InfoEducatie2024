@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js";
 import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
-import { getDatabase, ref, set, get, child, update } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
+import { getDatabase, ref, push, set, get, child, update } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-database.js";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -27,7 +27,16 @@ if(window.location.pathname == "/index.html")
     var corecteTot = 0;
     var gresiteTot = 0;
 
-    if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')))
+    if(SeeDataBaseCorVars() !== undefined && SeeDataBaseGreVars !== undefined)
+    {
+        corecteTot = SeeDataBaseCorVars();
+        gresiteTot = SeeDataBaseGreVars();
+        localStorage.setItem('corecte', 0);
+        localStorage.setItem('gresite', 0);
+        localStorage.setItem('corecteTot', parseInt(corecteTot));
+        localStorage.setItem('gresiteTot', parseInt(gresiteTot));
+    }
+    else if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')))
     {
         corecteTot = parseInt(localStorage.getItem('corecteTot'));
         gresiteTot = parseInt(localStorage.getItem('gresiteTot'));
@@ -105,5 +114,37 @@ if(window.location.pathname == "/index.html")
     var values = [data[JSON.parse(localStorage.getItem('limba'))].corecte, data[JSON.parse(localStorage.getItem('limba'))].gresite];
     chart.data.labels = values;
     chart.update();
+}
+
+function SeeDataBaseCorVars()
+{
+    const user = push(child(ref(db), 'users/')).key;
+    get(child(ref(db), 'users/' + user.uid + '/corecte'))
+    .then((snapshot) => {
+        if(snapshot.exists())
+        {
+            console.log(snapshot.val().corecte);
+            return snapshot.val().corecte;
+        }
+    })
+    .catch((error) => {
+        alert(error.message);
+    });
+}
+
+function SeeDataBaseGreVars()
+{
+    const user = push(child(ref(db), 'users/')).key;
+    get(child(ref(db), 'users/' + user.uid + '/gresite'))
+    .then((snapshot) => {
+        if(snapshot.exists())
+        {
+            console.log(snapshot.val().gresite);
+            return snapshot.val().gresite;
+        }
+    })
+    .catch((error) => {
+        alert(error.message);
+    });
 }
 

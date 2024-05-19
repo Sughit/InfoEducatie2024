@@ -335,6 +335,8 @@ function loadLanguages(attr)
         cuprinsPrincipii.textContent = data[attr].cuprinsPrincipii;
         cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
+        var test = document.getElementById('1');
+        console.log(test);
     }
 
     //teorieTermodinamica.html
@@ -2163,7 +2165,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Accelerația'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Fomula: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
-                            '<li>'+'<a id ="2">'+'Unitatea de măsură: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</li>'+'</a>'+
+                            '<li>'+'<a id ="2">'+'Unitatea de măsură: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</a>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Formula Galilei:'+'</h2>'+
                         '<ul>'+
