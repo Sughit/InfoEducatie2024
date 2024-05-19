@@ -111,7 +111,8 @@ function verify(){
 
 function seeWhy()
 {
-    window.location.href = highlight;
+    window.location.href = highlight - "#1";
+    
     highlight.reload();
 }
 
