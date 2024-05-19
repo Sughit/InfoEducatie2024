@@ -3,10 +3,8 @@ const btns = document.querySelectorAll('#btn-lang');
 
 btns.forEach(el => {
     el.addEventListener('click', () => {
-        // lagnEl.querySelector('.active-lang-btn').classList.remove('active-lang-btn');
-        // el.classList.add('active-lang-btn');
-
         //asta contine limbi curenta
+        alert('butonnul a fost apasat');
         const attribute = el.getAttribute('language');
         localStorage.setItem('limba', JSON.stringify(attribute));
 
