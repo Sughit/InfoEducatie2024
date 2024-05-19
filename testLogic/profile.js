@@ -21,17 +21,47 @@ const db = getDatabase(app);
 
 if(window.location.pathname == "/index.html")
 {
+    var corecte = parseInt(localStorage.getItem('corecte'));
+    var gresite = parseInt(localStorage.getItem('gresite'));
+
+    var corecteTot = 0;
+    var gresiteTot = 0;
+
+    if(localStorage.getItem('corecteTot') !== null && localStorage.getItem('gresiteTot') !== null)
+    {
+        corecteTot = parseInt(localStorage.getItem('corecteTot'));
+        gresiteTot = parseInt(localStorage.getItem('gresiteTot'));
+        corecteTot += corecte;
+        gresiteTot += gresite;
+        console.log(corecteTot);
+        console.log(gresiteTot);
+        localStorage.setItem('corecteTot', parseInt(corecteTot));
+        localStorage.setItem('gresiteTot', parseInt(gresiteTot));
+    }
+    else
+    {
+        localStorage.setItem('corecteTot', parseInt(corecteTot));
+        localStorage.setItem('gresiteTot', parseInt(gresiteTot));
+    }
+
     onAuthStateChanged(auth, user => {
         if(user) 
-        {
-
+        {   
+            if(corecte > 0 && gresite > 0)
+            {
+                set(ref(db, 'users/' + user.uid + '/corecte'), {
+                    corecte: parseInt(localStorage.getItem('corecteTot'))
+                });
+                set(ref(db, 'users/' + user.uid + '/gresite'), {
+                    gresite: parseInt(localStorage.getItem('gresiteTot'))
+                });
+            }
         }
     });
 
-    var corecte=localStorage.getItem('corecte');
-    var gresite=localStorage.getItem('gresite');
+    
     var xValues = ['Corecte', 'Gresite'];
-    var yValues = [corecte, gresite];
+    var yValues = [corecteTot, gresiteTot];
     var barColors = [
         "#06293d",
         "#9DBEBB"

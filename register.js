@@ -27,8 +27,8 @@ register.addEventListener("click", function(event){
     const email = document.getElementById('emailRegInput').value;
     const password = document.getElementById('passwordRegInput').value;
 
-    const corecte=JSON.stringify(1);
-    const gresite=JSON.stringify(2);
+    const corecte=JSON.stringify(0);
+    const gresite=JSON.stringify(0);
 
     const form = document.getElementById('formReg');
 
