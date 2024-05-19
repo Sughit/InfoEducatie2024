@@ -34,7 +34,7 @@ if(window.location.pathname == "/login.html")
         .then((userCredential) => {
             // Signed in
             user = userCredential.user;
-            
+            alert('Loggin in');
             window.location.href = "index.html";
             // ...
         })

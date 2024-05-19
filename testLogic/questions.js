@@ -32,7 +32,8 @@ let questions1 = [
       "F<sub>f</sub> = μ ∙ N",
       "F<sub>f</sub> = v ∙ N",
       "F<sub>f</sub> = -N ∙ a"
-    ]
+    ],
+    tag: "./teorieMecanica.html#3"
   },
     {
     numb: 4,
@@ -43,18 +44,20 @@ let questions1 = [
       "Forța de apăsare a corpului și Tensiunea în fir",
       "Forța de frecare și Tensiunea în fir",
       "Forța de apăsare a corpului și Tensiunea corpului"
-    ]
+    ],
+    tag: "./teorieMecanica.html#4"
   },
     {
     numb: 5,
-    question: " Forța de reacțiune din principiul acțiunii și reacțiunii:",
+    question: "Forța de reacțiune din principiul acțiunii și reacțiunii:",
     answer: "<span>Este de aceeași mărime și de aceeași direcție, dar de sens contrar față de cea de acțiune</span>",
     options: [
       "Este de aceeași mărime, direcție și același sens cu cea de acțiune",
       "Este de mărime mai mică, de aceeași direcție, dar de sens contrar față de cea de acțiune",
       "Este calculată independent de forța de acțiune",
       "Este de aceeași mărime și de aceeași direcție, dar de sens contrar față de cea de acțiune"
-    ]
+    ],
+    tag: "./teorieMecanica.html#5"
   },
 ];
 
@@ -68,7 +71,8 @@ let questions2 = [
     'ΔE<sub>pg</sub> = -L<sub>G</sub>',
     'ΔE<sub>pg</sub> = L<sub>G</sub>',
     'ΔE<sub>pg</sub> = L<sub>Total</sub>'
-  ]
+  ],
+  tag: "./teorieMecanica.html#6"
 },
   {
   numb: 2,
@@ -79,18 +83,20 @@ let questions2 = [
     'E<sub>pg</sub> = m ∙ g / h',
     'ΔE<sub>pg</sub> = m ∙ g ∙ h',
     'E<sub>pg</sub> = m ∙ a ∙ h'
-  ]
+  ],
+  tag: "./teorieMecanica.html#7"
 },
   {
   numb: 3,
-  question: "Formula forței de frecare este:",
-  answer: "<span>F<sub>f</sub> = μ ∙ N</span>",
+  question: "Formula lucrului mecanic este:",
+  answer: "<span>L = F ∙ d</span>",
   options: [
-    "F<sub>f</sub> = μ ∙ F",
-    "F<sub>f</sub> = μ ∙ N",
-    "F<sub>f</sub> = v ∙ N",
-    "F<sub>f</sub> = -N ∙ a"
-  ]
+    "L = F / d",
+    "L = F ∙ d",
+    "L = 1 / (F ∙ d)",
+    "L = F ∙ 2d"
+  ],
+  tag: "./teorieMecanica.html#8"
 },
   {
   numb: 4,
@@ -101,7 +107,8 @@ let questions2 = [
     "ΔE<sub>c</sub> = L<sub>Total</sub>",
     "ΔE<sub>c</sub> = m ∙ v<sub>2</sub> / 2",
     "ΔE<sub>c</sub> = m ∙ g ∙ h"
-  ]
+  ],
+  tag: "./teorieMecanica.html#9"
 },
   {
   numb: 5,
@@ -112,20 +119,22 @@ let questions2 = [
     "Este o mărime fizică vectorială",
     "Este mărimea ce caracterizează capacitatea unui corp de a efectua lucru mecanic",
     "Este o mărime fizică scalară"
-  ]
+  ],
+  tag: "./teorieMecanica.html#10"
 },
 ];
 let questions3 = [
   {
   numb: 1,
-  question: "Ce este agitatia termică?",
+  question: "Ce este agitația termică?",
   answer: '<span>Mişcarea dezordonată şi continuă a particulelor unei substanţe</span>',
   options: [
     'Mişcarea dezordonată şi continuă a particulelor unei substanţe',
     'Mişcarea ordonată şi continuă a particulelor unei substanţe',
     'Mişcarea circulară a particulelor unei substanţe',
     'Mişcarea rectiliniei a particulelor unei substanţe'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#1"
 },
   {
   numb: 2,
@@ -136,7 +145,8 @@ let questions3 = [
     '6,022 ∙10<sup>21</sup> mol<sup>-1</sup> atomi',
     '6,022 ∙10<sup>23</sup> mol<sup>-1/2</sup> atomi',
     '6,022 ∙10<sup>23</sup> mol<sup>-1</sup> atomi'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#2"
 },
   {
   numb: 3,
@@ -147,7 +157,8 @@ let questions3 = [
     "T(K) = t (°C) + 215,15",
     "T(K) = t (°C) + 273,15",
     "T(K) = t (°C) + 271,13"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#3"  
 },
   {
   numb: 4,
@@ -158,18 +169,20 @@ let questions3 = [
     "p ∙ V = ν ∙ R ∙ T",
     "V = ν ∙ R ∙ T",
     "p ∙ V = ν ∙ R / T"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#4"  
 },
   {
   numb: 5,
-  question: "Volumil molar este egal cu:",
+  question: "Volumul molar este egal cu:",
   answer: "<span>V<sub>μ</sub> = 22,4 L/mol</span>",
   options: [
     "V<sub>μ</sub> = 24,2 L/mol",
     "V<sub>μ</sub> = 24,4 L/mol",
     "V<sub>μ</sub> = 2,24 L/mol",
     "V<sub>μ</sub> = 22,4 L/mol"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#5"  
 },
 ];
 
@@ -183,7 +196,8 @@ let questions4 = [
     'L = T ∙ ΔV',
     'L = p ∙ ΔV',
     'L = R ∙ ΔV'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#6" 
 },
   {
   numb: 2,
@@ -194,7 +208,8 @@ let questions4 = [
     'V(volt)',
     'J/Kg∙K',
     'J/Kg'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#7" 
 },
   {
   numb: 3,
@@ -205,7 +220,8 @@ let questions4 = [
     "i = 5",
     "i = 6",
     "i = 3"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#8" 
 },
   {
   numb: 4,
@@ -216,7 +232,8 @@ let questions4 = [
     "Volumul este constant",
     "Presiunea este constantă",
     "Căldura este egală cu 0"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#9" 
 },
   {
   numb: 5,
@@ -227,7 +244,8 @@ let questions4 = [
     "C<sub>p</sub> = C<sub>V</sub>",
     "C<sub>p</sub> = C<sub>V</sub> + R",
     "C<sub>p</sub> = C<sub>V</sub> ∙ R"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#10"
 },
 ];
 let questions5 = [
@@ -240,7 +258,8 @@ let questions5 = [
     'Admisia - (proces izobar)',
     'Compresia - (proces adiabatic)',
     'Evacuarea - (proces izocor) și (proces izobar)'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#11"
 },
   {
   numb: 2,
@@ -251,18 +270,20 @@ let questions5 = [
     'Transformă căldura primită, prin arderea unui combustibilul în energie.',
     'Transformă căldura primită, prin comprimarea combustibilul în lucru mecanic.',
     'Transformă căldura primită, prin amestecare cu alte substanțe în lucru mecanic.'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#12"
 },
   {
   numb: 3,
-  question: "Randamentul motorului termic Diesel este  egal cu :",
+  question: "Randamentul motorului termic Diesel este egal cu :",
   answer: "<span>Raportul dintre lucrul mecanic efectuat de motor și căldura primită.</span>",
   options: [
     "Raportul dintre lucrul mecanic efectuat de motor și căldura primită.",
     "Raportul dintre căldura primită  și lucrul mecanic efectuat de motor.",
     "Raportul dintre lucrul mecanic efectuat de motor și căldura molară.",
     "Raportul dintre lucrul mecanic efectuat de motor și temperatură."
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#13"
 },
   {
   numb: 4,
@@ -273,7 +294,8 @@ let questions5 = [
     "η = 1 - (1 / ε<sup>y-1</sup>)",
     "η = 1 - (1 / y) ∙ (a<sup>y-1</sup> / ε<sup>y-1</sup>(a-1))",
     "η = (1 / y) ∙ (a<sup>y-1</sup> / ε<sup>y-1</sup>(a-1))"
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#14"
 },
 ];
 let questions6 = [
@@ -286,7 +308,8 @@ let questions6 = [
     'Întotdeauna supraunitar',
     'Întotdeauna subunitar',
     'Egal cu 0'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#15"
 },
   {
   numb: 2,
@@ -297,7 +320,8 @@ let questions6 = [
     'De temperatura sursei calde și a celei reci cât și de substanța de lucru.',
     'De densitatea substanței de lucru.',
     'Numai de temperatura substanța de lucru și nu depinde de temperatura sursei calde și a celei reci.'
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#16"
 },
   {
   numb: 3,
@@ -308,7 +332,8 @@ let questions6 = [
     "Nu este posibil să funcționeze o mașină termică doar cu două termostate, având nevoie de cel puțin trei termostate.",
     "Nu este necesar pentru a funcționa o mașină termică cu două termostate, ci este nevoie doar de unul singur",
     "Nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate."
-  ]
+  ],
+  tag: "./teorieTermodinamica.html#17"
 },
 ];
 
@@ -322,7 +347,8 @@ let questions7 = [
     'Volt (V)',
     'Watt (W)',
     'Ohm (Ω)'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#1"
 },
   {
   numb: 2,
@@ -333,7 +359,8 @@ let questions7 = [
     'Raportul dintre tensiunea electrică și timp',
     'Raportul dintre lucrul mecanic și sarcina electrică',
     'Raportul dintre timp și sarcina electrică'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#2"
 },
   {
   numb: 3,
@@ -344,7 +371,8 @@ let questions7 = [
     "E = U / u",
     "U = E / u",
     "E = U ∙ u"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#3"
 },
   {
   numb: 4,
@@ -355,18 +383,20 @@ let questions7 = [
     "u = L<sub>int</sub> ∙ q",
     "u = L<sub>int</sub> / q",
     "u = q / L<sub>int</sub>"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#4"
 },
   {
   numb: 5,
-  question: "De la borna negativă a sursei spre borna pozitivă:",
+  question: "Sensul convențional al curentului electric continuu printr-un circuit este: ",
   answer: "<span>De la borna pozitivă a sursei spre borna negativă</span>",
   options: [
     "Dat de către intensitatea curentului",
     "Același cu al electronilor",
     "De la borna negativă a sursei spre borna pozitivă",
     "De la borna pozitivă a sursei spre borna negativă"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#5"
 },
 ];
 
@@ -380,7 +410,8 @@ let questions8 = [
     'I = U ∙ R',
     'U = R / I',
     'R = U ∙ I'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#6"
 },
   {
   numb: 2,
@@ -391,7 +422,8 @@ let questions8 = [
     'R = ρ / s)',
     'R = l ∙ (ρ / s)',
     'R = ρ ∙ (l / s)'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#7"
 },
   {
   numb: 3,
@@ -402,7 +434,8 @@ let questions8 = [
     "I = E ∙ (R + r)",
     "I = E / (R + r)",
     "I = E"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#8"
 },
   {
   numb: 4,
@@ -413,18 +446,20 @@ let questions8 = [
     'Ohm (Ω)',
     'Volt (V)',
     'Amperé (A)'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#9"
 },
   {
   numb: 5,
-  question: "Formula intensității curentului electric de scurt circuit este:",
+  question: "Formula intensității curentului electric de scurtcircuit este:",
   answer: "<span>I<sub>sc</sub> = E / r</span>",
   options: [
     "I<sub>sc</sub> = R / r",
     "I<sub>sc</sub> = E / r",
     "I<sub>sc</sub> = E / R",
     "I<sub>sc</sub> = r / E"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#10"
 },
 ];
 
@@ -438,7 +473,8 @@ let questions9 = [
     'Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar',
     'Se ia cu minus dacă intensitatea este pozitivă',
     'Se ia cu minus dacă tensiunea este negativă'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#11"
 },
   {
   numb: 2,
@@ -449,7 +485,8 @@ let questions9 = [
     'Intersecția a cel puțin două conductoare electrice',
     'Locul în care a fost amplasat un întrerupător',
     'Intersecția a cel puțin trei conductoare electrice'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#12"
 },
   {
   numb: 3,
@@ -460,7 +497,8 @@ let questions9 = [
     "Egală cu 1",
     "Nulă",
     "Negativă"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#13"
 },
   {
   numb: 4,
@@ -471,7 +509,8 @@ let questions9 = [
     'Suma algebrică a rezistențelor de pe fiecare latură din acel ochi de circuit',
     'Suma algebrică a intensităților de pe fiecare latură din acel ochi de circuit',
     'Egală cu 0'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#14"
 },
 ];
 
@@ -485,7 +524,8 @@ let questions10 = [
     'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>',
     'R<sub>s</sub> = R<sub>2</sub> ∙ R<sub>2</sub>',
     'R<sub>s</sub> = R<sub>2</sub> / R<sub>1</sub>'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#15"
 },
   {
   numb: 2,
@@ -496,7 +536,8 @@ let questions10 = [
     '1 / R<sub>p</sub> = R<sub>2</sub> / R<sub>1</sub>',
     '1 / R<sub>p</sub> = R<sub>1</sub> + R<sub>2</sub>',
     '1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#16"
 },
   {
   numb: 3,
@@ -507,7 +548,8 @@ let questions10 = [
     "r<sub>s</sub> = n · 1 / r",
     "r<sub>s</sub> = n · 2r",
     "r<sub>s</sub>= 1 / (n · r)"
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#17"
 },
   {
   numb: 4,
@@ -518,7 +560,8 @@ let questions10 = [
     'r<sub>p</sub> = 2r / n',
     'r<sub>p</sub> = r / n',
     'r<sub>p</sub> = n · (1 / r) '
-  ]
+  ],
+  tag: "./teorieElectromecanica.html#18"
 },
 {
   numb: 5,
