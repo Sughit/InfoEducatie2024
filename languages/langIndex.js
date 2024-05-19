@@ -14,15 +14,6 @@ btns.forEach(el => {
 window.onload = function()
 {
     loadLanguages(JSON.parse(localStorage.getItem('limba')));
-    btns.forEach(el => {
-        el.addEventListener('click', () => {
-            //asta contine limbi curenta
-            const attribute2 = el.getAttribute('language');
-            localStorage.setItem('limba', JSON.stringify(attribute2));
-    
-            loadLanguages(JSON.parse(localStorage.getItem('limba')));
-        });
-    });
 }
 
 function loadLanguages(attr)
