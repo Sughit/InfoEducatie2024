@@ -9773,6 +9773,1916 @@ var data = {
     }
 }
 
+var questionsData = {
+    "engleza": 
+    {
+        //q1
+        "q1": [
+            "Which of the following equations represents Galileo's formula?",
+            "What is the unit of measurement for acceleration?",
+            "The formula for friction force is:",
+            "When we suspend a body from an inextensible thread, two paired forces appear:",
+            "The reaction force in the principle of action and reaction:"
+        ],
+        "q1_op4": [
+            "Tension in the thread and Elongation of the thread",
+            "The pressing force of the body and Tension in the thread",
+            "Friction force and Tension in the thread",
+            "The pressing force of the body and Body tension"
+        ],
+        "q1_an4": "<span>The pressing force of the body and Tension in the thread</span>",
+        "q1_op5": [
+            "Is of the same magnitude, direction, and the same sense as the action force",
+            "Is of smaller magnitude, the same direction, but opposite sense to the action force",
+            "Is calculated independently of the action force",
+            "Is of the same magnitude and direction, but opposite sense to the action force"
+        ],
+        "q1_an5": "<span>Is of the same magnitude and direction, but opposite sense to the action force</span>", 
+        
+        //q2
+        "q2": [
+            "The law of variation of gravitational potential energy:",
+            "The gravitational potential energy of a body is:",
+            "The formula for mechanical work is:",
+            "What is the law of variation of kinetic energy?",
+            "Mechanical power:"
+        ],
+        "q2_op5": [
+            "Is the product of the mechanical work done and the time in which this mechanical work is performed",
+            "Is a vector physical quantity",
+            "Is the quantity that characterizes the ability of a body to perform mechanical work",
+            "Is a scalar physical quantity"
+        ],
+        "q2_an5": "<span>Is a scalar physical quantity</span>",      
+        
+        //q3
+        "q3": [
+            "What is thermal agitation?",
+            "Avogadro's number is equal to",
+            "The transformation relationship between Celsius and Kelvin scale is:",
+            "The equation of state describes the dependence between the state parameters of a thermodynamic system:",
+            "The molar volume is equal to:"
+        ],
+        "q3_op1": [
+            "The random and continuous movement of particles of a substance",
+            "The ordered and continuous movement of particles of a substance",
+            "The circular movement of particles of a substance",
+            "The rectilinear movement of particles of a substance"
+        ],
+        "q3_an1": "<span>The random and continuous movement of particles of a substance</span>",
+
+        //q4
+        "q4": [
+            "The mechanical work done by the thermodynamic system in an isobaric transformation is:",
+            "Heat in the international system is measured in:",
+            "The degree of freedom of monoatomic gases is:",
+            "In an isochoric transformation:",
+            "The relationship between molar heats is:"
+        ],
+        "q4_op4": [
+            "Temperature is constant",
+            "Volume is constant",
+            "Pressure is constant",
+            "Heat is equal to 0"
+        ],
+        "q4_an4": "<span>Volume is constant</span>",  
+        
+        //q5
+        "q5": [
+            "What does the second stage of the Otto engine operation consist of?",
+            "The heat engine:",
+            "The efficiency of the Diesel engine is equal to:",
+            "The formula for the efficiency of the Diesel engine is:"
+        ],
+        "q5_op1": [
+            "Ignition - (isochoric process)",
+            "Intake - (isobaric process)",
+            "Compression - (adiabatic process)",
+            "Exhaust - (isochoric) and (isobaric process)"
+        ],
+        "q5_an1": "<span>Compression - (adiabatic process)</span>",
+        "q5_op2": [
+            "It converts the received heat, by burning a fuel, into mechanical work.",
+            "It converts the received heat, by burning a fuel, into energy.",
+            "It converts the received heat, by compressing the fuel, into mechanical work.",
+            "It converts the received heat, by mixing with other substances, into mechanical work."
+        ],
+        "q5_an2": "<span>It converts the received heat, by burning a fuel, into mechanical work.</span>",
+        "q5_op3": [
+            "The ratio between the mechanical work done by the engine and the heat received.",
+            "The ratio between the heat received and the mechanical work done by the engine.",
+            "The ratio between the mechanical work done by the engine and the molar heat.",
+            "The ratio between the mechanical work done by the engine and the temperature."
+        ],
+        "q5_an3": "<span>The ratio between the mechanical work done by the engine and the heat received.</span>",  
+        
+        //q6
+        "q6": [
+            "The efficiency of the Carnot cycle is:",
+            "The efficiency of the Carnot cycle depends on:",
+            "Carnot was the first to show that:"
+        ],
+        "q6_op1": [
+            "Equal to the ratio of heat received to the mechanical work done by the engine.",
+            "Always superunitary",
+            "Always subunitary",
+            "Equal to 0"
+        ],
+        "q6_an1": "<span>Always subunitary</span>",
+        "q6_op2": [
+            "Only on the temperature of the hot and cold source and not on the working substance.",
+            "On the temperature of the hot and cold source as well as on the working substance.",
+            "On the density of the working substance.",
+            "Only on the temperature of the working substance and not on the temperature of the hot and cold source."
+        ],
+        "q6_an2": "<span>Only on the temperature of the hot and cold source and not on the working substance.</span>",
+        "q6_op3": [
+            "A heat engine needs two cold sources",
+            "It is not possible for a heat engine to operate with only two thermostats, needing at least three thermostats.",
+            "It is not necessary for a heat engine to operate with two thermostats, only one is needed",
+            "It is not possible for a heat engine to operate with only one thermostat, needing at least two thermostats."
+        ],
+        "q6_an3": "<span>It is not possible for a heat engine to operate with only one thermostat, needing at least two thermostats.</span>", 
+        
+        //q7
+        "q7": [
+            "The unit of measurement in S.I. for electric voltage is:",
+            "The formula for current intensity is equal to:",
+            "The relationship between the three electric voltages of an electric circuit is:",
+            "The internal voltage has the formula:",
+            "The conventional direction of continuous electric current through a circuit is:"
+        ],
+        "q7_op2": [
+            "The ratio between electric charge and time",
+            "The ratio between electric voltage and time",
+            "The ratio between mechanical work and electric charge",
+            "The ratio between time and electric charge"
+        ],
+        "q7_an2": "<span>The ratio between electric charge and time</span>",
+        "q7_op5": [
+            "Given by the current intensity",
+            "The same as that of electrons",
+            "From the negative terminal of the source to the positive terminal",
+            "From the positive terminal of the source to the negative terminal"
+        ],
+        "q7_an5": "<span>From the positive terminal of the source to the negative terminal</span>",    
+        
+        //q8
+        "q8": [
+            "Ohm's law for a portion of a circuit:",
+            "The dependence of electrical resistance on the nature and dimensions of the conductor is:",
+            "Ohm's law for the entire circuit:",
+            "Resistance in S.I. is measured in:",
+            "The formula for the electric short-circuit current intensity is:"
+        ],      
+        
+        //q9
+        "q9": [
+            "Electromotive force:",
+            "What does the circuit node represent?",
+            "The algebraic sum of the currents meeting at a circuit node is:",
+            "The algebraic sum of the electromotive forces in a network loop is equal to:"
+        ],
+        "q9_op1": [
+            "It is taken as positive if the direction of the electric current through the source is opposite to that of the arbitrarily chosen loop",
+            "It is taken as positive if the direction of the electric current through the source is identical to that of the arbitrarily chosen loop",
+            "It is taken as negative if the intensity is positive",
+            "It is taken as negative if the voltage is negative"
+        ],
+        "q9_an1": "<span>It is taken as positive if the direction of the electric current through the source is identical to that of the arbitrarily chosen loop</span>",
+        "q9_op2": [
+            "The point where the circuit has been knotted",
+            "Intersection of at least two electrical conductors",
+            "The location where a switch has been placed",
+            "Intersection of at least three electrical conductors"
+        ],
+        "q9_an2": "<span>Intersection of at least three electrical conductors</span>",
+        "q9_op3": [
+            "Equal to the ratio of the electromotive force to the resistance of the entire circuit",
+            "Equal to 1",
+            "Zero",
+            "Negative"
+        ],
+        "q9_an3": "<span>Zero</span>",
+        "q9_op4": [
+            "The algebraic sum of the voltages on each side of that circuit loop",
+            "The algebraic sum of the resistances on each side of that circuit loop",
+            "The algebraic sum of the currents on each side of that circuit loop",
+            "Equal to 0"
+        ],
+        "q9_an4": "<span>The algebraic sum of the voltages on each side of that circuit loop</span>",        
+
+        //q10
+        "q10": [
+            "The equivalent resistance of a series grouping of resistors is equal to:",
+            "The reciprocal of the equivalent resistance of a parallel grouping of resistors is equal to:",
+            "The internal resistance of the series grouping of identical electric generators is:",
+            "The internal resistance of the parallel grouping of identical electric generators is:",
+            "A group of resistors is replaced by a single one, called a resistor"
+        ],
+        "q10_an5": "<span>Equivalent</span>",
+        "q10_op5": [
+            "Relevant",
+            "Symmetric",
+            "Resultant",
+            "Equivalent"
+        ],       
+        
+        //q11
+        "q11": [
+            "How is electrical energy denoted?",
+            "The formula for the electrical energy consumed in the entire circuit:",
+            "The power developed by a resistor is maximum when:",
+            "The electrical efficiency of a consumer is given by the relationship:",
+            "The Joule's law has the formula:"
+        ],
+        "q11_an4": "<span>η = W<sub>useful</sub> / W<sub>total</sub> = P<sub>external</sub> / P<sub>total</sub></span>",
+        "q11_op4": [
+            "η = W<sub>useful</sub> / W<sub>total</sub> = P<sub>external</sub> / P<sub>total</sub>",
+            "η = W<sub>useful</sub> / P<sub>external</sub> = W<sub>total</sub> / P<sub>total</sub>",
+            "η = W<sub>useful</sub> / P<sub>total</sub> = W<sub>total</sub> / P<sub>external</sub>",
+            "η = W<sub>total</sub> / W<sub>useful</sub> = P<sub>total</sub> / P<sub>external</sub>"
+        ],      
+        
+        //q12
+        "q12": [
+            "The refractive index of a transparent medium is:",
+            "The incident ray, the normal to the separating surface, and the refracted ray are:",
+            "The maximum angle of incidence is:",
+            "Converging lenses:"
+        ],
+        "q12_an2": "<span>coplanar</span>",
+        "q12_op2": [
+            "equal",
+            "perpendicular",
+            "coplanar",
+            "parallel"
+        ],
+        "q12_an4": "<span>Thicker in the middle and thinner at the edges</span>",
+        "q12_op4": [
+            "Thicker in the middle and thinner at the edges",
+            "It reduces the size of the object",
+            "Thicker at the edges and thinner in the middle",
+            "Also known as negative lenses"
+        ], 
+        
+        //q13
+        "q13": [
+            "What is the speed of light in vacuum?",
+            "Why do colored beams emerge from a prism at different angles?",
+            "In the case of constructive interference:",
+            "One of the conditions for interference is:",
+            "To produce light dispersion, it is necessary that:"
+        ],
+        "q13_an2": "<span>Because they have different speeds</span>",
+        "q13_op2": [
+            "Because certain colors heat up the prism",
+            "Because some colors repel each other",
+            "Because they have different frequencies",
+            "Because they have different speeds"
+        ],
+        "q13_an3": "<span>The two waves are in phase</span>",
+        "q13_op3": [
+            "The two waves are out of phase",
+            "The two waves are in phase",
+            "Their sum equals 0",
+            "They dissipate"
+        ],
+        "q13_an4": "<span>The waves have the same frequency</span>",
+        "q13_op4": [
+            "The waves have the same wavelength",
+            "The phase difference is equal to sin90°",
+            "The waves have the same frequency",
+            "The phase difference varies"
+        ],
+        "q13_an5": "<span>The refractive index must be greater than one</span>",
+        "q13_op5": [
+            "The refractive index must be greater than or equal to one",
+            "The refractive index must be greater than zero",
+            "The refractive index must be greater than one",
+            "The refractive index must be greater than or equal to zero"
+        ],     
+        
+        //q14
+        "q14": [
+            "The difference between energy levels:",
+            "Planck's constant (h) is equal to:",
+            "The kinetic energy of emitted electrons:",
+            "'v' represents:"
+        ],
+        "q14_an1": "<span>It is proportional to the oscillator frequency and Planck's constant</span>",
+        "q14_op1": [
+            "It is inversely proportional to the oscillator frequency and Planck's constant",
+            "It is proportional to the oscillator frequency and Planck's constant",
+            "It is inversely proportional to the oscillator frequency and directly proportional to Planck's constant",
+            "It is proportional to the oscillator frequency and inversely proportional to Planck's constant"
+        ],
+        "q14_an3": "<span>Increases linearly with the frequency of incident radiation</span>",
+        "q14_op3": [
+            "Increases linearly over time",
+            "Decreases linearly with the frequency of incident radiation",
+            "Increases linearly with the frequency of incident radiation",
+            "Remains constant"
+        ],
+        "q14_an5": "<span>The oscillator frequency</span>",
+        "q14_op5": [
+            "Planck's constant",
+            "Einstein's constant",
+            "The emitted radiation",
+            "The oscillator frequency"
+        ],        
+    },
+    "romana": 
+    {
+        //q1
+        "q1": [
+            "Care din următoarele ecuații reprezintă formula Galilei?",
+            "Care este unitatea de măsură pentru accelerație?",
+            "Formula forței de frecare este:",
+            "Când suspendăm un corp de un fir inextensibil apar două forțe pereche:",
+            "Forța de reacțiune din principiul acțiunii și reacțiunii:",
+        ],
+        "q1_op4": [
+            "Tensiunea în fir și Alungirea firului",
+            "Forța de apăsare a corpului și Tensiunea în fir",
+            "Forța de frecare și Tensiunea în fir",
+            "Forța de apăsare a corpului și Tensiunea corpului"
+        ],
+        "q1_an4": "<span>Forța de apăsare a corpului și Tensiunea în fir</span>",
+        "q1_op5": [
+            "Este de aceeași mărime, direcție și același sens cu cea de acțiune",
+            "Este de mărime mai mică, de aceeași direcție, dar de sens contrar față de cea de acțiune",
+            "Este calculată independent de forța de acțiune",
+            "Este de aceeași mărime și de aceeași direcție, dar de sens contrar față de cea de acțiune"
+        ],
+        "q1_an5": "<span>Este de aceeași mărime și de aceeași direcție, dar de sens contrar față de cea de acțiune</span>",
+
+        //q2
+        "q2": [
+            "Legea variației energiei potențiale gravitaționale:",
+            "Energia potențială gravitațională a unui corp este:",
+            "Formula lucrului mecanic este:",
+            "Care este legea variației energiei cinetice?",
+            "Puterea mecanică:",
+        ],
+        "q2_op5": [
+            "Este produsul dintre lucrul mecanic efectuat și timpul în care se efectuează acest lucru mecanic",
+            "Este o mărime fizică vectorială",
+            "Este mărimea ce caracterizează capacitatea unui corp de a efectua lucru mecanic",
+            "Este o mărime fizică scalară"
+        ],
+        "q2_an5": "<span>Este o mărime fizică scalară</span>",
+
+        //q3
+        "q3": [
+            "Ce este agitația termică?",
+            "Numărul lui Avogadro este egal cu",
+            "Relația de transformare între scara Celsius și Kelvin:",
+            "Ecuația de stare descrie dependența dintre parametrii de stare ai unui sistem termodinamic:",
+            "Volumul molar este egal cu:"
+        ],
+        "q3_op1": [
+            'Mişcarea dezordonată şi continuă a particulelor unei substanţe',
+            'Mişcarea ordonată şi continuă a particulelor unei substanţe',
+            'Mişcarea circulară a particulelor unei substanţe',
+            'Mişcarea rectiliniei a particulelor unei substanţe'
+        ],
+        "q3_an1": "<span>Mişcarea dezordonată şi continuă a particulelor unei substanţe</span>",
+
+        //q4 
+        "q4": [
+            "Lucrul mecanic efectuat de sistemul termodinamic într-o transformare izobară este:",
+            "Căldura în sistemul internațional se măsoară în:",
+            "Gradul de libertate al gazelor monoatomice este de:",
+            "Într-o transformare izocoră:",
+            "Relația dintre căldurile molare este:",
+        ],
+        "q4_op4": [
+            "Temperatura este constantă",
+            "Volumul este constant",
+            "Presiunea este constantă",
+            "Căldura este egală cu 0"
+        ],
+        "q4_an4": "<span>Volumul este constant</span>",
+
+        //q5
+        "q5": [
+            "În ce constă al doilea timp de funționare al motorului Otto?",
+            "Motorul termic:",
+            "Randamentul motorului termic Diesel este egal cu :",
+            "Randamentul motorului termic Diesel are formula:",
+        ],
+        "q5_op1": [
+            "Aprinderea - (proces izocor)",
+            "Admisia - (proces izobar)",
+            "Compresia - (proces adiabatic)",
+            "Evacuarea - (proces izocor) și (proces izobar)"
+        ],
+        "q5_an1": "<span>Compresia - (proces adiabatic)</span>",
+        "q5_op2": [
+            "Transformă căldura primită, prin arderea unui combustibilul în lucru mecanic.",
+            "Transformă căldura primită, prin arderea unui combustibilul în energie.",
+            "Transformă căldura primită, prin comprimarea combustibilul în lucru mecanic.",
+            "Transformă căldura primită, prin amestecare cu alte substanțe în lucru mecanic."
+        ],
+        "q5_an2": "<span>Transformă căldura primită, prin arderea unui combustibilul în lucru mecanic.</span>",
+        "q5_op3": [
+            "Raportul dintre lucrul mecanic efectuat de motor și căldura primită.",
+            "Raportul dintre căldura primită  și lucrul mecanic efectuat de motor.",
+            "Raportul dintre lucrul mecanic efectuat de motor și căldura molară.",
+            "Raportul dintre lucrul mecanic efectuat de motor și temperatură."
+        ],
+        "q5_an3": "<span>Raportul dintre lucrul mecanic efectuat de motor și căldura primită.</span>",
+
+        //q6
+        "q6": [
+            "Randamentul ciclului Carnot este:",
+            "Randamentul ciclului Carnot depinde:",
+            "Carnot a fost primul care a arătat că:",
+        ],
+        "q6_op1": [
+            "Egal cu raportul dintre căldura primită și lucrul mecanic efectuat de motor.",
+            "Întotdeauna supraunitar",
+            "Întotdeauna subunitar",
+            "Egal cu 0"
+        ],
+        "q6_an1": "<span>Întotdeauna subunitar</span>",
+        "q6_op2": [
+            "Numai de temperatura sursei calde și a celei reci și nu depinde de substanța de lucru.",
+            "De temperatura sursei calde și a celei reci cât și de substanța de lucru.",
+            "De densitatea substanței de lucru.",
+            "Numai de temperatura substanța de lucru și nu depinde de temperatura sursei calde și a celei reci."
+        ],
+        "q6_an2": "<span>Numai de temperatura sursei calde și a celei reci și nu depinde de substanța de lucru.</span>",
+        "q6_op3": [
+            "O mașină termică are nevoie de două surse reci",
+            "Nu este posibil să funcționeze o mașină termică doar cu două termostate, având nevoie de cel puțin trei termostate.",
+            "Nu este necesar pentru a funcționa o mașină termică cu două termostate, ci este nevoie doar de unul singur",
+            "Nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate."
+        ],
+        "q6_an3": "<span>Nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate.</span>",
+
+        //q7
+        "q7": [
+            "Unitate de măsură în S.I pentru tensiunea electrică este:",
+            "Formula intensității curentului este egală cu:",
+            "Relația dintre cele trei tensiuni electrice ale unui circuit electric este:",
+            "Tensiunea internă are formula:",
+            "Sensul convențional al curentului electric continuu printr-un circuit este: ",
+        ],
+        "q7_op2": [
+            "Raportul dintre sarcina electrică și timp",
+            "Raportul dintre tensiunea electrică și timp",
+            "Raportul dintre lucrul mecanic și sarcina electrică",
+            "Raportul dintre timp și sarcina electrică"
+        ],
+        "q7_an2": "<span>Raportul dintre sarcina electrică și timp</span>",
+        "q7_op5": [
+            "Dat de către intensitatea curentului",
+            "Același cu al electronilor",
+            "De la borna negativă a sursei spre borna pozitivă",
+            "De la borna pozitivă a sursei spre borna negativă"
+        ],
+        "q7_an5": "<span>De la borna pozitivă a sursei spre borna negativă</span>",
+
+        //q8
+        "q8": [
+            "Legea lui Ohm pentru o porțiune de circuit:",
+            "Dependența rezistenței electrice de natura și de dimensiunile conductorului este:",
+            "Legea lui Ohm pentru întregul circuit:",
+            "Rezistența în S.I. se măsoară în:",
+            "Formula intensității curentului electric de scurtcircuit este:",
+        ],
+
+        //q9
+        "q9": [
+            "Tensiunea electromotoare:",
+            "Ce reprezintă nodul de circuit?",
+            "Suma algebrică a intensităților curenților care se întâlnesc într-un nod de circuit este:",
+            "Suma algebrică a tensiunilor electromotoare dintr-un ochi de rețea este egală cu:",
+        ],
+        "q9_op1": [
+            "Se ia cu plus dacă sensul curentului electric prin sursă este opus cu cel al ochiului ales arbitrar ",
+            "Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar",
+            "Se ia cu minus dacă intensitatea este pozitivă",
+            "Se ia cu minus dacă tensiunea este negativă"
+        ],
+        "q9_an1": "<span>Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar</span>",
+        "q9_op2": [
+            "Punctul în care circuitul s-a înnodat",
+            "Intersecția a cel puțin două conductoare electrice",
+            "Locul în care a fost amplasat un întrerupător",
+            "Intersecția a cel puțin trei conductoare electrice"
+        ],
+        "q9_an2": "<span>Intersecția a cel puțin trei conductoare electrice</span>",
+        "q9_op3": [
+            "Egală cu raportul dintre tensiunea electromotoare și rezistența întregului circuit ",
+            "Egală cu 1",
+            "Nulă",
+            "Negativă"
+        ],
+        "q9_an3": "<span>Nulă</span>",
+        "q9_op4": [
+            "Suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit",
+            "Suma algebrică a rezistențelor de pe fiecare latură din acel ochi de circuit",
+            "Suma algebrică a intensităților de pe fiecare latură din acel ochi de circuit",
+            "Egală cu 0"
+        ],
+        "q9_an4": "<span>Suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit</span>",
+
+        //q10
+        "q10": [
+            "Rezistența echivalentă a unei grupări serie de rezistoare este egală cu:",
+            "Inversul rezistenței echivalente a unei grupări paralel de rezistoare este egal cu:",
+            "Rezistența internă a grupării serie de generatoare electrice identice:",
+            "Rezistența internă a grupării paralel de generatoare electrice identice:",
+            "Un grup de rezistoare se înlocuiește cu unul singur, denumit rezistor ",
+        ],
+        "q10_an5": "<span>Echivalent</span>",
+        "q10_op5": [
+            "Aferent",
+            "Simetric",
+            "Rezultant",
+            "Echivalent"
+        ],
+
+        //q11
+        "q11": [
+            "Cu ce se notează energia electrică?",
+            "Formula energiei electrice consumate pe întreg circuitul:",
+            "Puterea dezvoltată de rezistor este maximă când: ",
+            "Randamentul electric al unui consumator este dat de relația:",
+            "Legea lui Joule are formula: ",
+        ],
+        "q11_an4": "<span>η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub></span>",
+        "q11_op4": [
+            "η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub>",
+            "η = W<sub>utilă</sub> / P<sub>exterioară</sub> = W<sub>totală</sub> / P<sub>totală</sub>",
+            "η = W<sub>utilă</sub> / P<sub>totală</sub> = W<sub>totală</sub> / P<sub>exterioară</sub>",
+            "η = W<sub>totală</sub> / W<sub>utilă</sub> = P<sub>totală</sub> / P<sub>exterioară</sub>"
+        ],
+
+        //q12
+        "q12": [
+            "Indicele de refracție al unui mediu transparent este: ",
+            "Raza incidentă , normala la suprafață de separare și raza refractată sunt:",
+            "Unghiul maxim de incidență este: ",
+            "Lentilele convergente: ",
+        ],
+        "q12_an2": "<span>coplanare</span>",
+        "q12_op2": [
+            "egale",
+            "perpendiculare",
+            "coplanare",
+            "paralele"
+        ],
+        "q12_an4": "<span>Sunt mai groase la mijloc și mai subțiri la capete</span>",
+        "q12_op4": [
+            "Sunt mai groase la mijloc și mai subțiri la capete",
+            "Micșorează obiectul",
+            "Sunt mai groase la capete și mai subțiri la mijloc",
+            "Li se mai zice și lentile negative"
+        ],
+
+        //q13
+        "q13": [
+            "Cu cât este egală viteza luminii în vid?",
+            "De ce fasciculele colorate ies din prismă sub unghiuri diferite ?",
+            "În cazul interferenței constructive: ",
+            "Una dintre condițiile de interferență este: ",
+            "Pentru a produce dispersia luminii trebuie ca: ",
+        ],
+        "q13_an2": "<span>Deoarece au viteze diferite</span>",
+        "q13_op2": [
+            "Pentru că anumite culori încălzesc prisma",
+            "Fiindcă unele culori se resping",
+            "Pentru că au frecvențe diferite",
+            "Deoarece au viteze diferite"
+        ],
+        "q13_an3": "<span>Cele două unde sunt în fază</span>",
+        "q13_op3": [
+            "Cele două unde sunt în defazaj",
+            "Cele două unde sunt în fază",
+            "Suma lor este egală cu 0",
+            "Se risipesc"
+        ],
+        "q13_an4": "<span>Undele să aibă aceeași frecvență</span>",
+        "q13_op4": [
+            "Undele să aibă aceiași lungime",
+            "Diferența de fază să fie egală cu sin90°",
+            "Undele să aibă aceeași frecvență",
+            "Diferența de fază să varieze"
+        ],
+        "q13_an5": "<span>Indicele de refracție să fie mai mare decât unu</span>",
+        "q13_op5": [
+            "Indicele de refracție să fie mai mare egal cu unu",
+            "Indicele de refracție să fie mai mare decât zero",
+            "Indicele de refracție să fie mai mare decât unu",
+            "Indicele de refracție să fie mai mare egal cu zero"
+        ],
+
+        //q14
+        "q14": [
+            "Diferența dintre nivelurile de energie: ",
+            "Constanta lui Planck (h) este egală cu:",
+            "Energia cinetică a electronilor emiși:",
+            "'v' reprezintă: ",
+        ],
+        "q14_an1": "<span>Este proporțională cu frecvența oscilatorului și constanta lui Planck</span>",
+        "q14_op1": [
+            "Este invers proporțională cu frecvența oscilatorului și constanta lui Planck",
+            "Este proporțională cu frecvența oscilatorului și constanta lui Planck",
+            "Este invers proporțională cu frecvența oscilatorului și direct proporțională constanta lui Planck",
+            "Este proporțională cu frecvența oscilatorului și invers proporțională constanta lui Planck"
+        ],
+        "q14_an3": "<span>Crește liniar cu frecvența radiației incidente</span>",
+        "q14_op3": [
+            "Crește liniar odată cu trecerea timpului",
+            "Scade liniar cu frecvența radiației incidente",
+            "Crește liniar cu frecvența radiației incidente",
+            "Rămâne constantă"
+        ],
+        "q14_an5": "<span>Frecvența oscilatorului</span>",
+        "q14_op5": [
+            "Constanta lui Planck",
+            "Constanta lui Einstein",
+            "Radiația emisă",
+            "Frecvența oscilatorului"
+        ],
+    },
+    "maghiara": 
+    {
+        //q1
+        "q1": [
+            "Melyik a következő egyenletek közül Galileo képlete?",
+            "Mi a gyorsulás mértékegysége?",
+            "A súrlódási erő képlete:",
+            "Amikor egy testet egy nyújthatatlan szálra függesztünk, két páros erő jelenik meg:",
+            "Az akció-reakció elv alapján a reakcióerő:"
+        ],
+        "q1_op4": [
+            "A szál feszültsége és a szál megnyúlása",
+            "A test nyomóereje és a szál feszültsége",
+            "A súrlódási erő és a szál feszültsége",
+            "A test nyomóereje és a test feszültsége"
+        ],
+        "q1_an4": "<span>A test nyomóereje és a szál feszültsége</span>",
+        "q1_op5": [
+            "Ugyanakkora nagyságú, irányú és ugyanazon érzékkel, mint az akcióerő",
+            "Kisebb nagyságú, ugyanazon irányú, de az akcióerővel ellentétes érzékű",
+            "Az akcióerőtől függetlenül számított",
+            "Ugyanakkora nagyságú és irányú, de az akcióerővel ellentétes érzékű"
+        ],  
+        "q1_an5": "<span>Ugyanakkora nagyságú és irányú, de az akcióerővel ellentétes érzékű</span>",  
+        
+        //q2    
+        "q2": [
+            "A gravitációs potenciális energia változásának törvénye:",
+            "Egy test gravitációs potenciális energiája:",
+            "A mechanikai munka képlete:",
+            "Mi a kinetikus energia változásának törvénye?",
+            "A mechanikai teljesítmény:"
+        ],
+        "q2_op5": [
+            "A végzett mechanikai munka és annak végzése ideje szorzata",
+            "Egy fizikai vektoriális mennyiség",
+            "Az a méret, amely egy test képességét jellemzi a mechanikai munkavégzésre",
+            "Egy fizikai skalár méret"
+        ],
+        "q2_an5": "<span>Egy fizikai skalár méret</span>",   
+        
+        //q3
+        "q3": [
+            "Mi a hőmozgás?",
+            "Avogadro száma egyenlő",
+            "Az átváltás Celsius és Kelvin skála közötti kapcsolat:",
+            "Az állapotegyenlet leírja a termodinamikai rendszer állapotparaméterei közötti függést:",
+            "A móláris térfogat egyenlő:"
+        ],
+        "q3_op1": [
+            "Az anyag részecskéinek rendezetlen és folyamatos mozgása",
+            "Az anyag részecskéinek rendezett és folyamatos mozgása",
+            "Az anyag részecskéinek körkörös mozgása",
+            "Az anyag részecskéinek egyenes vonalú mozgása"
+        ],
+        "q3_an1": "<span>Az anyag részecskéinek rendezetlen és folyamatos mozgása</span>",  
+        
+        //q4
+        "q4": [
+            "A termodinamikai rendszer által végzett mechanikus munka az izobár átalakulás során:",
+            "A hőt az SI rendszerben mérik:",
+            "A monoatomos gázok szabadsági foka:",
+            "Az izochor transzformáció során:",
+            "A móláris hők kapcsolata:"
+        ],
+        "q4_op4": [
+            "A hőmérséklet állandó",
+            "A térfogat állandó",
+            "A nyomás állandó",
+            "A hő egyenlő 0"
+        ],
+        "q4_an4": "<span>A térfogat állandó</span>",   
+        
+        //q5
+        "q5": [
+            "Mi az Otto-motor második működési fázisa?",
+            "A hőmotor:",
+            "A dízelmotor hőhatékonysága:",
+            "A dízelmotor hőhatékonyságának a képlete:"
+        ],
+        "q5_op1": [
+            "Gyújtás - (izokorikus folyamat)",
+            "Beömlés - (izobár folyamat)",
+            "Nyomás - (adiabatikus folyamat)",
+            "Kipufogás - (izokorikus) és (izobár folyamat)"
+        ],
+        "q5_an1": "<span>Nyomás - (adiabatikus folyamat)</span>",
+        "q5_op2": [
+            "Az elért hőt átalakítja a mechanikus munkában egy üzemanyag elégetésével.",
+            "Az elért hőt átalakítja energiává egy üzemanyag elégetésével.",
+            "Az elért hőt átalakítja mechanikus munkává egy üzemanyag összenyomásával.",
+            "Az elért hőt átalakítja mechanikus munkává egyéb anyagokkal való keverés útján."
+        ],
+        "q5_an2": "<span>Az elért hőt átalakítja a mechanikus munkában egy üzemanyag elégetésével.</span>",
+        "q5_op3": [
+            "Az általános munka és az elért hő közötti arány.",
+            "Az elért hő és az általános munka közötti arány.",
+            "Az általános munka és a moláris hő közötti arány.",
+            "Az általános munka és a hőmérséklet közötti arány."
+        ],
+        "q5_an3": "<span>Az általános munka és az elért hő közötti arány.</span>",  
+        
+        //q6
+        "q6": [
+            "A Carnot-ciklus hatékonysága:",
+            "A Carnot-ciklus hatékonysága attól függ:",
+            "Carnot volt az első, aki megmutatta, hogy:"
+        ],
+        "q6_op1": [
+            "Megegyezik a befogadott hő és a motor által végzett mechanikai munka arányával.",
+            "Mindig felülmúlja az egységet",
+            "Mindig alulmúlja az egységet",
+            "Egyenlő nullával"
+        ],
+        "q6_an1": "<span>Mindig alulmúlja az egységet</span>",
+        "q6_op2": [
+            "Csak a forró és hideg forrás hőmérsékletétől függ, és nem az anyagtól, amelyen dolgozik.",
+            "A forró és hideg forrás hőmérsékletétől és az anyagtól is függ, amelyen dolgozik.",
+            "Az anyag sűrűségétől függ.",
+            "Csak az anyag hőmérsékletétől függ, és nem a forró és hideg forrás hőmérsékletétől."
+        ],
+        "q6_an2": "<span>Csak a forró és hideg forrás hőmérsékletétől függ, és nem az anyagtól, amelyen dolgozik.</span>",
+        "q6_op3": [
+            "Egy hőgépnek két hideg forrásra van szüksége",
+            "Egy hőgép nem működhet csak két termosztáttal, legalább háromra van szükség.",
+            "Nem szükséges egy hőgép működéséhez két termosztát, csak egyetlen egyre van szükség.",
+            "Egy hőgép nem működhet egyetlen termoszattal sem, legalább kettőre van szükség."
+        ],
+        "q6_an3": "<span>Egy hőgép nem működhet egyetlen termoszattal sem, legalább kettőre van szükség.</span>",  
+        
+        //q7
+        "q7": [
+            "Az elektromos feszültség SI mértékegysége:",
+            "Az áram intenzitásának képlete megegyezik azzal, hogy:",
+            "Az elektromos áramkör három feszültsége közötti kapcsolat:",
+            "A belső feszültség képlete:",
+            "A folyamatos áram hagyományos iránya az áramkörön keresztül:"
+        ],
+        "q7_op2": [
+            "Az elektromos töltés és az idő közötti arány",
+            "Az elektromos feszültség és az idő közötti arány",
+            "A mechanikai munka és az elektromos töltés közötti arány",
+            "Az idő és az elektromos töltés közötti arány"
+        ],
+        "q7_an2": "<span>Az elektromos töltés és az idő közötti arány</span>",
+        "q7_op5": [
+            "Az áram intenzitása által megadott",
+            "Ugyanaz, mint az elektronoké",
+            "A forrás negatív csatlakozójától a pozitívhoz",
+            "A forrás pozitív csatlakozójától a negatívhoz"
+        ],
+        "q7_an5": "<span>A forrás pozitív csatlakozójától a negatívhoz</span>",   
+        
+        //q8
+        "q8": [
+            "Az Ohm-törvény egy áramkör részére:",
+            "Az elektromos ellenállás függése a vezető anyagától és méreteitől:",
+            "Az Ohm-törvény az egész áramkörre vonatkozóan:",
+            "Az ellenállás SI mértékegysége:",
+            "A rövidzárlati áram intenzitásának képlete:"
+        ],   
+        
+        //q9
+        "q9": [
+            "Az elektromotoros feszültség:",
+            "Mit jelent a áramköri csomópont?",
+            "Az áramköri csomópontban találkozó áramok algebrai összege:",
+            "A hálózati hurokban található elektromotoros feszültségek algebrai összege:"
+        ],
+        "q9_op1": [
+            "Pozitívan veszi, ha az áramforrás által vezetett elektromos áram iránya az adott hurokéval ellentétes",
+            "Pozitívan veszi, ha az áramforrás által vezetett elektromos áram iránya az adott hurokéval azonos",
+            "Negatívan veszi, ha az intenzitás pozitív",
+            "Negatívan veszi, ha a feszültség negatív"
+        ],
+        "q9_an1": "<span>Pozitívan veszi, ha az áramforrás által vezetett elektromos áram iránya az adott hurokéval azonos</span>",
+        "q9_op2": [
+            "Az áramkör csomópontja",
+            "Legalább két elektromos vezeték metszéspontja",
+            "Az egyik kapcsolótól való távolság",
+            "Legalább három elektromos vezeték metszéspontja"
+        ],
+        "q9_an2": "<span>Legalább három elektromos vezeték metszéspontja</span>",
+        "q9_op3": [
+            "Az elektromotoros feszültség és az áramkör teljes ellenállásának aránya ",
+            "Egyenlő 1-gyel",
+            "Nulla",
+            "Negatív"
+        ],
+        "q9_an3": "<span>Nulla</span>",
+        "q9_op4": [
+            "Az adott hurok minden oldalán lévő feszültségek algebrai összege",
+            "Az adott hurok minden oldalán lévő ellenállások algebrai összege",
+            "Az adott hurok minden oldalán lévő áramok algebrai összege",
+            "Egyenlő 0-val"
+        ],
+        "q9_an4": "<span>Az adott hurok minden oldalán lévő feszültségek algebrai összege</span>",     
+        
+        //q10
+        "q10": [
+            "Az egy sorosan kapcsolt ellenállások ekvivalens ellenállása:",
+            "A párhuzamosan kapcsolt ellenállások ekvivalens ellenállásának reciprokja:",
+            "Az azonos elektromos generátorok sorosan kapcsolt csoportjának belső ellenállása:",
+            "Az azonos elektromos generátorok párhuzamosan kapcsolt csoportjának belső ellenállása:",
+            "Az ellenállások csoportja egyetlen, ellenállásként nevezett egységgel helyettesíthető"
+        ],
+        "q10_an5": "<span>Ekvivalens</span>",
+        "q10_op5": [
+            "Releváns",
+            "Szimmetrikus",
+            "Eredő",
+            "Ekvivalens"
+        ], 
+        
+        //q11
+        "q11": [
+            "Hogyan jelöljük az elektromos energiát?",
+            "Az áramkör teljes elektromos energiafelhasználásának képlete:",
+            "A rezisztornál kifejtett teljesítmény maximális, amikor:",
+            "Egy fogyasztó elektromos hatásfoka az alábbi összefüggés szerint adódik:",
+            "A Joule-törvény képlete:"
+        ],
+        "q11_an4": "<span>η = W<sub>hasznos</sub> / W<sub>teljes</sub> = P<sub>külső</sub> / P<sub>teljes</sub></span>",
+        "q11_op4": [
+            "η = W<sub>hasznos</sub> / W<sub>teljes</sub> = P<sub>külső</sub> / P<sub>teljes</sub>",
+            "η = W<sub>hasznos</sub> / P<sub>külső</sub> = W<sub>teljes</sub> / P<sub>teljes</sub>",
+            "η = W<sub>hasznos</sub> / P<sub>teljes</sub> = W<sub>teljes</sub> / P<sub>külső</sub>",
+            "η = W<sub>teljes</sub> / W<sub>hasznos</sub> = P<sub>teljes</sub> / P<sub>külső</sub>"
+        ],    
+        
+        //q12
+        "q12": [
+            "Egy átlátszó közeg törésmutatója:",
+            "Az eső sugarak, a felületre merőleges és a törött sugarak:",
+            "A maximális beesési szög:",
+            "Kollektív lencsék:"
+        ],
+        "q12_an2": "<span>egy síkban</span>",
+        "q12_op2": [
+            "egyenlő",
+            "merőleges",
+            "egy síkban",
+            "párhuzamos"
+        ],
+        "q12_an4": "<span>Középen vastagabbak és a végükön vékonyabbak</span>",
+        "q12_op4": [
+            "Középen vastagabbak és a végükön vékonyabbak",
+            "Kisebbítik az objektumot",
+            "A végükön vastagabbak és középen vékonyabbak",
+            "Negatív lencséknek is nevezik"
+        ],   
+        
+        //q13
+        "q13": [
+            "Milyen sebességgel terjed a fény vákuumban?",
+            "Miért jönnek ki színes sugarak különböző szögekkel a prizmából?",
+            "Konstruktív interferencia esetén:",
+            "Az interferencia egyik feltétele:",
+            "A fénydiszperzió előállításához szükséges, hogy:"
+        ],
+        "q13_an2": "<span>Mert különböző sebességeik vannak</span>",
+        "q13_op2": [
+            "Mert bizonyos színek felmelegítik a prizmát",
+            "Mert néhány szín taszítja egymást",
+            "Mert különböző frekvenciájúak",
+            "Mert különböző sebességeik vannak"
+        ],
+        "q13_an3": "<span>Az két hullám fázisban van</span>",
+        "q13_op3": [
+            "A két hullám kifázott állapotban van",
+            "A két hullám fázisban van",
+            "Az összegük nulla",
+            "Szétoszlanak"
+        ],
+        "q13_an4": "<span>A hullámoknak azonos frekvenciájuknak kell lennie</span>",
+        "q13_op4": [
+            "A hullámoknak azonos hullámhosszuknak kell lennie",
+            "A fáziskülönbségnek sin90°-nak kell lennie",
+            "A hullámoknak azonos frekvenciájuknak kell lennie",
+            "A fáziskülönbségnek változnia kell"
+        ],
+        "q13_an5": "<span>A törésmutatónak nagyobbnak kell lennie, mint egy</span>",
+        "q13_op5": [
+            "A törésmutatónak nagyobbnak vagy egyenlőnek kell lennie, mint egy",
+            "A törésmutatónak nagyobbnak kell lennie, mint nulla",
+            "A törésmutatónak nagyobbnak kell lennie, mint egy",
+            "A törésmutatónak nagyobbnak vagy egyenlőnek kell lennie, mint nulla"
+        ],   
+        
+        //q14
+        "q14": [
+            "Az energiaszintek közötti különbség:",
+            "Planck-állandó (h) egyenlő:",
+            "Az kibocsátott elektronok kinetikus energiája:",
+            "'v' jelenti:"
+        ],
+        "q14_an1": "<span>Arányos a rezgési frekvenciával és a Planck-állandóval</span>",
+        "q14_op1": [
+            "Fordított arányosságban van a rezgési frekvenciával és a Planck-állandóval",
+            "Arányos a rezgési frekvenciával és a Planck-állandóval",
+            "Fordított arányosságban van a rezgési frekvenciával és közvetlen arányosságban áll a Planck-állandóval",
+            "Arányos a rezgési frekvenciával és fordított arányosságban áll a Planck-állandóval"
+        ],
+        "q14_an3": "<span>Lineárisan növekszik a beeső sugárzás frekvenciájával</span>",
+        "q14_op3": [
+            "Lineárisan növekszik az idő múlásával",
+            "Lineárisan csökken a beeső sugárzás frekvenciájával",
+            "Lineárisan növekszik a beeső sugárzás frekvenciájával",
+            "Állandó marad"
+        ],
+        "q14_an5": "<span>A rezgési frekvencia</span>",
+        "q14_op5": [
+            "A Planck-állandó",
+            "Az Einstein-állandó",
+            "A kibocsátott sugárzás",
+            "A rezgési frekvencia"
+        ],        
+    },
+    "germana":
+    {
+        //q1
+        "q1": [
+            "Welche der folgenden Gleichungen stellt die Formel von Galilei dar?",
+            "Was ist die Maßeinheit für Beschleunigung?",
+            "Die Formel der Reibungskraft ist:",
+            "Wenn wir einen Körper an einem unelastischen Faden aufhängen, treten zwei Paar Kräfte auf:",
+            "Die Reaktionskraft im Prinzip von Aktion und Reaktion:"
+        ],
+        "q1_op4": [
+            "Die Spannung im Faden und die Verlängerung des Fadens",
+            "Die Druckkraft des Körpers und die Spannung im Faden",
+            "Die Reibungskraft und die Spannung im Faden",
+            "Die Druckkraft des Körpers und die Spannung des Körpers"
+        ],
+        "q1_an4": "<span>Die Druckkraft des Körpers und die Spannung im Faden</span>",
+        "q1_op5": [
+            "Hat die gleiche Größe, Richtung und den gleichen Sinn wie die Aktionskraft",
+            "Hat eine kleinere Größe, die gleiche Richtung, aber einen entgegengesetzten Sinn zur Aktionskraft",
+            "Wird unabhängig von der Aktionskraft berechnet",
+            "Hat die gleiche Größe und Richtung, aber einen entgegengesetzten Sinn zur Aktionskraft"
+        ],
+        "q1_an5": "<span>Hat die gleiche Größe und Richtung, aber einen entgegengesetzten Sinn zur Aktionskraft</span>", 
+        
+        //q2
+        "q2": [
+            "Das Gesetz der Änderung der potenziellen Gravitationsenergie:",
+            "Die potenzielle Gravitationsenergie eines Körpers ist:",
+            "Die Formel der mechanischen Arbeit ist:",
+            "Was ist das Gesetz der Änderung der kinetischen Energie?",
+            "Die mechanische Leistung:"
+        ],
+        "q2_op5": [
+            "Ist das Produkt der verrichteten mechanischen Arbeit und der Zeit, in der diese mechanische Arbeit verrichtet wird",
+            "Ist eine physikalische Vektorgröße",
+            "Ist die Größe, die die Fähigkeit eines Körpers charakterisiert, mechanische Arbeit zu verrichten",
+            "Ist eine physikalische Skalare"
+        ],
+        "q2_an5": "<span>Ist eine physikalische Skalare</span>",  
+        
+        //q3
+        "q3": [
+            "Was ist thermische Agitation?",
+            "Die Avogadro-Zahl ist gleich",
+            "Die Beziehung zwischen der Celsius- und der Kelvin-Skala ist:",
+            "Die Zustandsgleichung beschreibt die Abhängigkeit zwischen den Zustandsparametern eines thermodynamischen Systems:",
+            "Das molare Volumen ist gleich:"
+        ],
+        "q3_op1": [
+            "Die ungeordnete und kontinuierliche Bewegung der Partikel einer Substanz",
+            "Die geordnete und kontinuierliche Bewegung der Partikel einer Substanz",
+            "Die kreisförmige Bewegung der Partikel einer Substanz",
+            "Die geradlinige Bewegung der Partikel einer Substanz"
+        ],
+        "q3_an1": "<span>Die ungeordnete und kontinuierliche Bewegung der Partikel einer Substanz</span>",   
+        
+        //q4
+        "q4": [
+            "Die von einem thermodynamischen System bei einer isobaren Transformation geleistete mechanische Arbeit ist:",
+            "Die Wärme in der internationalen Einheit wird gemessen in:",
+            "Der Freiheitsgrad von monoatomaren Gasen beträgt:",
+            "Bei einer isochoren Transformation:",
+            "Das Verhältnis der molaren Wärmen ist:"
+        ],
+        "q4_op4": [
+            "Die Temperatur ist konstant",
+            "Das Volumen ist konstant",
+            "Der Druck ist konstant",
+            "Die Wärme ist gleich 0"
+        ],
+        "q4_an4": "<span>Das Volumen ist konstant</span>",   
+        
+        //q5
+        "q5": [
+            "Worin besteht der zweite Arbeitsgang des Ottomotors?",
+            "Der Verbrennungsmotor:",
+            "Der Wirkungsgrad des Dieselmotors beträgt:",
+            "Die Formel für den Wirkungsgrad des Dieselmotors lautet:"
+        ],
+        "q5_op1": [
+            "Zündung - (isochorer Prozess)",
+            "Ansaugen - (isobarer Prozess)",
+            "Kompression - (adiabatischer Prozess)",
+            "Ausstoß - (isochorer) und (isobarer Prozess)"
+        ],
+        "q5_an1": "<span>Kompression - (adiabatischer Prozess)</span>",
+        "q5_op2": [
+            "Wandelt die erhaltene Wärme durch Verbrennung eines Brennstoffs in mechanische Arbeit um.",
+            "Wandelt die erhaltene Wärme durch Verbrennung eines Brennstoffs in Energie um.",
+            "Wandelt die erhaltene Wärme durch Verdichtung des Brennstoffs in mechanische Arbeit um.",
+            "Wandelt die erhaltene Wärme durch Mischung mit anderen Substanzen in mechanische Arbeit um."
+        ],
+        "q5_an2": "<span>Wandelt die erhaltene Wärme durch Verbrennung eines Brennstoffs in mechanische Arbeit um.</span>",
+        "q5_op3": [
+            "Das Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit und der erhaltenen Wärme.",
+            "Das Verhältnis zwischen der erhaltenen Wärme und der vom Motor geleisteten mechanischen Arbeit.",
+            "Das Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit und der molaren Wärme.",
+            "Das Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit und der Temperatur."
+        ],
+        "q5_an3": "<span>Das Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit und der erhaltenen Wärme.</span>",   
+        
+        //q6
+        "q6": [
+            "Die Effizienz des Carnot-Zyklus ist:",
+            "Die Effizienz des Carnot-Zyklus hängt ab von:",
+            "Carnot war der Erste, der gezeigt hat, dass:"
+        ],
+        "q6_op1": [
+            "Gleich dem Verhältnis von aufgenommener Wärme und mechanischer Arbeit, die vom Motor geleistet wird.",
+            "Immer übermäßig",
+            "Immer unterdurchschnittlich",
+            "Gleich Null"
+        ],
+        "q6_an1": "<span>Immer unterdurchschnittlich</span>",
+        "q6_op2": [
+            "Nur von der Temperatur der heißen und kalten Quelle abhängig und nicht von der Arbeitsflüssigkeit.",
+            "Von der Temperatur der heißen und kalten Quelle sowie von der Arbeitsflüssigkeit abhängig.",
+            "Von der Dichte der Arbeitsflüssigkeit abhängig.",
+            "Nur von der Temperatur der Arbeitsflüssigkeit abhängig und nicht von der Temperatur der heißen und kalten Quelle."
+        ],
+        "q6_an2": "<span>Nur von der Temperatur der heißen und kalten Quelle abhängig und nicht von der Arbeitsflüssigkeit.</span>",
+        "q6_op3": [
+            "Eine Wärmekraftmaschine benötigt zwei kalte Quellen",
+            "Eine Wärmekraftmaschine kann nicht nur mit zwei Thermostaten betrieben werden, sondern benötigt mindestens drei Thermostate.",
+            "Es ist nicht erforderlich, dass eine Wärmekraftmaschine mit zwei Thermostaten betrieben wird, sondern es reicht einer allein.",
+            "Eine Wärmekraftmaschine kann nicht mit einem einzelnen Thermostat betrieben werden, sondern benötigt mindestens zwei Thermostate."
+        ],
+        "q6_an3": "<span>Eine Wärmekraftmaschine kann nicht mit einem einzelnen Thermostat betrieben werden, sondern benötigt mindestens zwei Thermostate.</span>",
+        
+        //q7
+        "q7": [
+            "Die Maßeinheit im SI für die elektrische Spannung ist:",
+            "Die Formel für die Stromstärke ist gleich:",
+            "Das Verhältnis zwischen den drei elektrischen Spannungen eines elektrischen Stromkreises ist:",
+            "Die innere Spannung hat die Formel:",
+            "Die konventionelle Richtung des kontinuierlichen elektrischen Stroms durch einen Stromkreis ist:"
+        ],
+        "q7_op2": [
+            "Das Verhältnis zwischen der elektrischen Ladung und der Zeit",
+            "Das Verhältnis zwischen der elektrischen Spannung und der Zeit",
+            "Das Verhältnis zwischen mechanischer Arbeit und elektrischer Ladung",
+            "Das Verhältnis zwischen Zeit und elektrischer Ladung"
+        ],
+        "q7_an2": "<span>Das Verhältnis zwischen der elektrischen Ladung und der Zeit</span>",
+        "q7_op5": [
+            "Durch die Stromstärke gegeben",
+            "Gleich wie bei den Elektronen",
+            "Von der negativen Klemme der Quelle zur positiven Klemme",
+            "Von der positiven Klemme der Quelle zur negativen Klemme"
+        ],
+        "q7_an5": "<span>Von der positiven Klemme der Quelle zur negativen Klemme</span>",   
+        
+        "q8": [
+            "Das Ohmsche Gesetz für einen Teil des Schaltkreises:",
+            "Die Abhängigkeit des elektrischen Widerstands von der Natur und den Abmessungen des Leiters ist:",
+            "Das Ohmsche Gesetz für den gesamten Schaltkreis:",
+            "Der Widerstand im S.I. wird gemessen in:",
+            "Die Formel für die Stromstärke des Kurzschlusses ist:"
+        ],
+
+        //q9
+        "q9": [
+            "Die elektromotorische Spannung:",
+            "Was repräsentiert der Schaltknoten?",
+            "Die algebraische Summe der Stromstärken, die sich in einem Schaltknoten treffen, ist:",
+            "Die algebraische Summe der elektromotorischen Spannungen eines Netzwerks ist gleich:"
+        ],
+        "q9_op1": [
+            "Es wird als positiv genommen, wenn die Richtung des elektrischen Stroms durch die Quelle der Richtung des willkürlich gewählten Auges entgegengesetzt ist",
+            "Es wird als positiv genommen, wenn die Richtung des elektrischen Stroms durch die Quelle identisch mit der Richtung des willkürlich gewählten Auges ist",
+            "Es wird als negativ genommen, wenn die Intensität positiv ist",
+            "Es wird als negativ genommen, wenn die Spannung negativ ist"
+        ],
+        "q9_an1": "<span>Es wird als positiv genommen, wenn die Richtung des elektrischen Stroms durch die Quelle identisch mit der Richtung des willkürlich gewählten Auges ist</span>",
+        "q9_op2": [
+            "Der Punkt, an dem der Schaltkreis geknotet ist",
+            "Der Schnittpunkt von mindestens zwei elektrischen Leitern",
+            "Der Ort, an dem ein Schalter platziert wurde",
+            "Der Schnittpunkt von mindestens drei elektrischen Leitern"
+        ],
+        "q9_an2": "<span>Der Schnittpunkt von mindestens drei elektrischen Leitern</span>",
+        "q9_op3": [
+            "Gleich dem Verhältnis von elektromotorischer Spannung und Gesamtwiderstand des Kreises",
+            "Gleich 1",
+            "Null",
+            "Negativ"
+        ],
+        "q9_an3": "<span>Null</span>",
+        "q9_op4": [
+            "Die algebraische Summe der Spannungen auf jeder Seite dieses Schaltkreisauges",
+            "Die algebraische Summe der Widerstände auf jeder Seite dieses Schaltkreisauges",
+            "Die algebraische Summe der Stromstärken auf jeder Seite dieses Schaltkreisauges",
+            "Gleich 0"
+        ],
+        "q9_an4": "<span>Die algebraische Summe der Spannungen auf jeder Seite dieses Schaltkreisauges</span>",   
+        
+        //q10
+        "q10": [
+            "Der Äquivalenzwiderstand einer Reihenschaltung von Widerständen ist gleich:",
+            "Das Inverse des Äquivalenzwiderstands einer Parallelschaltung von Widerständen ist gleich:",
+            "Der interne Widerstand einer Reihenschaltung von identischen elektrischen Generatoren ist:",
+            "Der interne Widerstand einer Parallelschaltung von identischen elektrischen Generatoren ist:",
+            "Eine Gruppe von Widerständen wird durch einen einzigen, als Widerstand bezeichneten, ersetzt"
+        ],
+        "q10_an5": "<span>Äquivalent</span>",
+        "q10_op5": [
+            "Zugehörig",
+            "Symmetrisch",
+            "Resultierend",
+            "Äquivalent"
+        ],   
+        
+        //q11
+        "q11": [
+            "Wie wird die elektrische Energie bezeichnet?",
+            "Die Formel für die auf dem gesamten Stromkreis verbrauchte elektrische Energie lautet:",
+            "Die Leistung, die von einem Widerstand entwickelt wird, ist maximal, wenn:",
+            "Die elektrische Effizienz eines Verbrauchers wird durch die Beziehung gegeben:",
+            "Das Joulesche Gesetz hat die Formel:"
+        ],
+        "q11_an4": "<span>η = W<sub>nützlich</sub> / W<sub>gesamt</sub> = P<sub>extern</sub> / P<sub>gesamt</sub></span>",
+        "q11_op4": [
+            "η = W<sub>nützlich</sub> / W<sub>gesamt</sub> = P<sub>extern</sub> / P<sub>gesamt</sub>",
+            "η = W<sub>nützlich</sub> / P<sub>extern</sub> = W<sub>gesamt</sub> / P<sub>gesamt</sub>",
+            "η = W<sub>nützlich</sub> / P<sub>gesamt</sub> = W<sub>gesamt</sub> / P<sub>extern</sub>",
+            "η = W<sub>gesamt</sub> / W<sub>nützlich</sub> = P<sub>gesamt</sub> / P<sub>extern</sub>"
+        ],   
+        
+        //q12
+        "q12": [
+            "Der Brechungsindex eines transparenten Mediums ist:",
+            "Der einfallende Strahl, die Normale zur Trennfläche und der gebrochene Strahl sind:",
+            "Der maximale Einfallswinkel ist:",
+            "Konvergierende Linsen:"
+        ],
+        "q12_an2": "<span>koplanar</span>",
+        "q12_op2": [
+            "gleich",
+            "senkrecht",
+            "koplanar",
+            "parallel"
+        ],
+        "q12_an4": "<span>Sie sind in der Mitte dicker und an den Enden dünner</span>",
+        "q12_op4": [
+            "Sie sind in der Mitte dicker und an den Enden dünner",
+            "Sie verkleinern das Objekt",
+            "Sie sind an den Enden dicker und in der Mitte dünner",
+            "Sie werden auch als negative Linsen bezeichnet"
+        ],    
+        
+        //q13
+        "q13": [
+            "Mit welcher Geschwindigkeit breitet sich Licht im Vakuum aus?",
+            "Warum treten farbige Strahlen aus dem Prisma unter verschiedenen Winkeln aus?",
+            "Im Falle konstruktiver Interferenz:",
+            "Eine der Bedingungen für Interferenz ist:",
+            "Um die Lichtdispersion zu erzeugen, muss folgendes gegeben sein:"
+        ],
+        "q13_an2": "<span>Weil sie unterschiedliche Geschwindigkeiten haben</span>",
+        "q13_op2": [
+            "Weil bestimmte Farben das Prisma erwärmen",
+            "Weil sich einige Farben abstoßen",
+            "Weil sie unterschiedliche Frequenzen haben",
+            "Weil sie unterschiedliche Geschwindigkeiten haben"
+        ],
+        "q13_an3": "<span>Die beiden Wellen sind in Phase</span>",
+        "q13_op3": [
+            "Die beiden Wellen sind in entgegengesetzter Phase",
+            "Die beiden Wellen sind in Phase",
+            "Ihre Summe ist gleich 0",
+            "Sie werden zerstreut"
+        ],
+        "q13_an4": "<span>Die Wellen müssen dieselbe Frequenz haben</span>",
+        "q13_op4": [
+            "Die Wellen müssen dieselbe Wellenlänge haben",
+            "Die Phasendifferenz muss sin90° entsprechen",
+            "Die Wellen müssen dieselbe Frequenz haben",
+            "Die Phasendifferenz muss variieren"
+        ],
+        "q13_an5": "<span>Der Brechungsindex muss größer als eins sein</span>",
+        "q13_op5": [
+            "Der Brechungsindex muss größer oder gleich eins sein",
+            "Der Brechungsindex muss größer als Null sein",
+            "Der Brechungsindex muss größer als eins sein",
+            "Der Brechungsindex muss größer oder gleich Null sein"
+        ],  
+        
+        //q14
+        "q14": [
+            "Der Unterschied zwischen den Energieleveln:",
+            "Die Plancksche Konstante (h) ist gleich:",
+            "Die kinetische Energie der emittierten Elektronen:",
+            "'v' repräsentiert:"
+        ],
+        "q14_an1": "<span>Es ist proportional zur Frequenz des Oszillators und der Planckschen Konstante</span>",
+        "q14_op1": [
+            "Es ist invers proportional zur Frequenz des Oszillators und der Planckschen Konstante",
+            "Es ist proportional zur Frequenz des Oszillators und der Planckschen Konstante",
+            "Es ist invers proportional zur Frequenz des Oszillators und direkt proportional zur Planckschen Konstante",
+            "Es ist proportional zur Frequenz des Oszillators und invers proportional zur Planckschen Konstante"
+        ],
+        "q14_an3": "<span>Es steigt linear mit der Frequenz der einfallenden Strahlung</span>",
+        "q14_op3": [
+            "Es steigt linear mit der Zeit",
+            "Es nimmt linear mit der Frequenz der einfallenden Strahlung ab",
+            "Es steigt linear mit der Frequenz der einfallenden Strahlung",
+            "Es bleibt konstant"
+        ],
+        "q14_an5": "<span>Die Frequenz des Oszillators</span>",
+        "q14_op5": [
+            "Die Plancksche Konstante",
+            "Die Einsteinsche Konstante",
+            "Die emittierte Strahlung",
+            "Die Frequenz des Oszillators"
+        ],        
+    },
+    "franceza":
+    {
+        //q1
+        "q1": [
+            "Laquelle des équations suivantes représente la formule de Galilée ?",
+            "Quelle est l'unité de mesure de l'accélération ?",
+            "La formule de la force de frottement est :",
+            "Lorsque nous suspendons un corps à un fil inextensible, deux forces paires apparaissent :",
+            "La force de réaction dans le principe d'action et de réaction :"
+        ],
+        "q1_op4": [
+            "La tension dans le fil et l'allongement du fil",
+            "La force de pression du corps et la tension dans le fil",
+            "La force de frottement et la tension dans le fil",
+            "La force de pression du corps et la tension du corps"
+        ],
+        "q1_an4": "<span>La force de pression du corps et la tension dans le fil</span>",
+        "q1_op5": [
+            "Est de même grandeur, direction et même sens que celle d'action",
+            "Est de moindre grandeur, de même direction, mais de sens opposé par rapport à celle d'action",
+            "Est calculée indépendamment de la force d'action",
+            "Est de même grandeur et de même direction, mais de sens opposé par rapport à celle d'action"
+        ],     
+        "q1_an5": "<span>Est de même grandeur et de même direction, mais de sens opposé par rapport à celle d'action</span>", 
+        
+        //q2
+        "q2": [
+            "La loi de la variation de l'énergie potentielle gravitationnelle :",
+            "L'énergie potentielle gravitationnelle d'un corps est :",
+            "La formule du travail mécanique est :",
+            "Quelle est la loi de la variation de l'énergie cinétique ?",
+            "La puissance mécanique :"
+        ],
+        "q2_op5": [
+            "Est le produit du travail mécanique effectué et du temps pendant lequel ce travail mécanique est effectué",
+            "Est une grandeur physique vectorielle",
+            "Est la grandeur qui caractérise la capacité d'un corps à effectuer un travail mécanique",
+            "Est une grandeur physique scalaire"
+        ],
+        "q2_an5": "<span>Est une grandeur physique scalaire</span>",  
+        
+        //q3
+        "q3": [
+            "Qu'est-ce que l'agitation thermique ?",
+            "Le nombre d'Avogadro est égal à",
+            "La relation de transformation entre l'échelle Celsius et Kelvin est :",
+            "L'équation d'état décrit la dépendance entre les paramètres d'état d'un système thermodynamique :",
+            "Le volume molaire est égal à :"
+        ],
+        "q3_op1": [
+            "Le mouvement désordonné et continu des particules d'une substance",
+            "Le mouvement ordonné et continu des particules d'une substance",
+            "Le mouvement circulaire des particules d'une substance",
+            "Le mouvement rectiligne des particules d'une substance"
+        ],
+        "q3_an1": "<span>Le mouvement désordonné et continu des particules d'une substance</span>",
+
+        //q4
+        "q4": [
+            "Le travail mécanique effectué par le système thermodynamique lors d'une transformation isobare est :",
+            "La chaleur dans le système international est mesurée en :",
+            "Le degré de liberté des gaz monoatomiques est de :",
+            "Lors d'une transformation isochore :",
+            "La relation entre les chaleurs molaires est :"
+        ],
+        "q4_op4": [
+            "La température est constante",
+            "Le volume est constant",
+            "La pression est constante",
+            "La chaleur est égale à 0"
+        ],
+        "q4_an4": "<span>Le volume est constant</span>",  
+        
+        //q5
+        "q5": [
+            "En quoi consiste le deuxième temps de fonctionnement du moteur Otto?",
+            "Le moteur thermique:",
+            "Le rendement du moteur thermique Diesel est égal à :",
+            "La formule du rendement du moteur thermique Diesel est :"
+        ],
+        "q5_op1": [
+            "L'allumage - (processus isochore)",
+            "L'admission - (processus isobarique)",
+            "La compression - (processus adiabatique)",
+            "L'échappement - (processus isochore) et (processus isobarique)"
+        ],
+        "q5_an1": "<span>La compression - (processus adiabatique)</span>",
+        "q5_op2": [
+            "Transforme la chaleur reçue, par la combustion d'un carburant, en travail mécanique.",
+            "Transforme la chaleur reçue, par la combustion d'un carburant, en énergie.",
+            "Transforme la chaleur reçue, par la compression du carburant, en travail mécanique.",
+            "Transforme la chaleur reçue, par mélange avec d'autres substances, en travail mécanique."
+        ],
+        "q5_an2": "<span>Transforme la chaleur reçue, par la combustion d'un carburant, en travail mécanique.</span>",
+        "q5_op3": [
+            "Le rapport entre le travail mécanique effectué par le moteur et la chaleur reçue.",
+            "Le rapport entre la chaleur reçue et le travail mécanique effectué par le moteur.",
+            "Le rapport entre le travail mécanique effectué par le moteur et la chaleur molaire.",
+            "Le rapport entre le travail mécanique effectué par le moteur et la température."
+        ],
+        "q5_an3": "<span>Le rapport entre le travail mécanique effectué par le moteur et la chaleur reçue.</span>", 
+        
+        //q6
+        "q6": [
+            "Le rendement du cycle de Carnot est :",
+            "Le rendement du cycle de Carnot dépend :",
+            "Carnot a été le premier à montrer que :"
+        ],
+        "q6_op1": [
+            "Égal au rapport entre la chaleur reçue et le travail mécanique effectué par le moteur.",
+            "Toujours surunitaire",
+            "Toujours sous-unitaire",
+            "Égal à 0"
+        ],
+        "q6_an1": "<span>Toujours sous-unitaire</span>",
+        "q6_op2": [
+            "Uniquement de la température de la source chaude et froide et ne dépend pas de la substance de travail.",
+            "De la température de la source chaude et froide ainsi que de la substance de travail.",
+            "De la densité de la substance de travail.",
+            "Uniquement de la température de la substance de travail et ne dépend pas de la température de la source chaude et froide."
+        ],
+        "q6_an2": "<span>Uniquement de la température de la source chaude et froide et ne dépend pas de la substance de travail.</span>",
+        "q6_op3": [
+            "Une machine thermique nécessite deux sources froides",
+            "Il n'est pas possible de faire fonctionner une machine thermique uniquement avec deux thermostats, ayant besoin d'au moins trois thermostats.",
+            "Il n'est pas nécessaire pour faire fonctionner une machine thermique avec deux thermostats, mais seulement avec un seul",
+            "Il n'est pas possible de faire fonctionner une machine thermique avec un seul thermostat, ayant besoin d'au moins deux thermostats."
+        ],
+        "q6_an3": "<span>Il n'est pas possible de faire fonctionner une machine thermique avec un seul thermostat, ayant besoin d'au moins deux thermostats.</span>", 
+        
+        //q7
+        "q7": [
+            "L'unité de mesure dans le Système International pour la tension électrique est :",
+            "La formule de l'intensité du courant est égale à :",
+            "La relation entre les trois tensions électriques d'un circuit électrique est :",
+            "La tension interne a pour formule :",
+            "La direction conventionnelle du courant électrique continu à travers un circuit est :"
+        ],
+        "q7_op2": [
+            "Le rapport entre la charge électrique et le temps",
+            "Le rapport entre la tension électrique et le temps",
+            "Le rapport entre le travail mécanique et la charge électrique",
+            "Le rapport entre le temps et la charge électrique"
+        ],
+        "q7_an2": "<span>Le rapport entre la tension électrique et le temps</span>",
+        "q7_op5": [
+            "Donné par l'intensité du courant",
+            "Identique à celui des électrons",
+            "De la borne négative de la source vers la borne positive",
+            "De la borne positive de la source vers la borne négative"
+        ],
+        "q7_an5": "<span>De la borne positive de la source vers la borne négative</span>",   
+        
+        //q8
+        "q8": [
+            "La loi d'Ohm pour une partie du circuit :",
+            "La dépendance de la résistance électrique par rapport à la nature et aux dimensions du conducteur est :",
+            "La loi d'Ohm pour tout le circuit :",
+            "La résistance en S.I. se mesure en :",
+            "La formule de l'intensité du courant électrique de court-circuit est :"
+        ],  
+        
+        //q9
+        "q9": [
+            "La force électromotrice :",
+            "Que représente le nœud de circuit ?",
+            "La somme algébrique des intensités des courants rencontrés en un nœud de circuit est :",
+            "La somme algébrique des forces électromotrices d'une maille du réseau est égale à :"
+        ],
+        "q9_op1": [
+            "Est prise en compte positivement si le sens du courant électrique à travers la source est opposé à celui du nœud choisi arbitrairement",
+            "Est prise en compte positivement si le sens du courant électrique à travers la source est identique à celui du nœud choisi arbitrairement",
+            "Est prise en compte négativement si l'intensité est positive",
+            "Est prise en compte négativement si la tension est négative"
+        ],
+        "q9_an1": "<span>Est prise en compte positivement si le sens du courant électrique à travers la source est identique à celui du nœud choisi arbitrairement</span>",
+        "q9_op2": [
+            "Le point où le circuit est noué",
+            "L'intersection d'au moins deux conducteurs électriques",
+            "L'endroit où un interrupteur a été placé",
+            "L'intersection d'au moins trois conducteurs électriques"
+        ],
+        "q9_an2": "<span>L'intersection d'au moins trois conducteurs électriques</span>",
+        "q9_op3": [
+            "Égale au rapport entre la force électromotrice et la résistance totale du circuit",
+            "Égale à 1",
+            "Nulle",
+            "Négative"
+        ],
+        "q9_an3": "<span>Nulle</span>",
+        "q9_op4": [
+            "La somme algébrique des tensions sur chaque branche de cette maille de circuit",
+            "La somme algébrique des résistances sur chaque branche de cette maille de circuit",
+            "La somme algébrique des intensités sur chaque branche de cette maille de circuit",
+            "Est égale à 0"
+        ],
+        "q9_an4": "<span>La somme algébrique des tensions sur chaque branche de cette maille de circuit</span>",
+        
+        //q10
+        "q10": [
+            "La résistance équivalente d'un assemblage en série de résistances est égale à :",
+            "L'inverse de la résistance équivalente d'un assemblage en parallèle de résistances est égal à :",
+            "La résistance interne d'un assemblage en série de générateurs électriques identiques est :",
+            "La résistance interne d'un assemblage en parallèle de générateurs électriques identiques est :",
+            "Un groupe de résistances est remplacé par une seule, appelée résistance"
+        ],
+        "q10_an5": "<span>Équivalent</span>",
+        "q10_op5": [
+            "Correspondant",
+            "Symétrique",
+            "Résultante",
+            "Équivalent"
+        ],  
+        
+        //q11
+        "q11": [
+            "Comment l'énergie électrique est-elle notée ?",
+            "Quelle est la formule de l'énergie électrique consommée dans tout le circuit ?",
+            "La puissance développée par une résistance est maximale quand :",
+            "Le rendement électrique d'un consommateur est donné par la relation :",
+            "La loi de Joule a pour formule :"
+        ],
+        "q11_an4": "<span>η = W<sub>utile</sub> / W<sub>totale</sub> = P<sub>extérieure</sub> / P<sub>totale</sub></span>",
+        "q11_op4": [
+            "η = W<sub>utile</sub> / W<sub>totale</sub> = P<sub>extérieure</sub> / P<sub>totale</sub>",
+            "η = W<sub>utile</sub> / P<sub>extérieure</sub> = W<sub>totale</sub> / P<sub>totale</sub>",
+            "η = W<sub>utile</sub> / P<sub>totale</sub> = W<sub>totale</sub> / P<sub>extérieure</sub>",
+            "η = W<sub>totale</sub> / W<sub>utile</sub> = P<sub>totale</sub> / P<sub>extérieure</sub>"
+        ],  
+        
+        //q12
+        "q12": [
+            "L'indice de réfraction d'un milieu transparent est :",
+            "Les rayons incident, normal à la surface de séparation et réfracté sont :",
+            "L'angle d'incidence maximal est :",
+            "Les lentilles convergentes :"
+        ],
+        "q12_an2": "<span>coplanaires</span>",
+        "q12_op2": [
+            "égaux",
+            "perpendiculaires",
+            "coplanaires",
+            "parallèles"
+        ],
+        "q12_an4": "<span>Elles sont plus épaisses au milieu et plus minces aux extrémités</span>",
+        "q12_op4": [
+            "Elles sont plus épaisses au milieu et plus minces aux extrémités",
+            "Elles réduisent l'objet",
+            "Elles sont plus épaisses aux extrémités et plus minces au milieu",
+            "On les appelle aussi des lentilles négatives"
+        ],   
+        
+        //q13
+        "q13": [
+            "À quelle vitesse la lumière se propage-t-elle dans le vide ?",
+            "Pourquoi les faisceaux colorés sortent-ils du prisme sous des angles différents ?",
+            "En cas d'interférence constructive :",
+            "Une des conditions d'interférence est :",
+            "Pour produire la dispersion de la lumière, il faut que :"
+        ],
+        "q13_an2": "<span>Parce qu'elles ont des vitesses différentes</span>",
+        "q13_op2": [
+            "Parce que certaines couleurs chauffent le prisme",
+            "Parce que certaines couleurs se repoussent",
+            "Parce qu'elles ont des fréquences différentes",
+            "Parce qu'elles ont des vitesses différentes"
+        ],
+        "q13_an3": "<span>Les deux ondes sont en phase</span>",
+        "q13_op3": [
+            "Les deux ondes sont en opposition de phase",
+            "Les deux ondes sont en phase",
+            "Leur somme est égale à 0",
+            "Elles se dissipent"
+        ],
+        "q13_an4": "<span>Les ondes doivent avoir la même fréquence</span>",
+        "q13_op4": [
+            "Les ondes doivent avoir la même longueur d'onde",
+            "La différence de phase doit être égale à sin90°",
+            "Les ondes doivent avoir la même fréquence",
+            "La différence de phase doit varier"
+        ],
+        "q13_an5": "<span>L'indice de réfraction doit être supérieur à un</span>",
+        "q13_op5": [
+            "L'indice de réfraction doit être supérieur ou égal à un",
+            "L'indice de réfraction doit être supérieur à zéro",
+            "L'indice de réfraction doit être supérieur à un",
+            "L'indice de réfraction doit être supérieur ou égal à zéro"
+        ],  
+        
+        //q14
+        "q14": [
+            "La différence entre les niveaux d'énergie :",
+            "La constante de Planck (h) est égale à :",
+            "L'énergie cinétique des électrons émis :",
+            "'v' représente :"
+        ],
+        "q14_an1": "<span>Elle est proportionnelle à la fréquence de l'oscillateur et à la constante de Planck</span>",
+        "q14_op1": [
+            "Elle est inversement proportionnelle à la fréquence de l'oscillateur et à la constante de Planck",
+            "Elle est proportionnelle à la fréquence de l'oscillateur et à la constante de Planck",
+            "Elle est inversement proportionnelle à la fréquence de l'oscillateur et directement proportionnelle à la constante de Planck",
+            "Elle est proportionnelle à la fréquence de l'oscillateur et inversement proportionnelle à la constante de Planck"
+        ],
+        "q14_an3": "<span>Elle augmente linéairement avec la fréquence du rayonnement incident</span>",
+        "q14_op3": [
+            "Elle augmente linéairement avec le temps qui passe",
+            "Elle diminue linéairement avec la fréquence du rayonnement incident",
+            "Elle augmente linéairement avec la fréquence du rayonnement incident",
+            "Elle reste constante"
+        ],
+        "q14_an5": "<span>La fréquence de l'oscillateur</span>",
+        "q14_op5": [
+            "La constante de Planck",
+            "La constante d'Einstein",
+            "Le rayonnement émis",
+            "La fréquence de l'oscillateur"
+        ],        
+    },
+    "rusa":
+    {
+        //q1
+        "q1": [
+            "Какие из следующих уравнений представляет формулу Галилея?",
+            "Какова единица измерения ускорения?",
+            "Формула силы трения:",
+            "Когда мы подвешиваем тело на нерастяжимой нити, появляются две парные силы:",
+            "Сила реакции в принципе действия и противодействия:"
+        ],
+        "q1_op4": [
+            "Напряжение в нити и Удлинение нити",
+            "Сила давления тела и Напряжение в нити",
+            "Сила трения и Напряжение в нити",
+            "Сила давления тела и Напряжение тела"
+        ],
+        "q1_an4": "<span>Сила давления тела и Напряжение в нити</span>",
+        "q1_op5": [
+            "Имеет ту же величину, направление и тот же смысл, что и действующая сила",
+            "Имеет меньшую величину, то же направление, но противоположный смысл по отношению к действующей силе",
+            "Рассчитывается независимо от действующей силы",
+            "Имеет ту же величину и направление, но противоположный смысл по отношению к действующей силе"
+        ],    
+        "q1_an5": "<span>Имеет ту же величину и направление, но противоположный смысл по отношению к действующей силе</span>",  
+        
+        //q2
+        "q2": [
+            "Закон изменения гравитационной потенциальной энергии:",
+            "Гравитационная потенциальная энергия тела:",
+            "Формула механической работы:",
+            "Каков закон изменения кинетической энергии?",
+            "Механическая мощность:"
+        ],
+        "q2_op5": [
+            "Является произведением выполненной механической работы и времени, за которое эта работа выполняется",
+            "Является векторной физической величиной",
+            "Является величиной, характеризующей способность тела выполнять механическую работу",
+            "Является скалярной физической величиной"
+        ],
+        "q2_an5": "<span>Является скалярной физической величиной</span>",    
+        
+        //q3
+        "q3": [
+            "Что такое тепловое возбуждение?",
+            "Число Авогадро равно",
+            "Отношение между шкалой Цельсия и Кельвина:",
+            "Уравнение состояния описывает зависимость между параметрами состояния термодинамической системы:",
+            "Молярный объем равен:"
+        ],
+        "q3_op1": [
+            "Случайное и непрерывное движение частиц вещества",
+            "Упорядоченное и непрерывное движение частиц вещества",
+            "Круговое движение частиц вещества",
+            "Прямолинейное движение частиц вещества"
+        ],
+        "q3_an1": "<span>Случайное и непрерывное движение частиц вещества</span>",
+
+        //q4
+        "q4": [
+            "Механическая работа, выполненная термодинамической системой при изобарном преобразовании, составляет:",
+            "Тепловой поток в международной системе измеряется в:",
+            "Степень свободы моноатомных газов равна:",
+            "В изохорическом преобразовании:",
+            "Отношение между молярными теплотами составляет:"
+        ],
+        "q4_op4": [
+            "Температура постоянна",
+            "Объем постоянен",
+            "Давление постоянно",
+            "Теплота равна 0"
+        ],
+        "q4_an4": "<span>Объем постоянен</span>",  
+        
+        //q5
+        "q5": [
+            "В чем заключается второй рабочий ход двигателя Отто?",
+            "Тепловой двигатель:",
+            "КПД дизельного теплового двигателя равен:",
+            "Формула КПД дизельного теплового двигателя:"
+        ],
+        "q5_op1": [
+            "Сжатие - (адиабатический процесс)",
+            "Подача - (изобарный процесс)",
+            "Сжатие - (изохорный процесс)",
+            "Выпуск - (изохорный процесс) и (изобарный процесс)"
+        ],
+        "q5_an1": "<span>Сжатие - (адиабатический процесс)</span>",
+        "q5_op2": [
+            "Преобразует полученное тепло путем сжигания топлива в механическую работу.",
+            "Преобразует полученное тепло путем сжигания топлива в энергию.",
+            "Преобразует полученное тепло путем сжатия топлива в механическую работу.",
+            "Преобразует полученное тепло путем смешивания с другими веществами в механическую работу."
+        ],
+        "q5_an2": "<span>Преобразует полученное тепло путем сжигания топлива в механическую работу.</span>",
+        "q5_op3": [
+            "Отношение механической работы, совершенной двигателем, к полученному теплу.",
+            "Отношение полученного тепла к механической работе, совершенной двигателем.",
+            "Отношение механической работы, совершенной двигателем, к молярному теплу.",
+            "Отношение механической работы, совершенной двигателем, к температуре."
+        ],
+        "q5_an3": "<span>Отношение механической работы, совершенной двигателем, к полученному теплу.</span>",    
+        
+        //q6
+        "q6": [
+            "Эффективность цикла Карно:",
+            "Эффективность цикла Карно зависит:",
+            "Карно был первым, кто показал, что:"
+        ],
+        "q6_op1": [
+            "Равна отношению теплоты, полученной, к механической работе, выполненной двигателем.",
+            "Всегда больше единицы",
+            "Всегда меньше единицы",
+            "Равна нулю"
+        ],
+        "q6_an1": "<span>Всегда меньше единицы</span>",
+        "q6_op2": [
+            "Только от температуры горячего и холодного источников и не зависит от рабочего вещества.",
+            "От температуры горячего и холодного источников, а также от рабочего вещества.",
+            "От плотности рабочего вещества.",
+            "Только от температуры рабочего вещества и не зависит от температуры горячего и холодного источников."
+        ],
+        "q6_an2": "<span>Только от температуры горячего и холодного источников и не зависит от рабочего вещества.</span>",
+        "q6_op3": [
+            "Термическому двигателю требуется два холодных источника",
+            "Невозможно заставить работать термический двигатель только с двумя термостатами, он нуждается как минимум в трех термостатах.",
+            "Для работы термического двигателя необходимо два термостата, а не один.",
+            "Невозможно заставить работать термический двигатель только с одним термостатом, ему нужно как минимум два термостата."
+        ],
+        "q6_an3": "<span>Невозможно заставить работать термический двигатель только с одним термостатом, ему нужно как минимум два термостата.</span>",   
+        
+        //q7
+        "q7": [
+            "Единица измерения в С.И. для электрического напряжения:",
+            "Формула силы тока равна:",
+            "Соотношение между тремя электрическими напряжениями в электрической цепи:",
+            "Внутреннее напряжение имеет формулу:",
+            "Конвенциональное направление постоянного электрического тока через электрическую цепь:"
+        ],
+        "q7_op2": [
+            "Отношение электрического заряда к времени",
+            "Отношение электрического напряжения к времени",
+            "Отношение механической работы к электрическому заряду",
+            "Отношение времени к электрическому заряду"
+        ],
+        "q7_an2": "<span>Отношение электрического напряжения к времени</span>",
+        "q7_op5": [
+            "Определяется силой тока",
+            "Такой же, как у электронов",
+            "От отрицательного вывода источника к положительному",
+            "От положительного вывода источника к отрицательному"
+        ],
+        "q7_an5": "<span>От положительного вывода источника к отрицательному</span>",        
+
+        //q8
+        "q8": [
+            "Закон Ома для участка цепи:",
+            "Зависимость электрического сопротивления от природы и размеров проводника:",
+            "Закон Ома для всей цепи:",
+            "Сопротивление в С.И. измеряется в:",
+            "Формула короткого замыкания тока:"
+        ], 
+        
+        //q9
+        "q9": [
+            "ЭДС (электродвижущая сила):",
+            "Что представляет собой узел цепи?",
+            "Алгебраическая сумма токов, встречающихся в узле цепи, равна:",
+            "Алгебраическая сумма ЭДС в контуре равна:"
+        ],
+        "q9_op1": [
+            "Берется с плюсом, если направление тока через источник противоположно выбранному произвольному направлению в цепи",
+            "Берется с плюсом, если направление тока через источник совпадает с выбранным произвольным направлением в цепи",
+            "Берется с минусом, если интенсивность положительная",
+            "Берется с минусом, если напряжение отрицательное"
+        ],
+        "q9_an1": "<span>Берется с плюсом, если направление тока через источник совпадает с выбранным произвольным направлением в цепи</span>",
+        "q9_op2": [
+            "Точка, в которой произошло соединение цепи",
+            "Пересечение по крайней мере двух электрических проводов",
+            "Место, где установлен выключатель",
+            "Пересечение по крайней мере трех электрических проводов"
+        ],
+        "q9_an2": "<span>Пересечение по крайней мере трех электрических проводов</span>",
+        "q9_op3": [
+            "Равна отношению электродвижущей силы к сопротивлению всей цепи",
+            "Равна 1",
+            "Нулевая",
+            "Отрицательная"
+        ],
+        "q9_an3": "<span>Нулевая</span>",
+        "q9_op4": [
+            "Алгебраическая сумма напряжений на каждой стороне этого контура",
+            "Алгебраическая сумма сопротивлений на каждой стороне этого контура",
+            "Алгебраическая сумма токов на каждой стороне этого контура",
+            "Равна 0"
+        ],
+        "q9_an4": "<span>Алгебраическая сумма напряжений на каждой стороне этого контура</span>",   
+        
+        //q10
+        "q10": [
+            "Эквивалентное сопротивление последовательного соединения резисторов равно:",
+            "Обратное эквивалентное сопротивление параллельного соединения резисторов равно:",
+            "Внутреннее сопротивление последовательного соединения одинаковых электрогенераторов:",
+            "Внутреннее сопротивление параллельного соединения одинаковых электрогенераторов:",
+            "Группу резисторов заменяют одним, называемым резистором"
+        ],
+        "q10_an5": "<span>Эквивалент</span>",
+        "q10_op5": [
+            "Соответствующий",
+            "Симметричный",
+            "Результативный",
+            "Эквивалент"
+        ],   
+        
+        //q11
+        "q11": [
+            "Как обозначается электрическая энергия?",
+            "Формула электрической энергии, потребляемой на всей цепи:",
+            "Мощность, развиваемая резистором, максимальна, когда:",
+            "Электрический КПД потребителя задается соотношением:",
+            "Закон Джоуля имеет формулу:"
+        ],
+        "q11_an4": "<span>η = W<sub>полезная</sub> / W<sub>общая</sub> = P<sub>внешняя</sub> / P<sub>общая</sub></span>",
+        "q11_op4": [
+            "η = W<sub>полезная</sub> / W<sub>общая</sub> = P<sub>внешняя</sub> / P<sub>общая</sub>",
+            "η = W<sub>полезная</sub> / P<sub>внешняя</sub> = W<sub>общая</sub> / P<sub>общая</sub>",
+            "η = W<sub>полезная</sub> / P<sub>общая</sub> = W<sub>общая</sub> / P<sub>внешняя</sub>",
+            "η = W<sub>общая</sub> / W<sub>полезная</sub> = P<sub>общая</sub> / P<sub>внешняя</sub>"
+        ],     
+        
+        //q12
+        "q12": [
+            "Индекс преломления прозрачной среды составляет:",
+            "Падающий луч, нормаль к поверхности раздела и преломленный луч являются:",
+            "Максимальный угол падения составляет:",
+            "Сходящиеся линзы:"
+        ],
+        "q12_an2": "<span>копланарными</span>",
+        "q12_op2": [
+            "равными",
+            "перпендикулярными",
+            "копланарными",
+            "параллельными"
+        ],
+        "q12_an4": "<span>Они толще в середине и тоньше на концах</span>",
+        "q12_op4": [
+            "Они толще в середине и тоньше на концах",
+            "Уменьшают объект",
+            "Они толще на концах и тоньше в середине",
+            "Их также называют отрицательными линзами"
+        ],   
+        
+        //q13
+        "q13": [
+            "На сколько равна скорость света в вакууме?",
+            "Почему цветные лучи выходят из призмы под разными углами?",
+            "При конструктивной интерференции:",
+            "Одно из условий интерференции:",
+            "Чтобы произвести дисперсию света, необходимо, чтобы:"
+        ],
+        "q13_an2": "<span>Потому что они имеют разные скорости</span>",
+        "q13_op2": [
+            "Потому что некоторые цвета нагревают призму",
+            "Потому что некоторые цвета отталкиваются",
+            "Потому что они имеют разные частоты",
+            "Потому что они имеют разные скорости"
+        ],
+        "q13_an3": "<span>Обе волны находятся в фазе</span>",
+        "q13_op3": [
+            "Обе волны находятся в противофазе",
+            "Обе волны находятся в фазе",
+            "Их сумма равна нулю",
+            "Они рассеиваются"
+        ],
+        "q13_an4": "<span>Волны должны иметь одинаковую частоту</span>",
+        "q13_op4": [
+            "Волны должны иметь одинаковую длину",
+            "Разность фаз должна быть равна sin90°",
+            "Волны должны иметь одинаковую частоту",
+            "Разность фаз должна варьироваться"
+        ],
+        "q13_an5": "<span>Показатель преломления должен быть больше единицы</span>",
+        "q13_op5": [
+            "Показатель преломления должен быть больше или равен единице",
+            "Показатель преломления должен быть больше нуля",
+            "Показатель преломления должен быть больше единицы",
+            "Показатель преломления должен быть больше или равен нулю"
+        ],  
+        
+        //q14
+        "q14": [
+            "Разница между уровнями энергии:",
+            "Постоянная Планка (h) равна:",
+            "Кинетическая энергия испускаемых электронов:",
+            "'v' представляет собой:"
+        ],
+        "q14_an1": "<span>Пропорциональна частоте осциллятора и постоянной Планка</span>",
+        "q14_op1": [
+            "Обратно пропорциональна частоте осциллятора и постоянной Планка",
+            "Пропорциональна частоте осциллятора и постоянной Планка",
+            "Обратно пропорциональна частоте осциллятора и прямо пропорциональна постоянной Планка",
+            "Пропорциональна частоте осциллятора и обратно пропорциональна постоянной Планка"
+        ],
+        "q14_an3": "<span>Линейно возрастает с частотой падающего излучения</span>",
+        "q14_op3": [
+            "Линейно возрастает с течением времени",
+            "Линейно убывает с частотой падающего излучения",
+            "Линейно возрастает с частотой падающего излучения",
+            "Остается постоянной"
+        ],
+        "q14_an5": "<span>Частота осциллятора</span>",
+        "q14_op5": [
+            "Постоянная Планка",
+            "Постоянная Эйнштейна",
+            "Излучение",
+            "Частота осциллятора"
+        ],        
+    }
+}
+
 window.onload = function()
 {
     loadLanguages(JSON.parse(localStorage.getItem('limba')));

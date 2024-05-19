@@ -1,7 +1,8 @@
+var limba = JSON.parse(localStorage.getItem('limba'));
 let questions1 = [
     {
     numb: 1,
-    question: "Care din următoarele ecuații reprezintă formula Galilei?",
+    question: questionsData[limba].q1[0],
     answer: '<span>v<sup>2</sup> = v<sub>0</sub><sup>2</sup> + 2a(x - x<sub>0</sub>)</span>',
     options: [
       'v<sup>2</sup> = v<sub>0</sub><sup>2</sup> - 2ax',
@@ -13,7 +14,7 @@ let questions1 = [
   },
     {
     numb: 2,
-    question: "Care este unitatea de măsură pentru accelerație?",
+    question: questionsData[limba].q1[1],
     answer: '<span>m / s<sup>2</sup></span>',
     options: [
       'm / s<sup>2</sup>',
@@ -25,7 +26,7 @@ let questions1 = [
   },
     {
     numb: 3,
-    question: "Formula forței de frecare este:",
+    question: questionsData[limba].q1[2],
     answer: "<span>F<sub>f</sub> = μ ∙ N</span>",
     options: [
       "F<sub>f</sub> = μ ∙ F",
@@ -37,26 +38,16 @@ let questions1 = [
   },
     {
     numb: 4,
-    question: "Când suspendăm un corp de un fir inextensibil apar două forțe pereche:",
-    answer: "<span>Forța de apăsare a corpului și Tensiunea în fir</span>",
-    options: [
-      "Tensiunea în fir și Alungirea firului",
-      "Forța de apăsare a corpului și Tensiunea în fir",
-      "Forța de frecare și Tensiunea în fir",
-      "Forța de apăsare a corpului și Tensiunea corpului"
-    ],
+    question: questionsData[limba].q1[3],
+    answer: questionsData[limba].q1_an4,
+    options: questionsData[limba].q1_op4,
     tag: "./teorieMecanica.html#4"
   },
     {
     numb: 5,
-    question: "Forța de reacțiune din principiul acțiunii și reacțiunii:",
-    answer: "<span>Este de aceeași mărime și de aceeași direcție, dar de sens contrar față de cea de acțiune</span>",
-    options: [
-      "Este de aceeași mărime, direcție și același sens cu cea de acțiune",
-      "Este de mărime mai mică, de aceeași direcție, dar de sens contrar față de cea de acțiune",
-      "Este calculată independent de forța de acțiune",
-      "Este de aceeași mărime și de aceeași direcție, dar de sens contrar față de cea de acțiune"
-    ],
+    question: questionsData[limba].q1[4],
+    answer: questionsData[limba].q1_an5,
+    options: questionsData[limba].q1_op5,
     tag: "./teorieMecanica.html#5"
   },
 ];
@@ -64,7 +55,7 @@ let questions1 = [
 let questions2 = [
   {
   numb: 1,
-  question: "Legea variației energiei potențiale gravitaționale:",
+  question: questionsData[limba].q2[0],
   answer: '<span>ΔE<sub>pg</sub> = -L<sub>G</sub></span>',
   options: [
     'ΔE<sub>pg</sub> = 1 / L<sub>G</sub>',
@@ -76,7 +67,7 @@ let questions2 = [
 },
   {
   numb: 2,
-  question: "Energia potențială gravitațională a unui corp este:",
+  question: questionsData[limba].q2[1],
   answer: '<span>E<sub>pg</sub> = m ∙ g ∙ h</span>',
   options: [
     'E<sub>pg</sub> = m ∙ g ∙ h',
@@ -88,7 +79,7 @@ let questions2 = [
 },
   {
   numb: 3,
-  question: "Formula lucrului mecanic este:",
+  question: questionsData[limba].q2[2],
   answer: "<span>L = F ∙ d</span>",
   options: [
     "L = F / d",
@@ -100,7 +91,7 @@ let questions2 = [
 },
   {
   numb: 4,
-  question: "Care este legea variației energiei cinetice?",
+  question: questionsData[limba].q2[3],
   answer: "<span>ΔE<sub>c</sub> = L<sub>Total</sub></span>",
   options: [
     "E<sub>c</sub> =  L / Δt",
@@ -112,33 +103,23 @@ let questions2 = [
 },
   {
   numb: 5,
-  question: "Puterea mecanică:",
-  answer: "<span>Este o mărime fizică scalară</span>",
-  options: [
-    "Este produsul dintre lucrul mecanic efectuat și timpul în care se efectuează acest lucru mecanic",
-    "Este o mărime fizică vectorială",
-    "Este mărimea ce caracterizează capacitatea unui corp de a efectua lucru mecanic",
-    "Este o mărime fizică scalară"
-  ],
+  question: questionsData[limba].q2[4],
+  answer: questionsData[limba].q2_an5,
+  options: questionsData[limba].q2_op5,
   tag: "./teorieMecanica.html#10"
 },
 ];
 let questions3 = [
   {
   numb: 1,
-  question: "Ce este agitația termică?",
-  answer: '<span>Mişcarea dezordonată şi continuă a particulelor unei substanţe</span>',
-  options: [
-    'Mişcarea dezordonată şi continuă a particulelor unei substanţe',
-    'Mişcarea ordonată şi continuă a particulelor unei substanţe',
-    'Mişcarea circulară a particulelor unei substanţe',
-    'Mişcarea rectiliniei a particulelor unei substanţe'
-  ],
+  question: questionsData[limba].q3[0],
+  answer: questionsData[limba].q3_an1,
+  options: questionsData[limba].q3_op1,
   tag: "./teorieTermodinamica.html#1"
 },
   {
   numb: 2,
-  question: "Numărul lui Avogadro este egal cu",
+  question: questionsData[limba].q3[1],
   answer: '<span>6,022 ∙10<sup>23</sup> mol<sup>-1</sup> atomi</span>',
   options: [
     '6,023 ∙10<sup>22</sup> mol<sup>-1</sup> atomi',
@@ -150,7 +131,7 @@ let questions3 = [
 },
   {
   numb: 3,
-  question: "Relația de transformare între scara Celsius și Kelvin:",
+  question: questionsData[limba].q3[2],
   answer: "<span>T(K) = t (°C) + 273,15</span>",
   options: [
     "T(K) = t (°C) + 275,13",
@@ -162,7 +143,7 @@ let questions3 = [
 },
   {
   numb: 4,
-  question: "Ecuația de stare descrie dependența dintre parametrii de stare ai unui sistem termodinamic:",
+  question: questionsData[limba].q3[3],
   answer: "<span>p ∙ V = ν ∙ R ∙ T</span>",
   options: [
     "R ∙ V = ν ∙ p ∙ T",
@@ -174,7 +155,7 @@ let questions3 = [
 },
   {
   numb: 5,
-  question: "Volumul molar este egal cu:",
+  question: questionsData[limba].q3[4],
   answer: "<span>V<sub>μ</sub> = 22,4 L/mol</span>",
   options: [
     "V<sub>μ</sub> = 24,2 L/mol",
@@ -189,7 +170,7 @@ let questions3 = [
 let questions4 = [
   {
   numb: 1,
-  question: "Lucrul mecanic efectuat de sistemul termodinamic într-o transformare izobară este:",
+  question: questionsData[limba].q4[0],
   answer: '<span>L = p ∙ ΔV</span>',
   options: [
     'L = p ∙ V',
@@ -201,7 +182,7 @@ let questions4 = [
 },
   {
   numb: 2,
-  question: "Căldura în sistemul internațional se măsoară în:",
+  question: questionsData[limba].q4[1],
   answer: '<span>J(joule)</span>',
   options: [
     'J(joule)',
@@ -213,7 +194,7 @@ let questions4 = [
 },
   {
   numb: 3,
-  question: "Gradul de libertate al gazelor monoatomice este de:",
+  question: questionsData[limba].q4[2],
   answer: "<span>i = 3</span>",
   options: [
     "i = 1",
@@ -225,19 +206,14 @@ let questions4 = [
 },
   {
   numb: 4,
-  question: "Într-o transformare izocoră:",
-  answer: "<span>Volumul este constant</span>",
-  options: [
-    "Temperatura este constantă",
-    "Volumul este constant",
-    "Presiunea este constantă",
-    "Căldura este egală cu 0"
-  ],
+  question: questionsData[limba].q4[3],
+  answer: questionsData[limba].q4_an4,
+  options: questionsData[limba].q4_op4,
   tag: "./teorieTermodinamica.html#9" 
 },
   {
   numb: 5,
-  question: "Relația dintre căldurile molare este:",
+  question: questionsData[limba].q4[4],
   answer: "<span>C<sub>p</sub> = C<sub>V</sub> + R</span>",
   options: [
     "C<sub>p</sub> = C<sub>V</sub> / R",
@@ -251,43 +227,28 @@ let questions4 = [
 let questions5 = [
   {
   numb: 1,
-  question: "În ce constă al doilea timp de funționare al motorului Otto?",
-  answer: '<span>Compresia - (proces adiabatic)</span>',
-  options: [
-    'Aprinderea - (proces izocor)',
-    'Admisia - (proces izobar)',
-    'Compresia - (proces adiabatic)',
-    'Evacuarea - (proces izocor) și (proces izobar)'
-  ],
+  question: questionsData[limba].q5[0],
+  answer: questionsData[limba].q5_an1,
+  options: questionsData[limba].q5_op1,
   tag: "./teorieTermodinamica.html#11"
 },
   {
   numb: 2,
-  question: "Motorul termic:",
-  answer: '<span>Transformă căldura primită, prin arderea unui combustibilul în lucru mecanic.</span>',
-  options: [
-    'Transformă căldura primită, prin arderea unui combustibilul în lucru mecanic.',
-    'Transformă căldura primită, prin arderea unui combustibilul în energie.',
-    'Transformă căldura primită, prin comprimarea combustibilul în lucru mecanic.',
-    'Transformă căldura primită, prin amestecare cu alte substanțe în lucru mecanic.'
-  ],
+  question: questionsData[limba].q5[1],
+  answer: questionsData[limba].q5_an2,
+  options: questionsData[limba].q5_op2,
   tag: "./teorieTermodinamica.html#12"
 },
   {
   numb: 3,
-  question: "Randamentul motorului termic Diesel este egal cu :",
-  answer: "<span>Raportul dintre lucrul mecanic efectuat de motor și căldura primită.</span>",
-  options: [
-    "Raportul dintre lucrul mecanic efectuat de motor și căldura primită.",
-    "Raportul dintre căldura primită  și lucrul mecanic efectuat de motor.",
-    "Raportul dintre lucrul mecanic efectuat de motor și căldura molară.",
-    "Raportul dintre lucrul mecanic efectuat de motor și temperatură."
-  ],
+  question: questionsData[limba].q5[2],
+  answer: questionsData[limba].q5_an3,
+  options: questionsData[limba].q5_op3,
   tag: "./teorieTermodinamica.html#13"
 },
   {
   numb: 4,
-  question: "Randamentul motorului termic Diesel are formula:",
+  question: questionsData[limba].q5[3],
   answer: "<span>η = 1 - (1 / y) ∙ (a<sup>y-1</sup> / ε<sup>y-1</sup>(a-1))</span>",
   options: [
     "η = 1 - (a<sup>y-1</sup> / ε<sup>y-1</sup>(a-1))",
@@ -301,38 +262,23 @@ let questions5 = [
 let questions6 = [
   {
   numb: 1,
-  question: "Randamentul ciclului Carnot este:",
-  answer: '<span>Întotdeauna subunitar</span>',
-  options: [
-    'Egal cu raportul dintre căldura primită și lucrul mecanic efectuat de motor.',
-    'Întotdeauna supraunitar',
-    'Întotdeauna subunitar',
-    'Egal cu 0'
-  ],
+  question: questionsData[limba].q6[0],
+  answer: questionsData[limba].q6_an1,
+  options: questionsData[limba].q6_op1,
   tag: "./teorieTermodinamica.html#15"
 },
   {
   numb: 2,
-  question: "Randamentul ciclului Carnot depinde:",
-  answer: '<span>Numai de temperatura sursei calde și a celei reci și nu depinde de substanța de lucru.</span>',
-  options: [
-    'Numai de temperatura sursei calde și a celei reci și nu depinde de substanța de lucru.',
-    'De temperatura sursei calde și a celei reci cât și de substanța de lucru.',
-    'De densitatea substanței de lucru.',
-    'Numai de temperatura substanța de lucru și nu depinde de temperatura sursei calde și a celei reci.'
-  ],
+  question: questionsData[limba].q6[1],
+  answer: questionsData[limba].q6_an2,
+  options: questionsData[limba].q6_op2,
   tag: "./teorieTermodinamica.html#16"
 },
   {
   numb: 3,
-  question: "Carnot a fost primul care a arătat că:",
-  answer: "<span>Nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate.</span>",
-  options: [
-    "O mașină termică are nevoie de două surse reci",
-    "Nu este posibil să funcționeze o mașină termică doar cu două termostate, având nevoie de cel puțin trei termostate.",
-    "Nu este necesar pentru a funcționa o mașină termică cu două termostate, ci este nevoie doar de unul singur",
-    "Nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate."
-  ],
+  question: questionsData[limba].q6[2],
+  answer: questionsData[limba].q6_an3,
+  options: questionsData[limba].q6_op3,
   tag: "./teorieTermodinamica.html#17"
 },
 ];
@@ -340,7 +286,7 @@ let questions6 = [
 let questions7 = [
   {
   numb: 1,
-  question: "Unitate de măsură în S.I pentru tensiunea electrică este:",
+  question: questionsData[limba].q7[0],
   answer: '<span>Volt (V)</span>',
   options: [
     'Amperé (A)',
@@ -352,19 +298,14 @@ let questions7 = [
 },
   {
   numb: 2,
-  question: "Formula intensității curentului este egală cu:",
-  answer: '<span>Raportul dintre sarcina electrică și timp</span>',
-  options: [
-    'Raportul dintre sarcina electrică și timp',
-    'Raportul dintre tensiunea electrică și timp',
-    'Raportul dintre lucrul mecanic și sarcina electrică',
-    'Raportul dintre timp și sarcina electrică'
-  ],
+  question: questionsData[limba].q7[1],
+  answer: questionsData[limba].q7_an2,
+  options: questionsData[limba].q7_op2,
   tag: "./teorieElectromecanica.html#2"
 },
   {
   numb: 3,
-  question: "Relația dintre cele trei tensiuni electrice ale unui circuit electric este:",
+  question: questionsData[limba].q7[2],
   answer: "<span>E = U + u</span>",
   options: [
     "E = U + u",
@@ -376,7 +317,7 @@ let questions7 = [
 },
   {
   numb: 4,
-  question: "Tensiunea internă are formula:",
+  question: questionsData[limba].q7[3],
   answer: "<span>u = L<sub>int</sub> ∙ q</span>",
   options: [
     "u = U / q",
@@ -388,14 +329,9 @@ let questions7 = [
 },
   {
   numb: 5,
-  question: "Sensul convențional al curentului electric continuu printr-un circuit este: ",
-  answer: "<span>De la borna pozitivă a sursei spre borna negativă</span>",
-  options: [
-    "Dat de către intensitatea curentului",
-    "Același cu al electronilor",
-    "De la borna negativă a sursei spre borna pozitivă",
-    "De la borna pozitivă a sursei spre borna negativă"
-  ],
+  question: questionsData[limba].q7[4],
+  answer: questionsData[limba].q7_an5,
+  options: questionsData[limba].q7_op5,
   tag: "./teorieElectromecanica.html#5"
 },
 ];
@@ -403,7 +339,7 @@ let questions7 = [
 let questions8 = [
   {
   numb: 1,
-  question: "Legea lui Ohm pentru o porțiune de circuit:",
+  question: questionsData[limba].q8[0],
   answer: '<span>I = U / R</span>',
   options: [
     'I = U / R',
@@ -415,7 +351,7 @@ let questions8 = [
 },
   {
   numb: 2,
-  question: "Dependența rezistenței electrice de natura și de dimensiunile conductorului este:",
+  question: questionsData[limba].q8[1],
   answer: '<span>R = ρ ∙ (l / s)</span>',
   options: [
     'R = l / s',
@@ -427,7 +363,7 @@ let questions8 = [
 },
   {
   numb: 3,
-  question: "Legea lui Ohm pentru întregul circuit:",
+  question: questionsData[limba].q8[2],
   answer: "<span>I = E / (R + r)</span>",
   options: [
     "E = (R + r) / E",
@@ -439,7 +375,7 @@ let questions8 = [
 },
   {
   numb: 4,
-  question: "Rezistența în S.I se măsoară în:",
+  question: questionsData[limba].q8[3],
   answer: "<span>Ohm (Ω)</span>",
   options: [
     'Watt (W)',
@@ -451,7 +387,7 @@ let questions8 = [
 },
   {
   numb: 5,
-  question: "Formula intensității curentului electric de scurtcircuit este:",
+  question: questionsData[limba].q8[4],
   answer: "<span>I<sub>sc</sub> = E / r</span>",
   options: [
     "I<sub>sc</sub> = R / r",
@@ -466,50 +402,30 @@ let questions8 = [
 let questions9 = [
   {
   numb: 1,
-  question: "Tensiunea electromotoare:",
-  answer: '<span>Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar</span>',
-  options: [
-    'Se ia cu plus dacă sensul curentului electric prin sursă este opus cu cel al ochiului ales arbitrar ',
-    'Se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar',
-    'Se ia cu minus dacă intensitatea este pozitivă',
-    'Se ia cu minus dacă tensiunea este negativă'
-  ],
+  question: questionsData[limba].q9[0],
+  answer: questionsData[limba].q9_an1,
+  options: questionsData[limba].q9_op1,
   tag: "./teorieElectromecanica.html#11"
 },
   {
   numb: 2,
-  question: "Ce reprezintă nodul de circuit?",
-  answer: '<span>Intersecția a cel puțin trei conductoare electrice</span>',
-  options: [
-    'Punctul în care circuitul s-a înnodat',
-    'Intersecția a cel puțin două conductoare electrice',
-    'Locul în care a fost amplasat un întrerupător',
-    'Intersecția a cel puțin trei conductoare electrice'
-  ],
+  question: questionsData[limba].q9[1],
+  answer: questionsData[limba].q9_an2,
+  options: questionsData[limba].q9_op2,
   tag: "./teorieElectromecanica.html#12"
 },
   {
   numb: 3,
-  question: "Suma algebrică a intensităților curenților care se întâlnesc într-un nod de circuit este:",
-  answer: "<span>Nulă</span>",
-  options: [
-    "Egală cu raportul dintre tensiunea electromotoare și rezistența întregului circuit ",
-    "Egală cu 1",
-    "Nulă",
-    "Negativă"
-  ],
+  question: questionsData[limba].q9[2],
+  answer: questionsData[limba].q9_an3,
+  options: questionsData[limba].q9_op3,
   tag: "./teorieElectromecanica.html#13"
 },
   {
   numb: 4,
-  question: "Suma algebrică a tensiunilor electromotoare dintr-un ochi de rețea este egală cu:",
-  answer: "<span>Suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit</span>",
-  options: [
-    'Suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit',
-    'Suma algebrică a rezistențelor de pe fiecare latură din acel ochi de circuit',
-    'Suma algebrică a intensităților de pe fiecare latură din acel ochi de circuit',
-    'Egală cu 0'
-  ],
+  question: questionsData[limba].q9[3],
+  answer: questionsData[limba].q9_an4,
+  options: questionsData[limba].q9_op4,
   tag: "./teorieElectromecanica.html#14"
 },
 ];
@@ -517,7 +433,7 @@ let questions9 = [
 let questions10 = [
   {
   numb: 1,
-  question: "Rezistența echivalentă a unei grupări serie de rezistoare este egală cu:",
+  question: questionsData[limba].q10[0],
   answer: '<span>R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub></span>',
   options: [
     'R<sub>s</sub> = R<sub>1</sub> / R<sub>2</sub>',
@@ -529,7 +445,7 @@ let questions10 = [
 },
   {
   numb: 2,
-  question: "Inversul rezistenței echivalente a unei grupări paralel de rezistoare este egal cu:",
+  question: questionsData[limba].q10[1],
   answer: '<span>1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)</span>',
   options: [
     '1 / R<sub>p</sub> = 1 / R<sub>2</sub> ∙ R<sub>2</sub>',
@@ -541,7 +457,7 @@ let questions10 = [
 },
   {
   numb: 3,
-  question: "Rezistența internă a grupării serie de generatoare electrice identice:",
+  question: questionsData[limba].q10[2],
   answer: "<span>r<sub>s</sub> = n · r</span>",
   options: [
     "r<sub>s</sub> = n · r",
@@ -553,7 +469,7 @@ let questions10 = [
 },
   {
   numb: 4,
-  question: "Rezistența internă a grupării paralel de generatoare electrice identice:",
+  question: questionsData[limba].q10[3],
   answer: "<span>r<sub>p</sub> = r / n</span>",
   options: [
     'r<sub>p</sub> = r / 2n',
@@ -565,14 +481,9 @@ let questions10 = [
 },
 {
   numb: 5,
-  question: "Un grup de rezistoare se înlocuiește cu unul singur, denumit rezistor ",
-  answer: "<span>Echivalent</span>",
-  options: [
-    'Aferent',
-    'Simetric',
-    'Rezultant',
-    'Echivalent'
-  ],
+  question: questionsData[limba].q10[4],
+  answer: questionsData[limba].q10_an5,
+  options: questionsData[limba].q10_op5,
   tag: "./teorieElectromecanica.html#19"
 },
 ];
@@ -580,7 +491,7 @@ let questions10 = [
 let questions11 = [
   {
   numb: 1,
-  question: "Cu ce se notează energia electrică?",
+  question: questionsData[limba].q11[0],
   answer: '<span>W</span>',
   options: [
     'W',
@@ -592,7 +503,7 @@ let questions11 = [
 },
   {
   numb: 2,
-  question: "Formula energiei electrice consumate pe întreg circuitul:",
+  question: questionsData[limba].q11[1],
   answer: '<span>W<sub>tot</sub> = E ∙ I ∙ Δt</span>',
   options: [
     'W<sub>tot</sub> = E / q',
@@ -604,10 +515,10 @@ let questions11 = [
 },
   {
   numb: 3,
-  question: "Puterea dezvoltată de rezistor este maximă când: ",
+  question: questionsData[limba].q11[2],
   answer: "<span>R = r</span>",
   options: [
-    "W<sub>gen</sub> = W<sub>tot>/sub>",
+    "W<sub>gen</sub> = W<sub>tot</sub>",
     "U = u",
     "R = R / r",
     "R = r"
@@ -616,19 +527,14 @@ let questions11 = [
 },
   {
   numb: 4,
-  question: "Randamentul electric al unui consumator este dat de relația:",
-  answer: "<span>η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub></span>",
-  options: [
-    'η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub>',
-    'η = W<sub>utilă</sub> / P<sub>exterioară</sub> = W<sub>totală</sub> / P<sub>totală</sub>',
-    'η = W<sub>utilă</sub> / P<sub>totală</sub> = W<sub>totală</sub> / P<sub>exterioară</sub>',
-    'η = W<sub>totală</sub> / W<sub>utilă</sub> = P<sub>totală</sub> / P<sub>exterioară</sub>'
-  ],
+  question: questionsData[limba].q11[3],
+  answer: questionsData[limba].q11_an4,
+  options: questionsData[limba].q11_op4,
   tag: "./teorieElectromecanica.html#23"
 },
 {
   numb: 5,
-  question: "Legea lui Joule are formula: ",
+  question: questionsData[limba].q11[4],
   answer: "<span>Q = R ∙ I<sup>2</sup> ∙ Δt</span>",
   options: [
     'Q = R ∙ (I<sup>2</sup> ∙ Δt)',
@@ -643,7 +549,7 @@ let questions11 = [
 let questions12 = [
   {
   numb: 1,
-  question: "Indicele de refracție al unui mediu transparent este: ",
+  question: questionsData[limba].q12[0],
   answer: '<span>n = c / v</span>',
   options: [
     'n = v / c',
@@ -655,19 +561,14 @@ let questions12 = [
 },
   {
   numb: 2,
-  question: "Raza incidentă , normala la suprafață de separare și raza refractată sunt:",
-  answer: '<span>coplanare</span>',
-  options: [
-    'egale',
-    'perpendiculare',
-    'coplanare',
-    'paralele'
-  ],
+  question: questionsData[limba].q12[1],
+  answer: questionsData[limba].q12_an2,
+  options: questionsData[limba].q12_op2,
   tag: "./teorieOptica.html#2"
 },
   {
   numb: 3,
-  question: "Unghiul maxim de incidență este: ",
+  question: questionsData[limba].q12[2],
   answer: "<span>i = 90°</span>",
   options: [
     'i = 30°',
@@ -679,14 +580,9 @@ let questions12 = [
 },
 {
   numb: 4,
-  question: "Lentilele convergente: ",
-  answer: "<span>Sunt mai groase la mijloc și mai subțiri la capete</span>",
-  options: [
-    'Sunt mai groase la mijloc și mai subțiri la capete',
-    'Micșorează obiectul',
-    'Sunt mai groase la capete și mai subțiri la mijloc',
-    'Li se mai zice și lentile negative'
-  ],
+  question: questionsData[limba].q12[3],
+  answer: questionsData[limba].q12_an4,
+  options: questionsData[limba].q12_op4,
   tag: "./teorieOptica.html#4"
 },
 ];
@@ -694,7 +590,7 @@ let questions12 = [
 let questions13 = [
   {
   numb: 1,
-  question: "Cu cât este egală viteza luminii în vid?",
+  question: questionsData[limba].q13[0],
   answer: '<span>300.000.000 m/s</span>',
   options: [
     '400.000.000 m/s',
@@ -706,50 +602,30 @@ let questions13 = [
 },
   {
   numb: 2,
-  question: "De ce fasciculele colorate ies din prismă sub unghiuri diferite ?",
-  answer: '<span>Deoarece au viteze diferite</span>',
-  options: [
-    'Pentru că anumite culori încălzesc prisma',
-    'Fiindcă unele culori se resping',
-    'Pentru că au frecvențe diferite',
-    'Deoarece au viteze diferite'
-  ],
+  question: questionsData[limba].q13[1],
+  answer: questionsData[limba].q13_an2,
+  options: questionsData[limba].q13_op2,
   tag: "./teorieOptica.html#6"
 },
   {
   numb: 3,
-  question: "În cazul interferenței constructive: ",
-  answer: "<span>Cele două unde sunt în fază</span>",
-  options: [
-    "Cele două unde sunt în defazaj",
-    "Cele două unde sunt în fază",
-    "Suma lor este egală cu 0",
-    "Se risipesc"
-  ],
+  question: questionsData[limba].q13[2],
+  answer: questionsData[limba].q13_an3,
+  options: questionsData[limba].q13_op3,
   tag: "./teorieOptica.html#7"
 },
   {
   numb: 4,
-  question: "Una dintre condițiile de interferență este: ",
-  answer: "<span>Undele să aibă aceeași frecvență</span>",
-  options: [
-    'Undele să aibă aceiași lungime',
-    'Diferența de fază să fie egală cu sin90°',
-    'Undele să aibă aceeași frecvență',
-    'Diferența de fază să varieze'
-  ],
+  question: questionsData[limba].q13[3],
+  answer: questionsData[limba].q13_an4,
+  options: questionsData[limba].q13_op4,
   tag: "./teorieOptica.html#8"
 },
 {
   numb: 5,
-  question: "Pentru a produce dispersia luminii trebuie ca: ",
-  answer: "<span>Indicele de refracție să fie mai mare decât unu</span>",
-  options: [
-    'Indicele de refracție să fie mai mare egal cu unu',
-    'Indicele de refracție să fie mai mare decât zero',
-    'Indicele de refracție să fie mai mare decât unu',
-    'Indicele de refracție să fie mai mare egal cu zero'
-  ],
+  question: questionsData[limba].q13[4],
+  answer: questionsData[limba].q13_an5,
+  options: questionsData[limba].q13_op5,
   tag: "./teorieOptica.html#9"
 },
 ];
@@ -757,19 +633,14 @@ let questions13 = [
 let questions14 = [
   {
   numb: 1,
-  question: "Diferența dintre nivelurile de energie: ",
-  answer: '<span>Este proporțională cu frecvența oscilatorului și constanta lui Planck</span>',
-  options: [
-    'Este invers proporțională cu frecvența oscilatorului și constanta lui Planck',
-    'Este proporțională cu frecvența oscilatorului și constanta lui Planck',
-    'Este invers proporțională cu frecvența oscilatorului și direct proporțională constanta lui Planck',
-    'Este proporțională cu frecvența oscilatorului și invers proporțională constanta lui Planck'
-  ],
+  question: questionsData[limba].q14[0],
+  answer: questionsData[limba].q14_an1,
+  options: questionsData[limba].q14_op1,
   tag: "./teorieOptica.html#10"
 },
   {
   numb: 2,
-  question: "Constanta lui Planck (h) este egală cu:",
+  question: questionsData[limba].q14[1],
   answer: '<span>6,62 ∙ 10<sub>-34</sub> J ∙ s</span>',
   options: [
     '6,62 ∙ 10<sub>-34</sub> J ∙ s',
@@ -781,26 +652,16 @@ let questions14 = [
 },
   {
   numb: 3,
-  question: "Energia cinetică a electronilor emiși:",
-  answer: "<span>Crește liniar cu frecvența radiației incidente</span>",
-  options: [
-    "Crește liniar odată cu trecerea timpului",
-    "Scade liniar cu frecvența radiației incidente",
-    "Crește liniar cu frecvența radiației incidente",
-    "Rămâne constantă"
-  ],
+  question: questionsData[limba].q14[2],
+  answer: questionsData[limba].q14_an3,
+  options: questionsData[limba].q14_op3,
   tag: "./teorieOptica.html#12"
 },
   {
   numb: 4,
-  question: "'v' reprezintă: ",
-  answer: "<span>Frecvența oscilatorului</span>",
-  options: [
-    'Constanta lui Planck',
-    'Constanta lui Einstein',
-    'Radiația emisă',
-    'Frecvența oscilatorului'
-  ],
+  question: questionsData[limba].q14[3],
+  answer: questionsData[limba].q14_an5,
+  options: questionsData[limba].q14_op5,
   tag: "./teorieOptica.html#13"
 },
 ];
