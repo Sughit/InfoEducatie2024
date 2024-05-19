@@ -106,6 +106,7 @@ function verify(){
         else if(choice == 14)
             questions = questions14;
         highlight = questions[que_count].tag; 
+        console.log(highlight);
 }
 
 function seeWhy()
