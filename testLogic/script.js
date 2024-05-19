@@ -332,5 +332,4 @@ function ModifyStats(score, remaining)
     var gresite = remaining;
     localStorage.setItem('corecte', corecte);
     localStorage.setItem('gresite', gresite);
-    localStorage.setItem('finishedATest', true);
 }

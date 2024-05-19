@@ -27,13 +27,14 @@ if(window.location.pathname == "/index.html")
     var corecteTot = 0;
     var gresiteTot = 0;
 
-    if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')) && localStorage.getItem('finishedATest'))
+    if(!isNaN(localStorage.getItem('corecteTot')) && !isNaN(localStorage.getItem('gresiteTot')))
     {
-        localStorage.setItem('finishedATest', false);
         corecteTot = parseInt(localStorage.getItem('corecteTot'));
         gresiteTot = parseInt(localStorage.getItem('gresiteTot'));
         corecteTot += corecte;
         gresiteTot += gresite;
+        localStorage.setItem('corecte', 0);
+        localStorage.setItem('gresite', 0);
         localStorage.setItem('corecteTot', parseInt(corecteTot));
         localStorage.setItem('gresiteTot', parseInt(gresiteTot));
     }
@@ -64,7 +65,7 @@ if(window.location.pathname == "/index.html")
     });
 
     
-    var xValues = ['Corecte', 'Gresite'];
+    var xValues = [data[JSON.parse(localStorage.getItem('limba'))].corecte, data[JSON.parse(localStorage.getItem('limba'))].gresite];
     var yValues = [corecteTot, gresiteTot];
     var barColors = [
         "#06293d",
@@ -72,7 +73,7 @@ if(window.location.pathname == "/index.html")
     ];
     Chart.defaults.global.defaultFontColor = "#fff";
     
-    new Chart("statistici", {
+    var chart = new Chart("statistici", {
         type: "pie",
         data: {
             labels: xValues,
@@ -101,5 +102,8 @@ if(window.location.pathname == "/index.html")
             }
         }
     });
+    var values = [data[JSON.parse(localStorage.getItem('limba'))].corecte, data[JSON.parse(localStorage.getItem('limba'))].gresite];
+    chart.data.labels = values;
+    chart.update();
 }
 
