@@ -27,15 +27,21 @@ register.addEventListener("click", function(event){
     const email = document.getElementById('emailRegInput').value;
     const password = document.getElementById('passwordRegInput').value;
 
+    const corecte=JSON.stringify(1);
+    const gresite=JSON.stringify(2);
+
     const form = document.getElementById('formReg');
 
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
         // Signed up 
         const user = userCredential.user;
+        
         set(ref(db, 'users/' + user.uid), {
             username: username,
-            email: email
+            email: email,
+            corecte: corecte,
+            gresite: gresite
         });
         
         alert('Creating an Account');

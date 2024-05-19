@@ -245,10 +245,10 @@ function startTimerLine(time){
 function queCounter(index, len){
     bottom_ques_counter.innerHTML = intrebariCount(index, len, JSON.parse(localStorage.getItem('limba')));
 }
-
 function results(userScore, len, language)
 {
     if(language == "engleza"){
+        ModifyStats(len, len-userScore);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, you did <p>'+ userScore +'</p> of <p>'+ len +'</p></span>';
@@ -258,6 +258,7 @@ function results(userScore, len, language)
         }
     }
     if(language == "romana"){
+        ModifyStats(len, len-userScore);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, ai făcut <p>'+ userScore +'</p> din <p>'+ len +'</p></span>';
@@ -267,6 +268,7 @@ function results(userScore, len, language)
         }
     }
     if(language == "maghiara"){
+        ModifyStats(len, len-userScore);
         switch(userScore)
         {
             case 5: return '<span>Bravó! 🎉, sikerült <p>'+ userScore +'</p> tól től <p>'+ len +'</p></span>';
@@ -276,6 +278,7 @@ function results(userScore, len, language)
         }
     }
     if(language == "germana"){
+        ModifyStats(len, len-userScore);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, das hast du <p>'+ userScore +'</p> aus <p>'+ len +'</p></span>';
@@ -285,6 +288,7 @@ function results(userScore, len, language)
         }
     }   
     if(language == "franceza"){
+        ModifyStats(len, len-userScore);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, vous l\'avez fait <p>'+ userScore +'</p> depuis <p>'+ len +'</p></span>';
@@ -294,6 +298,7 @@ function results(userScore, len, language)
         }
     }
     if(language == "rusa"){
+        ModifyStats(len, len-userScore);
         switch(userScore)
         {
             case 5: return '<span>Браво! 🎉, Ты сделал <p>'+ userScore +'</p> ot <p>'+ len +'</p></span>';
@@ -312,4 +317,10 @@ function intrebariCount(index, len, language)
     if(language == "germana") return '<span><p>'+ index +'</p> von <p>'+ len +'</p> Fragen</span>';
     if(language == "franceza") return '<span><p>'+ index +'</p> questions sur <p>'+ len;
     if(language == "rusa") return '<span><p>'+ index +'</p> вопроса из <p>'+ len;
+}
+
+function ModifyStats(len, remaining)
+{
+    localStorage.setItem('corecte', len-remaining);
+    localStorage.setItem('gresite', remaining);
 }
