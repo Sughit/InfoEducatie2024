@@ -32,6 +32,11 @@ register.addEventListener("click", function(event){
 
     const form = document.getElementById('formReg');
 
+    if(!(verFields(username, email, password) && verEmail(email) && verPassword(password)))
+    {
+        return;
+    }
+
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
         // Signed up 
@@ -53,3 +58,51 @@ register.addEventListener("click", function(event){
         alert(errorMessage);
     });
 });
+
+function verEmail(email)
+{
+    var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if(!email.match(validRegex))
+    {
+        alert('Email-ul nu este valid');
+        return false;
+    } 
+    else
+    {
+        return true;
+    }
+}
+
+function verPassword(password)
+{
+    var validRegex = /^(?=.*[a-z])[\w!@#$%^&*?~()-]{6,}$/;
+    if(!password.match(validRegex))
+    {
+        alert('Parola nu este valida');
+        return false;
+    }
+    else
+    {
+        return true;
+    }
+}
+
+function verFields(username, email, password)
+{
+    if(username == null) 
+    {
+        alert('Numele de utilizator lipseste');
+        return false;
+    }
+    if(email == null)
+    {
+        alert('Email-ul lipseste');
+        return false;
+    }
+    if(password == null)
+    {
+        alert('Parola lipseste');
+        return false;
+    }
+    return true;
+}
