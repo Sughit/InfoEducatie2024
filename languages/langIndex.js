@@ -2164,11 +2164,11 @@ var data = {
                         '<h2 class=\"p-3\">'+'Accelerația'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Fomula: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Unitatea de măsură: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</li>'+
+                            '<li>'+'<a id ="2">'+'Unitatea de măsură: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</li>'+'</a>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Formula Galilei:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</b>'+'</li>'+
+                            '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Legea vitezei: '+'</h2>'+
                         '<ul>'+
@@ -2191,7 +2191,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Principiul al III-lea al mecanicii:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Când un corp acționează asupra altui corp cu o forță (numită forță de acțiune), cel de-al doilea corp acționează și el asupra primului cu o forță (numită forță de reacțiune) de aceeași mărime și de aceeași direcție, dar de sens contrar. Acest principiu este cunoscut și sub numele de Principiul acțiunii și reacțiunii.'+'</li>'+
+                            '<li>'+'<a id ="5">'+'Când un corp acționează asupra altui corp cu o forță (numită forță de acțiune), cel de-al doilea corp acționează și el asupra primului cu o forță (numită forță de reacțiune) de aceeași mărime și de aceeași direcție, dar de sens contrar. Acest principiu este cunoscut și sub numele de Principiul acțiunii și reacțiunii.'+'</li>'+'</a>'+
                             '<li>'+'Scris sub formă de formulă: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Legea lui Hooke:'+'</h2>'+
@@ -2214,7 +2214,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Tensiunea în fire:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Tensiunea din fir ( T ) reprezintă forța de reacțiune a firului inextensibil (care nu se alungește) la forța exercitată asupra lui.'+'</li>'+'<br>'+
-                            '<li>'+'Când suspendăm un corp de un fir inextensibil apar două forțe pereche:'+'<br>'+'<br>'+  
+                            '<li>'+'<a id ="4">'+'Când suspendăm un corp de un fir inextensibil apar două forțe pereche:'+'<br>'+'<br>'+'</a>'+
     
                                 'Forța de apăsare a corpului (F) este forța cu care corpul acționează asupra firului (ea este egală cu greutatea corpului).'+'<br>'+'<br>'+
                                 
@@ -2226,7 +2226,7 @@ var data = {
                             
                                 'Valoarea forței de frecare la alunecare depinde de natura și de gradul de prelucrare al suprafețelor aflate în contact. Dependența este caracterizată de o mărime adimensională, numită coeficient de frecare al alunecare, ce ia valori între 0 și 1 și se notează cu μ.'+'<br>'+'<br>'+
     
-                                'Ff ~ μ'+'</li>'+'<br>'+
+                                '<a id="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
     
                             '<li>'+'Legea II a frecării:'+'<br>'+'<br>'+
                                 'Valoarea forței de frecare la alunecare nu depinde de aria suprafeței de contact dintre corpuri.'+'<br>'+'<br>'+'</li>'+
@@ -2247,7 +2247,7 @@ var data = {
                         '<h2 class=\"p-3\">'+'Lucrul mecanic:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Lucrul mecanic (L) al unei forțe constante ce acționează asupra unui corp pe direcția și în sensul deplasării corpului este mărimea fizică scalară egală cu produsul dintre modulul forței (F) și modulul deplasării corpului (d).'+'</li>'+'<br>'+
-                            '<li>'+'Formula de calcul: L = F ∙ d'+'</li>'+'<br>'+
+                            '<li>'+'<a id="8">'+'Formula de calcul: L = F ∙ d'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'Convenții de semne:'+'<br>'+
                                 '1. Lucrul mecanic al unei forțe este pozitiv dacă forța ajută la deplasarea corpului. Aceasta se întâmplă în cazul în care forța are aceeași direcție și sens cu mișcarea corpului.'+'<br>'+'<br>'+
                                 '2. Lucrul mecanic al unei forțe este negativ dacă forța se opune deplasării corpului. Aceasta se întâmplă în cazul în care componenta vectorului forță pe direcția mișcării are sens opus mișcării corpului.'+'<br>'+'<br>'+
@@ -2256,7 +2256,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Puterea mecanică:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Puterea mecanică (P) este mărimea fizică scalară egală cu raportul dintre lucrul mecanic (L) efectuat și timpul (Δt) în care se efectuează acest lucru mecanic.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="10">'+'Puterea mecanică (P) este mărimea fizică scalară egală cu raportul dintre lucrul mecanic (L) efectuat și timpul (Δt) în care se efectuează acest lucru mecanic.'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'P = Lucru mecanic / timp = L / Δt'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Energia cinetică:'+'</h2>'+
@@ -2266,15 +2266,15 @@ var data = {
                             '<li>'+'Energia cinetică a unui corp în mișcare, cu o anumită viteză se calculează cu formula:'+'<br>'+'<br>'+
                                 'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+'</li>'+'<br>'+
                             '<li>'+'Legea variației energiei cinetice:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Total'+'</sub>'+'</li>'+
+                                '<a id ="9">'+'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Total'+'</sub>'+'</li>'+'</a>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Energia potențială gravitațională:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Energia potențială gravitațională (E'+'<sub>'+'pg'+'</sub>'+') este energia pe care o are un corp aflat la o anumită înălțime față de sol.'+'</li>'+'<br>'+
-                            '<li>'+'Energia potențială gravitațională a unui corp este egală cu: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
+                            '<li>'+'<a id = "7">'+'Energia potențială gravitațională a unui corp este egală cu: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'Legea variației energiei potențiale gravitaționale:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>'+'<br>'+
-                            '<li>'+'O forță care efectuează un lucru mecanic care este independent de drumul parcurs și depinde numai de pozițiile extreme (inițială și cea finală) se numește forță conservativă.'+'</li>'+
+                                '<a id ="6">'+'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>'+'<br>'+
+                            '<li>'+'O forță care efectuează un lucru mecanic care este independent de drumul parcurs și depinde numai de pozițiile extreme (inițială și cea finală) se numește forță conservativă.'+'</li>'+'</a>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Conservarea energiei mecanice:'+'</h2>'+
                         '<ul>'+
