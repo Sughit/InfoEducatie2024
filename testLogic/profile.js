@@ -21,39 +21,15 @@ const db = getDatabase(app);
 
 if(window.location.pathname == "/index.html")
 {
-    var currCorecte;
-    var currGresite;
-    var corecte = localStorage.getItem('corecte');
-    var gresite = localStorage.getItem('gresite');
-    console.log(corecte);
-    console.log(gresite);
-
     onAuthStateChanged(auth, user => {
         if(user) 
         {
-            get(child(ref(db), 'users/' + user.uid))
-            .then((snapshot) => {
-                if(snapshot.exists())
-                {
-                    currCorecte = snapshot.val().corecte;
-                    currGresite = snapshot.val().gresite;
-                }
-            })
-            .catch((error) => {
-                alert(error.message);
-            });
 
-            let totCorecte = corecte+currCorecte;
-            let totGresite = gresite+currGresite; 
-
-            //aici se seteaza datele
-            update(ref(db, 'users/' + user.uid), {
-                corecte: totCorecte,
-                gresite: totGresite
-            });
         }
     });
-    
+
+    var corecte=localStorage.getItem('corecte');
+    var gresite=localStorage.getItem('gresite');
     var xValues = ['Corecte', 'Gresite'];
     var yValues = [corecte, gresite];
     var barColors = [

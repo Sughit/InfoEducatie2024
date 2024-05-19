@@ -248,7 +248,9 @@ function queCounter(index, len){
 function results(userScore, len, language)
 {
     if(language == "engleza"){
-        ModifyStats(len, len-userScore);
+        var score = parseInt(userScore);
+        var remaining = len-userScore;
+        ModifyStats(score, remaining);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, you did <p>'+ userScore +'</p> of <p>'+ len +'</p></span>';
@@ -258,7 +260,9 @@ function results(userScore, len, language)
         }
     }
     if(language == "romana"){
-        ModifyStats(len, len-userScore);
+        var score = parseInt(userScore);
+        var remaining = len-userScore;
+        ModifyStats(score, remaining);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, ai făcut <p>'+ userScore +'</p> din <p>'+ len +'</p></span>';
@@ -268,7 +272,9 @@ function results(userScore, len, language)
         }
     }
     if(language == "maghiara"){
-        ModifyStats(len, len-userScore);
+        var score = parseInt(userScore);
+        var remaining = len-userScore;
+        ModifyStats(score, remaining);
         switch(userScore)
         {
             case 5: return '<span>Bravó! 🎉, sikerült <p>'+ userScore +'</p> tól től <p>'+ len +'</p></span>';
@@ -278,7 +284,9 @@ function results(userScore, len, language)
         }
     }
     if(language == "germana"){
-        ModifyStats(len, len-userScore);
+        var score = parseInt(userScore);
+        var remaining = len-userScore;
+        ModifyStats(score, remaining);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, das hast du <p>'+ userScore +'</p> aus <p>'+ len +'</p></span>';
@@ -288,7 +296,9 @@ function results(userScore, len, language)
         }
     }   
     if(language == "franceza"){
-        ModifyStats(len, len-userScore);
+        var score = parseInt(userScore);
+        var remaining = len-userScore;
+        ModifyStats(score, remaining);
         switch(userScore)
         {
             case 5: return '<span>Bravo! 🎉, vous l\'avez fait <p>'+ userScore +'</p> depuis <p>'+ len +'</p></span>';
@@ -298,7 +308,9 @@ function results(userScore, len, language)
         }
     }
     if(language == "rusa"){
-        ModifyStats(len, len-userScore);
+        var score = parseInt(userScore);
+        var remaining = len-userScore;
+        ModifyStats(score, remaining);
         switch(userScore)
         {
             case 5: return '<span>Браво! 🎉, Ты сделал <p>'+ userScore +'</p> ot <p>'+ len +'</p></span>';
@@ -319,8 +331,12 @@ function intrebariCount(index, len, language)
     if(language == "rusa") return '<span><p>'+ index +'</p> вопроса из <p>'+ len;
 }
 
-function ModifyStats(len, remaining)
+function ModifyStats(score, remaining)
 {
-    localStorage.setItem('corecte', len-remaining);
-    localStorage.setItem('gresite', remaining);
+    var corecte = score;
+    var gresite = remaining;
+    console.log(corecte);
+    console.log(gresite);
+    localStorage.setItem('corecte', corecte);
+    localStorage.setItem('gresite', gresite);
 }
