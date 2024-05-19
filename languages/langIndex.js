@@ -1,11 +1,6 @@
 const lagnEl = document.getElementById('langWrap');
 const btns = document.querySelectorAll('#btn-lang');
 
-if(localStorage.getItem('limba') === undefined || localStorage.getItem('limba') == null)
-{
-    localStorage.setItem('limba', "romana");
-}
-
 btns.forEach(el => {
     el.addEventListener('click', () => {
         //asta contine limbi curenta
@@ -18,6 +13,10 @@ btns.forEach(el => {
 
 window.onload = function()
 {
+    if(localStorage.getItem('limba') === undefined || localStorage.getItem('limba') == null)
+    {
+        localStorage.setItem('limba', "romana");
+    }
     loadLanguages(JSON.parse(localStorage.getItem('limba')));
 }
 
