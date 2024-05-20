@@ -9,4 +9,5 @@ if ("serviceWorker" in navigator)
 if(window.location.pathname == "/teorieMecanica.html#1")
 {
     document.getElementById('1').id = 'highlight'
+    location.reload();
 }
