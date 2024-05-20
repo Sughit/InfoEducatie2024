@@ -342,6 +342,7 @@ function loadLanguages(attr)
             var test = document.getElementById('1');
             test.id = 'highlight'
             console.log(test);
+            window.location.href = "/teorieMecanica.html/highlight";
         }
         else if(hash == "#2")
         {
