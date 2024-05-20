@@ -336,6 +336,8 @@ function loadLanguages(attr)
         cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
         var test = document.getElementById('1');
+        test.id = 'highlight'
+        location.reload();
         console.log(test);
     }
 
