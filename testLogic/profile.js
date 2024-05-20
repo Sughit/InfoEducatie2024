@@ -128,7 +128,7 @@ function SeeDataBaseCorVars()
         }
     })
     .catch((error) => {
-        alert(error.message);
+        return undefined;
     });
 }
 
@@ -144,7 +144,7 @@ function SeeDataBaseGreVars()
         }
     })
     .catch((error) => {
-        alert(error.message);
+        return undefined;
     });
 }
 

@@ -965,678 +965,676 @@ var data = {
         
         //teorieMecanica.html
         "teorieMecanicaTitle": "Mechanics theory",
-        "teorieMecanica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Principles and laws'+'</h2>'+'<br>'+'<br>'+' <br>'+'</u>'+
-                        '<h2 class=\"p-3\">'+'Speed'+'</h2>'+
+        "teorieMecanica": ('<u>'+'<h2 class="p-3" align="center">'+'Principles and Laws'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                            '<h2 class="p-3">'+'Speed'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Formula: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
+                                '<li>'+'Unit of measurement: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
+                                '<li>'+'Average speed: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
+                                '<li>'+'The velocity vector has the same direction as the displacement: v'+'<span style="vertical-align: 5px;">'+'⃗'+'</span>'+' = d'+'<span style="vertical-align: 5px;">'+'⃗'+'</span>'+' /Δt'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Acceleration'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Formula: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
+                                '<li>'+'<a id="2">'+'Unit of measurement: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</a>'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Galileo\'s Formula:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x - x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Law of Speed:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Law of Motion:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'<b>'+'x = 1/2at'+'<sup>'+'2'+'</sup>'+' + v'+'<sub>'+'0'+'</sub>'+'t + x'+'<sub>'+'0'+'</sub>'+'</b>'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'First Principle of Mechanics:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Any body maintains its state of rest or uniform rectilinear motion as long as no other forces act on it or the sum of the forces acting on it is zero.'+'</li>'+
+                                '<li>'+'In short: Speed is '+'<b>'+'constant'+'</b>'+' if the '+'<b>'+'resultant of the forces applied to the body'+'</b>'+' is zero.'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Second Principle of Mechanics:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'The change in the momentum of a body is directly proportional to the applied force and occurs in the direction in which the force acts.'+'</li>'+
+                                '<li>'+'In other words: a force acting on a body imparts to it an acceleration, proportional to the force and inversely proportional to the mass of the body.'+'</li>'+
+                                '<li>'+'Formula: F = ma'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Third Principle of Mechanics:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Formula: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Measurement unit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
-                                    '<li>'+'Average speed: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
-                                    '<li>'+'Velocity vector has the same meaning as displacement: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+ ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Acceleration'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Formula: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Measurement unit: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+ '</sup>'+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'The Galileo formula:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'<b>'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+') '+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Speed ​​law: '+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
-                        '</ul>'+    
-                        '<h2 class=\"p-3\">'+'Law of motion:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'<b>'+'x = 1/2at'+'<sup>'+'2'+'</sup>'+' + v'+'<sub>'+'0 '+'</sub>'+'t + x'+'<sub>'+'0'+'</sub>'+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Principle I of mechanics:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Any body maintains its state of rest or uniform rectilinear motion as long as no other forces act on it or the sum of the forces acting on it is zero.'+'</li>'+
-                            '<li>'+'In short: Velocity is '+'<b>'+'constant'+'</b>'+' if '+'<b>'+'the resultant of the forces applied to the body'+' </b>'+' is 0'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Second principle of mechanics:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'The change in the amount of motion of a body is directly proportional to the applied force and occurs in the direction in which the force acts.'+'</li>'+
-                            '<li>'+'Said in other words: a force acting on a body gives it an acceleration, proportional to the force and inversely proportional to the mass of the body.'+'</li>'+
+                            '<li>'+'The change in the momentum of a body is directly proportional to the applied force and occurs in the direction in which the force acts.'+'</li>'+
+                            '<li>'+'In other words: a force acting on a body imparts to it an acceleration, proportional to the force and inversely proportional to the mass of the body.'+'</li>'+
                             '<li>'+'Formula: F = ma'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Third principle of mechanics:'+'</h2>'+
+                        '<h2 class="p-3">'+'Third Principle of Mechanics:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'When one body acts on another body with a force (called the action force), the second body also acts on the first body with a force (called the reaction force) of the same magnitude and direction, but opposite. This principle is also known as the Principle of Action and Reaction.'+'</li>'+
-                            '<li>'+'Written as a formula: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'<a id="5">'+'When one body exerts a force (called the action force) on another body, the second body exerts a force (called the reaction force) on the first body that is equal in magnitude and opposite in direction. This principle is also known as the Principle of Action and Reaction.'+'</li>'+'</a>'+
+                            '<li>'+'Expressed as a formula: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Hooke\'s law:'+'</h2>'+
+                        '<h2 class="p-3">'+'Hooke\'s Law:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'The elongation of a spring is directly proportional to the deforming Force (F):'+'</li>'+'<br>'+
-    
+                            '<li>'+'The extension of a spring is directly proportional to the deforming force (F):'+'</li>'+'<br>'+
                             'Δl ~ F'+'<br>'+'<br>'+
-    
-                            '<li>'+'Directly proportional to the Initial Spring Length (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
-                            
+                            '<li>'+'Directly proportional to the initial length of the spring (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
-    
-                            '<li>'+'Inversely proportional to the cross-sectional area of ​​the spring:'+'</li>'+'<br>'+
-    
+                            '<li>'+'Inversely proportional to the cross-sectional area of the spring:'+'</li>'+'<br>'+
                             'Δl ~ 1/S'+'<br>'+'<br>'+
-    
-                            '<li>'+'Hooke\'s law:'+'</li>'+'<br>'+
+                            '<li>'+'Hooke\'s Law:'+'</li>'+'<br>'+
                             'F/S = E∙Δl/l'+'<sub>'+'0'+'</sub>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Wire tension:'+'</h2>'+
+                        '<h2 class="p-3">'+'Tension in Wires:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'The tension in the wire ( T ) represents the reaction force of the inextensible wire (which does not elongate) to the force exerted on it.'+'</li>'+'<br>'+
-                            '<li>'+'When we suspend a body from an inextensible thread, two paired forces appear:'+'<br>'+'<br>'+
-    
+                            '<li>'+'The tension in a wire (T) is the reaction force of the inextensible wire (which does not stretch) to the force applied to it.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="4">'+'When we suspend a body from an inextensible wire, two paired forces appear:'+'<br>'+'<br>'+'</a>'+
                                 'The pressing force of the body (F) is the force with which the body acts on the wire (it is equal to the weight of the body).'+'<br>'+'<br>'+
-                                
-                                'The tension in the wire (T) is the force with which the wire acts on the body suspended on it.'+'</li>'+
+                                'The tension in the wire (T) is the force with which the wire acts on the body suspended from it.'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Laws of sliding friction:'+'</h2>'+
+                        '<h2 class="p-3">'+'Laws of Sliding Friction:'+'</h2>'+
                         '<ul>'+
                             '<li>'+'First Law of Friction:'+'<br>'+'<br>'+
-                            
-                                'The value of the sliding friction force depends on the nature and degree of processing of the surfaces in contact. The dependence is characterized by a dimensionless quantity, called sliding friction coefficient, which takes values ​​between 0 and 1 and is denoted by μ.'+'<br>'+'<br>'+
-    
-                                'Ff ~ μ'+'</li>'+'<br>'+
-    
-                            '<li>'+'The Second Law of Friction:'+'<br>'+'<br>'+
-                                'The value of the sliding friction force does not depend on the area of ​​the contact surface between the bodies.'+'<br>'+'<br>'+'</li>'+
-                                
+                                'The value of the sliding friction force depends on the nature and finish of the surfaces in contact. This dependence is characterized by a dimensionless quantity called the coefficient of sliding friction, which ranges from 0 to 1 and is denoted by μ.'+'<br>'+'<br>'+
+                                '<a id="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
+                            '<li>'+'Second Law of Friction:'+'<br>'+'<br>'+
+                                'The value of the sliding friction force does not depend on the area of the contact surface between the bodies.'+'<br>'+'<br>'+'</li>'+
                             '<li>'+'Third Law of Friction:'+'<br>'+'<br>'+
-                                'The value of the sliding friction force depends on the pressing force exerted by the body on the sliding surface, which is equal in magnitude to the normal reaction force at the contact surface between the bodies.'+'<br>'+'<br>' +
-    
-                            'Ff ~ N'+'</li>'+'<br>'+
-                            '<li>'+'The formula of the frictional force is given by the relation:'+'<br>'+'<br>'+
+                                'The value of the sliding friction force depends on the pressing force exerted by the body on the sliding surface, which is equal in magnitude to the normal reaction force at the contact surface between the bodies.'+'<br>'+'<br>'+
+                                'Ff ~ N'+'</li>'+'<br>'+
+                            '<li>'+'The formula for the friction force is given by the relation:'+'<br>'+'<br>'+
                                 'Ff = μ ∙ N'+'</li>'+
                         '</ul>'+
-    
+                        
                         //Teoreme de variatie si legi de conservare
                         
-                        '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Theorems of variation and conservation laws'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                        
-                        '<h2 class=\"p-3\">'+'Mechanical work:'+'</h2>'+
+                        '<a name="element_target">'+'</a>'+
+                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class="p-3" align="center">'+'Theorems of Variation and Conservation Laws'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                                
+                        '<h2 class="p-3">'+'Mechanical Work:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'The mechanical work (L) of a constant force acting on a body in the direction and direction of the body\'s displacement is the scalar physical quantity equal to the product of the modulus of the force (F) and the modulus of the displacement of the body (d).' +'</li>'+'<br>'+
-                            '<li>'+'Calculation formula: L = F ∙ d'+'</li>'+'<br>'+
+                            '<li>'+'Mechanical work (L) of a constant force acting on a body in the direction and sense of the body\'s displacement is the scalar physical quantity equal to the product of the magnitude of the force (F) and the magnitude of the body\'s displacement (d).'+'</li>'+'<br>'+
+                            '<li>'+'<a id="8">'+'Calculation formula: L = F ∙ d'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'Sign conventions:'+'<br>'+
-                                '1. The mechanical work of a force is positive if the force helps move the body. This happens if the force has the same direction and sense as the movement of the body.'+'<br>'+'<br>'+
-                                '2. The mechanical work of a force is negative if the force opposes the motion of the body. This happens if the component of the force vector in the direction of motion is opposite to the body\'s motion.'+'<br>'+'<br>'+
-                                '3. The mechanical work of a force is zero if the force neither helps the body move nor opposes the movement. This happens if the force vector is perpendicular to the direction of the body\'s movement.'+
+                                '1. The mechanical work of a force is positive if the force helps to move the body. This happens when the force has the same direction and sense as the body\'s motion.'+'<br>'+'<br>'+
+                                '2. The mechanical work of a force is negative if the force opposes the body\'s movement. This happens when the component of the force vector in the direction of motion is opposite to the body\'s motion.'+'<br>'+'<br>'+
+                                '3. The mechanical work of a force is zero if the force neither helps nor opposes the body\'s movement. This happens when the force vector is perpendicular to the direction of the body\'s motion.'+
                             '</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Mechanical power:'+'</h2>'+
+                        '<h2 class="p-3">'+'Mechanical Power:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Mechanical power (P) is the scalar physical quantity equal to the ratio between the mechanical work (L) performed and the time (Δt) during which this mechanical work is performed.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="10">'+'Mechanical power (P) is the scalar physical quantity equal to the ratio of mechanical work (L) done to the time (Δt) in which this mechanical work is done.'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'P = Mechanical work / time = L / Δt'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Kinetic energy:'+'</h2>'+
+                        '<h2 class="p-3">'+'Kinetic Energy:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Mechanical energy (E) is the physical quantity that characterizes the ability of a body to perform mechanical work, the unit of measure being the joule (J).'+'</li>'+'<br>' +
-                            '<li>'+'Kinetic energy (E'+'<sub>'+'c'+'</sub>'+') is the energy that a moving body has.'+'</li> '+'<br>'+
-                            '<li>'+'The kinetic energy of a moving body with a certain speed is calculated with the formula:'+'<br>'+'<br>'+
-                                'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+ '</li>'+'<br>'+
-                            '<li>'+'The law of variation of kinetic energy:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Total'+'</sub>'+'</li>'+
+                            '<li>'+'Mechanical energy (E) is the physical quantity that characterizes the ability of a body to perform mechanical work, measured in joules (J).'+'</li>'+'<br>'+
+                            '<li>'+'Kinetic energy (E'+'<sub>'+'c'+'</sub>'+') is the energy that a moving body has.'+'</li>'+'<br>'+
+                            '<li>'+'The kinetic energy of a body moving with a certain speed is calculated using the formula:'+'<br>'+'<br>'+
+                                'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+'</li>'+'<br>'+
+                            '<li>'+'Law of kinetic energy variation:'+'<br>'+'<br>'+
+                                '<a id="9">'+'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Total'+'</sub>'+'</li>'+'</a>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Gravitational potential energy:'+'</h2>'+
+                        '<h2 class="p-3">'+'Gravitational Potential Energy:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Gravitational potential energy (E'+'<sub>'+'pg'+'</sub>'+') is the energy that a body has at a certain height from the ground. '+'</li>'+'<br>'+
-                            '<li>'+'The gravitational potential energy of a body is equal to: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
-                            '<li>'+'Law of variation of gravitational potential energy:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
-                            '<li>'+'A force that does mechanical work that is independent of the path traveled and depends only on the extreme positions (initial and final) is called a conservative force.'+'</li>'+
+                            '<li>'+'Gravitational potential energy (E'+'<sub>'+'pg'+'</sub>'+') is the energy a body has when at a certain height above the ground.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="7">'+'The gravitational potential energy of a body is equal to: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+'</a>'+
+                            '<li>'+'Law of gravitational potential energy variation:'+'<br>'+'<br>'+
+                                '<a id="6">'+'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</a>'+'</li>'+'<br>'+
+                            '<li>'+'A force that performs mechanical work independent of the path taken and depends only on the initial and final positions is called a conservative force.'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Conservation of mechanical energy:'+'</h2>'+
+                        '<h2 class="p-3">'+'Conservation of Mechanical Energy:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'The law of conservation of mechanical energy:'+'<br>'+'<br>'+
-    
-                                '\"The mechanical energy of a body is conserved if only conservative forces act on it.\"'+'<br>'+'<br>'+
-                            
-                                'E = constant, if the body is isolated from the outside and F'+'<sub>'+'f'+'</sub>'+' = 0'+'</li>'+
+                            '<li>'+'Law of conservation of mechanical energy:'+'<br>'+'<br>'+
+                                '\“The mechanical energy of a body is conserved if only conservative forces act on it.\“'+'<br>'+'<br>'+
+                                'E = constant, if the body is isolated from external forces and F'+'<sub>'+'f'+'</sub>'+' = 0'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Momentum Variation Theorem:'+'</h2>'+
+                        '<h2 class="p-3">'+'Impulse Variation Theorem:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'The momentum of the body is denoted by the Law of Conservation of Momentum and has the formula:'+'<br>'+'<br>'+
-                            'p'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = m ∙ v'+'<span style=\" vertical-align : 4px;\">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
-                            '<li>'+'Theorem of variation of mechanical impulse'+'<br>'+'<br>'+
-                                'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<span style=\"vertical- align : 4px;\">'+'&#8407;'+'</span>'+' ∙ Δt'+
-                            '</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'The law of conservation of momentum:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'When the mechanical system is isolated, the resultant force F'+'<sub>'+'R'+'</sub>'+'<span style=\"vertical-align : 4px; margin- left : -1.5px\">'+'&#8407;'+'</span> '+'is zero.'+'<br>'+'<br>'+
-                            'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<sub>'+'R' +'</sub>'+'<span style=\"vertical-align : 4px; margin-left : -1.5px\">'+'&#8407;'+'</span>'+' ∙ Δt = 0 ∙ Δt = 0'+'</li>'+'<br>'+
-                            '<li>'+'The law of conservation of mechanical momentum in SRI:'+'<br>'+'<br>'+
-                                'The mechanical momentum of isolated mechanical systems is conserved.'+'<br>'+'<br>'+
-                                'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = 0, i.e. Δp'+'<span style=\ "vertical-align : 4px; \">'+'&#8407;'+'</span>'+' = const'+'<span style=\"vertical-align : 4px; margin-left : -25px \">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
-                                '<li>'+'In the case of isolated mechanical systems, their total momentum cannot change under the action of internal forces.'+'</li>'+
-                        '</ul>'),
+                        '<li>'+'The impulse of a body is denoted by the Law of Conservation of Momentum and has the formula:'+'<br>'+'<br>'+
+                            'p'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = m ∙ v'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
+                        '<li>'+'Impulse Variation Theorem'+'<br>'+'<br>'+
+                            'Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = F'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' ∙ Δt'+
+                        '</li>'+
+                    '</ul>'+
+                    '<h2 class="p-3">'+'Law of Conservation of Momentum:'+'</h2>'+
+                    '<ul>'+
+                        '<li>'+'When the mechanical system is isolated, the resultant force F'+'<sub>'+'R'+'</sub>'+'<span style="vertical-align: 4px; margin-left: -1.5px;">'+'&#8407;'+'</span>'+' is zero.'+'<br>'+'<br>'+
+                            'Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = F'+'<sub>'+'R'+'</sub>'+'<span style="vertical-align: 4px; margin-left: -1.5px;">'+'&#8407;'+'</span>'+' ∙ Δt = 0 ∙ Δt = 0'+'</li>'+'<br>'+
+                        '<li>'+'Law of Conservation of Mechanical Momentum in an Inertial Reference System (IRS):'+'<br>'+'<br>'+
+                            'The mechanical momentum of isolated mechanical systems is conserved.'+'<br>'+'<br>'+
+                            'Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = 0, i.e., Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = const'+'<span style="vertical-align: 4px; margin-left: -25px;">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
+                        '<li>'+'In the case of isolated mechanical systems, their total momentum cannot change under the action of internal forces.'+'</li>'+
+                    '</ul>'),
 
         //teorieTermodinamica.html
         "teorieTermodinamicaTitle": "Thermodynamic theory",
-        "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Basic thermodynamic concepts'+'</h2>'+'<br>'+'<br>'+ '<br>'+'</u>'+
+        "teorieTermodinamica": ('<u>'+'<h2 class="p-3" align="center">'+'Basic Thermodynamic Concepts'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'Thermal agitation'+'</b>'+' is the disordered and continuous movement of the particles of a substance (atoms or molecules).'+'</li>'+' <br>'+
-                                    '<li>'+'<b>'+'Diffusion'+'</b>'+' is the phenomenon of penetration of the molecules of one substance among the molecules of another substance, without the intervention of an external force (by itself).'+ '</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Atom'+'</b>'+' is the smallest particle of a substance that cannot be further divided by ordinary chemical processes.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molecule'+'</b>'+' represents the smallest particle in a substance, which can also exist in a free state and which retains the properties of the substance from which it comes. '+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molecular mass'+'</b>'+' is a dimensionless quantity (no unit of measure) that shows us how many times the real mass of a molecule is greater than atomic mass unit (u.a.m.).'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'The relative atomic mass (A)'+'</b>'+' is the number that shows how many times the mass of an atom is greater than the atomic mass unit.'+ '</li>'+'<br>'+
-                                    '<li>'+'<b>'+'A mole of atoms'+'</b>'+' represents the amount, in grams, of a simple substance that contains 6.022 ∙ 10'+'<sup>' +'23'+'</sup>'+' atoms. It is written with the Greek letter "niu"= υ.'+'<br>'+'<br>'+
+                                    '<li>'+'<b>'+'<a id="1">'+'Thermal Agitation'+'</b>'+' is the random and continuous motion of the particles of a substance (atoms or molecules).'+'</a>'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Diffusion'+'</b>'+' is the phenomenon of molecules of one substance penetrating among the molecules of another substance, without the intervention of an external force (spontaneously).'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'The Atom'+'</b>'+' is the smallest particle of a substance that cannot be divided by ordinary chemical means.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'The Molecule'+'</b>'+' is the smallest particle of a substance that can exist freely and retains the properties of the substance from which it originates.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Molecular Mass'+'</b>'+' is a dimensionless quantity (without a unit of measure) that shows how many times the actual mass of a molecule is greater than the atomic mass unit (a.m.u.).'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Relative Atomic Mass (A)'+'</b>'+' is the number that shows how many times the mass of an atom is greater than the atomic mass unit.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'A Mole of Atoms'+'</b>'+' represents the amount, in grams, of a simple substance that contains 6.022 ∙ 10'+'<sup>'+'23'+'</sup>'+' atoms. It is denoted by the Greek letter “nu” = υ.'+'<br>'+'<br>'+
+                                
                                         'υ = m(g) / A(g/mol) = mass of simple substance(g) / atomic mass(g/mol)'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Avogadro\'s number'+'</b>'+', denoted by N'+'<sub>'+'A'+'</sub>'+' , is equal to 6.022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atoms and represents the number of atoms contained in a mole of atoms of any simple substance.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Molar mass'+'</b>'+' (denoted by the Greek letter miu = μ) is the mass of one mole of substance. Its unit of measure is g/mol.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'The mole'+'</b>'+' is the unit of measure in the International System of the amount of substance that contains a number of particles equal to Avogadro\'s number, N'+ '<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
-                                        'υ = m(g) / μ(g/mol) = Mass of compound(g) / Molar mass(g/mol)'+'<br>'+'<br>'+
-                                        'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Number of particles / Avogadro\'s number'+'</li>'+'<br>'+
-                                    '<li>'+'One mole of any gas occupies under normal conditions of temperature (273 K) and pressure (10'+'<sup>'+'5'+'</sup>'+' Pa) a volume , called '+'<b>'+'molar volume'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22.4 L /mol'+'<br>'+'<br>'+
-                                        'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Gas volume(L) / Molar volume(L/mol)'+'<br>'+'<br>'+
-                                        'The relationship between the molar volume and the density of a substance is:'+'<br>'+'<br>'+
+                                    '<li>'+'<b>'+'<a id="2">'+'Avogadro\'s Number'+'</b>'+', denoted by N'+'<sub>'+'A'+'</sub>'+', is equal to 6.022 ∙ 10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atoms and represents the number of atoms contained in one mole of atoms of any simple substance.'+'</a>'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Molar Mass'+'</b>'+' (denoted by the Greek letter mu = μ) is the mass of one mole of substance. It is measured in g/mol.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'The Mole'+'</b>'+' is the unit of measurement in the International System for the amount of substance that contains a number of particles equal to Avogadro\'s number, N'+'<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
+                                        'υ = m(g) / μ(g/mol) = mass of the compound substance(g) / molar mass(g/mol)'+'<br>'+'<br>'+
+                                        'υ = N / N'+'<sub>'+'A'+'</sub>'+' = number of particles / Avogadro\'s number'+'</li>'+'<br>'+
+                                    '<li>'+'One mole of any gas occupies, under normal conditions of temperature (273 K) and pressure (10'+'<sup>'+'5'+'</sup>'+' Pa), a volume called '+'<b>'+'<a id="5">'+'molar volume'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22.4 L/mol'+'</a>'+'<br>'+'<br>'+
+                                        'v = V / V'+'<sub>'+'μ'+'</sub>'+' = volume of gas(L) / molar volume(L/mol)'+'<br>'+'<br>'+
+                                        'The relationship between molar volume and the density of a substance is:'+'<br>'+'<br>'+
                                         'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
-                                        'The volume number (n) represents the number of particles (atoms or molecules) in a m3 of substance:'+'<br>'+'<br>'+
-                                        'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V '+'<br>'+'<br>'+'</li>'+
+                                        'The volumetric number (n) represents the number of particles (atoms or molecules) in one m3 of substance :'+'<br>'+'<br>'+
+                                        'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V'+'<br>'+'<br>'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Thermodynamic equilibrium and thermodynamic processes:'+'</h2>'+
+                                '<h2 class="p-3">'+'Thermodynamic Equilibrium and Thermodynamic Processes:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'The state of a thermodynamic system'+'</b>'+', at a certain moment, is characterized by certain physical quantities called state parameters.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Principle of thermodynamic equilibrium'+'</b>'+':'+'<br>'+'<br>'+
-
-                                        'An isolated thermodynamic system spontaneously evolves towards a state of thermodynamic equilibrium that it never leaves on its own.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'The state of thermodynamic equilibrium'+'</b>'+' of a system can be changed by contact :'+'<br>'+'<br>'+
-                                        '- mechanical with the external environment'+'<br>'+
-                                        '- thermal with another environment (when two bodies with different temperatures touch) or with the external environment'+'<br>'+
-                                        '- substance exchange with the external environment or other environment'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'The thermodynamic process'+'</b>'+' (state transformation) represents the transition of the system from one state to another.'+'</li>'+' <br>'+
-                                    '<li>'+'<b>'+'Quasi-static transformation'+'</b>'+' occurs when the intermediate states the system passes through are states of thermal equilibrium, when the state parameters vary very slowly.' +'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'The reversible process'+'</b>'+' is the quasi-static transformation that can occur in both directions, through the same intermediate states.'+'</li>'+ '<br>'+
-                                    '<li>'+'The equation of state (called Clapeyron - Mendeleev) describes the dependence between the state parameters of a thermodynamic system:'+'<br>'+'<br>'+                                       'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
-                                        'p = ideal gas pressure'+'<br>'+
-
-                                        'V = ideal gas volume'+'<br>'+
-
-                                        'ν = number of moles of ideal gas'+'<br>'+
-
+                                    '<li>'+'<b>'+'The State of a Thermodynamic System'+'</b>'+', at any given moment, is characterized by certain physical quantities called state parameters.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'The Principle of Thermodynamic Equilibrium'+'</b>'+':'+'<br>'+'<br>'+
+                                
+                                        'An isolated thermodynamic system spontaneously evolves towards a state of thermodynamic equilibrium which it will not leave on its own.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'The State of Thermodynamic Equilibrium'+'</b>'+' of a system can be modified through contact :'+'<br>'+'<br>'+
+                                        '- Mechanically with the external environment'+'<br>'+
+                                        '- Thermally with another medium (when two bodies with different temperatures touch) or with the external environment'+'<br>'+
+                                        '- Through substance exchange with the external environment or another medium'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Thermodynamic Process'+'</b>'+' (state transformation) represents the transition of the system from one state to another.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Quasi-static Transformation'+'</b>'+' occurs when the intermediate states through which the system passes are states of thermal equilibrium, when the state parameters vary very slowly.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Reversible Process'+'</b>'+' is the quasi-static transformation that can occur in both directions, through the same intermediate states.'+'</li>'+'<br>'+
+                                    '<li>'+'The equation of state (called Clapeyron - Mendeleev) describes the dependence between the state parameters of a thermodynamic system:'+'<br>'+'<br>'+
+                                    '<a id="4">'+'p ∙ V = ν ∙ R ∙ T'+'</a>'+'<br>'+'<br>'+
+                                        'p = pressure of the ideal gas'+'<br>'+
+                                
+                                        'V = volume of the ideal gas'+'<br>'+
+                                
+                                        'ν = number of moles of the ideal gas'+'<br>'+
+                                
                                         'R = universal gas constant = 8.3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
-
-                                        'T = ideal gas temperature'+'</li>'+
-                                '</ul>'+
-                                '<h2 align = center>'+
-                                '<img src = \"img/transformari.png\" width = 360>'+
+                                
+                                        'T = temperature of the ideal gas'+'</li>'+
+                                '</ul>'+        
+                                '<h2 align="center">'+
+                                    '<img src="img/transformari.png" width="360">'+
                                 '</h2>'+
-                                '<h2 class=\"p-3\">'+'Empirical temperature. Temperature scales:'+'</h2>'+
+                                '<h2 class="p-3">'+'Empirical Temperature. Temperature Scales:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Two closed thermodynamic systems adiabatically isolated from the outside that do not exchange energy with each other have the same temperature, called the '+'<b>'+'empirical temperature.'+'</b>'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Temperature'+'</b>'+' is a physical quantity of state measured with a thermometer, involving a thermometric body, a thermometric quantity, and a temperature scale.' +'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'The zero principle of thermodynamics'+'</b>'+' (transitivity of thermal equilibrium):'+'<br>'+'<br>'+
+                                    '<li>'+'Two closed and adiabatically isolated thermodynamic systems that do not exchange energy with each other have the same temperature, called '+'<b>'+'empirical temperature.'+'</b>'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'Temperature'+'</b>'+' is a physical state variable measured with a thermometer, which involves a thermometric body, a thermometric quantity, and a temperature scale.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'The Zeroth Law of Thermodynamics'+'</b>'+' (transitivity of thermal equilibrium):'+'<br>'+'<br>'+
                                         'If system A is in thermal equilibrium with system B and system B is in thermal equilibrium with system C, then system A is also in thermal equilibrium with system C.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Transformation relation'+'</b>'+' between Celsius t(°C) and Fahrenheit tF (°F):'+'<br>'+ '<br>'+
+                                    '<li>'+'<b>'+'Transformation Relationship'+'</b>'+' between Celsius scale t(°C) and Fahrenheit tF (°F):'+'<br>'+'<br>'+
                                         't'+'<sub>'+'F'+'</sub>'+' = 9/5 ∙ t(°C) + 32'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Kelvin scale'+'</b>'+' (absolute): '+'<br>'+'<br>'+
+                                    '<li>'+'<b>'+'Kelvin Scale'+'</b>'+' (absolute): '+'<br>'+'<br>'+
                                         '[T]'+'<sub>'+'SI'+'</sub>'+' = K (kelvin)'+'<br>'+'<br>'+
-                                        'T(K) = t (°C) + 273.15'+'</li>'+
+                                        '<a id="3">'+'T(K) = t (°C) + 273.15'+'</a>'+'</li>'+
                                 '</ul>'+
 
                                 //Principiul I
-                                '<a name=\"element_target\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'The principle I'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                                
+                                '<a name="element_target"></a>'+
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class="p-3" align="center">'+'Principle I'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
 
-                                '<h2 class=\"p-3\">'+'Mechanical work:'+'</h2>'+
+                                '<h2 class="p-3">'+'Mechanical Work:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'The exchange of energy between a closed thermodynamic system and the external environment can take place in two ways:'+'<br>'+'<br>'+
+                                    '<li>'+'The exchange of energy between a closed thermodynamic system and the external environment can occur in two ways:'+'<br>'+'<br>'+
                                         '- By performing mechanical work'+'<br>'+
                                         '- By heat transfer.'+'<br>'+'<br>'+
                                         
-                                        'The measure of the energy transferred to the system under the conditions of the interactions that result in the variation of the position parameters under the action of some forces is called '+'<b>'+'mechanical work.'+'</b>'+'<br>'+' <br>'+
+                                        'The measure of energy transferred to the system under interactions resulting in changes in position parameters under the action of forces is called '+'<b>'+'mechanical work.'+'</b>'+'<br>'+'<br>'+
                                         'L = F ∙ d'+'</li>'+'<br>'+
                                     '<li>'+'The mechanical work done by the external force F'+'<sub>'+'e'+'</sub>'+' is :'+'<br>'+'<br>'+
                                         'L'+'<sub>'+'e'+'</sub>'+' = p'+'<sub>'+'e'+'</sub>'+' ∙ S ∙ (x1 - x2) = - p'+'<sub>'+'e'+'</sub>'+' ∙ ΔV'+'<br>'+'<br>'+
-                                        'S = cross-sectional area of ​​cylinder'+'<br>'+
+                                        'S = cross-sectional area of the cylinder'+'<br>'+
                                         'p'+'<sub>'+'e'+'</sub>'+' = external pressure'+'<br>'+
-
+                                        
                                         'V2 = S ∙ x2'+'<br>'+
                                         'V1 = S ∙ x1'+'<br>'+
                                         
                                         'ΔV = V2 - V1'+'</li>'+'<br>'+
-                                        '<li>'+'The mechanical work done by the thermodynamic system in an isobaric transformation is:'+'<br>'+'<br>'+
-                                        'L = p ∙ ΔV'+'</li>'+'<br>'+
+                                    '<li>'+'The mechanical work done by the thermodynamic system in an isobaric transformation is:'+'<br>'+'<br>'+
+                                    '<a id="6">'+'L = p ∙ ΔV'+'</a>'+'</li>'+'<br>'+
+
+                                    '<li>'+'Sign conventions for mechanical work performed by the thermodynamic system:'+'<br>'+'<br>'+
                                     
-                                    '<li>'+'Sign conventions for the mechanical work done by the thermodynamic system:'+'<br>'+'<br>'+
+                                        'a) If the gas expands (its volume increases), ΔV > 0, then L > 0 and the system performs mechanical work on the external environment (releases L).'+'<br>'+'<br>'+
                                     
-                                        'a) If the gas expands (increases its volume), ΔV > 0, then L > 0 and the system performs mechanical work on the external medium (yields L).'+'<br>'+'<br>'+
+                                        'b) If the gas compresses (its volume decreases), ΔV < 0, then L < 0 and mechanical work is performed on the system (receives L).'+'<br>'+'<br>'+
                                     
-                                        'b) If the gas is compressed (its volume decreases), ΔV < 0, then L < 0 and mechanical work is done on the system (receives L).'+'<br>'+'<br>'+
-                                    
-                                        'c) If there is no transfer of energy through mechanical work between the system and the outside (L = 0), then the gas does not change its volume (ΔV=0).'+'</li>'+'<br>'+
+                                        'c) If there is no energy transfer by mechanical work between the system and the external environment (L = 0), then the gas does not change its volume (ΔV = 0).'+'</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Mechanical work:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Mechanical Work:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The energy of the particles of a real gas is given by:'+'<br>'+'<br>'+
+                                        'The energy of particles in a real gas is given by:'+'<br>'+'<br>'+
                                         '- External energy is given by the sum of the kinetic energy of the system as a whole and its potential energy in a force field.'+'<br>'+'<br>'+
-                                        '- Internal energy (U) is given by the sum of the kinetic energies of the molecules (E'+'<sub>'+'c'+'</sub>'+') and the potential energies of interaction between the molecules of the thermodynamic system (E '+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
+                                        '- Internal energy (U) is given by the sum of the kinetic energies of the molecules (E'+'<sub>'+'c'+'</sub>'+') and the potential interaction energies between the molecules of the thermodynamic system (E'+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
                                         'U = Ec + Ep'+'<br>'+'<br>'+
-                                        '- But the internal energy variation (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub>' +') is a physical state quantity and does not depend on the intermediate states through which the system passes, but only on the initial state (U'+'<sub>'+'1'+'</sub>'+') and the final (U'+'<sub>'+'2'+'</sub>'+').'+
+                                        '- However, the variation in internal energy (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub>'+') is a state variable and does not depend on the intermediate states the system passes through, only on the initial state (U'+'<sub>'+'1'+'</sub>'+') and the final state (U'+'<sub>'+'2'+'</sub>'+').'+
+                                    '</li>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Heat:'+'</h2>'+
 
-                                    '</li>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Heat:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+
-                                        'Heat (Q) is a physical quantity that measures the energy transferred, only through the disordered movement of molecules between two bodies in thermal contact.'+'<br>'+'<br>'+
+                                '<li>'+
+                                    'Heat (Q) is a physical quantity that measures the energy transferred, solely through the random motion of molecules, between two bodies in thermal contact.'+'<br>'+'<br>'+
 
-                                        '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+
-                                        'Another tolerated unit of measure for heat is the calorie: 1cal = 4.18 J'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+'Sign conventions for heat:'+'<br>'+'<br>'+
-                                        'a) When the system receives heat from outside, then Q > 0'+'<br>'+'<br>'+
-                                        'b) When the system gives off heat to the outside, then Q < 0'+'<br>'+'<br>'+
-                                        'c) When the system is isolated adiabatically (does not exchange heat with the outside), then Q = 0'+
-                                    '</li>'+'<br>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Consequences of the first principle of thermodynamics:'+'</h2>'+
+                                    '<a id="7">'+'[Q]'+'<sub>'+'SI'+'</sub>'+' = J (joule)'+'<br>'+'<br>'+'</a>'+
+                                    'Another accepted unit of measure for heat is the calorie: 1 cal = 4.18 J'+
+                                '</li>'+'<br>'+
+                                '<li>'+'Sign conventions for heat:'+'<br>'+'<br>'+
+                                    'a) When the system receives heat from the surroundings, then Q > 0'+'<br>'+'<br>'+
+                                    'b) When the system gives off heat to the surroundings, then Q < 0'+'<br>'+'<br>'+
+                                    'c) When the system is adiabatically isolated (no heat exchange with the surroundings), then Q = 0'+
+                                '</li>'+'<br>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Consequences of the First Law of Thermodynamics:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Statement of the First Law of Thermodynamics:'+'<br>'+'<br>'+
+                                    'The change in the internal energy of a system in any process is:'+'<br>'+'<br>'+
+                                    'ΔU = Q - L'+'</li>'+'<br>'+
+                                '<li>'+'If the system is isolated (no heat or work exchange with the surroundings), then'+'<br>'+'<br>'+
+                                    'Q = L = 0, ΔU = U2 – U1 = 0, and U1 = U2, meaning the internal energy of an isolated system is conserved.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'The equation of the First Law of Thermodynamics can also be written in terms of the heat definition:'+'<br>'+'<br>'+
+                                    'Q = ΔU + L, meaning the heat received by a system serves both to change the internal energy of the system and to perform mechanical work by the system.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'If the system is adiabatically isolated (no heat exchange with the surroundings), then'+'<br>'+'<br>'+
+                                    'Q = 0 and L = –ΔU = –(U2 – U1), meaning an adiabatically isolated system only exchanges mechanical work with the surroundings at the expense of internal energy.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'If the system does not exchange mechanical work with the surroundings (L = 0), but only heat, then'+'<br>'+'<br>'+
+                                    'ΔU = Q, meaning the heat received by the system leads to an increase in the internal energy of the system.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'In a cyclic transformation, ΔU = U2 – U1 = 0 and L = Q, meaning the system can only perform mechanical work if it receives heat from the surroundings.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'Hence arises the impossibility of the existence of a first-order perpetual motion machine (a device that produces mechanical work without consuming energy from the surroundings).'+
+                                '</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Heat Capacity Coefficients:'+'</h2>'+
+
+                            '<ul>'+
+                            '<li>'+
+                                'Specific heat capacity (c) represents the physical quantity that characterizes the heat absorbed/released by 1 kg of substance to increase/decrease its temperature by one degree. It is a material constant found in the table of constants at the end of this chapter.'+'<br>'+'<br>'+
+                                'c = 1 / m ∙ Q / ΔT'+'<br>'+'<br>'+
+                                '[c]'+'<sub>'+'SI'+'</sub>'+' = J/kg∙K'+'<br>'+'<br>'+
+                                'Q = m ∙ c ∙ ΔT'+'<br>'+
+                                'm = mass of the body'+'<br>'+
+                                'c = specific heat capacity'+'<br>'+
+                                'ΔT = T'+'<sub>'+'final'+'</sub>'+' – T'+'<sub>'+'initial'+'</sub>'+' ,temperature variation of the body'+'<br>'+'<br>'+
+                                'Q'+'<sub>'+'received'+'</sub>'+' > 0'+'<br>'+
+                                'Q'+'<sub>'+'released'+'</sub>'+'< 0 '+'<br>'+'<br>'+
+                                'Calorimetric equation: '+'<br>'+'Q'+'<sub>'+'received'+'</sub>'+' = | Q'+'<sub>'+'released'+'</sub>'+' |'+'<br>'+
+                            '</li>'+'<br>'+
+                            '<li>'+
+                                'Heat capacity (C) represents the physical quantity that characterizes the amount of heat required by the thermodynamic system to change its temperature by one degree.'+'<br>'+'<br>'+
+                                'C = Q / ΔT'+'<br>'+'<br>'+
+                                '[C]'+'<sub>'+'SI'+'</sub>'+' = J/Kg'+'<br>'+'<br>'+
+                                'Q = C ∙ ΔT'+
+                            '</li>'+'<br>'+
+                            '<li>'+
+                                'Molar heat capacity (C'+'<sub>'+'μ'+'</sub>'+') is the heat required to change the temperature of one mole of a substance by one degree.'+'<br>'+'<br>'+
+                                'C'+'<sub>'+'μ'+'</sub>'+' = Q / v ∙ ΔT'+
+                                '[C'+'<sub>'+'μ'+'</sub>'+'] = J/mol∙K'+
+                            '</li>'+
+                        '</ul>'+
+
+                        '<h2 class="p-3">'+'Degrees of Freedom:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'State the first principle of thermodynamics:'+'<br>'+'<br>'+
-                                        'The variation of the internal energy of a system in some process is:'+'<br>'+'<br>'+
-                                        'ΔU = Q - L'+'</li>'+'<br>'+
-                                    '<li>'+'If the system is isolated (it exchanges neither heat nor mechanical work with the outside), then'+'<br>'+'<br>'+
-                                        'Q = L = 0, ΔU = U2 – U1 = 0 and U1 = U2, i.e. the internal energy of an isolated system is conserved.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'The equation of the first principle of thermodynamics can also be written in the form of the definition of heat:'+'<br>'+'<br>'+
-                                        'Q = ΔU + L, i.e. the heat received by a system serves both to change the internal energy of the system and to perform mechanical work by the system.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'If the system is adiabatically isolated (does not exchange heat with the outside), then'+'<br>'+'<br>'+
-                                        'Q = 0 and L = –ΔU = –(U2 – U1), i.e. an isolated adiabatic system exchanges mechanical work with the outside only due to the variation of internal energy.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'If the system does not exchange mechanical work with the outside (L= 0), but only heat then'+'<br>'+'<br>'+
-                                        'ΔU = Q, i.e. the heat received by the system leads to an increase in the internal energy of the system.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'In a cyclic transformation, ΔU = U2 – U1 = 0 and L = Q, that is, the system can perform mechanical work only if it receives heat from the outside.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'From this follows the impossibility of the existence of a perpetuum mobile of the first kind (a device that produces mechanical work without consuming energy from the outside).'+
-                                    '</li>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Caloric coefficients:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+
-                                        'The specific heat (c) represents the physical quantity that characterizes the heat absorbed/given up by 1kg of substance to increase/decrease its temperature by one degree. It is a material constant and can be found in the table of constants at the end of this chapter.'+'<br>'+'<br>'+
-                                        'c = 1 / m ∙ Q / ΔT'+'<br>'+'<br>'+
-                                        '[c]'+'<sub>'+'SI'+'</sub>'+' = J/Kg∙K'+'<br>'+'<br>'+
-                                        'Q = m ∙ c ∙ ΔT'+'<br>'+
-                                        'm = body mass'+'<br>'+
-                                        'c = specific heat'+'<br>'+
-                                        'ΔT = T'+'<sub>'+'final'+'</sub>'+' – T'+'<sub>'+'initial'+'</sub>'+' , the body temperature variation '+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'received'+'</sub>'+' > 0'+'<br>'+
-                                        'Q'+'<sub>'+'given'+'</sub>'+'< 0 '+'<br>'+'<br>'+
-                                        'The calorimetric equation: '+'<br>'+'Q'+'<sub>'+'received'+'</sub>'+' = | Q'+'<sub>'+'given'+'</sub>'+' |'+'<br>'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'The heat capacity (C) represents the physical quantity that characterizes the amount of heat required by the thermodynamic system to vary its temperature by one degree.'+'<br>'+'<br>'+
-                                        'C = Q / ΔT'+'<br>'+'<br>'+
-                                        '[C]'+'<sub>'+'SI'+'</sub>'+' = J/Kg'+'<br>'+'<br>'+
-                                        'Q = C ∙ ΔT'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Molar heat (C'+'<sub>'+'μ'+'</sub>'+') is the heat required to change the temperature of one mole of a substance by one degree.'+'<br>' +'<br>'+
-                                        'C'+'<sub>'+'μ'+'</sub>'+' = Q / v ∙ ΔT'+
-                                        '[C'+'<sub>'+'μ'+'</sub>'+'] = J/mol∙K'+
-                                    '</li>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Degrees of freedom:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+'As in thermodynamics ideal gas molecules are considered material points, the independent coordinates that characterize the thermodynamic system are called degrees of freedom.'+'<br>'+'<br>'+
-                                        '- For monatomic gases: i = 3'+'<br>'+
+                                    '<li>'+'As in thermodynamics, the molecules of the ideal gas are considered point masses, the independent coordinates that characterize the thermodynamic system are called degrees of freedom.'+'<br>'+'<br>'+
+                                    '<a id="8">'+'- For monoatomic gases: i = 3'+'</a>'+
                                         '- For diatomic gases: i = 5'+'<br>'+
                                         '- For polyatomic gases: i = 6'+'<br>'+'<br>'+
 
-                                        'The molar heat at constant volume is:'+'<br>'+'<br>'+
+                                        'Molar heat capacity at constant volume is:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'v'+'</sub>'+' = i/2 R'+'<br>'+'<br>'+
-                                        'The molar heat at constant pressure is:'+'<br>'+'<br>'+
+                                        'Molar heat capacity at constant pressure is:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = (i + 2)/2 R'+'<br>'+'<br>'+
-                                        'R = 8.3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (universal gas constant)'+'</li>'+
+                                        'R =  8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (universal gas constant)'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Isochore transformation :'+'</h2>'+
+                                '<h2 class="p-3">'+'Isobaric Transformation:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'(ν and V const.) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
+                                    '<li>'+'(ν and' + '<a id="9">'+' V const.'+'</a>'+') → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
                                     '<li>'+'We have two cases:'+'<br>'+'<br>'+
-                                        '- The gas enclosed in a constant volume is heated, absorbs heat → QV > 0 and ΔU > 0 (increases the internal energy of the gas).'+'<br>'+'<br>'+
-                                        '- The gas enclosed in a constant volume is cooled, it gives up heat → QV < 0 and ΔU < 0 (the internal energy of the gas decreases)'+'</li>'+'<br>'+
+                                        '- The gas enclosed in a vessel of constant volume is heated, absorbing heat → QV > 0 and ΔU > 0 (increases the internal energy of the gas).'+'<br>'+'<br>'+
+                                        '- The gas enclosed in a vessel of constant volume is cooled, releasing heat → QV < 0 and ΔU < 0 (decreases the internal energy of the gas)'+'</li>'+'<br>'+
                                     '<li>'+' Formulas: '+'<br>'+'<br>'+
                                         
-                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT '+'<br>'+'<br>'+
-                                        'ΔU = U – U'+'<sub>'+'0'+'</sub>'+' and ΔT = T – T'+'<sub>'+'0'+'</sub>' +', for T'+'<sub>'+'0'+'</sub>'+' = 0 K → U'+'<sub>'+'0'+'</sub>'+' = 0'+'<br>'+'<br>'+
-                                        'The internal energy of a monatomic ideal gas is:'+'<br>'+
+                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
+                                        'ΔU = U – U'+'<sub>'+'0'+'</sub>'+' and ΔT = T – T'+'<sub>'+'0'+'</sub>'+', for T'+'<sub>'+'0'+'</sub>'+' = 0 K → U'+'<sub>'+'0'+'</sub>'+' = 0'+'<br>'+'<br>'+
+                                        'The internal energy of an ideal monoatomic gas is:'+'<br>'+
                                         'U = ν ∙ C'+'<sub>'+'V'+'</sub>'+'∙ T = 3/2 ∙ ν ∙ R ∙ T'+'</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Isobaric transformation:'+'</h2>'+
+                                '<h2 class="p-3">'+'Isobaric Transformation:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
                                         '(ν and p const.)'+'<br>'+'<br>'+
-                                        'If the gas is heated, it absorbs heat → Qp > 0 and part of the energy is used to increase the internal energy of the gas ΔU > 0 and the other part is the mechanical work done by the gas on the outside, L > 0.'+
+                                        'If the gas is heated, it absorbs heat → Qp > 0, and part of the energy is used to increase the internal energy of the gas ΔU > 0, and the other part is the mechanical work done by the gas on the surroundings, L > 0.'+
                                     '</li>'+'<br>'+
                                     '<li>'+' Formulas: '+'<br>'+'<br>'+
                                             'L = p ∙ ΔV'+'<br>'+'<br>'+
-                                            'Q'+'<sub>'+'p'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT'+ '<br>'+'<br>'+
-                                            'The internal energy variation does not depend on the process and we can write:'+'<br>'+
+                                            'Q'+'<sub>'+'p'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
+                                            'The change in internal energy does not depend on the process and we can write:'+'<br>'+
                                             'ΔU = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Isothermal transformation:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+
-                                        '(ν and T const.) → U = const. and ΔU = 0.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'When the gas is heated, it absorbs heat → QT > 0 and L > 0, being used entirely to perform mechanical work on the exterior.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'In an isothermal transformation, the pressure is inversely proportional to the volume of the gas and then we have mechanical work.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+' Formule: '+'<br>'+'<br>'+
-                                        'L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>' +' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+' <br>'+'<br>'+
-                                        'p'+'<sub>'+'1'+'</sub>'+' ∙ V'+'<sub>'+'1'+'</sub>'+' = p'+'<sub>'+'2'+'</sub>'+' ∙ V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+') = v ∙ R ∙ T ∙ ln(p1 / p2)'+'<br>'+'<br>'+
-                                        'U = const and ΔU = 0'+
-                                    '</li>'+'<br>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Adiabatic transformation:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+
-                                        '(ν const.) → Qad = 0'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Formula:'+'<br>'+'<br>'+
-                                        'ΔU = - L'+'<sub>'+'ad'+'</sub>'+'<br>'+'<br>'+
-                                        'ΔU = ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ΔT'+'<br>'+'<br>'+
-                                        'L'+'<sub>'+'ad'+'</sub>'+' = - ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ ΔT' +'<br>'+'<br>'+
-                                        'The equation of the adiabatic process is called Poisson\'s equation:'+'<br>'+
-                                        'p ∙ V'+'<sup>'+'y'+'</sup>'+' = const.'+'<br>'+
-                                        'y = adiabatic coefficient = C'+'<sub>'+'p'+'</sub>'+' / C'+'<sub>'+'V'+'</sub>'+'<br>'+
-                                        'T ∙ V'+'<sup>'+'y-1'+'</sup>'+' - const'+
-                                        'T'+'<sup>'+'y'+'</sup>'+' / p '+'<sup>'+'y-1'+'</sup>'+' = const'+
-                                    '</li>'+
-                                '</ul>'+
-                                
-                                '<h2 class=\"p-3\">'+'Robert – Mayer relationship:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+
-                                        'In case of isochore transformation:'+'<br>'+'<br>'+
-                                        'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = v ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT '+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'V'+'</sub>'+' = Q'+'<sub>'+'V'+'</sub>'+' / (v ∙ ΔT) = ΔU / (v ∙ ΔT)'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'In case of isobaric transformation:'+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'p'+'</sub>'+' = (v ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT) = ΔU + p ∙ ΔV'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'p'+'</sub>'+' = Q'+'<sub>'+'p'+'</sub>'+' / (v ∙ ΔT) = (ΔU + p ∙ ΔV) / (v ∙ ΔT)'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Combining the two relations of Cp and CV we get:'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + (p ∙ ΔV) / (v ∙ ΔT)'+'<br>'+'<br>'+
-                                        'From the thermal equation of state:'+'<br>'+'<br>'+
-                                        'p ∙ ΔV = ν ∙ R ∙ ΔT'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'The Robert–Mayer relation establishes the relationship between molar heats:'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'The Robert–Mayer relation establishes the relationship between molar specific heats:'+'<br>'+'<br>'+
-                                        'c'+'<sub>'+'p'+'</sub>'+' = c'+'<sub>'+'V'+'</sub>'+' + (R / μ) '+
-                                    '</li>'+
-                                '</ul>'+
 
+                                '<h2 class="p-3">'+'Isothermal Transformation:'+'</h2>'+
+                                '<ul>'+
+                                '<li>'+
+                                    '(ν and T const.) → U = const. and ΔU = 0.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'When the gas is heated, it absorbs heat → QT > 0 and L > 0, being entirely used for performing mechanical work on the surroundings.'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'In an isothermal transformation, pressure is inversely proportional to the volume of the gas, and then we have mechanical work.'+
+                                '</li>'+'<br>'+
+                                '<li>'+' Formulas: '+'<br>'+'<br>'+
+                                    'L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                    'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                    'p'+'<sub>'+'1'+'</sub>'+' ∙ V'+'<sub>'+'1'+'</sub>'+' = p'+'<sub>'+'2'+'</sub>'+' ∙ V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
+                                    'Q'+'<sub>'+'T'+'</sub>'+' = L'+'<sub>'+'T'+'</sub>'+' = v ∙ R ∙ T ∙ ln(V'+'<sub>'+'2'+'</sub>'+' / V'+'<sub>'+'1'+'</sub>'+') = v ∙ R ∙ T ∙ ln(p1 / p2)'+'<br>'+'<br>'+
+                                    'U = const and ΔU = 0'+
+                                '</li>'+'<br>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Adiabatic Transformation:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+
+                                    '(ν const.) → Qad = 0'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'Formulas:'+'<br>'+'<br>'+
+                                    'ΔU = - L'+'<sub>'+'ad'+'</sub>'+'<br>'+'<br>'+
+                                    'ΔU = ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ΔT'+'<br>'+'<br>'+
+                                    'L'+'<sub>'+'ad'+'</sub>'+' = - ν ∙ C'+'<sub>'+'v'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
+                                    'The equation of the adiabatic process is called the Poisson equation:'+'<br>'+
+                                    'p ∙ V'+'<sup>'+'y'+'</sup>'+' = const.'+'<br>'+
+                                    'y = adiabatic coefficient = C'+'<sub>'+'p'+'</sub>'+' / C'+'<sub>'+'V'+'</sub>'+'<br>'+
+                                    'T ∙ V'+'<sup>'+'y-1'+'</sup>'+' - const'+
+                                    'T'+'<sup>'+'y'+'</sup>'+' / p '+'<sup>'+'y-1'+'</sup>'+' = const'+
+                                '</li>'+
+                            '</ul>'+
+                                
+                            '<h2 class="p-3">'+'Robert – Mayer Relationship:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+
+                                    'In the case of isochoric transformation:'+'<br>'+'<br>'+
+                                    'ΔU = Q'+'<sub>'+'V'+'</sub>'+' = v ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ ΔT'+'<br>'+'<br>'+
+                                    'C'+'<sub>'+'V'+'</sub>'+' = Q'+'<sub>'+'V'+'</sub>'+' / (v ∙ ΔT) =  ΔU / (v ∙ ΔT)'+ 
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'In the case of isobaric transformation:'+'<br>'+'<br>'+
+                                    'Q'+'<sub>'+'p'+'</sub>'+' = (v ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ ΔT) = ΔU + p ∙ ΔV'+'<br>'+'<br>'+
+                                    'C'+'<sub>'+'p'+'</sub>'+' = Q'+'<sub>'+'p'+'</sub>'+' / (v ∙ ΔT) = (ΔU + p ∙ ΔV) / (v ∙ ΔT)'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'Combining the two relationships of Cp and CV, we obtain:'+'<br>'+'<br>'+
+                                    'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + (p ∙ ΔV) / (v ∙ ΔT)'+'<br>'+'<br>'+
+                                    'From the thermal equation of state:'+'<br>'+'<br>'+
+                                    'p ∙ ΔV = ν ∙ R ∙ ΔT'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'The Robert–Mayer relationship establishes the relationship between molar heats:'+'<br>'+'<br>'+
+                                    '<a id="10">'+'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+'</a>'+
+                                '</li>'+'<br>'+
+                                '<li>'+
+                                    'The Robert–Mayer relationship establishes the relationship between specific molar heats:'+'<br>'+'<br>'+
+                                    'c'+'<sub>'+'p'+'</sub>'+' = c'+'<sub>'+'V'+'</sub>'+' + (R / μ)'+
+                                '</li>'+
+                            '</ul>'+                            
 
                                 //Motoare termice
-                                '<a name=\"element_target2\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Engines thermal'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                                
-                                '<h2 class=\"p-3\">'+'Thermal machines:'+'</h2>'+
+                                '<a name="element_target2"></a>'+
+                                '<br><br><br><br><u><h2 class="p-3" align="center">'+'Thermal Engines'+'</h2><br><br><br></u>'+
+                                                                
+                                '<h2 class="p-3">'+'Heat Engines:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'During a bithermal cyclic transformation, the thermodynamic system exchanges heats Q'+'<sub>'+'1'+'</sub>'+', respectively Q'+'<sub>'+'2'+'</sub>'+' with two heat sources whose temperatures are T'+'<sub>'+'1'+'</sub>'+' (hot source) and T'+'<sub>'+ '2'+'</sub>'+' (cold spring), with T'+'<sub>'+'1'+'</sub>'+' > T'+'<sub>'+' 2'+'</sub>'+' .'+'<br>'+'<br>'+
-                                            'As cyclic transformations have ΔU = 0, according to the first principle of thermodynamics we have'+'<br>'+'<br>'+
+                                        'During a two-term cyclic transformation, the thermodynamic system exchanges heats Q'+'<sub>'+'1'+'</sub>'+', and Q'+'<sub>'+'2'+'</sub>'+' with two heat sources whose temperatures are T'+'<sub>'+'1'+'</sub>'+' (hot source) and T'+'<sub>'+'2'+'</sub>'+' (cold source), with T'+'<sub>'+'1'+'</sub>'+' > T'+'<sub>'+'2'+'</sub>'+' .'+'<br>'+'<br>'+
+                                            'As cyclic transformations have ΔU = 0, according to the first law of thermodynamics we have'+'<br>'+'<br>'+
                                             'Q'+'<sub>'+'1'+'</sub>'+' + Q'+'<sub>'+'2'+'</sub>'+' = L'+'<br>'+'<br>'+
 
-                                            'The heat engine is a thermodynamic system that performs a cyclic transformation in which it exchanges heat and mechanical work with the external environment.'+
+                                            'The heat engine is a thermodynamic system that performs a cyclic transformation in which it exchanges heat and mechanical work with the external environment.'+  
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Thermal engines:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Thermal Engines:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        "The heat engine is a system that transforms the heat received, by burning a fuel (gasoline, diesel, methane gas, etc.) into mechanical work."+
+                                        '<a id="12">'+'The heat engine is a system that converts received heat, through the burning of a fuel (gasoline, diesel, methane, etc.), into mechanical work.'+'</a>'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'The Otto engine:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Otto Engine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The Otto engine uses as fuel a mixture of air with gasoline vapors that is created in the carburetor.'+'<br>'+'<br>'+
-                                        '- The fuel mixture is sucked through the intake valve (S1) into the piston cylinder.'+'<br>'+'<br>'+
-                                        '- The gases resulting from the combustion of the fuel mixture are eliminated through the exhaust valve (S2).'+'<br>'+'<br>'+
-                                        '- Operating time is the period of displacement of the piston from top dead center = TDC (cylinder closes a minimum volume of substance) to bottom dead center = PMI (cylinder closes a maximum volume of substance) and vice versa.'+'<br>'+'<br>'+
-                                        '- The piston is connected to a connecting rod-crank system (vilbrochen = crankshaft), to transform the rectilinear movement of the piston into rotational movement.'+'<br>'+'<br>'+
-                                        '- The engine block consists of several cylinders connected in series. Each piston has a different deployment time to allow permanent and constant rotation of the vilborchen.'+
+                                        'The Otto engine uses a mixture of air and gasoline vapors that is produced in the carburetor.'+'<br>'+'<br>'+
+                                        '- The fuel mixture is sucked in through the intake valve (S1) into the cylinder with the piston.'+'<br>'+'<br>'+
+                                        '- The gases resulting from the burning of the fuel mixture are eliminated through the exhaust valve (S2).'+'<br>'+'<br>'+
+                                        '- The running time is the period of displacement of the piston from the top dead center = TDC (cylinder closes a minimum volume of substance) to the bottom dead center = BDC (cylinder closes a maximum volume of substance) and vice versa.'+'<br>'+'<br>'+
+                                        '- The piston is connected to a crank-connecting rod system (vilbrochen = crankshaft), to convert the rectilinear motion of the piston into rotary motion.'+'<br>'+'<br>'+
+                                        '- The engine block is made up of several cylinders connected in series. Each piston has a different stroke time to allow the permanent and constant rotation of the crankshaft.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Otto engine running times:'+'<br>'+'<br>'+
+                                        'Operating times of the Otto engine:'+'<br>'+'<br>'+
 
-                                        ' - '+'<b>'+'Time 1: Admission'+'</b>'+' - (isobar process):'+'<br>'+'<br>'+
-                                        ' The intake valve opens, the gasoline-air mixture is drawn into the cylinder and the piston descends from TDC to TDC at constant pressure. It\'s the first descent of the piston.'+'<br>'+'<br>'+
-                                        
-                                        ' -'+'<b>'+'Time 2: Compression'+'</b>'+' - (adiabatic process):'+'<br>'+'<br>'+
-                                        ' Both valves are closed. The piston moves up to TDC, so the fuel is highly compressed, in which case the pressure and temperature increase. Due to the high speed at which compression occurs, this process is adiabatic (no heat exchange with the outside). It is the first rise of the piston.'+'<br>'+'<br>'+
+                                        ' - '+'<b>'+'Time 1: Intake'+'</b>'+' - (isobaric process):'+'<br>'+'<br>'+
+                                        'The intake valve opens, the gasoline-air mixture is sucked into the cylinder, and the piston descends from TDC to BDC, at constant pressure. This is the first descent of the piston.'+'<br>'+'<br>'+
+                                                                        
+                                        ' - '+'<b>'+'<a id="11">'+'Time 2: Compression'+'</b>'+' - (adiabatic process):'+'</a>'+'<br>'+'<br>'+
+                                        'Both valves are closed. The piston rises to TDC, compressing the fuel strongly, whereby the pressure and temperature increase. Due to the high speed at which compression occurs, this process is adiabatic (without heat exchange with the surroundings). This is the first rise of the piston.'+'<br>'+'<br>'+
 
-                                        ' -'+'<b>'+'Time 3 : Ignition'+'</b>'+' - (isochore process) and '+'<b>'+'detente'+'</b>'+ ' - (adiabatic process):'+'<br>'+'<br>'+
-                                        ' Both valves are closed and the piston is at TDC. The electric spark produced by the spark plug ignites the mixture, which explodes and leads to a considerable increase in pressure at constant volume. The mixture burns with the release of heat (Q1 = heat received by the engine). The gases resulting from combustion expand adiabatically, pushing the piston into PMI with mechanical work performed. This is the second descent of the piston.'+'<br>'+'<br>'+
+                                        ' - '+'<b>'+'Time 3: Ignition'+'</b>'+' - (isochoric process) and '+'<b>'+'expansion'+'</b>'+' - (adiabatic process):'+'<br>'+'<br>'+
+                                        'Both valves are closed, and the piston is at TDC. The electric spark produced by the spark plug ignites the mixture, which explodes and leads to a considerable increase in pressure at constant volume. The mixture burns, releasing heat (Q1 = heat received by the engine). The resulting gases from combustion expand adiabatically, pushing the piston to BDC with the performance of mechanical work. This is the second descent of the piston.'+'<br>'+'<br>'+
 
-                                        ' -'+'<b>'+'Time 4 : Evacuation'+'</b>'+' - (isochoric process) and (isobaric process):'+'<br>'+'<br>'+
-                                        ' The exhaust valve S2 opens, in which case the pressure suddenly drops to the value of the atmospheric pressure. In this isochoric process the mixture gives up the heat Q2 to the outside environment. The piston moves up to TDC pushing out the burnt gases at constant pressure. From here the cycle resumes.'+
+                                        ' - '+'<b>'+'Time 4: Exhaust'+'</b>'+' - (isochoric process) and (isobaric process):'+'<br>'+'<br>'+
+                                        'The exhaust valve S2 opens, causing the pressure to drop abruptly to the value of atmospheric pressure. In this isochoric process, the mixture releases heat Q2 to the surroundings. The piston rises to TDC, pushing out the burned gases at constant pressure. From here, the cycle repeats.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Efficiency of the Otto thermal engine:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Efficiency of the Otto Engine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The efficiency of the Otto heat engine (η) is a physical quantity equal to the ratio between the mechanical work done by the engine (L) and the heat received (Q).'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'given'+'</sub>' +'|. / Q'+'<sub>'+'received'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>' +'|. / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                    '<a id="13">'+'The efficiency of the Otto engine (η) is a physical quantity equal to the ratio between the mechanical work done by the engine (L) and the heat received (Q).'+'</a>'+'<br>'+'<br>'+
+                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'released'+'</sub>'+'| / Q'+'<sub>'+'received'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
 
-                                        'We assume that the working substance is an ideal gas and the compression ratio is ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 '+'</sub>'+'.'+'<br>'+'<br>'+
+                                        'Let\'s assume that the working substance is an ideal gas and the compression ratio is ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'.'+'<br>'+'<br>'+
 
-                                        'The heats in the four transformations are :'+'<br>'+'<br>'+
+                                        'The heats in the four transformations are:'+'<br>'+'<br>'+
                                         ' - Q'+'<sub>'+'12'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
+                                        ' - Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0'+'<br>'+
                                         ' - Q'+'<sub>'+'34'+'</sub>'+' = 0'+'<br>'+
-                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
+                                        ' - Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'31'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0'+'<br>'+'<br>'+
 
-                                        ' η = 1 - (1 / ε'+'<sup>'+'y-1'+'</sup>'+')'+
+                                        'η = 1 - (1 / ε'+'<sup>'+'γ-1'+'</sup>'+')'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Diesel engine:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Diesel Engine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The Diesel engine is an internal combustion, four-stroke engine with diesel injection ignition.'+
+                                        'The Diesel engine is an internal combustion engine, in four strokes with injection ignition of diesel fuel.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Diesel engine running times:'+'<br>'+'<br>'+
+                                        'Operating times of the Diesel engine:'+'<br>'+'<br>'+
 
-                                        '- '+'<b>'+'Time 1: Intake '+'</b>'+' - (isobar process):'+'<br>'+'<br>'+
-                                        'The intake valve opens, air is drawn into the cylinder at atmospheric pressure and the piston descends from TDC to TDC at constant pressure (isobaric process). It\'s the first descent of the piston.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'Time 1: Intake '+'</b>'+' - (isobaric process):'+'<br>'+'<br>'+
+                                        'The intake valve opens, air is sucked into the cylinder at atmospheric pressure, and the piston descends from TDC to BDC, at constant pressure (isobaric process). This is the first descent of the piston.'+'<br>'+'<br>'+
                                         '- '+'<b>'+'Time 2: Compression'+'</b>'+' - (adiabatic process):'+'<br>'+'<br>'+
-                                        'Both valves are closed. The piston rises to TDC, so the air is strongly compressed, in which case the pressure and temperature increase considerably. Due to the high speed at which compression occurs, this process is adiabatic (no heat exchange with the outside). It is the first rise of the piston.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Time 3: Ignition'+'</b>'+' - (isobaric process) and '+'<b>'+'detente'+'</b>'+ ' - (adiabatic process):'+'<br>'+'<br>'+
-                                        'Both valves are closed and the piston is at TDC. The injection pump sprays diesel fuel into the engine cylinder. The temperature of the air in the cylinder is higher than the ignition temperature of the diesel, so it ignites and burns at constant pressure, releasing heat (Q1 = heat received by the engine). The gases resulting from combustion expand adiabatically, pushing the piston into PMI with mechanical work performed. This is the second descent of the piston.'+'<br>'+'<br>'+
-                                        '- '+'<b>'+'Time 4: Evacuation'+'</b>'+' - (isochoric process) and (isobaric process):'+'<br>'+'<br>'+
-                                        'Exhaust valve S2 opens, in which case the pressure suddenly drops to atmospheric pressure. In this isochoric process (at constant volume) the mixture gives up heat Q2 to the outside environment. The piston moves up to TDC pushing out the burnt gases at constant pressure. From here the cycle resumes.'+
+                                        'Both valves are closed. The piston rises to PMS, compressing the air strongly, whereby the pressure and temperature increase considerably. Due to the high speed at which compression occurs, this process is adiabatic (without heat exchange with the surroundings). This is the first rise of the piston.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'Time 3: Ignition'+'</b>'+' - (isobaric process) and '+'<b>'+'expansion'+'</b>'+' - (adiabatic process):'+'<br>'+'<br>'+
+                                        'Both valves are closed, and the piston is at PMS. The injection pump sprays diesel fuel into the engine cylinder. The temperature of the air in the cylinder is higher than the ignition temperature of diesel fuel, so it ignites and burns at constant pressure, releasing heat (Q1 = heat received by the engine). The resulting gases from combustion expand adiabatically, pushing the piston to BDC with the performance of mechanical work. This is the second descent of the piston.'+'<br>'+'<br>'+
+                                        '- '+'<b>'+'Time 4: Exhaust'+'</b>'+' - (isochoric process) and (isobaric process):'+'<br>'+'<br>'+
+                                        'The exhaust valve S2 opens, causing the pressure to drop abruptly to the value of atmospheric pressure. In this isochoric process (at constant volume), the mixture releases heat Q2 to the surroundings. The piston rises to TDC, pushing out the burned gases at constant pressure. From here, the cycle repeats.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Diesel thermal engine efficiency:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Efficiency of the Diesel Engine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The efficiency of the Diesel heat engine (η) is a physical quantity equal to the ratio between the mechanical work done by the engine (L) and the heat received (Q).'+'<br>'+'<br>'+
-                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'given'+'</sub>' +'|. / Q'+'<sub>'+'received'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>' +'|. / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
+                                        'The efficiency of the Diesel engine (η) is a physical quantity equal to the ratio between the mechanical work done by the engine (L) and the heat received (Q).'+'<br>'+'<br>'+
+                                        'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'released'+'</sub>'+'| / Q'+'<sub>'+'received'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
 
-                                        'We assume that the working substance is an ideal gas and the compression ratio is ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 '+'</sub>'+' and α = V'+'<sub>'+'3'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
+                                        'Let\'s assume that the working substance is an ideal gas and the compression ratio is ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+' and α = V'+'<sub>'+'3'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'<br>'+'<br>'+
 
                                         'The heats in the four transformations are :'+'<br>'+'<br>'+
                                         '- Q'+'<sub>'+'12'+'</sub>'+' = 0 (adiabatic process)'+'<br>'+
-                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T '+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (isobaric process)'+'<br>'+
+                                        '- Q'+'<sub>'+'23'+'</sub>'+' = ν ∙ C'+'<sub>'+'p'+'</sub>'+' ∙ (T'+'<sub>'+'3'+'</sub>'+' – T'+'<sub>'+'2'+'</sub>'+') = Q'+'<sub>'+'1'+'</sub>'+' > 0 (isobaric process)'+'<br>'+
                                         '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (adiabatic process)'+'<br>'+
-                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (isochoric process)'+'<br>'+'<br>'+
+                                        '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (isochoric process)'+'<br>'+'<br>'+
 
-                                        'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+                                        
+                                        '<a id="14">'+'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1'+'</sup>'+'(a-1))'+'</a>'+
                                     '</li>'+
                                 '</ul>'+
+
                                 
 
                                 //Principiul al II-lea
 
-                                '<a name=\"element_target3\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Principiul al II-lea'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                                
-                                '<h2 class=\"p-3\">'+'Carnot\'s formulation of the second law of thermodynamics:'+'</h2>'+
+                                '<a name="element_target3"></a>'+
+                                '<br><br><br><br><u><h2 class="p-3" align="center">'+'Principle II'+'</h2><br><br><br></u>'+
+
+                                '<h2 class="p-3">'+'Carnot\'s Formulation of the Second Law of Thermodynamics:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The first formulation of the second law of thermodynamics belongs to Sadi Carnot, who in 1824 showed that there is an upper limit to the efficiency of the conversion of heat into mechanical energy in a heat engine, which involves the use of a thermodynamic cycle of a working fluid.' +
+                                        'The first formulation of the second law of thermodynamics belongs to Sadi Carnot, who in 1824 showed that there is an upper limit to the efficiency of converting heat into mechanical energy in a heat engine, which involves the use of a thermodynamic cycle of a working fluid.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Carnot was the first to show that it is not possible to operate a heat engine with a single thermostat, needing at least two thermostats. Thus, the system receives heat from a warm source (thermostat with T'+'<sub>'+'1'+'</sub>'+') and gives heat to a cold source (thermostat with T'+'<sub>'+'2'+'</sub>'+').'+
+                                    '<a id="17">'+'Carnot was the first to show that it is not possible for a heat engine to operate with a single thermostat, requiring at least two thermostats.'+'</a>'+'Thus, the system receives heat from a hot source (thermostat with T'+'<sub>'+'1'+'</sub>'+') and gives off heat to a cold source (thermostat with T'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Gas parameters in initial state are p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' and T'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'The parameters of the gas in the initial state are p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+', and T'+'<sub>'+'1'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'We bring the gas cylinder to a heater (thermostat with T'+'<sub>'+'1'+'</sub>'+'). The gas will absorb heat Q'+'<sub>'+'1'+'</sub>'+' from the hot source and expand isothermally (T'+'<sub>'+'1'+'</sub>'+' = const.) and quasi-static from V'+'<sub>'+'1'+'</sub>'+' to V'+'<sub>'+'2'+' </sub>'+', performing the mechanical work L'+'<sub>'+'1'+'</sub>'+'.'+
+                                        'We bring the gas cylinder to a heater (thermostat with T'+'<sub>'+'1'+'</sub>'+'). The gas will absorb heat Q'+'<sub>'+'1'+'</sub>'+' from the hot source and will expand isothermally (T'+'<sub>'+'1'+'</sub>'+' = const.) and quasi-statically from V'+'<sub>'+'1'+'</sub>'+' to V'+'<sub>'+'2'+'</sub>'+', performing mechanical work L'+'<sub>'+'1'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'We bring the gas cylinder on a heat-insulating support. The gas expands adiabatically to V'+'<sub>'+'3'+'</sub>'+', doing mechanical work L'+'<sub>'+'2'+'</sub>' +'. The gas cools down to temperature T'+'<sub>'+'2'+'</sub>'+' < T'+'<sub>'+'1'+'</sub>'+'.' +
+                                        'We bring the gas cylinder to a thermally insulated support. The gas expands adiabatically to V'+'<sub>'+'3'+'</sub>'+', performing mechanical work L'+'<sub>'+'2'+'</sub>'+'. The gas cools with temperature T'+'<sub>'+'2'+'</sub>'+' < T'+'<sub>'+'1'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'We bring the gas cylinder to a cold source (thermostat with T'+'<sub>'+'2'+'</sub>'+'). The gas will give off heat Q'+'<sub>'+'2'+'</sub>'+' and will compress isothermally (T'+'<sub>'+'2'+'</sub>' +' = const.) and quasi-static from V'+'<sub>'+'3'+'</sub>'+' to V'+'<sub>'+'4'+'</sub> '+', receiving the mechanical work L'+'<sub>'+'3'+'</sub>'+'.'+
+                                        'We bring the gas cylinder to a cold source (thermostat with T'+'<sub>'+'2'+'</sub>'+'). The gas will give off heat Q'+'<sub>'+'2'+'</sub>'+' and will compress isothermally (T'+'<sub>'+'2'+'</sub>'+' = const.) and quasi-statically from V'+'<sub>'+'3'+'</sub>'+' to V'+'<sub>'+'4'+'</sub>'+', receiving mechanical work L'+'<sub>'+'3'+'</sub>'+'.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'We bring the gas cylinder on a heat-insulating support. The gas is compressed adiabatically from V'+'<sub>'+'4'+'</sub>'+' to '+'<sub>'+'1'+'</sub>'+'. Its temperature will increase from T'+'<sub>'+'2'+'</sub>'+' to T'+'<sub>'+'1'+'</sub>'+', receiving the mechanical work L'+'<sub>'+'4'+'</sub>'+'. The gas returns to its initial state.'+
+                                        'We bring the gas cylinder to a thermally insulated support. The gas compresses adiabatically from V'+'<sub>'+'4'+'</sub>'+' to V'+'<sub>'+'1'+'</sub>'+'. Its temperature will increase from T'+'<sub>'+'2'+'</sub>'+' to T'+'<sub>'+'1'+'</sub>'+', receiving mechanical work L'+'<sub>'+'4'+'</sub>'+'. The gas returns to its initial state.'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Carnot cycle yield:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Carnot Cycle Efficiency:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The efficiency of the Carnot cycle (η) is a physical quantity equal to the ratio between the mechanical work done by the engine (L) and the heat received (Q'+'<sub>'+'1'+'</sub>'+'). '+'<br>'+'<br>'+
+                                        'The efficiency of the Carnot cycle (η) is a physical quantity equal to the ratio between the mechanical work done by the engine (L) and the heat received (Q'+'<sub>'+'1'+'</sub>'+').'+'<br>'+'<br>'+
                                         'η = L / Q'+'<sub>'+'1'+'</sub>'+'<br>'+'<br>'+
-                                        'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+ '<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
+                                        'L = L'+'<sub>'+'1'+'</sub>'+' + L'+'<sub>'+'2'+'</sub>'+' + L'+'<sub>'+'3'+'</sub>'+' + L'+'<sub>'+'4'+'</sub>'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Carnot\'s formulation of the second law of thermodynamics:'+'</h2>'+
+
+                                '<h2 class="p-3">'+'Carnot\'s Formulation of the Second Law of Thermodynamics:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'The yield of the Carnot cycle is always subunit, because T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
+                                    '<a id="15">'+'The efficiency of the Carnot cycle is always less than unity,'+'</a>'+'because T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'The performance of the Carnot cycle depends only on the temperature of the hot source (T'+'<sub>'+'1'+'</sub>'+') and the cold one (T'+'<sub>'+'2' +'</sub>'+') and does not depend on the working substance.'+
+                                    '<a id="16">'+'The efficiency of the Carnot cycle depends only on the temperature of the hot source (T'+'<sub>'+'1'+'</sub>'+') and the cold source (T'+'<sub>'+'2'+'</sub>'+') and does not depend on the working substance.'+'</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        "The efficiency of an irreversible heat engine is always lower than the efficiency of a heat engine operating reversibly between the same temperature limits."+
+                                        'The efficiency of an irreversible heat engine is always less than the efficiency of a heat engine that operates reversibly between the same temperature limits.'+
                                     '</li>'+
                                 '</ul>'),
 
         //teorieElectromecanica.html
         "teorieElectromecanicaTitle": "Electromechanics theory",
-        "teorieElectromecanica": ('<u>' +'<h2 class="p-3" align = center>Electric Current</h2><br><br><br>' +'</u>'         
-                                +'<ul>'
-                                    +'<li>'
-                                        +'<b>Electric current</b> is the organized movement of electric charge carriers through an electric circuit.'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'<b>Electric charge carriers</b> whose movement causes the electric current to appear can be:<br><br>'
-                                        +'a) Free electrons, in metals.<br><br>'
-                                        +'b) Ions and electrons, in electrolytes (solutions or melts of acids, bases, or salts) and in gases.'
-                                    +'</li>'
-                                +'</ul>'
-                                +'<h2 class="p-3">Components of an Electric Circuit:</h2>'
-                                +'<ul>'
-                                    +'<li>'
-                                        +'Electric generators<br><br>'
-                                        +'- Direct current generators<br><br>'
-                                        +'- Alternating current generators'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'Electric devices<br><br>'
-                                        +'- Electric bulb<br><br>'
-                                        +'- Electric resistor<br><br>'
-                                        +'- Electric motor<br><br>'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'Connecting conductors<br>'
-                                        +'are wires made of aluminum or copper that connect the components of the circuit together.'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'Electric switches<br>'
-                                        +'which are used to open and close the electric circuit. Only when the switch is in the closed position, the electric current flows through the circuit.'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'The conventional direction of direct electric current through a circuit is from the positive terminal of the source to the negative terminal, through the external circuit (through consumers).'
-                                    +'</li>'
-
-                                    
-                                    +'</ul>'
-                                    +'<h2 class="p-3">Electric Current Intensity:</h2>'
-                                    +'<ul>'
-                                        +'<li>'
-                                            +'When we apply an electric voltage between two points of a conductor, an electric current appears, meaning a directed movement of its free electrons, which carry a charge q = n ∙ e.'
-                                        +'</li><br>'
-                                        +'<li>'
-                                            +'The electric current intensity (I) is a scalar physical quantity equal to the ratio between the electric charge (q) passing through the cross-sectional area of a conductor and the time interval (Δt).'
-                                        +'</li><br>'
-                                        +'<li>'
-                                        +'Characterization of electric current intensity as a physical quantity:<br><br>'
-                                        +'I = Electric Charge / Time = q / Δt = (n ∙ e) / Δt<br><br>'
-                                        +'n - number of electrons<br><br>'
-                                        +'e - charge of an electron (in magnitude)<br><br>'
-                                        +'e = 1.6 ∙ 10<sup>-19</sup> C'
-                                    +'</li>'
-                                +'</ul>'
-    
-                            
+        "teorieElectromecanica": ('<u>'+'<h2 class="p-3" align="center">Electric Current</h2><br><br><br>'+'</u>'+
+                                '<ul>'+
+                                    '<li>'+
+                                        '<b>'+'Electric current'+'</b>'+' is the ordered movement of electric charge carriers through an electric circuit.'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        '<b>'+'Electric charge carriers'+'</b>'+' whose movement causes the appearance of electric current can be:<br><br>'+
+                                        'a) Free electrons, in metals.<br><br>'+
+                                        'b) Ions and electrons, in electrolytes (solutions or melts of acids, bases, or salts) and in gases.'+
+                                    '</li>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Components of an Electric Circuit:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+
+                                        'Electric generators<br><br>'+
+                                        '- Direct current generators<br><br>'+
+                                        '- Alternating current generators'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        'Electrical appliances<br><br>'+
+                                        '- Electric bulb<br><br>'+
+                                        '- Electric resistor<br><br>'+
+                                        '- Electric motor<br><br>'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        'Connecting conductors<br>'+
+                                        'are wires made of aluminum or copper that connect the circuit components to each other.'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        'Electric switches<br>'+
+                                        'which have the role of closing and opening the electric circuit. Only when the switch is in the closed position does electric current flow through the circuit.'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        '<a id="5">'+'The conventional direction of direct electric current through a circuit is from the positive terminal of the source to the negative terminal, through the external circuit (through consumers).'+'</a>'+
+                                    '</li>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Electric Current Intensity:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+
+                                        'When we apply an electric voltage between two points of a conductor, an electric current appears, meaning a directed movement of its free electrons, which carry a charge q = n ∙ e.'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        '<a id="2">'+'Electric current intensity (I) is a scalar physical quantity numerically equal to the ratio between the electric charge (q) passing through the cross-sectional area of a conductor and the time interval (Δt).'+'</a>'+
+                                    '</li><br>'+
+                                    '<li>'+
+                                        'Characterization of electric current intensity as a physical quantity:<br><br>'+
+                                        'I = Electric charge / Time = q / Δt = (n ∙ e) / Δt<br><br>'+
+                                        'n - number of electrons<br><br>'+
+                                        'e - charge of an electron (in magnitude)<br><br>'+
+                                        'e = 1.6 ∙ 10<sup>-19</sup> C'+
+                                    '</li>'+
+                                '</ul>'
+        
                                 +'<h2 class="p-3">Electric Voltage:</h2>'
-                                +'<ul>'
-                                    +'<li>'
-                                        +'<b>Electric generators</b> (electric sources) are devices that produce and maintain electric current through a circuit, meaning they ensure the movement of electric charge carriers through the circuit. They perform mechanical work on these carriers to move them.'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'<b>Electromotive force</b> (abbreviated EMF, symbol E) of a source is the scalar physical quantity that measures the mechanical work done by the source (L<sub>total</sub>) to move the unit of electric charge (q) along the entire circuit.<br><br>'
-                                        +'E = L<sub>total</sub> / q<br><br>'
-                                        +'The unit of measurement in the International System of Units (SI) for electric voltage is the volt (V):<br><br>'
-                                        +'[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V (volt)'
-                                    +'</li><br>'
-                                    +'<li>'
-                                        +'<b>Total mechanical work</b> done by the source to move the charge q through the entire circuit is equal to the external mechanical work done by the source to move the charge q through the external circuit (L<sub>ext</sub>) and the mechanical work done by the source to move the charge q through the internal circuit of the source (L<sub>int</sub>):<br><br>'
-                                        +'L<sub>Total</sub> = L<sub>ext</sub> + L<sub>int</sub><br><br>'
-                                        +'L<sub>Total</sub> / q = (L<sub>ext</sub> / q) + (L<sub>int</sub> / q)'
-                                    +'</li><br>'
-                                    +'<li>'
-                                    +'<b>Electric voltage</b> at the terminals (symbol U) is the scalar physical quantity that measures the mechanical work done by the source (L<sub>ext</sub>) to move the unit of electric charge (q) along the external circuit.<br><br>'
-                                    +'U = L<sub>ext</sub> / q'
-                                +'</li><br>'
-    
+                            +'<ul>'
                                 +'<li>'
-                                +'<b>Internal voltage</b> (symbol u) is the scalar physical quantity that measures the mechanical work done by the source (L<sub>int</sub>) to move the unit of electric charge (q) along the internal circuit.<br><br>'
-                                +'u = L<sub>int</sub> / q'
-                            +'</li>'
-                            +'<li>'
-                                +'Thus, we obtain the relationship between the three electric voltages of an electric circuit:<br><br>'
-                                +'E = U + u'
-                            +'</li><br>'
-                            +'<li>'
-                                +'U = Mechanical work / Electric charge<br><br>'
-                                +'U = L / q'
-                            +'</li>'
-                        +'</ul>'
-
+                                    +'<b>Electric generators</b> (electric sources) are devices that have the role of producing and maintaining electric current through a circuit, meaning they ensure the movement of electric charge carriers through the circuit. They perform mechanical work on these carriers to move them.'
+                                +'</li><br>'
+                                +'<li>'
+                                    +'<b>Electromotive force</b> (abbreviated EMF, with symbol E) of a source is the scalar physical quantity that measures the mechanical work performed by the source (total work, L<sub>total</sub>) to move the unit of electric charge (q) along the entire circuit.<br><br>'
+                                    +'E = L<sub>total</sub> / q<br><br>'
+                                    +'<a id="1">The unit of measurement in SI for electric voltage is the volt (V):</a><br><br>'
+                                    +'[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V (volt)'
+                                +'</li><br>'
+                                +'<li>'
+                                    +'<b>Total mechanical work</b> performed by the source to move the charge q through the entire circuit is equal to the external mechanical work performed by the source to move the charge q through the external circuit (L<sub>ext</sub>) and the mechanical work performed by the source to move the charge q through the internal circuit of the source (L<sub>int</sub>):<br><br>'
+                                    +'L<sub>Total</sub> = L<sub>ext</sub> + L<sub>int</sub><br><br>'
+                                    +'L<sub>Total</sub> / q = (L<sub>ext</sub> / q) + (L<sub>int</sub> / q)'
+                                +'</li><br>'
+                                +'<li>'
+                                +'<b> Electric voltage</b> at terminals (with symbol U) is the scalar physical quantity that measures the mechanical work performed by the source (L<sub>ext</sub>) to move the unit of electric charge (q) along the external circuit.<br><br>'
+                                 +'U = L<sub>ext</sub> / q'
+                             +'</li><br>'
+                             +'<li>'
+                                 +'<b>Internal voltage</b> (with symbol u) is the scalar physical quantity that measures the mechanical work performed by the source (L<sub>int</sub>) to move the unit of electric charge (q) along the internal circuit.<br><br>'
+                                 +'<a id = "4">u = L<sub>int</sub> / q</a>'
+                             +'</li>'
+                             +'<li>'
+                                 +'Thus, we obtain the relationship between the three electric voltages of an electric circuit:<br><br>'
+                                 +'<a id = "3">E = U + u</a>'
+                             +'</li><br>'
+                             +'<li>'
+                                 +'U = Mechanical work / Electric charge<br><br>'
+                                 +'U = L / q'
+                             +'</li>'
+                         +'</ul>'
 
                         //Legea lui Ohm
                         +'<a name="element_target"></a>'
@@ -1645,86 +1643,83 @@ var data = {
                         +'<h2 class="p-3">Electric Voltage:</h2>'
                         +'<ul>'
                             +'<li>'
-                                +'Measuring electrical resistance'
+                                +'Measuring electric resistance'
                             +'</li><br>'
                             +'<li>'
-                            +'The constant of proportionality between the applied voltage (U) and the current intensity (I) is known as the electrical resistance of the conductor.'
+                            +'The proportionality constant between the applied voltage (U) and the current intensity (I) is known as the electric resistance of the conductor.'
                             +'</li><br>'
                             +'<li>'
-                                +'Electric resistance is the physical quantity that shows how much a conductor opposes the flow of electric current through it.'
+                                +'Electric resistance is the physical quantity that indicates how much a conductor opposes the passage of electric current through it.'
                             +'</li><br>'
                             +'<li>'
-                                +'The electrical resistance of a conductor (R) is the scalar quantity equal to the ratio of the applied voltage (U) across the conductor and the current intensity (I) established through it, when the conductor\'s temperature remains constant.'
+                                +'The electric resistance of a conductor (R) is the scalar quantity equal to the ratio of the applied voltage (U) across the conductor and the current intensity (I) established through it, when the conductor\'s temperature remains constant.'
                             +'</li><br>'
                             +'<li>'
-                                +'Characterization of electrical resistance as a physical quantity:<br><br>'
+                                +'Characterization of electric resistance as a physical quantity:<br><br>'
                                 +'R = Electric Voltage / Electric Intensity = U / I<br><br>'
-                                +'[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω (ohm)<br><br>'
-                                +'The dependence of electrical resistance on the nature and dimensions of the conductor is:<br><br>'
-                                +'R = ρ ∙ (l / s) <br><br>'
-                                +'l - length of the conductor<br>'
-                                +'S - cross-sectional area of the conductor<br>'
+                                +'<a id = "9">[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω (ohm)</a><br><br>'
+                                +'The dependence of electric resistance on the nature and dimensions of the conductor is:<br><br>'
+                                +'<a id = "7">R = ρ ∙ (l / s) </a><br><br>'
+                                +'l - the length of the conductor<br>'
+                                +'S - the cross-sectional area of the conductor<br>'
                                 +'ρ - electrical resistivity of the conductor material:<br><br>'
                                 +'[ρ]<sub>SI</sub> = 1Ω ∙ m'
                             +'</li>'
                         +'</ul>'
-
                         +'<h2 class="p-3">Ohm\'s Law for a Circuit Segment:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'The current intensity flowing through the resistor depends on:<br><br>'
-                            +'1) The voltage across the resistor: as the voltage across the resistor terminals increases, the current intensity passing through it also increases.<br><br>'
-                            +'2) Electrical resistance: as the resistance of the resistor increases, the current intensity passing through the resistor decreases.'
+                            +'The current intensity passing through the resistor depends on:<br><br>'
+                            +'1) The voltage across the resistor: the higher the voltage across the resistor, the higher the current intensity passing through it.<br><br>'
+                            +'2) The electric resistance: the higher the resistance of the resistor, the lower the current intensity passing through the resistor.'
                         +'</li><br>'
                         +'<li>'
                             +'Ohm\'s Law for a Circuit Segment:<br><br>'
-                            +'"If a voltage (U) is applied across the terminals of a circuit segment, then the electric current intensity (I) produced through that circuit segment is directly proportional to the applied electric voltage (U)." <br><br>'
-                            +'I = U / R'
+                            +'“If a voltage (U) is applied across the terminals of a circuit segment, then the electric current intensity (I) produced through that circuit segment is directly proportional to the electric voltage (U) applied to that segment.”<br><br>'
+                            +'<a id="6">I = U / R</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Ohm\'s Law for the Entire Circuit:</h2>'
                     +'<ul>'
                         +'<li>'
                             +'Ohm\'s Law for the Entire Circuit:<br><br>'
-                            +'"The electric current intensity through a simple circuit is directly proportional to the electromotive force of the source (E) and inversely proportional to the total resistance of the circuit (R+r)." <br><br>'
-                            +'I = E / (R + r)<br><br>'
-                            +'1) Ohm\'s Law is generally valid for chemical sources because they have low internal resistance, but it can also be applied to other sources.<br><br>'
-                            +'2) If the external resistance (R) has very low values, obtained for example by short-circuiting the source with a short conductor, meaning R = 0, the current intensity supplied by the source becomes maximum:<br><br>'
-                            +'I<sub>sc</sub> = E / r (short-circuit current)<br><br>'
-                            +'This is not desirable, as high currents can cause damage, and the source depletes quickly.'
+                            +'“The electric current intensity through a simple circuit is directly proportional to the electromotive force of the source (E) and inversely proportional to the total resistance of the circuit (R+r).“<br><br>'
+                            +'<a id="8">I = E / (R + r)</a><br><br>'
+                            +'1) Ohm\'s Law generally applies to chemical sources because they have low internal resistance, but it can also be applied to other sources.<br><br>'
+                            +'2) If the external resistance (R) has very low values, obtained for example by short-circuiting the source with a short conductor, i.e., if R = 0, the current intensity supplied by the source becomes maximum:<br><br>'
+                            +'<a id ="10">I<sub>sc</sub> = E / r (short-circuit current)</a><br><br>'
+                            +'This is not desirable, as large currents can cause damage, and the source depletes rapidly.'
                         +'</li>'
-                    +'</ul>'
-                    +'<h2 class="p-3">Ohm\'s Law for a Circuit Segment:</h2>'
-                    +'<ul>'
-                        +'<li>'
-                            +'Elements of electrical networks (branch circuits):<br><br>'
-                            +'1. <b>Circuit Node</b> represents the intersection of at least three electrical conductors.<br><br>'
-                            +'2. <b>Circuit Branch</b> is the portion of the circuit between two successive nodes, through which the same electric current flows.<br><br>'
-                            +'3. <b>Circuit Loop</b> represents a circuit portion formed by at least two branches connected to form a closed loop (closed polygonal line).<br><br>'
-                        +'</li><br>'
                     +'</ul>'
 
 
                     //Legea lui Kirchhoff
                     +'<a name="element_target2"></a>'
-                    +'<br><br><br><br><u><h2 class="p-3" align = center>Kirchhoff\'s Law</h2><br><br><br></u>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Kirchhoff\'s Laws</h2><br><br><br></u>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Elements of electrical networks (branch circuits):<br><br>'
+                            +'1. <b><a id="12">Circuit Node</b> represents the intersection of at least three electrical conductors.</a><br><br>'
+                            +'2. <b>Circuit Side</b> is the circuit segment between two successive nodes, so that the same electric current flows through its elements.<br><br>'
+                            +'3. <b>Circuit Loop</b> represents the circuit segment formed by at least two sides, connected to form a closed contour (closed polygonal line).<br><br>'
+                        +'</li><br>'
+                    +'</ul>'
                     +'<h2 class="p-3">Kirchhoff\'s First Law:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'"The algebraic sum of the currents meeting at a circuit node is zero."<br><br>'
+                            +'<a id="13">“The algebraic sum of the currents meeting at a circuit node is zero“.</a><br><br>'
                         +'</li>'
                     +'</ul>'
                         +'<h2 align = center>'
                             +'<img src ="img/lege1.png" width = 240>'
                         +'</h2>'
                     +'<ul>'
-                        +'The currents I<sub>k</sub> can be positive or negative, depending on how the current flows through the node (enters or exits the node).<br><br>'
+                        +'The currents I<sub>k</sub> can be positive or negative, depending on the direction of the current through the node (entering or leaving the node).<br><br>'
                         +'<li>'
                             +'Another way to state Kirchhoff\'s first law:<br><br>'
-                            +'"The algebraic sum of the currents entering a circuit node is equal to the sum of the currents leaving the node."'
+                            +'“The algebraic sum of the currents entering a circuit node is equal to the sum of the currents leaving the circuit node“.'
                         +'</li>'
                     +'</ul>'
-
                     +'<h2 align = center>'
                         +'<img src ="img/lege1_alt.png" width = 240>'
                     +'</h2>'
@@ -1734,28 +1729,27 @@ var data = {
                     +'<h2 class="p-3">Kirchhoff\'s Second Law:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'"The algebraic sum of the electromotive forces in a circuit loop is equal to the algebraic sum of the voltages across each branch in that circuit loop."'
+                            +'<a id="14">“The algebraic sum of the electromotive forces in a circuit loop is equal to the algebraic sum of the voltages across each side in that circuit loop“.</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 align = center>'
                         +'<img src ="img/lege2.png" width = 240>'
                     +'</h2>'
                     +'<ul>'
-                        +'The terms in the sums can be positive or negative, depending on the direction of the voltage or current with respect to the arbitrarily chosen direction for the considered loop.<br><br>'
-                        +'For m = number of simple loops, m equations are written using Kirchhoff\'s second law.'
+                        +'The terms of the sums can be positive or negative, depending on the direction of the voltage or current with respect to the arbitrarily chosen direction for the considered loop.<br><br>'
+                        +'For m = number of simple loops, m equations are written with the second Kirchhoff\'s law.'
                     +'</ul>'
                     +'<h2 class="p-3">Sign Conventions:</h2>'
-
                     +'<ul>'
                         +'<li>'
                             +'Electromotive Force:<br><br>'
-                            +' - taken as positive if the direction of the electric current through the source is the same as the direction chosen arbitrarily for the loop: + E<br><br>'
-                            +' - taken as negative if the direction of the electric current through the source is opposite to the direction chosen arbitrarily for the loop: - E<br><br>'
+                            +' - <a id ="11">taken as positive if the direction of the electric current through the source is identical to that of the arbitrarily chosen loop</a>: + E<br><br>'
+                            +' - taken as negative if the direction of the electric current through the source is opposite to that of the arbitrarily chosen loop: - E<br><br>'
                         +'</li><br>'
                         +'<li>'
                             +'Electric Voltage:<br><br>'
-                            +' - taken as positive if the direction of the electric current is the same as the reference direction chosen arbitrarily for the loop: + I ∙ R<br><br>'
-                            +' - taken as negative if the direction of the electric current is opposite to the reference direction chosen arbitrarily for the loop: - I ∙ R<br><br>'
+                            +' - taken as positive if the direction of the electric current is the same as that of the arbitrarily chosen loop (reference direction): + I ∙ R<br><br>'
+                            +' - taken as negative if the direction of the electric current is opposite to that of the arbitrarily chosen loop (reference direction): - I ∙ R<br><br>'
                         +'</li>'
                     +'</ul>'
 
@@ -1765,23 +1759,22 @@ var data = {
                     +'<h2 class="p-3">Grouping of Resistors:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'Any circuit element (electric generator, light bulb, resistor, motor, switch) can be connected (grouped) with another (of the same type or different) in two ways:<br><br>'
+                            +'Any circuit element (electric generator, bulb, resistor, motor, switch) can be connected (grouped) with another (of the same or different type) in two ways:<br><br>'
                             +'- In series<br><br>'
                             +'- In parallel<br><br>'
-                            +'A group of resistors is replaced by a single one, called an equivalent resistor. Its resistance represents the equivalent of the resistances in that grouping.'
+                            +'<a id ="19">A group of resistors is replaced with a single one, called an equivalent resistor.</a> Its resistance represents the equivalent of the resistances of the respective grouping.'
                         +'</li><br>'
                         +'<li>'
-                            +'Resistors through which the same current passes and which are on the same side of a circuit form a series grouping, being equivalent to the resistor R<sub>s</sub>.<br><br>'
+                            +'Resistors through which the same current flows and which are on the same side of a circuit form a series grouping, being equated to the resistor R<sub>s</sub>.<br><br>'
                             +'The equivalent resistance of a series grouping of resistors is equal to the sum of the resistances of each resistor:<br><br>'
-                            +'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>'
+                            +'<a id="15">R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub></a>'
                         +'</li><br>'
                         +'<li>'
-                            +'Resistors located on different sides between the same two nodes of a circuit, having the same voltage across them, form a parallel grouping, being equivalent to the resistor R<sub>p</sub>.<br><br>'
+                            +'Resistors located on different sides between the same two nodes of a circuit, having the same voltage across them, form a parallel grouping, being equated to the resistor R<sub>p</sub>.<br><br>'
                             +'The inverse of the equivalent resistance of a parallel grouping of resistors is equal to the sum of the inverses of the resistances of each resistor:<br><br>'
-                            +'1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
+                            +'<a id="16"> 1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)</a>'
                         +'</li>'
                     +'</ul>'
-
                     +'<h2 class="p-3">Grouping of Identical Generators:</h2>'
                     +'<ul>'
                         +'<li>'
@@ -1793,7 +1786,7 @@ var data = {
                         +'</li><br>'
                         +'<li>'
                             +'The internal resistance of the series grouping of identical electric generators:<br><br>'
-                            +'r<sub>s</sub> = n · r'
+                            +'<a id="17">r<sub>s</sub> = n · r</a>'
                         +'</li><br>'
                         +'<li>'
                             +'For a parallel grouping of n identical sources: the electromotive force of the parallel grouping of electric generators:<br><br>'
@@ -1801,22 +1794,22 @@ var data = {
                         +'</li><br>'
                         +'<li>'
                             +'The internal resistance of the parallel grouping of identical electric generators:<br><br>'
-                            +'r<sub>p</sub> = r / n'
+                            +'<a id="18">r<sub>p</sub> = r / n</a>'
                         +'</li>'
                     +'</ul>'
 
                     //Eneriga si puterea electrica
                     +'<a name="element_target4"></a>'
-                    +'<br><br><br><br><u><h2 class="p-3" align = center>Energy and Electric Power</h2><br><br><br></u>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Electric Energy and Power</h2><br><br><br></u>'
                     +'<h2 class="p-3">Electric Energy:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'Electric energy (denoted by W) of a source measures the mechanical work done by it to move electric charge (q) through the cross-section of the circuit in a time interval (Δt):<br><br>'
+                            +'<a id ="20">Electric energy (denoted by W)</a> of a source measures the mechanical work done by it to move electric charge (q) through the cross-section of the circuit, over a period of time (Δt):<br><br>'
                             +'W = L = E ∙ q<br><br>'
                             +'But q = I ∙ Δt (from the current formula)<br><br>'
-                            +'W<sub>total</sub> = E ∙ I ∙ Δt (energy consumed over the entire circuit)<br><br>'
-                            +'W<sub>external</sub> = U ∙ I ∙ Δt (energy consumed on the external circuit)<br><br>'
-                            +'W<sub>internal</sub> = u ∙ I ∙ Δt (energy consumed on the internal circuit)<br><br>'
+                            +'<a id ="21">W<sub>total</sub> = E ∙ I ∙ Δt (energy consumed over the entire circuit)</a><br><br>'
+                            +'W<sub>ext</sub> = U ∙ I ∙ Δt (energy consumed over the external circuit)<br><br>'
+                            +'W<sub>int</sub> = u ∙ I ∙ Δt (energy consumed over the internal circuit)<br><br>'
                             +'W = U ∙ I ∙ Δt = R ∙ I<sup>2</sup> ∙ Δt = (U<sup>2</sup> / R) ∙ Δt<br><br>'
                             +'[W]<sub>SI</sub> = J(joule)'
                         +'</li><br>'
@@ -1824,7 +1817,7 @@ var data = {
                     +'<h2 class="p-3">Electric Power:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'Electric power (P) is a physical quantity that measures the rate of transfer of electric energy in a unit of time.<br><br>'
+                            +'Electric power (P) is a physical quantity that measures the rate of transfer of electric energy per unit time.<br><br>'
                             +'P = W / Δt = U ∙ I = R ∙ I<sup>2</sup> = (U<sup>2</sup> / R)<br><br>'
                             +'[P]<sub>SI</sub> = J / s = W(watt)'
                         +'</li><br>'
@@ -1833,132 +1826,129 @@ var data = {
                             +'P = W<sub>total</sub> / Δt = E ∙ I = (R + r) ∙ I<sup>2</sup> = E<sup>2</sup> / (R + r)'
                         +'</li>'
                     +'</ul>'
-
                     +'<h2 class="p-3">Electric Efficiency:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'The electric energy of an electric generator is supplied to the external circuit (useful energy = external energy), while the rest of the energy is received by the interior of the generator (internal energy).<br><br>'
+                            +'The electric energy of the electric generator is supplied to the external circuit (useful energy - external energy), the rest of the energy being received by the inside of the generator (internal energy).<br><br>'
                             +'The electric efficiency of a receiver (consumer) is given by the relationship:<br><br>'
-                            +'η = W<sub>useful</sub> / W<sub>total</sub> = P<sub>external</sub> / P<sub>total</sub>'
+                            +'<a id ="23">η = W<sub>useful</sub> / W<sub>total</sub> = P<sub>external</sub> / P<sub>total</sub></a>'
                         +'</li><br>'
                         +'<li>'
                             +'For a simple circuit consisting of a source with electromotive force E and internal resistance r, connected to a resistor of resistance R, the electric efficiency is given by the relationship:<br><br>'
                             +'η = (U ∙ I) / (E ∙ I) = U / E = R / (R + r)'
                         +'</li><br>'
                         +'<li>'
-                            +'The power developed by the resistor is maximum when: <br><br>'
+                            +'The power developed by the resistor is maximum when:<br><br>'
                             +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
-                            +'which occurs when:<br><br>'
-                            +'R = r'
+                            +'that is when:<br><br>'
+                            +'<a id ="22">R = r</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Joule\'s Law:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'The thermal effect of electric current (Joule effect) consists of heating a conductor when an electric current passes through it.<br><br>'
-                            +'Joule\'s Law quantitatively measures the heat produced when an electric current passes through a conductor.'
+                            +'The thermal effect of electric current (Joule effect) consists in heating a conductor when electric current passes through it.<br><br>'
+                            +'Joule\'s Law quantitatively measures the heat generated when electric current passes through a conductor.'
                         +'</li><br>'
                         +'<li>'
                             +'Joule\'s Law:<br><br>'
-                            +'The heat Q produced when an electric current passes through a conductor is proportional to the resistance of the conductor R, the square of the electric current intensity I<sup>2</sup>, and the time interval Δt during which the electric current flows through it.<br><br>'
-                            +'Q = R ∙ I<sup>2</sup> ∙ Δt'
+                            +'The heat Q generated when electric current passes through a conductor is proportional to the resistance of the conductor R, the square of the electric current I<sup>2</sup>, and the time interval Δt for which the electric current circulates through it.<br><br>'
+                            +'<a id ="24">Q = R ∙ I<sup>2</sup> ∙ Δt</a>'
                         +'</li>'
                     +'</ul>'),
 
         //teorieOptica.html
         "teorieOpticaTitle": "Optics theory",
-        "teorieOptica": ('<u>' +
-                            '<h2 class="p-3" align = center>Geometric Optics</h2><br><br><br>' +
-                        '</u>' +
-                        '<h2 class="p-3">Reflection of Light:</h2>' +
-                        '<ul>' +
-                            '<li>' +
-                                'FERMAT\'S PRINCIPLE:<br><br>' +
-                                '"Light propagates between two points A and B, so that its optical path and, implicitly, the time interval required to cover the distance AB are minimized."<br><br>' +
-                                'Reflection of light is the phenomenon in which light returns to the first medium, with a change in the direction of propagation, when it encounters another medium (the interface between two different optical media).' +
-                            '</li><br>' +
-                            '<li>' +
-                                'Laws of Reflection:<br><br>' +
-                                '- Law I:<br><br>' +
-                                'The incident ray, the normal, and the reflected ray are coplanar (they belong to the same plane).<br><br>' +
-                                '- Law II:<br><br>' +
-                                'The angle of incidence (i) is equal to the angle of reflection (r).' +
-                            '</li><br>' +
-                            '<li>' +
-                                'Plane Mirrors<br><br>' +
-                                'Mirrors are smooth and shiny surfaces on which light reflects.<br><br>' +
-                                'Plane mirrors have a flat (straight) surface and are the ones we all have at home and look at daily.<br><br>' +
-                                'Here is their symbol (the part that does not reflect light is shaded):<br><br>' +
-                            '</li>' +
-                        '</ul>'    
+        "teorieOptica": ('<u><h2 class="p-3" align = center>Geometric Optics</h2><br><br><br></u>'
+                        +'<h2 class="p-3">Light Reflection:</h2>'
+                        +'<ul>'
+                            +'<li>'
+                                +'FERMAT\'S PRINCIPLE:<br><br>'
+                                    +'“Light propagates between two points A and B in such a way that its optical path and, implicitly, the time interval required to cover the distance AB are minimized.”<br><br>'
+                                    +'Light reflection is the phenomenon in which light returns to the first medium, changing its direction of propagation, when it encounters another medium (the interface between two different optical media).'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Laws of Reflection:<br><br>'
+                                +'- Law I:<br><br>'
+                                +'The incident ray, the normal, and the reflected ray are coplanar (belong to the same plane).<br><br>'
+                                +'- Law II:<br><br>'
+                                +'The angle of incidence (i) is equal to the angle of reflection (r).'
+                            +'</li><br>'
+                            +'<li>'
+                                +'Plane Mirrors<br><br>'
+                                +'Mirrors are smooth and shiny surfaces in which light reflects.<br><br>'
+                                +'Plane mirrors have a flat (straight) surface and are the ones we all have at home and look at daily.<br><br>'
+                                +'Here is its symbol (the non-reflecting part at the back is hatched):<br><br>'
+                            +'</li>'
+                        +'</ul>'
                         +'<h2 align = center>'
                             +'<img style = "border: 2px solid #1b4188" src ="img/optica1.png" width = 100>'
                         +'</h2><br>'
                         +'<ul>'
                             +'<li>'
-                                +'Formation of an object\'s image in a flat mirror:<br><br>'
-                                +'- The flat mirror is drawn vertically.<br><br>'
-                                +'- The principal optical axis, perpendicular to the mirror (horizontally), is drawn through the mirror\'s center.<br><br>'
-                                +'- The object AB is drawn as a segment with an arrow, in front of the mirror.<br><br>'
-                                +'- The first ray is drawn from the object\'s tip (B) perpendicular to the mirror and extended dotted behind the mirror (being perpendicular to the mirror\'s surface, it does not change its propagation direction upon reflection).<br><br>'
-                                +'- The second ray is drawn from the object\'s tip (B) obliquely to the mirror, and the reflected ray of it is drawn, respecting the laws of reflection (angle of incidence = angle of reflection).<br><br>'
-                                +'- The reflected ray is extended behind the mirror until it meets the extension of the first ray. Their point of intersection is marked as B\', representing the tip of the object\'s image in the mirror.<br><br>'
-                                +'- From point B\', a perpendicular is drawn to the principal optical axis, and the foot of the perpendicular is marked as A\', representing the base of the object\'s image in the mirror. The arrowhead is placed at B\'.'
+                                +'Formation of the image of an object in a plane mirror:<br><br>'
+                                +'- Draw the plane mirror vertically.<br><br>'
+                                +'- Draw the principal optical axis through the middle of the mirror, perpendicular to the mirror (horizontally).<br><br>'
+                                +'- Draw the object AB as a segment with an arrow in front of the mirror.<br><br>'
+                                +'- Extend the first ray from the top of the object (B) perpendicular to the mirror and extend it dotted behind the mirror (being perpendicular to the mirror surface it does not change its direction of propagation when reflected).<br><br>'
+                                +'- Draw the second ray from the top of the object (B) obliquely on the mirror, draw the reflected ray of it, respecting the laws of reflection (angle i = angle r)<br><br>'
+                                +'- Extend the reflected ray dotted behind the mirror until it intersects with the extension of the first ray. The point of intersection is noted as B\', which represents the tip of the object\'s image in the mirror.<br><br>'
+                                +'- From point B\', draw perpendicular to the principal optical axis, and the foot of the perpendicular is noted as A\', representing the base of the object\'s image in the mirror. Place the tip of the arrow at B\'.'
                             +'</li>'
                         +'</ul>'
-                        +'<h2 align = center>'
-                            +'<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>'
-                        +'</h2><br>'
-                        +'<ul>'
-                            +'<li>'
-                                +'Characteristics of the image A\'B\':<br><br>'
-                                +'- Virtual, as it forms at the intersection of the extensions of the reflected rays (behind the mirror)<br><br>'
-                                +'- Straight<br><br>'
-                                +'- Equal to the object AB (y<sub>1</sub> = y<sub>2</sub>)<br><br>'
-                                +'- Object and image are symmetrical with respect to the mirror<br><br>'
-                                +'Formula of the flat mirror: x<sub>2</sub> = -x<sub>1</sub>, since R → ∞ (it has no focal points)<br><br>'
-                                +'Transverse linear magnification: β = 1'
-                            +'</li>'
-                        +'</ul>'
-                        +'<ul>'
-                            +'<li>'
-                                +'Characterization of the image (A\'B\') of the object in the flat mirror:<br><br>'
-                                +'Object AB and image A\'B\' are symmetrical with respect to the mirror (the image is formed behind the mirror, at the same distance from the mirror as the object).<br><br>'
-                                +'The image is virtual, as it forms at the intersection of the extensions of the reflected rays (it cannot be caught on a screen or photograph).<br><br>'
-                                +'Image A\'B\' is as large as object AB.'
-                            +'</li><br>'
-                        +'</ul>'
-                        +'<h2 class="p-3">Spherical Mirrors:</h2>'
-                        +'<ul>'
-                            +'<li>'
-                                +'Spherical mirrors are portions of spheres (spherical caps) that reflect light falling on them.<br><br>'
-                                +'Classification of spherical mirrors:<br><br>'
-                                +'a) Concave mirrors reflect with the inner, curved part of the spherical surface (i.e., they have the shiny part on the inner side of the sphere). They transform a parallel beam of light into a convergent one.'
-                            +'</li>'
-                        +'</ul>'
+                        +'<h2 align = center>' +
+                        '<img style = "border: 2px solid #1b4188" src ="img/optica2.png" width = 300>' +
+                    '</h2><br>' +
+                    '<ul>' +
+                        '<li>' +
+                            'Characteristics of the image A\'B\':<br><br>' +
+                            '- Virtual, as it is formed at the intersection of the extensions of the reflected rays (behind the mirror)<br><br>' +
+                            '- Straight<br><br>' +
+                            '- Equal to the object AB (y<sub>1</sub> = y<sub>2</sub>)<br><br>' +
+                            '- Object and Image are symmetrical with respect to the mirror<br><br>' +
+                            'Formula of the plane mirror: x<sub>2</sub> = -x<sub>1</sub>, because R → ∞ (it has no focal points)<br><br>' +
+                            'Transverse linear magnification:	β = 1' +
+                        '</li>' +
+                    '</ul>'+
 
-                    +'<h2 align = center>' +
-                    '<img style = "border: 2px solid #1b4188" src ="img/optica3.png" width = 300>' +
-                '</h2><br>' +
+                    '<ul>' +
+                    '<li>' +
+                        'Characterization of the image (A\'B\') of the object in a plane mirror:<br><br>' +
+                        'Ob. AB and im. A\'B\' are symmetrical with respect to the mirror (the image is formed behind the mirror, at the same distance from the mirror as the object).<br><br>' +
+                        'The image is virtual because it is formed at the intersection of the extensions of the reflected rays (it cannot be caught on a screen or photographic film).<br><br>' +
+                        'Im. A\'B\' is the same size as ob. AB.' +
+                    '</li><br>' +
+                '</ul>' +
+                '<h2 class="p-3">Spherical Mirrors:</h2>' +
                 '<ul>' +
                     '<li>' +
-                        'b) Convex mirrors reflect with the outer, bulging part of the spherical surface (i.e., they have the shiny part on the outer side of the sphere). They transform a parallel beam of light into a divergent one.' +
+                        'Spherical mirrors are portions of spheres (spherical caps) that reflect the light falling on them.<br><br>' +
+                        'Classification of spherical mirrors:<br><br>' +
+                        'a) Concave mirrors reflect with the inner, concave part of the spherical surface (i.e., they have the shiny part on the inner side of the sphere). They transform a parallel beam of light into a converging one.' +
                     '</li>' +
                 '</ul>' +
-                '<h2 align = center>' +
-                    '<img style = "border: 2px solid #1b4188" src ="img/optica4.png" width = 300>' +
+                '<h2 align=center>' +
+                    '<img style="border: 2px solid #1b4188" src="img/optica3.png" width=300>' +
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'Formation of an object\'s image in a spherical mirror<br><br>' +
+                        'b) Convex mirrors reflect with the outer, bulging part of the spherical surface (i.e., they have the shiny part on the outer side of the sphere). They transform a parallel beam of light into a diverging one.' +
+                    '</li>' +
+                '</ul>' +
+                '<h2 align=center>' +
+                    '<img style="border: 2px solid #1b4188" src="img/optica4.png" width=300>' +
+                '</h2><br>' +
+                '<ul>' +
+                    '<li>' +
+                        'Formation of the image of an object in a spherical mirror<br><br>' +
                         'To form the image of an object in a spherical mirror, we need to draw at least two rays:<br><br>' +
-                        'From the object\'s tip A, a line parallel to the principal optical axis must be drawn until it meets the mirror surface and then it reflects through the focal point.<br><br>' +
-                        'From the object\'s tip A, a line must be drawn through the center of curvature until it intersects with the first ray (which reflects in the same direction).<br><br>' +
-                        'Both rays are extended until they meet. Their point of intersection is the tip of the image, A\'. From this point, a perpendicular is drawn to the principal optical axis. The foot of the perpendicular, B\', is the base of the formed image.' +
+                        'From the tip of the object A, a line parallel to the principal optical axis is drawn until it intersects the mirror surface and then reflects through the focal point.<br><br>' +
+                        'From the tip of the object A, a line is drawn through the center of curvature until it intersects with the first ray (this ray reflects in the same direction).<br><br>' +
+                        'The two rays are extended until they intersect. Their point of intersection is the tip of the image, A\'. From this point, a perpendicular is drawn to the principal optical axis. The foot of the perpendicular, B\', is the base of the formed image.' +
                     '</li>' +
                 '</ul>' +
-                '<h2 align = center>' +
-                    '<img style = "border: 2px solid #1b4188" src ="img/optica5.png" width = 300>' +
+                '<h2 align=center>' +
+                    '<img style="border: 2px solid #1b4188" src="img/optica5.png" width=300>' +
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
@@ -1966,7 +1956,8 @@ var data = {
                         'Transverse linear magnification:<br>' +
                         'β = y<sub>2</sub> / y<sub>1</sub> = - x<sub>2</sub> / x<sub>1</sub>' +
                     '</li>' +
-                '</ul>' +
+                '</ul>'+
+                
                 '<ul>' +
                     '<li>' +
                         'The image of an object in a concave mirror depends on the distance from the object to the mirror.' +
@@ -1975,218 +1966,220 @@ var data = {
                         'Mirror type:<br><br>' +
                         '- Concave:<br>' +
                         '|x<sub>1</sub>| > 2|f| - Real - Diminished - Inverted<br>' +
-                        '|x<sub>1</sub>| = 2|f| - Real - Same Size - Inverted<br>' +
+                        '|x<sub>1</sub>| = 2|f| - Real - Equal - Inverted<br>' +
                         '2|f| > |x<sub>1</sub>| > |f| - Real - Enlarged - Inverted<br>' +
                         '|x<sub>1</sub>| < |f| - Virtual - Enlarged - Upright<br><br>' +
                         '- Convex:<br>' +
                         'Any |x<sub>1</sub>| - Virtual - Diminished - Upright' +
                     '</li><br>' +
-                '</ul>'+
+                '</ul>' +
                 '<h2 class="p-3">Refraction of Light:</h2>' +
                 '<ul>' +
                     '<li>' +
                         'Laws of refraction of light:<br><br>' +
-                        'The refractive index (denoted by n) of a transparent medium is given by the ratio of the speed of light in vacuum (c) and the speed of light in that medium (v).<br><br>' +
-                        'n = c / v<br><br>' +
-                        'Refraction of light is the phenomenon in which light changes its direction of propagation when it crosses the interface between two different transparent media.' +
+                        'The refractive index (denoted by n) of a transparent medium is given by the ratio of the speed of light in vacuum (c) to the speed of light in that medium (v).<br><br>' +
+                        ' <a id ="1">n = c / v</a><br><br>' +
+                        'Refraction of light is the phenomenon in which light changes its direction of propagation when it crosses the boundary surface between two different transparent media.' +
                     '</li><br>' +
                     '<li>' +
                         'Laws of refraction:<br><br>' +
                         'Law I of refraction:<br>' +
-                        'The incident ray (SI), the normal to the separating surface (NI), and the refracted ray (IR\') are coplanar.<br><br>' +
+                        '<a id="2">The incident ray (SI), normal to the interface surface (NI), and the refracted ray (IR\') are coplanar.</a><br><br>' +
                         'Law II of refraction:<br>' +
                         'The ratio of the angle of incidence (i) to the sine of the angle of refraction (r\') is equal to the ratio of the absolute refractive index of the second medium to the absolute refractive index of the first medium:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
-                        'n<sub>21</sub> = refractive index of the second medium relative to the first' +
+                        'n<sub>21</sub> = refractive index of the second medium with respect to the first' +
                     '</li><br>' +
                     '<li>' +
                         'Consequences of refraction of light:<br><br>' +
-                        'The consequences of refraction of light occur due to the change in the direction of the refracted ray compared to the direction of the incident ray, altering the image of objects immersed in water:<br><br>' +
-                        '- An object in water appears broken at the water surface, as if the underwater part of the object is not in line with the part in air.<br><br>' +
-                        '- An object in water is perceived by our eye closer to the surface than it actually is. Thus clear waters are much deeper than they appear.<br><br>' +
-                        '- Objects in water appear larger than they actually are, with water behaving like a magnifying glass.<br><br>' +
+                        'The consequences of refraction of light occur due to the change in direction of the refracted ray with respect to the direction of the incident ray, altering the image of objects in water:<br><br>' +
+                        '- An object in water appears broken at the water surface, as if the part of the object in water is not in line with the part in air.<br><br>' +
+                        '- An object in water is perceived by our eyes closer to the surface than it actually is. Thus clear waters are much deeper than they appear.<br><br>' +
+                        '- Objects in water appear larger than they actually are, as water acts as a magnifying glass.<br><br>'+
                     '</li>'+
                 '</ul>' +
                 '<h2 class="p-3">Optical Prism:</h2>' +
                 '<ul>' +
                     '<li>' +
-                        'Monochromatic light refraction in an optical prism:<br><br>' +
-                        'The prism is a transparent medium (with refractive index n) bounded by two plane faces, which form a dihedral angle, called the prism angle (A).<br><br>' +
+                        'Refraction of monochromatic light in an optical prism:<br><br>' +
+                        'A prism is a transparent medium (with refractive index n) bounded by two flat faces, which form between them a dihedral angle, called the prism angle (A).<br><br>' +
                     '</li>' +
                 '</ul>' +
-                '<h2 align = center>' +
-                    '<img style = "border: 2px solid #1b4188" src ="img/optica6.png" width = 300>' +
+                '<h2 align=center>' +
+                    '<img style="border: 2px solid #1b4188" src="img/optica6.png" width=300>' +
                 '</h2><br>' +
                 '<ul>' +
                     '<li>' +
-                        'When the incident ray (SI) falls on face AB of the prism, it refracts (first refracted ray II\'), approaching the normal NI (n<sub>air</sub> < n<sub>prism</sub>) according to the law:<br>' +
+                        'When the incident ray (SI) falls on face AB of the prism, it refracts (first refracted ray II\'), approaching the normal NN\' (n<sub>air</sub> < n<sub>prism</sub>) according to the law:<br>' +
                         'sin i = n ∙ sin r<br><br>' +
-                        'Ray II\' refracts upon falling on face AC of the prism at point I\', moving away from the normal NN\' (n<sub>prism</sub> > n<sub>air</sub>), according to the law:<br>' +
+                        'Ray II\' refracts upon falling on face AC of the prism at point I\', departing from the normal NN\' (n<sub>prism</sub> > n<sub>air</sub>), according to the law:<br>' +
                         'n ∙ sin r\' = sin i\'<br><br>' +
                         'The angle between the direction of the incident ray (SI) and the direction of the emergent ray (I\'R) is called the angle of deviation (δ) which has the value:<br>' +
                         'δ = i + i\' – (r + r\') = i + i\' – A<br><br>' +
                     '</li>' +
                 '</ul>'+
-                    '<ul>' + 
-                        '<li>' + 
-                            'To establish the condition for emergence (i.e., the incident ray to exit the prism), the total internal reflection of ray II\' on face AC must not occur, i.e.,:<br>' +
-                            'r\' ≤ l (critical angle).<br><br>' +
-                            'Since A = r + r\' → r\' = A – r<br>' +
-                            'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
-                            'But from Snell\'s first law of refraction, we have:<br>' +
-                            'sin r = sin i / n <br>' +
-                            'sin i / n >= sin (A - l)<br><br>' +
-                        '</li>' +
-                        '<li>' +
-                            'The maximum angle of incidence is<br>' +
-                            'i = 90° → sin 90° = 1 <br>' +
-                            '1 / n >= sin(A - l)<br>' +
-                            'sin l = 1 / n<br>' +
-                            'sin l >= sin(A-l) or A <= 2 ∙ 1<br>' +
-                            'sin l = 1 / n → 1 = arcsin 1 / n<br>' +
-                        '</li>' +
-                        '<li>' +
-                            'An incident ray on the prism can exit the prism if its refractive angle (A) satisfies the condition:<br>' +
-                            'A ≤ 2 ∙ arcsin (1/n)<br><br>' +
-                            'If the prism has A > 2 ∙ arcsin (1/n), all incident rays on the prism will undergo total reflection on face AC.' +
-                        '</li><br>' +
-                        '<li>' +
-                            'When the angle of incidence (i) varies and the angle of deviation (δ) varies, always taking values greater than a certain minimum value (δ<sub>m</sub>).<br><br>' +
-                            'When i = i\' and r = r\', we obtain the value of the minimum deviation angle (δ<sub>m</sub>):<br>' +
-                            'δ<sub>m</sub> = 2 ∙ i – A<br><br>' +
-                            'If we experimentally measure the minimum deviation angle, we can determine the refractive index of the prism using the formula:<br>' +
-                            'n = sin((A + δ<sub>m</sub>) / 2) / sin (A / 2)' +
-                        '</li><br>' +
-                    '</ul>' +
-                    '<h2 class="p-3">' + 'Types of Lenses:' + '</h2>' + 
-                    '<ul>' + 
-                        '<li>' + 
-                            'Lenses are transparent bodies that have at least one spherical surface.<br><br>' + 
-                            'The elements of a lens:<br><br>' + 
-                            'The principal optical axis drawn through the center of the lens.<br><br>' + 
-                            'The optical center of the lens (O) located at the intersection of the lens with the principal optical axis.<br><br>' + 
-                            'Two foci placed on either side of the optical center of the lens, at equal distances.<br><br>' + 
-                            'The focus located to the left of O is called the negative focus / object (F<sub>1</sub>), because it is on the axis of negative numbers.<br><br>' + 
-                            'The focus located to the right of O is called the positive focus / image (F<sub>2</sub>), because it is on the axis of positive numbers.<br><br>' + 
-                            'The centers of curvature (C<sub>1</sub> and C<sub>2</sub>) of the dioptrs that border the lens located on either side of O, at a double distance from OF.' + 
-                        '</li>' + 
-                    '</ul>'+
 
-                    '<h2 class="p-3">' + 'Classification of lenses:' + '</h2>' + 
-                    '<ul>' + 
-                        '- <b>Converging lenses</b> (convex) are lenses that transform a parallel beam of light into a converging beam. They refract light through the positive focal point and therefore are also called positive lenses. They enlarge the writing. They are thicker in the middle and thinner at the edges.<br><br>' + 
-                        '- <b>Diverging lenses</b> (concave) are lenses that transform a parallel beam of light into a diverging beam. They refract light through the negative focal point and therefore are also called negative lenses. They reduce the writing. They are thicker at the edges and thinner in the middle.<br><br>' + 
-                        '<li>' + 
-                            'Formation of an image of an object in lenses: <br><br>' + 
-                            'To form the image of an object in a converging lens, we need to draw two rays:<br><br>' + 
-                            '- Draw the symbol of the converging lens.<br>' + 
-                            '- Draw the principal optical axis through its center.<br>' + 
-                            '- Place the lens elements (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Draw the object (AB) in front of the lens (on the left side), with an arrow indicating its direction.<br>' + 
-                            '- Draw a ray from the top of the object (B) parallel to the optical axis until it meets the lens, and then direct it through the positive focal point (F<sub>2</sub>), because the converging lens refracts light through the positive focal point.<br>' + 
-                            '- Draw a second ray from the top of the object passing through the optical center of the lens (O). Extend these rays until they intersect. At their intersection, place B\' which is the top of the image (im) of the object (ob) AB.<br>' + 
-                            '- From B\', draw a perpendicular to the optical axis, and denote its foot by A\', representing the base im A\'B\'.<br>' + 
-                            '- Place the tip of the arrow at B\', and thus we obtain the image of the object AB in the converging lens.'+
-                        '</li><br></br>'+                                       
-                        '<li>' + 
-                            'Depending on the distance of the object from the lens, we have three types of images in a converging lens.<br><br>' + 
-                            'I. When the object is located in the interval (-∞) and C, the image of the object has the following characteristics:<br>' + 
-                            '- Smaller than the object AB.<br>' + 
-                            '- Inverted.<br>' + 
-                            '- Real (formed at the intersection of refracted rays, can be projected onto a screen).<br><br>' + 
-                            'II. When the object is located in the interval C and F1, the image of the object has the following characteristics:<br>' + 
-                            '- Larger than the object AB.<br>' + 
-                            '- Inverted.<br>' + 
-                            '- Real (formed at the intersection of refracted rays, can be projected onto a screen).<br><br>' + 
-                            'III. When the object is located in the interval F1 and O, the image of the object has the following characteristics:<br>' + 
-                            '- Larger than the object.<br>' + 
-                            '- Upright.<br>' + 
-                            '- Virtual (formed at the intersection of extensions of refracted rays, cannot be projected onto a screen).' + 
-                        '</li><br>' + 
-                        '<li>' + 
-                            'To form the image of an object in a diverging lens, we need to draw two rays:<br><br>' + 
-                            '- Draw the symbol of the diverging lens.<br>' + 
-                            '- Draw the principal optical axis through its center.<br>' + 
-                            '- Mark the lens elements (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
-                            '- Draw the object (AB) in front of the lens (on the left) with an arrow.<br>' + 
-                            '- Draw a ray from the tip of the object (B) parallel to the optical axis until it meets the lens and then pass it through the negative focal point (F<sub>1</sub>), as the diverging lens refracts light through the negative focal point.<br>' + 
-                            '- Draw the second ray from the tip of the object passing through the optical center of the lens (O). Extend these rays until they intersect. At their intersection, mark B\', which is the tip of the image (im) of the object (ob) AB.<br>' + 
-                            '- From B\', draw a perpendicular to the optical axis, mark its foot as A\', which represents the base of the image A\'B\'.<br>' + 
-                            '- Place the tip of the arrow at B\', thus obtaining the image of the object AB in the diverging lens.<br>' + 
-                        '</li><br>' + 
-                        '<li>' + 
-                            'In a diverging lens, we obtain an image that has the following characteristics regardless of the distance of the object from the lens:<br><br>' + 
-                            '- Smaller than the object.<br>' + 
-                            '- Upright.<br>' + 
-                            '- Virtual (formed at the intersection of extensions of refracted rays, cannot be projected onto a screen).' + 
-                        '</li>'+                        
-                    '</ul>'+
-                    '<h2 class="p-3">Thin Lens Formulas:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'Sign conventions:<br><br>' +
-                            'x<sub>1</sub> = the distance from the object AB to the lens, which is always taken as negative because it is on the negative number axis.<br><br>' +
-                            'x<sub>2</sub> = the distance from the image A\'B\' to the lens, which is taken as positive when the image is real (formed behind the lens, on the positive number axis) and negative when the image is virtual (formed in front of the lens, on the negative number axis).<br><br>' +
-                            'y<sub>1</sub> = the height of the object AB, which is taken as positive if the object is above the principal optical axis and negative if the object is below the principal optical axis.<br><br>' +
-                            'y<sub>2</sub> = the height of the image A\'B\', which is taken as positive when the image is upright (above the principal optical axis) or negative when the image is inverted (below the principal optical axis).<br><br>' +
-                            'The focal length is considered positive (f > 0) for converging lenses and negative (f < 0) for diverging lenses.' +
-                        '</li><br>' +
-                        '<li>' +
-                            'The fundamental formula of thin lenses:<br><br>' +
-                            '(1 / x<sub>2</sub>) - (1 / x<sub>1</sub>) = 1 / f' +
-                        '</li><br>' +
-                        '<li>' +
-                            'The transverse linear magnification (β) is a dimensionless physical quantity equal to the ratio of the height of the image to the height of the object.<br><br>' +
-                            'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>' +
-                        '</li><br>' +
-                        '<li>' +
-                            'The convergence of a lens (C) is a physical quantity equal to the inverse of the focal distance (f).<br><br>' +
-                            'C = 1 / f<br><br>' +
-                            '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(dioptrie)<br>' +
-                            'A converging lens has C > 0 <br><br>' +
-                            'A diverging lens has C < 0' +
-                        '</li><br>' +
-                    '</ul>'+
-                    '<h2 class="p-3">Lens associations:</h2>' +
-                    '<ul>' +
-                        '<li>' +
-                            'A system consisting of two or more lenses that have the same principal optical axis is called a <b>lens combination</b>.<br><br>' +
-                            'The image formed by the first lens becomes the object for the next lens and so on until the last lens, which gives the final image.' +
-                        '</li>' +
-                        '<li>' +
-                            'The most commonly used system is the one with lenses placed side by side (adjacent), where the distance (d) between lenses is zero, having the same optical center and the focal point of the image (F<sub>2</sub>) of the first lens (L) coincides with the object focus (F\'<sub>2</sub>).<br><br>' +
-                            'For such a system consisting of k lenses, we have:<br><br>' +
-                            '1. The inverse of the focal length of the lens system (F) equals the sum of the inverses of the focal lengths of the lenses in the combination:<br><br>' +
-                            '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>' +
-                            '2. The convergence of the system (C) equals the sum of the convergences of the component lenses:<br><br>' +
-                            'C = C<sub>1</sub> + C<sub>2</sub> + ... + C<sub>k</sub><br><br>' +
-                            '3. The transverse linear magnification of the system (β) equals the product of the transverse magnifications of the component lenses:<br><br>' +
-                            'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙ … β<sub>k</sub><br><br>' +
-                            'If we denote with x\'2 the distance from the final image to the second lens L2 and with x1 the distance from the object to the first lens L1, we have the relation:<br><br>' +
-                            '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C' +
-                        '</li>' +
-                        '<li>' +
-                            'Another lens system is the telescopic system which is an afocal system, where the output (emergent) beam, derived from a parallel beam, remains parallel. The image focal point of the first lens (F2) coincides with the object focal point of the second lens (F\'<sub>1</sub>).<br><br>' +
-                            '1. The distance between lenses is:<br><br>' +
-                            'd = f<sub>1</sub> + f<sub>2</sub><br><br>' +
-                            '2. The transverse linear magnification is:<br><br>' +
-                            'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>' +
-                            'To find the position (x\'1) of the intermediate image relative to the first lens (L<sub>1</sub>) and the size of the image formed by the first lens, we apply the formula for conjugate points for L<sub>1</sub>:<br><br>' +
-                            'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>' +
-                            'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>' +
-                            'Knowing the distance between lenses, we can calculate the position of the intermediate image (formed by L<sub>1</sub>) relative to lens L<sub>2</sub>:<br><br>' +
-                            'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>' +
-                            'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>' +
-                            'To find the position (x\'2) of the final image relative to the second lens (L<sub>2</sub>) and the size of the image formed by the second lens, we apply the formula for conjugate points for L<sub>2</sub>:<br><br>' +
-                            'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>' +
-                            'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>' +
-                        '</li>'+                
-                    '</ul>'+
+                '<ul>' +
+                '<li>' +
+                    'To establish the emergence condition (i.e., the incident ray exiting the prism), total reflection of the refracted ray II\' on face AC must not occur, meaning:<br>' +
+                    'r\' ≤ l (critical angle).<br><br>' +
+                    'Since A = r + r\' → r\' = A – r<br>' +
+                    'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
+                    'But from the first law of refraction, we have:<br>' +
+                    'sin r = sin i / n <br>' +
+                    'sin i / n ≥ sin (A - l)<br><br>' +
+                '</li>' +
+                '<li>' +
+                    'The maximum angle of incidence is<br>' +
+                    '<a id="3">i = 90° → sin 90° = 1 </a><br>' +
+                    '1 / n ≥ sin(A - l)<br>' +
+                    'sin l = 1 / n<br>' +
+                    'sin l ≥ sin(A-l) or A ≤ 2 ∙ 1<br>' +
+                    'sin l = 1 / n → 1 = arc sin 1 / n<br>' +
+                '</li>' +
+                '<li>' +
+                    'An incident ray on the prism can exit the prism if its refractive angle (A) satisfies the condition:<br>' +
+                    'A ≤ 2 ∙ arc sin 1/n<br><br>' +
+                    'If the prism has A > 2 ∙ arc sin 1/n, all incident rays on the prism will undergo total reflection on face AC.' +
+                '</li><br>' +
+                '<li>' +
+                    'When the angle of incidence (i) varies and the angle of deviation (δ) varies, always taking values greater than a certain minimum value (δ<sub>m</sub>).<br><br>' +
+                    'When i = i\' and r = r\', we obtain the value of the minimum angle of deviation (δ<sub>m</sub>):<br>' +
+                    'δ<sub>m</sub> = 2 ∙ i – A<br><br>' +
+                    'If we experimentally measure the minimum angle of deviation, we can determine the refractive index of the prism with the formula:<br>' +
+                    'n = sin((A + <sub>m</sub>) / 2) / sin (A / 2)' +
+                '</li><br>' +
+            '</ul>'
+            +'<h2 class="p-3">' + 'Types of Lenses:' + '</h2>' + 
+            '<ul>' + 
+                '<li>' + 
+                    'Lenses are transparent bodies that have at least one spherical surface.<br><br>' + 
+                    'Elements of a lens:<br><br>' + 
+                    'The principal optical axis drawn through the middle of the lens.<br><br>' + 
+                    'The optical center of the lens (O) located at the intersection of the lens with the principal optical axis.<br><br>' + 
+                    'Two foci placed on either side of the optical center of the lens, at equal distances.<br><br>' + 
+                    'The focus located to the left of O is called the negative focus/object (F<sub>1</sub>), as it lies on the axis of negative numbers.<br><br>' + 
+                    'The focus located to the right of O is called the positive focus/image (F<sub>2</sub>), as it lies on the axis of positive numbers.<br><br>' + 
+                    'The centers of curvature (C<sub>1</sub> and C<sub>2</sub>) of the diopters that border the lens located on either side of O, at a distance double that of OF.' + 
+                '</li>' + 
+            '</ul>' + 
+            '<h2 class="p-3">' + 'Classification of Lenses:' + '</h2>'+
+            
+            '<ul>' + 
+            '- <b>Converging lenses</b> (convex) are lenses that transform a parallel beam of light into a converging beam. They refract light through the positive focal point and therefore are also called positive lenses. They enlarge the writing. <a id = "4">They are thicker in the middle and thinner at the edges.</a><br><br>' + 
+            '- <b>Diverging lenses</b> (concave) are lenses that transform a parallel beam of light into a diverging beam. They refract light through the negative focal point and therefore are also called negative lenses. They decrease the writing. They are thicker at the edges and thinner in the middle.<br><br>' + 
+            '<li>' + 
+                'Formation of an image in lenses: <br><br>' + 
+                'To form the image of an object in a converging lens, we need to draw two rays:<br><br>' + 
+                '- We draw the symbol of the converging lens.<br>' + 
+                '- We draw the principal optical axis through its center.<br>' + 
+                '- We place the elements of the lens (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                '- We draw the object (AB) in front of the lens (on the left), using a segment with an arrow.<br>' + 
+                '- We draw a ray starting from the top of the object (B) parallel to the optical axis until it meets the lens and then we direct it through the positive focal point (F<sub>2</sub>), because the converging lens refracts light through the positive focal point.<br>' + 
+                '- We draw the second ray from the top of the object passing through the optical center of the lens (O). We extend these rays until they intersect. At their intersection, we place B\', which is the top of the image (im) of the object (ob) AB.<br>' + 
+                '- From B\', we draw a perpendicular to the optical axis, we denote its foot with A\', representing the base im A\'B\'.<br>' + 
+                '- We put the tip of the arrow in B\' and thus obtain the image of the object AB in the converging lens.'+
+                '</li><br></br>'+
+            '<li>' + 
+                'Depending on the distance of the object from the lens, we have three types of images in the converging lens.<br><br>' + 
+                'I. When the object is located in the interval (-∞) and C, the image of the object has the following characteristics:<br>' + 
+                '- Smaller than object AB.<br>' + 
+                '- Inverted<br>' + 
+                '- Real (formed at the intersection of refracted rays, can be projected onto a screen).<br><br>' + 
+                'II. When the object is located in the interval C and F1, the image of the object has the following characteristics:<br>' + 
+                '- Larger than object AB.<br>' + 
+                '- Inverted<br>' + 
+                '- Real (formed at the intersection of refracted rays, can be projected onto a screen).<br><br>' + 
+                'III. When the object is located in the interval F1 and O, the image of the object has the following characteristics:<br>' + 
+                '- Larger than the object.<br>' + 
+                '- Upright<br>' + 
+                '- Virtual (formed at the intersection of the extensions of refracted rays, cannot be projected onto a screen).' + 
+            '</li><br>' + 
+            '<li>' + 
+                'To form the image of an object in a diverging lens, we need to draw two rays:<br><br>' + 
+                '- We draw the symbol of the diverging lens.' + 
+                '- We draw the principal optical axis through its center.' + 
+                '- We place the elements of the lens (O, F<sub>1</sub>, F<sub>2</sub>, C).<br>' + 
+                '- We draw the object (AB) in front of the lens (on the left) using a segment with an arrow.<br>' + 
+                '- We draw a ray starting from the top of the object (B) parallel to the optical axis until it meets the lens and then we direct it through the negative focal point (F<sub>1</sub>), because the diverging lens refracts light through the negative focal point.<br>' + 
+                '- We draw the second ray from the top of the object passing through the optical center of the lens (O). We extend these rays until they intersect. At their intersection, we place B\', which is the top of the image (im) of the object (ob) AB.<br>' + 
+                '- From B\', we draw a perpendicular to the optical axis, we denote its foot with A\', representing the base im A\'B\'.<br>' + 
+                '- We put the tip of the arrow in B\' and thus obtain the image of the object AB in the converging lens.<br>' + 
+            '</li><br>' + 
+            '<li>' + 
+            'In a diverging lens, we obtain an image that has the same characteristics regardless of the distance of the object from the lens:<br><br>' + 
+            '- Smaller than the object.<br>' + 
+            '- Upright<br>' + 
+            '- Virtual (formed at the intersection of the extensions of refracted rays, cannot be projected onto a screen).' + 
+        '</li>'+
+        '</ul>'+
+        '<h2 class="p-3">Formulas of thin lenses:</h2>' +
+        '<ul>' +
+            '<li>' +
+                'Sign conventions:<br><br>' +
+                'x<sub>1</sub> = the distance from the object AB to the lens, which is always taken as negative because it is on the negative number axis.<br><br>' +
+                'x<sub>2</sub> = the distance from the image A\'B\' to the lens, which is positive when the image is real (formed behind the lens, on the positive number axis) and negative when the image is virtual (formed in front of the lens, on the negative number axis).<br><br>' +
+                'y<sub>1</sub> = the height of the object AB, which is positive if the object is above the principal optical axis and negative if the object is below the principal optical axis.<br><br>' +
+                'y<sub>2</sub> = the height of the image A\'B\', which is positive when the image is upright (above the principal optical axis) or negative when the image is inverted (below the principal optical axis).<br><br>' +
+                'The focal distance is considered positive (f > 0) for converging lenses and negative (f < 0) for diverging lenses.' +
+            '</li><br>' +
+            '<li>' +
+                'The fundamental formula of thin lenses:<br><br>' +
+                '(1 / x<sub>2</sub>) - (1 / x<sub>1</sub>) = 1 / f' +
+            '</li><br>' +
+            '<li>' +
+                'Transverse linear magnification (β) is a dimensionless physical quantity equal to the ratio of the height of the image to the height of the object.<br><br>' +
+                'β = y<sub>2</sub> / y<sub>1</sub> = x<sub>2</sub> / x<sub>1</sub>' +
+            '</li><br>' +
+            '<li>' +
+                'The convergence of a lens (C) is a physical quantity equal to the inverse of the focal distance (f).<br><br>' +
+                'C = 1 / f<br><br>' +
+                '[C]<sub>SI</sub> = m<sup>-1</sup> = δ(dioptrie)<br>' +
+                'A converging lens has C > 0 <br><br>' +
+                'A diverging lens has C < 0' +
+            '</li><br>' +
+        '</ul>'+
+        '<h2 class="p-3">Lens combinations:</h2>'+
+        
+        '<ul>' +
+        '<li>' +
+            'A system consisting of two or more lenses that share the same principal optical axis is called a <b>lens combination</b>.<br><br>' +
+            'The image formed by the first lens becomes the object for the next lens, and so on until the last lens, which produces the final image.' +
+        '</li>' +
+        '<li>' +
+            'The most commonly used system is the one with lenses placed together (joined) where the distance (d) between the lenses is zero, having the same optical center, and the focal point of the first lens (L) coincides with the object focus (F\'2).<br><br>' +
+            'For such a system consisting of k lenses, we have:<br><br>' +
+            '1. The inverse of the focal distance of the lens system (F) equals the sum of the inverses of the focal distances of the lenses in the combination:<br><br>' +
+            '1 / F = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) + ... + (1 / f<sub>k</sub>)<br><br>' +
+            '2. The convergence of the system (C) equals the sum of the convergences of the component lenses:<br><br>' +
+            'C = C<sub>1</sub> + C<sub>2</sub> + ... + C<sub>k</sub><br><br>' +
+            '3. The transverse linear magnification of the system (β) equals the product of the transverse magnifications of the component lenses:<br><br>' +
+            'β = β<sub>1</sub> ∙ β<sub>2</sub> ∙ … β<sub>k</sub><br><br>' +
+            'If we denote x\'2 as the distance from the final image to the second lens L2 and x1 as the distance from the object to the first lens L1, we have the relation:<br><br>' +
+            '(1 / x\'<sub>2</sub>) - (1 / x<sub>1</sub>) = (1 / f<sub>1</sub>) + (1 / f<sub>2</sub>) = 1 / f = C<sub>1</sub> + C<sub>2</sub> = C\'' +
+        '</li>' +
+        '<li>' +
+            'Another lens system is the telescopic system which is an afocal system, where the output (emergent) beam, derived from a parallel beam, remains parallel. The image focus of the first lens (F2) coincides with the object focus of the second lens (F\'<sub>1</sub>).<br><br>' +
+            '1. The distance between the lenses is:<br><br>' +
+            'd = f<sub>1</sub> + f<sub>2</sub><br><br>' +
+            '2. The transverse linear magnification is:<br><br>' +
+            'β = y<sub>2</sub> / y<sub>1</sub> = - f<sub>2</sub> / f<sub>1</sub><br><br>' +
+            'To find the position (x\'1) of the intermediate image relative to the first lens (L<sub>1</sub>) and the size of the image formed by the first lens, we apply the formula for conjugate points for L<sub>1</sub>:<br><br>' +
+            'x\'<sub>1</sub> = x<sub>2</sub>f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>)<br><br>' +
+            'y\'<sub>1</sub> = y<sub>1</sub>(x\'<sub>1</sub> / x<sub>1</sub>) = y<sub>1</sub> (f<sub>1</sub> / (x<sub>1</sub> + f<sub>1</sub>))<br><br>' +
+            'Knowing the distance between the lenses, we can calculate the position of the intermediate image (formed by L<sub>1</sub>) relative to lens L<sub>2</sub>:<br><br>' +
+            'd = x\'<sub>1</sub> + (- x<sub>2</sub>)<br><br>' +
+            'x<sub>2</sub> = x\'<sub>1</sub> - d<br><br>' +
+            'To find the position (x\'2) of the final image relative to the second lens (L<sub>2</sub>) and the size of the image formed by the second lens, we apply the formula for conjugate points for L<sub>2</sub>:<br><br>' +
+            'x\'<sub>2</sub> = x<sub>2</sub>f<sub>2</sub> / (x<sub>2</sub> + f<sub>1</sub>)<br><br>' +
+            'y\'<sub>2</sub> = y<sub>1</sub>(x\'<sub>2</sub> / x<sub>2</sub>) = y<sub>1</sub> (f<sub>2</sub> / (x<sub>2</sub> + f<sub>2</sub>))<br><br>' +
+        '</li>' +
+    '</ul>'+
 
                     //Optica ondulatorie
                     '<a name="element_target"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Wave optics</h2><br><br><br></u>' +
-                    '<h2 class="p-3">Light dispersion:</h2>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Wave Optics</h2><br><br><br></u>' +
+                    '<h2 class="p-3">Light Dispersion:</h2>' +
                     '<ul>' +
                         '<li>' +
                             '<b>OPTICS</b> is a branch of physics that studies the nature, properties, and phenomena undergone by light.<br><br>' +
@@ -2200,17 +2193,17 @@ var data = {
                             'In a vacuum, all electromagnetic waves propagate at the same speed, regardless of their wavelength, and therefore we say that vacuum is a non-dispersive medium. If the prism were evacuated, a white light beam would not decompose, but would only be deviated from the incident direction by the phenomenon of refraction (i.e., changing the direction of propagation when passing from one medium to another).<br><br>' +
                             'The refractive index (denoted by n) of a transparent medium is given by the ratio between the speed of light in vacuum (c) and the speed of light in the respective medium (v).<br><br>' +
                             'n = c / v<br><br>' +
-                            'c = speed of light in vacuum = 300,000,000 m/s<br><br>' +
+                            '<a id = "5">c = speed of light in vacuum = 300,000,000 m/s</a><br><br>' +
                             'v = speed of light in the respective medium<br><br>' +
-                            'All transparent media (water, glass, diamond, etc.) characterized by a refractive index greater than one, produce the dispersion of light.<br><br>' +
+                            '<a id = "9">All transparent media (water, glass, diamond, etc.) characterized by a refractive index greater than one, produce the dispersion of light.</a><br><br>' +
                             'But the refractive index is constant only for monochromatic light.<br><br>' +
                             'For white light, consisting of seven different color radiations and different wavelengths, the refractive index is no longer constant, but varies with the wavelength of these lights.<br><br>' +
                             'If the refractive index of a prism varies, the prism will refract these lights at different angles.<br><br>' +
                             'In general, under normal diffusion, in these transparent media the refractive index increases with decreasing wavelength, thus the violet rays (with a shorter wavelength, 400 nm) will be refracted more strongly than the red ones (with a longer wavelength, 700 nm, than the violet ones).<br><br>' +
                             'If λ<sub>violet</sub> < λ<sub>red</sub> → n<sub>violet</sub> > n<sub>red</sub> → v<sub>violet</sub> < v<sub>red</sub>.<br><br>' +
-                            'The colored beams pass through the prism with different speeds and therefore exit the prism at different angles.<br><br>' +
+                            '<a id = "6">The colored beams pass through the prism with different speeds and therefore exit the prism at different angles.</a><br><br>' +
                             'The violet rays emerge less inclined to the optical axis, because they propagate at a slower speed through the prism material than the red ray, while traveling a shorter distance than the red ray at the same time.<br><br>' +
-                        '</li><br>'+
+                        '</li><br>' +
                     '</ul>' +
                     '<h2 class="p-3">Light Interference:</h2>'+
                     '<ul>' +
@@ -2224,19 +2217,20 @@ var data = {
                         '- Division of the wave amplitude in the parallel-faced plate, optical wedge, Newton\'s rings.' +
                     '</li><br>' +
                     '<li>' +
-                        'The Young\'s apparatus uses a monochromatic light source S (laser), a screen with two rectangular slits (with a width smaller than 1 mm) and parallel with a maximum distance between them of 1 mm, and a screen (white sheet). For observing the interference pattern, there is no preferred position of the screen, it can be placed at a distance D between 1 m and 5 m from the slits, and for this reason it is called non-localized interference.<br><br>' +
-                        'Both interference and diffraction are based on the Huygens-Fresnel principle, which states that each point on a wavefront behaves like a secondary source of wave with the same frequency and phase as the initial wave. The new wavefront is created by adding the amplitudes of the secondary waves.' +
+                        'Young\'s apparatus uses a monochromatic light source S (laser), a screen with two rectangular slits (with a width of less than 1 mm) and parallel with a distance between them of maximum 1 mm, a screen (white sheet). For observing the interference pattern there is no preferential position of the screen, it can be placed at a distance D between 1 m and 5 m from the slits, and for this reason it is called non-localized interference.<br><br>' +
+                        'Both interference and diffraction are based on Huygens-Fresnel principle which states that each point on a wavefront behaves like a secondary source of wave with the same frequency and phase as the initial wave. The new wavefront is created by summing the amplitudes of the secondary waves.' +
                     '</li><br>' +
                     '<li>' +
-                        'In the case of constructive interference, the two waves are in phase (zero phase difference) and their sum is greater, forming bright regions.<br><br>' +
-                        'When the two waves vibrate in antiphase (180° phase difference) they will annihilate (their sum is zero), forming dark zones, in which case we speak of destructive interference.' +
+                        '<a id = "7">In the case of constructive interference, the two waves are in phase (zero phase difference) and their sum is greater, forming bright regions.</a><br><br>' +
+                        'When the two waves vibrate in antiphase (180° phase difference) they will cancel each other out (their sum is zero), forming dark areas, in which case we speak of destructive interference.' +
                     '</li><br>' +
+
                     '<li>' +
-                        'The electromagnetic wave (light) has two electric and magnetic components. Only the electric component (E) influences visual sensation.<br><br>' +
+                        'The electromagnetic wave (light) has two components, electric and magnetic. Only the electric component (E) influences visual sensation.<br><br>' +
                         'Waves of the same amplitude emitted by the two sources have the equations:<br><br>' +
                         'E<sub>1</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>1</sub> / λ))<br><br>' +
                         'E<sub>2</sub> = E<sub>0</sub>sin2π((t / T) - (r<sub>2</sub> / λ))<br><br>' +
-                        'The electromagnetic wave propagates with velocity c in the time interval Δt through the area surface S placed perpendicular to the propagation direction.<br><br>' +
+                        'The electromagnetic wave propagates at speed c in the time interval Δt through the area S perpendicular to the direction of propagation.<br><br>' +
                         'The energy carried by the wave is:<br><br>' +
                         'ΔW = w ΔV<br><br>' +
                         'ΔW = (ε<sub>0</sub> / μ<sub>0</sub>)<sup>1/2</sup>E<sup>2</sup>SΔt<br><br>' +
@@ -2244,18 +2238,18 @@ var data = {
                         'E\'<sub>0</sub> = 2 E<sub>0</sub> cos (π(r<sub>2</sub> - r<sub>1</sub>) / λ)' +
                     '</li><br>'+
                     '<li>' +
-                        'Interference conditions are:<br><br>' +
-                        '- The waves have the same frequency<br><br>' +
+                        'The conditions for interference are:<br><br>' +
+                        '- <a id = "8">The waves must have the same frequency</a><br><br>' +
                         '- Phase difference: ΔΦ = 2π(Δr / λ) = constant<br><br>' +
                         'The luminous intensity, I, at an interference point is proportional to the square of the amplitude of the resultant wave:<br><br>' +
                         'I = const 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
                         'In constructive interference (with the formation of bright fringes) we have the condition for maximum illumination:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ)<br><br> = 1 → Δr = kλ = 2k(λ/2),<br><br>' +
                         'where k = integer<br><br>' +
-                        'Points in the interference zone for which the path difference, Δr, is an even multiple of half-wavelength are on a bright fringe.<br><br>' +
+                        'The points in the interference zone for which the path difference, Δr, is an even multiple of half-wavelength lie on a bright fringe.<br><br>' +
                         'In destructive interference (with the formation of dark fringes) we have the condition for minimum illumination:<br><br>' +
                         'cos<sup>2</sup>(πΔr / λ) = 0 → Δr = kλ = 2(k+1)(λ/2)<br><br>' +
-                        'Points in the interference zone for which the path difference, Δr, is an odd multiple of half-wavelength are on a dark fringe.' +
+                        'The points in the interference zone for which the path difference, Δr, is an odd multiple of half-wavelength lie on a dark fringe.' +
                     '</li><br>' +
                     '<li>' +
                         'Determining the positions of the fringes in the Young\'s apparatus<br><br>' +
@@ -2264,85 +2258,86 @@ var data = {
                         'Δr = r<sub>2</sub> = r<sub>1</sub> = 4xl / (r<sub>1</sub> + r<sub>2</sub>)' +
                     '</li><br>' +
                     '<li>' +
-                        'Determining the wavelength by measuring the fringe spacing<br><br>' +
+                        'Determining the wavelength by measuring the fringe separation<br><br>' +
                         'i = x<sub>k+1</sub> - x<sub>k</sub> = (k+1)λD / 2l - kλD / 2l = λD / 2l<br><br>' +
                         'i = λD / 2l' +
-                    '</li>' +
-                    '</ul>' +
-                    '<h2 class="p-3">'+'Localized Interference on Parallel Faced Plate:'+'</h2>'+
+                    '</li>'+
+                    '</ul>'+
+
+                    '<h2 class="p-3">'+'Interference localized on a thin parallel-faced slab:'+'</h2>'+
                     '<ul>' +
                         '<li>' +
-                            'Localized interference on the parallel-faced plate occurs when a beam of light is split into two coherent beams on reflecting surfaces, by light reflection on the upper face and by light transmission on the lower face of the thin plate.<br><br>' +
-                            'The light reaching the upper face of the plate (film) is both reflected (IR) and refracted (IŔ ). The refracted ray through the plate is reflected on the lower face of the plate (MN). The two rays, IR and MN, interfere at the surface of the plate.<br><br>' +
-                            'Interference fringes are located in the focal plane of the lens or, in its absence, at infinity. This explains the iridescences of soap bubbles and oil or petrol films on the street.' +
+                            'Interference localized on a thin parallel-faced slab occurs when a beam of light is divided into two coherent beams on reflecting surfaces, by the reflection of light on the upper surface and by the transmission of light on the lower surface of the thin slab.<br><br>' +
+                            'The light reaching the upper surface of the slab (film) is both reflected (IR) and refracted (IŔ ). The refracted ray through the slab is reflected on the lower surface of the slab (MN). The two rays, IR and MN, will interfere at the surface of the slab.<br><br>' +
+                            'The interference fringes are located in the focal plane of the lens or, in its absence, at infinity. This explains the iridescence of soap bubbles and oil or petrol films on the street.' +
                         '</li>' +
                     '</ul>' +
                     '<h2 class="p-3">' +
-                        'Newton\'s Rings in Air Wedge Interference:' +
+                        'Newton\'s rings in interference on a layer of air:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Newton\'s rings are obtained by perpendicular illumination with monochromatic light of a plano-convex lens with a large focal length placed with the curved face on a flat glass plate. A thin air wedge is formed between the lens and the plate resulting in the formation of circular bright and dark fringes, concentric with the point of contact between the lens and the plate.' +
+                            'Newton\'s rings are obtained by perpendicular illumination with monochromatic light of a large focal length plano-convex lens placed with its curved face on a flat glass plate. Between the lens and the plate, a thin layer of air forms, resulting in the formation of concentric bright and dark circular fringes, centered at the point of contact between the lens and the plate.' +
                         '</li>' +
                     '</ul>'+
-
 
                     //Elemente de fizica cuantica
                     '<a name="element_target2"></a>' +
-                    '<br><br><br><br><u><h2 class="p-3" align = center>Quantum Physics Elements</h2><br><br><br></u>' +
+                    '<br><br><br><br><u><h2 class="p-3" align = center>Elements of Quantum Physics</h2><br><br><br></u>' +
                     '<h2 class="p-3">' +
-                        'Planck\'s Hypothesis on Light Quanta:' +
+                        'Planck\'s hypothesis on light quanta:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Planck stated that the radiation emitted by a blackbody exists in the form of discrete packets of energy which he named quanta (later called photons), dependent on the frequency of the respective radiation.<br><br>' +
-                            'The discrete values of energy of a harmonic oscillator are equidistant, so the difference between energy levels (ΔE) is proportional to the frequency (ν) of the oscillator and Planck\'s constant (h).<br><br>' +
+                            'Planck stated that the radiation emitted by a black body exists in the form of discrete packets of energy which he called quanta (later named photons), dependent on the frequency of the respective radiation.<br><br>' +
+                            'The discrete values ​​of the energy of a harmonic oscillator are equidistant, so that <a id ="10">the difference between energy levels (ΔE) is proportional to the frequency (ν) of the oscillator and Planck\'s constant (h).</a><br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = Planck\'s constant = 6.62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = frequency of the oscillator<br><br>' +
+                            '<a id ="11">h = Planck\'s constant = 6.62 ∙ 10<sup>-34</sup> J ∙ s</a><br><br>' +
+                            '<a id ="13">ν = frequency of the oscillator</a><br><br>' +
                             'Planck\'s constant is one of the smallest constants used in physics on a macroscopic scale, reflecting the microscopic scale at which quantum effects are observed.' +
                         '</li><br>' +
-                    '</ul>'+
+                    '</ul>' +
                     '<h2 class="p-3">' +
-                        'Photoelectric Effect:' +
+                        'The Photoelectric Effect:' +
                     '</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'The photoelectric effect was experimentally discovered in 1887 by Heinrich Hertz (1857-1894) and in 1888 by W. Hallwachs (1859-1922), and it consists of the emission of electrons by a metal under the action of electromagnetic radiation.<br><br>' +
-                            'In 1905, Albert Einstein (1879-1955) remarked that the explanation of the photoelectric effect could be resolved by generalizing the quantum hypothesis proposed by Planck regarding blackbody radiation to electromagnetic radiation.<br><br>' +
-                            'Thus, electrons from the cathode receive only a single packet (photon) of light energy (E = h ∙ ν) from light to be accelerated and leave the metal.<br><br>' +
+                            'The photoelectric effect was experimentally discovered in 1887 by Heinrich Hertz (1857-1894) and in 1888 by W. Hallwachs (1859-1922) and consists of the emission of electrons by a metal under the action of electromagnetic radiation.<br><br>' +
+                            'In 1905, Albert Einstein (1879-1955) noted that the explanation of the photoelectric effect could be resolved by generalizing Planck\'s quantum hypothesis regarding blackbody radiation to electromagnetic radiation.<br><br>' +
+                            'Thus, the electrons from the cathode receive from light only a single packet (photon) of luminous energy (E = h ∙ ν) in order to be accelerated and leave the metal.<br><br>' +
                             'Thus, the maximum kinetic energy of the emitted electrons will not exceed this received energy value, regardless of the intensity of the incident radiation.<br><br>' +
-                            'Additionally, it explains why the maximum speed of electrons depends on the frequency of the radiation.' +
-                            '</li><br>' +
-                            '<li>' +
+                            'Moreover, it explains why the maximum speed of the electrons depends on the frequency of the radiation.' +
+                        '</li><br>' +
+                        '<li>' +
                             'First Law of External Photoelectric Effect:<br><br>' +
                             'The external photoelectric effect occurs only when the frequency of the incident radiation is higher than the characteristic threshold frequency of the metal from which the cathode is made.<br><br>' +
-                            'To leave the metal, free electrons must receive an energy equal to the extraction work (L) for the threshold frequency (ν<sub>0</sub>):<br><br>' +
+                            'In order to leave the metal, the free electrons must receive energy equal to the extraction work (L) for the threshold frequency (ν<sub>0</sub>):<br><br>' +
                             'L = h ∙ ν<sub>0</sub> h = Planck\'s constant = 6.62 ∙ 10<sup>-34</sup> m<sup>2</sup> ∙ kg/s<br><br>' +
                             'The photon of energy h ∙ ν transfers its energy to a conduction electron.<br><br>' +
                             'The electron can leave the metal only if h ∙ ν ≥ L.' +
                         '</li><br>' +
                     '</ul>'+
-                    '<h2 class="p-3">Second Law of External Photoelectric Effect:</h2>' +
+
+                    '<h2 class="p-3">The second law of external photoelectric effect:</h2>' +
                     '<ul>' +
                         '<li>' +
                             'The photoelectric effect occurs practically instantaneously.<br><br>' +
-                            'The emission of an electron is the result of the collision between a photon and an electron in a time shorter than 10<sup>-9</sup> s.' +
+                            'The emission of an electron is the result of the collision between a photon and an electron in a time less than 10<sup>-9</sup> s.' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">Third Law of External Photoelectric Effect:</h2>' +
+                    '<h2 class="p-3">The third law of external photoelectric effect:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'The kinetic energy of the emitted electrons increases linearly with the frequency of the incident radiation.<br><br>' +
+                            '<a id="12">The kinetic energy of emitted electrons increases linearly with the frequency of incident radiation.</a><br><br>' +
                             'If the energy of the photon h ∙ ν > L, then the electron has sufficient kinetic energy to leave the metal:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
                     '</ul>' +
-                    '<h2 class="p-3">Fourth Law of External Photoelectric Effect:</h2>' +
+                    '<h2 class="p-3">The fourth law of external photoelectric effect:</h2>' +
                     '<ul>' +
-                    '<li>' +
-                    'The number of photoelectrons emitted from the cathode per unit time is proportional to the number of incident photons in this time interval, which is proportional to the flux of light energy.' +
-                    '</li>' +
+                        '<li>' +
+                            'The number of photoelectrons emitted from the cathode per unit time is proportional to the number of incident photons in this time interval, which is proportional to the flux of luminous energy.' +
+                        '</li>' +
                     '</ul>'),
 
         //cuprins
@@ -3171,7 +3166,7 @@ var data = {
                                         +'Când aplicăm o tensiune electrică între două puncte ale unui conductor, apare un curent electric, adică o mișcare dirijată a electronilor săi liberi, care transportă o sarcină q = n ∙ e.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'a id ="2">Intensitatea curentului electric (I) este o mărime fizică scalară numeric egală cu raportul dintre sarcina electrică (q) ce trece prin secțiunea transversală a unui conductor și intervalul de timp (Δt).</a>'
+                                        +'<a id ="2">Intensitatea curentului electric (I) este o mărime fizică scalară numeric egală cu raportul dintre sarcina electrică (q) ce trece prin secțiunea transversală a unui conductor și intervalul de timp (Δt).</a>'
                                     +'</li><br>'
                                     +'<li>'
                                     +'Caracterizarea intensității curentului electric ca mărime fizică:<br><br>'
@@ -3271,20 +3266,10 @@ var data = {
                             +'Acest lucru nu este de dorit, deoarece curenții mari pot provoca daune, iar sursa se consumă rapid.'
                         +'</li>'
                     +'</ul>'
-                    +'<h2 class="p-3">Legea lui Ohm pentru o porțiune de circuit:</h2>'
-                    +'<ul>'
-                        +'<li>'
-                            +'Elementele rețelelor electrice (circuitelor ramificate):<br><br>'
-                            +'1. <b>Nodul de circuit</b> reprezintă intersecția a cel puțin trei conductoare electrice.<br><br>'
-                            +'2. <b>Latura de circuit</b> este porțiunea de circuit cuprinsă între două noduri succesive, astfel încât prin elementele ei să circule același curent electric.<br><br>'
-                            +'3. <b>Ochiul de circuit</b> reprezintă porțiunea de circuit formată din cel puțin două laturi, conectate astfel încât să formeze un contur închis (linie poligonală închisă).<br><br>'
-                        +'</li><br>'
-                    +'</ul>'
 
                     //Legea lui Kirchhoff
                     +'<a name="element_target2"></a>'
                     +'<br><br><br><br><u><h2 class="p-3" align = center>Legea lui Kirchhoff</h2><br><br><br></u>'
-                    +'<h2 class="p-3">Legea lui Ohm pentru o porțiune de circuit:</h2>'
                     +'<ul>'
                         +'<li>'
                             +'Elementele rețelelor electrice (circuitelor ramificate):<br><br>'
@@ -3430,7 +3415,7 @@ var data = {
                             +'Puterea dezvoltată de rezistor este maximă când: <br><br>'
                             +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
                             +'adică atunci când:<br><br>'
-                            +'a id ="22">R = r</a>'
+                            +'<a id ="22">R = r</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Legea lui Joule:</h2>'
@@ -3613,14 +3598,14 @@ var data = {
                             'r ≥ A – l → sin r ≥ sin (A – l)<br><br>' +
                             'Dar din prima lege a refracției avem:<br>' +
                             'sin r = sin i / n <br>' +
-                            'sin i / n >= sin (A - l)<br><br>' +
+                            'sin i / n ≥ sin (A - l)<br><br>' +
                         '</li>' +
                         '<li>' +
                             'Unghiul maxim de incidență este<br>' +
                             '<a id="3">i = 90° → sin 90° = 1 </a><br>' +
-                            '1 / n >= sin(A - l)<br>' +
+                            '1 / n ≥ sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
-                            'sin l >= sin(A-l) sau A <= 2 ∙ 1<br>' +
+                            'sin l ≥ sin(A-l) sau A ≤ 2 ∙ 1<br>' +
                             'sin l = 1 / n → 1 = arc sin 1 / n<br>' +
                         '</li>' +
                         '<li>' +
@@ -4120,346 +4105,342 @@ var data = {
 
         //teorieMecanica.html
         "teorieMecanicaTitle": "Mechanika elmélet",
-        "teorieMecanica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Elvek és törvények'+'</h2>'+'<br>'+'<br>'+' <br>'+'</u>'+
-                        '<h2 class=\"p-3\">'+'Sebesség'+'</h2>'+
+        "teorieMecanica": ('<u>'+'<h2 class=\\"p-3\\" align = center>'+'Elvek és törvények'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                        '<h2 class=\\"p-3\\">'+'Sebesség'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Képlet: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Mérési egység: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li >'+
+                            '<li>'+'Mértékegység: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
                                     '<li>'+'Átlagsebesség: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
-                                    '<li>'+'A sebességvektor jelentése ugyanaz, mint az elmozdulás: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>' + ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
+                                    '<li>'+'A sebességvektor ugyanabba az irányba mutat, mint a helyváltozás: v'+'<span style=\\"vertical-align : 5px;\\">'+'&#8407;'+'</span>'+' = d'+'<span style=\\"vertical-align : 5px;\\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Gyorsulás'+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'Gyorsulás'+'</h2>'+
                         '<ul>'+
                             '<li>'+'Képlet: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Mérési egység: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+' </sup>'+'</b>'+'</li>'+
+                            '<li>'+'<a id ="2">'+'Mértékegység: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</a>'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'A Galileo képlet:'+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'Galilei képlet:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+') '+'</b>'+'</li>'+
+                            '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Sebességszabály: '+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'Sebességi törvény: '+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</b>'+'</li>'+
+                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Mozgás törvénye:'+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'Mozgástörvény:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'x = 1/2at'+'<sup>'+'2'+'</sup>'+' + v'+'<sub>'+'0 '+'</sub>'+'t + x'+'<sub>'+'0'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'<b>'+'x = 1/2at'+'<sup>'+'2'+'</sup>'+' + v'+'<sub>'+'0'+'</sub>'+'t + x'+'<sub>'+'0'+'</sub>'+'</b>'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'A mechanika I. elve:'+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'A mechanika I. elve:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Minden test megtartja nyugalmi állapotát vagy egyenletes egyenes vonalú mozgását mindaddig, amíg semmilyen más erő nem hat rá, vagy a rá ható erők összege nulla.'+'</li>'+
-                            '<li>'+'Röviden: A sebesség '+'<b>'+'konstans'+'</b>'+', ha '+'<b>'+'az erőkre kifejtett erők eredője. body'+' </b>'+' értéke 0'+'</li>'+
+                            '<li>'+'Bármely test megőrzi nyugalmi állapotát vagy egyenes vonalú egyenletes mozgását, amíg más erők nem hatnak rá, vagy azok összege nulla.'+'</li>'+
+                            '<li>'+'Röviden: A sebesség '+'<b>'+'állandó'+'</b>'+' akkor, ha a '+'<b>'+'testre ható eredményes erők'+'</b>'+' nulla'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'A mechanika második elve:'+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'A mechanika II. elve:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Egy test mozgási mennyiségének változása egyenesen arányos az alkalmazott erővel, és abban az irányban következik be, amelyben az erő hat.'+'</li>'+
-                            '<li>'+'Más szavakkal mondva: a testre ható erő az erővel arányos és a test tömegével fordítottan arányos gyorsulást ad.'+'</li>'+
+                            '<li>'+'A test impulzusának megváltozása közvetlenül arányos a rá ható erővel, és az azzal ható iránnyal megegyező irányba történik.'+'</li>'+
+                            '<li>'+'Más szóval: Az egy testre ható erő gyorsulást ad neki, amely arányos a erővel és fordítottan arányos a test tömegével.'+'</li>'+
                             '<li>'+'Képlet: F = ma'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'A mechanika harmadik alapelve:'+'</h2>'+
+                        '<h2 class=\\"p-3\\">'+'A mechanika III. elve:'+'</h2>'+        
                         '<ul>'+
-                            '<li>'+'Amikor az egyik test egy másik testre erővel hat (amelyet cselekvési erőnek neveznek), akkor a második test is ugyanolyan nagyságú és irányú erővel (úgynevezett reakcióerővel) hat az első testre, de szemben. Ez az elv a cselekvés és reakció elveként is ismert.'+'</li>'+
-                            '<li>'+'Képletként írva: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub> '+'r'+'</sub>'+'</b>'+'</li>'+
+                            '<li>'+'A test tömegének impulzusváltozása közvetlen arányosságban áll a rá ható erővel, és az azzal ható iránnyal megegyező irányban történik.'+'</li>'+
+                            '<li>'+'Más szóval: egy testre ható erő gyorsulást ad neki, amely arányos a erővel és fordítottan arányos a test tömegével.'+'</li>'+
+                            '<li>'+'Képlet: F = ma'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Hooke törvénye:'+'</h2>'+
+                        '<h2 class="p-3">'+'Mechanika harmadik elve:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Egy rugó megnyúlása egyenesen arányos a deformáló erővel (F):'+'</li>'+'<br>'+
-    
+                            '<li>'+'<a id="5">'+'Amikor egy test kifejt egy erőt (amit az akciós erőnek nevezünk) egy másik testre, a második test visszahat egy erőt (amit reakciós erőnek nevezünk) az első testre, amely nagyságban egyenlő és irányában ellentétes. Ez az elv ismert még mint az Akció és Reakció elve.'+'</li>'+'</a>'+
+                            '<li>'+'Képletben kifejezve: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
+                        '</ul>'+
+                        '<h2 class="p-3">'+'Hooke törvénye:'+'</h2>'+
+                        '<ul>'+
+                            '<li>'+'A rugó nyújtása közvetlen arányosságban áll a deformáló erővel (F):'+'</li>'+'<br>'+
                             'Δl ~ F'+'<br>'+'<br>'+
-    
-                            '<li>'+'Közvetlenül arányos a rugó kezdeti hosszával (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
-                            
+                            '<li>'+'Közvetlen arányosságban áll a rugó kezdeti hosszával (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
                             'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
-    
-                            '<li>'+'A rugó keresztmetszeti területével fordítottan arányos:'+'</li>'+'<br>'+
-    
+                            '<li>'+'Fordított arányosságban áll a rugó keresztmetszetével:'+'</li>'+'<br>'+
                             'Δl ~ 1/S'+'<br>'+'<br>'+
-    
                             '<li>'+'Hooke törvénye:'+'</li>'+'<br>'+
                             'F/S = E∙Δl/l'+'<sub>'+'0'+'</sub>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Vezeték feszültsége:'+'</h2>'+
+                        '<h2 class="p-3">'+'Feszültség a drótokban:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A huzalban lévő feszültség ( T ) a nyújthatatlan huzal (amely nem nyúlik meg) reakcióerejét jelenti a rá kifejtett erőre.'+'</li>'+'<br>' +
-                            '<li>'+'Ha egy testet felfüggesztünk egy nyújthatatlan szálra, két páros erő jelenik meg:'+'<br>'+'<br>'+
-    
-                                'A test nyomóereje (F) az az erő, amellyel a test a huzalra hat (ez egyenlő a test súlyával).'+'<br>'+'<br>'+
-                                
-                                'A huzalban lévő feszültség (T) az az erő, amellyel a huzal a rajta felfüggesztett testre hat.'+'</li>'+
+                            '<li>'+'A drótban fellépő feszültség (T) az elasztikus drót reakciós ereje (amely nem nyúlik) a rá ható erőre nézve.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="4">'+'Amikor egy testet függőlegesen felakasztunk egy rugalmas drótra, két párosított erő jelenik meg:'+'<br>'+'<br>'+'</a>'+
+                                'A test nyomóereje (F) az a erő, amellyel a test a drótra hat (ez megegyezik a test súlyával).'+'<br>'+'<br>'+
+                                'A drótban fellépő feszültség (T) az az erő, amellyel a drót a rajta lógó testre hat.'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'A csúszósúrlódás törvényei:'+'</h2>'+
+                        '<h2 class="p-3">'+'Csúszó súrlódási törvények:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A súrlódás első törvénye:'+'<br>'+'<br>'+
-                            
-                                'A csúszó súrlódási erő értéke az érintkező felületek jellegétől és megmunkáltságának mértékétől függ. A függőséget egy dimenzió nélküli mennyiség, az úgynevezett csúszósúrlódási tényező jellemzi, amely 0 és 1 közötti értékeket vesz fel, és μ-vel jelöljük.'+'<br>'+'<br>'+
-    
-                                'Ff ~ μ'+'</li>'+'<br>'+
-    
-                            '<li>'+'A súrlódás második törvénye:'+'<br>'+'<br>'+
-                                'A csúszó súrlódási erő értéke nem függ a testek közötti érintkezési felület területétől.'+'<br>'+'<br>'+'</li>'+
-                                
-                            '<li>'+'A súrlódás harmadik törvénye:'+'<br>'+'<br>'+
-                                'A csúszó súrlódási erő értéke a test által a csúszófelületre kifejtett nyomóerőtől függ, amely nagysága megegyezik a testek érintkezési felületén fellépő normál reakcióerővel.'+'<br>'+'<br>' +
-    
-                            'Ff ~ N'+'</li>'+'<br>'+
-                            '<li>'+'A súrlódási erő képletét a következő összefüggés adja meg:'+'<br>'+'<br>'+
+                            '<li>'+'Az első súrlódási törvény:'+'<br>'+'<br>'+
+                                'A csúszó súrlódási erő értéke függ a kapcsolatban lévő felületek anyagától és állapotától. Ezt a függést egy dimenzió nélküli mennyiség, a csúszó súrlódási együttható jellemzi, amely 0-tól 1-ig terjed, és μ-vel jelöljük.'+'<br>'+'<br>'+
+                                '<a id="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
+                            '<li>'+'A második súrlódási törvény:'+'<br>'+'<br>'+
+                                'A csúszó súrlódási erő értéke nem függ a testek közötti érintkezési felület nagyságától.'+'<br>'+'<br>'+'</li>'+
+                            '<li>'+'A harmadik súrlódási törvény:'+'<br>'+'<br>'+
+                                'A csúszó súrlódási erő értéke függ a test által a csúszó felületre kifejtett nyomó erőtől, amely nagysága megegyezik a testek közötti érintkezési felületen fellépő normál reakció erővel.'+'<br>'+'<br>'+
+                                'Ff ~ N'+'</li>'+'<br>'+
+                            '<li>'+'A súrlódási erő képlete a következő összefüggés szerint adható meg:'+'<br>'+'<br>'+
                                 'Ff = μ ∙ N'+'</li>'+
                         '</ul>'+
+
     
                         //Teoreme de variatie si legi de conservare
                         
-                        '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center >'+'Tételek változatossági és természetvédelmi törvényei'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                        
-                        '<h2 class=\"p-3\">'+'Gépészeti munka:'+'</h2>'+
+                        '<a name="element_target">'+'</a>'+
+                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class="p-3" align="center">'+'Variációk és megőrzési törvények'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                                
+                        '<h2 class="p-3">'+'Mechanikai Munka:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A testre a test elmozdulásának irányában és irányában ható állandó erő mechanikai munkája (L) az a skaláris fizikai mennyiség, amely egyenlő az erő modulusának (F) és a a test elmozdulási modulusa (d).' +'</li>'+'<br>'+
-                            '<li>'+'Számítási képlet: L = F ∙ d'+'</li>'+'<br>'+
-                            '<li>'+'Aláírási konvenciók:'+'<br>'+
-                                '1. Egy erő mechanikai munkája akkor pozitív, ha az erő segíti a test mozgatását. Ez akkor fordul elő, ha az erőnek ugyanolyan iránya és értelme van, mint a test mozgásának.'+'<br>'+'<br>'+
-                                '2. Egy erő mechanikai munkája negatív, ha az erő ellentétes a test mozgásával. Ez akkor fordul elő, ha az erővektor mozgási irányú komponense ellentétes a test mozgásával.'+'<br>'+'<br>'+
-                                '3. Egy erő mechanikai munkája nulla, ha az erő sem nem segíti a testet mozgásban, sem nem áll ellen a mozgásnak. Ez akkor történik, ha az erővektor merőleges a test mozgási irányára.'+
+                            '<li>'+'A mechanikai munka (L) egy állandó erő által egy testre kifejtett munka a test elmozdulásának irányában és érzékében, a skalár fizikai mennyiség, amely egyenlő az erő nagyságának (F) és a test elmozdulásának (d) nagyságának szorzatával.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="8">'+'Számítási képlet: L = F ∙ d'+'</li>'+'<br>'+'</a>'+
+                            '<li>'+'Jelzések:'+'<br>'+
+                                '1. A munka pozitív, ha az erő segít a test mozgatásában. Ez akkor történik, ha az erő iránya és érzéke megegyezik a test mozgásával.'+'<br>'+'<br>'+
+                                '2. A munka negatív, ha az erő ellenáll a test mozgásának. Ez akkor történik, ha az erővektor összetevője az elmozdulás irányában ellentétes a test mozgásával.'+'<br>'+'<br>'+
+                                '3. A munka nulla, ha az erő sem segíti, sem nem ellenáll a test mozgásának. Ez akkor történik, ha az erővektor merőleges a test mozgásának irányára.'+
                             '</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Mechanikai teljesítmény:'+'</h2>'+
+                        '<h2 class="p-3">'+'Mechanikai Teljesítmény:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A mechanikai teljesítmény (P) az a skaláris fizikai mennyiség, amely megegyezik az elvégzett mechanikai munka (L) és a mechanikai munka elvégzésének időtartama (Δt) arányával.'+'</li> '+'<br>'+
+                            '<li>'+'<a id="10">'+'A mechanikai teljesítmény (P) a mechanikai munka (L) és az ezen munka elvégzéséhez szükséges idő (Δt) hányadosa.'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'P = Mechanikai munka / idő = L / Δt'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Kinetikus energia:'+'</h2>'+
+                        '<h2 class="p-3">'+'Kinetikus Energia:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A mechanikai energia (E) az a fizikai mennyiség, amely a test mechanikai munkavégzésére való képességét jellemzi, mértékegysége a joule (J).'+'</li>'+'<br>' +
-                            '<li>'+'A kinetikus energia (E'+'<sub>'+'c'+'</sub>'+') az az energia, amellyel egy mozgó test rendelkezik.'+'</li> '+ '<br>'+
-                            '<li>'+'Egy bizonyos sebességgel mozgó test mozgási energiáját a következő képlettel számítjuk ki:'+'<br>'+'<br>'+
-                                'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+ '</li>'+'<br>'+
-                            '<li>'+'A mozgási energia változásának törvénye:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Összesen'+'</sub>'+'</li>'+
+                            '<li>'+'A mechanikai energia (E) a test mechanikai munkavégző képességét jellemző fizikai mennyiség, mértékegysége joule (J).'+'</li>'+'<br>'+
+                            '<li>'+'A kinetikus energia (E'+'<sub>'+'c'+'</sub>'+') a mozgó test energiája.'+'</li>'+'<br>'+
+                            '<li>'+'Egy bizonyos sebességgel mozgó test kinetikus energiáját a következő képlet segítségével számíthatjuk ki:'+'<br>'+'<br>'+
+                                'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+'</li>'+'<br>'+
+                            '<li>'+'A kinetikus energia változásának törvénye:'+'<br>'+'<br>'+
+                                '<a id="9">'+'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Teljes'+'</sub>'+'</li>'+'</a>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Gravitációs potenciálenergia:'+'</h2>'+
+                        '<h2 class="p-3">'+'Gravitációs Potenciális Energia:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A gravitációs potenciálenergia (E'+'<sub>'+'pg'+'</sub>'+') az az energia, amellyel egy test a talajtól egy bizonyos magasságban rendelkezik. '+'</li>'+'<br>'+
-                            '<li>'+'Egy test gravitációs potenciálenergiája egyenlő: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
-                            '<li>'+'A gravitációs potenciálenergia változásának törvénye:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
-                            '<li>'+'Azt az erőt, amely a megtett úttól független mechanikai munkát végez, és csak a szélső pozícióktól (kezdeti és végső) függ, konzervatív erőnek nevezzük.'+'</li>'+
+                            '<li>'+'A gravitációs potenciális energia (E'+'<sub>'+'pg'+'</sub>'+') az a energia, amelyet egy test bizonyos magasságban rendelkezik a talaj felett.'+'</li>'+'<br>'+
+                            '<li>'+'<a id="7">'+'A test gravitációs potenciális energiája egyenlő: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+'</a>'+
+                            '<li>'+'A gravitációs potenciális energia változásának törvénye:'+'<br>'+'<br>'+
+                                '<a id="6">'+'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</a>'+'</li>'+'<br>'+
+                            '<li>'+'Egy erő, amely függetlenül a megtett úttól végzett mechanikai munkától és csak a kezdeti és végállásoktól függ, konzervatív erőnek nevezhető.'+'</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'Mechanikai energia megőrzése:'+'</h2>'+
+                        '<h2 class="p-3">'+'Mechanikai Energia Megőrzése:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A mechanikai energia megmaradásának törvénye:'+'<br>'+'<br>'+
-    
-                                '\"Egy test mechanikai energiája megmarad, ha csak konzervatív erők hatnak rá.\"'+'<br>'+'<br>'+
-                            
-                                'E = állandó, ha a test kívülről el van szigetelve, és F'+'<sub>'+'f'+'</sub>'+' = 0'+'</li>'+
+                            '<li>'+'Mechanikai energia megőrzési törvénye:'+'<br>'+'<br>'+
+                                '\“A test mechanikai energiája akkor őrződik meg, ha csak konzervatív erők hatnak rá.\“'+'<br>'+'<br>'+
+                                'E = állandó, ha a testet külső erőktől izolálják és F'+'<sub>'+'f'+'</sub>'+' = 0'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Momentum variációs tétel:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'A test lendületét a lendület megmaradásának törvénye jelöli, és a képlete:'+'<br>'+'<br>'+
-                            'p'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = m ∙ v'+'<span style=\" vertical-align : 4px;\">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
+                            '<li>'+'A test impulzusa a lendületmegmaradás törvénye szerint, melynek a képlete:'+'<br>'+'<br>'+
+                            'p'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = m ∙ v'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
                             '<li>'+'A mechanikai impulzus változásának tétele'+'<br>'+'<br>'+
                                 'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' ∙ Δt'+
                             '</li>'+
                         '</ul>'+
-                        '<h2 class=\"p-3\">'+'A lendület megmaradásának törvénye:'+'</h2>'+
+                        '<h2 class=\"p-3\">'+'Lendületmegmaradás Törvénye:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'Ha a mechanikai rendszer le van választva, az eredő erő F'+'<sub>'+'R'+'</sub>'+'<span style=\"vertical-align : 4px; margó balra : -1.5px\">'+'&#8407;'+'</span> '+' nulla.'+'<br>'+'<br>'+
-                            'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<sub>'+'R' +'</sub>'+'<span style=\"vertical-align : 4px; margin-left : -1.5px\">'+'&#8407;'+'</span>'+' ∙ Δt = 0 ∙ Δt = 0'+'</li>'+'<br>'+
-                            '<li>'+'A mechanikai impulzus megmaradásának törvénye az SRI-ben:'+'<br>'+'<br>'+
-                                'Az izolált mechanikai rendszerek mechanikai lendülete megmarad.'+'<br>'+'<br>'+
-                                'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = 0, azaz Δp'+'<span style=\ "vertical-align : 4px; \">'+'&#8407;'+'</span>'+' = const'+'<span style=\"vertical-align : 4px; margin-left : -25px \">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
-                                '<li>'+'Izolált mechanikai rendszerek esetében a teljes impulzus nem változhat belső erők hatására.'+'</li>'+
+                            '<li>'+'Amikor a mechanikai rendszer izolált, a resultant erő F'+'<sub>'+'R'+'</sub>'+'<span style=\"vertical-align : 4px; margin-left : -1.5px\">'+'&#8407;'+'</span> '+'nulla.'+'<br>'+'<br>'+
+                            'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<sub>'+'R'+'</sub>'+'<span style=\"vertical-align : 4px; margin-left : -1.5px\">'+'&#8407;'+'</span>'+' ∙ Δt = 0 ∙ Δt = 0'+'</li>'+'<br>'+
+                            '<li>'+'A mechanikai lendületmegmaradás törvénye izolált mechanikai rendszerekre:'+'<br>'+'<br>'+
+                                'Az izolált mechanikai rendszerek lendülete megmarad.'+'<br>'+'<br>'+
+                                'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = 0, azaz Δp'+'<span style=\"vertical-align : 4px; \">'+'&#8407;'+'</span>'+' = állandó'+'<span style=\"vertical-align : 4px; margin-left : -25px\">'+'&#8407;'+'</span>'+'</li>'+'<br>'+ 
+                                '<li>'+'Izolált mechanikai rendszerek esetén ezeknek a teljes lendületét nem lehet megváltoztatni a belső erők hatására.'+'</li>'+
                         '</ul>'),
 
         //teorieTermodinamica.html
         "teorieTermodinamicaTitle": "Termodinamikai elmélet",
-        "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Termodinamikai alapfogalmak'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+        "teorieTermodinamica": ('<u>'+'<h2 class="p-3" align = center>'+'Termodinamikai alapfogalmak'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 '<ul>'+
-                                '<li>'+'<b>'+'Thermal agitation'+'</b>'+' egy anyag részecskéinek (atomok vagy molekulák) rendezetlen és folyamatos mozgása.'+'</li> '+' <br>'+
-                                '<li>'+'<b>'+'Diffúzió'+'</b>'+' az a jelenség, amikor egy anyag molekulái behatolnak egy másik anyag molekulái közé, külső erő beavatkozása nélkül ( önmagában).'+ '</li>'+'<br>'+
-                                '<li>'+'<b>'+'Atom'+'</b>'+' egy anyag legkisebb részecskéje, amely szokásos kémiai folyamatokkal nem osztható tovább.'+'</li >'+ '<br>'+
-                                '<li>'+'<b>'+'Molekula'+'</b>'+' az anyag legkisebb részecskéje, amely szabad állapotban is létezhet, és amely megtartja annak az anyagnak a tulajdonságait, amelyből jön a '+'</li>'+'<br>'+
-                                '<li>'+'<b>'+'Molekulatömeg'+'</b>'+' egy dimenzió nélküli mennyiség (mértékegység nélkül), amely megmutatja, hogy egy molekula valós tömege hányszor nagyobb, mint atomtömeg egység (u.a.m.).'+'</li>'+'<br>'+
-                                '<li>'+'<b>'+'A relatív atomtömeg (A)'+'</b>'+' az a szám, amely megmutatja, hogy egy atom tömege hányszor nagyobb az atomtömeg egységénél .'+ '</li>'+'<br>'+
-                                '<li>'+'<b>'+'Egy mól atom'+'</b>'+' egy egyszerű anyag mennyiségét jelöli grammban, amely 6,022 ∙ 10'+'<sup>' +'23'+'</sup>'+' atomok. A görög "niu"= υ betűvel írják.'+'<br>'+'<br>'+
-                                    'υ = m(g) / A(g/mol) = egyszerű anyag tömege (g) / atomtömeg (g/mol)'+'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'Avogadro száma'+'</b>'+', N'+'<sub>'+'A'+'</sub>'+' , egyenlő 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atommal és bármely egyszerű anyag egy móljában található atomok számát jelenti.'+'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'Móltömeg'+'</b>'+' (a görög miu = μ betűvel jelölve) egy mól anyag tömege. Mértékegysége g/mol.'+'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'A mól'+'</b>'+' az Avogadro számával megegyező számú részecskét tartalmazó anyag mennyiségének mértékegysége a Nemzetközi Rendszerben, N'+ '<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
-                                            'υ = m(g) / μ(g/mol) = vegyület tömege (g) / moláris tömege (g/mol)'+'<br>'+'<br>'+
-                                            'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Részecskék száma / Avogadro száma'+'</li>'+'<br>'+
-                                        '<li>'+'Egy mól gázt foglal el normál hőmérsékleti (273 K) és nyomási körülmények között (10'+'<sup>'+'5'+'</sup>'+' Pa) egy térfogatot '+'<b>'+'molar volume'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L /mol '+'<br>'+'<br>'+
-                                            'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Gáztérfogat (L) / Moláris térfogat (L/mol)'+'<br>'+'<br>'+
-                                            'Az anyag moláris térfogata és sűrűsége közötti kapcsolat:'+'<br>'+'<br>'+
-                                            'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
-                                            'A térfogatszám (n) a részecskék (atomok vagy molekulák) számát jelenti egy m3 anyagban:'+'<br>'+'<br>'+
-                                            'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V '+'<br>'+'<br>'+'</li>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Termodinamikai egyensúlyi és termodinamikai folyamatok:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+'<b>'+'Egy termodinamikai rendszer állapotát'+'</b>'+' egy bizonyos pillanatban bizonyos fizikai mennyiségek jellemzik, amelyeket állapotparamétereknek nevezünk.'+'</li >'+'<br>'+
-                                    '<li>'+'<b>'+'A termodinamikai egyensúly elve'+'</b>'+':'+'<br>'+'<br>'+
-
-                                        'Egy izolált termodinamikai rendszer spontán módon fejlődik a termodinamikai egyensúlyi állapot felé, amelyet soha nem hagy ki magától.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Egy rendszer termodinamikai egyensúlyi állapota'+'</b>'+' a következő kapcsolattal módosítható:'+'<br>'+'<br>' +
-                                        '- mechanikus a külső környezettel'+'<br>'+
-                                        '- termikus egy másik környezettel (ha két különböző hőmérsékletű test érintkezik) vagy a külső környezettel'+'<br>'+
-                                        '- anyagcsere a külső környezettel vagy más környezettel'+'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'A termodinamikai folyamat'+'</b>'+' (állapottranszformáció) a rendszer átmenetét jelenti egyik állapotból a másikba.'+'</li>' +' <br>'+
-                                        '<li>'+'<b>'+'Kvázistatikus transzformáció'+'</b>'+' akkor fordul elő, ha a rendszer által áthaladó köztes állapotok termikus egyensúlyi állapotok, amikor az állapotparaméterek nagyon lassan változnak. ' +'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'A reverzibilis folyamat'+'</b>'+' az a kvázi statikus átalakulás, amely mindkét irányban, ugyanazon köztes állapotokon keresztül történhet.'+'</li>'+ '<br>'+
-                                        '<li>'+'Az állapotegyenlet (Clapeyron – Mengyelejev) egy termodinamikai rendszer állapotparaméterei közötti függést írja le:'+'<br>'+'<br>'+
-                                            'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
-                                            'p = ideális gáznyomás'+'<br>'+
-    
-                                            'V = ideális gáztérfogat'+'<br>'+
-    
-                                            'ν = az ideális gáz móljainak száma'+'<br>'+
-    
-                                            'R = univerzális gázállandó = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
-    
-                                            'T = ideális gázhőmérséklet'+'</li>'+
-                                '</ul>'+
+                                '<li>'+'<b>'+'<a id="1">'+'Hőmozgás'+'</b>'+' a részecskék (atomok vagy molekulák) folytonos és rendezetlen mozgása egy anyagban.'+'</a>'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Difúzió'+'</b>'+' az egyik anyag molekuláinak a másik anyag molekulái közé történő behatolása külső erő beavatkozása nélkül.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Atom'+'</b>'+' az anyag legkisebb részecskéje, amelyet kémiai módszerekkel már nem lehet tovább osztani.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Molekula'+'</b>'+' az anyag legkisebb részecskéje, amely képes önálló állapotban létezni, és megőrzi az anyag tulajdonságait, amelyből származik.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Molekulatömeg'+'</b>'+' az anyagmennyiség (mol) molekulatömege, amely mértékegysége nélküli.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Relatív atomtömeg (A)'+'</b>'+' az atom tömegét mutató szám, amely az atomtömeg egységének többszöröse.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Egy mol atom'+'</b>'+' a rendkívül egyszerű anyag tömege grammban, amely 6,022 ∙ 10'+'<sup>'+'23'+'</sup>'+' atomot tartalmaz. Görög betűvel jelölve "ν"= υ.'+'<br>'+'<br>'+
+                                'υ = m(g) / A(g/mol) = anyagtömeg(g) / molekulatömeg(g/mol)'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'<a id="2">'+'Avogadro szám'+'</b>'+', jelölve N'+'<sub>'+'A'+'</sub>'+', ami 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atomot tartalmaz, és a rendkívül egyszerű anyag egy mol atomjának a száma.'+'</a>'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Moláris tömeg'+'</b>'+' (görög betűvel jelölve μ) az anyag egy moljának a tömege, mértékegysége g/mol.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Mol'+'</b>'+' az anyagmennyiség SI egységrendszerben, amelyben a részecskék száma egyenlő Avogadro számával, N'+'<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
+                                    'υ = m(g) / μ(g/mol) = anyagtömeg(g) / moláris tömeg(g/mol)'+'<br>'+'<br>'+
+                                    'υ = N / N'+'<sub>'+'A'+'</sub>'+' = részecskeszám / Avogadro száma'+'</li>'+'<br>'+
+                                '<li>'+'Egy mol bármilyen gáz térfogata normál hőmérsékleten (273 K) és nyomáson (10'+'<sup>'+'5'+'</sup>'+' Pa) egy ún.'+'<b>'+'<a id="5">'+'moláris térfogat'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L/mol'+'</a>'+'<br>'+'<br>'+
+                                    'v = V / V'+'<sub>'+'μ'+'</sub>'+' = gáz térfogata(L) / moláris térfogat(L/mol)'+'<br>'+'<br>'+
+                                    'A moláris térfogat és a anyag sűrűsége közötti kapcsolat:'+'<br>'+'<br>'+
+                                    'ρ = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
+                                    'A térfogati szám (n) az anyag egy m3-jében lévő részecskék (atomok vagy molekulák) száma:'+'<br>'+'<br>'+
+                                    'n = N'+'<sub>'+'A'+'</sub>'+' / V'+'<sub>'+'μ'+'</sub>'+' = N / V'+'<br>'+'<br>'+'</li>'+
+                            '</ul>'+
+                            '<h2 class=\"p-3\">'+'Termodinamikai egyensúly és termodinamikai folyamatok:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'<b>'+'Egy termodinamikai rendszer állapota'+'</b>'+', egy adott pillanatban, bizonyos fizikai mennyiségekkel jellemezhető, amelyeket állapotparamétereknek nevezünk.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A termodinamikai egyensúly elve'+'</b>'+':'+'<br>'+'<br>'+
+                            
+                                    'Egy izolált termodinamikai rendszer spontán módon halad egy termodinamikai egyensúlyi állapot felé, amelyet magától nem hagy el.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A termodinamikai egyensúly állapota'+'</b>'+' egy rendszerben megváltoztatható a következőkkel :'+'<br>'+'<br>'+
+                                    '- mechanikai kapcsolattal a külső közeggel'+'<br>'+
+                                    '- hővel egy másik közeggel (amikor két test különböző hőmérsékletűek és érintkeznek egymással) vagy a külső közeggel'+'<br>'+
+                                    '- anyagcserével a külső közeggel vagy más közegből'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A termodinamikai folyamat'+'</b>'+' (állapotváltozás) egy rendszer átmenete egyik állapotból a másikba.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A kvázistatikus átalakulás'+'</b>'+' akkor következik be, amikor a rendszer által átélt köztes állapotok hőegyensúlyi állapotok, és az állapotparaméterek nagyon lassan változnak.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A reverzibilis folyamat'+'</b>'+' a kvázistatikus átalakulás, amely mindkét irányban végbemehet ugyanazokon a köztes állapotokon keresztül.'+'</li>'+'<br>'+
+                                '<li>'+'Az állapotegyenlet (Clapeyron - Mendeleev néven is ismert) leírja a termodinamikai rendszer állapotparamétereinek függőségét:'+'<br>'+'<br>'+
+                                '<a id="4">'+'p ∙ V = ν ∙ R ∙ T'+'</a>'+'<br>'+'<br>'+
+                                    'p = ideális gáz nyomása'+'<br>'+
+                            
+                                    'V = ideális gáz térfogata'+'<br>'+
+                            
+                                    'ν = ideális gáz moláris mennyisége'+'<br>'+
+                            
+                                    'R = gázok univerzális gázállandója = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K'+'<br>'+
+                            
+                                    'T = ideális gáz hőmérséklete'+'</li>'+
+                            '</ul>'+                            
+                                
                                 '<h2 align = center>'+
-                                '<img src = \"img/transformari.png\" width = 360>'+
+                                '<img src = "img/transformari.png" width = 360>'+
                                 '</h2>'+
-                                '<h2 class=\"p-3\">'+'Tapasztalati hőmérséklet. Hőmérséklet-skálák:'+'</h2>'+
+                                '<h2 class="p-3">'+'Empirikus hőmérséklet. Hőmérsékleti skálák:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Két kívülről adiabatikusan elszigetelt, egymással energiát nem cserélő zárt termodinamikai rendszer hőmérséklete azonos, ezt nevezzük '+'<b>'+'empirikus hőmérsékletnek.'+'</b> '+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Hőmérséklet'+'</b>'+' egy hőmérővel mért fizikai állapotmennyiség, amely magában foglal egy hőmérőtestet, egy hőmérős mennyiséget és egy hőmérsékleti skálát.' +'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'A termodinamika nulla elve'+'</b>'+' (a termikus egyensúly tranzitivitása):'+'<br>'+'<br>'+
-                                        'Ha az A rendszer termikus egyensúlyban van B rendszerrel, és B rendszer termikus egyensúlyban van a C rendszerrel, akkor az A rendszer a C rendszerrel is termikus egyensúlyban van.'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Transformációs reláció'+'</b>'+' Celsius t(°C) és Fahrenheit tF (°F) között:'+'<br>'+ '<br>'+
-                                        't'+'<sub>'+'F'+'</sub>'+' = 9/5 ∙ t(°C) + 32'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Kelvin skála'+'</b>'+' (abszolút érték): '+'<br>'+'<br>'+
-                                        '[T]'+'<sub>'+'SI'+'</sub>'+' = K (kelvin)'+'<br>'+'<br>'+
-                                        'T(K) = t (°C) + 273,15'+'</li>'+
+                                '<li>'+'Két külsőleg zárt és izolált termodinamikai rendszer, melyek nem cserélnek energiát egymás között, azonos hőmérséklettel rendelkeznek, melyet '+'<b>'+'empirikus hőmérsékletnek'+'</b>'+' nevezünk.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Hőmérséklet'+'</b>'+' egy fizikai állapotméret, melyet hőmérővel mérünk, és magában foglal egy hőtestet, egy hőmérsékleti méretet és egy hőmérsékleti skálát.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A termodinamika nulladik törvénye'+'</b>'+' (a hőegyensúly tranzitivitása):'+'<br>'+'<br>'+
+                                'Ha az A rendszer hőegyensúlyban van a B rendszerrel, és a B rendszer hőegyensúlyban van a C rendszerrel, akkor az A rendszer is hőegyensúlyban van a C rendszerrel.'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'Átváltási viszony'+'</b>'+' a Celsius (t°C) és Fahrenheit (tF °F) skála között:'+'<br>'+'<br>'+
+                                't'+'<sub>'+'F'+'</sub>'+' = 9/5 ∙ t(°C) + 32'+'</li>'+'<br>'+
+                                '<li>'+'<b>'+'A Kelvin skála'+'</b>'+' (abszolút): '+'<br>'+'<br>'+
+                                '[T]'+'<sub>'+'SI'+'</sub>'+' = K (kelvin)'+'<br>'+'<br>'+
+                                '<a id="3">'+'T(K) = t (°C) + 273,15'+'</a>'+'</li>'+
                                 '</ul>'+
 
                                 //Principiul I
                                 '<a name=\"element_target\">'+'</a>'+
-                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'I. alapelv'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                                
+                                '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Elv I'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                                                
 
-                                '<h2 class=\"p-3\">'+'Gépészeti munka:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Mechanikus munka:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'A zárt termodinamikai rendszer és a külső környezet közötti energiacsere kétféleképpen mehet végbe:'+'<br>'+'<br>'+
-                                        '- Gépészeti munka elvégzésével'+'<br>'+
+                                    '<li>'+'A zárt és külsőleg izolált termodinamikai rendszer energiaátadása a külső környezetnek két módon történhet:'+'<br>'+'<br>'+
+                                        '- Mechanikus munkavégzéssel'+'<br>'+
                                         '- Hőátadással.'+'<br>'+'<br>'+
-                                        
-                                        'Az egyes erők hatására a helyzetparaméterek változását eredményező kölcsönhatások körülményei között a rendszerbe átvitt energia mértékét '+'<b>'+'mechanikai munkának nevezzük.'+'</b>'+'<br>'+' <br>'+
+                                                                        
+                                        'Az energia mérése, amit a rendszerrel való interakciók során az állapotparaméterek változására fejt ki, '+'<b>'+'mechanikus munkának'+'</b>'+' nevezünk.'+'<br>'+'<br>'+
                                         'L = F ∙ d'+'</li>'+'<br>'+
-                                    '<li>'+'Az F'+'<sub>'+'e'+'</sub>'+' külső erő által végzett mechanikai munka:'+'<br>'+'<br> '+
-                                        'L'+'<sub>'+'e'+'</sub>'+' = p'+'<sub>'+'e'+'</sub>'+' ∙ S ∙ (x1 - x2) = - p'+'<sub>'+'e'+'</sub>'+' ∙ ΔV'+'<br>'+'<br>'+
-                                        'S = a henger keresztmetszete'+'<br>'+
-                                        'p'+'<sub>'+'e'+'</sub>'+' = külső nyomás'+'<br>'+
+                                    '<li>'+'A külső erő (Fe) által végzett mechanikus munka :'+'<br>'+'<br>'+
+                                        'Le'+' = pe ∙ A ∙ (x1 - x2) = - pe ∙ ΔV'+'<br>'+'<br>'+
+                                        'A = a henger keresztmetszetének területe'+'<br>'+
+                                        'pe = külső nyomás'+'<br>'+
 
-                                        'V2 = S ∙ x2'+'<br>'+
-                                        'V1 = S ∙ x1'+'<br>'+
-                                        
+                                        'V2 = A ∙ x2'+'<br>'+
+                                        'V1 = A ∙ x1'+'<br>'+
+                                                                        
                                         'ΔV = V2 - V1'+'</li>'+'<br>'+
-                                    '<li>'+'A termodinamikai rendszer izobár átalakulás során végzett mechanikai munkája:'+'<br>'+'<br>'+
-                                        'L = p ∙ ΔV'+'</li>'+'<br>'+
-                                    
-                                    '<li>'+'A termodinamikai rendszer által végzett mechanikai munkára vonatkozó előjelek:'+'<br>'+'<br>'+
-                                    
-                                        'a) Ha a gáz kitágul (növeli a térfogatát), ΔV > 0, majd L > 0 és a rendszer mechanikai munkát végez a külső közegen (L hozam).'+'<br>'+'<br>'+
-                                    
-                                        'b) Ha a gáz összenyomódik (a térfogata csökken), ΔV < 0, akkor L < 0 és mechanikai munka folyik a rendszeren (L-t kap).'+'<br>'+'<br>'+
-                                    
-                                        'c) Ha a rendszer és a külső között mechanikai munkával nem történik energiaátadás (L = 0), akkor a gáz térfogata nem változik (ΔV=0).'+'</li>'+'<br>'+
+                                    '<li>'+'A termodinamikai rendszer által végzett mechanikus munka egy izobár transzformációban:'+'<br>'+'<br>'+
+                                    '<a id="6">'+'L = p ∙ ΔV'+'</li>'+'<br>'+'</a>'+
+                                                                    
+                                    '<li>'+'A termodinamikai rendszer által végzett mechanikus munka előjele:'+'<br>'+'<br>'+
+                                                                    
+                                        'a) Ha a gáz tágul (nő a térfogata), ΔV > 0, akkor L > 0 és a rendszer munkát végez a külső környezetben (munkát ad le).'+'<br>'+'<br>'+
+                                                                    
+                                        'b) Ha a gáz összezsugorodik (csökken a térfogata), ΔV < 0, akkor L < 0 és a rendszeren munkát végeznek (munkát kap).'+'<br>'+'<br>'+
+                                                                    
+                                        'c) Ha a rendszer és a környezet között nincs energiaátadás mechanikus munka révén (L = 0), akkor a gáz nem változtatja meg térfogatát (ΔV=0).'+'</li>'+'<br>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Gépészeti munka:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Mechanikus munka:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Egy valódi gáz részecskéinek energiáját a következő képlet adja meg:'+'<br>'+'<br>'+
-                                        '- A külső energiát a rendszer egészének kinetikus energiájának és az erőtérben lévő potenciális energiájának összege adja meg.'+'<br>'+'<br>'+
-                                        '- A belső energiát (U) a molekulák kinetikus energiáinak (E'+'<sub>'+'c'+'</sub>'+') és a molekulák közötti kölcsönhatás potenciális energiáinak összege adja meg. a termodinamikai rendszer molekulái (E '+'<sub>'+'p'+'</sub>'+').'+'<br>'+'<br>'+
+                                        'Egy valós gáz részecskéinek energiája a következőképpen van megadva:'+'<br>'+'<br>'+
+                                        '- A külső energia a rendszer teljes kinetikus energiájából és a rendszerben lévő potenciális energiából áll egy erőtérben.'+'<br>'+'<br>'+
+                                        '- A belső energia (U) a rendszer molekuláinak kinetikus energiájának (Ec) és a termodinamikai rendszer molekulái közötti kölcsönhatási potenciális energiájának (Ep) összege.'+'<br>'+'<br>'+
                                         'U = Ec + Ep'+'<br>'+'<br>'+
-                                        '- De a belső energiaváltozás (ΔU = U'+'<sub>'+'2'+'</sub>'+' – U'+'<sub>'+'1'+'</sub> ' +') egy fizikai állapotmennyiség, és nem függ a köztes állapotoktól, amelyeken a rendszer áthalad, hanem csak a kezdeti állapottól (U'+'<sub>'+'1'+'</sub>'+ ') és az utolsó (U'+'<sub>'+'2'+'</sub>'+').'+
-                                    '</li>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'Heat:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+
-                                        'A hő (Q) egy fizikai mennyiség, amely csak a molekulák rendezetlen mozgása révén méri át az energiát két termikus érintkező test között.'+'<br>'+'<br>'+
+                                        '- Azonban a belső energia változása (ΔU = U2 - U1) egy állapotméret, és nem függ a rendszer által átélt köztes állapotoktól, csak az első (U1) és az utolsó (U2) állapotától.'+
 
-                                        '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+
-                                        "A hő másik megengedett mértékegysége a kalória: 1cal = 4,18 J"+
-                                    '</li>'+'<br>'+
-                                    '<li>'+'A hő előírásai:'+'<br>'+'<br>'+
-                                        'a) Ha a rendszer kívülről kap hőt, akkor Q > 0'+'<br>'+'<br>'+
-                                        'b) Ha a rendszer hőt bocsát ki a kültérbe, akkor Q < 0'+'<br>'+'<br>'+
-                                        'c) Ha a rendszer adiabatikusan le van választva (nem cserél hőt a külsővel), akkor Q = 0'+
-                                    '</li>'+'<br>'+
-                                '</ul>'+
-                                '<h2 class=\"p-3\">'+'A termodinamika első főtételének következményei:'+'</h2>'+
-                                '<ul>'+
-                                    '<li>'+'Adja meg a termodinamika első elvét:'+'<br>'+'<br>'+
-                                        'Egy rendszer belső energiájának változása valamilyen folyamatban:'+'<br>'+'<br>'+
-                                        'ΔU = Q - L'+'</li>'+'<br>'+
-                                    '<li>'+'Ha a rendszer le van szigetelve (sem hőt, sem mechanikai munkát nem cserél ki a külsővel), akkor'+'<br>'+'<br>'+
-                                        'Q = L = 0, ΔU = U2 – U1 = 0 és U1 = U2, azaz egy elszigetelt rendszer belső energiája megmarad.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'A termodinamika első elvének egyenlete a hő definíciójának formájában is felírható:'+'<br>'+'<br>'+
-                                        "Q = ΔU + L, azaz a rendszer által kapott hő egyrészt a rendszer belső energiájának megváltoztatására, másrészt a rendszer mechanikai munkájának elvégzésére szolgál."+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Ha a rendszer adiabatikusan le van szigetelve (nem cserél hőt a külsővel), akkor'+'<br>'+'<br>'+
-                                        'Q = 0 és L = –ΔU = –(U2 – U1), azaz egy izolált adiabatikus rendszer csak a belső energia változása miatt cserél mechanikai munkát a külsővel.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Ha a rendszer nem cserél mechanikai munkát a külsővel (L=0), hanem csak hőt, akkor'+'<br>'+'<br>'+
-                                        'ΔU = Q, azaz a rendszer által kapott hő a rendszer belső energiájának növekedéséhez vezet.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Ciklikus transzformációban ΔU = U2 – U1 = 0 és L = Q, vagyis a rendszer csak akkor tud mechanikai munkát végezni, ha kívülről kap hőt.'+
-                                    '</li>'+'<br>'+
-                                    '<li>'+
-                                        'Ebből az következik, hogy lehetetlen létezni egy első típusú örökmobil (olyan eszköz, amely mechanikai munkát végez anélkül, hogy kívülről energiát fogyasztana).'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'Kalóriaegyütthatók:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Hő:'+'</h2>'+
+
                                 '<ul>'+
                                     '<li>'+
-                                        'A fajhő (c) azt a fizikai mennyiséget jelöli, amely 1 kg anyag által felvett/leadott hőt jellemzi, hogy a hőmérsékletét egy fokkal növelje/csökkentse. Ez egy anyagi állandó, és a fejezet végén található állandó táblázatban található.'+'<br>'+'<br>'+
-                                        'c = 1 / m ∙ Q / ΔT'+'<br>'+'<br>'+
-                                        '[c]'+'<sub>'+'SI'+'</sub>'+' = J/Kg∙K'+'<br>'+'<br>'+
-                                        'Q = m ∙ c ∙ ΔT'+'<br>'+
-                                        'm = testtömeg'+'<br>'+
-                                        'c = fajhő'+'<br>'+
-                                        'ΔT = T'+'<sub>'+'final'+'</sub>'+' – T'+'<sub>'+'initial'+'</sub>'+' , a testhőmérséklet '+'<br>'+'<br>'+
-                                        'Q'+'<sub>'+'kapott'+'</sub>'+' > 0'+'<br>'+
-                                        'Q'+'<sub>'+'átadva'+'</sub>'+'< 0 '+'<br>'+'<br>'+
-                                        'A kalorimetrikus egyenlet: '+'<br>'+'Q'+'<sub>'+'received'+'</sub>'+' = | Q'+'<sub>'+'átadva'+'</sub>'+' |'+'<br>'+
+                                        'A hő (Q) egy olyan fizikai mennyiség, amely csak a molekulák rendezetlen mozgása révén mérhető energiaátadást jelent két hőkontaktusban álló test között.'+'<br>'+'<br>'+
+
+                                        '<a id = "7">'+'[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+'</a>'+
+                                        'Egy másik elfogadott mértékegység a hőre a kalória: 1 kalória = 4,18 J'+
+                                    '</li>'+'<br>'+
+                                    '<li>'+'A hőre vonatkozó előjel konvenciók:'+'<br>'+'<br>'+
+                                        'a) Ha a rendszer hőt kap a külsőtől, akkor Q > 0'+'<br>'+'<br>'+
+                                        'b) Ha a rendszer hőt ad le a külsőnek, akkor Q < 0'+'<br>'+'<br>'+
+                                        'c) Ha a rendszer adiabatikusan izolált (nem cserél hőt a külsővel), akkor Q = 0'+
+                                    '</li>'+'<br>'+
+                                '</ul>'+
+                                '<h2 class=\"p-3\">'+'Az első főtörvény következményei:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+'Az első főtörvény enunciációja:'+'<br>'+'<br>'+
+                                        'Egy rendszer belső energiájának változása bármilyen folyamat során:'+'<br>'+'<br>'+
+                                        'ΔU = Q - L'+'</li>'+'<br>'+
+                                    '<li>'+'Ha a rendszer izolált (nem cserél sem hőt, sem mechanikai munkát a külsővel), akkor'+'<br>'+'<br>'+
+                                        'Q = L = 0, ΔU = U2 – U1 = 0, ami azt jelenti, hogy az izolált rendszer belső energiája állandó marad.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'A hőkapacitás (C) azt a fizikai mennyiséget jelöli, amely jellemzi azt a hőmennyiséget, amelyre a termodinamikai rendszernek szüksége van ahhoz, hogy hőmérsékletét egy fokkal változtassa.'+'<br>'+'<br>'+
+                                        'Az első főtörvény egyenlete megfogalmazható a hő definíciójaként is:'+'<br>'+'<br>'+
+                                        'Q = ΔU + L, vagyis a rendszer által kapott hő mind az energia belső változására, mind a rendszer által végzett mechanikai munkára szolgál.'+
+                                    '</li>'+'<br>'+
+                                    '<li>'+
+                                        'Ha a rendszer adiabatikusan izolált (nem cserél hőt a külsővel), akkor'+'<br>'+'<br>'+
+                                        'Q = 0 és L = –ΔU = –(U2 – U1), ami azt jelenti, hogy egy adiabatikusan izolált rendszer csak belső energiaváltozás révén végez mechanikai munkát a külsővel.'+
+                                    '</li>'+'<br>'+
+                                    '<li>'+
+                                        'Ha a rendszer nem végez mechanikai munkát a külsővel (L= 0), hanem csak hőt kap, akkor'+'<br>'+'<br>'+
+                                        'ΔU = Q, vagyis a rendszerre kapott hő a rendszer belső energiájának növekedéséhez vezet.'+
+                                    '</li>'+'<br>'+
+                                    '<li>'+
+                                        'Egy ciklusos folyamatban, ΔU = U2 – U1 = 0 és L = Q, vagyis a rendszer csak akkor végez mechanikai munkát, ha hőt kap a külsőtől.'+
+                                    '</li>'+'<br>'+
+                                    '<li>'+
+                                        'Ebből következik az első fajta perpetuum mobile lehetetlensége (olyan berendezés, amely mechanikai munkát végez, anélkül hogy energiafogyasztás lenne a külsőtől).'+
+                                    '</li>'+
+                                '</ul>'+
+                                '<h2 class=\"p-3\">'+'Hőmérsékleti együtthatók:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+
+                                        'A hőkapacitás (c) egy olyan fizikai mennyiség, amely azt jelzi, hogy 1 kg anyag mennyi hőt nyel el / lead egy fokos hőmérsékletváltozáshoz. Anyagtulajdonság és a fejezet végén található állandótáblázatban található.'+'<br>'+'<br>'+
+                                        'c = 1 / m ∙ Q / ΔT'+'<br>'+'<br>'+
+                                        '[c]'+'<sub>'+'SI'+'</sub>'+' = J/kg∙K'+'<br>'+'<br>'+
+                                        'Q = m ∙ c ∙ ΔT'+'<br>'+
+                                        'm = test tömege'+'<br>'+
+                                        'c = hőkapacitás'+'<br>'+
+                                        'ΔT = T'+'<sub>'+'végső'+'</sub>'+' – T'+'<sub>'+'kezdeti'+'</sub>'+' ,a test hőmérsékletváltozása'+'<br>'+'<br>'+
+                                        'Q'+'<sub>'+'kapott'+'</sub>'+' > 0'+'<br>'+
+                                        'Q'+'<sub>'+'leadott'+'</sub>'+'< 0 '+'<br>'+'<br>'+
+                                        'Kalorimetriai egyenlet: '+'<br>'+'Q'+'<sub>'+'kapott'+'</sub>'+' = | Q'+'<sub>'+'leadott'+'</sub>'+' |'+'<br>'+
+                                    '</li>'+'<br>'+
+                                    '<li>'+
+                                        'Hőkapacitás (C) azt mutatja, hogy mennyi hő szükséges a termodinamikai rendszer hőmérsékletének egy fokkal való változásához.'+'<br>'+'<br>'+
                                         'C = Q / ΔT'+'<br>'+'<br>'+
-                                        '[C]'+'<sub>'+'SI'+'</sub>'+' = J/Kg'+'<br>'+'<br>'+
+                                        '[C]'+'<sub>'+'SI'+'</sub>'+' = J/kg'+'<br>'+'<br>'+
                                         'Q = C ∙ ΔT'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Mólhő (C'+'<sub>'+'μ'+'</sub>'+') az a hő, amely egy mól anyag hőmérsékletének egy fokkal történő megváltoztatásához szükséges.'+'<br> ' +'<br>'+
+                                        'A moláris hőkapacitás (C'+'<sub>'+'μ'+'</sub>'+') az a hőmennyiség, amely szükséges egy mol anyag hőmérsékletének egy fokkal való változásához.'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'μ'+'</sub>'+' = Q / v ∙ ΔT'+
                                         '[C'+'<sub>'+'μ'+'</sub>'+'] = J/mol∙K'+
                                     '</li>'+
                                 '</ul>'+
-                                '<h2 class=\"p-3\">'+'A szabadság fokai:'+'</h2>'+
+                                '<h2 class=\"p-3\">'+'Szabadsági fokok:'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'Mivel a termodinamikában az ideális gázmolekulákat anyagi pontoknak tekintjük, a termodinamikai rendszert jellemző független koordinátákat szabadsági fokoknak nevezzük.'+'<br>'+'<br>'+
-                                        '- Egyatomos gázok esetén: i = 3'+'<br>'+
+                                    '<li>'+'A termodinamikában az ideális gáz molekuláit pontszerűnek tekintik, a termodinamikai rendszer karakterizálására szolgáló független koordinátákat szabadsági fokoknak nevezik.'+'<br>'+'<br>'+
+                                    '<a id="8">'+'- Egyatomos gázok esetén: i = 3'+'<br>'+'</a>'+
                                         '- Kétatomos gázok esetén: i = 5'+'<br>'+
-                                        '- Többatomos gázok esetén: i = 6'+'<br>'+'<br>'+
+                                        '- Poliatomos gázok esetén: i = 6'+'<br>'+'<br>'+
 
-                                        'A moláris hő állandó térfogaton:'+'<br>'+'<br>'+
+                                        'A moláris hőkapacitás állandó térfogaton:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'v'+'</sub>'+' = i/2 R'+'<br>'+'<br>'+
-                                        'A moláris hő állandó nyomáson:'+'<br>'+'<br>'+
+                                        'A moláris hőkapacitás állandó nyomáson:'+'<br>'+'<br>'+
                                         'C'+'<sub>'+'p'+'</sub>'+' = (i + 2)/2 R'+'<br>'+'<br>'+
-                                        'R = 8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (univerzális gázállandó)'+'</li>'+
+                                        'R =  8,3143 ∙ 10'+'<sup>'+'3'+'</sup>'+' J/kmol ∙ K (az általános gázkonstans)'+'</li>'+
                                 '</ul>'+
+
                                 '<h2 class=\"p-3\">'+'Isochore transzformáció :'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'(ν és V állandó) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
+                                    '<li>'+'(ν és'+ '<a id="9">'+' V állandó'+'</a>'+') → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
                                     '<li>'+'Két esetünk van:'+'<br>'+'<br>'+
                                         '- Az állandó térfogatú gáz felmelegszik, hőt vesz fel → QV > 0 és ΔU > 0 (növeli a gáz belső energiáját).'+'<br>'+'<br>'+
                                         '- Az állandó térfogatba zárt gáz lehűl, hőt ad fel → QV < 0 és ΔU < 0 (a gáz belső energiája csökken)'+'</li>'+'<br>'+
@@ -4540,7 +4521,7 @@ var data = {
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'A Robert–Mayer reláció megállapítja a moláris hőek közötti kapcsolatot:'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+
+                                        '<a id="10">'+'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+'</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'A Robert–Mayer reláció megállapítja a kapcsolatot a moláris fajhők között:'+'<br>'+'<br>'+
@@ -4566,7 +4547,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Hőmotorok:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        "A hőmotor olyan rendszer, amely a kapott hőt egy üzemanyag (benzin, gázolaj, metángáz stb.) elégetésével mechanikai munkává alakítja."+
+                                        '<a id="12">'+"A hőmotor olyan rendszer, amely a kapott hőt egy üzemanyag (benzin, gázolaj, metángáz stb.) elégetésével mechanikai munkává alakítja."+'</a>'+
                                     '</li>'+
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Az Otto motor:'+'</h2>'+
@@ -4585,7 +4566,7 @@ var data = {
                                         '-'+'<b>'+'1. időpont: Belépés'+'</b>'+' - (izobar folyamat):'+'<br>'+'<br>'+
                                         'A szívószelep kinyílik, a benzin-levegő keverék beszívódik a hengerbe, és a dugattyú állandó nyomáson leereszkedik a TDC-ről a TDC-re. Ez a dugattyú első leereszkedése.'+'<br>'+'<br>'+
                                     
-                                        '-'+'<b>'+'2. idő: tömörítés'+'</b>'+' - (adiabatikus folyamat):'+'<br>'+'<br>'+
+                                        '-'+'<b>'+'<a id="11">'+'2. idő: tömörítés'+'</b>'+' - (adiabatikus folyamat):'+'</a>'+'<br>'+'<br>'+
                                         'Mindkét szelep zárva van. A dugattyú a TDC-ig mozog, így az üzemanyag erősen összenyomódik, ilyenkor a nyomás és a hőmérséklet nő. A tömörítés nagy sebessége miatt ez a folyamat adiabatikus (nincs hőcsere a külsővel). Ez a dugattyú első felemelkedése.'+'<br>'+'<br>'+
                                         '-'+'<b>'+'3. idő: gyújtás'+'</b>'+' - (izokhor folyamat) és '+'<b>'+'detente'+'</b>'+ ' - (adiabatikus folyamat):'+'<br>'+'<br>'+
                                         'Mindkét szelep zárva van, és a dugattyú TDC-n van. A gyújtógyertya által keltett elektromos szikra meggyújtja a keveréket, amely felrobban, és állandó térfogat mellett jelentős nyomásnövekedést okoz. A keverék hő leadásával ég (Q1 = a motor által kapott hő). Az égés során keletkező gázok adiabatikusan tágulnak, mechanikai munkával a dugattyút a PMI-be nyomják. Ez a dugattyú második leereszkedése.'+'<br>'+'<br>'+
@@ -4596,7 +4577,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Az Otto hőmotor hatásfoka:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Az Otto hőmotor hatásfoka (η) a motor által végzett mechanikai munka (L) és a kapott hő (Q) arányával egyenlő fizikai mennyiség.'+'<br>'+'<br> '+
+                                        '<a id="13">'+'Az Otto hőmotor hatásfoka (η) a motor által végzett mechanikai munka (L) és a kapott hő (Q) arányával egyenlő fizikai mennyiség.'+'</a>'+'<br>'+'<br> '+
                                         'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'hozamos'+'</sub>'+'|)'+
 
                                         'Feltételezzük, hogy a munkaanyag ideális gáz, és a kompressziós arány ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 '+'</sub>'+'.'+'<br>'+'<br>'+
@@ -4641,7 +4622,7 @@ var data = {
                                     '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (adiabatikus folyamat)'+'<br>'+
                                     '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub >'+'2'+'</sub>'+' < 0 (izokór folyamat)'+'<br>'+'<br>'+
 
-                                    'η = 1 - (1/y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+
+                                    '<a id="14">'+'η = 1 - (1/y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+'</a>'+
                                     
                                 '</li>'+
                                 '</ul>'+
@@ -4658,7 +4639,7 @@ var data = {
                                         'A termodinamika második főtételének első megfogalmazása Sadi Carnoté, aki 1824-ben kimutatta, hogy van egy felső határa a hő mechanikai energiává alakításának hatékonyságának egy hőgépben, ami egy termodinamikai ciklus alkalmazását foglalja magában. munkafolyadék.' +
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Carnot mutatta be először, hogy nem lehet egyetlen termosztáttal üzemeltetni egy hőmotort, amelyhez legalább két termosztát szükséges. Így a rendszer meleg forrásból kap hőt (termosztát T'+'<sub>'+'1'+'</sub>'+') és hőt ad egy hideg forrásnak (T'+'<sub>'+'2'+'</sub>'+').'+
+                                        '<a id="17">'+'Carnot mutatta be először, hogy nem lehet egyetlen termosztáttal üzemeltetni egy hőmotort, amelyhez legalább két termosztát szükséges.'+'</a>'+' Így a rendszer meleg forrásból kap hőt (termosztát T'+'<sub>'+'1'+'</sub>'+') és hőt ad egy hideg forrásnak (T'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'A gázparaméterek kezdeti állapotban: p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' és T'+'<sub>'+'1'+'</sub>'+
@@ -4687,10 +4668,10 @@ var data = {
                                 '<h2 class=\"p-3\">'+'A termodinamika második főtételének Carnot-féle megfogalmazása:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'A Carnot-ciklus hozama mindig alegység, mert T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
+                                        '<a id="15">'+'A Carnot-ciklus hozama mindig alegység,'+'</a>'+' mert T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'A Carnot-ciklus teljesítménye csak a meleg forrás (T'+'<sub>'+'1'+'</sub>'+') és a hideg (T'+'<sub>'+'2' +'</sub>'+'), és nem függ a munkaanyagtól.'+
+                                        '<a id="16">'+'A Carnot-ciklus teljesítménye csak a meleg forrás (T'+'<sub>'+'1'+'</sub>'+') és a hideg (T'+'<sub>'+'2' +'</sub>'+'), és nem függ a munkaanyagtól.'+'</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         "Egy irreverzibilis hőmotor hatásfoka mindig alacsonyabb, mint az azonos hőmérsékleti határok között reverzibilisen működő hőmotoré."+
@@ -4728,7 +4709,7 @@ var data = {
                                         +'ezeknek a szerepe az elektromos áramkör nyitása és zárása. Csak akkor halad áram az áramkörben, ha a kapcsoló be van kapcsolva.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'A villamos áram hagyományos iránya egy áramkörön belül a forrás pozitív pólusáról a negatív pólusra halad, a külső áramkörön keresztül (a fogyasztók által).'
+                                        +'<a id = "5">A villamos áram hagyományos iránya egy áramkörön belül a forrás pozitív pólusáról a negatív pólusra halad, a külső áramkörön keresztül (a fogyasztók által).</a>'
                                     +'</li>'
                                 +'</ul>'
                                 +'<h2 class="p-3">A villamos áram intenzitása:</h2>'
@@ -4737,7 +4718,7 @@ var data = {
                                         +'Ha egy vezető két pontja között villamos feszültséget alkalmazunk, villamos áram jelenik meg, azaz az elektronok rendezett mozgása, akik szabadon mozognak, és töltést q = n ∙ e szállítanak.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'<b>A villamos áram intenzitása</b> (I) egy skalár fizikai mennyiség, amely egy vezető keresztmetszetén áthaladó töltés (q) és időtartam (Δt) hányadosával egyenlő.'
+                                        +'<a id ="2"><b>A villamos áram intenzitása</b> (I) egy skalár fizikai mennyiség, amely egy vezető keresztmetszetén áthaladó töltés (q) és időtartam (Δt) hányadosával egyenlő.</a>'
                                     +'</li><br>'
                                     +'<li>'
                                         +'<b>A villamos áram intenzitásának jellemzése fizikai mennyiségként:</b><br><br>'
@@ -4756,7 +4737,7 @@ var data = {
                                     + '<li>'
                                         + '<b>Elektromos feszültség</b> (rövidítve: VEM, szimbólum: E) egy skalár fizikai mennyiség, amely a forrás (L<sub>total</sub>) által végzett mechanikai munkát méri a villamos töltéshordozó (q) egységnyi távolságban (q) az egész áramkör mentén.<br><br>'
                                         + 'E = L<sub>total</sub> / q<br><br>'
-                                        + 'Az SI-ben az elektromos feszültség mértékegysége a volt (V):<br><br>'
+                                        +'<a id="1">Az SI-ben az elektromos feszültség mértékegysége a volt (V):</a><br><br>'
                                         + '[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V (volt)'
                                     + '</li><br>'
                                     + '<li>'
@@ -4770,11 +4751,11 @@ var data = {
                                  +'</li><br>'
                                  +'<li>'
                                      +'<b>Belső feszültség</b> (szimbólummal u) egy skalár fizikai mennyiség, amely méri a forrás (L<sub>int</sub>) által végzett mechanikai munkát a villamos töltéshordozó (q) egységnyi távolságban az áramkörön belül.<br><br>'
-                                     +'u = L<sub>int</sub> / q'
+                                     +'<a id = "4">u = L<sub>int</sub> / q</a>'
                                  +'</li>'
                                  +'<li>'
                                      +'Így a villamos áramkör három feszültségének a kapcsolata:<br><br>'
-                                     +'E = U + u'
+                                     +'<a id = "3">E = U + u</a>'
                                  +'</li><br>'
                                  +'<li>'
                                      +'U = Mechanikai munka / Elektromos töltés<br><br>'
@@ -4802,9 +4783,9 @@ var data = {
                             +'<li>'
                                 +'Az elektromos ellenállás jellemzése fizikai méretként:<br><br>'
                                 +'R = Elektromos feszültség / Elektromos áramerősség = U / I<br><br>'
-                                +'[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω(ohm)<br><br>'
+                                +'<a id = "9">[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω(ohm)</a><br><br>'
                                 +'Az elektromos ellenállás függése a vezető anyagától és méretétől:<br><br>'
-                                +'R = ρ ∙ (l / s) <br><br>'
+                                +'<a id = "7">R = ρ ∙ (l / s) </a><br><br>'
                                 +'l - vezető hossza<br>'
                                 +'S - vezető keresztmetszetének területe<br>'
                                 +'ρ - vezető anyagának ellenállása:<br><br>'
@@ -4821,7 +4802,7 @@ var data = {
                             +'<li>'
                                 +'Ohm törvénye egy áramkör szakaszára:<br><br>'
                                 +'“Ha egy áramkör szakaszának végpontjaira egy feszültséget (U) alkalmaznak, akkor az ezen áramkör szakaszon átáramló elektromos áramerősség (I) közvetlen arányban van az alkalmazott elektromos feszültséggel (U).”<br><br>'
-                                +'I = U / R'
+                                +'<a id="6">I = U / R</a>'
                             +'</li>'
                         +'</ul>'
                         +'<h2 class="p-3">Ohm törvénye az egész áramkörre:</h2>'
@@ -4829,28 +4810,30 @@ var data = {
                             +'<li>'
                                 +'Ohm törvénye az egész áramkörre:<br><br>'
                                 +'“Egy egyszerű áramkörben az elektromos áramerősség közvetlen arányban áll a forrás elektromotoros erejével (E) és fordítottan arányos az áramkör teljes ellenállásával (R + r).“<br><br>'
-                                +'I = E / (R + r)<br><br>'
+                                +'<a id="8">I = E / (R + r)</a><br><br>'
                                 +'1) Az Ohm törvény általában érvényes a kémiai forrásokra, mert alacsony a belső ellenállásuk, de más forrásokra is alkalmazható.<br><br>'
                                 +'2) Ha a külső ellenállás (R) nagyon kicsi értékeket vesz fel, például a forrás rövidzárlatosodásával, azaz ha R = 0, akkor a forrásból kifolyó áramerősség maximális lesz:<br><br>'
-                                +'I<sub>sc</sub> = E / r (rövidzárlatos áram)<br><br>'
+                                +'<a id ="10">I<sub>sc</sub> = E / r (rövidzárlatos áram)</a><br><br>'
                                 +'Ez nem kívánatos, mert a nagy áramerősségek károsíthatják a rendszert, és a forrás gyorsan elfogy.'
                             +'</li>'
                         +'</ul>'
-                        +'<h2 class="p-3">Ohm törvénye egy áramkör szakaszára:</h2>'
-                        +'<ul>'
-                            +'<li>'
-                                +'Elektromos hálózatok elemzése (elágazó áramkörök):<br><br>'
-                                +'1. <b>Áramkör csomópontja</b> legalább három elektromos vezeték metszéspontját jelenti.<br><br>'
-                                +'2. <b>Áramkör oldala</b> az az áramkör szakasz, amely két egymást követő csomópont között helyezkedik el, úgy, hogy ugyanazon elemein ugyanaz az elektromos áramerősség áramlik át.<br><br>'
-                                +'3. <b>Áramkör huroka</b>'
+                        
 
                     //Legea lui Kirchhoff
                     +'<a name="element_target2"></a>'
                     +'<br><br><br><br><u><h2 class="p-3" align = center>Kirchhoff törvénye</h2><br><br><br></u>'
+                    +'<ul>'
+                            +'<li>'
+                                +'Elektromos hálózatok elemzése (elágazó áramkörök):<br><br>'
+                                +'1. <a id="12"> <b>Áramkör csomópontja</b> legalább három elektromos vezeték metszéspontját jelenti.</a><br><br>'
+                                +'2. <b>Áramkör oldala</b> az az áramkör szakasz, amely két egymást követő csomópont között helyezkedik el, úgy, hogy ugyanazon elemein ugyanaz az elektromos áramerősség áramlik át.<br><br>'
+                                +'3. <b>Áramkör huroka</b>'
+                            +'</li>'
+                        +'</ul>'
                     +'<h2 class="p-3">Kirchhoff első törvénye:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'“Egy áramköri csomópontba be- és kifolyó áramerősségek algebrai összege nulla“.<br><br>'
+                            +'<a id="13">“Egy áramköri csomópontba be- és kifolyó áramerősségek algebrai összege nulla“.</a><br><br>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 align = center>'
@@ -4872,7 +4855,7 @@ var data = {
                     +'<h2 class="p-3">Kirchhoff második törvénye:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'“Egy áramköri hurokban az elektromotoros erők algebrai összege egyenlő az áramköri elemeken mért feszültségek algebrai összegével“.'
+                            +'<a id="14">“Egy áramköri hurokban az elektromotoros erők algebrai összege egyenlő az áramköri elemeken mért feszültségek algebrai összegével“.</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 align = center>'
@@ -4886,7 +4869,7 @@ var data = {
                     +'<ul>'
                         +'<li>'
                             +'Elektromotoros erő:<br><br>'
-                            +' - pozitív előjellel vesszük, ha az áram iránya a forráson keresztül megegyezik az önkényesen választott hurok irányával : + E<br><br>'
+                            +' - <a id ="11"> pozitív előjellel vesszük, ha az áram iránya a forráson keresztül megegyezik az önkényesen választott hurok irányával</a> : + E<br><br>'
                             +' - negatív előjellel vesszük, ha az áram iránya a forráson keresztül ellentétes az önkényesen választott hurok irányával : - E<br><br>'
                         +'</li><br>'
                         +'<li>'
@@ -4905,17 +4888,17 @@ var data = {
                             +'Bármely áramköri elem (elektromos generátor, izzó, ellenállás, motor, kapcsoló) kétféleképpen kapcsolható össze egy másikkal (azonos vagy különböző típusúval):<br><br>'
                             +'- Soros kapcsolás<br><br>'
                             +'- Párhuzamos kapcsolás<br><br>'
-                            +'Egy csoport ellenállás helyettesíthető egyetlen ellenállással, amelyet ekvivalens ellenállásnak nevezünk. Ennek az ellenállása a csoportosítás megfelelő ellenállásainak megfelelője.'
+                            +'<a id ="19">Egy csoport ellenállás helyettesíthető egyetlen ellenállással, amelyet ekvivalens ellenállásnak nevezünk.</a> Ennek az ellenállása a csoportosítás megfelelő ellenállásainak megfelelője.'
                         +'</li><br>'
                         +'<li>'
                             +'Az ellenállások, amelyeken ugyanaz az áram folyik át, és amelyek az áramkör ugyanazon ágában találhatók, soros csoportosítást alkotnak, és az ekvivalens ellenállásuk R<sub>s</sub>.<br><br>'
                             +'A soros csoportosítás ekvivalens ellenállása egyenlő az egyes ellenállások összegével:<br><br>'
-                            +'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>'
+                            +'<a id="15">R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub></a>'
                         +'</li><br>'
                         +'<li>'
                             +'Az ellenállások, amelyek az áramkör két különböző ágában találhatók ugyanazon két csomópont között, és amelyeken ugyanaz a feszültség van a végükön, párhuzamos csoportosítást alkotnak, és az ekvivalens ellenállásuk R<sub>p</sub>.<br><br>'
                             +'A párhuzamos csoportosítás ekvivalens ellenállásának reciproka egyenlő az egyes ellenállások reciprokának összegével:<br><br>'
-                            +'1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
+                            +'<a id="16">1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Azonos generátorok csoportosítása:</h2>'
@@ -4929,7 +4912,7 @@ var data = {
                         +'</li><br>'
                         +'<li>'
                             +'Az azonos generátorok soros csoportosításának belső ellenállása:<br><br>'
-                            +'r<sub>s</sub> = n · r'
+                            +'<a id="17">r<sub>s</sub> = n · r</a>'
                         +'</li><br>'
                         +'<li>'
                             +'Az azonos források párhuzamos csoportosításánál: az elektromotoros erő a párhuzamos csoportosításnál:<br><br>'
@@ -4947,10 +4930,10 @@ var data = {
                     +'<h2 class="p-3">Elektromos energia:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'Az elektromos energia (jele: W) egy forrás által végzett mechanikai munka, amely a töltést (q) egy időintervallum alatt (Δt) mozgatja a kör átmérőjén keresztül:<br><br>'
+                            +'<a id ="20">Az elektromos energia (jele: W)</a> egy forrás által végzett mechanikai munka, amely a töltést (q) egy időintervallum alatt (Δt) mozgatja a kör átmérőjén keresztül:<br><br>'
                             +'W = L = E ∙ q<br><br>'
                             +'De q = I ∙ Δt (az áramerősség képletéből)<br><br>'
-                            +'W<sub>tot</sub> = E ∙ I ∙ Δt (az egész áramkörben felhasznált energia)<br><br>'
+                            +'<a id ="21">W<sub>tot</sub> = E ∙ I ∙ Δt (az egész áramkörben felhasznált energia)</a><br><br>'
                             +'W<sub>ext</sub> = U ∙ I ∙ Δt (a külső áramkörben felhasznált energia)<br><br>'
                             +'W<sub>int</sub> = u ∙ I ∙ Δt (a belső áramkörben felhasznált energia)<br><br>'
                             +'W = U ∙ I ∙ Δt = R ∙ I<sup>2</sup> ∙ Δt = (U<sup>2</sup> / R) ∙ Δt<br><br>'
@@ -4974,7 +4957,7 @@ var data = {
                         +'<li>'
                             +'Az elektromos generátor energiáját a külső áramkörnek szolgáltatja (W<sub>hasznos</sub> - hasznos energia = külső energia), a maradék energiát a generátor belseje kapja (belső energia).<br><br>'
                             +'Az elektromos hatásfok egy vevő (fogyasztó) esetében az alábbi képlettel adható meg:<br><br>'
-                            +'η = W<sub>hasznos</sub> / W<sub>összes</sub> = P<sub>külső</sub> / P<sub>összes>'
+                            +'<a id ="23">η = W<sub>hasznos</sub> / W<sub>összes</sub> = P<sub>külső</sub> / P<sub>összes></a>'
                         +'</li><br>'
                         +'<li>'
                             +'Egy egyszerű áramkör esetében, amely egy t.e.m. E és belső ellenállás r forrásból, valamint egy R ellenállásból áll, az elektromos hatásfok az alábbi képlettel adható meg:<br><br>'
@@ -4984,7 +4967,7 @@ var data = {
                             +'Az ellenállás által kifejtett teljesítmény akkor a legnagyobb, amikor:<br><br>'
                             +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
                             +'azaz amikor:<br><br>'
-                            +'R = r'
+                            +'<a id ="22">R = r</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Joule törvénye:</h2>'
@@ -4996,7 +4979,7 @@ var data = {
                         +'<li>'
                             +'Joule törvénye:<br><br>'
                             +'Az elektromos áram egy vezetőn való áthaladásakor felszabaduló hő Q arányos a vezető ellenállásával R, az áramerősség négyzetével I<sup>2</sup> és az időintervallummal Δt, amely alatt az áram átfolyik rajta.<br><br>'
-                            +'Q = R ∙ I<sup>2</sup> ∙ Δt'
+                            +'<a id ="24">Q = R ∙ I<sup>2</sup> ∙ Δt</a>'
                         +'</li>'
                     +'</ul>'),
 
@@ -5119,13 +5102,13 @@ var data = {
                     '<li>' +
                         'A fény törvényei:<br><br>' +
                         'Egy átlátszó közeg abszolút törésmutatója (jelölve n) a fény sebességének (c) és a közegben való fénysebesség arányának a reciproka.<br><br>' +
-                        'n = c / v<br><br>' +
+                        '<a id ="1">n = c / v</a><br><br>' +
                         'A fénytörés az a jelenség, amikor a fény iránya megváltozik, amikor áthalad két különböző átlátszó közeg határának felületén.' +
                     '</li><br>' +
                     '<li>' +
                         'Fénytörés törvényei<br><br>' +
                         'Fénytörés I. törvénye:<br>' +
-                        'Az incidens sugár (SI), a határfelülethez normális sugár (NI), és a tört sugár (IR\') azonos síkban vannak.<br><br>' +
+                        '<a id="2">Az incidens sugár (SI), a határfelülethez normális sugár (NI), és a tört sugár (IR\') azonos síkban vannak.</a><br><br>' +
                         'Fénytörés II. törvénye:<br>' +
                         'Az incidencia szög (i) és a törési szög (r\') sinuszának aránya megegyezik a második közeg abszolút törésmutatójának és az első közeg abszolút törésmutatójának arányával:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
@@ -5171,7 +5154,7 @@ var data = {
                         '</li>' +
                         '<li>' +
                             'Az incidencia maximális szöge<br>' +
-                            'i = 90° → sin 90° = 1 <br>' +
+                            '<a id="3">i = 90° → sin 90° = 1 </a><br>' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
                             'sin l >= sin(A-l) vagy A <= 2 ∙ 1<br>' +
@@ -5205,7 +5188,7 @@ var data = {
                     '</ul>' + 
                     '<h2 class="p-3">' + 'A lencsék osztályozása:' + '</h2>' + 
                     '<ul>' + 
-                        '- <b>Konvergens lencsék</b> (konvexek) azok a lencsék, amelyek egy párhuzamos fénysugarat konvergens sugarúvá alakítanak. Ezek a lencsék a pozitív fókuszponton keresztül törnek és ezért pozitív lencséknek is nevezik őket. Nagyítják a képet. Középen vastagabbak és a végük felé vékonyabbak.<br><br>' + 
+                        '- <b>Konvergens lencsék</b> (konvexek) azok a lencsék, amelyek egy párhuzamos fénysugarat konvergens sugarúvá alakítanak. Ezek a lencsék a pozitív fókuszponton keresztül törnek és ezért pozitív lencséknek is nevezik őket. Nagyítják a képet.<a id = "4"> Középen vastagabbak és a végük felé vékonyabbak.</a><br><br>' + 
                         '- <b>Divergens lencsék</b> (konkáv) azok a lencsék, amelyek egy párhuzamos fénysugarat divergens sugarúvá alakítanak. Ezek a lencsék a negatív fókuszponton keresztül törnek és ezért negatív lencséknek is nevezik őket. Kicsinyítik a képet. A végük felé vastagabbak és középen vékonyabbak.<br><br>' + 
                         '<li>' + 
                             'Egy objektum képének kialakítása lencsékben: <br><br>' + 
@@ -5331,15 +5314,15 @@ var data = {
                             'Az elektromágneses hullámok mindegyike ugyanazzal a sebességgel terjed a vákuumban, függetlenül a hullámhossztól, így a vákuumot nem diszperzív közegnek nevezzük. Ha a prizma vákuumból lenne, egy fehér fényes sugarakból álló csokor nem bontódna szét, csak elhajlana a beesési iránytól a törés jelensége révén (azaz a terjedési irány megváltoztatása egy közegből a másikba történő áthaladáskor).<br><br>' +
                             'Az átlátszó közeg (víz, üveg, gyémánt stb.) törési mutatója (n-el jelölve) az a sebességarány, amelyet a fény sebessége vákuumban (c) és a megfelelő közegben (v) között kapunk.<br><br>' +
                             'n = c / v<br><br>' +
-                            'c = a fény sebessége vákuumban = 300.000.000 m/s<br><br>' +
+                            '<a id = "5">c = a fény sebessége vákuumban = 300.000.000 m/s</a><br><br>' +
                             'v = a fény sebessége a megfelelő közegben<br><br>' +
-                            'Az összes átlátszó közeg (víz, üveg, gyémánt stb.), amelynek a törési mutatója nagyobb, mint egy, diszperziót okoz a fényben.<br><br>' +
+                            '<a id = "9">Az összes átlátszó közeg (víz, üveg, gyémánt stb.), amelynek a törési mutatója nagyobb, mint egy, diszperziót okoz a fényben.</a><br><br>' +
                             'De a törési mutató csak a monokromatikus fényre konstans.<br><br>' +
                             'A fehér fény esetében, amely hét különböző színű és különböző hullámhosszú sugárzásból áll, a törési mutató már nem konstans, hanem változik ezeknek a fényeknek a hullámhossza szerint.<br><br>' +
                             'Ha egy prizma törési mutatója változik, akkor a prizma különböző szögekben fogja megtörni ezeket a sugarakat.<br><br>' +
                             'Általánosan elmondható, hogy a normális diszperzió esetén ezekben az átlátszó közegben a törési mutató a hullámhossz csökkenésével nő, így az ibolya sugarak (amelyeknek kisebb a hullámhossza, 400 nm) erőteljesebben lesznek törve, mint a vörösek (amelyeknek nagyobb a hullámhossza, 700 nm, mint a lila sugár).<br><br>' +
                             'Ha λ<sub>lila</sub> < λ<sub>vörös</sub> → n<sub>lila</sub> > n<sub>vörös</sub> → v<sub>lila</sub> < v<sub>vörös</sub>.<br><br>' +
-                            'A színes sugarak különböző sebességekkel haladnak át a prizmán, és ezért különböző szögekkel lépnek ki a prizmából.<br><br>' +
+                            '<a id = "6">A színes sugarak különböző sebességekkel haladnak át a prizmán, és ezért különböző szögekkel lépnek ki a prizmából.</a><br><br>' +
                             'Az ibolya sugarak kevésbé meredekek az optikai tengelyhez képest, mert kisebb sebességgel terjednek a prizma anyagában, mint a vörös sugarak, ugyanakkor kevesebb távolságot tesznek meg, mint a vörös sugarak.<br><br>' +
                         '</li><br>' +
                     '</ul>' +
@@ -5359,7 +5342,7 @@ var data = {
                         'Mind az interferencia, mind a diffrakció Huygens-Fresnel elvére épül, amely szerint az összes hullámeloszlás pontja viselkedik egy másodlagos hullámforrásként, ugyanazzal a frekvenciával és fázissal, mint az eredeti hullám. Az új hullámfrontot a másodlagos hullámok amplitúdóinak összege alkotja.' +
                     '</li><br>' +
                     '<li>' +
-                        'A konstruktív interferenciában a két hullám fázisban van (nulla fáziskülönbség) és az összeg nagyobb, világos területeket alkotva.<br><br>' +
+                    '<a id = "7">A konstruktív interferenciában a két hullám fázisban van (nulla fáziskülönbség) és az összeg nagyobb, világos területeket alkotva.</a><br><br>' +
                         'Amikor a két hullám antifázisban rezeg (180°-os fáziskülönbség), akkor megsemmisülnek (az összeg nulla), sötét területeket képezve, ezt nevezzük destruktív interferenciának.' +
                     '</li><br>' +
                     '<li>' +
@@ -5376,7 +5359,7 @@ var data = {
                     '</li><br>'+ 
                     '<li>' +
                         'Az interferencia feltételei:<br><br>' +
-                        '- Az hullámoknak azonos frekvenciával kell rendelkezniük<br><br>' +
+                        '- <a id = "8"> Az hullámoknak azonos frekvenciával kell rendelkezniük</a><br><br>' +
                         '- Fáziskülönbség: ΔΦ = 2π(Δr / λ) = állandó<br><br>' +
                         'A fény intenzitása, I, egy interferenciapontban arányos a rezultáló hullám amplitúdójának négyzetével:<br><br>' +
                         'I = konst 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
@@ -5426,10 +5409,10 @@ var data = {
                     '<ul>' +
                         '<li>' +
                             'Planck azt állította, hogy a fekete test által kibocsátott sugárzás diszkrét energiaegységek formájában létezik, amelyeket kvantumoknak nevezett el (később fotonoknak nevezett el), a sugárzás frekvenciájától függően.<br><br>' +
-                            'Az oszcillátor energia diszkrét értékei egyenlő távolságra vannak egymástól, így az energia szintjei közötti különbség (ΔE) arányos az oszcillátor frekvenciájával (ν) és a Planck-állandóval (h).<br><br>' +
+                            'Az oszcillátor energia diszkrét értékei egyenlő távolságra vannak egymástól,<a id ="10"> így az energia szintjei közötti különbség (ΔE) arányos az oszcillátor frekvenciájával (ν) és a Planck-állandóval (h).</a><br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = Planck-állandó = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = az oszcillátor frekvenciája<br><br>' +
+                            '<a id ="11">h = Planck-állandó = 6,62 ∙ 10<sup>-34</sup> J ∙ s</a><br><br>' +
+                            '<a id ="13">ν = az oszcillátor frekvenciája</a><br><br>' +
                             'A Planck-állandó az egyik legkisebb állandó, amelyet a fizikában makroszkopikus méretarányokban használnak, ami a kvantumhatásokat mikroszkopikus szinten tükrözi.' +
                         '</li><br>' +
                     '</ul>' +
@@ -5463,7 +5446,7 @@ var data = {
                     '<h2 class="p-3">A fotoelektromos hatás harmadik törvénye:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Az emissziós elektronok kinetikus energiája lineárisan nő a beeső sugárzás frekvenciájával.<br><br>' +
+                        '<a id = "12">Az emissziós elektronok kinetikus energiája lineárisan nő a beeső sugárzás frekvenciájával.</a><br><br>' +
                             'Ha a foton energia h ∙ ν > L, akkor az elektron elegendő kinetikus energiával rendelkezik a fémből történő kilépéshez:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
@@ -6393,8 +6376,12 @@ var data = {
                                 +'Dies ist nicht wünschenswert, da große Ströme Schäden verursachen können und die Quelle schnell verbraucht wird.'
                             +'</li>'
                         +'</ul>'
-                        +'<h2 class="p-3">Ohms Gesetz für einen Teil eines Stromkreises:</h2>'
-                        +'<ul>'
+                        
+
+                    //Legea lui Kirchhoff
+                    +'<a name="element_target2"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Kirchhoffs Gesetz</h2><br><br><br></u>'
+                    +'<ul>'
                             +'<li>'
                                 +'Elemente elektrischer Netzwerke (verzweigte Stromkreise):<br><br>'
                                 +'1. <b>Stromknoten</b> ist der Schnittpunkt von mindestens drei elektrischen Leitern.<br><br>'
@@ -6402,10 +6389,6 @@ var data = {
                                 +'3. <b>Strommasche</b> ist der Teil des Stromkreises, der aus mindestens zwei Zweigen besteht, die so verbunden sind, dass sie eine geschlossene Schleife (geschlossene Polygonlinie) bilden.<br><br>'
                             +'</li><br>'
                         +'</ul>'
-
-                    //Legea lui Kirchhoff
-                    +'<a name="element_target2"></a>'
-                    +'<br><br><br><br><u><h2 class="p-3" align = center>Kirchhoffs Gesetz</h2><br><br><br></u>'
                     +'<h2 class="p-3">Erstes Kirchhoffsches Gesetz:</h2>'
                     +'<ul>'
                         +'<li>'
@@ -7970,7 +7953,11 @@ var data = {
                             +'Cela n\'est pas souhaitable car de forts courants peuvent causer des dommages et la source se décharge rapidement.'
                         +'</li>'
                     +'</ul>'
-                    +'<h2 class="p-3">Loi d\'Ohm pour une partie du circuit:</h2>'
+                
+
+                    //Legea lui Kirchhoff
+                    +'<a name="element_target2"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Loi de Kirchhoff</h2><br><br><br></u>'
                     +'<ul>'
                         +'<li>'
                             +'Éléments des réseaux électriques (circuits ramifiés):<br><br>'
@@ -7979,11 +7966,6 @@ var data = {
                             +'3. <b>Œil de circuit</b> représente la partie du circuit formée par au moins deux branches, connectées de manière à former un contour fermé (ligne polygonale fermée).<br><br>'
                         +'</li><br>'
                     +'</ul>'
-
-
-                    //Legea lui Kirchhoff
-                    +'<a name="element_target2"></a>'
-                    +'<br><br><br><br><u><h2 class="p-3" align = center>Loi de Kirchhoff</h2><br><br><br></u>'
                     +'<h2 class="p-3">Première loi de Kirchhoff:</h2>'
                     +'<ul>'
                         +'<li>'
@@ -9543,7 +9525,11 @@ var data = {
                             +'Это нежелательно, так как большие токи могут вызвать повреждения, а источник быстро истощится.'
                         +'</li>'
                     +'</ul>'
-                    +'<h2 class="p-3">Закон Ома для части цепи:</h2>'
+                    
+
+                    //Legea lui Kirchhoff
+                    +'<a name="element_target2"></a>'
+                    +'<br><br><br><br><u><h2 class="p-3" align = center>Закон Кирхгофа</h2><br><br><br></u>'
                     +'<ul>'
                         +'<li>'
                             +'Элементы электрических сетей (ветвистые цепи):<br><br>'
@@ -9552,10 +9538,6 @@ var data = {
                             +'3. <b>Контур цепи</b> представляет собой участок цепи, состоящий как минимум из двух сторон, соединенных так, чтобы образовать замкнутую линию (замкнутый многоугольник).<br><br>'
                         +'</li><br>'
                     +'</ul>'
-
-                    //Legea lui Kirchhoff
-                    +'<a name="element_target2"></a>'
-                    +'<br><br><br><br><u><h2 class="p-3" align = center>Закон Кирхгофа</h2><br><br><br></u>'
                     +'<h2 class="p-3">Первый закон Кирхгофа:</h2>'
                     +'<ul>'
                         +'<li>'
