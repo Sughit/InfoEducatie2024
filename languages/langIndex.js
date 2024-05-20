@@ -3161,7 +3161,7 @@ var data = {
                                         +'care au rolul de a închide și de a deschide circuitul electric. Numai când întrerupătorul este pe poziție închis, trece curentul electric prin circuit.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'Sensul convențional al curentului electric continuu printr-un circuit este de la borna pozitivă a sursei spre borna negativă, prin circuitul exterior (prin consumatori).'
+                                        +'<a id = "5">Sensul convențional al curentului electric continuu printr-un circuit este de la borna pozitivă a sursei spre borna negativă, prin circuitul exterior (prin consumatori).</a>'
                                     +'</li>'
                                     
                                 +'</ul>'
@@ -3171,7 +3171,7 @@ var data = {
                                         +'Când aplicăm o tensiune electrică între două puncte ale unui conductor, apare un curent electric, adică o mișcare dirijată a electronilor săi liberi, care transportă o sarcină q = n ∙ e.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'Intensitatea curentului electric (I) este o mărime fizică scalară numeric egală cu raportul dintre sarcina electrică (q) ce trece prin secțiunea transversală a unui conductor și intervalul de timp (Δt).'
+                                        +'a id ="2">Intensitatea curentului electric (I) este o mărime fizică scalară numeric egală cu raportul dintre sarcina electrică (q) ce trece prin secțiunea transversală a unui conductor și intervalul de timp (Δt).</a>'
                                     +'</li><br>'
                                     +'<li>'
                                     +'Caracterizarea intensității curentului electric ca mărime fizică:<br><br>'
@@ -3204,11 +3204,11 @@ var data = {
                              +'</li><br>'
                              +'<li>'
                                  +'<b>Tensiunea internă</b> (cu simbolul u) este mărimea fizică scalară care măsoară lucrul mecanic efectuat de sursă (L<sub>int</sub>) pentru deplasarea unității de sarcină electrică (q) de-a lungul circuitului interior.<br><br>'
-                                 +'u = L<sub>int</sub> / q'
+                                 +'<a id = "4">u = L<sub>int</sub> / q</a>'
                              +'</li>'
                              +'<li>'
                                  +'Astfel obținem relația dintre cele trei tensiuni electrice ale unui circuit electric:<br><br>'
-                                 +'E = U + u'
+                                 +'<a id = "3">E = U + u</a>'
                              +'</li><br>'
                              +'<li>'
                                  +'U = Lucru mecanic / Sarcina electrică<br><br>'
@@ -3237,9 +3237,9 @@ var data = {
                             +'<li>'
                                 +'Caracterizarea rezistenței electrice ca mărime fizică:<br><br>'
                                 +'R = Tensiunea electrică / Intensitatea electrică = U / I<br><br>'
-                                +'[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω(ohm)<br><br>'
+                                +'<a id = "9">[R]<sub>SI</sub> = [U]<sub>SI</sub> / [I]<sub>SI</sub> = V / A = Ω(ohm)</a><br><br>'
                                 +'Dependența rezistenței electrice de natura și de dimensiunile conductorului este:<br><br>'
-                                +'R = ρ ∙ (l / s) <br><br>'
+                                +'<a id = "7">R = ρ ∙ (l / s) </a><br><br>'
                                 +'l - lungimea conductorului<br>'
                                 +'S - aria secțiunii transversale a conductorului<br>'
                                 +'ρ - rezistivitatea electrică a materialului conductor:<br><br>'
@@ -3256,7 +3256,7 @@ var data = {
                         +'<li>'
                             +'Legea lui Ohm pentru o porțiune de circuit:<br><br>'
                             +'“Dacă la capetele unei porțiuni de circuit se aplică o tensiune(U), atunci intensitatea curentului electric (I) produs prin porțiune respectivă de circuit este direct proporțională cu tensiunea electrică (U) aplicată acelei porțiuni.”<br><br>'
-                            +'I = U / R'
+                            +'<a id="6">I = U / R</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Legea lui Ohm pentru întregul circuit:</h2>'
@@ -3264,10 +3264,10 @@ var data = {
                         +'<li>'
                             +'Legea lui Ohm pentru întregul circuit:<br><br>'
                             +'“Intensitatea curentului electric printr-un circuit simplu este direct proporțională cu tensiunea electromotoare a sursei (E) și invers proporțională cu rezistența totală a circuitului (R+r).“<br><br>'
-                            +'I = E / (R + r)<br><br>'
+                            +'<a id="8">I = E / (R + r)</a><br><br>'
                             +'1) Legea lui Ohm este valabilă în general pentru surse chimice deoarece au rezistența internă mică, dar poate fi particularizată și pentru alte surse.<br><br>'
                             +'2) Dacă rezistența exterioară (R) are valori foarte mici, obținută de exemplu prin scurtcircuitarea sursei cu un conductor scurt, adică dacă R = 0, intensitatea curentului debitat de sursă devine maximă:<br><br>'
-                            +'I<sub>sc</sub> = E / r (curent de scurtcircuit)<br><br>'
+                            +'<a id ="10">I<sub>sc</sub> = E / r (curent de scurtcircuit)</a><br><br>'
                             +'Acest lucru nu este de dorit, deoarece curenții mari pot provoca daune, iar sursa se consumă rapid.'
                         +'</li>'
                     +'</ul>'
@@ -3284,10 +3284,19 @@ var data = {
                     //Legea lui Kirchhoff
                     +'<a name="element_target2"></a>'
                     +'<br><br><br><br><u><h2 class="p-3" align = center>Legea lui Kirchhoff</h2><br><br><br></u>'
+                    +'<h2 class="p-3">Legea lui Ohm pentru o porțiune de circuit:</h2>'
+                    +'<ul>'
+                        +'<li>'
+                            +'Elementele rețelelor electrice (circuitelor ramificate):<br><br>'
+                            +'1. <b><a id="12">Nodul de circuit</b> reprezintă intersecția a cel puțin trei conductoare electrice.</a><br><br>'
+                            +'2. <b>Latura de circuit</b> este porțiunea de circuit cuprinsă între două noduri succesive, astfel încât prin elementele ei să circule același curent electric.<br><br>'
+                            +'3. <b>Ochiul de circuit</b> reprezintă porțiunea de circuit formată din cel puțin două laturi, conectate astfel încât să formeze un contur închis (linie poligonală închisă).<br><br>'
+                        +'</li><br>'
+                    +'</ul>'
                     +'<h2 class="p-3">Prima lege a lui Kirchhoff:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'“Suma algebrică a intensităților curenților care se întâlnesc într-un nod de circuit este nulă“.<br><br>'
+                            +'<a id="13">“Suma algebrică a intensităților curenților care se întâlnesc într-un nod de circuit este nulă“.</a><br><br>'
                         +'</li>'
                     +'</ul>'
                         +'<h2 align = center>'
@@ -3309,7 +3318,7 @@ var data = {
                     +'<h2 class="p-3">A doua lege a lui Kirchhoff:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'“Suma algebrică a tensiunilor electromotoare dintr-un ochi de rețea este egală cu suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit“.'
+                            +'<a id="14">“Suma algebrică a tensiunilor electromotoare dintr-un ochi de rețea este egală cu suma algebrică a tensiunilor de pe fiecare latură din acel ochi de circuit“.</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 align = center>'
@@ -3323,7 +3332,7 @@ var data = {
                     +'<ul>'
                         +'<li>'
                             +'Tensiunea electromotoare:<br><br>'
-                            +' - se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar : + E<br><br>'
+                            +' - <a id ="11">se ia cu plus dacă sensul curentului electric prin sursă este identic cu cel al ochiului ales arbitrar</a> : + E<br><br>'
                             +' - se ia cu minus dacă sensul curentului electric prin sursă este opus cu cel al ochiului ales arbitrar : - E<br><br>'
                         +'</li><br>'
                         +'<li>'
@@ -3342,17 +3351,17 @@ var data = {
                             +'Orice element de circuit (generator electric, bec, rezistor, motor, întrerupător) poate fi legat (grupat) cu un altul (de același fel sau diferit) în două moduri:<br><br>'
                             +'- În serie<br><br>'
                             +'- În paralel<br><br>'
-                            +'Un grup de rezistoare se înlocuiește cu unul singur, denumit rezistor echivalent. Rezistența acestuia reprezintă echivalentul rezistențelor respectivei grupări.'
+                            +'<a id ="19">Un grup de rezistoare se înlocuiește cu unul singur, denumit rezistor echivalent.</a> Rezistența acestuia reprezintă echivalentul rezistențelor respectivei grupări.'
                         +'</li><br>'
                         +'<li>'
                             +'Rezistoarele prin care trece același curent și care se află pe aceeași latură a unui circuit formează o grupare în serie, fiind echivalate cu rezistorul R<sub>s</sub>.<br><br>'
                             +'Rezistența echivalentă a unei grupări serie de rezistoare este egală cu suma rezistențelor fiecărui rezistor:<br><br>'
-                            +'R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub>'
+                            +'<a id="15">R<sub>s</sub> = R<sub>1</sub> + R<sub>2</sub></a>'
                         +'</li><br>'
                         +'<li>'
                             +'Rezistoarele care se află pe laturi diferite între aceleași două noduri ale unui circuit, având aceeași tensiune la capete formează o grupare în paralel, fiind echivalate cu rezistorul R<sub>p</sub>.<br><br>'
                             +'Inversul rezistenței echivalente a unei grupări paralel de rezistoare este egal cu suma inverselor rezistențelor fiecărui rezistor:<br><br>'
-                            +'1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)'
+                            +'<a id="16"> 1 / R<sub>p</sub> = (1 / R<sub>1</sub>) + (1 / R<sub>2</sub>)</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Gruparea generatoarelor identice:</h2>'
@@ -3366,15 +3375,15 @@ var data = {
                         +'</li><br>'
                         +'<li>'
                             +'Rezistența internă a grupării serie de generatoare electrice identice:<br><br>'
-                            +'r<sub>s</sub> = n · r'
+                            +'<a id="17">r<sub>s</sub> = n · r</a>'
                         +'</li><br>'
                         +'<li>'
                             +'Pentru o grupare în paralel de n surse identice: tensiunea electromotoare a grupării paralel de generatoare electrice:<br><br>'
                             +'E<sub>p</sub> = E<sub>1</sub> = E<sub>2</sub> = … = E<sub>n</sub>'
                         +'</li><br>'
                         +'<li>'
-                            +'Rezistența internă a grupării serie de generatoare electrice identice:<br><br>'
-                            +'r<sub>p</sub> = r / n'
+                            +'Rezistența internă a grupării paralel de generatoare electrice identice:<br><br>'
+                            +'<a id="18">r<sub>p</sub> = r / n</a>'
                         +'</li>'
                     +'</ul>'
 
@@ -3384,10 +3393,10 @@ var data = {
                     +'<h2 class="p-3">Energia electrică:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'Energia electrică (notată cu W) a unei surse măsoară lucrul mecanic efectuat de aceasta pentru a deplasa sarcina electrică (q) prin secțiunea transversală a circuitului, într-un interval de timp (Δt):<br><br>'
+                            +'<a id ="20">Energia electrică (notată cu W)</a> a unei surse măsoară lucrul mecanic efectuat de aceasta pentru a deplasa sarcina electrică (q) prin secțiunea transversală a circuitului, într-un interval de timp (Δt):<br><br>'
                             +'W = L = E ∙ q<br><br>'
                             +'Dar q = I ∙ Δt (din formula intensității)<br><br>'
-                            +'W<sub>tot</sub> = E ∙ I ∙ Δt (energia consumată pe întreg circuitul)<br><br>'
+                            +'<a id ="21">W<sub>tot</sub> = E ∙ I ∙ Δt (energia consumată pe întreg circuitul)</a><br><br>'
                             +'W<sub>ext</sub> = U ∙ I ∙ Δt (energia consumată pe circuitul exterior)<br><br>'
                             +'W<sub>int</sub> = u ∙ I ∙ Δt (energia consumată pe circuitul interior)<br><br>'
                             +'W = U ∙ I ∙ Δt = R ∙ I<sup>2</sup> ∙ Δt = (U<sup>2</sup> / R) ∙ Δt<br><br>'
@@ -3411,7 +3420,7 @@ var data = {
                         +'<li>'
                             +'Energia electrică a generatorului electric este furnizată circuitului exterior (W<sub>utilă</sub> - energie utilă = energia exterioară), restul energiei o primește interiorul generatorului (energie interioară).<br><br>'
                             +'Randamentul electric al unui receptor (consumator) este dat de relația:<br><br>'
-                            +'η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală>'
+                            +'<a id ="23">η = W<sub>utilă</sub> / W<sub>totală</sub> = P<sub>exterioară</sub> / P<sub>totală</sub></a>'
                         +'</li><br>'
                         +'<li>'
                             +'Pentru un circuit simplu format dintr-o sursă cu t.e.m. E și rezistență interioară r, legată la un rezistor de rezistență R, randamentul electric este dat de relația:<br><br>'
@@ -3421,7 +3430,7 @@ var data = {
                             +'Puterea dezvoltată de rezistor este maximă când: <br><br>'
                             +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
                             +'adică atunci când:<br><br>'
-                            +'R = r'
+                            +'a id ="22">R = r</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Legea lui Joule:</h2>'
@@ -3433,7 +3442,7 @@ var data = {
                         +'<li>'
                             +'Legea lui Joule:<br><br>'
                             +'Căldura Q degajată la trecerea curentului electric printr-un conductor este proporțională cu rezistența conductorului R, cu pătratul intensității curentului electric I<sup>2</sup> și cu intervalul de timp Δt cât circulă curentul electric prin el.<br><br>'
-                            +'Q = R ∙ I<sup>2</sup> ∙ Δt'
+                            +'<a id ="24">Q = R ∙ I<sup>2</sup> ∙ Δt</a>'
                         +'</li>'
                     +'</ul>'),
 
@@ -3556,13 +3565,13 @@ var data = {
                     '<li>' +
                         'Legile refracției luminii:<br><br>' +
                         'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul respectiv (v).<br><br>' +
-                        'n = c / v<br><br>' +
+                        ' <a id ="1">n = c / v</a><br><br>' +
                         'Refracția luminii este fenomenul în care lumina își schimbă direcția de propagare atunci când traversează suprafața de separație dintre două medii transparente diferite.' +
                     '</li><br>' +
                     '<li>' +
                         'Legile refracției<br><br>' +
                         'Legea I a refracției:<br>' +
-                        'Raza incidentă (SI), normala la suprafața de separare (NI) și raza refractată (IR\') sunt coplanare.<br><br>' +
+                        '<a id="2">Raza incidentă (SI), normala la suprafața de separare (NI) și raza refractată (IR\') sunt coplanare.</a><br><br>' +
                         'Legea a II-a a refracției:<br>' +
                         'Raportul dintre unghiul de incidență(i) ș sinusul unghiului de refracție(r\') este egal cu raportul dintre indicele de refracție absolut al mediului al II-lea și indicele de refracție absolut al I mediu:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
@@ -3608,7 +3617,7 @@ var data = {
                         '</li>' +
                         '<li>' +
                             'Unghiul maxim de incidență este<br>' +
-                            'i = 90° → sin 90° = 1 <br>' +
+                            '<a id="3">i = 90° → sin 90° = 1 </a><br>' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
                             'sin l >= sin(A-l) sau A <= 2 ∙ 1<br>' +
@@ -3642,7 +3651,7 @@ var data = {
                     '</ul>' + 
                     '<h2 class="p-3">' + 'Clasificarea lentilelor:' + '</h2>' + 
                     '<ul>' + 
-                        '- <b>Lentile convergente</b> (convexe) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul convergent. Ele refractă lumina prin focarul pozitiv și de aceea se mai numesc și lentile pozitive. Ele măresc scrisul. Sunt mai groase la mijloc și mai subțiri la capete.<br><br>' + 
+                        '- <b>Lentile convergente</b> (convexe) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul convergent. Ele refractă lumina prin focarul pozitiv și de aceea se mai numesc și lentile pozitive. Ele măresc scrisul. <a id = "4">Sunt mai groase la mijloc și mai subțiri la capete.</a><br><br>' + 
                         '- <b>Lentile divergente</b> (concave) sunt lentilele care transformă un fascicul de lumină paralel într-un fascicul divergent. Ele refractă lumina prin focarul negativ și de aceea se mai numesc și lentile negative. Ele micșorează scrisul. Sunt mai groase la capete și mai subțiri la mijloc.<br><br>' + 
                         '<li>' + 
                             'Formarea imaginii unui obiect în lentile: <br><br>' + 
@@ -3768,15 +3777,15 @@ var data = {
                             'Prin vid toate undele electromagnetice se propagă cu aceeași viteză, indiferent de lungimea lor de undă și prin urmare spunem că vidul este un mediu nedispersiv. Dacă prisma ar fi vidată, un fascicul de lumină albă nu s-ar descompune, ci numai ar fi deviat de la direcția incidentă prin fenomenul de refracție (adică schimbarea direcției de propagare la trecerea dintr-un mediu în altul).<br><br>' +
                             'Indicele de refracție (notat cu n) al unui mediu transparent este dat de raportul dintre viteza luminii în vid (c) și viteza luminii în mediul repectiv (v).<br><br>' +
                             'n = c / v<br><br>' +
-                            'c = viteza luminii în vid = 300.000.000 m/s<br><br>' +
+                            '<a id = "5">c = viteza luminii în vid = 300.000.000 m/s</a><br><br>' +
                             'v = viteza luminii în mediul respectiv<br><br>' +
-                            'Toate mediile transparente (apa, sticla, diamantul etc.) caracterizate de un anumit indice de refracție mai mare decât unu, produc dispersia luminii.<br><br>' +
+                            '<a id = "9">Toate mediile transparente (apa, sticla, diamantul etc.) caracterizate de un anumit indice de refracție mai mare decât unu, produc dispersia luminii.</a><br><br>' +
                             'Dar indicele de refracție este constant numai pentru lumina monocromatică.<br><br>' +
                             'Pentru lumina albă, alcătuită din șapte radiații de culori diferite și lungimi de undă diferite, indicele de refracție nu mai este constant, ci variază cu lungimea de undă a acestor lumini.<br><br>' +
                             'Dacă indicele de refracție al unei prisme variază, prisma va refracta sub diferite unghiuri aceste lumini.<br><br>' +
                             'În general, la difuzia normală, în aceste medii transparente indicele de refracție crește cu scăderea lungimii de undă, astfel razele violete (au o lungime de undă mai mică, 400 nm) vor fi refractate mai puternic decât cele roșii (cu lungimea de undă mai mare, 700 nm, decât cele violet).<br><br>' +
                             'Dacă λ<sub>violetă</sub> < λ<sub>roșie</sub> → n<sub>violetă</sub> > n<sub>roșie</sub> → v<sub>violetă</sub> < v<sub>roșie</sub>.<br><br>' +
-                            'Fasciculele colorate trec prin prismă cu viteze diferite și de aceea ies din prismă sub unghiuri diferite.<br><br>' +
+                            '<a id = "6">Fasciculele colorate trec prin prismă cu viteze diferite și de aceea ies din prismă sub unghiuri diferite.</a><br><br>' +
                             'Razele violet ies mai puțin înclinate față de axa optică, deoarece se propagă cu o viteză mai mică prin materialul prismei decât raza roșie, străbătând în același timp o distanță mai mică decât cea roșie.<br><br>' +
                         '</li><br>' +
                     '</ul>' +
@@ -3796,7 +3805,7 @@ var data = {
                         'Atât interferența, cât și difracția se bazează pe principiul lui Hyugens-Fresnel care spune că fiecare punct de pe un front de undă se comportă ca o sursă secundară de undă cu aceeași frecvență și fază cu unda inițială. Noul front de undă este creat prin însumarea amplitudinilor undelor secundare.' +
                     '</li><br>' +
                     '<li>' +
-                        'În cazul interferenței constructive, cele două unde sunt în fază (defazaj zero) și suma lor este mai mare, formând regiuni luminoase.<br><br>' +
+                        '<a id = "7">În cazul interferenței constructive, cele două unde sunt în fază (defazaj zero) și suma lor este mai mare, formând regiuni luminoase.</a><br><br>' +
                         'Când cele două unde vibrează în antifază (defazaj 180°) se vor anihila (suma lor este zero), formând zone întunecate, caz în care vorbim de interferență distructivă.' +
                     '</li><br>' +
                     '<li>' +
@@ -3813,7 +3822,7 @@ var data = {
                     '</li><br>'+
                     '<li>' +
                         'Condițiile de interferență sunt:<br><br>' +
-                        '- Undele să aibă aceeași frecvență<br><br>' +
+                        '- <a id = "8">Undele să aibă aceeași frecvență</a><br><br>' +
                         '- Diferența de fază : ΔΦ = 2π(Δr / λ) = constantă<br><br>' +
                         'Intensitatea luminoasă, I, într-un punct de interferență este proporțională cu pătratul amplitudinii undei rezultante:<br><br>' +
                         'I = const 4E<sup>2</sup><sub>0</sub> cos<sup>2</sup>(πΔr / λ)<br><br>' +
@@ -3863,10 +3872,10 @@ var data = {
                     '<ul>' +
                         '<li>' +
                             'Planck a afirmat că radiația emisă de corpul negru există sub forma unor pachețele discrete de energie pe care le-a numit cuante (numite ulterior fotoni), dependente de frecvența radiației respective.<br><br>' +
-                            'Valorile discrete ale energiei unui oscilator armonic sunt echidistante, astfel încât diferența dintre nivelurile de energie ( ΔE) este proporțională cu frecvența (ν) a oscilatorului și constanta lui Planck (h).<br><br>' +
+                            'Valorile discrete ale energiei unui oscilator armonic sunt echidistante, astfel încât <a id ="10">diferența dintre nivelurile de energie ( ΔE) este proporțională cu frecvența (ν) a oscilatorului și constanta lui Planck (h).</a><br><br>' +
                             'ΔE = h ∙ ν<br><br>' +
-                            'h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s<br><br>' +
-                            'ν = frecvența oscilatorului<br><br>' +
+                            '<a id ="11">h = constanta lui Planck = 6,62 ∙ 10<sup>-34</sup> J ∙ s</a><br><br>' +
+                            '<a id ="13">ν = frecvența oscilatorului</a><br><br>' +
                             'Constanta lui Planck este una dintre cele mai mici constante folosite în fizică la scară macroscopică, reflectând scara microscopică la care se observă efectele cuantice.' +
                         '</li><br>' +
                     '</ul>' +
@@ -3900,7 +3909,7 @@ var data = {
                     '<h2 class="p-3">A treia lege a efectului fotoelectric extern:</h2>' +
                     '<ul>' +
                         '<li>' +
-                            'Energia cinetică a electronilor emiși crește liniar cu frecvența radiației incidente.<br><br>' +
+                            '<a id = "12">Energia cinetică a electronilor emiși crește liniar cu frecvența radiației incidente.</a><br><br>' +
                             'Dacă energia fotonului h ∙ ν > L, atunci electronul are o energie cinetică suficientă pentru a părăsi metalul:<br><br>' +
                             'Ec = h ∙ ν – L = h ∙ ν – h ∙ ν<sub>0</sub> = h ∙ (ν – ν<sub>0</sub>)' +
                         '</li><br>' +
