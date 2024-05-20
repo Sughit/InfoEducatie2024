@@ -336,12 +336,12 @@ function loadLanguages(attr)
         cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
         
-
-        if(window.location.pathname == "/teorieMecanica.html#1")
+        var hash = window.location.hash;
+        if(hash == "#1")
         {
             var test = document.getElementById('1');
-        test.id = 'highlight'
-        console.log(test);
+            test.id = 'highlight'
+            console.log(test);
         }
     }
 
