@@ -5913,7 +5913,7 @@ var data = {
                                     '<li>'+
                                     'Wärme (Q) ist eine physikalische Größe, die die Energie misst, die nur durch die ungeordnete Bewegung von Molekülen zwischen zwei Körpern in thermischem Kontakt übertragen wird.'+'<br>'+'<br>'+
 
-                                    '<a id = "7">'+'[Q]'+'<sub>'+'SI'+'</sub>'+' = J(Joule)'+'<br>'+'<br>'+'</a>'
+                                    '<a id = "7">'+'[Q]'+'<sub>'+'SI'+'</sub>'+' = J(Joule)'+'<br>'+'<br>'+'</a>'+
                                     'Eine weitere tolerierte Maßeinheit für Wärme ist die Kalorie: 1cal = 4,18 J'+
                                 '</li>'+'<br>'+
                                 '<li>'+'Vorzeichenkonventionen für Wärme:'+'<br>'+'<br>'+
@@ -5978,7 +5978,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Freiheitsgrade:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+'Da in der Thermodynamik ideale Gasmoleküle als materielle Punkte gelten, werden die unabhängigen Koordinaten, die das thermodynamische System charakterisieren, Freiheitsgrade genannt.'+'<br>'+'<br>'+
-                                    '<a id="8">'+'- Für einatomige Gase: i = 3'+'<br>'+'</a>'
+                                    '<a id="8">'+'- Für einatomige Gase: i = 3'+'<br>'+'</a>'+
                                         '- Für zweiatomige Gase: i = 5'+'<br>'+
                                         '- Für mehratomige Gase: i = 6'+'<br>'+'<br>'+
 
@@ -6441,7 +6441,7 @@ var data = {
                             +'Jedes Schaltungselement (elektrischer Generator, Glühbirne, Widerstand, Motor, Schalter) kann mit einem anderen (gleichen oder unterschiedlichen) auf zwei Arten verbunden (gruppiert) werden:<br><br>'
                             +'- In Reihe<br><br>'
                             +'- Parallel<br><br>'
-                            +'Eine Gruppe von Widerständen wird durch einen einzigen ersetzt, der als äquivalenter Widerstand bezeichnet wird. Sein Widerstand stellt das Äquivalent der Widerstände der jeweiligen Gruppierung dar.'
+                            +'<a id ="19">Eine Gruppe von Widerständen wird durch einen einzigen ersetzt, der als äquivalenter Widerstand bezeichnet wird.</a>   Sein Widerstand stellt das Äquivalent der Widerstände der jeweiligen Gruppierung dar.'
                         +'</li><br>'
                         +'<li>'
                             +'Widerstände, durch die derselbe Strom fließt und die sich auf derselben Seite einer Schaltung befinden, bilden eine Reihenschaltung und werden mit dem Widerstand R<sub>s</sub> gleichgesetzt.<br><br>'
@@ -6465,7 +6465,7 @@ var data = {
                         +'</li><br>'
                         +'<li>'
                             +'Der Innenwiderstand der Reihenschaltung von identischen elektrischen Generatoren:<br><br>'
-                            +'r<sub>s</sub> = n · r'
+                            +'<a id="17">'+'r<sub>s</sub> = n · r </a>'
                         +'</li><br>'
                         +'<li>'
                             +'Für eine Parallelschaltung von n identischen Quellen: die elektromotorische Kraft der Parallelschaltung von elektrischen Generatoren:<br><br>'
@@ -6473,7 +6473,7 @@ var data = {
                         +'</li><br>'
                         +'<li>'
                             +'Der Innenwiderstand der Parallelschaltung von identischen elektrischen Generatoren:<br><br>'
-                            +'r<sub>p</sub> = r / n'
+                            +'<a id="18">'+ 'r<sub>p</sub> = r / n </a>'
                         +'</li>'
                     +'</ul>'
 
@@ -6483,10 +6483,10 @@ var data = {
                     +'<h2 class="p-3">Elektrische Energie:</h2>'
                     +'<ul>'
                         +'<li>'
-                            +'Die elektrische Energie (bezeichnet als W) einer Quelle misst die mechanische Arbeit, die sie leistet, um die elektrische Ladung (q) durch den Querschnitt des Stromkreises in einem Zeitintervall (Δt) zu bewegen:<br><br>'
+                            +'<a id ="20">Die elektrische Energie (bezeichnet als W)</a> einer Quelle misst die mechanische Arbeit, die sie leistet, um die elektrische Ladung (q) durch den Querschnitt des Stromkreises in einem Zeitintervall (Δt) zu bewegen:<br><br>'
                             +'W = L = E ∙ q<br><br>'
                             +'Aber q = I ∙ Δt (aus der Formel für die Stromstärke)<br><br>'
-                            +'W<sub>gesamt</sub> = E ∙ I ∙ Δt (die Energie, die im gesamten Stromkreis verbraucht wird)<br><br>'
+                            +'<a id ="21">W<sub>gesamt</sub> = E ∙ I ∙ Δt (die Energie, die im gesamten Stromkreis verbraucht wird)</a><br><br>'
                             +'W<sub>außen</sub> = U ∙ I ∙ Δt (die Energie, die im äußeren Stromkreis verbraucht wird)<br><br>'
                             +'W<sub>innen</sub> = u ∙ I ∙ Δt (die Energie, die im inneren Stromkreis verbraucht wird)<br><br>'
                             +'W = U ∙ I ∙ Δt = R ∙ I<sup>2</sup> ∙ Δt = (U<sup>2</sup> / R) ∙ Δt<br><br>'
@@ -6510,7 +6510,7 @@ var data = {
                         +'<li>'
                             +'Die elektrische Energie des Generators wird dem äußeren Stromkreis zugeführt (W<sub>nutz</sub> - Nutzenergie = äußere Energie), der Rest der Energie wird vom Inneren des Generators empfangen (innere Energie).<br><br>'
                             +'Der elektrische Wirkungsgrad eines Empfängers (Verbrauchers) wird durch die Beziehung gegeben:<br><br>'
-                            +'η = W<sub>nutz</sub> / W<sub>gesamt</sub> = P<sub>äußere</sub> / P<sub>gesamt>'
+                            +'<a id ="23">η = W<sub>nutz</sub> / W<sub>gesamt</sub> = P<sub>äußere</sub> / P<sub>gesamt></a>'
                         +'</li><br>'
                         +'<li>'
                             +'Für einen einfachen Stromkreis, bestehend aus einer Spannungsquelle mit einer Leerlaufspannung E und einem Innenwiderstand r, der mit einem Widerstand R verbunden ist, wird der elektrische Wirkungsgrad durch die Beziehung gegeben:<br><br>'
@@ -6519,8 +6519,8 @@ var data = {
                         +'<li>'
                             +'Die Leistung, die vom Widerstand entwickelt wird, ist maximal, wenn: <br><br>'
                             +'P (R) = E<sup>2</sup> / (4 ∙ r)<br><br>'
-                            +'das heißt, wenn:<br><br>'
-                            +'R = r'
+                            +'das heißt, wenn:<br><br>' 
+                            +'<a id ="22">R = r</a>'
                         +'</li>'
                     +'</ul>'
                     +'<h2 class="p-3">Joulesches Gesetz:</h2>'
@@ -6532,7 +6532,7 @@ var data = {
                         +'<li>'
                             +'Das Joulesche Gesetz:<br><br>'
                             +'Die Wärme Q, die beim Durchgang des elektrischen Stroms durch einen Leiter freigesetzt wird, ist proportional zum Widerstand des Leiters R, zum Quadrat des elektrischen Stroms I<sup>2</sup> und zur Zeitdauer Δt, in der der elektrische Strom fließt.<br><br>'
-                            +'Q = R ∙ I<sup>2</sup> ∙ Δt'
+                            +'<a id ="24">Q = R ∙ I<sup>2</su   p> ∙ Δt</a>'
                         +'</li>'
                     +'</ul>'),
 
@@ -6657,13 +6657,13 @@ var data = {
                     '<li>' +
                         'Gesetze der Lichtbrechung:<br><br>' +
                         'Der Brechungsindex (notiert als n) eines transparenten Mediums wird durch das Verhältnis der Lichtgeschwindigkeit im Vakuum (c) zur Lichtgeschwindigkeit im jeweiligen Medium (v) gegeben.<br><br>' +
-                        'n = c / v<br><br>' +
+                        '<a id ="1">n = c / v<br><br></a>' +
                         'Die Brechung des Lichts ist das Phänomen, bei dem Licht seine Ausbreitungsrichtung ändert, wenn es die Trennfläche zwischen zwei verschiedenen transparenten Medien durchläuft.' +
                     '</li><br>' +
                     '<li>' +
                         'Gesetze der Lichtbrechung:<br><br>' +
                         'Erstes Brechungsgesetz:<br>' +
-                        'Der einfallende Strahl (SI), die Senkrechte zur Trennfläche (NI) und der gebrochene Strahl (IR\') liegen in einer Ebene.<br><br>' +
+                        '<a id="2">Der einfallende Strahl (SI), die Senkrechte zur Trennfläche (NI) und der gebrochene Strahl (IR\') liegen in einer Ebene.</a><br><br>' +
                         'Zweites Brechungsgesetz:<br>' +
                         'Das Verhältnis zwischen dem Einfallswinkel (i) und dem Sinus des Brechungswinkels (r\') ist gleich dem Verhältnis zwischen dem absoluten Brechungsindex des zweiten Mediums und dem absoluten Brechungsindex des ersten Mediums:<br><br>' +
                         'sin i / sin r\' = n<sub>2</sub> / n<sub>1</sub> = n<sub>21</sub><br><br>' +
@@ -6709,7 +6709,7 @@ var data = {
                         '</li>' +
                         '<li>' +
                             'Der maximale Einfallswinkel ist<br>' +
-                            'i = 90° → sin 90° = 1 <br>' +
+                            '<a id="3">i = 90° → sin 90° = 1 <br></a>   ' +
                             '1 / n >= sin(A - l)<br>' +
                             'sin l = 1 / n<br>' +
                             'sin l >= sin(A-l) oder A <= 2 ∙ 1<br>' +
@@ -6743,7 +6743,7 @@ var data = {
                     '</ul>' + 
                     '<h2 class="p-3">' + 'Klassifizierung der Linsen:' + '</h2>' + 
                     '<ul>' + 
-                        '- <b>Konvergente Linsen</b> (konvex) sind Linsen, die einen parallelen Lichtstrahl in einen konvergenten Lichtstrahl umwandeln. Sie brechen das Licht durch den positiven Brennpunkt und werden daher auch als positive Linsen bezeichnet. Sie vergrößern das Schreiben. Sie sind in der Mitte dicker und an den Enden dünner.<br><br>' + 
+                        '- <b>Konvergente Linsen</b> (konvex) sind Linsen, die einen parallelen Lichtstrahl in einen konvergenten Lichtstrahl umwandeln. Sie brechen das Licht durch den positiven Brennpunkt und werden daher auch als positive Linsen bezeichnet. Sie vergrößern das Schreiben. <a id = "4">Sie sind in der Mitte dicker und an den Enden dünner.<br><br></a>' + 
                         '- <b>Divergente Linsen</b> (konkav) sind Linsen, die einen parallelen Lichtstrahl in einen divergenten Lichtstrahl umwandeln. Sie brechen das Licht durch den negativen Brennpunkt und werden daher auch als negative Linsen bezeichnet. Sie verkleinern das Schreiben. Sie sind an den Enden dicker und in der Mitte dünner.<br><br>' + 
                         '<li>' + 
                             'Bildung des Bildes eines Objekts in Linsen: <br><br>' + 
