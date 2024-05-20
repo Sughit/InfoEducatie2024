@@ -337,7 +337,7 @@ function loadLanguages(attr)
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
         var test = document.getElementById('1');
         test.id = 'highlight'
-        location.reload();
+
         console.log(test);
     }
 
