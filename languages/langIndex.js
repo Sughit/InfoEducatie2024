@@ -534,145 +534,145 @@ function loadLanguages(attr)
         {
             var test = document.getElementById('1');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#2")
         {
             var test = document.getElementById('2');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#3")
         {
             var test = document.getElementById('3');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#4")
         {
             var test = document.getElementById('4');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#5")
         {
             var test = document.getElementById('5');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#6")
         {
             var test = document.getElementById('6');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#7")
         {
             var test = document.getElementById('7');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#8")
         {
             var test = document.getElementById('8');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#9")
         {
             var test = document.getElementById('9');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#10")
         {
             var test = document.getElementById('10');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         if(hash == "#11")
         {
             var test = document.getElementById('11');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#12")
         {
             var test = document.getElementById('12');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#13")
         {
             var test = document.getElementById('13');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#14")
         {
             var test = document.getElementById('14');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#15")
         {
             var test = document.getElementById('15');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#16")
         {
             var test = document.getElementById('16');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#17")
         {
             var test = document.getElementById('17');
             test.id = 'highlight'
-            window.location.href = "/teorieElectrodinamica.html#highlight";
+            window.location.href = "/teorieElectromecanica.html#highlight";
         }
         else if(hash == "#18")
             {
                 var test = document.getElementById('18');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
             if(hash == "#19")
             {
                 var test = document.getElementById('19');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
             else if(hash == "#20")
             {
                 var test = document.getElementById('20');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
             else if(hash == "#21")
             {
                 var test = document.getElementById('21');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
             else if(hash == "#22")
             {
                 var test = document.getElementById('22');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
             else if(hash == "#23")
             {
                 var test = document.getElementById('23');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
             else if(hash == "#24")
             {
                 var test = document.getElementById('24');
                 test.id = 'highlight'
-                window.location.href = "/teorieElectrodinamica.html#highlight";
+                window.location.href = "/teorieElectromecanica.html#highlight";
             }
     }
 
