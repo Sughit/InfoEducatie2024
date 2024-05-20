@@ -2169,7 +2169,7 @@ var data = {
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Formula Galilei:'+'</h2>'+
                         '<ul>'+
-                            '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
+                            '<li>'+'<b>'+'<a name="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Legea vitezei: '+'</h2>'+
                         '<ul>'+
@@ -2227,7 +2227,7 @@ var data = {
                             
                                 'Valoarea forței de frecare la alunecare depinde de natura și de gradul de prelucrare al suprafețelor aflate în contact. Dependența este caracterizată de o mărime adimensională, numită coeficient de frecare al alunecare, ce ia valori între 0 și 1 și se notează cu μ.'+'<br>'+'<br>'+
     
-                                '<a id="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
+                                '<a name="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
     
                             '<li>'+'Legea II a frecării:'+'<br>'+'<br>'+
                                 'Valoarea forței de frecare la alunecare nu depinde de aria suprafeței de contact dintre corpuri.'+'<br>'+'<br>'+'</li>'+
