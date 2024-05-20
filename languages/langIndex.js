@@ -335,10 +335,17 @@ function loadLanguages(attr)
         cuprinsPrincipii.textContent = data[attr].cuprinsPrincipii;
         cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
-        var test = document.getElementById('1');
-        test.id = 'highlight'
-
+        
         console.log(test);
+
+        switch(window.location.pathname)
+        {
+            case "#1":
+                var test = document.getElementById('1');
+                test.id = 'highlight'
+                break;
+            default:
+        }
     }
 
     //teorieTermodinamica.html
