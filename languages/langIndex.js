@@ -686,6 +686,86 @@ function loadLanguages(attr)
         cuprinsOndulatorie.textContent = data[attr].cuprinsOndulatorie;
         cuprinsCuantica.textContent = data[attr].cuprinsCuantica;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
+
+        var hash = window.location.hash;
+        if(hash == "#1")
+        {
+            var test = document.getElementById('1');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#2")
+        {
+            var test = document.getElementById('2');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#3")
+        {
+            var test = document.getElementById('3');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#4")
+        {
+            var test = document.getElementById('4');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#5")
+        {
+            var test = document.getElementById('5');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#6")
+        {
+            var test = document.getElementById('6');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#7")
+        {
+            var test = document.getElementById('7');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#8")
+        {
+            var test = document.getElementById('8');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#9")
+        {
+            var test = document.getElementById('9');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#10")
+        {
+            var test = document.getElementById('10');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        if(hash == "#11")
+        {
+            var test = document.getElementById('11');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#12")
+        {
+            var test = document.getElementById('12');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
+        else if(hash == "#13")
+        {
+            var test = document.getElementById('13');
+            test.id = 'highlight'
+            window.location.href = "/teorieOptica.html#highlight";
+        }
     }
 
     //test.html
