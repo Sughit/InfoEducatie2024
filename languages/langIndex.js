@@ -5657,154 +5657,148 @@ var data = {
 
         //teorieMecanica.html
         "teorieMecanicaTitle": "Theorie der Mechanik",
-        "teorieMecanica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Prinzipien und Gesetze'+'</h2>'+'<br>'+'<br>'+' <br>'+'</u>'+
-                        '<h2 class=\"p-3\">'+'Geschwindigkeit'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Formel: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Maßeinheit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
-                                    '<li>'+'Durchschnittsgeschwindigkeit: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
-                                    '<li>'+'Geschwindigkeitsvektor hat die gleiche Bedeutung wie Verschiebung: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>' + ' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Acceleration'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Formel: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
-                            '<li>'+'Maßeinheit: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+ ' </sup>'+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Die Galileo-Formel:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'<b>'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+') '+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Geschwindigkeitsgesetz: '+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Bewegungsgesetz:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'<b>'+'x = 1/2at'+'<sup>'+'2'+'</sup>'+' + v'+'<sub>'+'0 '+'</sub>'+'t + x'+'<sub>'+'0'+'</sub>'+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Prinzip I der Mechanik:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Jeder Körper behält seinen Ruhezustand oder seine gleichförmige geradlinige Bewegung bei, solange keine anderen Kräfte auf ihn einwirken oder die Summe der auf ihn einwirkenden Kräfte Null ist.'+'</li>'+
-                            '<li>'+'Kurz gesagt: Die Geschwindigkeit ist '+'<b>'+'konstant'+'</b>'+', wenn '+'<b>'+'die Resultierende der auf sie ausgeübten Kräfte ist body'+' </b>'+' ist 0'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Zweites Prinzip der Mechanik:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Die Änderung der Bewegungsmenge eines Körpers ist direkt proportional zur ausgeübten Kraft und erfolgt in der Richtung, in die die Kraft wirkt.'+'</li>'+
-                            '<li>'+'Mit anderen Worten ausgedrückt: Eine auf einen Körper einwirkende Kraft verleiht ihm eine Beschleunigung, die proportional zur Kraft und umgekehrt proportional zur Masse des Körpers ist.'+'</li>'+
-                            '<li>'+'Formel: F = ma'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Drittes Prinzip der Mechanik:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Wenn ein Körper mit einer Kraft (Aktionskraft genannt) auf einen anderen Körper einwirkt, wirkt der zweite Körper ebenfalls mit einer Kraft (Reaktionskraft genannt) gleicher Größe und Richtung auf den ersten Körper ein, aber Gegenteil. Dieses Prinzip ist auch als Aktions- und Reaktionsprinzip bekannt.'+'</li>'+
-                            '<li>'+'Als Formel geschrieben: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub> '+'r'+'</sub>'+'</b>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Hookes Gesetz:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Die Dehnung einer Feder ist direkt proportional zur Verformungskraft (F):'+'</li>'+'<br>'+
-    
-                            'Δl ~ F'+'<br>'+'<br>'+
-    
-                            '<li>'+'Direkt proportional zur anfänglichen Federlänge (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
-                            
-                            'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
-    
-                            '<li>'+'Umgekehrt proportional zur Querschnittsfläche der Feder:'+'</li>'+'<br>'+
-    
-                            'Δl ~ 1/S'+'<br>'+'<br>'+
-    
-                            '<li>'+'Hookes Gesetz:'+'</li>'+'<br>'+
-                            'F/S = E∙Δl/l'+'<sub>'+'0'+'</sub>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Drahtspannung:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Die Spannung im Draht (T) stellt die Reaktionskraft des nicht dehnbaren Drahtes (der sich nicht verlängert) auf die auf ihn ausgeübte Kraft dar.'+'</li>'+'<br>' +
-                            '<li>'+'Wenn wir einen Körper an einem nicht dehnbaren Faden aufhängen, treten zwei gepaarte Kräfte auf:'+'<br>'+'<br>'+
-    
-                                'Die Druckkraft des Körpers (F) ist die Kraft, mit der der Körper auf den Draht einwirkt (sie ist gleich dem Gewicht des Körpers).'+'<br>'+'<br>'+
+        "teorieMecanica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Prinzipien und Gesetze'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                    '<h2 class=\"p-3\">'+'Geschwindigkeit'+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'Formel: '+'<b>'+'v = d/Δt'+'</b>'+'</li>'+
+                                        '<li>'+'Maßeinheit: '+'<b>'+'&lt;'+'v'+'&gt;'+' = m/s'+'</b>'+'</li>'+
+                                                '<li>'+'Durchschnittsgeschwindigkeit: '+'<b>'+'v'+'<small>'+'m'+'</small>'+' = Δd/Δt'+'</b>'+'</li>'+
+                                                '<li>'+'Der Geschwindigkeitsvektor hat die gleiche Richtung wie die Verschiebung: v'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' = d'+'<span style=\"vertical-align : 5px;\">'+'&#8407;'+'</span>'+' /Δt'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Beschleunigung'+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'Formel: '+'<b>'+'a = Δv/Δt'+'</b>'+'</li>'+
+                                        '<li>'+'<a id ="2">'+'Maßeinheit: '+'<b>'+'&lt;'+'a'+'&gt;'+' = m/s'+'<sup>'+'2'+'</sup>'+'</b>'+'</a>'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Galileische Formel:'+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'<b>'+'<a id="1">'+'v'+'<sup>'+'2'+'</sup>'+' = v'+'<sub>'+'0'+'</sub>'+'<sup>'+'2'+'</sup>'+' + 2a(x-x'+'<sub>'+'0'+'</sub>'+')'+'</a>'+'</b>'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Geschwindigkeitsgesetz: '+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'<b>'+'v = v'+'<sub>'+'0'+'</sub>'+' + at'+'</b>'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Bewegungsgesetz:'+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'<b>'+'x = 1/2at'+'<sup>'+'2'+'</sup>'+' + v'+'<sub>'+'0'+'</sub>'+'t + x'+'<sub>'+'0'+'</sub>'+'</b>'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Erstes Prinzip der Mechanik:'+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'Jeder Körper behält seinen Zustand der Ruhe oder der gleichförmigen geradlinigen Bewegung bei, solange keine anderen Kräfte auf ihn wirken oder die Summe der auf ihn wirkenden Kräfte null ist.'+'</li>'+
+                                        '<li>'+'Kurz gesagt: Die Geschwindigkeit ist '+'<b>'+'konstant'+'</b>'+' wenn '+'<b>'+'die resultierende Kraft auf den Körper'+'</b>'+' null ist'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Zweites Prinzip der Mechanik:'+'</h2>'+
+                                    '<ul>'+
+                                        '<li>'+'Die Änderung der Bewegungsmenge eines Körpers ist direkt proportional zur angewandten Kraft und erfolgt in der Richtung, in der die Kraft wirkt.'+'</li>'+
+                                        '<li>'+'Mit anderen Worten: Eine Kraft, die auf einen Körper wirkt, verleiht ihm eine Beschleunigung, die proportional zur Kraft und umgekehrt proportional zur Masse des Körpers ist.'+'</li>'+
+                                        '<li>'+'Formel: F = ma'+'</li>'+
+                                    '</ul>'+
+                                    '<h2 class=\"p-3\">'+'Drittes Prinzip der Mechanik:'+'</h2>'+
+
+                                    '<ul>'+
+                                    '<li>'+'Die Änderung des Impulses eines Körpers ist direkt proportional zur angewandten Kraft und erfolgt in die Richtung, in der die Kraft wirkt.'+'</li>'+
+                                    '<li>'+'Mit anderen Worten: Eine Kraft, die auf einen Körper wirkt, verleiht ihm eine Beschleunigung, proportional zur Kraft und umgekehrt proportional zur Masse des Körpers.'+'</li>'+
+                                    '<li>'+'Formel: F = ma'+'</li>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Drittes Prinzip der Mechanik:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+'<a id="5">'+'Wenn ein Körper eine Kraft (genannt die Aktionskraft) auf einen anderen Körper ausübt, übt der zweite Körper eine Kraft (genannt die Reaktionskraft) auf den ersten Körper aus, die gleich groß und entgegengesetzt gerichtet ist. Dieses Prinzip ist auch als das Prinzip von Aktion und Reaktion bekannt.'+'</li>'+'</a>'+
+                                    '<li>'+'Ausgedrückt als Formel: '+'<b>'+'F'+'<sub>'+'a'+'</sub>'+' = F'+'<sub>'+'r'+'</sub>'+'</b>'+'</li>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Hookesches Gesetz:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+'Die Ausdehnung einer Feder ist direkt proportional zur deformierenden Kraft (F):'+'</li>'+'<br>'+
+                                    'Δl ~ F'+'<br>'+'<br>'+
+                                    '<li>'+'Direkt proportional zur Ausgangslänge der Feder (l'+'<sub>'+'0'+'</sub>'+') :'+'</li>'+'<br>'+
+                                    'Δl ~ l'+'<sub>'+'0'+'</sub>'+'<br>'+'<br>'+
+                                    '<li>'+'Umgekehrt proportional zur Querschnittsfläche der Feder:'+'</li>'+'<br>'+
+                                    'Δl ~ 1/S'+'<br>'+'<br>'+
+                                    '<li>'+'Hookesches Gesetz:'+'</li>'+'<br>'+
+                                    'F/S = E∙Δl/l'+'<sub>'+'0'+'</sub>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Spannung in Drähten:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+'Die Spannung in einem Draht (T) ist die Reaktionskraft des unelastischen Drahtes (der sich nicht dehnt) auf die auf ihn ausgeübte Kraft.'+'</li>'+'<br>'+
+                                    '<li>'+'<a id="4">'+'Wenn wir einen Körper an einem unelastischen Draht aufhängen, treten zwei gepaarte Kräfte auf:'+'<br>'+'<br>'+'</a>'+
+                                        'Die Druckkraft des Körpers (F) ist die Kraft, mit der der Körper auf den Draht wirkt (sie ist gleich dem Gewicht des Körpers).'+'<br>'+'<br>'+
+                                        'Die Spannung im Draht (T) ist die Kraft, mit der der Draht auf den an ihm hängenden Körper wirkt.'+'</li>'+
+                                '</ul>'+
+                                '<h2 class="p-3">'+'Gesetze der Gleitreibung:'+'</h2>'+
+                                '<ul>'+
+                                    '<li>'+'Erstes Reibungsgesetz:'+'<br>'+'<br>'+
+                                        'Der Wert der Gleitreibungskraft hängt von der Beschaffenheit und dem Zustand der Kontaktflächen ab. Diese Abhängigkeit wird durch eine dimensionslose Größe charakterisiert, die Reibungskoeffizient genannt wird und von 0 bis 1 reicht und mit μ bezeichnet wird.'+'<br>'+'<br>'+
+                                        '<a id="3">'+'Ff ~ μ'+'</li>'+'<br>'+'</a>'+
+                                    '<li>'+'Zweites Reibungsgesetz:'+'<br>'+'<br>'+
+                                        'Der Wert der Gleitreibungskraft hängt nicht von der Fläche der Kontaktfläche zwischen den Körpern ab.'+'<br>'+'<br>'+'</li>'+
+                                    '<li>'+'Drittes Reibungsgesetz:'+'<br>'+'<br>'+
+                                        'Der Wert der Gleitreibungskraft hängt von der Druckkraft ab, die der Körper auf die Gleitfläche ausübt, die gleich groß ist wie die Normalkraft an der Kontaktfläche zwischen den Körpern.'+'<br>'+'<br>'+
+                                        'Ff ~ N'+'</li>'+'<br>'+
+                                    '<li>'+'Die Formel für die Reibungskraft lautet:'+'<br>'+'<br>'+
+                                        'Ff = μ ∙ N'+'</li>'+
+                                '</ul>'+
                                 
-                                'Die Spannung im Draht (T) ist die Kraft, mit der der Draht auf den daran hängenden Körper einwirkt.'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Gleitreibungsgesetze:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Erstes Reibungsgesetz:'+'<br>'+'<br>'+
-                            
-                                'Der Wert der Gleitreibungskraft hängt von der Art und dem Grad der Bearbeitung der sich berührenden Oberflächen ab. Die Abhängigkeit wird durch eine dimensionslose Größe, den sogenannten Gleitreibungskoeffizienten, charakterisiert, der Werte zwischen 0 und 1 annimmt und mit μ bezeichnet wird.'+'<br>'+'<br>'+
-    
-                                'Ff ~ μ'+'</li>'+'<br>'+
-    
-                            '<li>'+'Das Zweite Gesetz der Reibung:'+'<br>'+'<br>'+
-                                'Der Wert der Gleitreibungskraft hängt nicht von der Fläche der Kontaktfläche zwischen den Körpern ab.'+'<br>'+'<br>'+'</li>'+
                                 
-                            '<li>'+'Drittes Reibungsgesetz:'+'<br>'+'<br>'+
-                                '„Der Wert der Gleitreibungskraft hängt von der Anpresskraft ab, die der Körper auf die Gleitfläche ausübt und deren Größe der normalen Reaktionskraft an der Kontaktfläche zwischen den Körpern entspricht.“'+'<br>'+'<br>' +
-    
-                            'Ff ~ N'+'</li>'+'<br>'+
-                            '<li>'+'Die Formel der Reibungskraft ergibt sich aus der Beziehung:'+'<br>'+'<br>'+
-                                'Ff = μ ∙ N'+'</li>'+
-                        '</ul>'+
-    
-                        //Teoreme de variatie si legi de conservare
-                        
-                        '<a name=\"element_target\">'+'</a>'+
-                        '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class=\"p-3\" align = center>'+'Theoreme der Variations- und Erhaltungsgesetze'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
-                        
-                        '<h2 class=\"p-3\">'+'Mechanische Arbeit:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Die mechanische Arbeit (L) einer konstanten Kraft, die auf einen Körper in Richtung und Richtung der Verschiebung des Körpers wirkt, ist die skalare physikalische Größe, die dem Produkt des Moduls der Kraft (F) und der entspricht Modul der Verschiebung des Körpers (d).' +'</li>'+'<br>'+
-                            '<li>'+'Berechnungsformel: L = F ∙ d'+'</li>'+'<br>'+
-                            '<li>'+'Zeichenkonventionen:'+'<br>'+
-                                '1. Die mechanische Arbeit einer Kraft ist positiv, wenn die Kraft dabei hilft, den Körper zu bewegen. Dies geschieht, wenn die Kraft die gleiche Richtung und den gleichen Sinn hat wie die Bewegung des Körpers.'+'<br>'+'<br>'+
-                                '2. Die mechanische Arbeit einer Kraft ist negativ, wenn die Kraft der Bewegung des Körpers entgegenwirkt. Dies geschieht, wenn die Komponente des Kraftvektors in Bewegungsrichtung der Bewegung des Körpers entgegengesetzt ist.'+'<br>'+'<br>'+
-                                '3. Die mechanische Arbeit einer Kraft ist Null, wenn die Kraft weder zur Bewegung des Körpers beiträgt noch der Bewegung entgegenwirkt. Dies geschieht, wenn der Kraftvektor senkrecht zur Bewegungsrichtung des Körpers steht.'+
+                                                    //Teoreme de variatie si legi de conservare
+                                                    
+                                                    '<a name="element_target">'+'</a>'+
+                            '<br>'+'<br>'+'<br>'+'<br>'+'<u>'+'<h2 class="p-3" align="center">'+'Theoreme der Variation und Erhaltungsgesetze'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
+                                                    
+                            '<h2 class="p-3">'+'Mechanische Arbeit:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Die mechanische Arbeit (L) einer konstanten Kraft, die auf einen Körper in Richtung und Sinn der Verschiebung des Körpers wirkt, ist die skalare physikalische Größe, die dem Produkt aus der Größe der Kraft (F) und der Größe der Verschiebung des Körpers (d) entspricht.'+'</li>'+'<br>'+
+                                '<li>'+'<a id="8">'+'Berechnungsformel: L = F ∙ d'+'</li>'+'<br>'+'</a>'+
+                                '<li>'+'Vorzeichenkonventionen:'+'<br>'+
+                                    '1. Die mechanische Arbeit einer Kraft ist positiv, wenn die Kraft hilft, den Körper zu bewegen. Dies geschieht, wenn die Kraft dieselbe Richtung und denselben Sinn wie die Bewegung des Körpers hat.'+'<br>'+'<br>'+
+                                    '2. Die mechanische Arbeit einer Kraft ist negativ, wenn die Kraft der Bewegung des Körpers entgegenwirkt. Dies geschieht, wenn die Komponente des Kraftvektors in Bewegungsrichtung entgegengesetzt zur Bewegung des Körpers ist.'+'<br>'+'<br>'+
+                                    '3. Die mechanische Arbeit einer Kraft ist null, wenn die Kraft weder hilft noch der Bewegung des Körpers entgegenwirkt. Dies geschieht, wenn der Kraftvektor senkrecht zur Bewegungsrichtung des Körpers steht.'+
+                                '</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Mechanische Leistung:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'<a id="10">'+'Mechanische Leistung (P) ist die skalare physikalische Größe, die dem Verhältnis der verrichteten mechanischen Arbeit (L) zur Zeit (Δt), in der diese Arbeit verrichtet wird, entspricht.'+'</li>'+'<br>'+'</a>'+
+                                '<li>'+'P = Mechanische Arbeit / Zeit = L / Δt'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Kinetische Energie:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Mechanische Energie (E) ist die physikalische Größe, die die Fähigkeit eines Körpers charakterisiert, mechanische Arbeit zu verrichten, gemessen in Joule (J).'+'</li>'+'<br>'+
+                                '<li>'+'Kinetische Energie (E'+'<sub>'+'c'+'</sub>'+') ist die Energie, die ein sich bewegender Körper besitzt.'+'</li>'+'<br>'+
+                                '<li>'+'Die kinetische Energie eines Körpers, der sich mit einer bestimmten Geschwindigkeit bewegt, wird mit der Formel berechnet:'+'<br>'+'<br>'+
+                                    'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+'</li>'+'<br>'+
+                                '<li>'+'Gesetz der Variation der kinetischen Energie:'+'<br>'+'<br>'+
+                                    '<a id="9">'+'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Gesamt'+'</sub>'+'</li>'+'</a>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Gravitationspotentielle Energie:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Gravitationspotentielle Energie (E'+'<sub>'+'pg'+'</sub>'+') ist die Energie, die ein Körper in einer bestimmten Höhe über dem Boden besitzt.'+'</li>'+'<br>'+
+                                '<li>'+'<a id="7">'+'Die gravitationspotentielle Energie eines Körpers entspricht: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+'</a>'+
+                                '<li>'+'Gesetz der Variation der gravitationspotentiellen Energie:'+'<br>'+'<br>'+
+                                    '<a id="6">'+'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</a>'+'</li>'+'<br>'+
+                                '<li>'+'Eine Kraft, die mechanische Arbeit unabhängig vom zurückgelegten Weg verrichtet und nur von den Anfangs- und Endpositionen abhängt, wird als konservative Kraft bezeichnet.'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Erhaltung der mechanischen Energie:'+'</h2>'+
+                            '<ul>'+
+                                '<li>'+'Gesetz der Erhaltung der mechanischen Energie:'+'<br>'+'<br>'+
+                                    '„Die mechanische Energie eines Körpers bleibt erhalten, wenn nur konservative Kräfte auf ihn wirken.\“'+'<br>'+'<br>'+
+                                    'E = konstant, wenn der Körper von äußeren Kräften isoliert ist und F'+'<sub>'+'f'+'</sub>'+' = 0'+'</li>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Impulsvariationstheorem:'+'</h2>'+
+
+                            '<ul>'+
+                            '<li>'+'Der Impuls eines Körpers wird durch das Gesetz der Impulserhaltung beschrieben und hat die Formel:'+'<br>'+'<br>'+
+                            'p'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = m ∙ v'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
+                            '<li>'+'Satz der Impulsänderung'+'<br>'+'<br>'+
+                                'Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = F'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' ∙ Δt'+
                             '</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Mechanische Leistung:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Mechanische Leistung (P) ist die skalare physikalische Größe, die dem Verhältnis zwischen der geleisteten mechanischen Arbeit (L) und der Zeit (Δt) entspricht, während der diese mechanische Arbeit verrichtet wird.'+'</li> '+'<br>'+
-                            '<li>'+'P = Mechanische Arbeit / Zeit = L / Δt'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Kinetische Energie:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Mechanische Energie (E) ist die physikalische Größe, die die Fähigkeit eines Körpers charakterisiert, mechanische Arbeit zu verrichten. Die Maßeinheit ist Joule (J).'+'</li>'+'<br>' +
-                            '<li>'+'Kinetische Energie (E'+'<sub>'+'c'+'</sub>'+') ist die Energie, die ein sich bewegender Körper hat.'+'</li> '+ '<br>'+
-                            '<li>'+'Die kinetische Energie eines sich bewegenden Körpers mit einer bestimmten Geschwindigkeit wird mit der Formel berechnet:'+'<br>'+'<br>'+
-                                'E'+'<sub>'+'c'+'</sub>'+' = m ∙ v'+'<sup>'+'2'+'</sup>'+' / 2 '+ '</li>'+'<br>'+
-                            '<li>'+'Das Gesetz der Variation der kinetischen Energie:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'c'+'</sub>'+' = L'+'<sub>'+'Total'+'</sub>'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Gravitationspotentialenergie:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Gravitationspotentialenergie (E'+'<sub>'+'pg'+'</sub>'+') ist die Energie, die ein Körper in einer bestimmten Höhe über dem Boden hat'+'</li>'+'<br>'+
-                            '<li>'+'Die potentielle Gravitationsenergie eines Körpers ist gleich: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+
-                            '<li>'+'Gesetz der Variation der potentiellen Gravitationsenergie:'+'<br>'+'<br>'+
-                                'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>' +'<br>'+
-                            '<li>'+'Eine Kraft, die mechanische Arbeit verrichtet, die unabhängig vom zurückgelegten Weg ist und nur von den Extrempositionen (Anfangs- und Endposition) abhängt, wird als konservative Kraft bezeichnet.'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Erhaltung der mechanischen Energie:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Das Gesetz der Erhaltung der mechanischen Energie:'+'<br>'+'<br>'+
-    
-                                '\"Die mechanische Energie eines Körpers bleibt erhalten, wenn nur konservative Kräfte auf ihn einwirken.\"'+'<br>'+'<br>'+
-                            
-                                'E = konstant, wenn der Körper von außen isoliert ist und F'+'<sub>'+'f'+'</sub>'+' = 0'+'</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Momentum Variation Theorem:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Der Impuls des Körpers wird durch das Gesetz der Impulserhaltung beschrieben und hat die Formel:'+'<br>'+'<br>'+
-                            'p'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = m ∙ v'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
-                            '<li>'+'Theorem der Variation des mechanischen Impulses'+'<br>'+'<br>'+
-                                'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' ∙ Δt'+
-                            '</li>'+
-                        '</ul>'+
-                        '<h2 class=\"p-3\">'+'Das Gesetz der Impulserhaltung:'+'</h2>'+
-                        '<ul>'+
-                            '<li>'+'Wenn das mechanische System isoliert ist, beträgt die resultierende Kraft F'+'<sub>'+'R'+'</sub>'+'<span style=\"vertical-align : 4px; margin- left : -1.5px\">'+'&#8407;'+'</span> '+'ist Null.'+'<br>'+'<br>'+
-                            'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = F'+'<sub>'+'R' +'</sub>'+'<span style=\"vertical-align : 4px; margin-left : -1.5px\">'+'&#8407;'+'</span>'+' ∙ Δt = 0 ∙ Δt = 0'+'</li>'+'<br>'+
-                            '<li>'+'Das Gesetz der Erhaltung des mechanischen Impulses im SRI:'+'<br>'+'<br>'+
+                            '</ul>'+
+                            '<h2 class="p-3">'+'Gesetz der Impulserhaltung:'+'</h2>'+
+                            '<ul>'+
+                            '<li>'+'Wenn das mechanische System isoliert ist, ist die resultierende Kraft F'+'<sub>'+'R'+'</sub>'+'<span style="vertical-align: 4px; margin-left: -1.5px">'+'&#8407;'+'</span> '+'gleich null.'+'<br>'+'<br>'+
+                            'Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = F'+'<sub>'+'R'+'</sub>'+'<span style="vertical-align: 4px; margin-left: -1.5px">'+'&#8407;'+'</span>'+' ∙ Δt = 0 ∙ Δt = 0'+'</li>'+'<br>'+
+                            '<li>'+'Gesetz der Impulserhaltung in Inertialsystemen:'+'<br>'+'<br>'+
                                 'Der mechanische Impuls isolierter mechanischer Systeme bleibt erhalten.'+'<br>'+'<br>'+
-                                'Δp'+'<span style=\"vertical-align : 4px;\">'+'&#8407;'+'</span>'+' = 0, d. h. Δp'+'<span style=\ "vertical-align : 4px; \">'+'&#8407;'+'</span>'+' = const'+'<span style=\"vertical-align : 4px; margin-left : -25px \">'+'&#8407;'+'</span>'+'</li>'+'<br>'+
-                                '<li>'+'Bei isolierten mechanischen Systemen kann sich ihr Gesamtimpuls unter Einwirkung innerer Kräfte nicht ändern.'+'</li>'+
-                        '</ul>'),
+                                'Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = 0, d.h. Δp'+'<span style="vertical-align: 4px;">'+'&#8407;'+'</span>'+' = const'+'<span style="vertical-align: 4px; margin-left: -25px">'+'&#8407;'+'</span>'+'</li>'+'<br>'+ 
+                            '<li>'+'Im Fall isolierter mechanischer Systeme kann sich der Gesamtimpuls dieser Systeme durch die Wirkung innerer Kräfte nicht ändern.'+'</li>'+
+                            '</ul>'),
 
         //teorieTermodinamica.html
         "teorieTermodinamicaTitle": "Theorie der Thermodynamische",
@@ -5818,12 +5812,12 @@ var data = {
                                 '<li>'+'<b>'+'Die relative Atommasse (A)'+'</b>'+' ist die Zahl, die angibt, wie oft die Masse eines Atoms größer als die Atommasseneinheit ist .'+ '</li>'+'<br>'+
                                 '<li>'+'<b>'+'Ein Mol Atome'+'</b>'+' stellt die Menge einer einfachen Substanz in Gramm dar, die 6,022 ∙ 10'+'<sup>'+'23'+'</sup>'+' Atome. Es wird mit dem griechischen Buchstaben „niu“= υ.'+'<br>'+'<br>'+
                                         'υ = m(g) / A(g/mol) = Masse der einfachen Substanz (g) / Atommasse (g/mol)'+'</li>'+'<br>'+
-                                        '<li>'+'<b>'+'Avogadros Zahl'+'</b>'+', bezeichnet durch N'+'<sub>'+'A'+'</sub>'+' , ist gleich 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' Atome und stellt die Anzahl der Atome dar, die in einem Mol Atome einer einfachen Substanz enthalten sind.'+'</li>'+'<br>'+
+                                        '<li>'+'<b>'+'<a id="2">'+'Avogadros Zahl'+'</b>'+', bezeichnet durch N'+'<sub>'+'A'+'</sub>'+' , ist gleich 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' Atome und stellt die Anzahl der Atome dar, die in einem Mol Atome einer einfachen Substanz enthalten sind.'+'</a>'+'</li>'+'<br>'+
                                         '<li>'+'<b>'+'Molmasse'+'</b>'+' (gekennzeichnet durch den griechischen Buchstaben miu = μ) ist die Masse eines Mols einer Substanz. Seine Maßeinheit ist g/mol.'+'</li>'+'<br>'+
                                         '<li>'+'<b>'+'Das Mol'+'</b>'+' ist im Internationalen System die Maßeinheit für die Stoffmenge, die eine Anzahl von Teilchen enthält, die der Avogadro-Zahl entspricht. N'+ '<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
                                         'υ = m(g) / μ(g/mol) = Masse der Verbindung (g) / Molmasse (g/mol)'+'<br>'+'<br>'+
                                         'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Anzahl der Teilchen / Avogadro-Zahl'+'</li>'+'<br>'+
-                                        '<li>'+'Ein Mol eines beliebigen Gases nimmt unter normalen Bedingungen von Temperatur (273 K) und Druck (10'+'<sup>'+'5'+'</sup>'+' Pa) ein Volumen ein , genannt '+'<b>'+'molares Volumen'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L /mol '+'<br>'+'<br>'+
+                                        '<li>'+'Ein Mol eines beliebigen Gases nimmt unter normalen Bedingungen von Temperatur (273 K) und Druck (10'+'<sup>'+'5'+'</sup>'+' Pa) ein Volumen ein , genannt '+'<b>'+'<a id="5">'+'molares Volumen'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L /mol '+'<br>'+'<br>'+'</a>'+
                                         'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Gasvolumen (L) / Molvolumen (L/mol)'+'<br>'+'<br>'+
                                         'Die Beziehung zwischen dem Molvolumen und der Dichte einer Substanz ist:'+'<br>'+'<br>'+
                                         'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
@@ -5893,7 +5887,7 @@ var data = {
                                         
                                         'ΔV = V2 - V1'+'</li>'+'<br>'+
                                     '<li>'+'Die mechanische Arbeit, die das thermodynamische System bei einer isobaren Transformation leistet, ist:'+'<br>'+'<br>'+
-                                        'L = p ∙ ΔV'+'</li>'+'<br>'+
+                                    '<a id="6">'+'L = p ∙ ΔV'+'</li>'+'<br>'+'</a>'+
                                     
                                     '<li>'+'Vorzeichenkonventionen für die mechanische Arbeit des thermodynamischen Systems:'+'<br>'+'<br>'+
                                     
@@ -5919,7 +5913,7 @@ var data = {
                                     '<li>'+
                                     'Wärme (Q) ist eine physikalische Größe, die die Energie misst, die nur durch die ungeordnete Bewegung von Molekülen zwischen zwei Körpern in thermischem Kontakt übertragen wird.'+'<br>'+'<br>'+
 
-                                    '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(Joule)'+'<br>'+'<br>'+
+                                    '<a id = "7">'+'[Q]'+'<sub>'+'SI'+'</sub>'+' = J(Joule)'+'<br>'+'<br>'+'</a>'
                                     'Eine weitere tolerierte Maßeinheit für Wärme ist die Kalorie: 1cal = 4,18 J'+
                                 '</li>'+'<br>'+
                                 '<li>'+'Vorzeichenkonventionen für Wärme:'+'<br>'+'<br>'+
@@ -5984,7 +5978,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Freiheitsgrade:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+'Da in der Thermodynamik ideale Gasmoleküle als materielle Punkte gelten, werden die unabhängigen Koordinaten, die das thermodynamische System charakterisieren, Freiheitsgrade genannt.'+'<br>'+'<br>'+
-                                        '- Für einatomige Gase: i = 3'+'<br>'+
+                                    '<a id="8">'+'- Für einatomige Gase: i = 3'+'<br>'+'</a>'
                                         '- Für zweiatomige Gase: i = 5'+'<br>'+
                                         '- Für mehratomige Gase: i = 6'+'<br>'+'<br>'+
 
@@ -5996,7 +5990,7 @@ var data = {
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Isochorentransformation :'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'(ν und V const.) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
+                                    '<li>'+'(ν und' + '<a id="9">'+'V const.'+'</a>'+') → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
                                     '<li>'+'Wir haben zwei Fälle:'+'<br>'+'<br>'+
                                         '- Das in einem konstanten Volumen eingeschlossene Gas wird erhitzt, nimmt Wärme auf → QV > 0 und ΔU > 0 (erhöht die innere Energie des Gases).'+'<br>'+'<br>'+
                                         '- Das in einem konstanten Volumen eingeschlossene Gas wird abgekühlt, es gibt Wärme ab → QV < 0 und ΔU < 0 (die innere Energie des Gases nimmt ab)'+'</li>'+'<br>'+
@@ -6077,7 +6071,7 @@ var data = {
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Die Robert-Mayer-Beziehung stellt die Beziehung zwischen molaren Wärmen her:'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+
+                                        '<a id="10">'+'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+'</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Die Robert-Mayer-Beziehung stellt die Beziehung zwischen molaren spezifischen Wärmen her:'+'<br>'+'<br>'+
@@ -6103,7 +6097,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Wärmekraftmaschinen:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Die Wärmekraftmaschine ist ein System, das die aufgenommene Wärme durch die Verbrennung eines Kraftstoffs (Benzin, Diesel, Methangas usw.) in mechanische Arbeit umwandelt.'+
+                                    '<a id="12">'+'Die Wärmekraftmaschine ist ein System, das die aufgenommene Wärme durch die Verbrennung eines Kraftstoffs (Benzin, Diesel, Methangas usw.) in mechanische Arbeit umwandelt.'+'</a>'+
                                     '</li>'+
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Die Otto-Engine:'+'</h2>'+
@@ -6121,8 +6115,8 @@ var data = {
 
                                         ' - '+'<b>'+'Zeitpunkt 1: Einlass'+'</b>'+' - (Isobarenverfahren):'+'<br>'+'<br>'+
                                         ' Das Einlassventil öffnet sich, das Benzin-Luft-Gemisch wird in den Zylinder gesaugt und der Kolben senkt sich bei konstantem Druck von OT zu OT. Es ist der erste Abstieg des Kolbens.'+'<br>'+'<br>'+
-                                        
-                                        ' -'+'<b>'+'Zeit 2: Kompression'+'</b>'+' - (adiabatischer Prozess):'+'<br>'+'<br>'+
+
+                                        ' -'+'<b>'+'<a id ="11">'+'Zeit 2: Kompression'+'</b>'+' - (adiabatischer Prozess):'+'</a>'+'<br>'+'<br>'+
                                         ' Beide Ventile sind geschlossen. Der Kolben bewegt sich bis zum oberen Totpunkt, wodurch der Kraftstoff stark komprimiert wird. Dabei steigen Druck und Temperatur. Aufgrund der hohen Kompressionsgeschwindigkeit ist dieser Prozess adiabatisch (kein Wärmeaustausch mit der Außenwelt). Es ist der erste Anstieg des Kolbens.'+'<br>'+'<br>'+
                                         ' -'+'<b>'+'Zeit 3: Zündung'+'</b>'+' - (Isochorenprozess) und '+'<b>'+'Entspannung'+'</b>'+ ' - (adiabatischer Prozess):'+'<br>'+'<br>'+
                                         ' Beide Ventile sind geschlossen und der Kolben steht im oberen Totpunkt. Der von der Zündkerze erzeugte elektrische Funke entzündet das Gemisch, das explodiert und bei konstantem Volumen zu einem erheblichen Druckanstieg führt. Das Gemisch verbrennt unter Freisetzung von Wärme (Q1 = vom Motor aufgenommene Wärme). Die bei der Verbrennung entstehenden Gase dehnen sich adiabatisch aus und drücken den Kolben durch die geleistete mechanische Arbeit in den PMI.'+'<br>'+'<br>'+
@@ -6134,7 +6128,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Wirkungsgrad der Otto-Wärmekraftmaschine:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Der Wirkungsgrad der Otto-Wärmekraftmaschine (η) ist eine physikalische Größe, die dem Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit (L) und der aufgenommenen Wärme (Q) entspricht.'+'<br>'+'<br> '+
+                                        '<a id="13">Der Wirkungsgrad der Otto-Wärmekraftmaschine (η) ist eine physikalische Größe, die dem Verhältnis zwischen der vom Motor geleisteten mechanischen Arbeit (L) und der aufgenommenen Wärme (Q) entspricht.</a>'+'<br>'+'<br> '+
                                         'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'datum'+'</sub>' +'|. / Q'+'<sub>'+'erhalten'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub> ' +'|. / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
 
                                         'Wir gehen davon aus, dass der Arbeitsstoff ein ideales Gas ist und das Kompressionsverhältnis ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2 beträgt '+'</sub>'+'.'+'<br>'+'<br>'+
@@ -6178,7 +6172,7 @@ var data = {
                                         '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (adiabatischer Prozess)'+'<br>'+
                                         '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T '+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (isochorischer Prozess)'+'<br>'+'<br>'+
 
-                                        'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))'+
+                                        '<a id="14">η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1' +'</sup>'+'(a-1))</a>'+
                                         
                                     '</li>'+
                                 '</ul>'+
@@ -6223,10 +6217,10 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Carnots Formulierung des zweiten Hauptsatzes der Thermodynamik:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Die Ausbeute des Carnot-Zyklus ist immer Untereinheit, weil T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
+                                        '<a id="15">Die Ausbeute des Carnot-Zyklus ist immer Untereinheit</a>, weil T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Die Leistung des Carnot-Zyklus hängt nur von der Temperatur der heißen Quelle (T'+'<sub>'+'1'+'</sub>'+') und der kalten Quelle (T'+'<sub>'+'2' +'</sub>'+') und ist unabhängig vom Arbeitsstoff.'+
+                                        '<a id="16">Die Leistung des Carnot-Zyklus hängt nur von der Temperatur der heißen Quelle (T'+'<sub>'+'1'+'</sub>'+') und der kalten Quelle (T'+'<sub>'+'2' +'</sub>'+') und ist unabhängig vom Arbeitsstoff.</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Der Wirkungsgrad einer irreversiblen Wärmekraftmaschine ist immer geringer als der Wirkungsgrad einer Wärmekraftmaschine, die reversibel zwischen denselben Temperaturgrenzen arbeitet.'+
@@ -6268,7 +6262,7 @@ var data = {
                                         +'die den Stromkreis öffnen und schließen. Nur wenn der Schalter geschlossen ist, fließt der elektrische Strom durch den Stromkreis.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'Die konventionelle Richtung des Gleichstroms in einem Stromkreis ist von der positiven Klemme der Quelle zur negativen Klemme durch den äußeren Stromkreis (durch die Verbraucher).'
+                                        +'<a id="5">Die konventionelle Richtung des Gleichstroms in einem Stromkreis ist von der positiven Klemme der Quelle zur negativen Klemme durch den äußeren Stromkreis (durch die Verbraucher).</a>'
                                     +'</li>'
                                 +'</ul>'
                                 +'<h2 class="p-3">Stromstärke:</h2>'
@@ -6277,7 +6271,7 @@ var data = {
                                         +'Wenn wir eine elektrische Spannung zwischen zwei Punkten eines Leiters anlegen, entsteht ein elektrischer Strom, d. h. eine gerichtete Bewegung der freien Elektronen, die eine Ladung q = n ∙ e transportieren.'
                                     +'</li><br>'
                                     +'<li>'
-                                        +'Die Stromstärke (I) ist eine skalare physikalische Größe, die gleich dem Verhältnis zwischen der elektrischen Ladung (q), die durch den Querschnitt eines Leiters fließt, und dem Zeitintervall (Δt) ist.'
+                                        +'<a id="2">Die Stromstärke (I) ist eine skalare physikalische Größe, die gleich dem Verhältnis zwischen der elektrischen Ladung (q), die durch den Querschnitt eines Leiters fließt, und dem Zeitintervall (Δt) ist.</a>'
                                     +'</li><br>'
                                     +'<li>'
                                         +'Charakterisierung der Stromstärke als physikalische Größe:<br><br>'
