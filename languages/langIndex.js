@@ -336,13 +336,14 @@ function loadLanguages(attr)
         cuprinsTeoreme.textContent = data[attr].cuprinsTeoreme;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
         
-        console.log(test);
+        
 
         switch(window.location.pathname)
         {
             case "#1":
                 var test = document.getElementById('1');
                 test.id = 'highlight'
+                console.log(test);
                 break;
             default:
         }
