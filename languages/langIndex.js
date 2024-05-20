@@ -2964,7 +2964,7 @@ var data = {
                                 +'<li>'
                                     +'<b>Tensiunea electromotoare</b> (prescurtată t.e.m., cu simbolul E) a unei surse este mărimea fizică scalară care măsoară lucrul mecanic efectuat de sursă (L<sub>total</sub>) pentru deplasarea unității de sarcină electrică (q) de-a lungul întregului circuit.<br><br>'
                                     +'E = L<sub>total</sub> / q<br><br>'
-                                    +'<a id="1">Unitate de măsură în S.I pentru tensiunea electrică este voltul (V):<br><br>'
+                                    +'<a id="1">Unitate de măsură în S.I pentru tensiunea electrică este voltul (V):</a><br><br>'
                                     +'[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V(volt)'
                                 +'</li><br>'
                                 +'<li>'
