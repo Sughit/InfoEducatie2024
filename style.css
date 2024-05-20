@@ -145,11 +145,7 @@ html {
         overflow-x: hidden;
     }
 }
-:target:not([id="element_target"]):not([id="element_target2"]):not([id="element_target3"]):not([id="element_target4"]){
-    border: 2px solid #D4D4D4;
-    background-color: orange;
-    color: white;
- }
+
  #highlight
  {
     border: 2px solid #D4D4D4;
