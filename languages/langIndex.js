@@ -410,6 +410,110 @@ function loadLanguages(attr)
         cuprinsMotoare.textContent = data[attr].cuprinsMotoare;
         cuprinsPrincipiuII.textContent = data[attr].cuprinsPrincipiuII;
         cuprinsAcasaBtn.textContent = data[attr].acasaBtn;
+
+        var hash = window.location.hash;
+        if(hash == "#1")
+        {
+            var test = document.getElementById('1');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#2")
+        {
+            var test = document.getElementById('2');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#3")
+        {
+            var test = document.getElementById('3');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#4")
+        {
+            var test = document.getElementById('4');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#5")
+        {
+            var test = document.getElementById('5');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#6")
+        {
+            var test = document.getElementById('6');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#7")
+        {
+            var test = document.getElementById('7');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#8")
+        {
+            var test = document.getElementById('8');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#9")
+        {
+            var test = document.getElementById('9');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#10")
+        {
+            var test = document.getElementById('10');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        if(hash == "#11")
+        {
+            var test = document.getElementById('11');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#12")
+        {
+            var test = document.getElementById('12');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#13")
+        {
+            var test = document.getElementById('13');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";;
+        }
+        else if(hash == "#14")
+        {
+            var test = document.getElementById('14');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#15")
+        {
+            var test = document.getElementById('15');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#16")
+        {
+            var test = document.getElementById('16');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
+        else if(hash == "#17")
+        {
+            var test = document.getElementById('17');
+            test.id = 'highlight'
+            window.location.href = "/teorieTermodinamica.html#highlight";
+        }
     }
 
     //teorieElectromecanica.html
@@ -2334,8 +2438,8 @@ var data = {
                             '<li>'+'Energia potențială gravitațională (E'+'<sub>'+'pg'+'</sub>'+') este energia pe care o are un corp aflat la o anumită înălțime față de sol.'+'</li>'+'<br>'+
                             '<li>'+'<a id = "7">'+'Energia potențială gravitațională a unui corp este egală cu: E'+'<sub>'+'pg'+'</sub>'+' = m ∙ g ∙ h'+'</li>'+'<br>'+'</a>'+
                             '<li>'+'Legea variației energiei potențiale gravitaționale:'+'<br>'+'<br>'+
-                                '<a id ="6">'+'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</li>'+'<br>'+
-                            '<li>'+'O forță care efectuează un lucru mecanic care este independent de drumul parcurs și depinde numai de pozițiile extreme (inițială și cea finală) se numește forță conservativă.'+'</li>'+'</a>'+
+                                '<a id ="6">'+'ΔE'+'<sub>'+'pg'+'</sub>'+' = -L'+'<sub>'+'G'+'</sub>'+'</a>'+'</li>'+'<br>'+
+                            '<li>'+'O forță care efectuează un lucru mecanic care este independent de drumul parcurs și depinde numai de pozițiile extreme (inițială și cea finală) se numește forță conservativă.'+'</li>'+
                         '</ul>'+
                         '<h2 class=\"p-3\">'+'Conservarea energiei mecanice:'+'</h2>'+
                         '<ul>'+
@@ -2367,7 +2471,7 @@ var data = {
         "teorieTermodinamicaTitle": "Termodinamică teorie",
         "teorieTermodinamica": ('<u>'+'<h2 class=\"p-3\" align = center>'+'Noțiuni termodinamice de bază'+'</h2>'+'<br>'+'<br>'+'<br>'+'</u>'+
                                 '<ul>'+
-                                    '<li>'+'<b>'+'Agitația termică'+'</b>'+' este mişcarea dezordonată şi continuă a particulelor unei substanţe (atomi sau molecule).'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'<a id="1">'+'Agitația termică'+'</b>'+' este mişcarea dezordonată şi continuă a particulelor unei substanţe (atomi sau molecule).'+'</a>'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Difuzia'+'</b>'+' este fenomenul de pătrundere a moleculelor unei substanțe printre moleculele altei substanțe, fără intervenţia unei forţe exterioare (de la sine).'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Atomul'+'</b>'+' este cea mai mică particulă dintr-o substanță care nu mai poate fi divizată prin procedee chimice obișnuite.'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Molecula'+'</b>'+' reprezintă cea mai mică particulă dintr-o substanță, care poate exista și în stare liberă și care păstrează proprietățile substanței din care provine.'+'</li>'+'<br>'+
@@ -2376,12 +2480,12 @@ var data = {
                                     '<li>'+'<b>'+'Un mol de atomi'+'</b>'+' reprezintă cantitatea, în grame, dintr-o substanţă simplă care conţine 6,022 ∙ 10'+'<sup>'+'23'+'</sup>'+' de atomi. Se notează cu litera grecească ”niu”=  υ.'+'<br>'+'<br>'+
 
                                         'υ = m(g) / A(g/mol) = masa de substanță simplă(g) / masa atomică(g/mol)'+'</li>'+'<br>'+
-                                    '<li>'+'<b>'+'Numărul lui Avogadro'+'</b>'+', notat cu N'+'<sub>'+'A'+'</sub>'+', este egal cu 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atomi şi reprezintă numărul de atomi conţinuţi într-un mol de atomi din orice substanță simplă.'+'</li>'+'<br>'+
+                                    '<li>'+'<b>'+'<a id="2">'+'Numărul lui Avogadro'+'</b>'+', notat cu N'+'<sub>'+'A'+'</sub>'+', este egal cu 6,022 ∙10'+'<sup>'+'23'+'</sup>'+' mol'+'<sup>'+'-1'+'</sup>'+' atomi şi reprezintă numărul de atomi conţinuţi într-un mol de atomi din orice substanță simplă.'+'</a>'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Masa molară'+'</b>'+' (notată cu litera grecească miu = μ) este masa unui mol de substanță. Are ca unitate de măsură g/mol.'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Molul'+'</b>'+' este unitatea de măsură în Sistemul Internațional a cantității de substanță care conține un număr de particule egal cu numărul lui Avogadro, N'+'<sub>'+'A.'+'</sub>'+'<br>'+'<br>'+
                                         'υ = m(g) / μ(g/mol) = Masa substanței compuse(g) / Masa molară(g/mol)'+'<br>'+'<br>'+
                                         'υ = N / N'+'<sub>'+'A'+'</sub>'+' = Număr de particule / Numărul lui Avogadro'+'</li>'+'<br>'+
-                                    '<li>'+'Un mol din orice gaz ocupă în condiții normale de temperatură (273 K) și presiune (10'+'<sup>'+'5'+'</sup>'+' Pa) un volum, numit '+'<b>'+'volum molar'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L/mol'+'<br>'+'<br>'+
+                                    '<li>'+'Un mol din orice gaz ocupă în condiții normale de temperatură (273 K) și presiune (10'+'<sup>'+'5'+'</sup>'+' Pa) un volum, numit '+'<b>'+'<a id="5">'+'volum molar'+'</b>'+' = V'+'<sub>'+'μ'+'</sub>'+' = 22,4 L/mol'+'</a>'+'<br>'+'<br>'+
                                         'v = V / V'+'<sub>'+'μ'+'</sub>'+' = Volumul gazului(L) / Volumul molar(L/mol)'+'<br>'+'<br>'+
                                         'Relația între volumul molar și densitatea unei substanțe este:'+'<br>'+'<br>'+
                                         'P = μ / V'+'<sub>'+'μ'+'</sub>'+'<br>'+'<br>'+
@@ -2402,7 +2506,7 @@ var data = {
                                     '<li>'+'<b>'+'Transformarea cvasistatică'+'</b>'+' are loc când stările intermediare prin care trece sistemul sunt stări de echilibru termic, atunci când parametrii de stare variază foarte lent.'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Procesul reversibil'+'</b>'+' este transformarea cvasistatică care poate avea loc în ambele sensuri, prin aceleași stări intermediare.'+'</li>'+'<br>'+
                                     '<li>'+'Ecuația de stare (numită Clapeyron - Mendeleev) descrie dependența dintre parametrii de stare ai unui sistem termodinamic:'+'<br>'+'<br>'+
-                                        'p ∙ V = ν ∙ R ∙ T'+'<br>'+'<br>'+
+                                    '<a id="4">'+'p ∙ V = ν ∙ R ∙ T'+'</a>'+'<br>'+'<br>'+
                                         'p = presiunea gazului ideal'+'<br>'+
 
                                         'V = volumul gazului ideal'+'<br>'+
@@ -2426,7 +2530,7 @@ var data = {
                                         't'+'<sub>'+'F'+'</sub>'+' = 9/5 ∙ t(°C) + 32'+'</li>'+'<br>'+
                                     '<li>'+'<b>'+'Scara Kelvin'+'</b>'+' (absolută): '+'<br>'+'<br>'+
                                         '[T]'+'<sub>'+'SI'+'</sub>'+' = K (kelvin)'+'<br>'+'<br>'+
-                                        'T(K) = t (°C) + 273,15'+'</li>'+
+                                        '<a id="3">'+'T(K) = t (°C) + 273,15'+'</a>'+'</li>'+
                                 '</ul>'+
 
                                 //Principiul I
@@ -2452,7 +2556,7 @@ var data = {
                                         
                                         'ΔV = V2 - V1'+'</li>'+'<br>'+
                                     '<li>'+'Lucrul mecanic efectuat de sistemul termodinamic într-o transformare izobară este:'+'<br>'+'<br>'+
-                                        'L = p ∙ ΔV'+'</li>'+'<br>'+
+                                    '<a id="6">'+'L = p ∙ ΔV'+'</li>'+'<br>'+'</a>'+
                                     
                                     '<li>'+'Convenții de semne pentru lucrul mecanic efectuat de sistemul termodinamic:'+'<br>'+'<br>'+
                                     
@@ -2478,7 +2582,7 @@ var data = {
                                     '<li>'+
                                         'Căldura (Q) este o mărime fizică care măsoară energia transferată, numai prin mișcarea dezordonată a moleculelor dintre două corpuri aflate în contact termic.'+'<br>'+'<br>'+
 
-                                        '[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+
+                                        '<a id = "7">'+'[Q]'+'<sub>'+'SI'+'</sub>'+' = J(joule)'+'<br>'+'<br>'+'</a>'+
                                         'O altă unitate de măsură tolerată pentru căldură este caloria: 1cal = 4,18 J'+
                                     '</li>'+'<br>'+
                                     '<li>'+'Convenții de semne pentru căldură:'+'<br>'+'<br>'+
@@ -2543,7 +2647,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Grade de libertate:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+'Cum în termodinamică moleculele gazului ideal sunt considerate puncte materiale, coordonatele independente ce caracterizează sistemul termodinamic se numesc grade de libertate.'+'<br>'+'<br>'+
-                                        '- Pentru gazele monoatomice: i = 3'+'<br>'+
+                                    '<a id="8">'+'- Pentru gazele monoatomice: i = 3'+'<br>'+'</a>'+
                                         '- Pentru gazele diatomice: i = 5'+'<br>'+
                                         '- Pentru gazele poliatomice: i = 6'+'<br>'+'<br>'+
 
@@ -2555,7 +2659,7 @@ var data = {
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Transformare izocoră :'+'</h2>'+
                                 '<ul>'+
-                                    '<li>'+'(ν și V const.) → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
+                                    '<li>'+'(ν și' + '<a id="9">'+'V const.'+'</a>'+') → ΔV = 0 → L'+'<sub>'+'V'+'</sub>'+' = p ∙ ΔV = 0'+'</li>'+'<br>'+
                                     '<li>'+'Avem două cazuri:'+'<br>'+'<br>'+
                                         '- Gazul închis într-un de volum constant este încălzit, absoarbe căldură → QV > 0 și ΔU > 0 (crește energia internă a gazului).'+'<br>'+'<br>'+
                                         '- Gazul închis într-un de volum constant este răcit, cedează căldură → QV < 0 și ΔU < 0 (scade energia internă a gazului)'+'</li>'+'<br>'+
@@ -2636,7 +2740,7 @@ var data = {
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Relația lui Robert–Mayer stabilește relația între căldurile molare:'+'<br>'+'<br>'+
-                                        'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+
+                                        '<a id="10">'+'C'+'<sub>'+'p'+'</sub>'+' = C'+'<sub>'+'V'+'</sub>'+' + R'+'</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Relația lui Robert–Mayer stabilește relația între căldurile specifice molare:'+'<br>'+'<br>'+
@@ -2662,7 +2766,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Motoare termice:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Motorul termic este un sistem care transformă căldura primită, prin arderea unui combustibilul (benzina, motorina, gazul metan etc.) în lucru mecanic.'+
+                                    '<a id="12">'+'Motorul termic este un sistem care transformă căldura primită, prin arderea unui combustibilul (benzina, motorina, gazul metan etc.) în lucru mecanic.'+'</a>'+
                                     '</li>'+
                                 '</ul>'+
                                 '<h2 class=\"p-3\">'+'Motorul Otto:'+'</h2>'+
@@ -2681,7 +2785,7 @@ var data = {
                                         ' - '+'<b>'+'Timpul 1: Admisia'+'</b>'+' - (proces izobar):'+'<br>'+'<br>'+
                                         ' Supapa de admisie se deschide, în cilindru se aspiră amestecul de benzină-aer și pistonul coboară de la PMS la PMI, la presiune constantă. Este prima coborâre a pistonului.'+'<br>'+'<br>'+
                                         
-                                        ' -'+'<b>'+'Timpul 2: Compresia'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
+                                        ' -'+'<b>'+'<a id ="11">'+'Timpul 2: Compresia'+'</b>'+' - (proces adiabatic):'+'</a>'+'<br>'+'<br>'+
                                         ' Ambele supape sunt închise. Pistonul urcă până la PMS, astfel încât combustibilul este puternic comprimat, caz în care presiunea și temperatura cresc. Datorită vitezei mari la care are loc compresia, acest proces este adiabatic (fără schimb de căldură cu exteriorul). Este prima urcare a pistonului.'+'<br>'+'<br>'+
 
                                         ' -'+'<b>'+'Timpul 3 : Aprinderea'+'</b>'+' - (proces izocor) și '+'<b>'+'detenta'+'</b>'+' - (proces adiabatic):'+'<br>'+'<br>'+
@@ -2694,7 +2798,7 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Randamentul motorului termic Otto:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul motorului termic Otto (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).'+'<br>'+'<br>'+
+                                    '<a id="13">'+'Randamentul motorului termic Otto (η) este o mărime fizică egală cu raportul dintre lucrul mecanic efectuat de motor (L) și căldura primită (Q).'+'</a>'+'<br>'+'<br>'+
                                         'η = L / Q'+'<sub>'+'1'+'</sub>'+' = 1 - (|Q'+'<sub>'+'cedată'+'</sub>'+'| / Q'+'<sub>'+'primită'+'</sub>'+') = 1 - (|Q'+'<sub>'+'2'+'</sub>'+'| / Q'+'<sub>'+'1'+'</sub>'+')'+'<br>'+'<br>'+
 
                                         'Presupunem că substanța de lucru este un gaz ideal și raportul de compresie este ε = V'+'<sub>'+'1'+'</sub>'+'/V'+'<sub>'+'2'+'</sub>'+'.'+'<br>'+'<br>'+
@@ -2740,7 +2844,7 @@ var data = {
                                         '- Q'+'<sub>'+'34'+'</sub>'+' = 0 (proces adiabatic)'+'<br>'+
                                         '- Q'+'<sub>'+'41'+'</sub>'+' = ν ∙ C'+'<sub>'+'V'+'</sub>'+' ∙ (T'+'<sub>'+'1'+'</sub>'+' – T'+'<sub>'+'4'+'</sub>'+') = Q'+'<sub>'+'2'+'</sub>'+' < 0 (proces izocor)'+'<br>'+'<br>'+
 
-                                        'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1'+'</sup>'+'(a-1))'+
+                                        '<a id="14">'+'η = 1 - (1 / y) ∙ (a'+'<sup>'+'y-1'+'</sup>'+' / ε'+'<sup>'+'y-1'+'</sup>'+'(a-1))'+'</a>'+
                                         
                                     '</li>'+
                                 '</ul>'+
@@ -2757,7 +2861,7 @@ var data = {
                                         'Prima formulare a principiul al doilea al termodinamicii îi aparține lui Sadi Carnot, care în 1824 arăta că există o limită superioară a eficienței conversiei căldurii în energie mecanică într-un motor termic, care implică folosirea unui ciclu termodinamic al unui fluid de lucru.'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Carnot a fost primul care a arătat că nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate. Astfel, sistemul primește căldură de la o sursă caldă (termostat cu T'+'<sub>'+'1'+'</sub>'+') și cedează căldură unei surse reci (termostat cu T'+'<sub>'+'2'+'</sub>'+').'+
+                                    '<a id="17">'+'Carnot a fost primul care a arătat că nu este posibil să funcționeze o mașină termică cu un singur termostat, având nevoie de cel puțin două termostate.'+'</a>'+'Astfel, sistemul primește căldură de la o sursă caldă (termostat cu T'+'<sub>'+'1'+'</sub>'+') și cedează căldură unei surse reci (termostat cu T'+'<sub>'+'2'+'</sub>'+').'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Parametrii gazului în stare inițială sunt p'+'<sub>'+'1'+'</sub>'+', V'+'<sub>'+'1'+'</sub>'+' și T'+'<sub>'+'1'+'</sub>'+'.'+
@@ -2786,10 +2890,10 @@ var data = {
                                 '<h2 class=\"p-3\">'+'Formularea Carnot a principiul al doilea al termodinamicii:'+'</h2>'+
                                 '<ul>'+
                                     '<li>'+
-                                        'Randamentul ciclului Carnot este întotdeauna subunitar, deoarece T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
+                                    '<a id="15">'+'Randamentul ciclului Carnot este întotdeauna subunitar,'+'</a>'+'deoarece T'+'<sub>'+'2'+'</sub>'+' ≠ 0'+
                                     '</li>'+'<br>'+
                                     '<li>'+
-                                        'Randamentul ciclului Carnot depinde numai de temperatura sursei calde (T'+'<sub>'+'1'+'</sub>'+') și a celei reci (T'+'<sub>'+'2'+'</sub>'+') și nu depinde de substanța de lucru.'+
+                                    '<a id="16">'+'Randamentul ciclului Carnot depinde numai de temperatura sursei calde (T'+'<sub>'+'1'+'</sub>'+') și a celei reci (T'+'<sub>'+'2'+'</sub>'+') și nu depinde de substanța de lucru.'+'</a>'+
                                     '</li>'+'<br>'+
                                     '<li>'+
                                         'Randamentul unei mașini termice ireversibile este întotdeauna mai mic decît randamentul unei mașini termice care funcționează reversibil între aceleași limite de temperatură.'+
@@ -2860,7 +2964,7 @@ var data = {
                                 +'<li>'
                                     +'<b>Tensiunea electromotoare</b> (prescurtată t.e.m., cu simbolul E) a unei surse este mărimea fizică scalară care măsoară lucrul mecanic efectuat de sursă (L<sub>total</sub>) pentru deplasarea unității de sarcină electrică (q) de-a lungul întregului circuit.<br><br>'
                                     +'E = L<sub>total</sub> / q<br><br>'
-                                    +'Unitate de măsură în S.I pentru tensiunea electrică este voltul (V):<br><br>'
+                                    +'<a id="1">Unitate de măsură în S.I pentru tensiunea electrică este voltul (V):<br><br>'
                                     +'[E]<sub>SI</sub> = [L]<sub>SI</sub> / [q]<sub>SI</sub> = J / C = V(volt)'
                                 +'</li><br>'
                                 +'<li>'
