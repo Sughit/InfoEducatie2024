@@ -6,8 +6,9 @@ if ("serviceWorker" in navigator)
         console.log("SW Registration failed");
     });
 }
-if(window.location.pathname == "/teorieMecanica.html#1")
+if(window.location.pathname == "teorieMecanica.html#1")
 {
+    alert("2");
     document.getElementById('1').id = 'highlight'
     location.reload();
 }
