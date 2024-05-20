@@ -340,7 +340,7 @@ function loadLanguages(attr)
 
         switch(window.location.pathname)
         {
-            case "#1":
+            case "/teorieMecanica.html#1":
                 var test = document.getElementById('1');
                 test.id = 'highlight'
                 console.log(test);
