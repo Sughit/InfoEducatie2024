@@ -111,7 +111,7 @@ function verify(){
 
 function seeWhy()
 {
-    window.location.href = highlight;
+    window.location.href = "https://fizix.vercel.app/teorieMecanica.html#1";
 }
 
 next_btn.onclick = ()=>{
